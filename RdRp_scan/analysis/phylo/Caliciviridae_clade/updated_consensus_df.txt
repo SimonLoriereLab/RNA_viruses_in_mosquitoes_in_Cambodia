@@ -1,0 +1,2 @@
+nt_seq_ID	tip_labels	original_metaspades_contig_node_IDs	original_sample_ID	read_map_consensus_sample_ID	orf_id	contig_id	Location	Country	Year	morph_mosq_sp	SKA_SNP_dist_dend	verif_mosq_sp	comment	cluster_on_SKA_plot	host_taxon	host_genus
+Hubei_chipolycivirus_F1028C2F1028	Hubei_chipolycivirus_F1028C2F1028	C2	F1028	F1028	F1028_NODE_2_length_10934_cov_8.183013_5	F1028_NODE_2_length_10934_cov_8.183013	Cambodia:Battambang & Pailin	Cambodia	2019	Culex gelidus	correct	Culex gelidus	_	cluster8	Culex gelidus	Culex

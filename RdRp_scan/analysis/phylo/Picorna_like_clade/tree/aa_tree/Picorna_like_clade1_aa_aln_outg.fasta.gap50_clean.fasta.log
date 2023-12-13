@@ -1,0 +1,244 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1067 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o MZ209811_Guiyang_Solinvi-like_virus_3
+Seed:    758605 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan  9 14:31:00 2023
+Kernel:  AVX+FMA - auto-detect threads (47 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 27 sequences with 3108 columns, 1539 distinct patterns
+821 parsimony-informative, 1102 singleton sites, 1185 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+   1  MH703052_Yongsan_picorna-like_virus_2        0.71%    passed    100.00%
+   2  OL700096_Yongsan_picorna-like_virus_2        0.68%    passed    100.00%
+   3  MH703060_Yongsan_picorna-like_virus_2        0.68%    passed    100.00%
+   4  MW650740_Ecclesville_picorna-like_virus     52.41%    passed     51.68%
+   5  MN661035_Atrato_picorna-like_virus_1         0.68%    passed    100.00%
+   6  Zhejiang_mosquito_virus_1_F1605C1F1035       0.03%    passed    100.00%
+   7  Zhejiang_mosquito_virus_1_F1605C1F1613       0.32%    passed    100.00%
+   8  Zhejiang_mosquito_virus_1_F1605C1F1043       1.67%    passed    100.00%
+   9  Zhejiang_mosquito_virus_1_F1605C1F1044       0.03%    passed    100.00%
+  10  Zhejiang_mosquito_virus_1_F1605C1F1605       0.03%    passed    100.00%
+  11  Zhejiang_mosquito_virus_1_F1605C1F1466       3.44%    passed    100.00%
+  12  MW452304_Riboviria_sp_                       0.00%    passed    100.00%
+  13  Zhejiang_mosquito_virus_1_F1605C1F1047       0.03%    passed    100.00%
+  14  Zhejiang_mosquito_virus_1_F1605C1F1046       0.71%    passed    100.00%
+  15  KX883285_Zhejiang_mosquito_virus_1           0.00%    passed    100.00%
+  16  NC_033716_Zhejiang_mosquito_virus_1          0.00%    passed    100.00%
+  17  MN784075_Old_Port_virus                      0.00%    passed    100.00%
+  18  MN784077_Old_Port_virus                      0.00%    passed    100.00%
+  19  MN784076_Old_Port_virus                      0.00%    passed    100.00%
+  20  MN784073_Old_Port_virus                      0.00%    passed    100.00%
+  21  MN784074_Old_Port_virus                      0.10%    passed     99.98%
+  22  Yongsan_picorna_like_virus_2_F1457C1F1409    3.80%    passed    100.00%
+  23  Yongsan_picorna_like_virus_2_F1457C1F1457    0.68%    passed    100.00%
+  24  OP264911_Yongsan_picorna-like_virus_2       42.34%    passed     67.42%
+  25  MN661036_Atrato_picorna-like_virus_1         0.68%    passed    100.00%
+  26  MW650741_Ecclesville_picorna-like_virus     52.41%    passed     51.09%
+  27  MZ209811_Guiyang_Solinvi-like_virus_3        5.92%    passed     52.36%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                        6.20%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Measuring multi-threading efficiency up to 47 CPU cores
+Increase to 10 rounds for branch lengths
+36 trees examined
+Threads: 1 / Time: 48.010 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -41635
+Threads: 2 / Time: 24.307 sec / Speedup: 1.975 / Efficiency: 99% / LogL: -41635
+Threads: 3 / Time: 17.442 sec / Speedup: 2.753 / Efficiency: 92% / LogL: -41635
+Threads: 4 / Time: 13.360 sec / Speedup: 3.593 / Efficiency: 90% / LogL: -41635
+Threads: 5 / Time: 10.906 sec / Speedup: 4.402 / Efficiency: 88% / LogL: -41635
+Threads: 6 / Time: 9.295 sec / Speedup: 5.165 / Efficiency: 86% / LogL: -41635
+Threads: 7 / Time: 8.125 sec / Speedup: 5.909 / Efficiency: 84% / LogL: -41635
+Threads: 8 / Time: 6.852 sec / Speedup: 7.007 / Efficiency: 88% / LogL: -41635
+Threads: 9 / Time: 6.645 sec / Speedup: 7.226 / Efficiency: 80% / LogL: -41635
+Threads: 10 / Time: 5.743 sec / Speedup: 8.360 / Efficiency: 84% / LogL: -41635
+Threads: 11 / Time: 5.632 sec / Speedup: 8.524 / Efficiency: 77% / LogL: -41635
+Threads: 12 / Time: 5.341 sec / Speedup: 8.990 / Efficiency: 75% / LogL: -41635
+Threads: 13 / Time: 4.958 sec / Speedup: 9.684 / Efficiency: 74% / LogL: -41635
+Threads: 14 / Time: 4.475 sec / Speedup: 10.728 / Efficiency: 77% / LogL: -41635
+Threads: 15 / Time: 4.493 sec / Speedup: 10.685 / Efficiency: 71% / LogL: -41635
+Threads: 16 / Time: 4.295 sec / Speedup: 11.177 / Efficiency: 70% / LogL: -41635
+Threads: 17 / Time: 4.130 sec / Speedup: 11.625 / Efficiency: 68% / LogL: -41635
+Threads: 18 / Time: 3.986 sec / Speedup: 12.046 / Efficiency: 67% / LogL: -41635
+Threads: 19 / Time: 3.704 sec / Speedup: 12.961 / Efficiency: 68% / LogL: -41635
+Threads: 20 / Time: 3.779 sec / Speedup: 12.704 / Efficiency: 64% / LogL: -41635
+Threads: 21 / Time: 3.689 sec / Speedup: 13.013 / Efficiency: 62% / LogL: -41635
+Threads: 22 / Time: 3.572 sec / Speedup: 13.439 / Efficiency: 61% / LogL: -41635
+Threads: 23 / Time: 3.507 sec / Speedup: 13.688 / Efficiency: 60% / LogL: -41635
+Threads: 24 / Time: 3.505 sec / Speedup: 13.698 / Efficiency: 57% / LogL: -41635
+Threads: 25 / Time: 3.393 sec / Speedup: 14.150 / Efficiency: 57% / LogL: -41635
+Threads: 26 / Time: 3.367 sec / Speedup: 14.260 / Efficiency: 55% / LogL: -41635
+Threads: 27 / Time: 3.362 sec / Speedup: 14.281 / Efficiency: 53% / LogL: -41635
+Threads: 28 / Time: 3.282 sec / Speedup: 14.631 / Efficiency: 52% / LogL: -41635
+Threads: 29 / Time: 3.522 sec / Speedup: 13.631 / Efficiency: 47% / LogL: -41635
+BEST NUMBER OF THREADS: 28
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -24871.089
+2. Current log-likelihood: -24869.299
+3. Current log-likelihood: -24867.740
+4. Current log-likelihood: -24866.431
+5. Current log-likelihood: -24865.343
+Optimal log-likelihood: -24864.393
+Proportion of invariable sites: 0.129
+Gamma shape alpha: 0.928
+Parameters optimization took 5 rounds (0.166 sec)
+Time for fast ML tree search: 0.363 seconds
+
+NOTE: ModelFinder requires 71 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 3108) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            25278.310    51  50658.619    50660.355    50966.748
+  2  LG+I          25029.489    52  50162.979    50164.783    50477.149
+  3  LG+G4         24853.512    52  49811.025    49812.829    50125.195
+  4  LG+I+G4       24856.529    53  49819.059    49820.933    50139.271
+  5  LG+R2         24818.436    53  49742.872    49744.746    50063.084
+  6  LG+R3         24793.031    55  49696.062    49698.080    50028.357
+  7  LG+R4         24792.932    57  49699.864    49702.032    50044.243
+ 19  LG+F+R3       24688.363    74  49524.726    49528.385    49971.814
+ 32  WAG+R3        24911.811    55  49933.622    49935.640    50265.918
+ 45  WAG+F+R3      24753.770    74  49655.541    49659.200    50102.629
+ 58  JTT+R3        24863.030    55  49836.059    49838.077    50168.354
+ 71  JTT+F+R3      24719.794    74  49587.588    49591.247    50034.676
+ 84  JTTDCMut+R3   24861.995    55  49833.990    49836.009    50166.286
+ 97  JTTDCMut+F+R3 24716.695    74  49581.390    49585.050    50028.479
+110  DCMut+R3      25143.965    55  50397.929    50399.948    50730.225
+123  DCMut+F+R3    24840.711    74  49829.423    49833.082    50276.511
+136  VT+R3         24936.203    55  49982.407    49984.425    50314.702
+149  VT+F+R3       24828.659    74  49805.318    49808.977    50252.406
+162  PMB+R3        25174.676    55  50459.353    50461.371    50791.648
+175  PMB+F+R3      24977.325    74  50102.651    50106.311    50549.739
+188  Blosum62+R3   25138.935    55  50387.870    50389.888    50720.165
+201  Blosum62+F+R3 24977.239    74  50102.478    50106.138    50549.567
+214  Dayhoff+R3    25141.545    55  50393.089    50395.108    50725.385
+227  Dayhoff+F+R3  24838.727    74  49825.453    49829.113    50272.541
+240  mtREV+R3      25849.567    55  51809.134    51811.153    52141.430
+253  mtREV+F+R3    24893.767    74  49935.534    49939.194    50382.622
+266  mtART+R3      26136.280    55  52382.559    52384.577    52714.855
+279  mtART+F+R3    25019.850    74  50187.700    50191.359    50634.788
+292  mtZOA+R3      25803.225    55  51716.451    51718.469    52048.746
+305  mtZOA+F+R3    24823.436    74  49794.873    49798.533    50241.961
+318  mtMet+R3      25819.768    55  51749.537    51751.555    52081.832
+331  mtMet+F+R3    24858.775    74  49865.551    49869.210    50312.639
+344  mtVer+R3      25963.790    55  52037.580    52039.599    52369.876
+357  mtVer+F+R3    24993.515    74  50135.029    50138.689    50582.117
+370  mtInv+R3      26083.574    55  52277.148    52279.166    52609.443
+383  mtInv+F+R3    24801.284    74  49750.568    49754.228    50197.656
+396  mtMAM+R3      26143.898    55  52397.795    52399.813    52730.091
+409  mtMAM+F+R3    25136.177    74  50420.354    50424.014    50867.443
+422  HIVb+R3       25126.817    55  50363.634    50365.652    50695.929
+435  HIVb+F+R3     24890.631    74  49929.263    49932.923    50376.351
+448  HIVw+R3       25639.300    55  51388.600    51390.618    51720.895
+461  HIVw+F+R3     25237.357    74  50622.714    50626.373    51069.802
+474  FLU+R3        24947.853    55  50005.707    50007.725    50338.002
+487  FLU+F+R3      24802.889    74  49753.779    49757.438    50200.867
+500  rtREV+R3      25014.593    55  50139.186    50141.204    50471.481
+513  rtREV+F+R3    24780.900    74  49709.801    49713.460    50156.889
+526  cpREV+R3      24959.441    55  50028.882    50030.900    50361.177
+539  cpREV+F+R3    24784.886    74  49717.772    49721.432    50164.861
+Akaike Information Criterion:           LG+F+R3
+Corrected Akaike Information Criterion: LG+F+R3
+Bayesian Information Criterion:         LG+F+R3
+Best-fit model: LG+F+R3 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 2515.487 seconds (0h:41m:55s)
+Wall-clock time for ModelFinder: 245.589 seconds (0h:4m:5s)
+Generating 1000 samples for ultrafast bootstrap (seed: 758605)...
+
+NOTE: 25 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -24688.363
+Optimal log-likelihood: -24688.290
+Site proportion and rates:  (0.526,0.176) (0.364,0.914) (0.111,5.196)
+Parameters optimization took 1 rounds (0.059 sec)
+Computing ML distances based on estimated model parameters... 0.133 sec
+Computing BIONJ tree...
+0.005 seconds
+Log-likelihood of BIONJ tree: -24766.406
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.579 second
+Computing log-likelihood of 98 initial trees ... 1.046 seconds
+Current best score: -24688.290
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -24688.228
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -24686.923
+Iteration 10 / LogL: -24687.020 / Time: 0h:0m:4s
+Iteration 20 / LogL: -24687.147 / Time: 0h:0m:6s
+Finish initializing candidate tree set (5)
+Current best tree score: -24686.923 / CPU time: 5.895
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -24687.041 / Time: 0h:0m:8s (0h:0m:22s left)
+Iteration 40 / LogL: -24688.764 / Time: 0h:0m:11s (0h:0m:18s left)
+Iteration 50 / LogL: -24687.837 / Time: 0h:0m:13s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -24740.135
+Iteration 60 / LogL: -24687.745 / Time: 0h:0m:16s (0h:0m:11s left)
+Iteration 70 / LogL: -24698.841 / Time: 0h:0m:19s (0h:0m:9s left)
+Iteration 80 / LogL: -24687.755 / Time: 0h:0m:22s (0h:0m:6s left)
+Iteration 90 / LogL: -24686.949 / Time: 0h:0m:24s (0h:0m:3s left)
+Iteration 100 / LogL: -24688.239 / Time: 0h:0m:27s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -24740.135
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:0m:27s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -24686.923
+2. Current log-likelihood: -24686.888
+3. Current log-likelihood: -24686.855
+4. Current log-likelihood: -24686.830
+5. Current log-likelihood: -24686.811
+6. Current log-likelihood: -24686.796
+7. Current log-likelihood: -24686.784
+Optimal log-likelihood: -24686.772
+Site proportion and rates:  (0.527,0.171) (0.367,0.944) (0.106,5.326)
+Parameters optimization took 7 rounds (0.331 sec)
+BEST SCORE FOUND : -24686.772
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 3.172
+
+Total number of iterations: 103
+CPU time used for tree search: 757.052 sec (0h:12m:37s)
+Wall-clock time used for tree search: 27.771 sec (0h:0m:27s)
+Total CPU time used: 770.275 sec (0h:12m:50s)
+Total wall-clock time used: 28.390 sec (0h:0m:28s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+27 taxa and 130 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -24687.585
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Mon Jan  9 14:35:34 2023

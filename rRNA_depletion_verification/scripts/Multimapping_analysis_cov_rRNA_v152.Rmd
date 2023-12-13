@@ -1,0 +1,259 @@
+---
+title: rRNA depletion analysis of Aedes, Culex
+author: "Artem Baidaliuk"
+date: "2022-11-7"
+output: html_document
+---
+
+```{r setup, echo=FALSE, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+```{r playground, include=FALSE, eval=FALSE, echo=FALSE}
+
+```
+<style>
+div.pink { background-color:#ffe6eb; border-radius: 5px; padding: 3px;}
+</style>
+<div class = "pink">
+<center>
+### Read apping (multiple samples x multiple references)
+</center>
+</div>
+#### Loading mapping summary files, merging and annotating
+```{r libraries, echo=FALSE, message=FALSE}
+library(tidyverse)
+library(ggnewscale)
+library(plotly)
+library(viridis)
+library(gridExtra)
+library(car)
+library(seqinr)
+# 
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#     install.packages("BiocManager")
+# 
+# BiocManager::install("edgeR")
+
+library(edgeR)
+```
+
+Run map_analysis_ext_sum_rRNA.R on cluster in order to combine all mapping summary files into one table.
+
+```{r input_output, echo=FALSE, message=FALSE}
+main_directory <- "/full_path_to/wd/rRNA_depletion_verification" ### from Mac
+#main_directory <- "/full_path_to/wd/rRNA_depletion_verification" ### from MAESTRO HPC
+
+sample_info <- read.delim(paste0(main_directory,
+                                 "/metadata/CMVM_full_metadata_updated_20211021.tsv"))
+
+input_directory <- paste0(main_directory,
+                          "/analysis/Aedes_Culex_depleted/mapping_rRNA")
+output_directory <- paste0(main_directory,
+                            "/analysis/Aedes_Culex_depleted/mapping_analysis_rRNA")
+
+df_sum_final <- read.delim(paste0(output_directory,"/all_multimap_mapsum_rRNA.txt.gz"))
+
+```
+
+Annotate results with morphologically assigned species. For all these samples where species were verified and patching by SKA.
+```{r input_output1, echo=FALSE, message=FALSE}
+sample_info1 <- sample_info %>% select(sample_id=Sample, genus_species, Location, Batch, LibPool)
+sample_info1$genus_species <- str_remove_all(sample_info1$genus_species, "\\.g")
+
+df_sum_final$mosquito_id <- df_sum_final$sample_id
+df_sum_sam <- left_join(df_sum_final, sample_info1, by = "sample_id")
+
+df_sum_sam <- df_sum_sam[which(!str_detect(df_sum_sam$sample_id, "PBS")),]
+
+```
+
+```{r dat1, eval = T, echo = F, message = F, warning = F}
+### Data preparation
+df_sum_sam$genus_species <- as.character(df_sum_sam$genus_species)
+df_sum_sam$Location <- as.character(df_sum_sam$Location)
+
+##### Annotate PBS controls with mock location and mock species
+# df_sum_sam[which(str_detect(df_sum_sam$sample_id, "PBS")),]$genus_species <- "zNegative control"
+# df_sum_sam[which(str_detect(df_sum_sam$sample_id, "PBS")),]$Location <- "zNegative control"
+
+df_sum_sam_reg <- df_sum_sam
+df_sum_sam_reg1 <- dplyr::distinct(select(df_sum_sam_reg, c("total_reads", "Batch", "Location", "LibPool", "genus_species", "sample_id", "mosquito_id")))
+
+
+sample_list <- read.table(paste0(main_directory,"/metadata/sample_list_Aedes_Culex_Anopheles_rRNA_mapping.txt"), header = F, sep = "\t")
+
+df_sum_sam_reg1$mosquito_id <- factor(df_sum_sam_reg1$mosquito_id, 
+                                     ordered = TRUE, levels = as.character(unique(df_sum_sam_reg1[order(df_sum_sam_reg1$Location),]$mosquito_id)))
+
+df_sum_sam_reg1$mosquito_id <- factor(df_sum_sam_reg1$mosquito_id, 
+                                     ordered = TRUE, levels = as.character(unique(df_sum_sam_reg1[order(df_sum_sam_reg1$Location),]$mosquito_id)))
+
+df_sum_sam_reg2 <- df_sum_sam_reg %>% group_by(sample_id) %>% summarize(mapped_reads = sum(mapped_reads))
+
+df_sum_sam_reg2$ref_id <- "rRNA combined"
+
+df_sum_sam_reg3 <- left_join(df_sum_sam_reg2, df_sum_sam_reg1, by = "sample_id") %>% select(-mosquito_id)
+df_sum_sam_reg4 <- bind_rows(df_sum_sam_reg, df_sum_sam_reg3)
+
+df_sum_sam_reg4$percentage_mapped <- (df_sum_sam_reg4$mapped_reads / df_sum_sam_reg4$total_reads)*100
+
+df_sum_sam_reg4$rRNA <- str_replace(str_extract(str_replace(df_sum_sam_reg4$ref_id,"_5p8S_", "_58S_"), "(?<=_)[[:digit:]]{2}S(?=_?)"),
+  "58S", "5.8S")
+df_sum_sam_reg4[which(df_sum_sam_reg4$ref_id == 'rRNA combined'),]$rRNA <- 'rRNA combined'
+
+### order rRNA levels
+df_sum_sam_reg4$rRNA <- factor(df_sum_sam_reg4$rRNA,
+                                 ordered = T, 
+                                 levels = c('5.8S','12S','16S','18S', '28S','rRNA combined'))
+
+
+
+df_sum_sam_reg4$Batch_rounded <- str_remove(df_sum_sam_reg4$Batch, "\\.[[:digit:]]*")
+
+df_sum_sam_reg1$Batch_rounded <- str_remove(df_sum_sam_reg1$Batch, "\\.[[:digit:]]*")
+
+# df_sum_sam_reg4[is.na(df_sum_sam_reg4$Batch_rounded),]$Batch_rounded <- "-1"
+df_sum_sam_reg4$Batch_rounded <- factor(df_sum_sam_reg4$Batch_rounded,
+                                 ordered = T, 
+                                 levels = as.character(sort(unique(as.numeric(df_sum_sam_reg4$Batch_rounded)))))
+
+# df_sum_sam_reg1[is.na(df_sum_sam_reg1$Batch_rounded),]$Batch_rounded <- "-1"
+df_sum_sam_reg1$Batch_rounded <- factor(df_sum_sam_reg1$Batch_rounded,
+                                 ordered = T, 
+                                 levels = as.character(sort(unique(as.numeric(df_sum_sam_reg1$Batch_rounded)))))
+
+### order samples by Batch_rounded as they were processed
+
+temp_to_order <- df_sum_sam_reg4[which(df_sum_sam_reg4$rRNA == 'rRNA combined'),] %>% arrange(Batch_rounded, percentage_mapped)
+
+
+df_sum_sam_reg1$sample_id <- factor(df_sum_sam_reg1$sample_id,
+                                 ordered = T, 
+                                 levels = as.character(unique(temp_to_order$sample_id)))
+
+df_sum_sam_reg4$sample_id <- factor(df_sum_sam_reg4$sample_id,
+                                 ordered = T, 
+                                 levels = as.character(unique(temp_to_order$sample_id)))
+
+#### write the table
+
+write.table(x = df_sum_sam_reg4, file = paste0(main_directory,
+                                 "/analysis/Aedes_Culex_depleted/rRNA_depletion_mapping_results.txt"),
+            append = F,
+            sep = "\t'",
+            col.names = T, row.names = F, quote = F)
+```
+<style>
+div.green { background-color:#e6fff4; border-radius: 3px; padding: 2px;}
+</style>
+<div class = "green">
+<center>
+#### Total number of reads
+</center>
+</div>
+```{r plot1, eval = T, echo = F, message = F, warning = F, dpi = 150, fig.align="center", fig.width=12, fig.asp = 0.5,}
+
+
+p1 <- ggplot(df_sum_sam_reg1, aes(x = sample_id, y = total_reads/(10^6)))
+p1 <- p1 + geom_col(aes(fill = Batch_rounded))
+p1 <- p1 + scale_fill_viridis(option="viridis", direction = 1, discrete = TRUE,  begin = 0, end = 1)
+p1 <- p1 + ylab("Total number of reads post quality trimming, M reads")
+p1 <- p1 + xlab("Samples")
+p1 <- p1 + theme_minimal(base_size = 8, base_family = "Helvetica")
+p1 <- p1 + theme(legend.position = "none")
+p1 <- p1 + theme(axis.text.x = element_text(angle = 90, 
+                                   vjust = 1),
+                  strip.text.x.top = element_text(angle = 90))
+p1 <- p1 + facet_grid(.~genus_species+Batch_rounded, scales = "free_x", space = "free_x")
+#p1 <- p1 + facet_grid(.~genus_species, scales = "free_x")
+print(p1)
+
+```
+<div class = "green">
+<center>
+#### Percentage of reads mapped
+</center>
+</div>
+```{r plot5, eval = T, echo = F, message = F, warning = F, dpi = 150, fig.asp = 0.75,  fig.align="center", fig.width=12}
+p5 <- ggplot(df_sum_sam_reg4, aes(x = sample_id, y = percentage_mapped))
+p5 <- p5 + geom_col(aes(fill = Batch_rounded))
+p5 <- p5 + scale_fill_viridis(option="viridis", direction = 1, discrete = TRUE,  begin = 0, end = 1)
+p5 <- p5 + ylab("% mapped reads")
+p5 <- p5 + xlab("Samples")
+p5 <- p5 + theme_minimal(base_size = 8, base_family = "Helvetica")
+p5 <- p5 + facet_grid(rRNA~genus_species+Batch_rounded, scales = "free_x", space = "free_x")
+#p5 <- p5 + facet_grid(rRNA~genus_species, scales = "free_x")
+p5 <- p5 + theme(legend.position = "none",
+                 legend.spacing.y = unit(0, 'cm'),
+                 axis.text.x = element_text(angle = 90, 
+                                   vjust = 1),
+                 strip.text.x.top = element_text(angle = 90))
+print(p5)
+
+
+
+```
+
+```{r plot6, eval = T, echo = F, message = F, warning = F, dpi = 150, fig.asp = 0.75,  fig.align="center", fig.width=12}
+
+p2 <- ggplot(df_sum_sam_reg1, aes(y = sample_id, x = total_reads/(10^6)))
+p2 <- p2 + geom_col(aes(fill = Batch_rounded))
+p2 <- p2 + scale_fill_viridis(option="viridis", direction = 1, discrete = TRUE,  begin = 0, end = 1)
+p2 <- p2 + xlab("Total number of reads post trimming, M reads")
+p2 <- p2 + ylab("Samples")
+p2 <- p2 + theme_minimal(base_size = 8, base_family = "Helvetica")
+p2 <- p2 + theme(legend.position = "none")
+p2 <- p2 + theme(
+  # axis.text.x = element_text(angle = 90, 
+#                                    vjust = 1),
+                 strip.text.y.right = element_text(angle = 0)
+)
+p2 <- p2 + facet_grid(genus_species+Batch_rounded~., scales = "free_y", space = "free_y")
+ggsave(filename = paste0(main_directory,
+                                 "/analysis/Aedes_Culex_depleted/rRNA_depletion_mapping_percent_total_reads.pdf"),
+       plot = p2, device = "pdf", width = 5, height = 10, )
+
+p6 <- ggplot(df_sum_sam_reg4[which(df_sum_sam_reg4$rRNA == "rRNA combined"),], aes(y = sample_id, x = percentage_mapped))
+p6 <- p6 + geom_col(aes(fill = Batch_rounded))
+p6 <- p6 + scale_fill_viridis(option="viridis", direction = 1, discrete = TRUE,  begin = 0, end = 1)
+p6 <- p6 + xlab("% mapped reads")
+p6 <- p6 + ylab("Samples")
+p6 <- p6 + theme_minimal(base_size = 8, base_family = "Helvetica")
+p6 <- p6 + facet_grid(genus_species+Batch_rounded~., scales = "free_y", space = "free_y")
+p6 <- p6 + theme(legend.position = "none",
+                 # legend.spacing.y = unit(0, 'cm'),
+                 # axis.text.x = element_text(angle = 90, 
+                 #                   vjust = 1),
+                 strip.text.y.right = element_text(angle = 0)
+                 )
+
+ggsave(filename = paste0(main_directory,
+                                 "/analysis/Aedes_Culex_depleted/rRNA_depletion_mapping_percent_rRNA_reads.pdf"),
+       plot = p6, device = "pdf", width = 5, height = 10, )
+
+
+
+```
+
+```{r simple_stats, eval = T, echo = F, message = F, warning = F, dpi = 150, fig.asp = 0.75,  fig.align="center", fig.width=12}
+df_comb <- df_sum_sam_reg4[which(df_sum_sam_reg4$rRNA == "rRNA combined"),]
+length(df_comb$percentage_mapped)
+length(df_comb$sample_id)
+length(unique(df_comb$sample_id))
+
+#### Simply calculating the average percentage and range
+min(df_comb$percentage_mapped)
+max(df_comb$percentage_mapped)
+print(paste0("(n = ", length(df_comb$percentage_mapped),
+      "; ",
+      "average rRNA mapped read percentage = ", round(sum(x = df_comb$mapped_reads)/sum(x = df_comb$mapped_reads), digits = 2),
+            "%; ",
+            "rRNA mapped read percentage range = ", round(min(df_comb$percentage_mapped), digits = 2),"-", round(max(df_comb$percentage_mapped), digits = 2),
+      "%)"))
+
+
+
+
+```

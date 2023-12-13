@@ -1,0 +1,15 @@
+tax_id	taxon_rank_genome_segment_size
+10985	genus
+11006	family
+11012	family
+11270	family
+11308	family
+35324	family
+38144	family
+39738	family
+39756	family
+137555	family
+186766	family
+1077831	family
+2560063	family
+2587553	family

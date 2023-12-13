@@ -1,0 +1,987 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Nodamuvirales_clade/tree/aa_tree/Nodamuvirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 696538
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 188 sequences with 892 amino-acid sites
+Number of constant sites: 24 (= 2.69058% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 24 (= 2.69058% of all sites)
+Number of parsimony informative sites: 860
+Number of distinct site patterns: 891
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R7         -140371.612  281551.224 +    0.799  282223.175 +    0.998  283487.784 +    0.998
+LG+F+R8         -140370.995  281553.990 +    0.201  282235.401 -  0.00221  283500.137 -  0.00207
+rtREV+F+R7      -140397.526  281603.053 - 4.45e-12  282275.004 - 5.55e-12  283539.613 - 5.55e-12
+rtREV+F+R8      -140399.978  281611.955 - 5.19e-14  282293.366 - 5.72e-16  283558.102 - 5.37e-16
+LG+R7           -140500.247  281770.494 - 1.95e-48  282357.885 - 5.59e-30  283615.978 - 1.45e-28
+LG+R8           -140497.467  281768.934 - 4.24e-48  282364.791 - 1.77e-31  283624.005 - 2.62e-30
+LG+R6           -140518.429  281802.858 - 1.82e-55  282381.882 - 3.44e-35  283638.756 - 1.64e-33
+LG+R5           -140574.620  281911.240 - 5.32e-79  282481.993 - 6.27e-57  283737.551 - 5.79e-55
+LG+I+G4         -140726.971  282203.942 - 1.47e-142  282750.454 - 3.18e-115  284001.492 - 2.81e-112
+LG+R4           -140737.652  282233.304 - 6.18e-149  282795.883 - 4.34e-125  284050.028 - 8.12e-123
+LG+G4           -140858.873  282465.746 - 2.07e-199  283008.299 - 3.25e-171  284258.502 - 4.36e-168
+VT+R7           -140984.869  282739.739 - 6.61e-259  283327.130 - 1.9e-240  284585.223 - 4.93e-239
+VT+R8           -140981.317  282736.634 - 3.12e-258  283332.491 - 1.3e-241  284591.705 - 1.93e-240
+WAG+R7          -140991.761  282753.522 - 6.72e-262  283340.913 - 1.93e-243  284599.006 - 5.02e-242
+WAG+R8          -140988.584  282751.168 - 2.18e-261  283347.025 - 9.08e-245  284606.240 - 1.35e-243
+WAG+F+R7        -140933.247  282674.493 - 9.73e-245  283346.444 - 1.21e-244  284611.054 - 1.21e-244
+WAG+F+R8        -140927.999  282667.997 - 2.5e-243  283349.408 - 2.76e-245  284614.144 - 2.59e-245
+VT+F+R7         -140947.645  282703.291 - 5.43e-251  283375.241 - 6.78e-251  284639.851 - 6.78e-251
+VT+F+R8         -140943.500  282699.000 - 4.64e-250  283380.411 - 5.11e-252  284645.147 - 4.8e-252
+LG+R3           -141173.108  283100.217 -        0  283654.715 - 1.39e-311  284907.353 - 5.54e-309
+rtREV+R7        -141204.735  283179.470 -        0  283766.861 -        0  285024.954 -        0
+rtREV+R8        -141206.140  283186.280 -        0  283782.137 -        0  285041.351 -        0
+Blosum62+R7     -141258.089  283286.177 -        0  283873.568 -        0  285131.661 -        0
+Blosum62+R8     -141262.962  283299.924 -        0  283895.782 -        0  285154.996 -        0
+PMB+R7          -141295.614  283361.228 -        0  283948.619 -        0  285206.712 -        0
+PMB+R8          -141295.422  283364.844 -        0  283960.701 -        0  285219.915 -        0
+Blosum62+F+R7   -141237.895  283283.790 -        0  283955.741 -        0  285220.351 -        0
+Blosum62+F+R8   -141242.129  283296.258 -        0  283977.668 -        0  285242.405 -        0
+PMB+F+R7        -141376.415  283560.829 -        0  284232.780 -        0  285497.390 -        0
+PMB+F+R8        -141372.434  283556.868 -        0  284238.279 -        0  285503.016 -        0
+cpREV+F+R7      -142072.155  284952.309 -        0  285624.260 -        0  286888.869 -        0
+cpREV+F+R8      -142073.419  284958.839 -        0  285640.249 -        0  286904.986 -        0
+JTTDCMut+R7     -142266.716  285303.432 -        0  285890.823 -        0  287148.916 -        0
+JTTDCMut+R8     -142265.589  285305.178 -        0  285901.035 -        0  287160.249 -        0
+JTT+R7          -142289.138  285348.276 -        0  285935.668 -        0  287193.761 -        0
+JTT+R8          -142287.691  285349.382 -        0  285945.240 -        0  287204.454 -        0
+LG+R2           -142355.241  285460.481 -        0  286006.993 -        0  287258.031 -        0
+cpREV+R7        -142402.561  285575.122 -        0  286162.514 -        0  287420.607 -        0
+cpREV+R8        -142402.613  285579.226 -        0  286175.083 -        0  287434.297 -        0
+JTTDCMut+F+R7   -142397.962  285603.923 -        0  286275.874 -        0  287540.484 -        0
+JTTDCMut+F+R8   -142397.135  285606.271 -        0  286287.681 -        0  287552.418 -        0
+JTT+F+R7        -142408.173  285624.347 -        0  286296.298 -        0  287560.907 -        0
+JTT+F+R8        -142406.956  285625.912 -        0  286307.322 -        0  287572.059 -        0
+DCMut+F+R8      -142714.613  286241.225 -        0  286922.636 -        0  288187.372 -        0
+DCMut+F+R7      -142721.665  286251.330 -        0  286923.281 -        0  288187.890 -        0
+Dayhoff+F+R8    -142721.425  286254.850 -        0  286936.260 -        0  288200.997 -        0
+Dayhoff+F+R7    -142728.967  286265.935 -        0  286937.885 -        0  288202.495 -        0
+mtInv+F+R8      -142799.288  286410.576 -        0  287091.987 -        0  288356.723 -        0
+mtInv+F+R7      -142806.588  286421.177 -        0  287093.128 -        0  288357.737 -        0
+DCMut+R8        -142966.703  286707.406 -        0  287303.264 -        0  288562.478 -        0
+DCMut+R7        -142973.937  286717.873 -        0  287305.265 -        0  288563.358 -        0
+Dayhoff+R8      -142971.930  286717.860 -        0  287313.717 -        0  288572.931 -        0
+Dayhoff+R7      -142979.409  286728.818 -        0  287316.209 -        0  288574.302 -        0
+mtZOA+F+R8      -143230.997  287273.995 -        0  287955.405 -        0  289220.142 -        0
+mtZOA+F+R7      -143242.778  287293.557 -        0  287965.508 -        0  289230.117 -        0
+mtREV+F+R8      -144009.222  288830.443 -        0  289511.854 -        0  290776.590 -        0
+mtREV+F+R7      -144017.887  288843.774 -        0  289515.725 -        0  290780.334 -        0
+mtMet+F+R8      -144179.378  289170.756 -        0  289852.166 -        0  291116.903 -        0
+mtMet+F+R7      -144190.495  289188.989 -        0  289860.940 -        0  291125.550 -        0
+mtART+F+R8      -144740.303  290292.607 -        0  290974.017 -        0  292238.754 -        0
+mtART+F+R7      -144751.234  290310.468 -        0  290982.419 -        0  292247.028 -        0
+FLU+F+R8        -144912.206  290636.411 -        0  291317.822 -        0  292582.559 -        0
+FLU+F+R7        -144937.330  290682.660 -        0  291354.611 -        0  292619.220 -        0
+FLU+R8          -145332.408  291438.815 -        0  292034.673 -        0  293293.887 -        0
+FLU+R7          -145347.005  291464.010 -        0  292051.402 -        0  293309.495 -        0
+HIVb+F+R8       -145334.626  291481.252 -        0  292162.663 -        0  293427.400 -        0
+HIVb+F+R7       -145347.831  291503.663 -        0  292175.614 -        0  293440.223 -        0
+HIVb+R8         -145554.886  291883.773 -        0  292479.630 -        0  293738.844 -        0
+HIVb+R7         -145568.157  291906.314 -        0  292493.705 -        0  293751.798 -        0
+LG+I            -146396.220  293540.440 -        0  294082.993 -        0  295333.196 -        0
+mtVer+F+R8      -146554.827  293921.654 -        0  294603.065 -        0  295867.801 -        0
+mtVer+F+R7      -146563.036  293934.071 -        0  294606.022 -        0  295870.632 -        0
+mtZOA+R8        -146926.927  294627.854 -        0  295223.711 -        0  296482.925 -        0
+mtZOA+R7        -146940.569  294651.138 -        0  295238.530 -        0  296496.623 -        0
+LG              -147425.589  295597.177 -        0  296135.795 -        0  297385.140 -        0
+mtMAM+F+R7      -147555.117  295918.235 -        0  296590.186 -        0  297854.795 -        0
+mtMAM+F+R8      -147549.856  295911.712 -        0  296593.123 -        0  297857.859 -        0
+mtREV+R8        -149039.325  298852.649 -        0  299448.506 -        0  300707.721 -        0
+mtREV+R7        -149051.606  298873.211 -        0  299460.603 -        0  300718.696 -        0
+mtMet+R8        -149260.509  299295.019 -        0  299890.876 -        0  301150.090 -        0
+mtMet+R7        -149273.487  299316.975 -        0  299904.366 -        0  301162.459 -        0
+mtInv+R8        -149639.997  300053.993 -        0  300649.851 -        0  301909.065 -        0
+mtInv+R7        -149649.323  300068.645 -        0  300656.036 -        0  301914.129 -        0
+HIVw+F+R8       -150172.201  301156.403 -        0  301837.813 -        0  303102.550 -        0
+HIVw+F+R7       -150201.674  301211.348 -        0  301883.298 -        0  303147.908 -        0
+mtART+R8        -150469.490  301712.980 -        0  302308.837 -        0  303568.051 -        0
+mtART+R7        -150492.823  301755.646 -        0  302343.038 -        0  303601.131 -        0
+mtVer+R8        -150832.939  302439.878 -        0  303035.736 -        0  304294.950 -        0
+mtVer+R7        -150860.522  302491.045 -        0  303078.436 -        0  304336.529 -        0
+HIVw+R8         -152334.670  305443.340 -        0  306039.198 -        0  307298.412 -        0
+HIVw+R7         -152379.845  305529.690 -        0  306117.081 -        0  307375.174 -        0
+mtMAM+R8        -152547.229  305868.458 -        0  306464.315 -        0  307723.530 -        0
+mtMAM+R7        -152592.984  305955.969 -        0  306543.360 -        0  307801.453 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R7
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0752
+  pi(R) = 0.0692
+  pi(N) = 0.0440
+  pi(D) = 0.0617
+  pi(C) = 0.0147
+  pi(Q) = 0.0349
+  pi(E) = 0.0526
+  pi(G) = 0.0579
+  pi(H) = 0.0250
+  pi(I) = 0.0532
+  pi(L) = 0.0763
+  pi(K) = 0.0523
+  pi(M) = 0.0213
+  pi(F) = 0.0339
+  pi(P) = 0.0579
+  pi(S) = 0.0697
+  pi(T) = 0.0705
+  pi(W) = 0.0139
+  pi(Y) = 0.0443
+  pi(V) = 0.0714
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.0709,0.0381) (0.0830,0.1836) (0.1488,0.3800) (0.2152,0.6812) (0.2075,1.0945) (0.1960,1.6911) (0.0785,2.8071)
+
+ Category  Relative_rate  Proportion
+  1         0.0381         0.0709
+  2         0.1836         0.0830
+  3         0.3800         0.1488
+  4         0.6812         0.2152
+  5         1.0945         0.2075
+  6         1.6911         0.1960
+  7         2.8071         0.0785
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -140338.9335 (s.e. 1964.0986)
+Unconstrained log-likelihood (without tree): -6058.3855
+Number of free parameters (#branches + #model parameters): 404
+Akaike information criterion (AIC) score: 281485.8669
+Corrected Akaike information criterion (AICc) score: 282157.8177
+Bayesian information criterion (BIC) score: 283422.4273
+
+Total tree length (sum of branch lengths): 78.2339
+Sum of internal branch lengths: 29.4764 (37.6773% of tree length)
+
+WARNING: 29 near-zero internal branches (<0.0011) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'BK059724_Opistofel_virus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                         +------MN862357_Emilia_sonchifolia_noda-like_virus
+                                      +--| (100)
+                                      |  +-----MW239267_Riboviria_sp_
+                                   +--| (75)
+                                   |  +-------MT482496_PNG_bee_virus_14
+                                +--| (100)
+                                |  +------MT317176_Rice_Noda-like_virus
+                             +--| (100)
+                             |  |        +---OL472288_Koper_noda-like_virus_2
+                             |  +--------| (100)
+                             |           +--ON260786_rice-associated_noda-like_virus_1
+                        +----| (100)
+                        |    +------------MW239460_Riboviria_sp_
+                     +--| (99)
+                     |  |        +--------------ON049872_Nodaviridae_sp_
+                     |  |     +--| (100)
+                     |  |     |  +--------KX883009_Hubei_noda-like_virus_10
+                     |  |  +--| (100)
+                     |  |  |  +-------------ON872547_Bat_faecal_associated_nodavirus_3
+                     |  +--| (99)
+                     |     |           +-----MW239448_Riboviria_sp_
+                     |     +-----------| (100)
+                     |                 +----MW239466_Riboviria_sp_
+                  +--| (69)
+                  |  |                        +--MW826495_Nodaviridae_sp_
+                  |  |                     +--| (100)
+                  |  |                     |  +--MW897079_Guangxi_forest_noda-like_virus
+                  |  |                  +--| (100)
+                  |  |                  |  +--MW897128_Henan_sediment_noda-like_virus_4
+                  |  |               +--| (99)
+                  |  |               |  +---MW314615_Lasius_neglectus_noda-like_virus_1
+                  |  |           +---| (100)
+                  |  |           |   +-----OP884074_Army_ant_associated_Nodavirus_3
+                  |  |        +--| (100)
+                  |  |        |  +----KJ632942_Mosinovirus
+                  |  |     +--| (100)
+                  |  |     |  +-------NC_033311_Hubei_orthoptera_virus_4
+                  |  |  +--| (62)
+                  |  |  |  +--------------OM954255_Flumine_nodavirus_27
+                  |  +--| (100)
+                  |     |  +------------MW239459_Riboviria_sp_
+                  |     +--| (63)
+                  |        +------------NC_032732_Shuangao_insect_virus_10
+               +--| (61)
+               |  |                          +--MZ209797_Guiyang_nodavirus_1
+               |  |                       +--| (100)
+               |  |                       |  +**MW897119_Zhejiang_farmland_noda-like_virus
+               |  |                  +----| (100)
+               |  |                  |    +**MZ209764_Guiyang_nodavirus_1
+               |  |               +--| (96)
+               |  |               |  |  +--OM954257_Flumine_nodavirus_3
+               |  |               |  +--| (83)
+               |  |               |     +---MW897091_Sichuan_forest_noda-like_virus_3
+               |  |            +--| (100)
+               |  |            |  +------AY962576_Pieris_rapae_virus
+               |  |  +---------| (100)
+               |  |  |         |       +--KX883132_Wuhan_house_centipede_virus_6
+               |  |  |         |    +--| (100)
+               |  |  |         |    |  +**KX883198_Wuhan_house_centipede_virus_6
+               |  |  |         +----| (100)
+               |  |  |              +--NC_033482_Wuhan_house_centipede_virus_6
+               |  +--| (99)
+               |     |                    +--MH719096_Mayapan_virus
+               |     |                 +--| (99)
+               |     |                 |  +--MH794142_Culannivirus_DW-2019a
+               |     |              +--| (97)
+               |     |              |  +--KX883080_Hubei_noda-like_virus_5
+               |     |           +--| (97)
+               |     |           |  +--MT753152_Mayapan_virus
+               |     |        +--| (100)
+               |     |        |  +--OL700048_XiangYun_tombus-noda-like_virus_11
+               |     +--------| (100)
+               |              +--MW897098_Henan_sediment_noda-like_virus_2
+            +--| (39)
+            |  |  +-------------NC_003691_Pariacoto_virus
+            |  +--| (44)
+            |     |      +-------ON049869_Nodaviridae_sp_
+            |     |   +--| (100)
+            |     |   |  +-------MW897103_Sichuan_forest_noda-like_virus_5
+            |     +---| (100)
+            |         +----------KX883167_Hubei_noda-like_virus_6
+         +--| (100)
+         |  |                                         +**Murmaxied_virus_F1531C222F1533
+         |  |                                      +**| (89)
+         |  |                                      |  +**Murmaxied_virus_F1531C222F1534
+         |  |                                   +**| (82)
+         |  |                                   |  +**Murmaxied_virus_F1531C222F1537
+         |  |                                +--| (95)
+         |  |                                |  |  +**Murmaxied_virus_F1531C222F1527
+         |  |                                |  +--| (38)
+         |  |                                |     |  +**Murmaxied_virus_F1531C222F1531
+         |  |                                |     +--| (73)
+         |  |                                |        +--Murmaxied_virus_F1531C222F1532
+         |  |                             +--| (95)
+         |  |                             |  +--Murmaxied_virus_F1531C222F1217
+         |  |              +--------------| (100)
+         |  |              |              |     +**Murmaxied_virus_F1531C222F1093
+         |  |              |              |  +**| (84)
+         |  |              |              |  |  +**Murmaxied_virus_F1531C222F1094
+         |  |              |              +**| (89)
+         |  |              |                 +--Murmaxied_virus_F1531C222F1096
+         |  |           +--| (74)
+         |  |           |  |             +--NC_033139_Sanxia_water_strider_virus_16
+         |  |           |  |         +---| (100)
+         |  |           |  |         |   +--MZ443627_Nelson_wasp-associated_virus_3
+         |  |           |  +---------| (100)
+         |  |           |            +---OL700186_XiangYun_tombus-noda-like_virus_7
+         |  |        +--| (50)
+         |  |        |  |          +---------KP263548_Lunovirus
+         |  |        |  |     +----| (100)
+         |  |        |  |     |    +-----KY214439_Caninovirus_sp_
+         |  |        |  |  +--| (86)
+         |  |        |  |  |  +-----------------OL700180_XiangYun_tombus-noda-like_virus_1
+         |  |        |  +--| (85)
+         |  |        |     |  +-------------ON049855_Nodaviridae_sp_
+         |  |        |     +--| (100)
+         |  |        |        +------------KX883225_Hubei_noda-like_virus_7
+         |  |     +--| (98)
+         |  |     |  |                +**ON049805_Nodaviridae_sp_
+         |  |     |  |           +----| (100)
+         |  |     |  |           |    +**MW897073_Xinjiang_sediment_noda-like_virus_2
+         |  |     |  +-----------| (100)
+         |  |     |              +------MW826493_Nodaviridae_sp_
+         |  |  +--| (99)
+         |  |  |  |                         +--KX883130_Hubei_noda-like_virus_9
+         |  |  |  |                     +---| (100)
+         |  |  |  |                     |   +--NC_033307_Hubei_noda-like_virus_9
+         |  |  |  |                  +--| (100)
+         |  |  |  |                  |  +---MK533155_Tetranychus_urticae-associated_nodavirus_A
+         |  |  |  |               +--| (90)
+         |  |  |  |               |  |  +---ON746452_Tianjin_Nodav_tick_virus_1
+         |  |  |  |               |  +--| (100)
+         |  |  |  |               |     +--OL472289_Koper_noda-like_virus_3
+         |  |  |  |       +-------| (100)
+         |  |  |  |       |       +---OL700185_XiangYun_tombus-noda-like_virus_6
+         |  |  |  |    +--| (96)
+         |  |  |  |    |  |                +**KX883237_Hubei_noda-like_virus_8
+         |  |  |  |    |  |          +-----| (100)
+         |  |  |  |    |  |          |     +**NC_033309_Hubei_noda-like_virus_8
+         |  |  |  |    |  +----------| (100)
+         |  |  |  |    |             +--------MK533156_Tetranychus_urticae-associated_nodavirus_B
+         |  |  |  +----| (100)
+         |  |  |       +------------------OL472290_Koper_noda-like_virus_4
+         |  +--| (77)
+         |     |              +----MW239321_Riboviria_sp_
+         |     +--------------| (100)
+         |                    +-----MZ375165_Riboviria_sp_
+      +--| (100)
+      |  |                   +--OM954246_Flumine_nodavirus_11
+      |  |    +--------------| (100)
+      |  |    |              +**OM953982_Flumine_nodavirus_10
+      |  +----| (100)
+      |       |  +-------------MW239203_Riboviria_sp_
+      |       +--| (100)
+      |          +-----------OL700188_XiangYun_tombus-noda-like_virus_9
+   +--| (100)
+   |  |                       +--KX883125_Hubei_noda-like_virus_12
+   |  |                    +--| (100)
+   |  |                    |  +--MW897072_Beijing_sediment_noda-like_virus_4
+   |  |               +----| (100)
+   |  |               |    +--MN513380_Hammarskog_noda-like_virus
+   |  |            +--| (100)
+   |  |            |  +---NC_033077_Sanxia_water_strider_virus_17
+   |  |         +--| (100)
+   |  |         |  |              +--KX883010_Hubei_noda-like_virus_11
+   |  |         |  |           +--| (100)
+   |  |         |  |           |  +--MT096526_Hubei_noda-like_virus_11
+   |  |         |  +-----------| (100)
+   |  |         |              +--MW897075_Beijing_sediment_noda-like_virus_6
+   |  |  +------| (100)
+   |  |  |      +--------GU976287_Alphanodavirus_HB-2007_CHN
+   |  +--| (100)
+   |     |            +--MT138113_Nodaviridae_sp_
+   |     +------------| (100)
+   |                  +--MN918672_Picornavirales_sp_
++--| (94)
+|  +-------------------------NC_032760_Beihai_sphaeromadae_virus_2
+|
+|                                                                                             +**MG874757_Redspotted_grouper_nervous_necrosis_virus
+|                                                                                          +**| (8)
+|                                                                                          |  |  +--KU705814_Mouse_grouper_Nervous_Necrosis_Virus
+|                                                                                          |  +**| (10)
+|                                                                                          |     |  +--KF668184_Redspotted_grouper_nervous_necrosis_virus
+|                                                                                          |     +**| (10)
+|                                                                                          |        |  +**MN309751_Hulong_grouper_nervous_necrosis_virus
+|                                                                                          |        +--| (30)
+|                                                                                          |           |  +--NC_013460_Tiger_puffer_nervous_necrosis_virus
+|                                                                                          |           +--| (94)
+|                                                                                          |              +--OL955905_Solea_solea_betanodavirus
+|                                                                                       +**| (14)
+|                                                                                       |  +--KP455643_Redspotted_grouper_nervous_necrosis_virus
+|                                                                                    +--| (25)
+|                                                                                    |  +--MZ527260_Redspotted_grouper_nervous_necrosis_virus
+|                                                                                 +**| (4)
+|                                                                                 |  |  +**HQ859908_Tiger_grouper_Nervous_Necrosis_Virus
+|                                                                                 |  +--| (99)
+|                                                                                 |     +**HQ859911_Asian_seabass_Nervous_Necrosis_Virus
+|                                                                              +**| (2)
+|                                                                              |  +--AB373028_Redspotted_grouper_nervous_necrosis_virus
+|                                                                           +**| (3)
+|                                                                           |  |  +--KY354681_Redspotted_grouper_nervous_necrosis_virus
+|                                                                           |  +**| (11)
+|                                                                           |     |  +**NC_008040_Redspotted_grouper_nervous_necrosis_virus
+|                                                                           |     +--| (100)
+|                                                                           |        +--FJ748760_Redspotted_grouper_nervous_necrosis_virus
+|                                                                        +**| (3)
+|                                                                        |  +**FJ803915_Sea_bass_Iberian_betanodavirus
+|                                                                     +**| (6)
+|                                                                     |  +**AY721616_Redspotted_grouper_nervous_necrosis_virus
+|                                                                  +--| (43)
+|                                                                  |  |  +--HQ859895_Tiger_grouper_Nervous_Necrosis_Virus
+|                                                                  |  +**| (8)
+|                                                                  |     |  +**JN189865_Striped_jack_nervous_necrosis_virus
+|                                                                  |     +--| (97)
+|                                                                  |        +--OM513982_Betanodavirus_sp_
+|                                                               +**| (9)
+|                                                               |  +--MZ054261_Redspotted_grouper_nervous_necrosis_virus
+|                                                            +**| (20)
+|                                                            |  +--HQ859913_Tiger_grouper_Nervous_Necrosis_Virus
+|                                                         +--| (56)
+|                                                         |  |     +**MN097800_Betanodavirus_sp_
+|                                                         |  |  +--| (100)
+|                                                         |  |  |  +**MN097798_Betanodavirus_sp_
+|                                                         |  +--| (100)
+|                                                         |     +**KT390713_Grouper_betanodavirus
+|                                                      +--| (49)
+|                                                      |  +**GQ402010_Redspotted_grouper_nervous_necrosis_virus
+|                                                   +--| (76)
+|                                                   |  +--FJ789783_Redspotted_grouper_nervous_necrosis_virus
+|                                                +--| (77)
+|                                                |  |  +--GQ402012_Redspotted_grouper_nervous_necrosis_virus
+|                                                |  +--| (100)
+|                                                |     |     +**NC_024492_Senegalese_sole_Iberian_betanodavirus
+|                                                |     |  +--| (99)
+|                                                |     |  |  |        +**JN189831_Redspotted_grouper_nervous_necrosis_virus
+|                                                |     |  |  |     +**| (42)
+|                                                |     |  |  |     |  +**JN189833_Striped_jack_nervous_necrosis_virus
+|                                                |     |  |  |  +**| (29)
+|                                                |     |  |  |  |  |  +--KY354688_Redspotted_grouper_nervous_necrosis_virus
+|                                                |     |  |  |  |  +**| (37)
+|                                                |     |  |  |  |     +--KY354693_Redspotted_grouper_nervous_necrosis_virus
+|                                                |     |  |  +--| (100)
+|                                                |     |  |     +--OL955902_Striped_jack_nervous_necrosis_virus
+|                                                |     +--| (100)
+|                                                |        +--JN189909_Striped_jack_nervous_necrosis_virus
+|                                             +--| (77)
+|                                             |  +--MZ449210_Redspotted_grouper_nervous_necrosis_virus
+|                                          +--| (67)
+|                                          |  +--HQ859900_Golden_pompano_nervous_necrosis_virus
+|                                       +--| (64)
+|                                       |  +**AY369136_Redspotted_grouper_nervous_necrosis_virus
+|                      +----------------| (100)
+|                      |                +--KY315688_Redspotted_grouper_nervous_necrosis_virus
+|                  +---| (99)
+|                  |   |              +**KX883026_Beihai_noda-like_virus_17
+|                  |   +--------------| (100)
+|                  |                  +--KX883058_Beihai_noda-like_virus_17
+|              +---| (99)
+|              |   +----------------------NC_032172_Beihai_noda-like_virus_18
+|           +--| (97)
+|           |  |             +---------------------------KX883056_Beihai_mantis_shrimp_virus_6
+|           |  +-------------| (100)
+|           |                +------------------------KX883019_Beihai_noda-like_virus_26
+|        +--| (80)
+|        |  |                                              +**KP969992_Craigies_Hill_virus
+|        |  |                                           +--| (100)
+|        |  |                                           |  +**KP969988_Craigies_Hill_virus
+|        |  |                                        +**| (100)
+|        |  |                                        |  +**KP969990_Craigies_Hill_virus
+|        |  |                                     +--| (100)
+|        |  |                                     |  +**KP969989_Craigies_Hill_virus
+|        |  |                                  +--| (100)
+|        |  |                                  |  +**KP969987_Craigies_Hill_virus
+|        |  |                               +--| (97)
+|        |  |                               |  |  +**KP969981_Craigies_Hill_virus
+|        |  |                               |  +**| (50)
+|        |  |                               |     |           +--MH384328_Craigies_Hill_virus
+|        |  |                               |     |        +--| (100)
+|        |  |                               |     |        |  +**MH384347_Craigies_Hill_virus
+|        |  |                               |     |     +**| (52)
+|        |  |                               |     |     |  +--KP969982_Craigies_Hill_virus
+|        |  |                               |     |  +**| (43)
+|        |  |                               |     |  |  +--KP969980_Craigies_Hill_virus
+|        |  |                               |     +--| (99)
+|        |  |                               |        +--KP969979_Craigies_Hill_virus
+|        |  |                            +--| (98)
+|        |  |                            |  +**KP969985_Craigies_Hill_virus
+|        |  |                         +--| (99)
+|        |  |                         |  |           +--KP969975_Craigies_Hill_virus
+|        |  |                         |  |        +**| (55)
+|        |  |                         |  |        |  +**KP969978_Craigies_Hill_virus
+|        |  |                         |  |     +--| (96)
+|        |  |                         |  |     |  +--KP969971_Craigies_Hill_virus
+|        |  |                         |  |  +--| (90)
+|        |  |                         |  |  |  +--KP969973_Craigies_Hill_virus
+|        |  |                         |  +--| (97)
+|        |  |                         |     |  +**KP969972_Craigies_Hill_virus
+|        |  |                         |     +--| (100)
+|        |  |                         |        +--KP714084_Craigies_Hill_virus
+|        |  |              +----------| (100)
+|        |  |              |          +--KU754526_Craigmillar_Park_virus
+|        |  |     +--------| (100)
+|        |  |     |        |     +------MW310387_Zeugodacus_tau_noda-like_virus_isolate_Bz
+|        |  |     |        |  +--| (100)
+|        |  |     |        |  |  |  +--------MZ443596_Leuven_Nodavirus-like_1
+|        |  |     |        |  |  +--| (99)
+|        |  |     |        |  |     +----------NC_032872_Hubei_diptera_virus_16
+|        |  |     |        +--| (100)
+|        |  |     |           |           +--KX883139_Hubei_noda-like_virus_13
+|        |  |     |           +-----------| (100)
+|        |  |     |                       +--KX883162_Hubei_noda-like_virus_13
+|        |  |  +--| (51)
+|        |  |  |  +--------------------------KX883140_Hubei_noda-like_virus_15
+|        |  +--| (93)
+|        |     |                              +**OL472284_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |                           +--| (97)
+|        |     |                           |  +--OL472285_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |                        +--| (97)
+|        |     |                        |  |  +**OL472283_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |                        |  +--| (98)
+|        |     |                        |     +--OL472287_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |  +---------------------| (100)
+|        |     |  |                     +**OL472286_Leveillula_taurica_associated_noda-like_virus_1
+|        |     +--| (47)
+|        |        +----------------HM228873_Bat_guano_associated_nodavirus_GF-4n
+|     +--| (60)
+|     |  |                            +**Easynal_virus_F1383C255F1384
+|     |  +----------------------------| (100)
+|     |                               |        +**Easynal_virus_F1383C255F1383
+|     |                               |     +**| (86)
+|     |                               |     |  +**Easynal_virus_F1383C255F1375
+|     |                               |  +**| (33)
+|     |                               |  |  |  +**Easynal_virus_F1383C255F1385
+|     |                               |  |  +**| (47)
+|     |                               |  |     +**Easynal_virus_F1383C255F1380
+|     |                               +**| (45)
+|     |                                  +**Easynal_virus_F1383C255F1374
+|  +--| (58)
+|  |  |                             +-------------MF190050_Barns_Ness_serrated_wrack_noda-like_virus_2
+|  |  |                          +--| (99)
+|  |  |                          |  +----------------------KF510033_Betegovirus_SF
+|  |  |                       +--| (100)
+|  |  |                       |  +--------------------AB083060_Sclerophthora_macrospora_virus_A
+|  |  |                    +--| (85)
+|  |  |                    |  +------------------------------MF190049_Barns_Ness_serrated_wrack_noda-like_virus_1
+|  |  |                +---| (100)
+|  |  |                |   +---------------------------KX883034_Beihai_noda-like_virus_4
+|  |  |       +--------| (100)
+|  |  |       |        +--------------------------NC_033166_Wenzhou_bivalvia_virus_3
+|  |  |    +--| (99)
+|  |  |    |  |            +-----------MW897065_Sichuan_sediment_noda-like_virus_4
+|  |  |    |  +------------| (100)
+|  |  |    |               +-----------MW897125_Sichuan_sediment_noda-like_virus_13
+|  |  +----| (100)
+|  |       +---------------------KX883059_Beihai_noda-like_virus_5
++--| (100)
+|  |                     +----MN617794_Erysiphe_necator_associated_nodavirus_4
+|  |              +------| (100)
+|  |              |      +----MN617791_Erysiphe_necator_associated_nodavirus_1
+|  |        +-----| (100)
+|  |        |     +------------KX774634_Lone_star_tick_nodavirus
+|  |     +--| (76)
+|  |     |  +--------------NC_032647_Beihai_shrimp_virus_6
+|  |  +--| (69)
+|  |  |  |                 +--MT085291_Riboviria_sp_
+|  |  |  |     +-----------| (100)
+|  |  |  |     |           +--MT085295_Riboviria_sp_
+|  |  |  +-----| (100)
+|  |  |        +----------MZ209970_Sanya_nodavirus_1
+|  +--| (100)
+|     |              +--------OM954249_Flumine_nodavirus_17
+|     +--------------| (100)
+|                    +-----OM953985_Flumine_nodavirus_16
+|
++-------------------------BK059724_Opistofel_virus
+
+Tree in newick format:
+
+((((((((((((((MN862357_Emilia_sonchifolia_noda-like_virus:0.4116903499,MW239267_Riboviria_sp_:0.3383210622)100:0.0997656884,MT482496_PNG_bee_virus_14:0.4559490229)75:0.0540646310,MT317176_Rice_Noda-like_virus:0.3881958684)100:0.1478327335,(OL472288_Koper_noda-like_virus_2:0.2180226137,ON260786_rice-associated_noda-like_virus_1:0.1645666534)100:0.4788063035)100:0.1229982190,MW239460_Riboviria_sp_:0.6972439931)100:0.3017287212,(((ON049872_Nodaviridae_sp_:0.8088784180,KX883009_Hubei_noda-like_virus_10:0.4874117034)100:0.1932172155,ON872547_Bat_faecal_associated_nodavirus_3:0.7493303151)100:0.1486195608,(MW239448_Riboviria_sp_:0.3226886198,MW239466_Riboviria_sp_:0.3061519029)100:0.6411199446)99:0.0986060082)99:0.0759361569,((((((((MW826495_Nodaviridae_sp_:0.0276847227,MW897079_Guangxi_forest_noda-like_virus:0.0166860811)100:0.0194479034,MW897128_Henan_sediment_noda-like_virus_4:0.0284314068)100:0.1568660119,MW314615_Lasius_neglectus_noda-like_virus_1:0.2319506500)99:0.0816499431,OP884074_Army_ant_associated_Nodavirus_3:0.3227847476)100:0.2183546389,KJ632942_Mosinovirus:0.2912470257)100:0.1649112522,NC_033311_Hubei_orthoptera_virus_4:0.4223603608)100:0.1102176027,OM954255_Flumine_nodavirus_27:0.7950668032)62:0.0722198711,(MW239459_Riboviria_sp_:0.7076817871,NC_032732_Shuangao_insect_virus_10:0.7232222331)63:0.0968733584)100:0.1987596139)69:0.0805272577,((((((MZ209797_Guiyang_nodavirus_1:0.0044627236,MW897119_Zhejiang_farmland_noda-like_virus:0.0000020582)100:0.0012101645,MZ209764_Guiyang_nodavirus_1:0.0000023530)100:0.2864305204,(OM954257_Flumine_nodavirus_3:0.1263824629,MW897091_Sichuan_forest_noda-like_virus_3:0.2277629968)83:0.0494289505)96:0.0765323044,AY962576_Pieris_rapae_virus:0.3686479205)100:0.1704205081,((KX883132_Wuhan_house_centipede_virus_6:0.0035179240,KX883198_Wuhan_house_centipede_virus_6:0.0011056799)100:0.0342564333,NC_033482_Wuhan_house_centipede_virus_6:0.0266806858)100:0.2959258481)100:0.5222058046,(((((MH719096_Mayapan_virus:0.0521484666,MH794142_Culannivirus_DW-2019a:0.0233130714)99:0.0157300184,KX883080_Hubei_noda-like_virus_5:0.0466025592)97:0.0160625469,MT753152_Mayapan_virus:0.0495874631)97:0.0423789725,OL700048_XiangYun_tombus-noda-like_virus_11:0.0889732677)100:0.1966199565,MW897098_Henan_sediment_noda-like_virus_2:0.1903167534)100:0.4836634506)99:0.1761592100)61:0.0828028239,(NC_003691_Pariacoto_virus:0.7536063743,((ON049869_Nodaviridae_sp_:0.4608474748,MW897103_Sichuan_forest_noda-like_virus_5:0.4224504297)100:0.1236471218,KX883167_Hubei_noda-like_virus_6:0.5849979242)100:0.2262640419)44:0.0584445355)39:0.0471701944,((((((((((Murmaxied_virus_F1531C222F1533:0.0000010599,Murmaxied_virus_F1531C222F1534:0.0000010599)89:0.0000021234,Murmaxied_virus_F1531C222F1537:0.0000010599)82:0.0000010598,(Murmaxied_virus_F1531C222F1527:0.0000026333,(Murmaxied_virus_F1531C222F1531:0.0000028494,Murmaxied_virus_F1531C222F1532:0.0019403424)73:0.0011753666)38:0.0011739538)95:0.0069905480,Murmaxied_virus_F1531C222F1217:0.0074292676)95:0.0069242342,((Murmaxied_virus_F1531C222F1093:0.0000010599,Murmaxied_virus_F1531C222F1094:0.0000010599)84:0.0000023842,Murmaxied_virus_F1531C222F1096:0.0011774420)89:0.0000020435)100:0.8091328627,((NC_033139_Sanxia_water_strider_virus_16:0.0317315668,MZ443627_Nelson_wasp-associated_virus_3:0.0334407910)100:0.2565584259,OL700186_XiangYun_tombus-noda-like_virus_7:0.2594593700)100:0.5499282520)74:0.1064699905,(((KP263548_Lunovirus:0.5241267617,KY214439_Caninovirus_sp_:0.3303967930)100:0.2687554499,OL700180_XiangYun_tombus-noda-like_virus_1:0.9499722129)86:0.1101596602,(ON049855_Nodaviridae_sp_:0.7605654474,KX883225_Hubei_noda-like_virus_7:0.7019928368)100:0.1944058242)85:0.0885045692)50:0.0520899311,((ON049805_Nodaviridae_sp_:0.0000010599,MW897073_Xinjiang_sediment_noda-like_virus_2:0.0000029832)100:0.3065670705,MW826493_Nodaviridae_sp_:0.3937038313)100:0.6316951991)98:0.0884663437,((((((KX883130_Hubei_noda-like_virus_9:0.0091202481,NC_033307_Hubei_noda-like_virus_9:0.0059815134)100:0.2429486960,MK533155_Tetranychus_urticae-associated_nodavirus_A:0.2354632848)100:0.1240288769,(ON746452_Tianjin_Nodav_tick_virus_1:0.2087801786,OL472289_Koper_noda-like_virus_3:0.2072479292)100:0.1964943682)90:0.0682668973,OL700185_XiangYun_tombus-noda-like_virus_6:0.2228671809)100:0.4319240260,((KX883237_Hubei_noda-like_virus_8:0.0000010599,NC_033309_Hubei_noda-like_virus_8:0.0000010599)100:0.3139464505,MK533156_Tetranychus_urticae-associated_nodavirus_B:0.4816602233)100:0.6118883846)96:0.1048382798,OL472290_Koper_noda-like_virus_4:1.0036627221)100:0.2704526941)99:0.0990680776,(MW239321_Riboviria_sp_:0.2621962892,MZ375165_Riboviria_sp_:0.3565536453)100:0.8060577508)77:0.0629720453)100:0.1184875842,((OM954246_Flumine_nodavirus_11:0.0016459714,OM953982_Flumine_nodavirus_10:0.0000024384)100:0.7836940351,(MW239203_Riboviria_sp_:0.7601560676,OL700188_XiangYun_tombus-noda-like_virus_9:0.6543372435)100:0.1693140901)100:0.2620343440)100:0.1505783571,((((((KX883125_Hubei_noda-like_virus_12:0.0623624808,MW897072_Beijing_sediment_noda-like_virus_4:0.0875397694)100:0.0346381071,MN513380_Hammarskog_noda-like_virus:0.1099231682)100:0.3116714349,NC_033077_Sanxia_water_strider_virus_17:0.2573539010)100:0.1254529099,((KX883010_Hubei_noda-like_virus_11:0.0041206611,MT096526_Hubei_noda-like_virus_11:0.0028102652)100:0.0345432731,MW897075_Beijing_sediment_noda-like_virus_6:0.1368915317)100:0.6643218823)100:0.1211924287,GU976287_Alphanodavirus_HB-2007_CHN:0.4711649801)100:0.3780596633,(MT138113_Nodaviridae_sp_:0.0126381849,MN918672_Picornavirales_sp_:0.0017160980)100:0.6809544154)100:0.2017491457)100:0.1164951418,NC_032760_Beihai_sphaeromadae_virus_2:1.4009831915)94:0.0536076512,((((((((((((((((((((((((((MG874757_Redspotted_grouper_nervous_necrosis_virus:0.0000010599,(KU705814_Mouse_grouper_Nervous_Necrosis_Virus:0.0023031040,(KF668184_Redspotted_grouper_nervous_necrosis_virus:0.0023015568,(MN309751_Hulong_grouper_nervous_necrosis_virus:0.0010939270,(NC_013460_Tiger_puffer_nervous_necrosis_virus:0.0612367793,OL955905_Solea_solea_betanodavirus:0.0610620144)94:0.0514684693)30:0.0012117594)10:0.0000021475)10:0.0000010598)8:0.0000021611,KP455643_Redspotted_grouper_nervous_necrosis_virus:0.0023029703)14:0.0000010598,MZ527260_Redspotted_grouper_nervous_necrosis_virus:0.0023035360)25:0.0011510253,(HQ859908_Tiger_grouper_Nervous_Necrosis_Virus:0.0000021386,HQ859911_Asian_seabass_Nervous_Necrosis_Virus:0.0000021802)99:0.0011516357)4:0.0000021838,AB373028_Redspotted_grouper_nervous_necrosis_virus:0.0023031925)2:0.0000020615,(KY354681_Redspotted_grouper_nervous_necrosis_virus:0.0011518158,(NC_008040_Redspotted_grouper_nervous_necrosis_virus:0.0000024593,FJ748760_Redspotted_grouper_nervous_necrosis_virus:0.0011503585)100:0.0057827968)11:0.0000023717)3:0.0000021767,FJ803915_Sea_bass_Iberian_betanodavirus:0.0000010599)3:0.0000020435,AY721616_Redspotted_grouper_nervous_necrosis_virus:0.0000025371)6:0.0000021589,(HQ859895_Tiger_grouper_Nervous_Necrosis_Virus:0.0023061961,(JN189865_Striped_jack_nervous_necrosis_virus:0.0000024889,OM513982_Betanodavirus_sp_:0.0011500067)97:0.0011508209)8:0.0000020947)43:0.0011510604,MZ054261_Redspotted_grouper_nervous_necrosis_virus:0.0023112231)9:0.0000020413,HQ859913_Tiger_grouper_Nervous_Necrosis_Virus:0.0011504202)20:0.0000020985,((MN097800_Betanodavirus_sp_:0.0000010599,MN097798_Betanodavirus_sp_:0.0000010599)100:0.0011504160,KT390713_Grouper_betanodavirus:0.0000010599)100:0.0011504470)56:0.0011519799,GQ402010_Redspotted_grouper_nervous_necrosis_virus:0.0000021373)49:0.0011245754,FJ789783_Redspotted_grouper_nervous_necrosis_virus:0.0046798116)76:0.0011586062,(GQ402012_Redspotted_grouper_nervous_necrosis_virus:0.0092740002,((NC_024492_Senegalese_sole_Iberian_betanodavirus:0.0000027586,(((JN189831_Redspotted_grouper_nervous_necrosis_virus:0.0000010599,JN189833_Striped_jack_nervous_necrosis_virus:0.0000010599)42:0.0000020652,(KY354688_Redspotted_grouper_nervous_necrosis_virus:0.0011459778,KY354693_Redspotted_grouper_nervous_necrosis_virus:0.0046096972)37:0.0000021595)29:0.0000023454,OL955902_Striped_jack_nervous_necrosis_virus:0.0022933647)100:0.0022957083)99:0.0011501355,JN189909_Striped_jack_nervous_necrosis_virus:0.0034533903)100:0.0023019175)100:0.0034839174)77:0.0016219803,MZ449210_Redspotted_grouper_nervous_necrosis_virus:0.0069360548)77:0.0053012623,HQ859900_Golden_pompano_nervous_necrosis_virus:0.0046069122)67:0.0011493330,AY369136_Redspotted_grouper_nervous_necrosis_virus:0.0000027345)64:0.0053290502,KY315688_Redspotted_grouper_nervous_necrosis_virus:0.0121558325)100:0.9015831261,(KX883026_Beihai_noda-like_virus_17:0.0000020278,KX883058_Beihai_noda-like_virus_17:0.0011939497)100:0.8275376358)99:0.2552368735,NC_032172_Beihai_noda-like_virus_18:1.2057764881)99:0.2313036641,(KX883056_Beihai_mantis_shrimp_virus_6:1.4704487644,KX883019_Beihai_noda-like_virus_26:1.3263419388)100:0.7407019800)97:0.1442356873,(((((((((((KP969992_Craigies_Hill_virus:0.0000010599,KP969988_Craigies_Hill_virus:0.0000010599)100:0.0014694518,KP969990_Craigies_Hill_virus:0.0000021428)100:0.0000012169,KP969989_Craigies_Hill_virus:0.0000025164)100:0.0014687019,KP969987_Craigies_Hill_virus:0.0000025223)100:0.0029407840,(KP969981_Craigies_Hill_virus:0.0000024597,((((MH384328_Craigies_Hill_virus:0.0028038539,MH384347_Craigies_Hill_virus:0.0000024306)100:0.0015075313,KP969982_Craigies_Hill_virus:0.0014705347)52:0.0000022710,KP969980_Craigies_Hill_virus:0.0015367778)43:0.0000024128,KP969979_Craigies_Hill_virus:0.0029432324)99:0.0015060657)50:0.0000027701)97:0.0015026002,KP969985_Craigies_Hill_virus:0.0000029322)98:0.0175383288,((((KP969975_Craigies_Hill_virus:0.0029424868,KP969978_Craigies_Hill_virus:0.0000023887)55:0.0000023673,KP969971_Craigies_Hill_virus:0.0014706754)96:0.0041957578,KP969973_Craigies_Hill_virus:0.0061686521)90:0.0046306182,(KP969972_Craigies_Hill_virus:0.0008717609,KP714084_Craigies_Hill_virus:0.0022389740)100:0.0059527331)97:0.0211016032)99:0.1191509301,KU754526_Craigmillar_Park_virus:0.1410123045)100:0.6227633728,((MW310387_Zeugodacus_tau_noda-like_virus_isolate_Bz:0.4009565937,(MZ443596_Leuven_Nodavirus-like_1:0.4949909895,NC_032872_Hubei_diptera_virus_16:0.6059690996)99:0.1189861808)100:0.1379430802,(KX883139_Hubei_noda-like_virus_13:0.0309662732,KX883162_Hubei_noda-like_virus_13:0.0379758571)100:0.6523711902)100:0.1352300779)100:0.4850998984,KX883140_Hubei_noda-like_virus_15:1.4061042537)51:0.1523704500,((((OL472284_Leveillula_taurica_associated_noda-like_virus_1:0.0000022003,OL472285_Leveillula_taurica_associated_noda-like_virus_1:0.0035297769)97:0.0011731262,(OL472283_Leveillula_taurica_associated_noda-like_virus_1:0.0000021285,OL472287_Leveillula_taurica_associated_noda-like_virus_1:0.0047189107)98:0.0023542218)97:0.0011746594,OL472286_Leveillula_taurica_associated_noda-like_virus_1:0.0000020954)100:1.1968258130,HM228873_Bat_guano_associated_nodavirus_GF-4n:0.9090218350)47:0.1439760954)93:0.0828265889)80:0.0478341517,(Easynal_virus_F1383C255F1384:0.0000026320,(((Easynal_virus_F1383C255F1383:0.0000027451,Easynal_virus_F1383C255F1375:0.0000010599)86:0.0000023259,(Easynal_virus_F1383C255F1385:0.0000010599,Easynal_virus_F1383C255F1380:0.0000010599)47:0.0000020294)33:0.0000023749,Easynal_virus_F1383C255F1374:0.0000023449)45:0.0000023606)100:1.5214956280)60:0.0519466121,(((((((MF190050_Barns_Ness_serrated_wrack_noda-like_virus_2:0.7628164019,KF510033_Betegovirus_SF:1.2287781778)99:0.1138934805,AB083060_Sclerophthora_macrospora_virus_A:1.1393917507)100:0.1934375604,MF190049_Barns_Ness_serrated_wrack_noda-like_virus_1:1.6602586234)85:0.0889895138,KX883034_Beihai_noda-like_virus_4:1.4582131170)100:0.2103984257,NC_033166_Wenzhou_bivalvia_virus_3:1.4242924882)100:0.5042237274,(MW897065_Sichuan_sediment_noda-like_virus_4:0.6375038934,MW897125_Sichuan_sediment_noda-like_virus_13:0.6664842901)100:0.7052576805)99:0.1249063934,KX883059_Beihai_noda-like_virus_5:1.1705493677)100:0.2885110557)58:0.0484624253,(((((MN617794_Erysiphe_necator_associated_nodavirus_4:0.2981707717,MN617791_Erysiphe_necator_associated_nodavirus_1:0.2960876241)100:0.4027539163,KX774634_Lone_star_tick_nodavirus:0.6864577782)100:0.3461291078,NC_032647_Beihai_shrimp_virus_6:0.8130271126)76:0.1277657248,((MT085291_Riboviria_sp_:0.0368883318,MT085295_Riboviria_sp_:0.0036534792)100:0.6382032331,MZ209970_Sanya_nodavirus_1:0.5945653660)100:0.3312514601)69:0.0915698546,(OM954249_Flumine_nodavirus_17:0.4788468511,OM953985_Flumine_nodavirus_16:0.3274044801)100:0.7983447088)100:0.1932559022)100:0.1988491075,BK059724_Opistofel_virus:1.3734129240);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -140339.714244
+Robinson-Foulds distance between ML tree and consensus tree: 32
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                         +------MN862357_Emilia_sonchifolia_noda-like_virus
+                                      +--| (100)
+                                      |  +-----MW239267_Riboviria_sp_
+                                   +--| (75)
+                                   |  +-------MT482496_PNG_bee_virus_14
+                                +--| (100)
+                                |  +------MT317176_Rice_Noda-like_virus
+                             +--| (100)
+                             |  |        +---OL472288_Koper_noda-like_virus_2
+                             |  +--------| (100)
+                             |           +--ON260786_rice-associated_noda-like_virus_1
+                        +----| (100)
+                        |    +------------MW239460_Riboviria_sp_
+                     +--| (99)
+                     |  |        +--------------ON049872_Nodaviridae_sp_
+                     |  |     +--| (100)
+                     |  |     |  +--------KX883009_Hubei_noda-like_virus_10
+                     |  |  +--| (100)
+                     |  |  |  +-------------ON872547_Bat_faecal_associated_nodavirus_3
+                     |  +--| (99)
+                     |     |           +-----MW239448_Riboviria_sp_
+                     |     +-----------| (100)
+                     |                 +----MW239466_Riboviria_sp_
+                  +--| (69)
+                  |  |                        +--MW826495_Nodaviridae_sp_
+                  |  |                     +--| (100)
+                  |  |                     |  +--MW897079_Guangxi_forest_noda-like_virus
+                  |  |                  +--| (100)
+                  |  |                  |  +--MW897128_Henan_sediment_noda-like_virus_4
+                  |  |               +--| (99)
+                  |  |               |  +---MW314615_Lasius_neglectus_noda-like_virus_1
+                  |  |           +---| (100)
+                  |  |           |   +-----OP884074_Army_ant_associated_Nodavirus_3
+                  |  |        +--| (100)
+                  |  |        |  +----KJ632942_Mosinovirus
+                  |  |     +--| (100)
+                  |  |     |  +-------NC_033311_Hubei_orthoptera_virus_4
+                  |  |  +--| (62)
+                  |  |  |  +--------------OM954255_Flumine_nodavirus_27
+                  |  +--| (100)
+                  |     |  +------------MW239459_Riboviria_sp_
+                  |     +--| (63)
+                  |        +------------NC_032732_Shuangao_insect_virus_10
+               +--| (61)
+               |  |                          +--MZ209797_Guiyang_nodavirus_1
+               |  |                       +--| (100)
+               |  |                       |  +--MW897119_Zhejiang_farmland_noda-like_virus
+               |  |                  +----| (100)
+               |  |                  |    +--MZ209764_Guiyang_nodavirus_1
+               |  |               +--| (96)
+               |  |               |  |  +--OM954257_Flumine_nodavirus_3
+               |  |               |  +--| (83)
+               |  |               |     +---MW897091_Sichuan_forest_noda-like_virus_3
+               |  |            +--| (100)
+               |  |            |  +------AY962576_Pieris_rapae_virus
+               |  |  +---------| (100)
+               |  |  |         |       +--KX883132_Wuhan_house_centipede_virus_6
+               |  |  |         |    +--| (100)
+               |  |  |         |    |  +--KX883198_Wuhan_house_centipede_virus_6
+               |  |  |         +----| (100)
+               |  |  |              +--NC_033482_Wuhan_house_centipede_virus_6
+               |  +--| (99)
+               |     |                    +--MH719096_Mayapan_virus
+               |     |                 +--| (99)
+               |     |                 |  +--MH794142_Culannivirus_DW-2019a
+               |     |              +--| (97)
+               |     |              |  +--KX883080_Hubei_noda-like_virus_5
+               |     |           +--| (97)
+               |     |           |  +--MT753152_Mayapan_virus
+               |     |        +--| (100)
+               |     |        |  +--OL700048_XiangYun_tombus-noda-like_virus_11
+               |     +--------| (100)
+               |              +--MW897098_Henan_sediment_noda-like_virus_2
+            +--| (39)
+            |  |  +-------------NC_003691_Pariacoto_virus
+            |  +--| (44)
+            |     |      +-------ON049869_Nodaviridae_sp_
+            |     |   +--| (100)
+            |     |   |  +-------MW897103_Sichuan_forest_noda-like_virus_5
+            |     +---| (100)
+            |         +----------KX883167_Hubei_noda-like_virus_6
+         +--| (100)
+         |  |                                            +--Murmaxied_virus_F1531C222F1533
+         |  |                                         +--| (89)
+         |  |                                         |  +--Murmaxied_virus_F1531C222F1534
+         |  |                                      +--| (82)
+         |  |                                      |  +--Murmaxied_virus_F1531C222F1537
+         |  |                                   +--| (38)
+         |  |                                   |  |  +--Murmaxied_virus_F1531C222F1531
+         |  |                                   |  +--| (73)
+         |  |                                   |     +--Murmaxied_virus_F1531C222F1532
+         |  |                                +--| (95)
+         |  |                                |  +--Murmaxied_virus_F1531C222F1527
+         |  |                             +--| (95)
+         |  |                             |  +--Murmaxied_virus_F1531C222F1217
+         |  |              +--------------| (100)
+         |  |              |              |     +--Murmaxied_virus_F1531C222F1093
+         |  |              |              |  +--| (84)
+         |  |              |              |  |  +--Murmaxied_virus_F1531C222F1094
+         |  |              |              +--| (89)
+         |  |              |                 +--Murmaxied_virus_F1531C222F1096
+         |  |           +--| (74)
+         |  |           |  |             +--NC_033139_Sanxia_water_strider_virus_16
+         |  |           |  |         +---| (100)
+         |  |           |  |         |   +--MZ443627_Nelson_wasp-associated_virus_3
+         |  |           |  +---------| (100)
+         |  |           |            +---OL700186_XiangYun_tombus-noda-like_virus_7
+         |  |        +--| (50)
+         |  |        |  |          +---------KP263548_Lunovirus
+         |  |        |  |     +----| (100)
+         |  |        |  |     |    +-----KY214439_Caninovirus_sp_
+         |  |        |  |  +--| (86)
+         |  |        |  |  |  +-----------------OL700180_XiangYun_tombus-noda-like_virus_1
+         |  |        |  +--| (85)
+         |  |        |     |  +-------------ON049855_Nodaviridae_sp_
+         |  |        |     +--| (100)
+         |  |        |        +------------KX883225_Hubei_noda-like_virus_7
+         |  |     +--| (98)
+         |  |     |  |                +--ON049805_Nodaviridae_sp_
+         |  |     |  |           +----| (100)
+         |  |     |  |           |    +--MW897073_Xinjiang_sediment_noda-like_virus_2
+         |  |     |  +-----------| (100)
+         |  |     |              +------MW826493_Nodaviridae_sp_
+         |  |  +--| (99)
+         |  |  |  |                         +--KX883130_Hubei_noda-like_virus_9
+         |  |  |  |                     +---| (100)
+         |  |  |  |                     |   +--NC_033307_Hubei_noda-like_virus_9
+         |  |  |  |                  +--| (100)
+         |  |  |  |                  |  +---MK533155_Tetranychus_urticae-associated_nodavirus_A
+         |  |  |  |               +--| (90)
+         |  |  |  |               |  |  +---ON746452_Tianjin_Nodav_tick_virus_1
+         |  |  |  |               |  +--| (100)
+         |  |  |  |               |     +--OL472289_Koper_noda-like_virus_3
+         |  |  |  |       +-------| (100)
+         |  |  |  |       |       +---OL700185_XiangYun_tombus-noda-like_virus_6
+         |  |  |  |    +--| (96)
+         |  |  |  |    |  |                +--KX883237_Hubei_noda-like_virus_8
+         |  |  |  |    |  |          +-----| (100)
+         |  |  |  |    |  |          |     +--NC_033309_Hubei_noda-like_virus_8
+         |  |  |  |    |  +----------| (100)
+         |  |  |  |    |             +--------MK533156_Tetranychus_urticae-associated_nodavirus_B
+         |  |  |  +----| (100)
+         |  |  |       +------------------OL472290_Koper_noda-like_virus_4
+         |  +--| (77)
+         |     |              +----MW239321_Riboviria_sp_
+         |     +--------------| (100)
+         |                    +-----MZ375165_Riboviria_sp_
+      +--| (100)
+      |  |                   +--OM954246_Flumine_nodavirus_11
+      |  |    +--------------| (100)
+      |  |    |              +--OM953982_Flumine_nodavirus_10
+      |  +----| (100)
+      |       |  +-------------MW239203_Riboviria_sp_
+      |       +--| (100)
+      |          +-----------OL700188_XiangYun_tombus-noda-like_virus_9
+   +--| (100)
+   |  |                       +--KX883125_Hubei_noda-like_virus_12
+   |  |                    +--| (100)
+   |  |                    |  +--MW897072_Beijing_sediment_noda-like_virus_4
+   |  |               +----| (100)
+   |  |               |    +--MN513380_Hammarskog_noda-like_virus
+   |  |            +--| (100)
+   |  |            |  +---NC_033077_Sanxia_water_strider_virus_17
+   |  |         +--| (100)
+   |  |         |  |              +--KX883010_Hubei_noda-like_virus_11
+   |  |         |  |           +--| (100)
+   |  |         |  |           |  +--MT096526_Hubei_noda-like_virus_11
+   |  |         |  +-----------| (100)
+   |  |         |              +--MW897075_Beijing_sediment_noda-like_virus_6
+   |  |  +------| (100)
+   |  |  |      +--------GU976287_Alphanodavirus_HB-2007_CHN
+   |  +--| (100)
+   |     |            +--MT138113_Nodaviridae_sp_
+   |     +------------| (100)
+   |                  +--MN918672_Picornavirales_sp_
++--| (94)
+|  +-------------------------NC_032760_Beihai_sphaeromadae_virus_2
+|
+|                                                                                          +--MG874757_Redspotted_grouper_nervous_necrosis_virus
+|                                                                                       +--| (12)
+|                                                                                       |  |  +--KU705814_Mouse_grouper_Nervous_Necrosis_Virus
+|                                                                                       |  +--| (21)
+|                                                                                       |     +--KF668184_Redspotted_grouper_nervous_necrosis_virus
+|                                                                                    +--| (20)
+|                                                                                    |  +--KP455643_Redspotted_grouper_nervous_necrosis_virus
+|                                                                                 +--| (27)
+|                                                                                 |  +--MN309751_Hulong_grouper_nervous_necrosis_virus
+|                                                                              +--| (38)
+|                                                                              |  +--MZ527260_Redspotted_grouper_nervous_necrosis_virus
+|                                                                           +--| (11)
+|                                                                           |  +--KY354681_Redspotted_grouper_nervous_necrosis_virus
+|                                                                        +--| (6)
+|                                                                        |  |     +--HQ859895_Tiger_grouper_Nervous_Necrosis_Virus
+|                                                                        |  |  +--| (43)
+|                                                                        |  |  |  |  +--NC_013460_Tiger_puffer_nervous_necrosis_virus
+|                                                                        |  |  |  +--| (94)
+|                                                                        |  |  |     +--OL955905_Solea_solea_betanodavirus
+|                                                                        |  +--| (11)
+|                                                                        |     |  +--JN189865_Striped_jack_nervous_necrosis_virus
+|                                                                        |     +--| (97)
+|                                                                        |        +--OM513982_Betanodavirus_sp_
+|                                                                     +--| (4)
+|                                                                     |  |  +--HQ859908_Tiger_grouper_Nervous_Necrosis_Virus
+|                                                                     |  +--| (99)
+|                                                                     |     +--HQ859911_Asian_seabass_Nervous_Necrosis_Virus
+|                                                                  +--| (9)
+|                                                                  |  |  +--AY721616_Redspotted_grouper_nervous_necrosis_virus
+|                                                                  |  +--| (10)
+|                                                                  |     +--FJ803915_Sea_bass_Iberian_betanodavirus
+|                                                               +--| (15)
+|                                                               |  +--AB373028_Redspotted_grouper_nervous_necrosis_virus
+|                                                            +--| (43)
+|                                                            |  |  +--NC_008040_Redspotted_grouper_nervous_necrosis_virus
+|                                                            |  +--| (100)
+|                                                            |     +--FJ748760_Redspotted_grouper_nervous_necrosis_virus
+|                                                         +--| (56)
+|                                                         |  |           +--MN097800_Betanodavirus_sp_
+|                                                         |  |        +--| (100)
+|                                                         |  |        |  +--MN097798_Betanodavirus_sp_
+|                                                         |  |     +--| (100)
+|                                                         |  |     |  +--KT390713_Grouper_betanodavirus
+|                                                         |  |  +--| (31)
+|                                                         |  |  |  +--MZ054261_Redspotted_grouper_nervous_necrosis_virus
+|                                                         |  +--| (54)
+|                                                         |     +--HQ859913_Tiger_grouper_Nervous_Necrosis_Virus
+|                                                      +--| (49)
+|                                                      |  +--GQ402010_Redspotted_grouper_nervous_necrosis_virus
+|                                                   +--| (76)
+|                                                   |  +--FJ789783_Redspotted_grouper_nervous_necrosis_virus
+|                                                +--| (77)
+|                                                |  |  +--GQ402012_Redspotted_grouper_nervous_necrosis_virus
+|                                                |  +--| (100)
+|                                                |     |     +--NC_024492_Senegalese_sole_Iberian_betanodavirus
+|                                                |     |  +--| (99)
+|                                                |     |  |  |        +--JN189831_Redspotted_grouper_nervous_necrosis_virus
+|                                                |     |  |  |     +--| (42)
+|                                                |     |  |  |     |  +--JN189833_Striped_jack_nervous_necrosis_virus
+|                                                |     |  |  |  +--| (29)
+|                                                |     |  |  |  |  |  +--KY354688_Redspotted_grouper_nervous_necrosis_virus
+|                                                |     |  |  |  |  +--| (37)
+|                                                |     |  |  |  |     +--KY354693_Redspotted_grouper_nervous_necrosis_virus
+|                                                |     |  |  +--| (100)
+|                                                |     |  |     +--OL955902_Striped_jack_nervous_necrosis_virus
+|                                                |     +--| (100)
+|                                                |        +--JN189909_Striped_jack_nervous_necrosis_virus
+|                                             +--| (77)
+|                                             |  +--MZ449210_Redspotted_grouper_nervous_necrosis_virus
+|                                          +--| (67)
+|                                          |  +--HQ859900_Golden_pompano_nervous_necrosis_virus
+|                                       +--| (64)
+|                                       |  +--AY369136_Redspotted_grouper_nervous_necrosis_virus
+|                      +----------------| (100)
+|                      |                +--KY315688_Redspotted_grouper_nervous_necrosis_virus
+|                  +---| (99)
+|                  |   |              +--KX883026_Beihai_noda-like_virus_17
+|                  |   +--------------| (100)
+|                  |                  +--KX883058_Beihai_noda-like_virus_17
+|              +---| (99)
+|              |   +----------------------NC_032172_Beihai_noda-like_virus_18
+|           +--| (97)
+|           |  |             +---------------------------KX883056_Beihai_mantis_shrimp_virus_6
+|           |  +-------------| (100)
+|           |                +------------------------KX883019_Beihai_noda-like_virus_26
+|        +--| (80)
+|        |  |                                              +--KP969992_Craigies_Hill_virus
+|        |  |                                           +--| (100)
+|        |  |                                           |  +--KP969988_Craigies_Hill_virus
+|        |  |                                        +--| (100)
+|        |  |                                        |  +--KP969990_Craigies_Hill_virus
+|        |  |                                     +--| (100)
+|        |  |                                     |  +--KP969989_Craigies_Hill_virus
+|        |  |                                  +--| (100)
+|        |  |                                  |  +--KP969987_Craigies_Hill_virus
+|        |  |                               +--| (97)
+|        |  |                               |  |  +--KP969981_Craigies_Hill_virus
+|        |  |                               |  +--| (50)
+|        |  |                               |     |           +--MH384328_Craigies_Hill_virus
+|        |  |                               |     |        +--| (100)
+|        |  |                               |     |        |  +--MH384347_Craigies_Hill_virus
+|        |  |                               |     |     +--| (52)
+|        |  |                               |     |     |  +--KP969982_Craigies_Hill_virus
+|        |  |                               |     |  +--| (43)
+|        |  |                               |     |  |  +--KP969980_Craigies_Hill_virus
+|        |  |                               |     +--| (99)
+|        |  |                               |        +--KP969979_Craigies_Hill_virus
+|        |  |                            +--| (98)
+|        |  |                            |  +--KP969985_Craigies_Hill_virus
+|        |  |                         +--| (99)
+|        |  |                         |  |           +--KP969975_Craigies_Hill_virus
+|        |  |                         |  |        +--| (55)
+|        |  |                         |  |        |  +--KP969978_Craigies_Hill_virus
+|        |  |                         |  |     +--| (96)
+|        |  |                         |  |     |  +--KP969971_Craigies_Hill_virus
+|        |  |                         |  |  +--| (90)
+|        |  |                         |  |  |  +--KP969973_Craigies_Hill_virus
+|        |  |                         |  +--| (97)
+|        |  |                         |     |  +--KP969972_Craigies_Hill_virus
+|        |  |                         |     +--| (100)
+|        |  |                         |        +--KP714084_Craigies_Hill_virus
+|        |  |              +----------| (100)
+|        |  |              |          +--KU754526_Craigmillar_Park_virus
+|        |  |     +--------| (100)
+|        |  |     |        |     +------MW310387_Zeugodacus_tau_noda-like_virus_isolate_Bz
+|        |  |     |        |  +--| (100)
+|        |  |     |        |  |  |  +--------MZ443596_Leuven_Nodavirus-like_1
+|        |  |     |        |  |  +--| (99)
+|        |  |     |        |  |     +----------NC_032872_Hubei_diptera_virus_16
+|        |  |     |        +--| (100)
+|        |  |     |           |           +--KX883139_Hubei_noda-like_virus_13
+|        |  |     |           +-----------| (100)
+|        |  |     |                       +--KX883162_Hubei_noda-like_virus_13
+|        |  |  +--| (51)
+|        |  |  |  +-------------------------KX883140_Hubei_noda-like_virus_15
+|        |  +--| (93)
+|        |     |                              +--OL472284_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |                           +--| (97)
+|        |     |                           |  +--OL472285_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |                        +--| (97)
+|        |     |                        |  |  +--OL472283_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |                        |  +--| (98)
+|        |     |                        |     +--OL472287_Leveillula_taurica_associated_noda-like_virus_1
+|        |     |  +---------------------| (100)
+|        |     |  |                     +--OL472286_Leveillula_taurica_associated_noda-like_virus_1
+|        |     +--| (47)
+|        |        +----------------HM228873_Bat_guano_associated_nodavirus_GF-4n
+|     +--| (60)
+|     |  |                            +--Easynal_virus_F1383C255F1384
+|     |  +----------------------------| (100)
+|     |                               |        +--Easynal_virus_F1383C255F1383
+|     |                               |     +--| (86)
+|     |                               |     |  +--Easynal_virus_F1383C255F1375
+|     |                               |  +--| (33)
+|     |                               |  |  |  +--Easynal_virus_F1383C255F1385
+|     |                               |  |  +--| (47)
+|     |                               |  |     +--Easynal_virus_F1383C255F1380
+|     |                               +--| (45)
+|     |                                  +--Easynal_virus_F1383C255F1374
+|  +--| (58)
+|  |  |                             +-------------MF190050_Barns_Ness_serrated_wrack_noda-like_virus_2
+|  |  |                          +--| (99)
+|  |  |                          |  +----------------------KF510033_Betegovirus_SF
+|  |  |                       +--| (100)
+|  |  |                       |  +--------------------AB083060_Sclerophthora_macrospora_virus_A
+|  |  |                    +--| (85)
+|  |  |                    |  +------------------------------MF190049_Barns_Ness_serrated_wrack_noda-like_virus_1
+|  |  |                +---| (100)
+|  |  |                |   +--------------------------KX883034_Beihai_noda-like_virus_4
+|  |  |       +--------| (100)
+|  |  |       |        +--------------------------NC_033166_Wenzhou_bivalvia_virus_3
+|  |  |    +--| (99)
+|  |  |    |  |            +-----------MW897065_Sichuan_sediment_noda-like_virus_4
+|  |  |    |  +------------| (100)
+|  |  |    |               +-----------MW897125_Sichuan_sediment_noda-like_virus_13
+|  |  +----| (100)
+|  |       +---------------------KX883059_Beihai_noda-like_virus_5
++--| (100)
+|  |                     +----MN617794_Erysiphe_necator_associated_nodavirus_4
+|  |              +------| (100)
+|  |              |      +----MN617791_Erysiphe_necator_associated_nodavirus_1
+|  |        +-----| (100)
+|  |        |     +------------KX774634_Lone_star_tick_nodavirus
+|  |     +--| (76)
+|  |     |  +--------------NC_032647_Beihai_shrimp_virus_6
+|  |  +--| (69)
+|  |  |  |                 +--MT085291_Riboviria_sp_
+|  |  |  |     +-----------| (100)
+|  |  |  |     |           +--MT085295_Riboviria_sp_
+|  |  |  +-----| (100)
+|  |  |        +----------MZ209970_Sanya_nodavirus_1
+|  +--| (100)
+|     |              +--------OM954249_Flumine_nodavirus_17
+|     +--------------| (100)
+|                    +-----OM953985_Flumine_nodavirus_16
+|
++-------------------------BK059724_Opistofel_virus
+
+
+Consensus tree in newick format: 
+
+((((((((((((((MN862357_Emilia_sonchifolia_noda-like_virus:0.4112210354,MW239267_Riboviria_sp_:0.3379083255)100:0.0996644442,MT482496_PNG_bee_virus_14:0.4554311865)75:0.0540314546,MT317176_Rice_Noda-like_virus:0.3877323815)100:0.1476798601,(OL472288_Koper_noda-like_virus_2:0.2178117358,ON260786_rice-associated_noda-like_virus_1:0.1643618629)100:0.4782373691)100:0.1228695035,MW239460_Riboviria_sp_:0.6963824325)100:0.3014115707,(((ON049872_Nodaviridae_sp_:0.8078537231,KX883009_Hubei_noda-like_virus_10:0.4867359872)100:0.1930911541,ON872547_Bat_faecal_associated_nodavirus_3:0.7484396414)100:0.1484865272,(MW239448_Riboviria_sp_:0.3223421039,MW239466_Riboviria_sp_:0.3057521465)100:0.6403435607)99:0.0985417525)99:0.0758680882,((((((((MW826495_Nodaviridae_sp_:0.0276562812,MW897079_Guangxi_forest_noda-like_virus:0.0166686660)100:0.0194259551,MW897128_Henan_sediment_noda-like_virus_4:0.0284057957)100:0.1566886773,MW314615_Lasius_neglectus_noda-like_virus_1:0.2317156151)99:0.0815715627,OP884074_Army_ant_associated_Nodavirus_3:0.3224272221)100:0.2181271278,KJ632942_Mosinovirus:0.2909299569)100:0.1647419532,NC_033311_Hubei_orthoptera_virus_4:0.4218843162)100:0.1101162287,OM954255_Flumine_nodavirus_27:0.7941365332)62:0.0721675423,(MW239459_Riboviria_sp_:0.7068036426,NC_032732_Shuangao_insect_virus_10:0.7222776453)63:0.0969166606)100:0.1985703266)69:0.0804359895,((((((MZ209797_Guiyang_nodavirus_1:0.0044574961,MW897119_Zhejiang_farmland_noda-like_virus:0.0000020951)100:0.0012096215,MZ209764_Guiyang_nodavirus_1:0.0000020951)100:0.2860781148,(OM954257_Flumine_nodavirus_3:0.1262434029,MW897091_Sichuan_forest_noda-like_virus_3:0.2274784087)83:0.0493936501)96:0.0764465459,AY962576_Pieris_rapae_virus:0.3682151879)100:0.1702085382,((KX883132_Wuhan_house_centipede_virus_6:0.0035135020,KX883198_Wuhan_house_centipede_virus_6:0.0011047360)100:0.0342168185,NC_033482_Wuhan_house_centipede_virus_6:0.0266542930)100:0.2955875277)100:0.5215729964,(((((MH719096_Mayapan_virus:0.0520890918,MH794142_Culannivirus_DW-2019a:0.0232849981)99:0.0157108370,KX883080_Hubei_noda-like_virus_5:0.0465511609)97:0.0160450034,MT753152_Mayapan_virus:0.0495318584)97:0.0423282465,OL700048_XiangYun_tombus-noda-like_virus_11:0.0888785319)100:0.1963408189,MW897098_Henan_sediment_noda-like_virus_2:0.1901523444)100:0.4830090964)99:0.1760288787)61:0.0827149725,(NC_003691_Pariacoto_virus:0.7526301821,((ON049869_Nodaviridae_sp_:0.4602796241,MW897103_Sichuan_forest_noda-like_virus_5:0.4218816092)100:0.1235446720,KX883167_Hubei_noda-like_virus_6:0.5842572891)100:0.2260090428)44:0.0584209172)39:0.0471202695,(((((((((((Murmaxied_virus_F1531C222F1533:0.0000020951,Murmaxied_virus_F1531C222F1534:0.0000020951)89:0.0000020951,Murmaxied_virus_F1531C222F1537:0.0000020951)82:0.0000020951,(Murmaxied_virus_F1531C222F1531:0.0011729649,Murmaxied_virus_F1531C222F1532:0.0000020951)73:0.0011748301)38:0.0000020951,Murmaxied_virus_F1531C222F1527:0.0011720832)95:0.0069811193,Murmaxied_virus_F1531C222F1217:0.0074192414)95:0.0069145838,((Murmaxied_virus_F1531C222F1093:0.0000020951,Murmaxied_virus_F1531C222F1094:0.0000020951)84:0.0000020951,Murmaxied_virus_F1531C222F1096:0.0011755624)89:0.0000026538)100:0.8079939136,((NC_033139_Sanxia_water_strider_virus_16:0.0317020189,MZ443627_Nelson_wasp-associated_virus_3:0.0333900419)100:0.2561822952,OL700186_XiangYun_tombus-noda-like_virus_7:0.2591615092)100:0.5491121488)74:0.1063927276,(((KP263548_Lunovirus:0.5233999851,KY214439_Caninovirus_sp_:0.3298875237)100:0.2683915846,OL700180_XiangYun_tombus-noda-like_virus_1:0.9485338403)86:0.1100731860,(ON049855_Nodaviridae_sp_:0.7594631736,KX883225_Hubei_noda-like_virus_7:0.7008492782)100:0.1943244279)85:0.0884290486)50:0.0520115955,((ON049805_Nodaviridae_sp_:0.0000020951,MW897073_Xinjiang_sediment_noda-like_virus_2:0.0000020969)100:0.3060780056,MW826493_Nodaviridae_sp_:0.3932262155)100:0.6308346683)98:0.0883312036,((((((KX883130_Hubei_noda-like_virus_9:0.0091110318,NC_033307_Hubei_noda-like_virus_9:0.0059711937)100:0.2426000899,MK533155_Tetranychus_urticae-associated_nodavirus_A:0.2351457803)100:0.1238638881,(ON746452_Tianjin_Nodav_tick_virus_1:0.2085075602,OL472289_Koper_noda-like_virus_3:0.2069417510)100:0.1962488315)90:0.0681874423,OL700185_XiangYun_tombus-noda-like_virus_6:0.2225807334)100:0.4312730968,((KX883237_Hubei_noda-like_virus_8:0.0000020951,NC_033309_Hubei_noda-like_virus_8:0.0000020951)100:0.3134240679,MK533156_Tetranychus_urticae-associated_nodavirus_B:0.4810340532)100:0.6111279862)96:0.1047558189,OL472290_Koper_noda-like_virus_4:1.0021258861)100:0.2701133764)99:0.0989344950,(MW239321_Riboviria_sp_:0.2618486859,MZ375165_Riboviria_sp_:0.3559850570)100:0.8048700834)77:0.0629178501)100:0.1182984056,((OM954246_Flumine_nodavirus_11:0.0016439628,OM953982_Flumine_nodavirus_10:0.0000028540)100:0.7825184215,(MW239203_Riboviria_sp_:0.7590591442,OL700188_XiangYun_tombus-noda-like_virus_9:0.6533618048)100:0.1691520097)100:0.2617603771)100:0.1503811283,((((((KX883125_Hubei_noda-like_virus_12:0.0622778931,MW897072_Beijing_sediment_noda-like_virus_4:0.0874184954)100:0.0345848938,MN513380_Hammarskog_noda-like_virus:0.1097908865)100:0.3112213901,NC_033077_Sanxia_water_strider_virus_17:0.2570397838)100:0.1252900332,((KX883010_Hubei_noda-like_virus_11:0.0041150976,MT096526_Hubei_noda-like_virus_11:0.0028075073)100:0.0344876582,MW897075_Beijing_sediment_noda-like_virus_6:0.1367181302)100:0.6633637876)100:0.1210278327,GU976287_Alphanodavirus_HB-2007_CHN:0.4705564407)100:0.3775400138,(MT138113_Nodaviridae_sp_:0.0126216716,MN918672_Picornavirales_sp_:0.0017149806)100:0.6799258837)100:0.2015210475)100:0.1163732798,NC_032760_Beihai_sphaeromadae_virus_2:1.3989163428)94:0.0535361101,(((((((((((((((((((((((((MG874757_Redspotted_grouper_nervous_necrosis_virus:0.0000020951,(KU705814_Mouse_grouper_Nervous_Necrosis_Virus:0.0023004445,KF668184_Redspotted_grouper_nervous_necrosis_virus:0.0022988925)21:0.0000020951)12:0.0000020951,KP455643_Redspotted_grouper_nervous_necrosis_virus:0.0023003053)20:0.0000020951,MN309751_Hulong_grouper_nervous_necrosis_virus:0.0023055693)27:0.0000020951,MZ527260_Redspotted_grouper_nervous_necrosis_virus:0.0023008663)38:0.0011490513,KY354681_Redspotted_grouper_nervous_necrosis_virus:0.0011504912)11:0.0000020951,((HQ859895_Tiger_grouper_Nervous_Necrosis_Virus:0.0011362838,(NC_013460_Tiger_puffer_nervous_necrosis_virus:0.0610878896,OL955905_Solea_solea_betanodavirus:0.0613126015)94:0.0513574203)43:0.0011666674,(JN189865_Striped_jack_nervous_necrosis_virus:0.0000020951,OM513982_Betanodavirus_sp_:0.0011486788)97:0.0011494870)11:0.0000020951)6:0.0000020951,(HQ859908_Tiger_grouper_Nervous_Necrosis_Virus:0.0000020951,HQ859911_Asian_seabass_Nervous_Necrosis_Virus:0.0000020951)99:0.0011503021)4:0.0000020951,(AY721616_Redspotted_grouper_nervous_necrosis_virus:0.0000020951,FJ803915_Sea_bass_Iberian_betanodavirus:0.0000020951)10:0.0000020951)9:0.0000020951,AB373028_Redspotted_grouper_nervous_necrosis_virus:0.0023005217)15:0.0000020951,(NC_008040_Redspotted_grouper_nervous_necrosis_virus:0.0000020951,FJ748760_Redspotted_grouper_nervous_necrosis_virus:0.0011490257)100:0.0057741411)43:0.0011497181,((((MN097800_Betanodavirus_sp_:0.0000020951,MN097798_Betanodavirus_sp_:0.0000020951)100:0.0011490842,KT390713_Grouper_betanodavirus:0.0000020951)100:0.0011491132,MZ054261_Redspotted_grouper_nervous_necrosis_virus:0.0023085359)31:0.0000020951,HQ859913_Tiger_grouper_Nervous_Necrosis_Virus:0.0011490881)54:0.0000020951)56:0.0011506477,GQ402010_Redspotted_grouper_nervous_necrosis_virus:0.0000020951)49:0.0011232893,FJ789783_Redspotted_grouper_nervous_necrosis_virus:0.0046727835)76:0.0011572641,(GQ402012_Redspotted_grouper_nervous_necrosis_virus:0.0092602213,((NC_024492_Senegalese_sole_Iberian_betanodavirus:0.0000020951,(((JN189831_Redspotted_grouper_nervous_necrosis_virus:0.0000020951,JN189833_Striped_jack_nervous_necrosis_virus:0.0000020951)42:0.0000020951,(KY354688_Redspotted_grouper_nervous_necrosis_virus:0.0011446636,KY354693_Redspotted_grouper_nervous_necrosis_virus:0.0046028731)37:0.0000020951)29:0.0000020951,OL955902_Striped_jack_nervous_necrosis_virus:0.0022907302)100:0.0022930711)99:0.0011488048,JN189909_Striped_jack_nervous_necrosis_virus:0.0034482502)100:0.0022992495)100:0.0034787339)77:0.0016202634,MZ449210_Redspotted_grouper_nervous_necrosis_virus:0.0069256649)77:0.0052932666,HQ859900_Golden_pompano_nervous_necrosis_virus:0.0046000374)67:0.0011480020,AY369136_Redspotted_grouper_nervous_necrosis_virus:0.0000020951)64:0.0052582204,KY315688_Redspotted_grouper_nervous_necrosis_virus:0.0121935841)100:0.9002497433,(KX883026_Beihai_noda-like_virus_17:0.0000022846,KX883058_Beihai_noda-like_virus_17:0.0011923253)100:0.8261985880)99:0.2548785438,NC_032172_Beihai_noda-like_virus_18:1.2037726275)99:0.2309597614,(KX883056_Beihai_mantis_shrimp_virus_6:1.4679632705,KX883019_Beihai_noda-like_virus_26:1.3241077682)100:0.7397798725)97:0.1439354259,(((((((((((KP969992_Craigies_Hill_virus:0.0000020951,KP969988_Craigies_Hill_virus:0.0000020951)100:0.0011224117,KP969990_Craigies_Hill_virus:0.0000020951)100:0.0003460085,KP969989_Craigies_Hill_virus:0.0000020951)100:0.0014669425,KP969987_Craigies_Hill_virus:0.0000020951)100:0.0029372625,(KP969981_Craigies_Hill_virus:0.0000020951,((((MH384328_Craigies_Hill_virus:0.0028005031,MH384347_Craigies_Hill_virus:0.0000020951)100:0.0015057177,KP969982_Craigies_Hill_virus:0.0014687729)52:0.0000020969,KP969980_Craigies_Hill_virus:0.0015349455)43:0.0000020969,KP969979_Craigies_Hill_virus:0.0029397053)99:0.0015042546)50:0.0000020969)97:0.0015008431,KP969985_Craigies_Hill_virus:0.0000020951)98:0.0175090466,((((KP969975_Craigies_Hill_virus:0.0029389602,KP969978_Craigies_Hill_virus:0.0000020951)55:0.0000020951,KP969971_Craigies_Hill_virus:0.0014689118)96:0.0041893882,KP969973_Craigies_Hill_virus:0.0061592898)90:0.0046234193,(KP969972_Craigies_Hill_virus:0.0008708642,KP714084_Craigies_Hill_virus:0.0022362550)100:0.0059439452)97:0.0210737604)99:0.1189283561,KU754526_Craigmillar_Park_virus:0.1408430981)100:0.6217014023,((MW310387_Zeugodacus_tau_noda-like_virus_isolate_Bz:0.4003370107,(MZ443596_Leuven_Nodavirus-like_1:0.4942129727,NC_032872_Hubei_diptera_virus_16:0.6050097627)99:0.1188562462)100:0.1377759198,(KX883139_Hubei_noda-like_virus_13:0.0309714648,KX883162_Hubei_noda-like_virus_13:0.0378700705)100:0.6513258577)100:0.1350690760)100:0.4841914392,KX883140_Hubei_noda-like_virus_15:1.4036441616)51:0.1522839589,((((OL472284_Leveillula_taurica_associated_noda-like_virus_1:0.0000020951,OL472285_Leveillula_taurica_associated_noda-like_virus_1:0.0035245474)97:0.0011717713,(OL472283_Leveillula_taurica_associated_noda-like_virus_1:0.0000020951,OL472287_Leveillula_taurica_associated_noda-like_virus_1:0.0047118982)98:0.0023515198)97:0.0011732837,OL472286_Leveillula_taurica_associated_noda-like_virus_1:0.0000020969)100:1.1947282106,HM228873_Bat_guano_associated_nodavirus_GF-4n:0.9075376205)47:0.1439688502)93:0.0827967171)80:0.0477456592,(Easynal_virus_F1383C255F1384:0.0000020951,(((Easynal_virus_F1383C255F1383:0.0000026538,Easynal_virus_F1383C255F1375:0.0000020951)86:0.0000023849,(Easynal_virus_F1383C255F1385:0.0000020951,Easynal_virus_F1383C255F1380:0.0000020951)47:0.0000020951)33:0.0000024500,Easynal_virus_F1383C255F1374:0.0000020951)45:0.0000021224)100:1.5190596445)60:0.0518506134,(((((((MF190050_Barns_Ness_serrated_wrack_noda-like_virus_2:0.7617155445,KF510033_Betegovirus_SF:1.2267542355)99:0.1137870183,AB083060_Sclerophthora_macrospora_virus_A:1.1375938585)100:0.1931323940,MF190049_Barns_Ness_serrated_wrack_noda-like_virus_1:1.6576282929)85:0.0889674106,KX883034_Beihai_noda-like_virus_4:1.4559298141)100:0.2102222255,NC_033166_Wenzhou_bivalvia_virus_3:1.4219468738)100:0.5033885788,(MW897065_Sichuan_sediment_noda-like_virus_4:0.6366157118,MW897125_Sichuan_sediment_noda-like_virus_13:0.6654001339)100:0.7042529185)99:0.1246988080,KX883059_Beihai_noda-like_virus_5:1.1686030434)100:0.2881653921)58:0.0484193169,(((((MN617794_Erysiphe_necator_associated_nodavirus_4:0.2978496710,MN617791_Erysiphe_necator_associated_nodavirus_1:0.2955518571)100:0.4021376903,KX774634_Lone_star_tick_nodavirus:0.6854305085)100:0.3456096739,NC_032647_Beihai_shrimp_virus_6:0.8118058956)76:0.1276229447,((MT085291_Riboviria_sp_:0.0368383793,MT085295_Riboviria_sp_:0.0036435878)100:0.6372433089,MZ209970_Sanya_nodavirus_1:0.5936902202)100:0.3308295165)69:0.0914674526,(OM954249_Flumine_nodavirus_17:0.4782400896,OM953985_Flumine_nodavirus_16:0.3268393201)100:0.7971653849)100:0.1930159752)100:0.1985593250,BK059724_Opistofel_virus:1.3713981764);
+
+TIME STAMP
+----------
+
+Date and time: Wed Mar  1 19:44:00 2023
+Total CPU time used: 75660.73555 seconds (21h:1m:0s)
+Total wall-clock time used: 3891.107466 seconds (1h:4m:51s)
+

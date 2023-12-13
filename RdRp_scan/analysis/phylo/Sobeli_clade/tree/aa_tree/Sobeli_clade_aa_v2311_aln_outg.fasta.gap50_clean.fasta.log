@@ -1,0 +1,300 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1067 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o MW434821_Kellev_virus
+Seed:    149002 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Dec 14 13:14:31 2022
+Kernel:  AVX+FMA - auto-detect threads (95 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 85 sequences with 472 columns, 355 distinct patterns
+171 parsimony-informative, 46 singleton sites, 255 constant sites
+                                             Gap/Ambiguity  Composition  p-value
+   1  Peninsere_virus_F1127C300F1056                 0.00%    passed    100.00%
+   2  Pirounced_virus_F1032C17F1305                  0.00%    passed    100.00%
+   3  Pirounced_virus_F1032C17F1585                  0.00%    passed    100.00%
+   4  Pirounced_virus_F1032C17F1271                  0.00%    passed    100.00%
+   5  Pirounced_virus_F1032C17F1316                  0.00%    passed    100.00%
+   6  Pirounced_virus_F1032C17F1032                  0.00%    passed    100.00%
+   7  Pirounced_virus_F1032C17F1266                  3.39%    passed    100.00%
+   8  Pirounced_virus_F1032C17F1034                  4.87%    passed    100.00%
+   9  Pirounced_virus_F1032C17F1056                  0.00%    passed    100.00%
+  10  Peninsere_virus_F1127C300F1032                 4.66%    passed    100.00%
+  11  Pirounced_virus_F1032C17F1607                  0.00%    passed    100.00%
+  12  Peninsere_virus_F1127C300F1461                 0.00%    passed    100.00%
+  13  Pirounced_virus_F1032C17F1604                  0.00%    passed    100.00%
+  14  Pirounced_virus_F1032C17F1461                  0.00%    passed    100.00%
+  15  Pirounced_virus_F1032C17F1325                  0.00%    passed    100.00%
+  16  LC513833_Culex_inatomii_luteo-like_virus      25.64%    passed     99.82%
+  17  Peninsere_virus_F1127C300F1127                 0.00%    passed    100.00%
+  18  Peninsere_virus_F1127C300F1156                 0.00%    passed    100.00%
+  19  Pirounced_virus_F1032C17F1127                  0.00%    passed    100.00%
+  20  Peninsere_virus_F1127C300F1132                 0.00%    passed    100.00%
+  21  Peninsere_virus_F1127C300F1450                 0.00%    passed    100.00%
+  22  MW030476_Hubei_mosquito_virus_2               42.80%    passed     98.57%
+  23  KX882764_Hubei_mosquito_virus_2               25.64%    passed     99.92%
+  24  MW030482_Hubei_mosquito_virus_2               33.05%    passed     99.80%
+  25  MW030484_Hubei_mosquito_virus_2               25.64%    passed     99.92%
+  26  MW030472_Hubei_mosquito_virus_2               25.64%    passed     99.91%
+  27  MW030480_Hubei_mosquito_virus_2               32.42%    passed     99.94%
+  28  MW030488_Hubei_mosquito_virus_2               40.04%    passed     99.27%
+  29  MW030478_Hubei_mosquito_virus_2               42.16%    passed     98.31%
+  30  MW030486_Hubei_mosquito_virus_2               61.02%    passed     87.79%
+  31  MW030470_Hubei_mosquito_virus_2               42.16%    passed     98.78%
+  32  MW434902_Marma_virus                          37.50%    passed     99.96%
+  33  MW434875_Marma_virus                          34.32%    passed     99.99%
+  34  MW434863_Marma_virus                          25.64%    passed     99.96%
+  35  MW434872_Marma_virus                          25.64%    passed     99.96%
+  36  MK440646_Marma_virus                          25.64%    passed     99.98%
+  37  NC_033305_Hubei_mosquito_virus_2              25.64%    passed     99.89%
+  38  MT361063_Kisumu_mosquito_virus                24.58%    passed     99.70%
+  39  MH703049_Yongsan_sobemo-like_virus_1           6.57%    passed     99.99%
+  40  MN661099_Atrato_Sobemo-like_virus_5            6.57%    passed     99.79%
+  41  MN661097_Atrato_Sobemo-like_virus_5           13.35%    passed     98.02%
+  42  MN661107_Atrato_Sobemo-like_virus_5           10.17%    passed     99.12%
+  43  MT896210_Aedes_sobemo-like_virus               9.32%    passed     99.48%
+  44  MT896211_Aedes_sobemo-like_virus               7.63%    passed     99.99%
+  45  Guangzhou_sobemo_like_virus_F1517C31F1016      0.00%    passed    100.00%
+  46  Guangzhou_sobemo_like_virus_F1517C31F1083      0.00%    passed    100.00%
+  47  Guangzhou_sobemo_like_virus_F1517C31F1078      0.00%    passed    100.00%
+  48  Guangzhou_sobemo_like_virus_F1517C31F1517      0.00%    passed    100.00%
+  49  Guangzhou_sobemo_like_virus_F1517C31F1351      0.00%    passed    100.00%
+  50  Guangzhou_sobemo_like_virus_F1517C31F1339      0.00%    passed    100.00%
+  51  Guangzhou_sobemo_like_virus_F1517C31F1071      0.00%    passed    100.00%
+  52  MT361061_Guangzhou_sobemo-like_virus           6.78%    passed     99.99%
+  53  Guangzhou_sobemo_like_virus_F1517C31F1070      0.00%    passed    100.00%
+  54  Guangzhou_sobemo_like_virus_F1517C31F1073      0.00%    passed     99.99%
+  55  Guangzhou_sobemo_like_virus_F1517C31F1352      0.00%    passed     99.99%
+  56  Guangzhou_sobemo_like_virus_F1517C31F1171      0.00%    passed    100.00%
+  57  MT361059_Guangzhou_sobemo-like_virus           7.20%    passed    100.00%
+  58  MT361055_Guangzhou_sobemo-like_virus           7.20%    passed    100.00%
+  59  MT361053_Guangzhou_sobemo-like_virus           7.42%    passed    100.00%
+  60  Guangzhou_sobemo_like_virus_F1517C31F1017      0.00%    passed    100.00%
+  61  MT096519_Wenzhou_sobemo-like_virus_4           6.57%    passed    100.00%
+  62  MZ556263_Sichuan_mosquito_sobemo-like_virus    6.57%    passed    100.00%
+  63  NC_033138_Wenzhou_sobemo-like_virus_4          6.57%    passed    100.00%
+  64  MW434812_Guadeloupe_mosquito_virus             6.57%    passed    100.00%
+  65  MK285337_Renna_virus                          19.49%    passed     99.98%
+  66  MW434813_Guadeloupe_mosquito_virus             6.57%    passed    100.00%
+  67  MT361065_Kwale_mosquito_virus                  6.57%    passed     99.99%
+  68  MN053797_Guadeloupe_mosquito_virus             6.57%    passed    100.00%
+  69  MN053803_Guadeloupe_mosquito_virus             6.57%    passed    100.00%
+  70  MN053791_Guadeloupe_mosquito_virus             6.57%    passed    100.00%
+  71  MN053789_Guadeloupe_mosquito_virus             6.57%    passed    100.00%
+  72  MN053787_Guadeloupe_mosquito_virus             6.57%    passed    100.00%
+  73  Comfornsto_virus_F1216C3F1183                  3.60%    passed    100.00%
+  74  Comfornsto_virus_F1216C3F1216                  2.12%    passed    100.00%
+  75  Colokingly_virus_F1527C217F1100                0.00%    passed     99.97%
+  76  Colokingly_virus_F1527C217F1382                0.00%    passed     99.97%
+  77  Colokingly_virus_F1527C217F1534                0.00%    passed     99.97%
+  78  Colokingly_virus_F1527C217F1021                0.00%    passed     99.99%
+  79  Colokingly_virus_F1527C217F1094                0.00%    passed     99.97%
+  80  Colokingly_virus_F1527C217F1211                2.33%    passed     99.93%
+  81  Colokingly_virus_F1527C217F1381                7.42%    passed     99.96%
+  82  Colokingly_virus_F1527C217F1527                0.00%    passed     99.98%
+  83  Colokingly_virus_F1527C217F1096                0.00%    passed     99.98%
+  84  Colokingly_virus_F1527C217F1019                0.00%    passed     99.86%
+  85  MW434821_Kellev_virus                          6.57%    passed     99.96%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                          9.46%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Pirounced_virus_F1032C17F1305 is identical to Peninsere_virus_F1127C300F1056 but kept for subsequent analysis
+NOTE: Pirounced_virus_F1032C17F1604 is identical to Peninsere_virus_F1127C300F1461 but kept for subsequent analysis
+NOTE: Peninsere_virus_F1127C300F1156 is identical to Peninsere_virus_F1127C300F1127 but kept for subsequent analysis
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1083 is identical to Guangzhou_sobemo_like_virus_F1517C31F1016 but kept for subsequent analysis
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1352 is identical to Guangzhou_sobemo_like_virus_F1517C31F1073 but kept for subsequent analysis
+NOTE: Colokingly_virus_F1527C217F1382 is identical to Colokingly_virus_F1527C217F1100 but kept for subsequent analysis
+NOTE: 14 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Pirounced_virus_F1032C17F1585 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1271 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1316 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1032 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1056 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1461 (identical to Peninsere_virus_F1127C300F1461) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1127 (identical to Peninsere_virus_F1127C300F1127) is ignored but added at the end
+NOTE: Peninsere_virus_F1127C300F1132 (identical to Peninsere_virus_F1127C300F1127) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1078 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1517 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1351 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1339 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1071 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Colokingly_virus_F1527C217F1094 (identical to Colokingly_virus_F1527C217F1100) is ignored but added at the end
+Alignment was printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Measuring multi-threading efficiency up to 95 CPU cores
+Increase to 10 rounds for branch lengths
+103 trees examined
+Threads: 1 / Time: 95.098 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -12820
+Threads: 2 / Time: 53.379 sec / Speedup: 1.782 / Efficiency: 89% / LogL: -12820
+Threads: 3 / Time: 44.801 sec / Speedup: 2.123 / Efficiency: 71% / LogL: -12820
+Threads: 4 / Time: 44.328 sec / Speedup: 2.145 / Efficiency: 54% / LogL: -12820
+Threads: 5 / Time: 41.525 sec / Speedup: 2.290 / Efficiency: 46% / LogL: -12820
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4917.648
+Optimal log-likelihood: -4917.647
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 0.561
+Parameters optimization took 1 rounds (0.173 sec)
+Time for fast ML tree search: 1.644 seconds
+
+NOTE: ModelFinder requires 42 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 472) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            5205.559     139 10689.118    10806.346    11266.938
+  2  LG+I          5015.355     140 10310.711    10429.985    10892.688
+  3  LG+G4         4921.790     140 10123.580    10242.854    10705.557
+  4  LG+I+G4       4917.652     141 10117.303    10238.649    10703.437
+  5  LG+R2         4925.138     141 10132.277    10253.622    10718.411
+  6  LG+R3         4902.338     143 10090.675    10216.236    10685.123
+  7  LG+R4         4902.138     145 10094.276    10224.153    10697.038
+ 19  LG+F+R3       4900.934     162 10125.868    10296.780    10799.298
+ 32  WAG+R3        4913.569     143 10113.139    10238.700    10707.587
+ 45  WAG+F+R3      4899.020     162 10122.040    10292.953    10795.471
+ 58  JTT+R3        4905.696     143 10097.393    10222.954    10691.841
+ 71  JTT+F+R3      4899.963     162 10123.927    10294.839    10797.357
+ 84  JTTDCMut+R3   4904.784     143 10095.569    10221.130    10690.017
+ 97  JTTDCMut+F+R3 4898.608     162 10121.216    10292.129    10794.647
+110  DCMut+R3      4958.520     143 10203.040    10328.601    10797.488
+123  DCMut+F+R3    4925.696     162 10175.391    10346.304    10848.822
+136  VT+R3         4919.758     143 10125.516    10251.077    10719.964
+149  VT+F+R3       4915.368     162 10154.735    10325.648    10828.166
+162  PMB+R3        4944.930     143 10175.860    10301.421    10770.308
+175  PMB+F+R3      4949.290     162 10222.581    10393.493    10896.011
+188  Blosum62+R3   4943.959     143 10173.918    10299.479    10768.366
+201  Blosum62+F+R3 4947.771     162 10219.541    10390.454    10892.972
+214  Dayhoff+R3    4958.458     143 10202.916    10328.477    10797.364
+227  Dayhoff+F+R3  4925.643     162 10175.286    10346.199    10848.717
+240  mtREV+R3      5168.090     143 10622.179    10747.740    11216.627
+253  mtREV+F+R3    4964.343     162 10252.685    10423.598    10926.116
+266  mtART+R3      5217.823     143 10721.647    10847.208    11316.095
+279  mtART+F+R3    5018.890     162 10361.780    10532.693    11035.211
+292  mtZOA+R3      5119.372     143 10524.744    10650.305    11119.192
+305  mtZOA+F+R3    4963.725     162 10251.449    10422.362    10924.880
+318  mtMet+R3      5169.408     143 10624.817    10750.378    11219.265
+331  mtMet+F+R3    4965.211     162 10254.421    10425.334    10927.852
+344  mtVer+R3      5226.185     143 10738.370    10863.931    11332.818
+357  mtVer+F+R3    5030.685     162 10385.370    10556.282    11058.800
+370  mtInv+R3      5202.404     143 10690.808    10816.369    11285.256
+383  mtInv+F+R3    4943.852     162 10211.705    10382.618    10885.136
+396  mtMAM+R3      5268.353     143 10822.707    10948.267    11417.155
+409  mtMAM+F+R3    5066.719     162 10457.437    10628.350    11130.868
+422  HIVb+R3       4964.429     143 10214.857    10340.418    10809.305
+435  HIVb+F+R3     4961.322     162 10246.644    10417.557    10920.075
+448  HIVw+R3       5151.888     143 10589.777    10715.338    11184.225
+461  HIVw+F+R3     5072.958     162 10469.915    10640.828    11143.346
+474  FLU+R3        4984.282     143 10254.564    10380.125    10849.012
+487  FLU+F+R3      4943.881     162 10211.762    10382.675    10885.193
+500  rtREV+R3      4935.483     143 10156.966    10282.527    10751.414
+513  rtREV+F+R3    4922.227     162 10168.454    10339.367    10841.885
+526  cpREV+R3      4920.371     143 10126.743    10252.304    10721.191
+539  cpREV+F+R3    4908.496     162 10140.993    10311.906    10814.423
+Akaike Information Criterion:           LG+R3
+Corrected Akaike Information Criterion: LG+R3
+Bayesian Information Criterion:         LG+R3
+Best-fit model: LG+R3 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 892.394 seconds (0h:14m:52s)
+Wall-clock time for ModelFinder: 338.016 seconds (0h:5m:38s)
+Generating 1000 samples for ultrafast bootstrap (seed: 149002)...
+
+NOTE: 13 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4902.338
+Optimal log-likelihood: -4902.257
+Site proportion and rates:  (0.709,0.173) (0.221,1.804) (0.070,6.843)
+Parameters optimization took 1 rounds (0.298 sec)
+Computing ML distances based on estimated model parameters... 0.441 sec
+Computing BIONJ tree...
+0.008 seconds
+Log-likelihood of BIONJ tree: -4952.224
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.210 second
+Computing log-likelihood of 98 initial trees ... 3.485 seconds
+Current best score: -4902.257
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4902.195
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -4897.083
+Iteration 10 / LogL: -4899.270 / Time: 0h:0m:17s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -4895.477
+Iteration 20 / LogL: -4901.555 / Time: 0h:0m:28s
+Finish initializing candidate tree set (20)
+Current best tree score: -4895.477 / CPU time: 27.626
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -4895.484 / Time: 0h:0m:39s (0h:1m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -4894.908
+BETTER TREE FOUND at iteration 35: -4894.906
+Iteration 40 / LogL: -4894.911 / Time: 0h:0m:53s (0h:2m:10s left)
+Iteration 50 / LogL: -4899.852 / Time: 0h:1m:7s (0h:1m:56s left)
+Log-likelihood cutoff on original alignment: -4921.186
+Iteration 60 / LogL: -4895.995 / Time: 0h:1m:19s (0h:1m:41s left)
+Iteration 70 / LogL: -4894.909 / Time: 0h:1m:32s (0h:1m:26s left)
+Iteration 80 / LogL: -4896.560 / Time: 0h:1m:46s (0h:1m:13s left)
+Iteration 90 / LogL: -4898.778 / Time: 0h:1m:59s (0h:1m:0s left)
+Iteration 100 / LogL: -4928.980 / Time: 0h:2m:13s (0h:0m:47s left)
+Log-likelihood cutoff on original alignment: -4921.186
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -4948.414 / Time: 0h:2m:30s (0h:2m:3s left)
+Iteration 120 / LogL: -4894.911 / Time: 0h:2m:42s (0h:1m:49s left)
+Iteration 130 / LogL: -4895.465 / Time: 0h:2m:55s (0h:1m:35s left)
+TREE SEARCH COMPLETED AFTER 136 ITERATIONS / Time: 0h:3m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4894.906
+Optimal log-likelihood: -4894.901
+Site proportion and rates:  (0.721,0.174) (0.217,1.922) (0.063,7.307)
+Parameters optimization took 1 rounds (0.283 sec)
+BEST SCORE FOUND : -4894.901
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 2.155
+
+Total number of iterations: 136
+CPU time used for tree search: 543.227 sec (0h:9m:3s)
+Wall-clock time used for tree search: 183.682 sec (0h:3m:3s)
+Total CPU time used: 546.294 sec (0h:9m:6s)
+Total wall-clock time used: 184.875 sec (0h:3m:4s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+71 taxa and 935 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -4894.923
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Wed Dec 14 13:23:14 2022

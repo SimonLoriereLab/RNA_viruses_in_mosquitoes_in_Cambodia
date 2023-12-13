@@ -1,0 +1,68 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=8;
+TAXLABELS
+[1] 'Andiett_virus_F1132C2F1132'
+[2] 'Andbire_virus_F1046C18F1046'
+[3] 'MZ852358_Drosophila-associated_totivirus_5'
+[4] 'MT129768_Keenan_toti-like_virus'
+[5] 'MZ852363_Drosophila-associated_totivirus_4'
+[6] 'OP020048_Hanko_toti-like_virus_1'
+[7] 'BK059880_Aloadae_toti-like_virus_2'
+[8] 'ON746544_Jiamusi_Totiv_tick_virus_1'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=8 nsplits=45;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	100	 1 2,
+	100	 3,
+	100	 5,
+	64	 3 5,
+	100	 4,
+	100	 7,
+	29	 4 7,
+	30	 1 2 6 8,
+	54	 6 8,
+	100	 8,
+	100	 6,
+	11	 3 4 7,
+	26	 1 2 3 5,
+	10	 1 2 6,
+	24	 4 7 8,
+	45	 7 8,
+	3	 1 2 5,
+	5	 1 2 5 6,
+	19	 3 4 5,
+	2	 1 2 7 8,
+	33	 6 7 8,
+	2	 1 2 4,
+	3	 1 2 7,
+	1	 1 2 4 7,
+	14	 1 2 3,
+	12	 5 6,
+	3	 3 4,
+	1	 1 2 8,
+	0	 2 6 8,
+	0	 2 6,
+	3	 3 5 6,
+	3	 3 5 7,
+	2	 4 6 8,
+	1	 3 7,
+	0	 1 2 4 6,
+	1	 4 6,
+	1	 4 5 7,
+	0	 5 6 8,
+	1	 4 5,
+	0	 1 2 3 4,
+	0	 1 2 3 6,
+	0	 3 7 8,
+	0	 4 8,
+;
+END; [Splits]
+

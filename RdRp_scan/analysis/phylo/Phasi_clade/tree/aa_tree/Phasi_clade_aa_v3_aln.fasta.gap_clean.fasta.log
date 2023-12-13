@@ -1,0 +1,369 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1069 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o NC_031298_Fly_phasivirus
+Seed:    94974 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 30 14:04:53 2022
+Kernel:  AVX+FMA - auto-detect threads (95 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 80 sequences with 2169 columns, 1879 distinct patterns
+1321 parsimony-informative, 496 singleton sites, 352 constant sites
+                                         Gap/Ambiguity  Composition  p-value
+   1  Phasi_Charoen_like_virus_F1339C31F1506     0.05%    passed    100.00%
+   2  Phasi_Charoen_like_virus_F1339C31F1504     0.05%    passed    100.00%
+   3  Phasi_Charoen_like_virus_F1339C31F1503     0.00%    passed    100.00%
+   4  Phasi_Charoen_like_virus_F1339C31F1339     0.00%    passed    100.00%
+   5  Phasi_Charoen_like_virus_F1339C31F1336     0.00%    passed    100.00%
+   6  Phasi_Charoen_like_virus_F1339C31F1156    25.22%    passed     99.80%
+   7  Phasi_Charoen_like_virus_F1339C31F1085     0.00%    passed    100.00%
+   8  Phasi_Charoen_like_virus_F1339C31F1067     0.00%    passed    100.00%
+   9  Phasi_Charoen_like_virus_F1339C31F1065     0.00%    passed    100.00%
+  10  Phasi_Charoen_like_virus_F1339C31F1064     0.00%    passed    100.00%
+  11  Phasi_Charoen_like_virus_F1339C31F1063     0.00%    passed    100.00%
+  12  Phasi_Charoen_like_virus_F1339C31F1062     0.00%    passed    100.00%
+  13  Phasi_Charoen_like_virus_F1339C31F1061     0.00%    passed    100.00%
+  14  Phasi_Charoen_like_virus_F1339C31F1060     0.00%    passed    100.00%
+  15  Phasi_Charoen_like_virus_F1339C31F1058     0.05%    passed    100.00%
+  16  Phasi_Charoen_like_virus_F1339C31F1002     0.05%    passed    100.00%
+  17  Phasi_Charoen_like_virus_F1339C31F1001     0.05%    passed    100.00%
+  18  NC_038262_Phasi_Charoen_like_phasivirus    0.00%    passed    100.00%
+  19  NC_038257_Badu_phasivirus                  0.41%    passed     97.76%
+  20  NC_032276_Dipteran_phasivirus              5.26%    failed      0.03%
+  21  NC_031317_Wutai_mosquito_phasivirus        0.69%    passed     28.18%
+  22  NC_031298_Fly_phasivirus                   7.10%    failed      1.95%
+  23  MW650771_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  24  MW650730_Phasi_Charoen_like_phasivirus     7.15%    passed    100.00%
+  25  MW650717_Phasi_Charoen_like_phasivirus     7.42%    passed    100.00%
+  26  MT913597_Phasi_Charoen_like_phasivirus    33.06%    passed     78.88%
+  27  MT498819_Broome_phasivirus_1               0.83%    passed     95.97%
+  28  MT498816_Kimberley_phasivirus              0.41%    passed     87.08%
+  29  MT361072_Phasi_Charoen_like_phasivirus     8.21%    passed    100.00%
+  30  MT361069_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  31  MN866243_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  32  MN866242_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  33  MN866241_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  34  MN866240_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  35  MN866239_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  36  MN866238_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  37  MN866237_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  38  MN866236_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  39  MN866235_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  40  MN866234_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  41  MN866233_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  42  MN866232_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  43  MN866231_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  44  MN866230_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  45  MN866229_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  46  MN866228_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  47  MN866227_Phasi_Charoen_like_phasivirus     0.83%    passed    100.00%
+  48  MN866226_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  49  MN866225_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  50  MN866224_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  51  MN866223_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  52  MN866222_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  53  MN866221_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  54  MN866220_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  55  MN866219_Phasi_Charoen_like_phasivirus     1.89%    passed    100.00%
+  56  MN692603_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  57  MN053784_Guadeloupe_phasivirus             0.23%    passed     98.23%
+  58  MN053781_Phasi_Charoen_like_phasivirus     7.15%    passed    100.00%
+  59  MN053778_Phasi_Charoen_like_phasivirus     7.15%    passed    100.00%
+  60  MN053775_Phasi_Charoen_like_phasivirus     7.70%    passed    100.00%
+  61  MN053772_Phasi_Charoen_like_phasivirus     7.24%    passed    100.00%
+  62  MN053769_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  63  MN053766_Phasi_Charoen_like_phasivirus     7.70%    passed    100.00%
+  64  MN053763_Phasi_Charoen_like_phasivirus     8.07%    passed    100.00%
+  65  MN053760_Phasi_Charoen_like_phasivirus     7.15%    passed    100.00%
+  66  MN053757_Phasi_Charoen_like_phasivirus     7.15%    passed    100.00%
+  67  MN053754_Phasi_Charoen_like_phasivirus     7.15%    passed    100.00%
+  68  MN053751_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  69  MN053748_Phasi_Charoen_like_phasivirus     7.15%    passed    100.00%
+  70  MN053745_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  71  MK017914_Wutai_mosquito_phasivirus         0.51%    passed     47.07%
+  72  MH310079_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  73  MH237599_Phasi_Charoen_like_phasivirus     0.05%    passed    100.00%
+  74  MF614132_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  75  LC498491_Phasi_Charoen_like_phasivirus     1.20%    passed    100.00%
+  76  KU936057_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  77  KM001085_Phasi_Charoen_like_phasivirus     0.00%    passed    100.00%
+  78  Adableaps_virus_F1632C15F1632              0.37%    passed     80.33%
+  79  Adableaps_virus_F1632C15F1623              0.37%    passed     86.57%
+  80  Ackless_virus_F1539C12F1539                0.18%    passed     99.22%
+****  TOTAL                                      2.19%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Phasi_Charoen_like_virus_F1339C31F1061 is identical to Phasi_Charoen_like_virus_F1339C31F1085 but kept for subsequent analysis
+NOTE: MN866225_Phasi_Charoen_like_phasivirus is identical to MN866226_Phasi_Charoen_like_phasivirus but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.059 seconds
+Measuring multi-threading efficiency up to 95 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 99.922 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -49392
+Threads: 2 / Time: 51.683 sec / Speedup: 1.933 / Efficiency: 97% / LogL: -49392
+Threads: 3 / Time: 35.076 sec / Speedup: 2.849 / Efficiency: 95% / LogL: -49392
+Threads: 4 / Time: 26.781 sec / Speedup: 3.731 / Efficiency: 93% / LogL: -49392
+Threads: 5 / Time: 21.783 sec / Speedup: 4.587 / Efficiency: 92% / LogL: -49392
+Threads: 6 / Time: 18.584 sec / Speedup: 5.377 / Efficiency: 90% / LogL: -49392
+Threads: 7 / Time: 16.236 sec / Speedup: 6.154 / Efficiency: 88% / LogL: -49392
+Threads: 8 / Time: 15.866 sec / Speedup: 6.298 / Efficiency: 79% / LogL: -49392
+Threads: 9 / Time: 14.924 sec / Speedup: 6.695 / Efficiency: 74% / LogL: -49392
+Threads: 10 / Time: 14.274 sec / Speedup: 7.000 / Efficiency: 70% / LogL: -49392
+Threads: 11 / Time: 14.035 sec / Speedup: 7.119 / Efficiency: 65% / LogL: -49392
+Threads: 12 / Time: 13.812 sec / Speedup: 7.234 / Efficiency: 60% / LogL: -49392
+Threads: 13 / Time: 13.306 sec / Speedup: 7.509 / Efficiency: 58% / LogL: -49392
+Threads: 14 / Time: 12.983 sec / Speedup: 7.696 / Efficiency: 55% / LogL: -49392
+Threads: 15 / Time: 12.435 sec / Speedup: 8.035 / Efficiency: 54% / LogL: -49392
+Threads: 16 / Time: 12.137 sec / Speedup: 8.233 / Efficiency: 51% / LogL: -49392
+Threads: 17 / Time: 11.794 sec / Speedup: 8.472 / Efficiency: 50% / LogL: -49392
+BEST NUMBER OF THREADS: 15
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -34152.105
+Optimal log-likelihood: -34151.316
+Proportion of invariable sites: 0.060
+Gamma shape alpha: 0.993
+Parameters optimization took 1 rounds (0.252 sec)
+Time for fast ML tree search: 1.987 seconds
+
+NOTE: ModelFinder requires 242 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 2169) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            35204.500    157 70723.001    70747.671    71615.078
+  2  LG+I          34735.870    158 69787.740    69812.737    70685.499
+  3  LG+G4         34148.874    158 68613.748    68638.745    69511.508
+  4  LG+I+G4       34149.271    159 68616.542    68641.868    69519.984
+  5  LG+R2         34253.719    159 68825.437    68850.764    69728.879
+  6  LG+R3         34123.819    161 68569.638    68595.629    69484.443
+  7  LG+R4         34114.289    163 68554.578    68581.243    69480.748
+  8  LG+R5         34112.713    165 68555.427    68582.776    69492.960
+ 19  LG+F+R3       33946.301    180 68252.602    68285.379    69275.366
+ 20  LG+F+R4       33934.355    182 68232.710    68266.251    69266.838
+ 32  WAG+R3        34441.027    161 69204.055    69230.046    70118.860
+ 33  WAG+R4        34434.751    163 69195.502    69222.167    70121.672
+ 45  WAG+F+R3      34140.179    180 68640.358    68673.135    69663.122
+ 46  WAG+F+R4      34130.770    182 68625.539    68659.080    69659.667
+ 58  JTT+R3        34397.983    161 69117.966    69143.957    70032.771
+ 59  JTT+R4        34390.329    163 69106.658    69133.323    70032.828
+ 71  JTT+F+R3      34096.404    180 68552.809    68585.585    69575.573
+ 72  JTT+F+R4      34087.369    182 68538.739    68572.280    69572.867
+ 84  JTTDCMut+R3   34399.321    161 69120.642    69146.633    70035.448
+ 85  JTTDCMut+R4   34391.459    163 69108.919    69135.584    70035.088
+ 97  JTTDCMut+F+R3 34092.922    180 68545.844    68578.620    69568.607
+ 98  JTTDCMut+F+R4 34083.532    182 68531.063    68564.604    69565.191
+110  DCMut+R3      34771.237    161 69864.475    69890.466    70779.280
+111  DCMut+R4      34765.513    163 69857.026    69883.691    70783.195
+123  DCMut+F+R3    34229.755    180 68819.509    68852.286    69842.273
+124  DCMut+F+R4    34222.241    182 68808.483    68842.023    69842.611
+136  VT+R3         34382.616    161 69087.232    69113.223    70002.038
+137  VT+R4         34378.180    163 69082.360    69109.025    70008.530
+149  VT+F+R3       34199.318    180 68758.637    68791.413    69781.401
+150  VT+F+R4       34193.420    182 68750.839    68784.380    69784.967
+162  PMB+R3        34690.420    161 69702.840    69728.831    70617.645
+163  PMB+R4        34686.398    163 69698.795    69725.461    70624.965
+175  PMB+F+R3      34423.400    180 69206.800    69239.576    70229.563
+176  PMB+F+R4      34417.214    182 69198.427    69231.968    70232.555
+188  Blosum62+R3   34603.286    161 69528.572    69554.563    70443.378
+189  Blosum62+R4   34598.120    163 69522.240    69548.905    70448.409
+201  Blosum62+F+R3 34380.794    180 69121.588    69154.365    70144.352
+202  Blosum62+F+R4 34373.729    182 69111.459    69144.999    70145.587
+214  Dayhoff+R3    34769.518    161 69861.036    69887.027    70775.841
+215  Dayhoff+R4    34763.755    163 69853.510    69880.175    70779.680
+227  Dayhoff+F+R3  34227.986    180 68815.971    68848.748    69838.735
+228  Dayhoff+F+R4  34220.417    182 68804.834    68838.374    69838.962
+240  mtREV+R3      35979.379    161 72280.758    72306.749    73195.564
+241  mtREV+R4      35954.879    163 72235.758    72262.423    73161.927
+253  mtREV+F+R3    34528.024    180 69416.048    69448.825    70438.812
+254  mtREV+F+R4    34509.429    182 69382.859    69416.400    70416.987
+266  mtART+R3      35956.702    161 72235.403    72261.394    73150.209
+267  mtART+R4      35926.063    163 72178.126    72204.791    73104.296
+279  mtART+F+R3    34461.001    180 69282.002    69314.779    70304.766
+280  mtART+F+R4    34437.739    182 69239.478    69273.019    70273.606
+292  mtZOA+R3      35533.064    161 71388.127    71414.118    72302.933
+293  mtZOA+R4      35507.890    163 71341.780    71368.445    72267.949
+305  mtZOA+F+R3    34224.259    180 68808.518    68841.294    69831.282
+306  mtZOA+F+R4    34207.248    182 68778.496    68812.037    69812.624
+318  mtMet+R3      35688.866    161 71699.731    71725.722    72614.537
+319  mtMet+R4      35671.526    163 71669.051    71695.716    72595.221
+331  mtMet+F+R3    34374.047    180 69108.093    69140.870    70130.857
+332  mtMet+F+R4    34359.469    182 69082.937    69116.478    70117.065
+344  mtVer+R3      36263.577    161 72849.153    72875.144    73763.959
+345  mtVer+R4      36239.893    163 72805.786    72832.452    73731.956
+357  mtVer+F+R3    34756.982    180 69873.964    69906.741    70896.728
+358  mtVer+F+R4    34735.122    182 69834.244    69867.785    70868.372
+370  mtInv+R3      35792.610    161 71907.220    71933.211    72822.025
+371  mtInv+R4      35777.652    163 71881.304    71907.969    72807.473
+383  mtInv+F+R3    34250.701    180 68861.403    68894.179    69884.167
+384  mtInv+F+R4    34240.067    182 68844.133    68877.674    69878.261
+396  mtMAM+R3      36447.851    161 73217.701    73243.692    74132.507
+397  mtMAM+R4      36411.641    163 73149.282    73175.947    74075.451
+409  mtMAM+F+R3    34896.504    180 70153.007    70185.784    71175.771
+410  mtMAM+F+R4    34867.032    182 70098.063    70131.604    71132.191
+422  HIVb+R3       34799.543    161 69921.085    69947.076    70835.891
+423  HIVb+R4       34775.506    163 69877.012    69903.677    70803.182
+435  HIVb+F+R3     34418.616    180 69197.232    69230.009    70219.996
+436  HIVb+F+R4     34392.875    182 69149.750    69183.290    70183.877
+448  HIVw+R3       35720.490    161 71762.980    71788.971    72677.786
+449  HIVw+R4       35691.190    163 71708.381    71735.046    72634.550
+461  HIVw+F+R3     35081.742    180 70523.484    70556.261    71546.248
+462  HIVw+F+R4     35050.005    182 70464.011    70497.552    71498.139
+474  FLU+R3        34457.935    161 69237.870    69263.861    70152.675
+475  FLU+R4        34437.887    163 69201.774    69228.439    70127.943
+487  FLU+F+R3      34286.148    180 68932.296    68965.073    69955.060
+488  FLU+F+R4      34263.392    182 68890.785    68924.325    69924.912
+500  rtREV+R3      34502.959    161 69327.919    69353.910    70242.724
+501  rtREV+R4      34492.552    163 69311.104    69337.770    70237.274
+513  rtREV+F+R3    33991.101    180 68342.201    68374.978    69364.965
+514  rtREV+F+R4    33978.461    182 68320.923    68354.464    69355.051
+526  cpREV+R3      34447.121    161 69216.241    69242.232    70131.047
+527  cpREV+R4      34434.978    163 69195.956    69222.621    70122.125
+539  cpREV+F+R3    34279.853    180 68919.707    68952.484    69942.471
+540  cpREV+F+R4    34261.181    182 68886.361    68919.902    69920.489
+Akaike Information Criterion:           LG+F+R4
+Corrected Akaike Information Criterion: LG+F+R4
+Bayesian Information Criterion:         LG+F+R4
+Best-fit model: LG+F+R4 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.model.gz
+CPU time for ModelFinder: 9456.542 seconds (2h:37m:36s)
+Wall-clock time for ModelFinder: 878.057 seconds (0h:14m:38s)
+Generating 1000 samples for ultrafast bootstrap (seed: 94974)...
+
+NOTE: 101 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -33934.355
+Optimal log-likelihood: -33934.245
+Site proportion and rates:  (0.295,0.110) (0.340,0.520) (0.286,1.419) (0.079,4.860)
+Parameters optimization took 1 rounds (0.496 sec)
+Computing ML distances based on estimated model parameters... 0.829 sec
+Computing BIONJ tree...
+0.008 seconds
+Log-likelihood of BIONJ tree: -33959.688
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.519 second
+Computing log-likelihood of 98 initial trees ... 8.319 seconds
+Current best score: -33934.245
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -33933.566
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -33933.354
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -33932.821
+BETTER TREE FOUND at iteration 4: -33932.816
+Iteration 10 / LogL: -33934.774 / Time: 0h:0m:38s
+BETTER TREE FOUND at iteration 14: -33932.815
+BETTER TREE FOUND at iteration 19: -33932.814
+Iteration 20 / LogL: -33932.815 / Time: 0h:1m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -33932.814 / CPU time: 61.841
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -33946.446 / Time: 0h:1m:32s (0h:4m:43s left)
+Iteration 40 / LogL: -33932.827 / Time: 0h:2m:2s (0h:4m:8s left)
+Iteration 50 / LogL: -33932.839 / Time: 0h:2m:31s (0h:3m:32s left)
+Log-likelihood cutoff on original alignment: -33978.962
+Iteration 60 / LogL: -33937.704 / Time: 0h:2m:57s (0h:2m:57s left)
+Iteration 70 / LogL: -33933.909 / Time: 0h:3m:29s (0h:2m:28s left)
+Iteration 80 / LogL: -33932.837 / Time: 0h:3m:57s (0h:1m:57s left)
+Iteration 90 / LogL: -33933.920 / Time: 0h:4m:25s (0h:1m:26s left)
+Iteration 100 / LogL: -33936.149 / Time: 0h:4m:53s (0h:0m:56s left)
+Log-likelihood cutoff on original alignment: -33978.432
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -33932.834 / Time: 0h:5m:19s (0h:4m:23s left)
+Iteration 120 / LogL: -33932.831 / Time: 0h:5m:46s (0h:3m:53s left)
+TREE SEARCH COMPLETED AFTER 120 ITERATIONS / Time: 0h:5m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -33932.814
+2. Current log-likelihood: -33932.737
+3. Current log-likelihood: -33932.648
+4. Current log-likelihood: -33932.561
+5. Current log-likelihood: -33932.480
+6. Current log-likelihood: -33932.401
+7. Current log-likelihood: -33932.327
+8. Current log-likelihood: -33932.257
+9. Current log-likelihood: -33932.190
+10. Current log-likelihood: -33932.127
+11. Current log-likelihood: -33932.066
+12. Current log-likelihood: -33932.008
+13. Current log-likelihood: -33931.952
+14. Current log-likelihood: -33931.900
+15. Current log-likelihood: -33931.849
+16. Current log-likelihood: -33931.802
+17. Current log-likelihood: -33931.765
+18. Current log-likelihood: -33931.721
+19. Current log-likelihood: -33931.688
+20. Current log-likelihood: -33931.648
+21. Current log-likelihood: -33931.618
+22. Current log-likelihood: -33931.588
+23. Current log-likelihood: -33931.559
+24. Current log-likelihood: -33931.531
+25. Current log-likelihood: -33931.504
+26. Current log-likelihood: -33931.478
+27. Current log-likelihood: -33931.453
+28. Current log-likelihood: -33931.430
+29. Current log-likelihood: -33931.408
+30. Current log-likelihood: -33931.388
+31. Current log-likelihood: -33931.370
+32. Current log-likelihood: -33931.352
+33. Current log-likelihood: -33931.334
+34. Current log-likelihood: -33931.317
+35. Current log-likelihood: -33931.301
+36. Current log-likelihood: -33931.285
+37. Current log-likelihood: -33931.271
+38. Current log-likelihood: -33931.257
+39. Current log-likelihood: -33931.244
+40. Current log-likelihood: -33931.232
+41. Current log-likelihood: -33931.220
+42. Current log-likelihood: -33931.209
+43. Current log-likelihood: -33931.198
+44. Current log-likelihood: -33931.186
+45. Current log-likelihood: -33931.176
+Optimal log-likelihood: -33931.162
+Site proportion and rates:  (0.266,0.092) (0.396,0.509) (0.272,1.565) (0.066,5.282)
+Parameters optimization took 45 rounds (22.899 sec)
+BEST SCORE FOUND : -33931.162
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.splits.nex
+Total tree length: 7.665
+
+Total number of iterations: 120
+CPU time used for tree search: 5073.035 sec (1h:24m:33s)
+Wall-clock time used for tree search: 345.654 sec (0h:5m:45s)
+Total CPU time used: 5428.545 sec (1h:30m:28s)
+Total wall-clock time used: 369.767 sec (0h:6m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.splits.nex...
+80 taxa and 533 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.contree
+Log-likelihood of consensus tree: -33931.273
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasi_clade/tree/aa_tree/Phasi_clade_aa_v3_aln.fasta.gap_clean.fasta.log
+
+Date and Time: Wed Nov 30 14:25:41 2022

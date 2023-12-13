@@ -1,0 +1,167 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=65;
+	taxlabels
+	JQ675604_Dezidougou_virus
+	JQ675606_Santana_virus
+	KF425262_Tanay_virus
+	KF425263_Tanay_virus
+	KF588036_Goutanap_virus
+	KF588037_Goutanap_virus
+	KF588038_Goutanap_virus
+	KF588039_Goutanap_virus
+	KM249339_Goutanap_virus
+	KM350504_Wallerfield_virus
+	KM350505_Wallerfield_virus
+	KM350506_Wallerfield_virus
+	KM350507_Wallerfield_virus
+	KX518758_Biratnagar_virus
+	KX518823_Wallerfield_virus
+	KX518829_Wallerfield_virus
+	KX518832_Wallerfield_virus
+	KX518833_Wallerfield_virus
+	KX518835_Wallerfield_virus
+	KX518836_Wallerfield_virus
+	KX518837_Wallerfield_virus
+	KX518839_Wallerfield_virus
+	KX924639_Biggievirus_Mos11
+	KY968698_Dezidougou_virus
+	LC103139_Bustos_virus
+	LC504569_Goutanap_virus
+	MF281708_Biggievirus_Mos11
+	MF281709_Biggievirus_Mos11
+	MG551500_Tanay_virus
+	MG551501_Tanay_virus
+	MG551502_Tanay_virus
+	MG551503_Tanay_virus
+	MG551504_Tanay_virus
+	MG551505_Tanay_virus
+	MG551506_Tanay_virus
+	MG673930_Tanay_virus
+	MH188028_Culex_Biggie-like_virus
+	MH603566_Biggievirus_Mos11
+	MH719095_Uxmal_virus
+	MK440620_Biggie_virus
+	MK959116_Agua_Salud_negevirus
+	MK959117_Wallerfield_virus
+	MN101546_Bustos_virus
+	MN661084_Atrato_Nege-like_virus_1
+	MT096525_Dezidougou_virus
+	MZ615321_Feitosa_virus
+	MZ615323_Wallerfield_virus
+	MZ615326_Feitosa_virus
+	MZ615329_Wallerfield_virus
+	NC_023440_Wallerfield_virus
+	NC_024071_Tanay_virus
+	NC_025357_Goutanap_virus
+	NC_034153_Biratnagar_virus
+	NC_035129_Culex_negev-like_virus_3
+	OK491483_Xiangshan_martelli-like_virus_1[&!color=#001ca6]
+	ON949943_Dezidougou_virus
+	ON949944_Kustavi_negevirus
+	OP264896_Dezidougou_virus
+	Tanay_virus_F1530C2F1212[&!color=#a63200]
+	Tanay_virus_F1530C2F1215[&!color=#a63200]
+	Tanay_virus_F1530C2F1217[&!color=#a63200]
+	Tanay_virus_F1530C2F1219[&!color=#a63200]
+	Tanay_virus_F1530C2F1530[&!color=#a63200]
+	Tanay_virus_F1530C2F1532[&!color=#a63200]
+	Tanay_virus_F1530C2F1533[&!color=#a63200]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((Tanay_virus_F1530C2F1532:4.62E-4,Tanay_virus_F1530C2F1219:5.08E-4)[&label=96]:3.0E-6,((Tanay_virus_F1530C2F1533:6.41E-4,Tanay_virus_F1530C2F1530:4.46E-4)[&label=77]:1.2E-5,Tanay_virus_F1530C2F1215:3.0E-6)[&label=47]:3.0E-6)[&label=98]:9.32E-4,(Tanay_virus_F1530C2F1212:3.0E-6,Tanay_virus_F1530C2F1217:3.0E-6)[&label=99]:0.001362)[&label=91]:7.01E-4,MG673930_Tanay_virus:0.00207)[&label=100]:0.020917,((((MG551501_Tanay_virus:4.58E-4,MG551500_Tanay_virus:9.17E-4)[&label=55]:3.0E-6,MG551502_Tanay_virus:3.0E-6)[&label=77]:4.58E-4,((MG551503_Tanay_virus:4.58E-4,MG551506_Tanay_virus:4.57E-4)[&label=39]:3.0E-6,MG551504_Tanay_virus:3.0E-6)[&label=42]:3.0E-6)[&label=98]:4.63E-4,MG551505_Tanay_virus:4.53E-4)[&label=100]:0.030772)[&label=100]:0.051693,((KF425263_Tanay_virus:4.59E-4,NC_024071_Tanay_virus:4.6E-4)[&label=97]:9.2E-4,KF425262_Tanay_virus:3.0E-6)[&label=100]:0.050127)[&label=100]:0.536715,MN661084_Atrato_Nege-like_virus_1:0.514264)[&label=88]:0.073344,(((((((((((((((MZ615329_Wallerfield_virus:4.5E-4,KM350505_Wallerfield_virus:8.98E-4)[&label=68]:3.0E-6,KM350506_Wallerfield_virus:0.001348)[&label=80]:4.5E-4,KM350504_Wallerfield_virus:0.002248)[&label=60]:3.0E-6,MZ615323_Wallerfield_virus:3.0E-6)[&label=97]:8.92E-4,KM350507_Wallerfield_virus:0.001355)[&label=87]:4.6E-4,(KX518836_Wallerfield_virus:3.0E-6,KX518835_Wallerfield_virus:8.97E-4)[&label=100]:0.004954)[&label=100]:0.00455,(KX518833_Wallerfield_virus:9.02E-4,KX518832_Wallerfield_virus:3.0E-6)[&label=100]:0.010488)[&label=57]:0.001295,NC_023440_Wallerfield_virus:0.002731)[&label=55]:8.95E-4,(KX518823_Wallerfield_virus:4.5E-4,KX518829_Wallerfield_virus:3.0E-6)[&label=100]:0.005337)[&label=81]:5.22E-4,MK959117_Wallerfield_virus:0.00361)[&label=79]:8.98E-4,(KX518839_Wallerfield_virus:4.49E-4,KX518837_Wallerfield_virus:3.0E-6)[&label=67]:2.0E-6)[&label=100]:0.360449,MH719095_Uxmal_virus:0.414157)[&label=100]:0.093101,((ON949943_Dezidougou_virus:0.067813,((JQ675604_Dezidougou_virus:0.002715,KY968698_Dezidougou_virus:0.003165)[&label=99]:0.004363,(OP264896_Dezidougou_virus:3.0E-6,MT096525_Dezidougou_virus:3.0E-6)[&label=100]:0.004239)[&label=100]:0.043709)[&label=100]:0.169401,ON949944_Kustavi_negevirus:0.220344)[&label=100]:0.125369)[&label=98]:0.074427,(((((MF281709_Biggievirus_Mos11:4.55E-4,MF281708_Biggievirus_Mos11:3.0E-6)[&label=100]:4.56E-4,(KX924639_Biggievirus_Mos11:4.55E-4,MH188028_Culex_Biggie-like_virus:0.002283)[&label=78]:4.55E-4)[&label=77]:4.76E-4,(MH603566_Biggievirus_Mos11:0.001368,MK440620_Biggie_virus:0.006472)[&label=90]:8.93E-4)[&label=98]:0.019497,NC_035129_Culex_negev-like_virus_3:0.034909)[&label=100]:0.208721,((((KF588036_Goutanap_virus:4.49E-4,KM249339_Goutanap_virus:4.5E-4)[&label=23]:3.0E-6,(NC_025357_Goutanap_virus:3.0E-6,KF588037_Goutanap_virus:3.0E-6)[&label=14]:3.0E-6)[&label=34]:3.0E-6,LC504569_Goutanap_virus:8.96E-4)[&label=96]:8.95E-4,(KF588038_Goutanap_virus:3.0E-6,KF588039_Goutanap_virus:3.0E-6)[&label=69]:3.0E-6)[&label=100]:0.237096)[&label=100]:0.457571)[&label=97]:0.064379,(((MZ615321_Feitosa_virus:0.002262,MZ615326_Feitosa_virus:2.0E-6)[&label=100]:0.351178,JQ675606_Santana_virus:0.569677)[&label=76]:0.063668,(((LC103139_Bustos_virus:0.012472,MN101546_Bustos_virus:0.005008)[&label=100]:0.020036,(KX518758_Biratnagar_virus:3.0E-6,NC_034153_Biratnagar_virus:4.59E-4)[&label=100]:0.041652)[&label=100]:0.249504,MK959116_Agua_Salud_negevirus:0.250673)[&label=85]:0.055584)[&label=100]:0.254595)[&label=100]:0.17147,OK491483_Xiangshan_martelli-like_virus_1:0.953301);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

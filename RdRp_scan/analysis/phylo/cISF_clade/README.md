@@ -1,0 +1,1 @@
+Intermediate folders and files are not uploaded here, and the final sequence set for the follow-up phylogeny is ready in [aln/aa_seq/cISF_full_polyprot_aa_v3.fasta](aln/aa_seq/cISF_full_polyprot_aa_v3.fasta).

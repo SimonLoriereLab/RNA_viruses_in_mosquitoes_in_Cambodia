@@ -1,0 +1,3 @@
+To prioritize and samples for NGS processing, spatial metadata was examined with respect to each Location (a group of nearby collection sites spanning one or two (Battambang & Pailin) regions of Cambodia) and morphologically assigned species.
+
+Samples were then split into Batches and initially randomized to remove potential batch effect, however, after a few batches they were derandomized in order to process samples faster in the laboratory and avoid potential RNA degradation.

@@ -1,0 +1,537 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade6_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 901270
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 77 sequences with 3316 amino-acid sites
+Number of constant sites: 382 (= 11.5199% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 382 (= 11.5199% of all sites)
+Number of parsimony informative sites: 2502
+Number of distinct site patterns: 3224
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R4          -69392.484  139136.968 +    0.109  139156.816 +    0.134  140211.714 +    0.982
+LG+F+R5          -69388.387  139132.774 +    0.891  139153.087 +    0.866  140219.733 -   0.0178
+WAG+F+R4         -69451.106  139254.211 -  3.8e-27  139274.060 - 4.66e-27  140328.958 - 3.41e-26
+WAG+F+R5         -69452.105  139260.211 - 1.89e-28  139280.524 - 1.84e-28  140347.170 - 3.79e-30
+VT+F+R4          -69552.834  139457.668 - 2.51e-71  139477.516 - 3.08e-71  140532.415 - 2.25e-70
+VT+F+R5          -69555.442  139466.883 -  2.5e-73  139487.197 - 2.43e-73  140553.843 - 5.01e-75
+LG+R4            -69644.479  139602.957 - 7.09e-103  139618.667 - 6.89e-102  140561.680 - 9.95e-77
+LG+R5            -69638.048  139594.096 - 5.95e-101  139610.218 - 4.71e-100  140565.032 - 1.86e-77
+LG+I+G4          -69666.523  139639.046 - 1.03e-110  139653.949 - 1.5e-109  140573.343 - 2.92e-79
+WAG+R4           -69680.334  139674.668 - 1.9e-118  139690.378 - 1.85e-117  140633.391 - 2.67e-92
+WAG+R5           -69681.201  139680.401 - 1.08e-119  139696.523 - 8.55e-119  140651.337 - 3.38e-96
+LG+R3            -69701.316  139712.631 - 1.08e-126  139727.935 - 1.29e-125  140659.141 - 6.83e-98
+rtREV+F+R4       -69617.922  139587.844 - 1.36e-99  139607.692 - 1.66e-99  140662.590 - 1.22e-98
+rtREV+F+R5       -69615.076  139586.152 - 3.16e-99  139606.465 - 3.07e-99  140673.111 - 6.32e-101
+LG+G4            -69728.220  139760.440 - 4.51e-137  139775.145 - 7.23e-136  140688.630 - 2.7e-104
+VT+R4            -69760.597  139835.194 - 2.64e-153  139850.904 - 2.56e-152  140793.916 - 3.7e-127
+VT+R5            -69762.947  139843.894 - 3.4e-155  139860.015 - 2.69e-154  140814.829 - 1.07e-131
+Blosum62+F+R4    -69806.374  139964.749 - 1.94e-181  139984.597 - 2.38e-181  141039.495 - 1.74e-180
+cpREV+F+R4       -69807.466  139966.933 - 6.52e-182  139986.781 -   8e-182  141041.679 - 5.85e-181
+cpREV+F+R5       -69805.322  139966.644 - 7.54e-182  139986.957 - 7.33e-182  141053.603 - 1.51e-183
+JTTDCMut+F+R4    -69816.451  139984.901 - 8.18e-186  140004.750 -   1e-185  141059.648 - 7.34e-185
+Blosum62+F+R5    -69809.096  139974.192 - 1.73e-183  139994.506 - 1.68e-183  141061.152 - 3.46e-185
+JTT+F+R4         -69817.509  139987.018 - 2.84e-186  140006.867 - 3.48e-186  141061.765 - 2.55e-185
+JTTDCMut+F+R5    -69815.233  139986.466 - 3.74e-186  140006.779 - 3.64e-186  141073.425 - 7.48e-188
+JTT+F+R5         -69816.364  139988.727 - 1.21e-186  140009.041 - 1.17e-186  141075.687 - 2.42e-188
+PMB+F+R4         -69826.952  140005.903 - 2.25e-190  140025.752 - 2.76e-190  141080.650 - 2.02e-189
+LG+R2            -69920.840  140147.680 - 3.68e-221  140162.583 - 5.35e-220  141081.976 - 1.04e-189
+PMB+F+R5         -69829.632  140015.264 - 2.09e-192  140035.578 - 2.03e-192  141102.224 - 4.17e-194
+JTTDCMut+R4      -69944.543  140203.085 - 3.42e-233  140218.795 - 3.33e-232  141161.808 - 4.81e-207
+JTT+R4           -69944.799  140203.599 - 2.65e-233  140219.309 - 2.57e-232  141162.321 - 3.72e-207
+JTTDCMut+R5      -69943.257  140204.513 - 1.68e-233  140220.635 - 1.33e-232  141175.449 - 5.25e-210
+JTT+R5           -69943.581  140205.161 - 1.21e-233  140221.283 - 9.59e-233  141176.097 - 3.79e-210
+Dayhoff+F+R4     -70004.228  140360.457 - 2.3e-267  140380.305 - 2.82e-267  141435.203 - 2.07e-266
+Dayhoff+F+R5     -70000.902  140357.804 - 8.66e-267  140378.118 - 8.42e-267  141444.764 - 1.73e-268
+DCMut+F+R4       -70009.605  140371.211 - 1.06e-269  140391.059 - 1.3e-269  141445.957 - 9.54e-269
+DCMut+F+R5       -70006.743  140369.485 - 2.52e-269  140389.799 - 2.45e-269  141456.445 - 5.04e-271
+PMB+R4           -70120.591  140555.181 - 1.2e-309  140570.891 - 1.16e-308  141513.904 - 1.68e-283
+PMB+R5           -70123.631  140565.263 - 7.74e-312  140581.384 - 6.12e-311  141536.198 - 2.42e-288
+Blosum62+R4      -70146.437  140606.874 - 7.12e-321  140622.584 - 6.92e-320  141565.597 -   1e-294
+Blosum62+R5      -70149.577  140617.155 - 3.95e-323  140633.277 - 3.31e-322  141588.091 - 1.31e-299
+mtInv+F+R4       -70262.062  140876.123 -        0  140895.971 -        0  141950.870 -        0
+mtInv+F+R5       -70255.854  140867.708 -        0  140888.022 -        0  141954.668 -        0
+Dayhoff+R4       -70414.593  141143.186 -        0  141158.896 -        0  142101.909 -        0
+Dayhoff+R5       -70412.035  141142.069 -        0  141158.191 -        0  142113.005 -        0
+DCMut+R4         -70420.616  141155.232 -        0  141170.942 -        0  142113.955 -        0
+DCMut+R5         -70418.086  141154.171 -        0  141170.293 -        0  142125.107 -        0
+cpREV+R4         -70446.445  141206.890 -        0  141222.600 -        0  142165.612 -        0
+cpREV+R5         -70443.936  141205.872 -        0  141221.993 -        0  142176.807 -        0
+FLU+F+R5         -70382.368  141120.735 -        0  141141.049 -        0  142207.695 -        0
+FLU+F+R4         -70392.129  141136.258 -        0  141156.106 -        0  142211.004 -        0
+rtREV+R4         -70481.700  141277.401 -        0  141293.111 -        0  142236.123 -        0
+rtREV+R5         -70479.951  141277.901 -        0  141294.023 -        0  142248.837 -        0
+mtMet+F+R4       -70646.023  141644.046 -        0  141663.895 -        0  142718.793 -        0
+mtMet+F+R5       -70639.248  141634.497 -        0  141654.811 -        0  142721.456 -        0
+mtZOA+F+R4       -70650.058  141652.115 -        0  141671.964 -        0  142726.862 -        0
+mtZOA+F+R5       -70646.631  141649.263 -        0  141669.576 -        0  142736.222 -        0
+mtREV+F+R5       -70648.893  141653.786 -        0  141674.100 -        0  142740.746 -        0
+mtREV+F+R4       -70658.521  141669.042 -        0  141688.890 -        0  142743.789 -        0
+LG+I             -70875.376  142054.753 -        0  142069.458 -        0  142982.943 -        0
+HIVb+F+R4        -70779.977  141911.954 -        0  141931.802 -        0  142986.701 -        0
+HIVb+F+R5        -70773.241  141902.483 -        0  141922.796 -        0  142989.442 -        0
+FLU+R4           -71268.055  142850.109 -        0  142865.819 -        0  143808.832 -        0
+FLU+R5           -71260.942  142839.884 -        0  142856.006 -        0  143810.820 -        0
+mtVer+F+R4       -71296.255  142944.511 -        0  142964.359 -        0  144019.257 -        0
+mtVer+F+R5       -71294.336  142944.672 -        0  142964.986 -        0  144031.632 -        0
+mtART+F+R5       -71397.673  143151.346 -        0  143171.660 -        0  144238.305 -        0
+mtART+F+R4       -71411.456  143174.911 -        0  143194.760 -        0  144249.658 -        0
+HIVb+R4          -71509.053  143332.106 -        0  143347.816 -        0  144290.829 -        0
+HIVb+R5          -71501.906  143321.811 -        0  143337.933 -        0  144292.747 -        0
+LG               -71834.608  143971.215 -        0  143985.723 -        0  144893.299 -        0
+mtMAM+F+R5       -71834.542  144025.083 -        0  144045.397 -        0  145112.043 -        0
+mtMAM+F+R4       -71847.098  144046.196 -        0  144066.044 -        0  145120.942 -        0
+HIVw+F+R4        -72333.693  145019.387 -        0  145039.235 -        0  146094.133 -        0
+HIVw+F+R5        -72330.970  145017.941 -        0  145038.255 -        0  146104.900 -        0
+mtZOA+R4         -73206.265  146726.530 -        0  146742.240 -        0  147685.253 -        0
+mtZOA+R5         -73201.058  146720.116 -        0  146736.237 -        0  147691.052 -        0
+mtREV+R4         -74077.631  148469.262 -        0  148484.972 -        0  149427.985 -        0
+mtREV+R5         -74075.161  148468.321 -        0  148484.443 -        0  149439.257 -        0
+mtMet+R5         -74189.712  148697.424 -        0  148713.546 -        0  149668.360 -        0
+mtMet+R4         -74200.122  148714.245 -        0  148729.955 -        0  149672.967 -        0
+HIVw+R4          -74319.273  148952.546 -        0  148968.256 -        0  149911.269 -        0
+HIVw+R5          -74312.084  148942.168 -        0  148958.290 -        0  149913.104 -        0
+mtInv+R4         -74654.366  149622.731 -        0  149638.441 -        0  150581.454 -        0
+mtInv+R5         -74646.321  149610.642 -        0  149626.764 -        0  150581.578 -        0
+mtVer+R5         -74717.559  149753.118 -        0  149769.239 -        0  150724.053 -        0
+mtVer+R4         -74729.964  149773.928 -        0  149789.638 -        0  150732.650 -        0
+mtART+R4         -74920.977  150155.955 -        0  150171.665 -        0  151114.677 -        0
+mtART+R5         -74914.081  150146.162 -        0  150162.284 -        0  151117.098 -        0
+mtMAM+R5         -75443.267  151204.533 -        0  151220.655 -        0  152175.469 -        0
+mtMAM+R4         -75461.474  151236.948 -        0  151252.658 -        0  152195.671 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0976
+  pi(R) = 0.0593
+  pi(N) = 0.0327
+  pi(D) = 0.0592
+  pi(C) = 0.0194
+  pi(Q) = 0.0277
+  pi(E) = 0.0487
+  pi(G) = 0.0546
+  pi(H) = 0.0257
+  pi(I) = 0.0370
+  pi(L) = 0.0903
+  pi(K) = 0.0497
+  pi(M) = 0.0216
+  pi(F) = 0.0317
+  pi(P) = 0.0590
+  pi(S) = 0.0836
+  pi(T) = 0.0768
+  pi(W) = 0.0096
+  pi(Y) = 0.0353
+  pi(V) = 0.0809
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.1402,0.0519) (0.2985,0.3668) (0.4872,1.1770) (0.0740,4.1858)
+
+ Category  Relative_rate  Proportion
+  1         0.0519         0.1402
+  2         0.3668         0.2985
+  3         1.1770         0.4872
+  4         4.1858         0.0740
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -69385.6881 (s.e. 611.8223)
+Unconstrained log-likelihood (without tree): -26737.0604
+Number of free parameters (#branches + #model parameters): 176
+Akaike information criterion (AIC) score: 139123.3762
+Corrected Akaike information criterion (AICc) score: 139143.2246
+Bayesian information criterion (BIC) score: 140198.1228
+
+Total tree length (sum of branch lengths): 13.2656
+Sum of internal branch lengths: 6.7598 (50.9571% of tree length)
+
+WARNING: 25 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MT227315_Bemisia_tabaci_virga-like_virus_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                                             +--OM817543_Hubei_virga-like_virus_2
+                                                                          +--| (98)
+                                                                          |  |     +--MW434992_Hubei_virga-like_virus_2
+                                                                          |  |  +**| (99)
+                                                                          |  |  |  +--MW434985_Hubei_virga-like_virus_2
+                                                                          |  +--| (99)
+                                                                          |     |  +--MW434998_Hubei_virga-like_virus_2
+                                                                          |     +--| (99)
+                                                                          |        +--MW435007_Hubei_virga-like_virus_2
+                                                                       +--| (97)
+                                                                       |  |              +--MW435010_Hubei_virga-like_virus_2
+                                                                       |  |           +**| (57)
+                                                                       |  |           |  +--MW435011_Hubei_virga-like_virus_2
+                                                                       |  |        +**| (29)
+                                                                       |  |        |  +--MW434986_Hubei_virga-like_virus_2
+                                                                       |  |     +--| (100)
+                                                                       |  |     |  +--MW434987_Hubei_virga-like_virus_2
+                                                                       |  |  +**| (21)
+                                                                       |  |  |  |           +--MW435009_Hubei_virga-like_virus_2
+                                                                       |  |  |  |        +--| (62)
+                                                                       |  |  |  |        |  +--MW434982_Hubei_virga-like_virus_2
+                                                                       |  |  |  |     +**| (59)
+                                                                       |  |  |  |     |  |           +**MW434988_Hubei_virga-like_virus_2
+                                                                       |  |  |  |     |  |        +**| (17)
+                                                                       |  |  |  |     |  |        |  |  +**MW434989_Hubei_virga-like_virus_2
+                                                                       |  |  |  |     |  |        |  +**| (7)
+                                                                       |  |  |  |     |  |        |     +--MW434994_Hubei_virga-like_virus_2
+                                                                       |  |  |  |     |  |     +**| (97)
+                                                                       |  |  |  |     |  |     |  +--MW434991_Hubei_virga-like_virus_2
+                                                                       |  |  |  |     |  |  +--| (99)
+                                                                       |  |  |  |     |  |  |  +--MW435000_Hubei_virga-like_virus_2
+                                                                       |  |  |  |     |  +**| (67)
+                                                                       |  |  |  |     |     +--MW434983_Hubei_virga-like_virus_2
+                                                                       |  |  |  |  +**| (21)
+                                                                       |  |  |  |  |  +--MW434996_Hubei_virga-like_virus_2
+                                                                       |  |  |  +--| (59)
+                                                                       |  |  |     |     +--MW434984_Hubei_virga-like_virus_2
+                                                                       |  |  |     |  +**| (96)
+                                                                       |  |  |     |  |  +--MW434990_Hubei_virga-like_virus_2
+                                                                       |  |  |     +**| (32)
+                                                                       |  |  |        +--MW435006_Hubei_virga-like_virus_2
+                                                                       |  +--| (96)
+                                                                       |     |           +--MW435008_Hubei_virga-like_virus_2
+                                                                       |     |        +--| (98)
+                                                                       |     |        |  +**MW434980_Hubei_virga-like_virus_2
+                                                                       |     |     +--| (93)
+                                                                       |     |     |  +--MW434981_Hubei_virga-like_virus_2
+                                                                       |     |  +--| (100)
+                                                                       |     |  |  |  +--MW434995_Hubei_virga-like_virus_2
+                                                                       |     |  |  +**| (68)
+                                                                       |     |  |     +--MW434993_Hubei_virga-like_virus_2
+                                                                       |     +**| (14)
+                                                                       |        |     +--MW435003_Hubei_virga-like_virus_2
+                                                                       |        |  +--| (98)
+                                                                       |        |  |  |        +--MW435004_Hubei_virga-like_virus_2
+                                                                       |        |  |  |     +**| (19)
+                                                                       |        |  |  |     |  +--MW435005_Hubei_virga-like_virus_2
+                                                                       |        |  |  |  +**| (7)
+                                                                       |        |  |  |  |  |  +--MW435001_Hubei_virga-like_virus_2
+                                                                       |        |  |  |  |  +**| (14)
+                                                                       |        |  |  |  |     +--MW434997_Hubei_virga-like_virus_2
+                                                                       |        |  |  +--| (99)
+                                                                       |        |  |     |  +--MW435002_Hubei_virga-like_virus_2
+                                                                       |        |  |     +--| (97)
+                                                                       |        |  |        +--MW434999_Hubei_virga-like_virus_2
+                                                                       |        +--| (99)
+                                                                       |           +--MW434979_Hubei_virga-like_virus_2
+                                                                    +--| (99)
+                                                                    |  +--MN661131_Hubei_virga-like_virus_2
+                                                                 +--| (100)
+                                                                 |  |              +--Hubei_virga_like_virus_2_subsp1_F1113C1F1118
+                                                                 |  |           +**| (75)
+                                                                 |  |           |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1122
+                                                                 |  |        +**| (43)
+                                                                 |  |        |  +**Hubei_virga_like_virus_2_subsp1_F1113C1F1581
+                                                                 |  |     +**| (96)
+                                                                 |  |     |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1113
+                                                                 |  |  +--| (96)
+                                                                 |  |  |  |  +--Hubei_virga_like_virus_2_subsp2_F1120C1F1120
+                                                                 |  |  |  +**| (46)
+                                                                 |  |  |     |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1426
+                                                                 |  |  |     +**| (32)
+                                                                 |  |  |        +--Hubei_virga_like_virus_2_subsp1_F1113C1F1125
+                                                                 |  +--| (89)
+                                                                 |     |     +--Hubei_virga_like_virus_2_subsp1_F1113C1F1422
+                                                                 |     |  +--| (100)
+                                                                 |     |  |  |     +--Hubei_virga_like_virus_2_subsp1_F1113C1F1432
+                                                                 |     |  |  |  +**| (54)
+                                                                 |     |  |  |  |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1433
+                                                                 |     |  |  +**| (98)
+                                                                 |     |  |     +--Hubei_virga_like_virus_2_subsp1_F1113C1F1428
+                                                                 |     +--| (81)
+                                                                 |        +--Hubei_virga_like_virus_2_subsp1_F1113C1F1119
+                                                              +--| (100)
+                                                              |  |     +**KX883772_Hubei_virga-like_virus_2
+                                                              |  |  +--| (100)
+                                                              |  |  |  +**NC_033158_Hubei_virga-like_virus_2
+                                                              |  +--| (100)
+                                                              |     +--KX883780_Hubei_virga-like_virus_2
+                                                           +--| (100)
+                                                           |  +**OP264882_Hubei_virga-like_virus_2
+                                                        +--| (99)
+                                                        |  |  +--OL700069_Hubei_virga-like_virus_2
+                                                        |  +--| (100)
+                                                        |     +--MW520408_Alexandroupolis_virga-like_virus
+                                                   +----| (100)
+                                                   |    +--MW520407_Alexandroupolis_virga-like_virus
+                                               +---| (100)
+                                               |   +------Blearence_virus_F1290C1F1290
+                          +--------------------| (100)
+                          |                    +------MT568541_Pyongtaek_Culex_Virga-like_virus
+                       +--| (53)
+                       |  |                       +**MN661113_Atrato_Virga-like_virus_4
+                       |  |                +------| (100)
+                       |  |                |      |  +--MN661115_Atrato_Virga-like_virus_4
+                       |  |                |      +--| (34)
+                       |  |                |         +--MN661114_Atrato_Virga-like_virus_4
+                       |  |        +-------| (100)
+                       |  |        |       +-----MN661112_Atrato_Virga-like_virus_3
+                       |  +--------| (100)
+                       |           +----------Binsibes_virus_F1191C4F1191
+               +-------| (100)
+               |       |                            +**MN661104_Atrato_Virga-like_virus_2
+               |       |          +-----------------| (100)
+               |       |          |                 |  +--MN661105_Atrato_Virga-like_virus_2
+               |       |          |                 +--| (100)
+               |       |          |                    +--MN661106_Atrato_Virga-like_virus_2
+               |       +----------| (100)
+               |                  +--------------MN661103_Atrato_Virga-like_virus_1
+            +--| (79)
+            |  |                                    +**ON955134_Pedersore_virga-like_virus
+            |  |                                 +--| (81)
+            |  |                                 |  +**ON955133_Pedersore_virga-like_virus
+            |  |                              +--| (86)
+            |  |                              |  +**ON860475_Ginka_virga-like_virus
+            |  |                           +--| (98)
+            |  |                           |  +--ON955136_Pedersore_virga-like_virus
+            |  +---------------------------| (100)
+            |                              |  +--ON955137_Pedersore_virga-like_virus
+            |                              +--| (100)
+            |                                 +**ON955135_Pedersore_virga-like_virus
++-----------| (100)
+|           |                               +--OL700068_Hubei_virga-like_virus_1
+|           |                            +**| (75)
+|           |                            |  +--NC_033165_Hubei_virga-like_virus_1
+|           +----------------------------| (100)
+|                                        +--MW452292_Riboviria_sp_
+|
+|     +--------------------------OK491507_Xiangshan_martelli-like_virus_2
++-----| (98)
+|     +------------------------------OK491508_Xiangshan_martelli-like_virus_3
+|
++----------------------------------------------------------MT227315_Bemisia_tabaci_virga-like_virus_1
+
+Tree in newick format:
+
+(((((((((((((((OM817543_Hubei_virga-like_virus_2:0.0037592514,((MW434992_Hubei_virga-like_virus_2:0.0018153511,MW434985_Hubei_virga-like_virus_2:0.0042450842)99:0.0003015080,(MW434998_Hubei_virga-like_virus_2:0.0027123168,MW435007_Hubei_virga-like_virus_2:0.0036453757)99:0.0006029724)99:0.0009045264)98:0.0006038650,(((((MW435010_Hubei_virga-like_virus_2:0.0009307991,MW435011_Hubei_virga-like_virus_2:0.0028128061)57:0.0000012354,MW434986_Hubei_virga-like_virus_2:0.0006043634)29:0.0000012354,MW434987_Hubei_virga-like_virus_2:0.0015132367)100:0.0015109007,((((MW435009_Hubei_virga-like_virus_2:0.0037096903,MW434982_Hubei_virga-like_virus_2:0.0012148915)62:0.0003022634,((((MW434988_Hubei_virga-like_virus_2:0.0000012354,(MW434989_Hubei_virga-like_virus_2:0.0003013744,MW434994_Hubei_virga-like_virus_2:0.0006035490)7:0.0000012354)17:0.0000012354,MW434991_Hubei_virga-like_virus_2:0.0003015834)97:0.0003011537,MW435000_Hubei_virga-like_virus_2:0.0009048457)99:0.0009093387,MW434983_Hubei_virga-like_virus_2:0.0018198741)67:0.0000026298)59:0.0002962539,MW434996_Hubei_virga-like_virus_2:0.0021135021)21:0.0000012354,((MW434984_Hubei_virga-like_virus_2:0.0036489549,MW434990_Hubei_virga-like_virus_2:0.0036539052)96:0.0002892013,MW435006_Hubei_virga-like_virus_2:0.0024174292)32:0.0000025302)59:0.0003016304)21:0.0000029406,((((MW435008_Hubei_virga-like_virus_2:0.0015160917,MW434980_Hubei_virga-like_virus_2:0.0000012354)98:0.0003024398,MW434981_Hubei_virga-like_virus_2:0.0024185950)93:0.0006044449,(MW434995_Hubei_virga-like_virus_2:0.0006043998,MW434993_Hubei_virga-like_virus_2:0.0021167392)68:0.0000034132)100:0.0009048941,((MW435003_Hubei_virga-like_virus_2:0.0024221912,(((MW435004_Hubei_virga-like_virus_2:0.0015129572,MW435005_Hubei_virga-like_virus_2:0.0015115707)19:0.0000012354,(MW435001_Hubei_virga-like_virus_2:0.0015104689,MW434997_Hubei_virga-like_virus_2:0.0009061685)14:0.0000012354)7:0.0000012354,(MW435002_Hubei_virga-like_virus_2:0.0003020498,MW434999_Hubei_virga-like_virus_2:0.0003017192)97:0.0003020594)99:0.0009065551)98:0.0003019410,MW434979_Hubei_virga-like_virus_2:0.0030291720)99:0.0009063870)14:0.0000012354)96:0.0003017443)97:0.0006088049,MN661131_Hubei_virga-like_virus_2:0.0090563937)99:0.0022776398,(((((Hubei_virga_like_virus_2_subsp1_F1113C1F1118:0.0012051391,Hubei_virga_like_virus_2_subsp1_F1113C1F1122:0.0007011967)75:0.0000012354,Hubei_virga_like_virus_2_subsp1_F1113C1F1581:0.0003006335)43:0.0000012354,Hubei_virga_like_virus_2_subsp1_F1113C1F1113:0.0073472807)96:0.0003006263,(Hubei_virga_like_virus_2_subsp2_F1120C1F1120:0.0012038213,(Hubei_virga_like_virus_2_subsp1_F1113C1F1426:0.0015068734,Hubei_virga_like_virus_2_subsp1_F1113C1F1125:0.0012040904)32:0.0000012354)46:0.0000012354)96:0.0011636793,((Hubei_virga_like_virus_2_subsp1_F1113C1F1422:0.0006030550,((Hubei_virga_like_virus_2_subsp1_F1113C1F1432:0.0006030331,Hubei_virga_like_virus_2_subsp1_F1113C1F1433:0.0012056616)54:0.0000012354,Hubei_virga_like_virus_2_subsp1_F1113C1F1428:0.0009036007)98:0.0003012125)100:0.0015432700,Hubei_virga_like_virus_2_subsp1_F1113C1F1119:0.0033075726)81:0.0006086162)89:0.0004807067)100:0.0151113383,((KX883772_Hubei_virga-like_virus_2:0.0000012354,NC_033158_Hubei_virga-like_virus_2:0.0000012354)100:0.0018622888,KX883780_Hubei_virga-like_virus_2:0.0023075949)100:0.0123794553)100:0.0373577792,OP264882_Hubei_virga-like_virus_2:0.0000026419)100:0.0275988269,(OL700069_Hubei_virga-like_virus_2:0.0161541484,MW520408_Alexandroupolis_virga-like_virus:0.0468500258)100:0.0334695573)99:0.0279102080,MW520407_Alexandroupolis_virga-like_virus:0.0662571900)100:0.1860764285,Blearence_virus_F1290C1F1290:0.2836861549)100:0.1515431681,MT568541_Pyongtaek_Culex_Virga-like_virus:0.2836923297)100:0.8053505837,(((MN661113_Atrato_Virga-like_virus_4:0.0002916855,(MN661115_Atrato_Virga-like_virus_4:0.0007718910,MN661114_Atrato_Virga-like_virus_4:0.0042704553)34:0.0016576920)100:0.2776778735,MN661112_Atrato_Virga-like_virus_3:0.2360357620)100:0.2960289936,Binsibes_virus_F1191C4F1191:0.4399844693)100:0.3457784879)53:0.0966157490,((MN661104_Atrato_Virga-like_virus_2:0.0000026143,(MN661105_Atrato_Virga-like_virus_2:0.0004451930,MN661106_Atrato_Virga-like_virus_2:0.0008877668)100:0.0004436161)100:0.6818928432,MN661103_Atrato_Virga-like_virus_1:0.5720612232)100:0.4215317537)100:0.3161487961,((((ON955134_Pedersore_virga-like_virus:0.0000027401,ON955133_Pedersore_virga-like_virus:0.0000012354)81:0.0181234770,ON860475_Ginka_virga-like_virus:0.0000032255)86:0.0027758474,ON955136_Pedersore_virga-like_virus:0.0036018508)98:0.0295383578,(ON955137_Pedersore_virga-like_virus:0.0247366905,ON955135_Pedersore_virga-like_virus:0.0000026864)100:0.0932506635)100:1.0329300990)79:0.0911237882,((OL700068_Hubei_virga-like_virus_1:0.0079197228,NC_033165_Hubei_virga-like_virus_1:0.0123231174)75:0.0000028768,MW452292_Riboviria_sp_:0.0019416335)100:1.0910092620)100:0.4427192807,(OK491507_Xiangshan_martelli-like_virus_2:1.0098922252,OK491508_Xiangshan_martelli-like_virus_3:1.1733938419)98:0.2236720062,MT227315_Bemisia_tabaci_virga-like_virus_1:2.2082859060);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -69385.752754
+Robinson-Foulds distance between ML tree and consensus tree: 18
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                             +--OM817543_Hubei_virga-like_virus_2
+                                                                          +--| (98)
+                                                                          |  |     +--MW434992_Hubei_virga-like_virus_2
+                                                                          |  |  +--| (99)
+                                                                          |  |  |  +--MW434985_Hubei_virga-like_virus_2
+                                                                          |  +--| (99)
+                                                                          |     |  +--MW434998_Hubei_virga-like_virus_2
+                                                                          |     +--| (99)
+                                                                          |        +--MW435007_Hubei_virga-like_virus_2
+                                                                       +--| (97)
+                                                                       |  |              +--MW435010_Hubei_virga-like_virus_2
+                                                                       |  |           +--| (57)
+                                                                       |  |           |  +--MW435011_Hubei_virga-like_virus_2
+                                                                       |  |        +--| (37)
+                                                                       |  |        |  +--MW434987_Hubei_virga-like_virus_2
+                                                                       |  |     +--| (100)
+                                                                       |  |     |  +--MW434986_Hubei_virga-like_virus_2
+                                                                       |  |  +--| (28)
+                                                                       |  |  |  |     +--MW435003_Hubei_virga-like_virus_2
+                                                                       |  |  |  |  +--| (98)
+                                                                       |  |  |  |  |  |           +--MW435004_Hubei_virga-like_virus_2
+                                                                       |  |  |  |  |  |        +--| (31)
+                                                                       |  |  |  |  |  |        |  +--MW435001_Hubei_virga-like_virus_2
+                                                                       |  |  |  |  |  |     +--| (18)
+                                                                       |  |  |  |  |  |     |  +--MW434997_Hubei_virga-like_virus_2
+                                                                       |  |  |  |  |  |  +--| (19)
+                                                                       |  |  |  |  |  |  |  |  +--MW435002_Hubei_virga-like_virus_2
+                                                                       |  |  |  |  |  |  |  +--| (97)
+                                                                       |  |  |  |  |  |  |     +--MW434999_Hubei_virga-like_virus_2
+                                                                       |  |  |  |  |  +--| (99)
+                                                                       |  |  |  |  |     +--MW435005_Hubei_virga-like_virus_2
+                                                                       |  |  |  +--| (99)
+                                                                       |  |  |     +--MW434979_Hubei_virga-like_virus_2
+                                                                       |  +--| (96)
+                                                                       |     |              +--MW435009_Hubei_virga-like_virus_2
+                                                                       |     |           +--| (62)
+                                                                       |     |           |  +--MW434982_Hubei_virga-like_virus_2
+                                                                       |     |        +--| (59)
+                                                                       |     |        |  |           +--MW434988_Hubei_virga-like_virus_2
+                                                                       |     |        |  |        +--| (32)
+                                                                       |     |        |  |        |  |  +--MW434991_Hubei_virga-like_virus_2
+                                                                       |     |        |  |        |  +--| (32)
+                                                                       |     |        |  |        |     +--MW434994_Hubei_virga-like_virus_2
+                                                                       |     |        |  |     +--| (97)
+                                                                       |     |        |  |     |  +--MW434989_Hubei_virga-like_virus_2
+                                                                       |     |        |  |  +--| (99)
+                                                                       |     |        |  |  |  +--MW435000_Hubei_virga-like_virus_2
+                                                                       |     |        |  +--| (67)
+                                                                       |     |        |     +--MW434983_Hubei_virga-like_virus_2
+                                                                       |     |     +--| (21)
+                                                                       |     |     |  +--MW434996_Hubei_virga-like_virus_2
+                                                                       |     |  +--| (59)
+                                                                       |     |  |  |     +--MW434984_Hubei_virga-like_virus_2
+                                                                       |     |  |  |  +--| (96)
+                                                                       |     |  |  |  |  +--MW434990_Hubei_virga-like_virus_2
+                                                                       |     |  |  +--| (32)
+                                                                       |     |  |     +--MW435006_Hubei_virga-like_virus_2
+                                                                       |     +--| (36)
+                                                                       |        |        +--MW435008_Hubei_virga-like_virus_2
+                                                                       |        |     +--| (98)
+                                                                       |        |     |  +--MW434980_Hubei_virga-like_virus_2
+                                                                       |        |  +--| (93)
+                                                                       |        |  |  +--MW434981_Hubei_virga-like_virus_2
+                                                                       |        +--| (100)
+                                                                       |           |  +--MW434995_Hubei_virga-like_virus_2
+                                                                       |           +--| (68)
+                                                                       |              +--MW434993_Hubei_virga-like_virus_2
+                                                                    +--| (99)
+                                                                    |  +--MN661131_Hubei_virga-like_virus_2
+                                                                 +--| (100)
+                                                                 |  |              +--Hubei_virga_like_virus_2_subsp1_F1113C1F1118
+                                                                 |  |           +--| (75)
+                                                                 |  |           |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1122
+                                                                 |  |        +--| (43)
+                                                                 |  |        |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1581
+                                                                 |  |     +--| (96)
+                                                                 |  |     |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1113
+                                                                 |  |  +--| (96)
+                                                                 |  |  |  |  +--Hubei_virga_like_virus_2_subsp2_F1120C1F1120
+                                                                 |  |  |  +--| (46)
+                                                                 |  |  |     |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1426
+                                                                 |  |  |     +--| (32)
+                                                                 |  |  |        +--Hubei_virga_like_virus_2_subsp1_F1113C1F1125
+                                                                 |  +--| (89)
+                                                                 |     |     +--Hubei_virga_like_virus_2_subsp1_F1113C1F1422
+                                                                 |     |  +--| (100)
+                                                                 |     |  |  |     +--Hubei_virga_like_virus_2_subsp1_F1113C1F1432
+                                                                 |     |  |  |  +--| (54)
+                                                                 |     |  |  |  |  +--Hubei_virga_like_virus_2_subsp1_F1113C1F1433
+                                                                 |     |  |  +--| (98)
+                                                                 |     |  |     +--Hubei_virga_like_virus_2_subsp1_F1113C1F1428
+                                                                 |     +--| (81)
+                                                                 |        +--Hubei_virga_like_virus_2_subsp1_F1113C1F1119
+                                                              +--| (100)
+                                                              |  |     +--KX883772_Hubei_virga-like_virus_2
+                                                              |  |  +--| (100)
+                                                              |  |  |  +--NC_033158_Hubei_virga-like_virus_2
+                                                              |  +--| (100)
+                                                              |     +--KX883780_Hubei_virga-like_virus_2
+                                                           +--| (100)
+                                                           |  +--OP264882_Hubei_virga-like_virus_2
+                                                        +--| (99)
+                                                        |  |  +--OL700069_Hubei_virga-like_virus_2
+                                                        |  +--| (100)
+                                                        |     +--MW520408_Alexandroupolis_virga-like_virus
+                                                   +----| (100)
+                                                   |    +--MW520407_Alexandroupolis_virga-like_virus
+                                               +---| (100)
+                                               |   +------Blearence_virus_F1290C1F1290
+                          +--------------------| (100)
+                          |                    +------MT568541_Pyongtaek_Culex_Virga-like_virus
+                       +--| (53)
+                       |  |                          +--MN661113_Atrato_Virga-like_virus_4
+                       |  |                       +--| (66)
+                       |  |                       |  +--MN661115_Atrato_Virga-like_virus_4
+                       |  |                +------| (100)
+                       |  |                |      +--MN661114_Atrato_Virga-like_virus_4
+                       |  |        +-------| (100)
+                       |  |        |       +-----MN661112_Atrato_Virga-like_virus_3
+                       |  +--------| (100)
+                       |           +----------Binsibes_virus_F1191C4F1191
+               +-------| (100)
+               |       |                            +--MN661104_Atrato_Virga-like_virus_2
+               |       |          +-----------------| (100)
+               |       |          |                 |  +--MN661105_Atrato_Virga-like_virus_2
+               |       |          |                 +--| (100)
+               |       |          |                    +--MN661106_Atrato_Virga-like_virus_2
+               |       +----------| (100)
+               |                  +--------------MN661103_Atrato_Virga-like_virus_1
+            +--| (79)
+            |  |                                    +--ON955134_Pedersore_virga-like_virus
+            |  |                                 +--| (81)
+            |  |                                 |  +--ON955133_Pedersore_virga-like_virus
+            |  |                              +--| (86)
+            |  |                              |  +--ON860475_Ginka_virga-like_virus
+            |  |                           +--| (98)
+            |  |                           |  +--ON955136_Pedersore_virga-like_virus
+            |  +---------------------------| (100)
+            |                              |  +--ON955137_Pedersore_virga-like_virus
+            |                              +--| (100)
+            |                                 +--ON955135_Pedersore_virga-like_virus
++-----------| (100)
+|           |                               +--OL700068_Hubei_virga-like_virus_1
+|           |                            +--| (75)
+|           |                            |  +--NC_033165_Hubei_virga-like_virus_1
+|           +----------------------------| (100)
+|                                        +--MW452292_Riboviria_sp_
+|
+|     +--------------------------OK491507_Xiangshan_martelli-like_virus_2
++-----| (98)
+|     +------------------------------OK491508_Xiangshan_martelli-like_virus_3
+|
++----------------------------------------------------------MT227315_Bemisia_tabaci_virga-like_virus_1
+
+
+Consensus tree in newick format: 
+
+(((((((((((((((OM817543_Hubei_virga-like_virus_2:0.0037527075,((MW434992_Hubei_virga-like_virus_2:0.0018122197,MW434985_Hubei_virga-like_virus_2:0.0042377756)99:0.0003001044,(MW434998_Hubei_virga-like_virus_2:0.0027076635,MW435007_Hubei_virga-like_virus_2:0.0036390777)99:0.0006007519)99:0.0009023822)98:0.0006016343,(((((MW435010_Hubei_virga-like_virus_2:0.0009285014,MW435011_Hubei_virga-like_virus_2:0.0028075897)57:0.0000021768,MW434987_Hubei_virga-like_virus_2:0.0015105794)37:0.0000021745,MW434986_Hubei_virga-like_virus_2:0.0006020988)100:0.0015082452,((MW435003_Hubei_virga-like_virus_2:0.0024179820,((((MW435004_Hubei_virga-like_virus_2:0.0015105822,MW435001_Hubei_virga-like_virus_2:0.0015081023)31:0.0000021745,MW434997_Hubei_virga-like_virus_2:0.0009040021)18:0.0000021745,(MW435002_Hubei_virga-like_virus_2:0.0003006201,MW434999_Hubei_virga-like_virus_2:0.0003002906)97:0.0003006274)19:0.0000021745,MW435005_Hubei_virga-like_virus_2:0.0015089469)99:0.0009043824)98:0.0003005054,MW434979_Hubei_virga-like_virus_2:0.0030238925)99:0.0009042048)28:0.0000021745,(((((MW435009_Hubei_virga-like_virus_2:0.0037033907,MW434982_Hubei_virga-like_virus_2:0.0012126449)62:0.0003017808,((((MW434988_Hubei_virga-like_virus_2:0.0000021745,(MW434991_Hubei_virga-like_virus_2:0.0003010995,MW434994_Hubei_virga-like_virus_2:0.0006012587)32:0.0000021745)32:0.0000021745,MW434989_Hubei_virga-like_virus_2:0.0003008918)97:0.0003006772,MW435000_Hubei_virga-like_virus_2:0.0009026089)99:0.0009070832,MW434983_Hubei_virga-like_virus_2:0.0018166501)67:0.0000021745)59:0.0002947422,MW434996_Hubei_virga-like_virus_2:0.0021097662)21:0.0000021745,((MW434984_Hubei_virga-like_virus_2:0.0036425373,MW434990_Hubei_virga-like_virus_2:0.0036475138)96:0.0002873630,MW435006_Hubei_virga-like_virus_2:0.0024131576)32:0.0000021745)59:0.0003011696,(((MW435008_Hubei_virga-like_virus_2:0.0015134365,MW434980_Hubei_virga-like_virus_2:0.0000021745)98:0.0003008701,MW434981_Hubei_virga-like_virus_2:0.0024144758)93:0.0006021772,(MW434995_Hubei_virga-like_virus_2:0.0006021296,MW434993_Hubei_virga-like_virus_2:0.0021130259)68:0.0000021745)100:0.0009028112)36:0.0000021745)96:0.0003003251)97:0.0006066121,MN661131_Hubei_virga-like_virus_2:0.0090422467)99:0.0022741441,(((((Hubei_virga_like_virus_2_subsp1_F1113C1F1118:0.0012031133,Hubei_virga_like_virus_2_subsp1_F1113C1F1122:0.0006995782)75:0.0000021745,Hubei_virga_like_virus_2_subsp1_F1113C1F1581:0.0002992702)43:0.0000021745,Hubei_virga_like_virus_2_subsp1_F1113C1F1113:0.0073360760)96:0.0002992504,(Hubei_virga_like_virus_2_subsp2_F1120C1F1120:0.0012020258,(Hubei_virga_like_virus_2_subsp1_F1113C1F1426:0.0015045450,Hubei_virga_like_virus_2_subsp1_F1113C1F1125:0.0012022949)32:0.0000021745)46:0.0000021745)96:0.0011610562,((Hubei_virga_like_virus_2_subsp1_F1113C1F1422:0.0006008661,((Hubei_virga_like_virus_2_subsp1_F1113C1F1432:0.0006008461,Hubei_virga_like_virus_2_subsp1_F1113C1F1433:0.0012028858)54:0.0000021745,Hubei_virga_like_virus_2_subsp1_F1113C1F1428:0.0009015250)98:0.0002998615)100:0.0015406451,Hubei_virga_like_virus_2_subsp1_F1113C1F1119:0.0033020735)81:0.0006064263)89:0.0004792678)100:0.0151000357,((KX883772_Hubei_virga-like_virus_2:0.0000021745,NC_033158_Hubei_virga-like_virus_2:0.0000021745)100:0.0018594600,KX883780_Hubei_virga-like_virus_2:0.0023033058)100:0.0123532574)100:0.0373689276,OP264882_Hubei_virga-like_virus_2:0.0000021898)100:0.0275327163,(OL700069_Hubei_virga-like_virus_2:0.0161146546,MW520408_Alexandroupolis_virga-like_virus:0.0467730435)100:0.0334408507)99:0.0278935660,MW520407_Alexandroupolis_virga-like_virus:0.0661562267)100:0.1859586655,Blearence_virus_F1290C1F1290:0.2832760940)100:0.1517711214,MT568541_Pyongtaek_Culex_Virga-like_virus:0.2830325164)100:0.8043759226,((((MN661113_Atrato_Virga-like_virus_4:0.0019528561,MN661115_Atrato_Virga-like_virus_4:0.0007707052)66:0.0010159804,MN661114_Atrato_Virga-like_virus_4:0.0032472281)100:0.2767377840,MN661112_Atrato_Virga-like_virus_3:0.2360941336)100:0.2952112235,Binsibes_virus_F1191C4F1191:0.4391726806)100:0.3458241749)53:0.0966067269,((MN661104_Atrato_Virga-like_virus_2:0.0000021745,(MN661105_Atrato_Virga-like_virus_2:0.0004429275,MN661106_Atrato_Virga-like_virus_2:0.0008868175)100:0.0004415893)100:0.6813624037,MN661103_Atrato_Virga-like_virus_1:0.5714031252)100:0.4211887992)100:0.3160294653,((((ON955134_Pedersore_virga-like_virus:0.0000025542,ON955133_Pedersore_virga-like_virus:0.0000021745)81:0.0181119499,ON860475_Ginka_virga-like_virus:0.0000021745)86:0.0027741667,ON955136_Pedersore_virga-like_virus:0.0035986692)98:0.0294792469,(ON955137_Pedersore_virga-like_virus:0.0247075413,ON955135_Pedersore_virga-like_virus:0.0000021745)100:0.0932879024)100:1.0322812821)79:0.0912651288,((OL700068_Hubei_virga-like_virus_1:0.0079126787,NC_033165_Hubei_virga-like_virus_1:0.0123124275)75:0.0000029775,MW452292_Riboviria_sp_:0.0019400115)100:1.0901295815)100:0.4425934209,(OK491507_Xiangshan_martelli-like_virus_2:1.0093173756,OK491508_Xiangshan_martelli-like_virus_3:1.1724103697)98:0.2236705093,MT227315_Bemisia_tabaci_virga-like_virus_1:2.2061567202);
+
+TIME STAMP
+----------
+
+Date and time: Wed Jan 25 13:35:58 2023
+Total CPU time used: 12237.95032 seconds (3h:23m:57s)
+Total wall-clock time used: 434.484977 seconds (0h:7m:14s)
+

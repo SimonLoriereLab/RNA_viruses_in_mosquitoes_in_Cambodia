@@ -1,0 +1,1 @@
+Coronaviridae_family_ambiguous_hits_check_later.txt file is 408 MB, is not uploaded here. All contaminant contig IDs including from other files are in [contig_set_C.txt](../../../../../../RdRp_scan/analysis/contig_set_C.txt). Importantly all of them are too short to represent an RdRp except one PBS1c_NODE_11_length_1288_cov_132.524736, but it is actually not RdRp.

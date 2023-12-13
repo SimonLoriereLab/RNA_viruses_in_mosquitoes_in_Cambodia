@@ -1,0 +1,294 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=192;
+	taxlabels
+	AB083060_Sclerophthora_macrospora_virus_A
+	AB373028_Redspotted_grouper_nervous_necrosis_virus
+	AY369136_Redspotted_grouper_nervous_necrosis_virus
+	AY721616_Redspotted_grouper_nervous_necrosis_virus
+	AY962576_Pieris_rapae_virus
+	BK059724_Opistofel_virus[&!color=#004bbd]
+	Easynal_virus_F1383C255F1374[&!color=#bf4000]
+	Easynal_virus_F1383C255F1375[&!color=#bf4000]
+	Easynal_virus_F1383C255F1380[&!color=#bf4000]
+	Easynal_virus_F1383C255F1383[&!color=#bf4000]
+	Easynal_virus_F1383C255F1384[&!color=#bf4000]
+	Easynal_virus_F1383C255F1385[&!color=#bf4000]
+	FJ748760_Redspotted_grouper_nervous_necrosis_virus
+	FJ789783_Redspotted_grouper_nervous_necrosis_virus
+	FJ803915_Sea_bass_Iberian_betanodavirus
+	GQ402010_Redspotted_grouper_nervous_necrosis_virus
+	GQ402012_Redspotted_grouper_nervous_necrosis_virus
+	GU976287_Alphanodavirus_HB-2007_CHN
+	HM030972_Santeuil_nodavirus
+	HM228873_Bat_guano_associated_nodavirus_GF-4n
+	HQ859895_Tiger_grouper_Nervous_Necrosis_Virus
+	HQ859900_Golden_pompano_nervous_necrosis_virus
+	HQ859908_Tiger_grouper_Nervous_Necrosis_Virus
+	HQ859911_Asian_seabass_Nervous_Necrosis_Virus
+	HQ859913_Tiger_grouper_Nervous_Necrosis_Virus
+	JN189831_Redspotted_grouper_nervous_necrosis_virus
+	JN189833_Striped_jack_nervous_necrosis_virus
+	JN189865_Striped_jack_nervous_necrosis_virus
+	JN189909_Striped_jack_nervous_necrosis_virus
+	JQ943579_Le_Blanc_nodavirus
+	KF510033_Betegovirus_SF
+	KF668184_Redspotted_grouper_nervous_necrosis_virus
+	KJ632942_Mosinovirus
+	KP263548_Lunovirus
+	KP455643_Redspotted_grouper_nervous_necrosis_virus
+	KP714084_Craigies_Hill_virus
+	KP969971_Craigies_Hill_virus
+	KP969972_Craigies_Hill_virus
+	KP969973_Craigies_Hill_virus
+	KP969975_Craigies_Hill_virus
+	KP969978_Craigies_Hill_virus
+	KP969979_Craigies_Hill_virus
+	KP969980_Craigies_Hill_virus
+	KP969981_Craigies_Hill_virus
+	KP969982_Craigies_Hill_virus
+	KP969985_Craigies_Hill_virus
+	KP969987_Craigies_Hill_virus
+	KP969988_Craigies_Hill_virus
+	KP969989_Craigies_Hill_virus
+	KP969990_Craigies_Hill_virus
+	KP969992_Craigies_Hill_virus
+	KT390713_Grouper_betanodavirus
+	KU705814_Mouse_grouper_Nervous_Necrosis_Virus
+	KU754526_Craigmillar_Park_virus
+	KX774634_Lone_star_tick_nodavirus
+	KX883009_Hubei_noda-like_virus_10
+	KX883010_Hubei_noda-like_virus_11
+	KX883019_Beihai_noda-like_virus_26
+	KX883026_Beihai_noda-like_virus_17
+	KX883034_Beihai_noda-like_virus_4
+	KX883056_Beihai_mantis_shrimp_virus_6
+	KX883058_Beihai_noda-like_virus_17
+	KX883059_Beihai_noda-like_virus_5
+	KX883080_Hubei_noda-like_virus_5
+	KX883125_Hubei_noda-like_virus_12
+	KX883130_Hubei_noda-like_virus_9
+	KX883132_Wuhan_house_centipede_virus_6
+	KX883139_Hubei_noda-like_virus_13
+	KX883140_Hubei_noda-like_virus_15
+	KX883162_Hubei_noda-like_virus_13
+	KX883167_Hubei_noda-like_virus_6
+	KX883198_Wuhan_house_centipede_virus_6
+	KX883225_Hubei_noda-like_virus_7
+	KX883237_Hubei_noda-like_virus_8
+	KY214439_Caninovirus_sp_
+	KY315688_Redspotted_grouper_nervous_necrosis_virus
+	KY354681_Redspotted_grouper_nervous_necrosis_virus
+	KY354688_Redspotted_grouper_nervous_necrosis_virus
+	KY354693_Redspotted_grouper_nervous_necrosis_virus
+	MF190049_Barns_Ness_serrated_wrack_noda-like_virus_1
+	MF190050_Barns_Ness_serrated_wrack_noda-like_virus_2
+	MG874757_Redspotted_grouper_nervous_necrosis_virus
+	MH384328_Craigies_Hill_virus
+	MH384347_Craigies_Hill_virus
+	MH719096_Mayapan_virus
+	MH794142_Culannivirus_DW-2019a
+	MK533155_Tetranychus_urticae-associated_nodavirus_A
+	MK533156_Tetranychus_urticae-associated_nodavirus_B
+	MN097798_Betanodavirus_sp_
+	MN097800_Betanodavirus_sp_
+	MN309751_Hulong_grouper_nervous_necrosis_virus
+	MN513380_Hammarskog_noda-like_virus
+	MN617791_Erysiphe_necator_associated_nodavirus_1
+	MN617794_Erysiphe_necator_associated_nodavirus_4
+	MN862357_Emilia_sonchifolia_noda-like_virus
+	MN918672_Picornavirales_sp_
+	MT085291_Riboviria_sp_
+	MT085295_Riboviria_sp_
+	MT096526_Hubei_noda-like_virus_11
+	MT138113_Nodaviridae_sp_
+	MT317176_Rice_Noda-like_virus
+	MT482496_PNG_bee_virus_14
+	MT753152_Mayapan_virus
+	MW239203_Riboviria_sp_
+	MW239267_Riboviria_sp_
+	MW239321_Riboviria_sp_
+	MW239448_Riboviria_sp_
+	MW239459_Riboviria_sp_
+	MW239460_Riboviria_sp_
+	MW239466_Riboviria_sp_
+	MW310387_Zeugodacus_tau_noda-like_virus_isolate_Bz
+	MW314615_Lasius_neglectus_noda-like_virus_1
+	MW588105_Mute_swan_feces_associated_noda-like_virus_2
+	MW826493_Nodaviridae_sp_
+	MW826495_Nodaviridae_sp_
+	MW897065_Sichuan_sediment_noda-like_virus_4
+	MW897072_Beijing_sediment_noda-like_virus_4
+	MW897073_Xinjiang_sediment_noda-like_virus_2
+	MW897075_Beijing_sediment_noda-like_virus_6
+	MW897079_Guangxi_forest_noda-like_virus
+	MW897091_Sichuan_forest_noda-like_virus_3
+	MW897098_Henan_sediment_noda-like_virus_2
+	MW897103_Sichuan_forest_noda-like_virus_5
+	MW897119_Zhejiang_farmland_noda-like_virus
+	MW897125_Sichuan_sediment_noda-like_virus_13
+	MW897128_Henan_sediment_noda-like_virus_4
+	MZ054261_Redspotted_grouper_nervous_necrosis_virus
+	MZ209764_Guiyang_nodavirus_1
+	MZ209797_Guiyang_nodavirus_1
+	MZ209970_Sanya_nodavirus_1
+	MZ375165_Riboviria_sp_
+	MZ443596_Leuven_Nodavirus-like_1
+	MZ443627_Nelson_wasp-associated_virus_3
+	MZ449210_Redspotted_grouper_nervous_necrosis_virus
+	MZ527260_Redspotted_grouper_nervous_necrosis_virus
+	Murmaxied_virus_F1531C222F1093[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1094[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1096[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1217[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1527[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1531[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1532[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1533[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1534[&!color=#bf4000]
+	Murmaxied_virus_F1531C222F1537[&!color=#bf4000]
+	NC_003691_Pariacoto_virus
+	NC_008040_Redspotted_grouper_nervous_necrosis_virus
+	NC_013460_Tiger_puffer_nervous_necrosis_virus
+	NC_024492_Senegalese_sole_Iberian_betanodavirus
+	NC_032172_Beihai_noda-like_virus_18
+	NC_032647_Beihai_shrimp_virus_6
+	NC_032732_Shuangao_insect_virus_10
+	NC_032760_Beihai_sphaeromadae_virus_2
+	NC_032872_Hubei_diptera_virus_16
+	NC_033077_Sanxia_water_strider_virus_17
+	NC_033139_Sanxia_water_strider_virus_16
+	NC_033166_Wenzhou_bivalvia_virus_3
+	NC_033307_Hubei_noda-like_virus_9
+	NC_033309_Hubei_noda-like_virus_8
+	NC_033311_Hubei_orthoptera_virus_4
+	NC_033482_Wuhan_house_centipede_virus_6
+	OL472283_Leveillula_taurica_associated_noda-like_virus_1
+	OL472284_Leveillula_taurica_associated_noda-like_virus_1
+	OL472285_Leveillula_taurica_associated_noda-like_virus_1
+	OL472286_Leveillula_taurica_associated_noda-like_virus_1
+	OL472287_Leveillula_taurica_associated_noda-like_virus_1
+	OL472288_Koper_noda-like_virus_2
+	OL472289_Koper_noda-like_virus_3
+	OL472290_Koper_noda-like_virus_4
+	OL700048_XiangYun_tombus-noda-like_virus_11
+	OL700180_XiangYun_tombus-noda-like_virus_1
+	OL700185_XiangYun_tombus-noda-like_virus_6
+	OL700186_XiangYun_tombus-noda-like_virus_7
+	OL700188_XiangYun_tombus-noda-like_virus_9
+	OL955902_Striped_jack_nervous_necrosis_virus
+	OL955905_Solea_solea_betanodavirus
+	OM513982_Betanodavirus_sp_
+	OM953982_Flumine_nodavirus_10
+	OM953985_Flumine_nodavirus_16
+	OM954246_Flumine_nodavirus_11
+	OM954249_Flumine_nodavirus_17
+	OM954255_Flumine_nodavirus_27
+	OM954257_Flumine_nodavirus_3
+	ON049805_Nodaviridae_sp_
+	ON049855_Nodaviridae_sp_
+	ON049869_Nodaviridae_sp_
+	ON049872_Nodaviridae_sp_
+	ON260786_rice-associated_noda-like_virus_1
+	ON746452_Tianjin_Nodav_tick_virus_1
+	ON872547_Bat_faecal_associated_nodavirus_3
+	OP441734_flactilig_virus_2
+	OP884074_Army_ant_associated_Nodavirus_3
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((MW239448_Riboviria_sp_[&!color=#bf4000]:0.276234,MW239466_Riboviria_sp_[&!color=#bf4000]:0.255671)[&label=1.0,!color=#bf4000]:0.483984,(ON872547_Bat_faecal_associated_nodavirus_3[&!color=#bf4000]:0.572294,(ON049872_Nodaviridae_sp_[&!color=#bf4000]:0.582676,KX883009_Hubei_noda-like_virus_10[&!color=#bf4000]:0.365949)[&label=0.984,!color=#bf4000]:0.18404)[&label=0.975,!color=#bf4000]:0.123209,((MW239460_Riboviria_sp_[&!color=#bf4000]:0.511978,((OL472288_Koper_noda-like_virus_2[&!color=#bf4000]:0.157217,ON260786_rice-associated_noda-like_virus_1[&!color=#bf4000]:0.142329)[&label=1.0,!color=#bf4000]:0.368273,(MT317176_Rice_Noda-like_virus[&!color=#bf4000]:0.309563,(MT482496_PNG_bee_virus_14[&!color=#bf4000]:0.362837,(MN862357_Emilia_sonchifolia_noda-like_virus[&!color=#bf4000]:0.317585,MW239267_Riboviria_sp_[&!color=#bf4000]:0.28329)[&label=0.894,!color=#bf4000]:0.086831)[&label=0.218,!color=#bf4000]:0.051125)[&label=0.989,!color=#bf4000]:0.117792)[&label=0.202,!color=#bf4000]:0.072435)[&label=1.0,!color=#bf4000]:0.255647,(((OM954255_Flumine_nodavirus_27[&!color=#bf4000]:0.630117,(NC_033311_Hubei_orthoptera_virus_4[&!color=#bf4000]:0.330135,(KJ632942_Mosinovirus[&!color=#bf4000]:0.211106,(OP884074_Army_ant_associated_Nodavirus_3[&!color=#bf4000]:0.243454,(MW314615_Lasius_neglectus_noda-like_virus_1[&!color=#bf4000]:0.185208,(MW897128_Henan_sediment_noda-like_virus_4[&!color=#bf4000]:0.017075,(MW826495_Nodaviridae_sp_[&!color=#bf4000]:0.018613,MW897079_Guangxi_forest_noda-like_virus[&!color=#bf4000]:0.008982)[&label=0.946,!color=#bf4000]:0.016126)[&label=1.0,!color=#bf4000]:0.124684)[&label=0.711,!color=#bf4000]:0.06696)[&label=0.999,!color=#bf4000]:0.184845)[&label=0.997,!color=#bf4000]:0.119353)[&label=0.954,!color=#bf4000]:0.071355)[&label=0.672,!color=#bf4000]:0.043396,(MW239459_Riboviria_sp_[&!color=#bf4000]:0.521312,NC_032732_Shuangao_insect_virus_10[&!color=#bf4000]:0.564794)[&label=0.856,!color=#bf4000]:0.091092)[&label=0.998,!color=#bf4000]:0.14824,(((KX883167_Hubei_noda-like_virus_6[&!color=#bf4000]:0.479484,(ON049869_Nodaviridae_sp_[&!color=#bf4000]:0.369843,MW897103_Sichuan_forest_noda-like_virus_5[&!color=#bf4000]:0.355797)[&label=0.971,!color=#bf4000]:0.104125)[&label=1.0,!color=#bf4000]:0.179362,(NC_003691_Pariacoto_virus[&!color=#bf4000]:0.545213,((MW897098_Henan_sediment_noda-like_virus_2[&!color=#bf4000]:0.148806,(OL700048_XiangYun_tombus-noda-like_virus_11[&!color=#bf4000]:0.062808,(MT753152_Mayapan_virus[&!color=#bf4000]:0.03587,(KX883080_Hubei_noda-like_virus_5[&!color=#bf4000]:0.036543,(MH719096_Mayapan_virus[&!color=#bf4000]:0.038553,MH794142_Culannivirus_DW-2019a[&!color=#bf4000]:0.019359)[&label=0.352,!color=#bf4000]:0.010557)[&label=0.455,!color=#bf4000]:0.010205)[&label=0.952,!color=#bf4000]:0.036599)[&label=1.0,!color=#bf4000]:0.130899)[&label=1.0,!color=#bf4000]:0.396698,((NC_033482_Wuhan_house_centipede_virus_6[&!color=#bf4000]:0.019447,(KX883132_Wuhan_house_centipede_virus_6[&!color=#bf4000]:0.002793,KX883198_Wuhan_house_centipede_virus_6[&!color=#bf4000]:0.0)[&label=0.978,!color=#bf4000]:0.024203)[&label=1.0,!color=#bf4000]:0.229237,(AY962576_Pieris_rapae_virus[&!color=#bf4000]:0.335571,((MZ209764_Guiyang_nodavirus_1[&!color=#bf4000]:0.0,(MZ209797_Guiyang_nodavirus_1[&!color=#bf4000]:0.001633,MW897119_Zhejiang_farmland_noda-like_virus[&!color=#bf4000]:0.0)[&label=0.806,!color=#bf4000]:0.001407)[&label=1.0,!color=#bf4000]:0.216903,(OM954257_Flumine_nodavirus_3[&!color=#bf4000]:0.094097,MW897091_Sichuan_forest_noda-like_virus_3[&!color=#bf4000]:0.188852)[&label=0.291,!color=#bf4000]:0.046341)[&label=0.536,!color=#bf4000]:0.048907)[&label=0.999,!color=#bf4000]:0.140372)[&label=1.0,!color=#bf4000]:0.385622)[&label=0.981,!color=#bf4000]:0.105375)[&label=0.3,!color=#bf4000]:0.054546)[&label=0.657,!color=#bf4000]:0.037781,((((OM954246_Flumine_nodavirus_11[&!color=#bf4000]:0.0,OM953982_Flumine_nodavirus_10[&!color=#bf4000]:0.0)[&label=1.0,!color=#bf4000]:0.633151,(MW239203_Riboviria_sp_[&!color=#bf4000]:0.578561,OL700188_XiangYun_tombus-noda-like_virus_9[&!color=#bf4000]:0.516649)[&label=0.953,!color=#bf4000]:0.147709)[&label=0.99,!color=#bf4000]:0.186612,(((MT138113_Nodaviridae_sp_[&!color=#bf4000]:0.0092,MN918672_Picornavirales_sp_[&!color=#bf4000]:0.0)[&label=1.0,!color=#bf4000]:0.512682,(GU976287_Alphanodavirus_HB-2007_CHN[&!color=#bf4000]:0.375694,((MW897075_Beijing_sediment_noda-like_virus_6[&!color=#bf4000]:0.113098,(KX883010_Hubei_noda-like_virus_11[&!color=#bf4000]:0.002458,MT096526_Hubei_noda-like_virus_11[&!color=#bf4000]:0.003186)[&label=0.139,!color=#bf4000]:0.017478)[&label=1.0,!color=#bf4000]:0.503137,(NC_033077_Sanxia_water_strider_virus_17[&!color=#bf4000]:0.223972,(MN513380_Hammarskog_noda-like_virus[&!color=#bf4000]:0.075556,(KX883125_Hubei_noda-like_virus_12[&!color=#bf4000]:0.043909,MW897072_Beijing_sediment_noda-like_virus_4[&!color=#bf4000]:0.037577)[&label=0.881,!color=#bf4000]:0.029067)[&label=1.0,!color=#bf4000]:0.220504)[&label=0.97,!color=#bf4000]:0.108809)[&label=0.928,!color=#bf4000]:0.073733)[&label=1.0,!color=#bf4000]:0.269139)[&label=1.0,!color=#bf4000]:0.159318,(NC_032760_Beihai_sphaeromadae_virus_2[&!color=#bf4000]:1.010841,(((MW588105_Mute_swan_feces_associated_noda-like_virus_2:0.286818,BK059724_Opistofel_virus:0.237584)[&label=1.0]:0.624138,(OP441734_flactilig_virus_2:0.793795,(JQ943579_Le_Blanc_nodavirus:0.610999,HM030972_Santeuil_nodavirus:0.822149)[&label=1.0]:1.225898)[&label=0.0]:0.328827)[&label=0.963,!color=#bf4000]:0.24448,((KX883059_Beihai_noda-like_virus_5[&!color=#bf4000]:0.861769,((NC_033166_Wenzhou_bivalvia_virus_3[&!color=#bf4000]:1.109816,(KX883034_Beihai_noda-like_virus_4[&!color=#bf4000]:1.20612,((MF190050_Barns_Ness_serrated_wrack_noda-like_virus_2[&!color=#bf4000]:0.557637,MF190049_Barns_Ness_serrated_wrack_noda-like_virus_1[&!color=#bf4000]:1.143027)[&label=0.986,!color=#bf4000]:0.271391,(KF510033_Betegovirus_SF[&!color=#bf4000]:1.036675,AB083060_Sclerophthora_macrospora_virus_A[&!color=#bf4000]:1.013599)[&label=0.439,!color=#bf4000]:0.124739)[&label=0.548,!color=#bf4000]:0.066129)[&label=0.928,!color=#bf4000]:0.176921)[&label=0.999,!color=#bf4000]:0.31852,(MW897065_Sichuan_sediment_noda-like_virus_4[&!color=#bf4000]:0.427902,MW897125_Sichuan_sediment_noda-like_virus_13[&!color=#bf4000]:0.454009)[&label=1.0,!color=#bf4000]:0.46776)[&label=0.878,!color=#bf4000]:0.129357)[&label=0.999,!color=#bf4000]:0.181126,(((NC_032647_Beihai_shrimp_virus_6[&!color=#bf4000]:0.593712,(MZ209970_Sanya_nodavirus_1[&!color=#bf4000]:0.430419,(MT085291_Riboviria_sp_[&!color=#bf4000]:0.02213,MT085295_Riboviria_sp_[&!color=#bf4000]:0.007892)[&label=1.0,!color=#bf4000]:0.438622)[&label=0.999,!color=#bf4000]:0.245469)[&label=0.88,!color=#bf4000]:0.117452,((OM954249_Flumine_nodavirus_17[&!color=#bf4000]:0.326941,OM953985_Flumine_nodavirus_16[&!color=#bf4000]:0.287799)[&label=1.0,!color=#bf4000]:0.529624,(KX774634_Lone_star_tick_nodavirus[&!color=#bf4000]:0.528051,(MN617794_Erysiphe_necator_associated_nodavirus_4[&!color=#bf4000]:0.224642,MN617791_Erysiphe_necator_associated_nodavirus_1[&!color=#bf4000]:0.244847)[&label=1.0,!color=#bf4000]:0.275024)[&label=1.0,!color=#bf4000]:0.247597)[&label=0.93,!color=#bf4000]:0.089691)[&label=0.998,!color=#bf4000]:0.160109,((((Easynal_virus_F1383C255F1374[&!color=#bf4000]:0.0,((Easynal_virus_F1383C255F1375[&!color=#bf4000]:0.0,(Easynal_virus_F1383C255F1384[&!color=#bf4000]:0.0,Easynal_virus_F1383C255F1383[&!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0,(Easynal_virus_F1383C255F1385[&!color=#bf4000]:0.0,Easynal_virus_F1383C255F1380[&!color=#bf4000]:0.0)[&label=0.812,!color=#bf4000]:0.0)[&label=1.0,!color=#bf4000]:0.0)[&label=1.0,!color=#bf4000]:1.032136,(HM228873_Bat_guano_associated_nodavirus_GF-4n[&!color=#bf4000]:0.66466,(OL472287_Leveillula_taurica_associated_noda-like_virus_1[&!color=#bf4000]:0.001421,((OL472284_Leveillula_taurica_associated_noda-like_virus_1[&!color=#bf4000]:0.0,OL472285_Leveillula_taurica_associated_noda-like_virus_1[&!color=#bf4000]:0.001419)[&label=0.869,!color=#bf4000]:0.001419,(OL472283_Leveillula_taurica_associated_noda-like_virus_1[&!color=#bf4000]:0.0,OL472286_Leveillula_taurica_associated_noda-like_virus_1[&!color=#bf4000]:0.00142)[&label=0.0,!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0)[&label=1.0,!color=#bf4000]:0.920107)[&label=0.131,!color=#bf4000]:0.064531)[&label=0.73,!color=#bf4000]:0.073915,(KX883140_Hubei_noda-like_virus_15[&!color=#bf4000]:0.989566,((KU754526_Craigmillar_Park_virus[&!color=#bf4000]:0.118919,(((KP969982_Craigies_Hill_virus[&!color=#bf4000]:0.001464,(KP969979_Craigies_Hill_virus[&!color=#bf4000]:0.002931,((MH384328_Craigies_Hill_virus[&!color=#bf4000]:0.002848,MH384347_Craigies_Hill_virus[&!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0,KP969980_Craigies_Hill_virus[&!color=#bf4000]:0.001512)[&label=0.0,!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0)[&label=0.853,!color=#bf4000]:0.001455,(((KP969989_Craigies_Hill_virus[&!color=#bf4000]:0.0,((KP969992_Craigies_Hill_virus[&!color=#bf4000]:0.0,KP969988_Craigies_Hill_virus[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.001462,KP969990_Craigies_Hill_virus[&!color=#bf4000]:0.0)[&label=0.727,!color=#bf4000]:0.0)[&label=0.924,!color=#bf4000]:0.001462,KP969987_Craigies_Hill_virus[&!color=#bf4000]:0.0)[&label=0.941,!color=#bf4000]:0.002929,(KP969981_Craigies_Hill_virus[&!color=#bf4000]:0.0,KP969985_Craigies_Hill_virus[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0)[&label=0.944,!color=#bf4000]:0.016281,((KP969972_Craigies_Hill_virus[&!color=#bf4000]:4.14E-4,KP714084_Craigies_Hill_virus[&!color=#bf4000]:0.002644)[&label=0.864,!color=#bf4000]:0.004387,((KP969971_Craigies_Hill_virus[&!color=#bf4000]:0.001463,(KP969975_Craigies_Hill_virus[&!color=#bf4000]:0.002928,KP969978_Craigies_Hill_virus[&!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0)[&label=0.884,!color=#bf4000]:0.004176,KP969973_Craigies_Hill_virus[&!color=#bf4000]:0.004633)[&label=0.857,!color=#bf4000]:0.004641)[&label=0.968,!color=#bf4000]:0.018572)[&label=0.995,!color=#bf4000]:0.098748)[&label=1.0,!color=#bf4000]:0.466097,((KX883139_Hubei_noda-like_virus_13[&!color=#bf4000]:0.018778,KX883162_Hubei_noda-like_virus_13[&!color=#bf4000]:0.033004)[&label=1.0,!color=#bf4000]:0.461296,(NC_032872_Hubei_diptera_virus_16[&!color=#bf4000]:0.450324,(MW310387_Zeugodacus_tau_noda-like_virus_isolate_Bz[&!color=#bf4000]:0.336773,MZ443596_Leuven_Nodavirus-like_1[&!color=#bf4000]:0.40856)[&label=0.039,!color=#bf4000]:0.071624)[&label=0.965,!color=#bf4000]:0.102708)[&label=0.893,!color=#bf4000]:0.087725)[&label=1.0,!color=#bf4000]:0.363197)[&label=0.934,!color=#bf4000]:0.103346)[&label=0.714,!color=#bf4000]:0.060534,((NC_032172_Beihai_noda-like_virus_18[&!color=#bf4000]:0.867736,((KX883026_Beihai_noda-like_virus_17[&!color=#bf4000]:0.0,KX883058_Beihai_noda-like_virus_17[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.643833,(OL955905_Solea_solea_betanodavirus[&!color=#bf4000]:0.026911,(NC_013460_Tiger_puffer_nervous_necrosis_virus[&!color=#bf4000]:0.048169,((KY354693_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.004204,((JN189831_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,KY354688_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,OL955902_Striped_jack_nervous_necrosis_virus[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0,JN189833_Striped_jack_nervous_necrosis_virus[&!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0)[&label=0.772,!color=#bf4000]:0.001404,((((GQ402010_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,((MZ054261_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.001401,(((MN097800_Betanodavirus_sp_[&!color=#bf4000]:0.0,MN097798_Betanodavirus_sp_[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.001401,KT390713_Grouper_betanodavirus[&!color=#bf4000]:0.0)[&label=0.824,!color=#bf4000]:0.0014,((((((((KP455643_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.001401,(MG874757_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,MZ527260_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0,KU705814_Mouse_grouper_Nervous_Necrosis_Virus[&!color=#bf4000]:0.002804)[&label=0.0,!color=#bf4000]:0.0,KF668184_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.002801)[&label=0.0,!color=#bf4000]:0.0,MN309751_Hulong_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.002803)[&label=0.854,!color=#bf4000]:0.001401,HQ859895_Tiger_grouper_Nervous_Necrosis_Virus[&!color=#bf4000]:0.001401)[&label=0.0,!color=#bf4000]:0.0,((FJ789783_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0014,(HQ859908_Tiger_grouper_Nervous_Necrosis_Virus[&!color=#bf4000]:0.0,HQ859911_Asian_seabass_Nervous_Necrosis_Virus[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0014)[&label=0.0,!color=#bf4000]:0.0,(AY721616_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,FJ803915_Sea_bass_Iberian_betanodavirus[&!color=#bf4000]:0.0,KY354681_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,NC_008040_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0,AB373028_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.002802)[&label=0.0,!color=#bf4000]:0.0,(FJ748760_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,JN189865_Striped_jack_nervous_necrosis_virus[&!color=#bf4000]:0.0,OM513982_Betanodavirus_sp_[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0014)[&label=0.843,!color=#bf4000]:0.0014)[&label=0.0,!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0,HQ859913_Tiger_grouper_Nervous_Necrosis_Virus[&!color=#bf4000]:0.0014)[&label=0.853,!color=#bf4000]:0.0014)[&label=0.791,!color=#bf4000]:0.001401,(HQ859900_Golden_pompano_nervous_necrosis_virus[&!color=#bf4000]:0.005617,(AY369136_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.0,KY315688_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.005612)[&label=0.0,!color=#bf4000]:0.0)[&label=0.818,!color=#bf4000]:0.001401)[&label=0.782,!color=#bf4000]:0.001404,(NC_024492_Senegalese_sole_Iberian_betanodavirus[&!color=#bf4000]:0.0,(MZ449210_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.002512,GQ402012_Redspotted_grouper_nervous_necrosis_virus[&!color=#bf4000]:0.008414)[&label=0.765,!color=#bf4000]:0.001731)[&label=0.0,!color=#bf4000]:0.0)[&label=0.0,!color=#bf4000]:0.0,JN189909_Striped_jack_nervous_necrosis_virus[&!color=#bf4000]:0.004214)[&label=0.084,!color=#bf4000]:0.001396)[&label=0.999,!color=#bf4000]:0.03702)[&label=0.33,!color=#bf4000]:0.027365)[&label=1.0,!color=#bf4000]:0.570768)[&label=0.999,!color=#bf4000]:0.269807)[&label=0.898,!color=#bf4000]:0.150178,(KX883056_Beihai_mantis_shrimp_virus_6[&!color=#bf4000]:0.990711,KX883019_Beihai_noda-like_virus_26[&!color=#bf4000]:0.895246)[&label=1.0,!color=#bf4000]:0.75413)[&label=0.588,!color=#bf4000]:0.096882)[&label=0.927,!color=#bf4000]:0.071694)[&label=0.926,!color=#bf4000]:0.066071)[&label=0.969,!color=#bf4000]:0.136165)[&label=0.058,!color=#bf4000]:0.039879)[&label=0.672,!color=#bf4000]:0.067523)[&label=0.985,!color=#bf4000]:0.118152)[&label=0.994,!color=#bf4000]:0.098584,((MW239321_Riboviria_sp_[&!color=#bf4000]:0.223936,MZ375165_Riboviria_sp_[&!color=#bf4000]:0.261989)[&label=1.0,!color=#bf4000]:0.628626,((OL472290_Koper_noda-like_virus_4[&!color=#bf4000]:0.695866,((MK533156_Tetranychus_urticae-associated_nodavirus_B[&!color=#bf4000]:0.300886,(KX883237_Hubei_noda-like_virus_8[&!color=#bf4000]:0.0,NC_033309_Hubei_noda-like_virus_8[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.2236)[&label=1.0,!color=#bf4000]:0.492244,(OL700185_XiangYun_tombus-noda-like_virus_6[&!color=#bf4000]:0.165373,((ON746452_Tianjin_Nodav_tick_virus_1[&!color=#bf4000]:0.149767,OL472289_Koper_noda-like_virus_3[&!color=#bf4000]:0.151801)[&label=1.0,!color=#bf4000]:0.168405,(MK533155_Tetranychus_urticae-associated_nodavirus_A[&!color=#bf4000]:0.151336,(KX883130_Hubei_noda-like_virus_9[&!color=#bf4000]:0.004766,NC_033307_Hubei_noda-like_virus_9[&!color=#bf4000]:0.003635)[&label=1.0,!color=#bf4000]:0.200146)[&label=0.97,!color=#bf4000]:0.068473)[&label=0.891,!color=#bf4000]:0.054521)[&label=1.0,!color=#bf4000]:0.336735)[&label=0.282,!color=#bf4000]:0.082758)[&label=0.998,!color=#bf4000]:0.213985,((MW826493_Nodaviridae_sp_[&!color=#bf4000]:0.288781,(ON049805_Nodaviridae_sp_[&!color=#bf4000]:0.0,MW897073_Xinjiang_sediment_noda-like_virus_2[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.268569)[&label=1.0,!color=#bf4000]:0.498013,((((Murmaxied_virus_F1531C222F1217[&!color=#bf4000]:0.005659,(Murmaxied_virus_F1531C222F1532[&!color=#bf4000]:0.0,((Murmaxied_virus_F1531C222F1527[&!color=#bf4000]:0.0,Murmaxied_virus_F1531C222F1531[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.001405,(Murmaxied_virus_F1531C222F1533[&!color=#bf4000]:0.0,Murmaxied_virus_F1531C222F1534[&!color=#bf4000]:0.0,Murmaxied_virus_F1531C222F1537[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0)[&label=0.73,!color=#bf4000]:0.0)[&label=0.954,!color=#bf4000]:0.00571)[&label=0.339,!color=#bf4000]:0.00281,((Murmaxied_virus_F1531C222F1093[&!color=#bf4000]:0.0,Murmaxied_virus_F1531C222F1094[&!color=#bf4000]:0.0)[&!color=#bf4000]:0.0,Murmaxied_virus_F1531C222F1096[&!color=#bf4000]:0.001406)[&label=0.452,!color=#bf4000]:0.0)[&label=1.0,!color=#bf4000]:0.616973,(OL700186_XiangYun_tombus-noda-like_virus_7[&!color=#bf4000]:0.199487,(NC_033139_Sanxia_water_strider_virus_16[&!color=#bf4000]:0.01669,MZ443627_Nelson_wasp-associated_virus_3[&!color=#bf4000]:0.02913)[&label=1.0,!color=#bf4000]:0.200703)[&label=1.0,!color=#bf4000]:0.44129)[&label=0.76,!color=#bf4000]:0.098861,((ON049855_Nodaviridae_sp_[&!color=#bf4000]:0.536451,KX883225_Hubei_noda-like_virus_7[&!color=#bf4000]:0.506485)[&label=0.994,!color=#bf4000]:0.167277,(OL700180_XiangYun_tombus-noda-like_virus_1[&!color=#bf4000]:0.724441,(KP263548_Lunovirus[&!color=#bf4000]:0.389497,KY214439_Caninovirus_sp_[&!color=#bf4000]:0.27468)[&label=1.0,!color=#bf4000]:0.187581)[&label=0.957,!color=#bf4000]:0.121196)[&label=0.623,!color=#bf4000]:0.048318)[&label=0.136,!color=#bf4000]:0.042619)[&label=0.967,!color=#bf4000]:0.066274)[&label=0.977,!color=#bf4000]:0.094982)[&label=0.735,!color=#bf4000]:0.059498)[&label=0.124,!color=#bf4000]:0.043049)[&label=0.981,!color=#bf4000]:0.086558)[&label=0.961,!color=#bf4000]:0.080353)[&label=0.846,!color=#bf4000]:0.060769);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

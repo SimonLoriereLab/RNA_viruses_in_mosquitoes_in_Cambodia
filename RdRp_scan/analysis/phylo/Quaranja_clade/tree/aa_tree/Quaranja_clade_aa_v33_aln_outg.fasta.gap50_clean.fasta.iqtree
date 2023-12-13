@@ -1,0 +1,361 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Quaranja_clade/tree/aa_tree/Quaranja_clade_aa_v33_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 718764
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 18 sequences with 788 amino-acid sites
+Number of constant sites: 557 (= 70.6853% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 557 (= 70.6853% of all sites)
+Number of parsimony informative sites: 157
+Number of distinct site patterns: 430
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+G4             -4376.412    8820.824 +    0.482    8823.985 +    0.518    8979.587 +    0.796
+JTT+G4            -4378.822    8825.644 -   0.0433    8828.804 -   0.0465    8984.407 +   0.0715
+LG+I+G4           -4375.939    8821.878 +    0.285    8825.229 +    0.278    8985.311 -   0.0455
+JTTDCMut+G4       -4379.487    8826.975 -   0.0223    8830.135 -   0.0239    8985.738 -   0.0367
+LG+I              -4379.638    8827.275 -   0.0192    8830.436 -   0.0206    8986.038 -   0.0316
+LG+R2             -4377.696    8825.392 -   0.0491    8828.743 -    0.048    8988.824 -  0.00785
+JTT+I+G4          -4378.414    8826.827 -    0.024    8830.179 -   0.0234    8990.260 -  0.00383
+JTT+I             -4382.356    8832.711 -  0.00126    8835.872 -  0.00136    8991.474 -  0.00209
+JTTDCMut+I+G4     -4379.057    8828.114 -   0.0126    8831.465 -   0.0123    8991.547 -  0.00201
+JTT+R2            -4379.532    8829.063 -  0.00784    8832.414 -  0.00765    8992.496 -  0.00125
+JTTDCMut+I        -4383.007    8834.014 - 0.000659    8837.175 - 0.000708    8992.777 -  0.00109
+JTTDCMut+R2       -4380.197    8830.393 -  0.00403    8833.744 -  0.00393    8993.826 - 0.000644
+LG+R3             -4376.822    8827.644 -   0.0159    8831.394 -   0.0127    9000.416 - 2.39e-05
+VT+G4             -4391.585    8851.170 - 1.24e-07    8854.331 - 1.33e-07    9009.933 - 2.05e-07
+WAG+G4            -4392.524    8853.047 - 4.85e-08    8856.208 - 5.21e-08    9011.810 - 8.01e-08
+VT+I              -4392.879    8853.758 -  3.4e-08    8856.919 - 3.65e-08    9012.521 - 5.61e-08
+WAG+I             -4394.427    8856.853 - 7.24e-09    8860.014 - 7.77e-09    9015.616 - 1.19e-08
+cpREV+G4          -4394.607    8857.215 - 6.04e-09    8860.375 - 6.49e-09    9015.978 - 9.97e-09
+VT+I+G4           -4391.691    8853.383 -  4.1e-08    8856.734 - 4.01e-08    9016.815 - 6.56e-09
+WAG+I+G4          -4392.646    8855.292 - 1.58e-08    8858.643 - 1.54e-08    9018.724 - 2.53e-09
+VT+R2             -4392.705    8855.409 - 1.49e-08    8858.760 - 1.45e-08    9018.842 - 2.38e-09
+WAG+R2            -4393.636    8857.271 - 5.87e-09    8860.622 - 5.73e-09    9020.703 - 9.39e-10
+cpREV+I           -4397.233    8862.465 - 4.37e-10    8865.626 -  4.7e-10    9021.228 - 7.22e-10
+cpREV+I+G4        -4394.429    8858.857 - 2.66e-09    8862.208 - 2.59e-09    9022.290 - 4.25e-10
+FLU+G4            -4398.787    8865.574 - 9.24e-11    8868.735 - 9.92e-11    9024.337 - 1.53e-10
+cpREV+R2          -4395.775    8861.549 - 6.92e-10    8864.900 - 6.75e-10    9024.982 - 1.11e-10
+FLU+I+G4          -4397.840    8865.680 - 8.77e-11    8869.031 - 8.56e-11    9029.112 -  1.4e-11
+FLU+I             -4403.573    8875.146 - 7.72e-13    8878.306 - 8.29e-13    9033.909 - 1.27e-12
+FLU+R2            -4401.252    8872.505 - 2.89e-12    8875.856 - 2.82e-12    9035.937 - 4.62e-13
+rtREV+G4          -4413.874    8895.749 - 2.59e-17    8898.910 - 2.78e-17    9054.512 - 4.28e-17
+Blosum62+G4       -4415.552    8899.103 - 4.84e-18    8902.264 -  5.2e-18    9057.866 - 7.99e-18
+rtREV+I           -4416.664    8901.328 - 1.59e-18    8904.488 - 1.71e-18    9060.091 - 2.63e-18
+Blosum62+I        -4416.759    8901.519 - 1.45e-18    8904.680 - 1.55e-18    9060.282 - 2.39e-18
+rtREV+I+G4        -4413.768    8897.537 - 1.06e-17    8900.888 - 1.03e-17    9060.969 - 1.69e-18
+rtREV+R2          -4415.445    8900.889 - 1.98e-18    8904.240 - 1.94e-18    9064.322 - 3.17e-19
+Blosum62+I+G4     -4415.562    8901.125 - 1.76e-18    8904.476 - 1.72e-18    9064.557 - 2.82e-19
+PMB+G4            -4419.656    8907.311 - 7.99e-20    8910.472 - 8.58e-20    9066.074 - 1.32e-19
+Blosum62+R2       -4416.902    8903.803 - 4.62e-19    8907.154 - 4.51e-19    9067.235 - 7.38e-20
+PMB+I             -4420.451    8908.901 - 3.61e-20    8912.062 - 3.88e-20    9067.664 - 5.96e-20
+HIVb+G4           -4421.723    8911.445 - 1.01e-20    8914.606 - 1.09e-20    9070.208 - 1.67e-20
+HIVb+I+G4         -4419.772    8909.544 - 2.62e-20    8912.895 - 2.56e-20    9072.976 - 4.18e-21
+PMB+I+G4          -4419.801    8909.601 - 2.54e-20    8912.953 - 2.48e-20    9073.034 - 4.07e-21
+LG+F+G4           -4360.693    8827.385 -   0.0181    8835.184 -  0.00192    9074.869 - 1.62e-21
+PMB+R2            -4420.922    8911.844 - 8.29e-21    8915.195 - 8.09e-21    9075.277 - 1.32e-21
+LG+F+I+G4         -4360.220    8828.440 -   0.0107    8836.543 - 0.000971    9080.593 - 9.28e-23
+LG+F+I            -4364.009    8834.017 - 0.000658    8841.815 - 6.95e-05    9081.501 -  5.9e-23
+HIVb+R2           -4424.088    8918.176 -  3.5e-22    8921.527 - 3.41e-22    9081.609 - 5.59e-23
+cpREV+F+G4        -4364.475    8834.949 - 0.000413    8842.747 - 4.36e-05    9082.432 -  3.7e-23
+rtREV+F+G4        -4364.938    8835.877 -  0.00026    8843.675 - 2.74e-05    9083.360 - 2.33e-23
+LG+F+R2           -4361.871    8831.741 -  0.00205    8839.845 - 0.000186    9083.894 - 1.78e-23
+HIVb+I            -4428.655    8925.309 - 9.88e-24    8928.470 - 1.06e-23    9084.072 - 1.63e-23
+JTT+F+G4          -4365.943    8837.887 - 9.51e-05    8845.685 -    1e-05    9085.370 - 8.52e-24
+JTTDCMut+F+G4     -4366.111    8838.222 - 8.04e-05    8846.020 -  8.5e-06    9085.705 -  7.2e-24
+cpREV+F+I+G4      -4364.287    8836.574 - 0.000183    8844.678 - 1.66e-05    9088.727 - 1.59e-24
+cpREV+F+I         -4367.670    8841.340 - 1.69e-05    8849.138 - 1.79e-06    9088.823 - 1.52e-24
+rtREV+F+I+G4      -4364.611    8837.222 - 0.000133    8845.326 -  1.2e-05    9089.375 - 1.15e-24
+rtREV+F+I         -4368.056    8842.112 - 1.15e-05    8849.910 - 1.21e-06    9089.595 - 1.03e-24
+JTT+F+I+G4        -4365.474    8838.948 - 5.59e-05    8847.052 - 5.07e-06    9091.101 - 4.85e-25
+JTTDCMut+F+I+G4   -4365.612    8839.224 - 4.87e-05    8847.328 - 4.42e-06    9091.377 - 4.23e-25
+cpREV+F+R2        -4365.625    8839.250 - 4.81e-05    8847.354 - 4.36e-06    9091.403 - 4.17e-25
+JTT+F+I           -4369.598    8845.195 - 2.46e-06    8852.994 -  2.6e-07    9092.679 -  2.2e-25
+rtREV+F+R2        -4366.362    8840.725 -  2.3e-05    8848.828 - 2.09e-06    9092.878 -    2e-25
+JTTDCMut+F+I      -4369.762    8845.525 - 2.09e-06    8853.323 - 2.21e-07    9093.008 - 1.87e-25
+JTT+F+R2          -4366.557    8841.114 - 1.89e-05    8849.218 - 1.72e-06    9093.267 - 1.64e-25
+WAG+F+G4          -4369.895    8845.789 - 1.83e-06    8853.588 - 1.93e-07    9093.273 - 1.64e-25
+JTTDCMut+F+R2     -4366.724    8841.447 -  1.6e-05    8849.551 - 1.45e-06    9093.600 - 1.39e-25
+WAG+F+I           -4371.757    8849.515 - 2.84e-07    8857.313 -    3e-08    9096.998 - 2.54e-26
+WAG+F+I+G4        -4369.931    8847.861 - 6.49e-07    8855.965 - 5.88e-08    9100.014 - 5.63e-27
+WAG+F+R2          -4370.972    8849.944 - 2.29e-07    8858.048 - 2.08e-08    9102.097 - 1.99e-27
+VT+F+G4           -4375.858    8857.716 -  4.7e-09    8865.514 - 4.97e-10    9105.199 - 4.21e-28
+FLU+F+G4          -4376.424    8858.849 - 2.67e-09    8866.647 - 2.82e-10    9106.332 - 2.39e-28
+VT+F+I            -4377.175    8860.350 - 1.26e-09    8868.148 - 1.33e-10    9107.833 - 1.13e-28
+Dayhoff+G4        -4441.439    8950.878 - 2.77e-29    8954.039 - 2.97e-29    9109.641 - 4.57e-29
+DCMut+G4          -4441.540    8951.079 -  2.5e-29    8954.240 - 2.69e-29    9109.842 - 4.13e-29
+FLU+F+I+G4        -4375.269    8858.538 - 3.12e-09    8866.642 - 2.83e-10    9110.691 -  2.7e-29
+VT+F+I+G4         -4375.953    8859.905 - 1.57e-09    8868.009 - 1.43e-10    9112.058 - 1.36e-29
+VT+F+R2           -4376.916    8861.832 - 6.01e-10    8869.935 - 5.45e-11    9113.984 - 5.21e-30
+Dayhoff+I+G4      -4441.043    8952.085 - 1.51e-29    8955.436 - 1.48e-29    9115.517 - 2.42e-30
+DCMut+I+G4        -4441.158    8952.317 - 1.35e-29    8955.668 - 1.32e-29    9115.749 - 2.16e-30
+FLU+F+I           -4381.868    8869.737 - 1.15e-11    8877.535 - 1.22e-12    9117.220 - 1.03e-30
+FLU+F+R2          -4378.621    8865.242 - 1.09e-10    8873.346 -  9.9e-12    9117.395 - 9.47e-31
+Dayhoff+R2        -4442.664    8955.328 - 2.99e-30    8958.680 - 2.92e-30    9118.761 - 4.78e-31
+DCMut+R2          -4442.753    8955.506 - 2.74e-30    8958.857 - 2.67e-30    9118.938 - 4.38e-31
+Dayhoff+I         -4446.948    8961.895 - 1.12e-31    8965.056 -  1.2e-31    9120.658 - 1.85e-31
+DCMut+I           -4447.006    8962.013 - 1.06e-31    8965.174 - 1.14e-31    9120.776 - 1.75e-31
+PMB+F+G4          -4394.599    8895.198 - 3.41e-17    8902.996 - 3.61e-18    9142.681 - 3.06e-36
+PMB+F+I           -4395.562    8897.123 -  1.3e-17    8904.921 - 1.38e-18    9144.607 - 1.17e-36
+mtInv+F+G4        -4397.415    8900.830 - 2.04e-18    8908.629 - 2.16e-19    9148.314 - 1.83e-37
+PMB+F+I+G4        -4394.734    8897.468 -  1.1e-17    8905.571 - 9.95e-19    9149.621 - 9.52e-38
+Blosum62+F+G4     -4398.431    8902.862 -  7.4e-19    8910.660 - 7.81e-20    9150.345 - 6.62e-38
+Dayhoff+F+G4      -4398.525    8903.050 - 6.73e-19    8910.848 - 7.11e-20    9150.533 - 6.03e-38
+DCMut+F+G4        -4398.579    8903.157 - 6.38e-19    8910.956 - 6.74e-20    9150.641 - 5.71e-38
+mtZOA+F+G4        -4398.978    8903.955 - 4.28e-19    8911.754 - 4.52e-20    9151.439 - 3.83e-38
+PMB+F+R2          -4395.691    8899.382 - 4.21e-18    8907.486 - 3.82e-19    9151.535 - 3.65e-38
+HIVb+F+G4         -4399.380    8904.761 - 2.86e-19    8912.559 - 3.02e-20    9152.244 - 2.56e-38
+mtInv+F+I+G4      -4396.112    8900.223 - 2.77e-18    8908.327 - 2.51e-19    9152.376 -  2.4e-38
+Blosum62+F+I      -4399.630    8905.261 - 2.23e-19    8913.059 - 2.35e-20    9152.744 -    2e-38
+mtZOA+F+I+G4      -4396.401    8900.802 - 2.07e-18    8908.906 - 1.88e-19    9152.955 -  1.8e-38
+HIVb+F+I+G4       -4397.177    8902.355 - 9.53e-19    8910.458 - 8.64e-20    9154.507 - 8.27e-39
+Dayhoff+F+I+G4    -4397.891    8903.783 - 4.67e-19    8911.886 - 4.23e-20    9155.936 - 4.05e-39
+mtInv+F+R2        -4397.932    8903.865 - 4.48e-19    8911.968 - 4.06e-20    9156.018 - 3.89e-39
+DCMut+F+I+G4      -4397.958    8903.917 - 4.36e-19    8912.021 - 3.96e-20    9156.070 - 3.79e-39
+Blosum62+F+I+G4   -4398.452    8904.904 - 2.66e-19    8913.008 - 2.42e-20    9157.057 - 2.31e-39
+Dayhoff+F+R2      -4399.254    8906.509 - 1.19e-19    8914.613 - 1.08e-20    9158.662 - 1.04e-39
+DCMut+F+R2        -4399.297    8906.595 - 1.14e-19    8914.698 - 1.04e-20    9158.748 - 9.92e-40
+Blosum62+F+R2     -4399.697    8907.395 - 7.67e-20    8915.499 - 6.95e-21    9159.548 - 6.65e-40
+mtZOA+F+R2        -4399.819    8907.637 - 6.79e-20    8915.741 - 6.16e-21    9159.790 - 5.89e-40
+mtInv+F+I         -4403.939    8913.877 -    3e-21    8921.676 - 3.17e-22    9161.361 - 2.69e-40
+Dayhoff+F+I       -4404.370    8914.741 - 1.95e-21    8922.539 - 2.06e-22    9162.224 - 1.74e-40
+DCMut+F+I         -4404.389    8914.777 - 1.91e-21    8922.576 - 2.02e-22    9162.261 - 1.71e-40
+HIVb+F+R2         -4401.408    8910.817 - 1.39e-20    8918.920 - 1.26e-21    9162.970 -  1.2e-40
+LG                -4472.147    9010.294 - 3.47e-42    9013.270 - 4.09e-42    9164.387 - 5.92e-41
+HIVb+F+I          -4407.405    8920.811 - 9.36e-23    8928.609 - 9.89e-24    9168.294 - 8.39e-42
+mtZOA+F+I         -4409.726    8925.452 -  9.2e-24    8933.250 - 9.72e-25    9172.935 - 8.24e-43
+mtMet+F+G4        -4419.602    8945.204 - 4.73e-28    8953.002 - 4.99e-29    9192.687 - 4.23e-47
+mtMet+F+I+G4      -4417.262    8942.524 -  1.8e-27    8950.628 - 1.64e-28    9194.677 - 1.57e-47
+mtMet+F+R2        -4419.998    8947.997 - 1.17e-28    8956.101 - 1.06e-29    9200.150 - 1.01e-48
+mtART+F+I+G4      -4423.905    8955.810 - 2.35e-30    8963.914 - 2.13e-31    9207.963 - 2.04e-50
+mtREV+F+G4        -4427.764    8961.528 - 1.35e-31    8969.326 - 1.42e-32    9209.011 - 1.21e-50
+mtMet+F+I         -4428.848    8963.695 - 4.56e-32    8971.493 - 4.82e-33    9211.179 - 4.09e-51
+mtART+F+G4        -4428.927    8963.854 - 4.21e-32    8971.652 - 4.45e-33    9211.337 - 3.78e-51
+mtREV+F+I+G4      -4425.989    8959.979 - 2.93e-31    8968.082 - 2.65e-32    9212.132 - 2.54e-51
+mtREV+F+R2        -4429.762    8967.524 - 6.73e-33    8975.628 -  6.1e-34    9219.677 - 5.83e-53
+mtART+F+R2        -4430.331    8968.663 - 3.81e-33    8976.766 - 3.45e-34    9220.815 -  3.3e-53
+mtREV+F+I         -4436.063    8978.127 - 3.35e-35    8985.925 - 3.54e-36    9225.610 -    3e-54
+HIVw+F+G4         -4442.744    8991.488 - 4.21e-38    8999.287 - 4.44e-39    9238.972 - 3.77e-57
+HIVw+G4           -4507.166    9082.333 -  7.9e-58    9085.493 - 8.48e-58    9241.095 -  1.3e-57
+HIVw+F+I+G4       -4440.645    8989.290 - 1.26e-37    8997.393 - 1.15e-38    9241.443 -  1.1e-57
+HIVw+I+G4         -4505.123    9080.247 - 2.24e-57    9083.598 - 2.19e-57    9243.679 - 3.58e-58
+mtART+F+I         -4446.726    8999.453 - 7.84e-40    9007.251 - 8.29e-41    9246.936 - 7.03e-59
+HIVw+F+R2         -4445.294    8998.588 - 1.21e-39    9006.692 -  1.1e-40    9250.741 - 1.05e-59
+HIVw+R2           -4509.397    9088.794 - 3.12e-59    9092.145 - 3.05e-59    9252.226 - 4.99e-60
+HIVw+F+I          -4450.423    9006.846 - 1.95e-41    9014.645 - 2.06e-42    9254.330 - 1.74e-60
+HIVw+I            -4516.022    9100.045 - 1.13e-61    9103.206 - 1.21e-61    9258.808 - 1.86e-61
+mtVer+F+I+G4      -4462.888    9033.776 - 2.76e-47    9041.879 - 2.51e-48    9285.928 -  2.4e-67
+mtVer+F+G4        -4467.236    9040.472 - 9.71e-49    9048.270 - 1.03e-49    9287.955 -  8.7e-68
+mtVer+F+R2        -4464.688    9037.377 - 4.57e-48    9045.480 - 4.14e-49    9289.530 - 3.96e-68
+mtVer+F+I         -4482.001    9070.001 - 3.76e-55    9077.799 - 3.97e-56    9317.484 - 3.37e-74
+mtMAM+F+I+G4      -4483.623    9075.247 - 2.73e-56    9083.350 - 2.48e-57    9327.399 - 2.37e-76
+mtMAM+F+G4        -4489.066    9084.132 - 3.21e-58    9091.930 - 3.39e-59    9331.615 - 2.88e-77
+mtMAM+F+R2        -4493.623    9095.247 - 1.24e-60    9103.350 - 1.12e-61    9347.400 - 1.07e-80
+mtMAM+F+I         -4509.755    9125.510 - 3.32e-67    9133.308 - 3.51e-68    9372.993 - 2.98e-86
+mtZOA+I+G4        -4596.105    9262.209 - 6.88e-97    9265.560 - 6.72e-97    9425.642 -  1.1e-97
+mtZOA+G4          -4601.058    9270.116 - 1.32e-98    9273.277 - 1.42e-98    9428.879 - 2.18e-98
+mtZOA+R2          -4603.744    9277.488 - 3.31e-100    9280.839 - 3.23e-100    9440.921 - 5.29e-101
+mtZOA+I           -4621.889    9311.777 - 1.19e-107    9314.938 - 1.27e-107    9470.540 - 1.96e-107
+mtREV+I+G4        -4643.025    9356.050 - 2.89e-117    9359.402 - 2.82e-117    9519.483 - 4.61e-118
+mtREV+G4          -4646.409    9360.818 - 2.66e-118    9363.979 - 2.86e-118    9519.581 - 4.39e-118
+mtREV+R2          -4648.900    9367.800 - 8.11e-120    9371.151 - 7.91e-120    9531.233 - 1.3e-120
+mtMet+I+G4        -4649.314    9368.629 - 5.36e-120    9371.980 - 5.23e-120    9532.061 - 8.56e-121
+mtMet+G4          -4653.274    9374.549 - 2.78e-121    9377.709 - 2.98e-121    9533.312 - 4.58e-121
+mtART+I+G4        -4651.015    9372.029 - 9.78e-121    9375.381 - 9.55e-121    9535.462 - 1.56e-121
+mtMet+R2          -4653.364    9376.729 - 9.33e-122    9380.080 - 9.11e-122    9540.161 - 1.49e-122
+mtART+G4          -4658.471    9384.943 - 1.54e-123    9388.104 - 1.65e-123    9543.706 - 2.54e-123
+mtREV+I           -4659.157    9386.314 - 7.74e-124    9389.475 - 8.31e-124    9545.077 - 1.28e-123
+mtART+R2          -4664.591    9399.182 - 1.24e-126    9402.533 - 1.21e-126    9562.614 - 1.99e-127
+mtMet+I           -4668.643    9405.286 - 5.87e-128    9408.447 - 6.31e-128    9564.049 - 9.69e-128
+mtART+I           -4690.754    9449.507 - 1.47e-137    9452.668 - 1.58e-137    9608.270 - 2.42e-137
+mtInv+G4          -4691.314    9450.628 - 8.38e-138    9453.788 - 8.99e-138    9609.391 - 1.38e-137
+mtInv+I+G4        -4688.525    9447.049 - 5.01e-137    9450.400 - 4.89e-137    9610.482 - 8.01e-138
+mtInv+R2          -4691.523    9453.046 - 2.5e-138    9456.397 - 2.44e-138    9616.479 -   4e-139
+mtVer+I+G4        -4694.267    9458.534 - 1.61e-139    9461.885 - 1.57e-139    9621.967 - 2.57e-140
+mtVer+G4          -4699.614    9467.229 - 2.08e-141    9470.389 - 2.23e-141    9625.992 - 3.43e-141
+mtInv+I           -4702.088    9472.176 - 1.75e-142    9475.337 - 1.88e-142    9630.939 - 2.89e-142
+mtVer+R2          -4699.181    9468.362 - 1.18e-141    9471.713 - 1.15e-141    9631.794 - 1.89e-142
+mtMAM+I+G4        -4702.325    9474.651 - 5.09e-143    9478.002 - 4.97e-143    9638.083 - 8.13e-144
+mtMAM+G4          -4708.358    9484.717 - 3.32e-145    9487.877 - 3.56e-145    9643.479 - 5.48e-145
+mtMAM+R2          -4719.221    9508.443 - 2.34e-150    9511.794 - 2.28e-150    9671.875 - 3.74e-151
+mtVer+I           -4723.421    9514.842 - 9.53e-152    9518.002 - 1.02e-151    9673.605 - 1.57e-151
+mtMAM+I           -4749.112    9566.223 - 6.64e-163    9569.384 - 7.12e-163    9724.986 - 1.1e-162
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2718
+
+ Category  Relative_rate  Proportion
+  1         0.0033         0.2500
+  2         0.0828         0.2500
+  3         0.5453         0.2500
+  4         3.3685         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4376.4118 (s.e. 112.1867)
+Unconstrained log-likelihood (without tree): -4448.2945
+Number of free parameters (#branches + #model parameters): 34
+Akaike information criterion (AIC) score: 8820.8236
+Corrected Akaike information criterion (AICc) score: 8823.9843
+Bayesian information criterion (BIC) score: 8979.5865
+
+Total tree length (sum of branch lengths): 0.6373
+Sum of internal branch lengths: 0.2923 (45.8739% of tree length)
+
+WARNING: 7 near-zero internal branches (<0.0013) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'BK059432_Aedes_orthomyxo-like_virus_2' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                  +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059
+                               +**| (36)
+                               |  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062
+                            +**| (30)
+                            |  +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068
+                         +**| (34)
+                         |  +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058
+                      +--| (81)
+                      |  |  +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065
+                      |  +**| (52)
+                      |     +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067
++---------------------| (100)
+|                     |     +--OL343761_Palmetto_orthomyxo-like_virus
+|                     |  +--| (90)
+|                     |  |  +**MW434249_Guadeloupe_mosquito_quaranja-like_virus_1
+|                     +**| (57)
+|                        +--MN053838_Guadeloupe_mosquito_quaranja-like_virus_1
+|
+|                                           +**Panessemat_virus_F1398C269F1230
+|                                        +**| (58)
+|                                        |  +--Panessemat_virus_F1398C269F1540
+|                                     +--| (83)
+|                                     |  +**Panessemat_virus_F1398C269F1398
+|                                  +--| (61)
+|                                  |  |  +**Panessemat_virus_F1398C269F1387
+|                                  |  +**| (72)
+|                                  |     +--Panessemat_virus_F1398C269F1396
+|          +-----------------------| (100)
+|          |                       +**Panessemat_virus_F1398C269F1551
++----------| (94)
+|          |                    +--------------------MW520417_Aedes_detritus_orthomyxo-like_virus
+|          +--------------------| (100)
+|                               +----------KX898491_Whidbey_virus
+|
++-----------------------------------------------------------BK059432_Aedes_orthomyxo-like_virus_2
+
+Tree in newick format:
+
+((((((Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059:0.0000010000,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062:0.0025551248)36:0.0000010000,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068:0.0000010000)30:0.0000010000,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058:0.0000010000)34:0.0000010000,(Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065:0.0000010000,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067:0.0000100188)52:0.0012622897)81:0.0013559106,((OL343761_Palmetto_orthomyxo-like_virus:0.0025664317,MW434249_Guadeloupe_mosquito_quaranja-like_virus_1:0.0000010000)90:0.0038080604,MN053838_Guadeloupe_mosquito_quaranja-like_virus_1:0.0045400132)57:0.0000010000)100:0.0791003166,(((((Panessemat_virus_F1398C269F1230:0.0000010000,Panessemat_virus_F1398C269F1540:0.0012796846)58:0.0000015437,Panessemat_virus_F1398C269F1398:0.0000010000)83:0.0025549923,(Panessemat_virus_F1398C269F1387:0.0000010000,Panessemat_virus_F1398C269F1396:0.0012783869)72:0.0000010000)61:0.0012935524,Panessemat_virus_F1398C269F1551:0.0000010000)100:0.0871755198,(MW520417_Aedes_detritus_orthomyxo-like_virus:0.0768380439,KX898491_Whidbey_virus:0.0410647340)100:0.0759964877)94:0.0410441935,BK059432_Aedes_orthomyxo-like_virus_2:0.2135190725);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4376.422986
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059
+                               +--| (36)
+                               |  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062
+                            +--| (30)
+                            |  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068
+                         +--| (34)
+                         |  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058
+                      +--| (81)
+                      |  |  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065
+                      |  +**| (52)
+                      |     +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067
++---------------------| (100)
+|                     |     +--OL343761_Palmetto_orthomyxo-like_virus
+|                     |  +--| (90)
+|                     |  |  +--MW434249_Guadeloupe_mosquito_quaranja-like_virus_1
+|                     +--| (57)
+|                        +--MN053838_Guadeloupe_mosquito_quaranja-like_virus_1
+|
+|                                           +--Panessemat_virus_F1398C269F1230
+|                                        +--| (58)
+|                                        |  +--Panessemat_virus_F1398C269F1540
+|                                     +--| (83)
+|                                     |  +--Panessemat_virus_F1398C269F1398
+|                                  +--| (61)
+|                                  |  |  +--Panessemat_virus_F1398C269F1387
+|                                  |  +--| (72)
+|                                  |     +--Panessemat_virus_F1398C269F1396
+|          +-----------------------| (100)
+|          |                       +--Panessemat_virus_F1398C269F1551
++----------| (94)
+|          |                    +--------------------MW520417_Aedes_detritus_orthomyxo-like_virus
+|          +--------------------| (100)
+|                               +----------KX898491_Whidbey_virus
+|
++-----------------------------------------------------------BK059432_Aedes_orthomyxo-like_virus_2
+
+
+Consensus tree in newick format: 
+
+((((((Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059:0.0000022422,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062:0.0025543631)36:0.0000022422,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068:0.0000022422)30:0.0000022422,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058:0.0000022422)34:0.0000022422,(Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065:0.0000022422,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067:0.0012710709)52:0.0000011678)81:0.0013562107,((OL343761_Palmetto_orthomyxo-like_virus:0.0025662997,MW434249_Guadeloupe_mosquito_quaranja-like_virus_1:0.0000022422)90:0.0038075133,MN053838_Guadeloupe_mosquito_quaranja-like_virus_1:0.0045403377)57:0.0000022467)100:0.0791137360,(((((Panessemat_virus_F1398C269F1230:0.0000022422,Panessemat_virus_F1398C269F1540:0.0000066580)58:0.0012753559,Panessemat_virus_F1398C269F1398:0.0000022422)83:0.0025559245,(Panessemat_virus_F1398C269F1387:0.0000022422,Panessemat_virus_F1398C269F1396:0.0012788423)72:0.0000022422)61:0.0012937879,Panessemat_virus_F1398C269F1551:0.0000022422)100:0.0872105451,(MW520417_Aedes_detritus_orthomyxo-like_virus:0.0768606910,KX898491_Whidbey_virus:0.0410579826)100:0.0760362825)94:0.0410313164,BK059432_Aedes_orthomyxo-like_virus_2:0.2135588495);
+
+TIME STAMP
+----------
+
+Date and time: Wed Dec  7 16:25:34 2022
+Total CPU time used: 91.669909 seconds (0h:1m:31s)
+Total wall-clock time used: 31.04204493 seconds (0h:0m:31s)
+

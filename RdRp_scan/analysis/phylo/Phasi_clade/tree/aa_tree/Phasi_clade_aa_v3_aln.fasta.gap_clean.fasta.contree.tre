@@ -1,0 +1,182 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=80;
+	taxlabels
+	Ackless_virus_F1539C12F1539[&!color=#ba4100]
+	Adableaps_virus_F1632C15F1623[&!color=#ba4100]
+	Adableaps_virus_F1632C15F1632[&!color=#ba4100]
+	KM001085_Phasi_Charoen_like_phasivirus
+	KU936057_Phasi_Charoen_like_phasivirus
+	LC498491_Phasi_Charoen_like_phasivirus
+	MF614132_Phasi_Charoen_like_phasivirus
+	MH237599_Phasi_Charoen_like_phasivirus
+	MH310079_Phasi_Charoen_like_phasivirus
+	MK017914_Wutai_mosquito_phasivirus
+	MN053745_Phasi_Charoen_like_phasivirus
+	MN053748_Phasi_Charoen_like_phasivirus
+	MN053751_Phasi_Charoen_like_phasivirus
+	MN053754_Phasi_Charoen_like_phasivirus
+	MN053757_Phasi_Charoen_like_phasivirus
+	MN053760_Phasi_Charoen_like_phasivirus
+	MN053763_Phasi_Charoen_like_phasivirus
+	MN053766_Phasi_Charoen_like_phasivirus
+	MN053769_Phasi_Charoen_like_phasivirus
+	MN053772_Phasi_Charoen_like_phasivirus
+	MN053775_Phasi_Charoen_like_phasivirus
+	MN053778_Phasi_Charoen_like_phasivirus
+	MN053781_Phasi_Charoen_like_phasivirus
+	MN053784_Guadeloupe_phasivirus
+	MN692603_Phasi_Charoen_like_phasivirus
+	MN866219_Phasi_Charoen_like_phasivirus
+	MN866220_Phasi_Charoen_like_phasivirus
+	MN866221_Phasi_Charoen_like_phasivirus
+	MN866222_Phasi_Charoen_like_phasivirus
+	MN866223_Phasi_Charoen_like_phasivirus
+	MN866224_Phasi_Charoen_like_phasivirus
+	MN866225_Phasi_Charoen_like_phasivirus
+	MN866226_Phasi_Charoen_like_phasivirus
+	MN866227_Phasi_Charoen_like_phasivirus
+	MN866228_Phasi_Charoen_like_phasivirus
+	MN866229_Phasi_Charoen_like_phasivirus
+	MN866230_Phasi_Charoen_like_phasivirus
+	MN866231_Phasi_Charoen_like_phasivirus
+	MN866232_Phasi_Charoen_like_phasivirus
+	MN866233_Phasi_Charoen_like_phasivirus
+	MN866234_Phasi_Charoen_like_phasivirus
+	MN866235_Phasi_Charoen_like_phasivirus
+	MN866236_Phasi_Charoen_like_phasivirus
+	MN866237_Phasi_Charoen_like_phasivirus
+	MN866238_Phasi_Charoen_like_phasivirus
+	MN866239_Phasi_Charoen_like_phasivirus
+	MN866240_Phasi_Charoen_like_phasivirus
+	MN866241_Phasi_Charoen_like_phasivirus
+	MN866242_Phasi_Charoen_like_phasivirus
+	MN866243_Phasi_Charoen_like_phasivirus
+	MT361069_Phasi_Charoen_like_phasivirus
+	MT361072_Phasi_Charoen_like_phasivirus
+	MT498816_Kimberley_phasivirus
+	MT498819_Broome_phasivirus_1
+	MT913597_Phasi_Charoen_like_phasivirus
+	MW650717_Phasi_Charoen_like_phasivirus
+	MW650730_Phasi_Charoen_like_phasivirus
+	MW650771_Phasi_Charoen_like_phasivirus
+	NC_031298_Fly_phasivirus
+	NC_031317_Wutai_mosquito_phasivirus
+	NC_032276_Dipteran_phasivirus
+	NC_038257_Badu_phasivirus
+	NC_038262_Phasi_Charoen_like_phasivirus
+	Phasi_Charoen_like_virus_F1339C31F1001[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1002[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1058[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1060[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1061[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1062[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1063[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1064[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1065[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1067[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1085[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1156[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1336[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1339[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1503[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1504[&!color=#ba4100]
+	Phasi_Charoen_like_virus_F1339C31F1506[&!color=#ba4100]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((((((((Phasi_Charoen_like_virus_F1339C31F1506:0.002305,Phasi_Charoen_like_virus_F1339C31F1058:0.001379)[&label=68]:3.0E-6,Phasi_Charoen_like_virus_F1339C31F1336:0.002312)[&label=100]:4.57E-4,(Phasi_Charoen_like_virus_F1339C31F1504:9.17E-4,Phasi_Charoen_like_virus_F1339C31F1065:0.001378)[&label=41]:3.0E-6)[&label=39]:3.0E-6,Phasi_Charoen_like_virus_F1339C31F1339:0.003217)[&label=99]:9.16E-4,MF614132_Phasi_Charoen_like_phasivirus:0.002763)[&label=16]:3.0E-6,(Phasi_Charoen_like_virus_F1339C31F1156:0.00436,(Phasi_Charoen_like_virus_F1339C31F1002:4.59E-4,Phasi_Charoen_like_virus_F1339C31F1001:9.16E-4)[&label=98]:9.18E-4)[&label=77]:9.18E-4)[&label=14]:3.0E-6,Phasi_Charoen_like_virus_F1339C31F1060:0.005555)[&label=20]:3.0E-6,LC498491_Phasi_Charoen_like_phasivirus:0.002787)[&label=30]:3.0E-6,Phasi_Charoen_like_virus_F1339C31F1503:0.002304)[&label=54]:4.89E-4,(((Phasi_Charoen_like_virus_F1339C31F1085:3.0E-6,Phasi_Charoen_like_virus_F1339C31F1061:3.0E-6)[&label=100]:0.001377,Phasi_Charoen_like_virus_F1339C31F1067:0.001842)[&label=99]:0.001378,(Phasi_Charoen_like_virus_F1339C31F1064:9.18E-4,Phasi_Charoen_like_virus_F1339C31F1062:9.16E-4)[&label=100]:0.002306)[&label=100]:0.002734)[&label=100]:0.003596,(Phasi_Charoen_like_virus_F1339C31F1063:0.006573,(((NC_038262_Phasi_Charoen_like_phasivirus:3.0E-6,MN692603_Phasi_Charoen_like_phasivirus:0.001386)[&label=100]:0.003714,((MH310079_Phasi_Charoen_like_phasivirus:3.0E-6,KU936057_Phasi_Charoen_like_phasivirus:0.001846)[&label=97]:9.24E-4,MH237599_Phasi_Charoen_like_phasivirus:4.58E-4)[&label=100]:0.005115)[&label=91]:4.37E-4,(((MW650771_Phasi_Charoen_like_phasivirus:3.0E-6,MW650717_Phasi_Charoen_like_phasivirus:3.0E-6)[&label=99]:5.87E-4,MW650730_Phasi_Charoen_like_phasivirus:0.001984)[&label=100]:0.003567,((((MN053781_Phasi_Charoen_like_phasivirus:9.91E-4,MN053745_Phasi_Charoen_like_phasivirus:9.19E-4)[&label=99]:0.001382,(((((MN053778_Phasi_Charoen_like_phasivirus:0.002477,((MN053757_Phasi_Charoen_like_phasivirus:4.96E-4,MN053748_Phasi_Charoen_like_phasivirus:4.95E-4)[&label=99]:4.94E-4,MN053754_Phasi_Charoen_like_phasivirus:0.001498)[&label=99]:9.91E-4)[&label=39]:3.0E-6,MN053751_Phasi_Charoen_like_phasivirus:3.0E-6)[&label=27]:3.0E-6,MN053769_Phasi_Charoen_like_phasivirus:0.001377)[&label=74]:9.17E-4,MN053775_Phasi_Charoen_like_phasivirus:0.001006)[&label=40]:3.0E-6,MN053766_Phasi_Charoen_like_phasivirus:0.004572)[&label=55]:3.0E-6)[&label=71]:4.6E-4,MN053772_Phasi_Charoen_like_phasivirus:0.004521)[&label=97]:4.61E-4,(MN053763_Phasi_Charoen_like_phasivirus:3.0E-6,MN053760_Phasi_Charoen_like_phasivirus:3.0E-6)[&label=100]:0.002505)[&label=51]:3.0E-6)[&label=67]:4.81E-4)[&label=91]:0.005006)[&label=86]:9.43E-4)[&label=62]:5.53E-4,(((((MN866243_Phasi_Charoen_like_phasivirus:9.19E-4,(MN866235_Phasi_Charoen_like_phasivirus:3.0E-6,MN866228_Phasi_Charoen_like_phasivirus:0.002306)[&label=73]:3.0E-6)[&label=97]:4.91E-4,MN866240_Phasi_Charoen_like_phasivirus:0.0046)[&label=91]:0.001849,MN866241_Phasi_Charoen_like_phasivirus:4.94E-4)[&label=100]:0.001361,KM001085_Phasi_Charoen_like_phasivirus:0.002766)[&label=96]:4.62E-4,(((((((MN866242_Phasi_Charoen_like_phasivirus:0.001381,MN866220_Phasi_Charoen_like_phasivirus:0.001381)[&label=100]:4.6E-4,(MN866233_Phasi_Charoen_like_phasivirus:4.6E-4,MN866224_Phasi_Charoen_like_phasivirus:9.21E-4)[&label=87]:4.57E-4)[&label=95]:9.24E-4,MN866227_Phasi_Charoen_like_phasivirus:0.001856)[&label=81]:9.19E-4,((MN866237_Phasi_Charoen_like_phasivirus:0.001382,MN866229_Phasi_Charoen_like_phasivirus:9.21E-4)[&label=64]:3.0E-6,(MN866232_Phasi_Charoen_like_phasivirus:3.0E-6,MN866223_Phasi_Charoen_like_phasivirus:4.59E-4)[&label=98]:0.001842)[&label=100]:0.00138)[&label=76]:3.0E-6,MN866221_Phasi_Charoen_like_phasivirus:0.002302)[&label=99]:9.22E-4,MN866234_Phasi_Charoen_like_phasivirus:0.001848)[&label=100]:0.001805,(((((MN866239_Phasi_Charoen_like_phasivirus:4.58E-4,MN866222_Phasi_Charoen_like_phasivirus:3.0E-6)[&label=99]:4.58E-4,MN866230_Phasi_Charoen_like_phasivirus:4.59E-4)[&label=15]:3.0E-6,(MN866236_Phasi_Charoen_like_phasivirus:4.59E-4,((MN866226_Phasi_Charoen_like_phasivirus:3.0E-6,MN866225_Phasi_Charoen_like_phasivirus:3.0E-6)[&label=99]:4.58E-4,MN866219_Phasi_Charoen_like_phasivirus:0.001869)[&label=19]:3.0E-6)[&label=4]:3.0E-6)[&label=13]:3.0E-6,MN866231_Phasi_Charoen_like_phasivirus:3.0E-6)[&label=33]:3.0E-6,MN866238_Phasi_Charoen_like_phasivirus:0.001382)[&label=99]:0.001967)[&label=97]:8.41E-4)[&label=100]:0.002319)[&label=67]:8.17E-4,(MT361072_Phasi_Charoen_like_phasivirus:0.002028,MT361069_Phasi_Charoen_like_phasivirus:4.76E-4)[&label=94]:0.001945)[&label=77]:0.005415,MT913597_Phasi_Charoen_like_phasivirus:0.003816)[&label=100]:0.226244,Ackless_virus_F1539C12F1539:0.275675)[&label=98]:0.059778,MN053784_Guadeloupe_phasivirus:0.391912)[&label=98]:0.091074,(Adableaps_virus_F1632C15F1632:0.00298,Adableaps_virus_F1632C15F1623:0.001642)[&label=100]:0.319863)[&label=100]:0.290189,((NC_038257_Badu_phasivirus:0.072266,(MT498819_Broome_phasivirus_1:0.057229,MT498816_Kimberley_phasivirus:0.045302)[&label=99]:0.033441)[&label=100]:0.146145,(NC_031317_Wutai_mosquito_phasivirus:0.016444,MK017914_Wutai_mosquito_phasivirus:0.017234)[&label=100]:0.250039)[&label=100]:0.319905)[&label=100]:1.707041,NC_032276_Dipteran_phasivirus:1.350956,NC_031298_Fly_phasivirus:1.808528);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

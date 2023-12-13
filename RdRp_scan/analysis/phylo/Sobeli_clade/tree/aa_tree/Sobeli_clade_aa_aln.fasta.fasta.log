@@ -1,0 +1,951 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1067 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA
+Seed:    733682 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Dec 13 23:53:09 2022
+Kernel:  AVX+FMA - auto-detect threads (95 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 441 sequences with 341 columns, 341 distinct patterns
+332 parsimony-informative, 5 singleton sites, 4 constant sites
+                                                                    Gap/Ambiguity  Composition  p-value
+   1  Broome_luteo_like_virus_1_F1261C1F1261                                0.29%    passed     82.13%
+   2  Colokingly_virus_F1527C217F1019                                       0.00%    passed     99.44%
+   3  Colokingly_virus_F1527C217F1021                                       0.00%    passed     99.44%
+   4  Colokingly_virus_F1527C217F1094                                       0.00%    passed     99.44%
+   5  Colokingly_virus_F1527C217F1096                                       0.00%    passed     99.51%
+   6  Colokingly_virus_F1527C217F1100                                       0.00%    passed     99.44%
+   7  Colokingly_virus_F1527C217F1211                                       3.23%    passed     98.92%
+   8  Colokingly_virus_F1527C217F1381                                       8.21%    passed     99.38%
+   9  Colokingly_virus_F1527C217F1382                                       0.00%    passed     99.44%
+  10  Colokingly_virus_F1527C217F1527                                       0.00%    passed     99.44%
+  11  Colokingly_virus_F1527C217F1534                                       0.00%    passed     99.44%
+  12  Comfornsto_virus_F1216C3F1183                                         3.81%    passed     94.12%
+  13  Comfornsto_virus_F1216C3F1216                                         2.35%    passed     96.42%
+  14  Culex_associated_Luteo_like_virus_F1042C4F1042                        1.76%    passed     83.41%
+  15  Culex_luteo_like_virus_F1039C258F1039                                 0.29%    passed     84.18%
+  16  Culex_luteo_like_virus_F1039C258F1563                                 0.29%    passed     80.94%
+  17  Guangzhou_sobemo_like_virus_F1517C31F1016                             0.00%    passed     98.42%
+  18  Guangzhou_sobemo_like_virus_F1517C31F1017                             0.00%    passed     98.80%
+  19  Guangzhou_sobemo_like_virus_F1517C31F1070                             0.00%    passed     98.28%
+  20  Guangzhou_sobemo_like_virus_F1517C31F1071                             0.00%    passed     98.42%
+  21  Guangzhou_sobemo_like_virus_F1517C31F1073                             0.00%    passed     95.85%
+  22  Guangzhou_sobemo_like_virus_F1517C31F1078                             0.00%    passed     98.42%
+  23  Guangzhou_sobemo_like_virus_F1517C31F1083                             0.00%    passed     98.42%
+  24  Guangzhou_sobemo_like_virus_F1517C31F1171                             0.00%    passed     98.39%
+  25  Guangzhou_sobemo_like_virus_F1517C31F1339                             0.00%    passed     98.42%
+  26  Guangzhou_sobemo_like_virus_F1517C31F1351                             0.00%    passed     98.42%
+  27  Guangzhou_sobemo_like_virus_F1517C31F1352                             0.00%    passed     95.85%
+  28  Guangzhou_sobemo_like_virus_F1517C31F1517                             0.00%    passed     98.42%
+  29  Hubei_sobemo_like_virus_41_subsp1_F1020C17F1020                       0.29%    passed     82.81%
+  30  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019                      0.29%    passed     68.11%
+  31  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021                      0.29%    passed     73.97%
+  32  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1094                      0.29%    passed     68.11%
+  33  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1215                      4.99%    passed     80.94%
+  34  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1219                      0.29%    passed     73.97%
+  35  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1222                      3.81%    passed     70.32%
+  36  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1223                      4.40%    passed     68.54%
+  37  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1381                      0.29%    passed     73.97%
+  38  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1383                      1.47%    passed     73.50%
+  39  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1525                      0.29%    passed     73.97%
+  40  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1527                      0.29%    passed     68.11%
+  41  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1528                      0.29%    passed     64.84%
+  42  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1531                      0.29%    passed     73.97%
+  43  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1532                      0.29%    passed     73.97%
+  44  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1533                      0.29%    passed     68.11%
+  45  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1536                      0.29%    passed     68.11%
+  46  Hubei_sobemo_like_virus_41_subsp2_F1381C255F1537                      0.29%    passed     68.11%
+  47  Humaita_Tubiacanga_virus_F1058C249F1001                               0.59%    passed     95.80%
+  48  Humaita_Tubiacanga_virus_F1058C249F1002                               0.59%    passed     95.81%
+  49  Humaita_Tubiacanga_virus_F1058C249F1058                               0.59%    passed     95.27%
+  50  Humaita_Tubiacanga_virus_F1058C249F1059                              18.77%    failed      0.01%
+  51  Humaita_Tubiacanga_virus_F1058C249F1060                               0.59%    passed     94.44%
+  52  Humaita_Tubiacanga_virus_F1058C249F1062                               0.59%    passed     95.81%
+  53  Humaita_Tubiacanga_virus_F1058C249F1063                               0.59%    passed     95.81%
+  54  Humaita_Tubiacanga_virus_F1058C249F1064                              19.65%    failed      0.07%
+  55  Humaita_Tubiacanga_virus_F1058C249F1065                               0.59%    passed     95.91%
+  56  Humaita_Tubiacanga_virus_F1058C249F1067                               0.59%    passed     95.80%
+  57  Humaita_Tubiacanga_virus_F1058C249F1086                               0.59%    passed     95.81%
+  58  Humaita_Tubiacanga_virus_F1058C249F1335                               0.59%    passed     95.80%
+  59  Humaita_Tubiacanga_virus_F1058C249F1336                               0.59%    passed     94.38%
+  60  Humaita_Tubiacanga_virus_F1058C249F1339                              18.77%    failed      0.02%
+  61  Humaita_Tubiacanga_virus_F1058C249F1503                               0.59%    passed     95.93%
+  62  KM048319_Ixodes_scapularis_associated_virus_2                         5.87%    passed      8.80%
+  63  KU754509_La_Tardoire_virus                                            3.52%    passed     91.98%
+  64  KX138223_Baird_Spence_virus                                          12.32%    passed     15.55%
+  65  KX580896_Sherman_virus                                                1.47%    passed     80.01%
+  66  KX882764_Hubei_mosquito_virus_2                                       2.64%    passed     99.74%
+  67  KX882812_Hubei_sobemo-like_virus_21                                   8.50%    passed     90.31%
+  68  KX882856_Hubei_diptera_virus_14                                       0.00%    passed      8.52%
+  69  KX882864_Hubei_sobemo-like_virus_40                                   0.29%    passed     56.52%
+  70  KX882872_Hubei_sobemo-like_virus_41                                   0.29%    passed     73.97%
+  71  KX882898_Hubei_myriapoda_virus_9                                     29.91%    passed     37.00%
+  72  KX882925_Hubei_sobemo-like_virus_18                                   1.17%    passed     53.82%
+  73  KX882926_Hubei_tetragnatha_maxillosa_virus_6                          1.47%    passed     19.17%
+  74  LC094964_Ixodes_scapularis_associated_virus_1                         0.29%    failed      1.89%
+  75  LC512854_Wenzhou_sobemo-like_virus_3                                  1.76%    passed     81.22%
+  76  LC512855_Wenzhou_sobemo-like_virus_3                                  1.76%    passed     89.50%
+  77  LC512856_Wenzhou_sobemo-like_virus_3                                  1.76%    passed     85.66%
+  78  LC512857_Wenzhou_sobemo-like_virus_3                                  1.76%    passed     92.90%
+  79  LC513833_Culex_inatomii_luteo-like_virus                              2.64%    passed     97.51%
+  80  MF141064_Norway_luteo-like_virus_1                                    1.47%    passed     87.30%
+  81  MF141067_Norway_luteo-like_virus_2                                    0.59%    passed     11.77%
+  82  MF141069_Norway_luteo-like_virus_3                                    0.29%    passed      9.67%
+  83  MF176307_Culex_luteo-like_virus                                       0.29%    passed     59.23%
+  84  MF189984_Barns_Ness_beadlet_anemone_sobemo-like_virus_1               0.59%    passed     54.91%
+  85  MF893251_Medway_virus                                                 0.00%    passed     94.61%
+  86  MF893258_Tama_virus                                                   1.17%    passed     93.88%
+  87  MF893259_Teise_virus                                                  2.05%    passed     55.35%
+  88  MH188016_Culex-associated_Luteo-like_virus                            1.76%    passed     82.49%
+  89  MH188030_Culex_mosquito_virus_6                                       0.59%    passed     82.44%
+  90  MH703049_Yongsan_sobemo-like_virus_1                                  0.00%    passed     98.29%
+  91  MK026567_Store_beach_virus                                            2.64%    passed     22.46%
+  92  MK026570_Blue_fish_point_virus                                        2.05%    passed     69.36%
+  93  MK285337_Renna_virus                                                 16.13%    passed     95.11%
+  94  MK440646_Marma_virus                                                  2.64%    passed     95.98%
+  95  MK440647_Culex_associated_luteo_like_virus                            1.76%    passed     86.66%
+  96  MK440657_Berrek_virus                                                 0.29%    passed     88.58%
+  97  MN053787_Guadeloupe_mosquito_virus                                    0.00%    passed     95.27%
+  98  MN053789_Guadeloupe_mosquito_virus                                    0.00%    passed     96.94%
+  99  MN053791_Guadeloupe_mosquito_virus                                    0.00%    passed     96.94%
+ 100  MN053797_Guadeloupe_mosquito_virus                                    0.00%    passed     96.11%
+ 101  MN053803_Guadeloupe_mosquito_virus                                    0.00%    passed     95.05%
+ 102  MN053809_Humaita-Tubiacanga_virus                                     0.59%    passed     95.81%
+ 103  MN053817_Humaita-Tubiacanga_virus                                     0.59%    passed     95.81%
+ 104  MN053819_Humaita-Tubiacanga_virus                                     0.59%    passed     95.81%
+ 105  MN053823_Humaita-Tubiacanga_virus                                     0.59%    passed     96.45%
+ 106  MN167478_Mycroft_virus                                                0.29%    passed     35.47%
+ 107  MN167486_Mortimer_virus                                               1.17%    passed     75.98%
+ 108  MN167489_Stapleton_virus                                              0.29%    passed     61.14%
+ 109  MN551127_Plasmopara_viticola_lesion_associated_sobemo-like_1          3.23%    passed     92.21%
+ 110  MN609861_Leveillula_taurica_associated_sobemo-like_virus_1            2.64%    passed     38.61%
+ 111  MN627439_Erysiphe_necator_associated_sobemo-like_virus_3              0.00%    passed     93.56%
+ 112  MN627482_Erysiphe_necator_associated_sobemo-like_virus_2              0.00%    passed     59.73%
+ 113  MN661085_Atrato_Sobemo-like_virus_1                                   0.00%    passed     68.66%
+ 114  MN661087_Atrato_Sobemo-like_virus_1                                   0.00%    passed     65.16%
+ 115  MN661089_Atrato_Sobemo-like_virus_2                                   0.59%    passed     67.30%
+ 116  MN661091_Atrato_Sobemo-like_virus_3                                   0.29%    passed     69.53%
+ 117  MN661093_Atrato_Sobemo-like_virus_3                                   0.29%    passed     68.13%
+ 118  MN661095_Atrato_Sobemo-like_virus_4                                   0.29%    passed     78.86%
+ 119  MN661097_Atrato_Sobemo-like_virus_5                                   7.92%    passed     96.22%
+ 120  MN661099_Atrato_Sobemo-like_virus_5                                   0.00%    passed     96.90%
+ 121  MN661101_Atrato_Sobemo-like_virus_6                                   3.52%    passed     58.80%
+ 122  MN661107_Atrato_Sobemo-like_virus_5                                   3.81%    passed     93.35%
+ 123  MN714676_Neohydatothrips_associated_sobemo-like_virus_1               1.17%    passed      8.16%
+ 124  MN725049_Frankliniella_occidentalis_associated_sobemo-like_virus_1    0.00%    passed     84.52%
+ 125  MN831442_Cycas_revoluta_sobemo-like_virus                             2.05%    passed     73.85%
+ 126  MN831443_Teucrium_fruticans_sobemo-like_virus                        17.01%    passed     66.24%
+ 127  MN831444_Teucrium_fruticans_sobemo-like_virus                         4.99%    passed     89.53%
+ 128  MN982389_Scaphoideus_titanus_sobemo-like_virus_1                      1.47%    passed     96.28%
+ 129  MN982391_Scaphoideus_titanus_sobemo-like_virus_2                      1.76%    passed     94.16%
+ 130  MT025121_Khabarov_virus                                               0.88%    passed     87.26%
+ 131  MT096519_Wenzhou_sobemo-like_virus_4                                  0.00%    passed     98.95%
+ 132  MT129761_Rosadiaz_solemo-like_virus                                   0.00%    passed     76.49%
+ 133  MT129762_Jeffords_solemo-like_virus                                   0.88%    passed     50.85%
+ 134  MT129764_Mlepnos_solemo-like_virus                                    0.00%    passed     79.33%
+ 135  MT138161_Solemoviridae_sp.                                            0.00%    passed     71.76%
+ 136  MT138162_Solemoviridae_sp.                                            5.57%    passed     89.12%
+ 137  MT138164_Solemoviridae_sp.                                            0.29%    passed     84.18%
+ 138  MT138166_Solemoviridae_sp.                                            0.00%    passed     92.90%
+ 139  MT138167_Solemoviridae_sp.                                            2.64%    passed     86.72%
+ 140  MT138168_Solemoviridae_sp.                                            2.64%    passed     88.73%
+ 141  MT316412_Jilin_luteo-like_virus_2                                     2.05%    passed     16.58%
+ 142  MT361053_Guangzhou_sobemo-like_virus                                  0.88%    passed     99.23%
+ 143  MT361055_Guangzhou_sobemo-like_virus                                  0.88%    passed     99.01%
+ 144  MT361059_Guangzhou_sobemo-like_virus                                  0.88%    passed     98.62%
+ 145  MT361061_Guangzhou_sobemo-like_virus                                  0.29%    passed     98.51%
+ 146  MT361063_Kisumu_mosquito_virus                                        1.17%    passed     95.63%
+ 147  MT361065_Kwale_mosquito_virus                                         0.00%    passed     97.64%
+ 148  MT498822_Broome_luteo-like_virus_1                                    0.29%    passed     54.79%
+ 149  MT568530_Pyongtaek_Culex_sobemo-like_virus                            1.76%    passed     91.38%
+ 150  MT568531_Pyongtaek_Culex_luteo-like_virus                             0.29%    passed     77.02%
+ 151  MT568532_Pyongtaek_Culex_Solemovirus                                  0.29%    passed     98.35%
+ 152  MT568542_Pyongtaek_Culex_sobemo-like_virus                            1.76%    passed     86.57%
+ 153  MT747990_Skokie_sobemo-like_virus                                     1.76%    passed     98.82%
+ 154  MT896210_Aedes_sobemo-like_virus                                      3.81%    passed     82.27%
+ 155  MT896211_Aedes_sobemo-like_virus                                      0.88%    passed     90.56%
+ 156  MW023867_Soybean_thrips_sobemo-like_virus_5                           2.93%    passed     87.02%
+ 157  MW030470_Hubei_mosquito_virus_2                                      23.75%    passed     95.47%
+ 158  MW030472_Hubei_mosquito_virus_2                                       2.64%    passed     99.70%
+ 159  MW030476_Hubei_mosquito_virus_2                                      24.63%    passed     95.99%
+ 160  MW030478_Hubei_mosquito_virus_2                                      23.75%    passed     95.96%
+ 161  MW030480_Hubei_mosquito_virus_2                                      10.56%    passed     99.83%
+ 162  MW030482_Hubei_mosquito_virus_2                                      11.44%    passed     99.70%
+ 163  MW030484_Hubei_mosquito_virus_2                                       2.64%    passed     99.71%
+ 164  MW030486_Hubei_mosquito_virus_2                                      47.80%    passed     88.08%
+ 165  MW030488_Hubei_mosquito_virus_2                                      20.82%    passed     97.11%
+ 166  MW039353_Soybean_thrips_sobemo-like_virus_7                          17.30%    passed     51.50%
+ 167  MW039355_Soybean_thrips_sobemo-like_virus_9                           0.29%    passed     92.06%
+ 168  MW039375_Soybean_thrips_sobemo-like_virus_10                          0.29%    passed     51.60%
+ 169  MW199220_Virus_sp.                                                   39.30%    passed     51.72%
+ 170  MW199221_Virus_sp.                                                    0.29%    passed     55.31%
+ 171  MW199222_Virus_sp.                                                   37.54%    passed     45.64%
+ 172  MW199223_Virus_sp.                                                    1.17%    passed     75.54%
+ 173  MW199224_Virus_sp.                                                    0.00%    passed     94.11%
+ 174  MW199225_Virus_sp.                                                    0.00%    passed     98.78%
+ 175  MW199227_Virus_sp.                                                   12.32%    passed     99.99%
+ 176  MW199229_Virus_sp.                                                    1.47%    passed     99.24%
+ 177  MW199230_Virus_sp.                                                    4.40%    passed     95.26%
+ 178  MW239182_Riboviria_sp.                                                1.47%    passed     51.74%
+ 179  MW239183_Riboviria_sp.                                               12.90%    passed     18.05%
+ 180  MW239188_Riboviria_sp.                                               28.45%    passed     99.53%
+ 181  MW239189_Riboviria_sp.                                                0.29%    passed     70.54%
+ 182  MW239215_Riboviria_sp.                                                1.17%    passed     97.52%
+ 183  MW239222_Riboviria_sp.                                                1.76%    passed     99.94%
+ 184  MW239223_Riboviria_sp.                                                0.00%    passed     93.92%
+ 185  MW239226_Riboviria_sp.                                                4.99%    passed     73.34%
+ 186  MW239227_Riboviria_sp.                                                0.29%    passed     63.20%
+ 187  MW239228_Riboviria_sp.                                                2.64%    passed     38.04%
+ 188  MW239234_Riboviria_sp.                                                0.59%    passed      8.19%
+ 189  MW239235_Riboviria_sp.                                                0.00%    passed     13.02%
+ 190  MW239237_Riboviria_sp.                                                0.00%    passed     79.46%
+ 191  MW239244_Riboviria_sp.                                                0.88%    passed     96.39%
+ 192  MW239246_Riboviria_sp.                                                1.76%    passed     99.71%
+ 193  MW239270_Riboviria_sp.                                                4.69%    passed     54.56%
+ 194  MW239278_Riboviria_sp.                                               21.41%    passed     71.82%
+ 195  MW239279_Riboviria_sp.                                                1.76%    passed     96.49%
+ 196  MW239280_Riboviria_sp.                                                9.97%    passed     24.96%
+ 197  MW239281_Riboviria_sp.                                                0.29%    passed     47.28%
+ 198  MW239287_Riboviria_sp.                                                1.17%    passed     90.98%
+ 199  MW239294_Riboviria_sp.                                               15.84%    passed     93.04%
+ 200  MW239310_Riboviria_sp.                                               14.96%    passed     92.65%
+ 201  MW239318_Riboviria_sp.                                                1.17%    passed     80.82%
+ 202  MW239322_Riboviria_sp.                                                0.00%    passed     78.98%
+ 203  MW239328_Riboviria_sp.                                                0.00%    passed     92.03%
+ 204  MW239331_Riboviria_sp.                                                1.47%    passed     59.79%
+ 205  MW239335_Riboviria_sp.                                                7.04%    passed     64.25%
+ 206  MW239337_Riboviria_sp.                                                2.93%    passed     93.31%
+ 207  MW239338_Riboviria_sp.                                                1.17%    passed     77.71%
+ 208  MW239343_Riboviria_sp.                                               18.18%    passed     97.51%
+ 209  MW239348_Riboviria_sp.                                                1.47%    passed     94.34%
+ 210  MW239351_Riboviria_sp.                                                0.00%    passed     91.96%
+ 211  MW239353_Riboviria_sp.                                               33.14%    passed     42.26%
+ 212  MW239360_Riboviria_sp.                                                0.29%    passed     48.73%
+ 213  MW239361_Riboviria_sp.                                                1.47%    passed     68.47%
+ 214  MW239370_Riboviria_sp.                                               30.21%    passed     92.13%
+ 215  MW239372_Riboviria_sp.                                               18.18%    passed     57.02%
+ 216  MW239377_Riboviria_sp.                                               22.29%    passed     94.32%
+ 217  MW239382_Riboviria_sp.                                                8.80%    passed     94.82%
+ 218  MW239384_Riboviria_sp.                                                3.23%    passed     96.32%
+ 219  MW239386_Riboviria_sp.                                               27.27%    passed     94.16%
+ 220  MW239390_Riboviria_sp.                                               34.02%    passed     56.82%
+ 221  MW239399_Riboviria_sp.                                                2.35%    passed     44.36%
+ 222  MW239402_Riboviria_sp.                                                6.74%    passed     18.63%
+ 223  MW239404_Riboviria_sp.                                                1.47%    passed     92.90%
+ 224  MW239414_Riboviria_sp.                                               41.94%    passed     30.56%
+ 225  MW239417_Riboviria_sp.                                               11.73%    passed     90.93%
+ 226  MW239434_Riboviria_sp.                                                2.64%    passed     95.81%
+ 227  MW239435_Riboviria_sp.                                                0.00%    passed     91.91%
+ 228  MW239436_Riboviria_sp.                                                0.00%    passed     67.31%
+ 229  MW239441_Riboviria_sp.                                                1.47%    passed     99.91%
+ 230  MW239450_Riboviria_sp.                                               29.91%    passed     86.81%
+ 231  MW239454_Riboviria_sp.                                                0.29%    passed     83.74%
+ 232  MW239457_Riboviria_sp.                                                1.47%    passed     98.66%
+ 233  MW239461_Riboviria_sp.                                               17.60%    passed     84.94%
+ 234  MW239465_Riboviria_sp.                                                4.99%    passed     90.74%
+ 235  MW239469_Riboviria_sp.                                                0.00%    passed     96.10%
+ 236  MW239471_Riboviria_sp.                                               13.78%    passed     96.29%
+ 237  MW239473_Riboviria_sp.                                               14.08%    passed     99.51%
+ 238  MW239476_Riboviria_sp.                                                9.38%    passed     81.67%
+ 239  MW239479_Riboviria_sp.                                                3.23%    passed     97.87%
+ 240  MW239487_Riboviria_sp.                                               14.37%    passed     79.23%
+ 241  MW239495_Riboviria_sp.                                               30.21%    passed     74.06%
+ 242  MW239497_Riboviria_sp.                                                2.35%    passed     79.32%
+ 243  MW239498_Riboviria_sp.                                               17.01%    passed     73.54%
+ 244  MW239501_Riboviria_sp.                                                2.35%    passed     57.26%
+ 245  MW239503_Riboviria_sp.                                               29.33%    passed     87.82%
+ 246  MW239506_Riboviria_sp.                                                0.00%    passed     97.49%
+ 247  MW239512_Riboviria_sp.                                               23.17%    passed     16.50%
+ 248  MW239525_Riboviria_sp.                                                0.00%    passed     24.37%
+ 249  MW239527_Riboviria_sp.                                                2.64%    passed     43.71%
+ 250  MW239530_Riboviria_sp.                                               15.84%    passed     82.33%
+ 251  MW239542_Riboviria_sp.                                                0.88%    passed     80.50%
+ 252  MW239556_Riboviria_sp.                                               36.07%    passed     90.78%
+ 253  MW251326_Tartas_insect-associated_virus                               0.00%    passed     63.89%
+ 254  MW310331_Zeugodacus_cucurbitae_sobemovirus_isolate_Bc                12.32%    passed     98.77%
+ 255  MW310351_Zeugodacus_cucurbitae_sobemovirus                           12.32%    passed     98.31%
+ 256  MW314622_Lasius_neglectus_virus_5                                    13.78%    passed     94.99%
+ 257  MW314643_Myrmica_rubra_virus_7                                        1.47%    passed     59.57%
+ 258  MW317137_Luteoviridae_sp.                                             1.76%    passed     88.14%
+ 259  MW434129_Culex-associated_Luteo-like_virus                            1.76%    passed     88.40%
+ 260  MW434130_Culex-associated_Luteo-like_virus                            1.76%    passed     81.56%
+ 261  MW434131_Culex-associated_Luteo-like_virus                            1.76%    passed     83.31%
+ 262  MW434132_Culex-associated_Luteo-like_virus                            1.76%    passed     82.31%
+ 263  MW434133_Culex-associated_Luteo-like_virus                            1.76%    passed     85.79%
+ 264  MW434790_Culex_mosquito_virus_6                                       0.29%    passed     84.84%
+ 265  MW434798_Culex_mosquito_virus_6                                       0.29%    passed     84.24%
+ 266  MW434800_Culex_mosquito_virus_6                                       0.29%    passed     86.69%
+ 267  MW434802_Culex_mosquito_virus_6                                       0.29%    passed     84.84%
+ 268  MW434812_Guadeloupe_mosquito_virus                                    0.00%    passed     98.49%
+ 269  MW434813_Guadeloupe_mosquito_virus                                    0.00%    passed     98.49%
+ 270  MW434821_Kellev_virus                                                 0.00%    passed     98.59%
+ 271  MW434863_Marma_virus                                                  2.64%    passed     93.83%
+ 272  MW434872_Marma_virus                                                  2.64%    passed     93.83%
+ 273  MW434875_Marma_virus                                                 13.20%    passed     95.19%
+ 274  MW434902_Marma_virus                                                 17.30%    passed     92.96%
+ 275  MW509554_Laem_Singh_virus                                             0.29%    passed     57.37%
+ 276  MW520373_Thassos_sobemo-like_virus                                    0.00%    passed     82.79%
+ 277  MW520380_Evros_sobemo-like_virus                                      3.52%    passed     93.35%
+ 278  MW520388_Culex_impudicus_luteo-like_virus                             0.29%    passed     80.31%
+ 279  MW650676_Humaita-Tubiacanga_virus                                     0.59%    passed     95.92%
+ 280  MW676135_Hypera_postica_associated_sobemovirus_1                      1.47%    passed     10.26%
+ 281  MW676137_Hypera_postica_associated_sobemovirus_3                     12.61%    passed     90.34%
+ 282  MW773212_Humaita-Tubiacanga_virus                                    69.50%    passed     59.27%
+ 283  MW826409_Solemoviridae_sp.                                            0.00%    passed     51.59%
+ 284  MW826410_Solemoviridae_sp.                                            5.28%    passed     15.93%
+ 285  MW826498_Luteoviridae_sp.                                             1.17%    passed     87.91%
+ 286  MW826499_Luteoviridae_sp.                                             5.87%    passed     97.69%
+ 287  MW826500_Luteoviridae_sp.                                            11.73%    passed     82.80%
+ 288  MW826501_Luteoviridae_sp.                                             5.87%    passed     95.83%
+ 289  MW826514_Solemoviridae_sp.                                            2.93%    passed     41.79%
+ 290  MW826515_Solemoviridae_sp.                                            1.47%    passed     97.06%
+ 291  MW826516_Solemoviridae_sp.                                            0.29%    passed     79.84%
+ 292  MW826517_Solemoviridae_sp.                                           12.32%    passed     29.51%
+ 293  MW826518_Solemoviridae_sp.                                            0.00%    passed     42.51%
+ 294  MW826519_Solemoviridae_sp.                                            0.29%    passed     65.45%
+ 295  MW826520_Solemoviridae_sp.                                            0.00%    passed     89.23%
+ 296  MW826521_Solemoviridae_sp.                                            0.29%    passed     58.69%
+ 297  MW826522_Solemoviridae_sp.                                            0.29%    passed     84.66%
+ 298  MZ328309_Rhodnius_prolixus_virus_6                                    0.00%    passed     29.77%
+ 299  MZ375164_Riboviria_sp.                                               26.39%    passed     23.52%
+ 300  MZ375169_Riboviria_sp.                                                9.97%    passed     38.75%
+ 301  MZ375178_Riboviria_sp.                                                6.45%    passed     65.68%
+ 302  MZ375179_Riboviria_sp.                                                0.29%    passed     89.88%
+ 303  MZ375180_Riboviria_sp.                                               30.79%    passed     51.48%
+ 304  MZ375184_Riboviria_sp.                                               24.05%    passed     77.70%
+ 305  MZ375185_Riboviria_sp.                                                6.74%    passed     87.69%
+ 306  MZ375188_Riboviria_sp.                                                0.00%    passed     84.57%
+ 307  MZ375190_Riboviria_sp.                                                2.93%    passed     86.18%
+ 308  MZ375195_Riboviria_sp.                                               11.44%    passed     86.22%
+ 309  MZ375199_Riboviria_sp.                                                0.00%    passed     83.56%
+ 310  MZ375201_Riboviria_sp.                                               44.28%    passed     63.75%
+ 311  MZ375202_Riboviria_sp.                                                0.00%    passed     83.82%
+ 312  MZ375204_Riboviria_sp.                                                0.29%    passed     82.34%
+ 313  MZ375206_Riboviria_sp.                                                0.29%    passed     89.21%
+ 314  MZ395979_Solemoviridae_sp.                                           35.48%    passed     87.92%
+ 315  MZ396017_Solemoviridae_sp.                                           31.38%    passed     33.73%
+ 316  MZ396021_Solemoviridae_sp.                                            0.00%    passed     98.26%
+ 317  MZ396026_Solemoviridae_sp.                                            0.00%    passed     96.68%
+ 318  MZ443569_Vespula_vulgaris_luteo-like_virus_1                          2.05%    passed     99.38%
+ 319  MZ443571_Vespula_vulgaris_Sobemo-like_virus_1                         0.00%    passed     97.50%
+ 320  MZ443576_Vespula_vulgaris_Luteo-like_virus_2                          0.00%    passed     18.13%
+ 321  MZ443594_Leuven_Sobemo-like_virus_1                                   1.47%    passed     96.67%
+ 322  MZ443595_Leuven_Sobemo-like_virus_2                                   0.00%    passed     48.91%
+ 323  MZ443604_Leuven_Sobemo-like_virus_3                                   1.17%    passed     97.22%
+ 324  MZ443605_Leuven_Luteo-like_virus_1                                    0.88%    passed     57.76%
+ 325  MZ443630_Nelson_Sobemo-like_virus_1                                   0.00%    passed     72.70%
+ 326  MZ484471_Solemoviridae_sp.                                            0.29%    passed     96.55%
+ 327  MZ556263_Sichuan_mosquito_sobemo-like_virus                           0.00%    passed     98.97%
+ 328  MZ556266_Sichuan_mosquito_sobemo-like_virus                          14.08%    passed     93.37%
+ 329  MZ771233_Solemoviridae_sp.                                            0.00%    passed     90.68%
+ 330  NC_032173_Hubei_sobemo-like_virus_43                                  0.00%    passed     48.01%
+ 331  NC_032176_Hubei_sobemo-like_virus_19                                  6.45%    passed     75.69%
+ 332  NC_032177_Hubei_sobemo-like_virus_18                                  1.17%    passed     41.86%
+ 333  NC_032178_Hubei_sobemo-like_virus_26                                  1.47%    passed     95.32%
+ 334  NC_032184_Hubei_sobemo-like_virus_9                                   2.93%    passed     94.59%
+ 335  NC_032187_Hubei_sobemo-like_virus_32                                  1.47%    passed     93.51%
+ 336  NC_032188_Hubei_sobemo-like_virus_36                                  1.17%    passed     14.89%
+ 337  NC_032191_Hubei_sobemo-like_virus_47                                  0.00%    passed     31.68%
+ 338  NC_032193_Beihai_sobemo-like_virus_26                                 2.05%    failed      2.38%
+ 339  NC_032195_Hubei_sobemo-like_virus_46                                  0.00%    passed     49.39%
+ 340  NC_032196_Hubei_sobemo-like_virus_7                                  26.98%    passed     32.76%
+ 341  NC_032197_Hubei_sobemo-like_virus_5                                  27.57%    passed     12.39%
+ 342  NC_032199_Hubei_sobemo-like_virus_10                                  0.29%    passed     88.34%
+ 343  NC_032200_Hubei_sobemo-like_virus_34                                  1.76%    passed     52.00%
+ 344  NC_032210_Hubei_sobemo-like_virus_20                                  1.76%    passed     95.25%
+ 345  NC_032213_Hubei_sobemo-like_virus_44                                  0.29%    passed     69.16%
+ 346  NC_032223_Hubei_sobemo-like_virus_31                                  1.47%    passed     38.30%
+ 347  NC_032227_Hubei_sobemo-like_virus_33                                  1.47%    passed     94.43%
+ 348  NC_032228_Hubei_sobemo-like_virus_27                                  1.47%    passed     82.33%
+ 349  NC_032229_Hubei_sobemo-like_virus_24                                  1.47%    passed     45.62%
+ 350  NC_032232_Hubei_sobemo-like_virus_48                                  0.00%    failed      2.77%
+ 351  NC_032233_Hubei_sobemo-like_virus_49                                  2.64%    passed     85.22%
+ 352  NC_032234_Hubei_sobemo-like_virus_29                                  1.76%    passed     53.01%
+ 353  NC_032235_Hubei_sobemo-like_virus_30                                  0.88%    passed     73.36%
+ 354  NC_032236_Hubei_sobemo-like_virus_8                                   3.52%    passed     95.87%
+ 355  NC_032237_Hubei_sobemo-like_virus_35                                  2.93%    passed     93.94%
+ 356  NC_032238_Hubei_sobemo-like_virus_45                                  0.29%    passed     60.88%
+ 357  NC_032240_Hubei_sobemo-like_virus_13                                  3.23%    passed     84.71%
+ 358  NC_032243_Hubei_sobemo-like_virus_42                                  0.29%    passed     97.16%
+ 359  NC_032246_Hubei_sobemo-like_virus_28                                  1.17%    passed     94.40%
+ 360  NC_032247_Hubei_sobemo-like_virus_38                                  4.99%    failed      3.79%
+ 361  NC_032248_Hubei_sobemo-like_virus_25                                  1.17%    passed     63.44%
+ 362  NC_032250_Hubei_sobemo-like_virus_23                                  1.47%    passed     56.84%
+ 363  NC_032251_Hubei_sobemo-like_virus_40                                  5.28%    passed     90.37%
+ 364  NC_032253_Hubei_sobemo-like_virus_41                                  0.29%    passed     71.61%
+ 365  NC_032254_Hubei_sobemo-like_virus_22                                  1.17%    passed     99.33%
+ 366  NC_032268_Hubei_tetragnatha_maxillosa_virus_6                         4.11%    passed     15.62%
+ 367  NC_032645_Beihai_shrimp_virus_5                                       0.29%    passed     37.89%
+ 368  NC_032865_Beihai_sobemo-like_virus_27                                 0.29%    passed     22.06%
+ 369  NC_032918_Sanxia_sobemo-like_virus_4                                  1.47%    passed     85.48%
+ 370  NC_032923_Sanxia_sobemo-like_virus_1                                  0.29%    passed     36.17%
+ 371  NC_032930_Sanxia_sobemo-like_virus_2                                  2.35%    passed     48.44%
+ 372  NC_032937_Sanxia_sobemo-like_virus_3                                  1.17%    passed     99.84%
+ 373  NC_032941_Sanxia_sobemo-like_virus_5                                  1.76%    passed     77.52%
+ 374  NC_033072_Shuangao_sobemo-like_virus_3                                0.00%    passed     23.32%
+ 375  NC_033089_Shuangao_sobemo-like_virus_2                                0.29%    passed     53.65%
+ 376  NC_033095_Shuangao_insect_virus_9                                    14.96%    passed     23.29%
+ 377  NC_033128_Wenzhou_sobemo-like_virus_3                                 1.76%    passed     89.15%
+ 378  NC_033138_Wenzhou_sobemo-like_virus_4                                 0.00%    passed     98.95%
+ 379  NC_033230_Wenling_sobemo-like_virus_2                                 6.45%    passed      9.91%
+ 380  NC_033279_Sanxia_water_strider_virus_10                              15.25%    passed     91.39%
+ 381  NC_033300_Wenzhou_shrimp_virus_9                                      0.29%    passed     61.43%
+ 382  NC_033303_Hubei_diptera_virus_12                                      1.17%    passed     93.86%
+ 383  NC_033304_Hubei_diptera_virus_14                                      0.00%    passed      7.78%
+ 384  NC_033305_Hubei_mosquito_virus_2                                      2.64%    passed     95.85%
+ 385  NC_033331_Hubei_diptera_virus_13                                      1.17%    passed     86.31%
+ 386  NC_033452_Wuchan_romanomermis_nematode_virus_3                        5.57%    passed     95.07%
+ 387  NC_033472_Wuhan_insect_virus_17                                       0.29%    passed     74.28%
+ 388  NC_033487_Wuhan_heteroptera_virus_2                                   1.17%    passed     70.46%
+ 389  NC_033489_Wuhan_house_centipede_virus_5                               0.00%    passed     97.52%
+ 390  NC_033713_Wuhan_insect_virus_34                                       0.00%    passed     99.18%
+ 391  NC_033752_Xingshan_nematode_virus_5                                   2.05%    passed     55.45%
+ 392  OL420721_Ulaatai_Melophagus_solemo-like_virus                         0.00%    passed     93.88%
+ 393  OL420723_Ulaatai_Melophagus_solemo-like_virus                         0.00%    passed     95.18%
+ 394  OL420725_Ulaatai_Melophagus_solemo-like_virus                         0.00%    passed     96.07%
+ 395  OL420727_Ulaatai_Melophagus_solemo-like_virus                         0.00%    passed     96.98%
+ 396  OL420729_Ulaatai_Melophagus_solemo-like_virus                         0.00%    passed     95.02%
+ 397  OL420731_Ulaatai_Melophagus_solemo-like_virus                         0.00%    passed     95.73%
+ 398  OL700081_Wenzhou_sobemo-like_virus_3                                  1.76%    passed     87.79%
+ 399  OL700082_Wenzhou_sobemo-like_virus_3                                  1.76%    passed     87.53%
+ 400  OL700122_XiangYun_luteo-sobemo-like_virus_1                           0.00%    passed     78.90%
+ 401  OL700123_XiangYun_luteo-sobemo-like_virus_1                           0.00%    passed     78.90%
+ 402  OL700124_XiangYun_luteo-sobemo-like_virus_1                           0.00%    passed     76.73%
+ 403  OL700125_XiangYun_luteo-sobemo-like_virus_2                           0.88%    failed      0.61%
+ 404  OM743945_Pine_Lake_virus                                              0.29%    passed     87.51%
+ 405  OM817536_Culex_mosquito_virus_6                                       5.87%    passed     92.05%
+ 406  ON125137_Freshwater_macrophyte_associated_sobeli-like_virus_2         0.29%    failed      3.60%
+ 407  ON408196_Ixodes_scapularis_associated_virus_1                         0.29%    passed      6.20%
+ 408  ON408200_Ixodes_scapularis_associated_virus_1                         0.29%    passed      6.20%
+ 409  ON408201_Ixodes_scapularis_associated_virus_1                         0.29%    failed      4.17%
+ 410  ON408202_Xinjiang_tick_associated_virus_1                             0.29%    passed      7.58%
+ 411  ON408203_Xinjiang_tick_associated_virus_1                             0.29%    passed     10.66%
+ 412  ON408204_Xinjiang_tick_associated_virus_1                             0.29%    passed      7.95%
+ 413  ON408205_Xinjiang_tick_associated_virus_1                             0.29%    passed     13.21%
+ 414  ON408206_Jilin_luteo-like_virus_2                                     0.59%    passed     19.26%
+ 415  ON408207_Jilin_luteo-like_virus_2                                     0.59%    passed     14.01%
+ 416  ON408208_Jilin_luteo-like_virus_2                                     0.59%    passed     14.01%
+ 417  ON408210_Jilin_luteo-like_virus_2                                     0.59%    passed     18.00%
+ 418  ON408211_Jilin_luteo-like_virus_2                                     0.59%    passed     14.01%
+ 419  ON684366_Ixodes_ricinus_sobemo-like_virus_1                           0.29%    passed     93.97%
+ 420  Peninsere_virus_F1127C300F1032                                        6.45%    passed     98.60%
+ 421  Peninsere_virus_F1127C300F1056                                        0.00%    passed     98.31%
+ 422  Peninsere_virus_F1127C300F1127                                        0.00%    passed     99.72%
+ 423  Peninsere_virus_F1127C300F1132                                        0.00%    passed     99.72%
+ 424  Peninsere_virus_F1127C300F1156                                        0.00%    passed     99.72%
+ 425  Peninsere_virus_F1127C300F1450                                        0.00%    passed     99.65%
+ 426  Peninsere_virus_F1127C300F1461                                        0.00%    passed     98.62%
+ 427  Perkeld_virus_F1502C85F1502                                           2.05%    passed     23.69%
+ 428  Pirounced_virus_F1032C17F1032                                         0.00%    passed     98.31%
+ 429  Pirounced_virus_F1032C17F1034                                         5.57%    passed     98.27%
+ 430  Pirounced_virus_F1032C17F1056                                         0.00%    passed     98.31%
+ 431  Pirounced_virus_F1032C17F1127                                         0.00%    passed     99.72%
+ 432  Pirounced_virus_F1032C17F1266                                         4.11%    passed     97.93%
+ 433  Pirounced_virus_F1032C17F1271                                         0.00%    passed     98.31%
+ 434  Pirounced_virus_F1032C17F1305                                         0.00%    passed     98.31%
+ 435  Pirounced_virus_F1032C17F1316                                         0.00%    passed     98.31%
+ 436  Pirounced_virus_F1032C17F1325                                         0.00%    passed     98.29%
+ 437  Pirounced_virus_F1032C17F1461                                         0.00%    passed     98.62%
+ 438  Pirounced_virus_F1032C17F1585                                         0.00%    passed     98.31%
+ 439  Pirounced_virus_F1032C17F1604                                         0.00%    passed     98.62%
+ 440  Pirounced_virus_F1032C17F1607                                         0.00%    passed     98.62%
+ 441  Poterfers_virus_F1276C48F1276                                         0.00%    passed     90.49%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                 4.42%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Colokingly_virus_F1527C217F1021 is identical to Colokingly_virus_F1527C217F1019 but kept for subsequent analysis
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1071 is identical to Guangzhou_sobemo_like_virus_F1517C31F1016 but kept for subsequent analysis
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1352 is identical to Guangzhou_sobemo_like_virus_F1517C31F1073 but kept for subsequent analysis
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1094 is identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019 but kept for subsequent analysis
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1219 is identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021 but kept for subsequent analysis
+NOTE: Humaita_Tubiacanga_virus_F1058C249F1067 is identical to Humaita_Tubiacanga_virus_F1058C249F1001 but kept for subsequent analysis
+NOTE: Humaita_Tubiacanga_virus_F1058C249F1062 is identical to Humaita_Tubiacanga_virus_F1058C249F1002 but kept for subsequent analysis
+NOTE: MN053791_Guadeloupe_mosquito_virus is identical to MN053789_Guadeloupe_mosquito_virus but kept for subsequent analysis
+NOTE: NC_033138_Wenzhou_sobemo-like_virus_4 is identical to MT096519_Wenzhou_sobemo-like_virus_4 but kept for subsequent analysis
+NOTE: MW434802_Culex_mosquito_virus_6 is identical to MW434790_Culex_mosquito_virus_6 but kept for subsequent analysis
+NOTE: MW434813_Guadeloupe_mosquito_virus is identical to MW434812_Guadeloupe_mosquito_virus but kept for subsequent analysis
+NOTE: OL700123_XiangYun_luteo-sobemo-like_virus_1 is identical to OL700122_XiangYun_luteo-sobemo-like_virus_1 but kept for subsequent analysis
+NOTE: ON408200_Ixodes_scapularis_associated_virus_1 is identical to ON408196_Ixodes_scapularis_associated_virus_1 but kept for subsequent analysis
+NOTE: ON408208_Jilin_luteo-like_virus_2 is identical to ON408207_Jilin_luteo-like_virus_2 but kept for subsequent analysis
+NOTE: Pirounced_virus_F1032C17F1032 is identical to Peninsere_virus_F1127C300F1056 but kept for subsequent analysis
+NOTE: Peninsere_virus_F1127C300F1132 is identical to Peninsere_virus_F1127C300F1127 but kept for subsequent analysis
+NOTE: Pirounced_virus_F1032C17F1461 is identical to Peninsere_virus_F1127C300F1461 but kept for subsequent analysis
+NOTE: 35 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Colokingly_virus_F1527C217F1094 (identical to Colokingly_virus_F1527C217F1019) is ignored but added at the end
+NOTE: Colokingly_virus_F1527C217F1100 (identical to Colokingly_virus_F1527C217F1019) is ignored but added at the end
+NOTE: Colokingly_virus_F1527C217F1382 (identical to Colokingly_virus_F1527C217F1019) is ignored but added at the end
+NOTE: Colokingly_virus_F1527C217F1527 (identical to Colokingly_virus_F1527C217F1019) is ignored but added at the end
+NOTE: Colokingly_virus_F1527C217F1534 (identical to Colokingly_virus_F1527C217F1019) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1078 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1083 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1339 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1351 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Guangzhou_sobemo_like_virus_F1517C31F1517 (identical to Guangzhou_sobemo_like_virus_F1517C31F1016) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1527 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1533 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1536 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1537 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1381 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1525 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1531 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021) is ignored but added at the end
+NOTE: Hubei_sobemo_like_virus_41_subsp2_F1381C255F1532 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021) is ignored but added at the end
+NOTE: KX882872_Hubei_sobemo-like_virus_41 (identical to Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021) is ignored but added at the end
+NOTE: Humaita_Tubiacanga_virus_F1058C249F1335 (identical to Humaita_Tubiacanga_virus_F1058C249F1001) is ignored but added at the end
+NOTE: Humaita_Tubiacanga_virus_F1058C249F1063 (identical to Humaita_Tubiacanga_virus_F1058C249F1002) is ignored but added at the end
+NOTE: Humaita_Tubiacanga_virus_F1058C249F1086 (identical to Humaita_Tubiacanga_virus_F1058C249F1002) is ignored but added at the end
+NOTE: MN053809_Humaita-Tubiacanga_virus (identical to Humaita_Tubiacanga_virus_F1058C249F1002) is ignored but added at the end
+NOTE: MN053817_Humaita-Tubiacanga_virus (identical to Humaita_Tubiacanga_virus_F1058C249F1002) is ignored but added at the end
+NOTE: MN053819_Humaita-Tubiacanga_virus (identical to Humaita_Tubiacanga_virus_F1058C249F1002) is ignored but added at the end
+NOTE: ON408211_Jilin_luteo-like_virus_2 (identical to ON408207_Jilin_luteo-like_virus_2) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1056 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1271 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1305 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1316 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1585 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Peninsere_virus_F1127C300F1156 (identical to Peninsere_virus_F1127C300F1127) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1127 (identical to Peninsere_virus_F1127C300F1127) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1604 (identical to Peninsere_virus_F1127C300F1461) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1607 (identical to Peninsere_virus_F1127C300F1461) is ignored but added at the end
+Alignment was printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.288 seconds
+Measuring multi-threading efficiency up to 95 CPU cores
+Increase to 10 rounds for branch lengths
+17 trees examined
+Threads: 1 / Time: 95.329 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -243121
+Threads: 2 / Time: 56.769 sec / Speedup: 1.679 / Efficiency: 84% / LogL: -243121
+Threads: 3 / Time: 41.520 sec / Speedup: 2.296 / Efficiency: 77% / LogL: -243121
+Threads: 4 / Time: 34.194 sec / Speedup: 2.788 / Efficiency: 70% / LogL: -243121
+Threads: 5 / Time: 30.096 sec / Speedup: 3.167 / Efficiency: 63% / LogL: -243121
+Threads: 6 / Time: 27.427 sec / Speedup: 3.476 / Efficiency: 58% / LogL: -243121
+Threads: 7 / Time: 25.903 sec / Speedup: 3.680 / Efficiency: 53% / LogL: -243121
+Threads: 8 / Time: 24.477 sec / Speedup: 3.895 / Efficiency: 49% / LogL: -243121
+BEST NUMBER OF THREADS: 7
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -120235.359
+Optimal log-likelihood: -120234.632
+Proportion of invariable sites: 0.012
+Gamma shape alpha: 0.894
+Parameters optimization took 1 rounds (0.831 sec)
+Time for fast ML tree search: 7.048 seconds
+
+NOTE: ModelFinder requires 229 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 341) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            128187.512   809 257993.025   1568573.025  261093.018
+  2  LG+I          127861.193   810 257342.386   1571162.386  260446.211
+  3  LG+G4         120264.094   810 242148.188   1555968.188  245252.012
+  4  LG+I+G4       120234.593   811 242091.186   1559155.186  245198.843
+  5  LG+R2         122139.305   811 245900.610   1562964.610  249008.267
+  6  LG+R3         120820.847   813 243267.693   1566831.693  246383.014
+  7  LG+R4         120209.715   815 242049.431   1572129.431  245172.415
+  8  LG+R5         119993.539   817 241621.079   1578233.079  244751.727
+  9  LG+R6         119870.499   819 241378.997   1584538.997  244517.309
+ 10  LG+R7         119794.707   821 241231.414   1590955.414  244377.389
+ 11  LG+R8         119776.071   823 241198.141   1597502.141  244351.781
+ 12  LG+R9         119769.527   825 241189.054   1604089.054  244350.357
+ 13  LG+R10        119769.454   827 241192.909   1610704.909  244361.876
+ 24  LG+F+R8       119522.340   842 240728.681   1660340.681  243955.126
+ 25  LG+F+R9       119512.449   844 240712.897   1667072.897  243947.006
+ 37  WAG+R8        120438.594   823 242523.187   1598827.187  245676.827
+ 38  WAG+R9        120413.756   825 242477.513   1605377.513  245638.816
+ 50  WAG+F+R8      119899.023   842 241482.047   1661094.047  244708.492
+ 51  WAG+F+R9      119880.722   844 241449.445   1667809.445  244683.554
+ 63  JTT+R8        121956.023   823 245558.046   1601862.046  248711.686
+ 64  JTT+R9        121949.362   825 245548.723   1608448.723  248710.026
+ 76  JTT+F+R8      121421.673   842 244527.346   1664139.346  247753.791
+ 77  JTT+F+R9      121414.358   844 244516.716   1670876.716  247750.825
+ 89  JTTDCMut+R8   121920.268   823 245486.535   1601790.535  248640.175
+ 90  JTTDCMut+R9   121913.257   825 245476.515   1608376.515  248637.818
+102  JTTDCMut+F+R8 121373.825   842 244431.650   1664043.650  247658.095
+103  JTTDCMut+F+R9 121366.380   844 244420.759   1670780.759  247654.868
+115  DCMut+R8      123377.760   823 248401.521   1604705.521  251555.160
+116  DCMut+R9      123355.238   825 248360.476   1611260.476  251521.779
+128  DCMut+F+R8    121951.893   842 245587.786   1665199.786  248814.231
+129  DCMut+F+R9    121930.317   844 245548.634   1671908.634  248782.742
+141  VT+R8         120331.790   823 242309.580   1598613.580  245463.219
+142  VT+R9         120315.282   825 242280.563   1605180.563  245441.867
+154  VT+F+R8       119963.310   842 241610.621   1661222.621  244837.066
+155  VT+F+R9       119948.308   844 241584.616   1667944.616  244818.725
+167  PMB+R8        120287.431   823 242220.863   1598524.863  245374.502
+168  PMB+R9        120275.940   825 242201.881   1605101.881  245363.184
+180  PMB+F+R8      120320.670   842 242325.339   1661937.339  245551.784
+181  PMB+F+R9      120307.352   844 242302.704   1668662.704  245536.813
+193  Blosum62+R8   120125.062   823 241896.124   1598200.124  245049.763
+194  Blosum62+R9   120110.694   825 241871.388   1604771.388  245032.691
+206  Blosum62+F+R8 120092.993   842 241869.986   1661481.986  245096.431
+207  Blosum62+F+R9 120078.547   844 241845.093   1668205.093  245079.202
+219  Dayhoff+R8    123382.664   823 248411.328   1604715.328  251564.967
+220  Dayhoff+R9    123359.972   825 248369.945   1611269.945  251531.248
+232  Dayhoff+F+R8  121956.409   842 245596.818   1665208.818  248823.263
+233  Dayhoff+F+R9  121934.527   844 245557.053   1671917.053  248791.162
+245  mtREV+R8      127278.270   823 256202.540   1612506.540  259356.179
+246  mtREV+R9      127262.079   825 256174.159   1619074.159  259335.462
+258  mtREV+F+R8    122757.948   842 247199.896   1666811.896  250426.341
+259  mtREV+F+R9    122732.320   844 247152.640   1673512.640  250386.749
+271  mtART+R8      128134.572   823 257915.144   1614219.144  261068.783
+272  mtART+R9      128101.222   825 257852.443   1620752.443  261013.746
+284  mtART+F+R8    123551.365   842 248786.729   1668398.729  252013.174
+285  mtART+F+R9    123528.797   844 248745.594   1675105.594  251979.703
+297  mtZOA+R8      125163.214   823 251972.427   1608276.427  255126.066
+298  mtZOA+R9      125151.909   825 251953.818   1614853.818  255115.121
+310  mtZOA+F+R8    122128.988   842 245941.977   1665553.977  249168.422
+311  mtZOA+F+R9    122106.053   844 245900.106   1672260.106  249134.215
+323  mtMet+R8      126992.843   823 255631.685   1611935.685  258785.324
+324  mtMet+R9      126978.828   825 255607.656   1618507.656  258768.959
+336  mtMet+F+R8    122893.542   842 247471.084   1667083.084  250697.529
+337  mtMet+F+R9    122869.497   844 247426.995   1673786.995  250661.103
+349  mtVer+R8      129488.199   823 260622.398   1616926.398  263776.037
+350  mtVer+R9      129474.289   825 260598.579   1623498.579  263759.882
+362  mtVer+F+R8    125593.523   842 252871.045   1672483.045  256097.490
+363  mtVer+F+R9    125559.783   844 252807.566   1679167.566  256041.675
+375  mtInv+R8      126757.507   823 255161.014   1611465.014  258314.654
+376  mtInv+R9      126720.353   825 255090.707   1617990.707  258252.010
+388  mtInv+F+R8    121723.470   842 245130.940   1664742.940  248357.385
+389  mtInv+F+R9    121694.685   844 245077.369   1671437.369  248311.478
+401  mtMAM+R8      130854.912   823 263355.823   1619659.823  266509.462
+402  mtMAM+R9      130829.733   825 263309.465   1626209.465  266470.768
+414  mtMAM+F+R8    126378.463   842 254440.926   1674052.926  257667.371
+415  mtMAM+F+R9    126357.194   844 254402.388   1680762.388  257636.497
+427  HIVb+R8       125284.019   823 252214.038   1608518.038  255367.677
+428  HIVb+R9       125273.967   825 252197.934   1615097.934  255359.237
+440  HIVb+F+R8     124571.729   842 250827.459   1670439.459  254053.904
+441  HIVb+F+R9     124560.654   844 250809.308   1677169.308  254043.416
+453  HIVw+R8       132572.883   823 266791.765   1623095.765  269945.405
+454  HIVw+R9       132553.115   825 266756.230   1629656.230  269917.533
+466  HIVw+F+R8     129171.805   842 260027.610   1679639.610  263254.055
+467  HIVw+F+R9     129149.480   844 259986.961   1686346.961  263221.069
+479  FLU+R8        125008.842   823 251663.684   1607967.684  254817.323
+480  FLU+R9        125000.363   825 251650.727   1614550.727  254812.030
+492  FLU+F+R8      123656.333   842 248996.666   1668608.666  252223.111
+493  FLU+F+R9      123646.223   844 248980.446   1675340.446  252214.555
+505  rtREV+R8      120595.815   823 242837.630   1599141.630  245991.269
+506  rtREV+R9      120585.722   825 242821.445   1605721.445  245982.748
+518  rtREV+F+R8    119570.544   842 240825.087   1660437.087  244051.532
+519  rtREV+F+R9    119556.799   844 240801.598   1667161.598  244035.706
+531  cpREV+R8      121529.546   823 244705.092   1601009.092  247858.731
+532  cpREV+R9      121511.584   825 244673.167   1607573.167  247834.470
+544  cpREV+F+R8    120826.243   842 243336.486   1662948.486  246562.931
+545  cpREV+F+R9    120809.151   844 243306.302   1669666.302  246540.411
+Akaike Information Criterion:           LG+F+R9
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+R9
+Best-fit model: LG+F+R9 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.model.gz
+CPU time for ModelFinder: 59716.851 seconds (16h:35m:16s)
+Wall-clock time for ModelFinder: 8734.650 seconds (2h:25m:34s)
+Generating 1000 samples for ultrafast bootstrap (seed: 733682)...
+
+NOTE: 206 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -119512.449
+2. Current log-likelihood: -119512.343
+Optimal log-likelihood: -119512.183
+Site proportion and rates:  (0.087,0.027) (0.057,0.137) (0.095,0.257) (0.152,0.421) (0.147,0.685) (0.153,1.076) (0.114,1.518) (0.100,2.019) (0.095,2.752)
+Parameters optimization took 2 rounds (12.010 sec)
+Computing ML distances based on estimated model parameters... 57.734 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.169 seconds
+Log-likelihood of BIONJ tree: -120361.171
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 31.674 second
+Computing log-likelihood of 98 initial trees ... 33.628 seconds
+Current best score: -119512.183
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -119480.305
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -119373.747
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -119371.944
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -119362.703
+Iteration 10 / LogL: -119465.583 / Time: 0h:5m:25s
+Iteration 20 / LogL: -119403.756 / Time: 0h:8m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -119362.703 / CPU time: 458.307
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -119344.465
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -119341.440
+Iteration 30 / LogL: -119386.470 / Time: 0h:11m:39s (0h:39m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -119328.665
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -119325.622
+Iteration 40 / LogL: -119352.168 / Time: 0h:14m:3s (0h:34m:14s left)
+Iteration 50 / LogL: -119372.341 / Time: 0h:16m:13s (0h:28m:8s left)
+Log-likelihood cutoff on original alignment: -119488.977
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -119321.211
+Iteration 60 / LogL: -119370.808 / Time: 0h:18m:29s (0h:29m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -119315.208
+Iteration 70 / LogL: -119318.568 / Time: 0h:20m:44s (0h:28m:15s left)
+Iteration 80 / LogL: -119332.344 / Time: 0h:22m:47s (0h:24m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -119313.877
+Iteration 90 / LogL: -119340.386 / Time: 0h:24m:56s (0h:25m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -119298.405
+Iteration 100 / LogL: -119320.820 / Time: 0h:27m:8s (0h:25m:12s left)
+Log-likelihood cutoff on original alignment: -119488.977
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.979
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -119311.518 / Time: 0h:29m:20s (0h:24m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -119294.741
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -119293.979
+Iteration 120 / LogL: -119340.845 / Time: 0h:31m:48s (0h:25m:23s left)
+Iteration 130 / LogL: -119303.585 / Time: 0h:33m:52s (0h:22m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 131: -119290.228
+Iteration 140 / LogL: -119309.768 / Time: 0h:36m:11s (0h:23m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 142: -119285.367
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 145: -119277.525
+Iteration 150 / LogL: -119400.656 / Time: 0h:38m:30s (0h:24m:33s left)
+Log-likelihood cutoff on original alignment: -119428.047
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 158: -119276.837
+Iteration 160 / LogL: -119280.300 / Time: 0h:40m:36s (0h:25m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 161: -119275.605
+Iteration 170 / LogL: -119280.056 / Time: 0h:42m:53s (0h:23m:5s left)
+Iteration 180 / LogL: -119454.617 / Time: 0h:44m:49s (0h:20m:17s left)
+Iteration 190 / LogL: -119319.273 / Time: 0h:46m:49s (0h:17m:35s left)
+Iteration 200 / LogL: -119315.912 / Time: 0h:48m:55s (0h:14m:59s left)
+Log-likelihood cutoff on original alignment: -119428.047
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.957
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -119281.687 / Time: 0h:50m:53s (0h:21m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 217: -119273.310
+Iteration 220 / LogL: -119344.304 / Time: 0h:52m:56s (0h:23m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 225: -119263.499
+Iteration 230 / LogL: -119266.114 / Time: 0h:55m:11s (0h:22m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 240: -119263.344
+Iteration 240 / LogL: -119263.344 / Time: 0h:57m:15s (0h:23m:57s left)
+Iteration 250 / LogL: -119304.687 / Time: 0h:59m:8s (0h:21m:22s left)
+Log-likelihood cutoff on original alignment: -119428.047
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 258: -119262.023
+Iteration 260 / LogL: -119273.976 / Time: 1h:1m:10s (0h:23m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 266: -119261.118
+Iteration 270 / LogL: -119267.050 / Time: 1h:3m:17s (0h:22m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 276: -119260.804
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 277: -119257.911
+Iteration 280 / LogL: -119369.270 / Time: 1h:5m:38s (0h:22m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 288: -119254.872
+Iteration 290 / LogL: -119302.860 / Time: 1h:7m:48s (0h:22m:59s left)
+Iteration 300 / LogL: -119264.728 / Time: 1h:9m:47s (0h:20m:32s left)
+Log-likelihood cutoff on original alignment: -119428.047
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.969
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 302: -119252.351
+Iteration 310 / LogL: -119263.938 / Time: 1h:12m:1s (0h:21m:26s left)
+Iteration 320 / LogL: -119292.975 / Time: 1h:14m:3s (0h:19m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 326: -119251.428
+Iteration 330 / LogL: -119365.985 / Time: 1h:16m:14s (0h:22m:14s left)
+Iteration 340 / LogL: -119319.749 / Time: 1h:18m:14s (0h:19m:50s left)
+Iteration 350 / LogL: -119265.606 / Time: 1h:20m:22s (0h:17m:30s left)
+Log-likelihood cutoff on original alignment: -119428.047
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 354: -119248.912
+Iteration 360 / LogL: -119263.456 / Time: 1h:22m:31s (0h:21m:36s left)
+Iteration 370 / LogL: -119290.734 / Time: 1h:24m:31s (0h:19m:14s left)
+Iteration 380 / LogL: -119291.482 / Time: 1h:26m:21s (0h:16m:51s left)
+Iteration 390 / LogL: -119276.120 / Time: 1h:28m:20s (0h:14m:31s left)
+Iteration 400 / LogL: -119332.859 / Time: 1h:30m:19s (0h:12m:13s left)
+Log-likelihood cutoff on original alignment: -119428.047
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -119262.891 / Time: 1h:32m:22s (0h:20m:19s left)
+Iteration 420 / LogL: -119267.453 / Time: 1h:34m:20s (0h:18m:0s left)
+Iteration 430 / LogL: -119257.457 / Time: 1h:36m:21s (0h:15m:43s left)
+Iteration 440 / LogL: -119280.646 / Time: 1h:38m:24s (0h:13m:27s left)
+Iteration 450 / LogL: -119267.472 / Time: 1h:40m:31s (0h:11m:11s left)
+Log-likelihood cutoff on original alignment: -119428.047
+Iteration 460 / LogL: -119251.164 / Time: 1h:42m:26s (0h:8m:55s left)
+Iteration 470 / LogL: -119294.062 / Time: 1h:44m:28s (0h:6m:40s left)
+Iteration 480 / LogL: -119278.503 / Time: 1h:46m:29s (0h:4m:26s left)
+Iteration 490 / LogL: -119452.956 / Time: 1h:48m:33s (0h:2m:13s left)
+Iteration 500 / LogL: -119306.166 / Time: 1h:50m:34s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -119428.047
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.981
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -119274.327 / Time: 1h:52m:46s (0h:19m:56s left)
+Iteration 520 / LogL: -119249.927 / Time: 1h:54m:49s (0h:17m:42s left)
+Iteration 530 / LogL: -119259.442 / Time: 1h:57m:1s (0h:15m:29s left)
+Iteration 540 / LogL: -119281.871 / Time: 1h:59m:15s (0h:13m:16s left)
+Iteration 550 / LogL: -119401.340 / Time: 2h:1m:25s (0h:11m:3s left)
+Log-likelihood cutoff on original alignment: -119428.047
+Iteration 560 / LogL: -119308.014 / Time: 2h:3m:31s (0h:8m:50s left)
+Iteration 570 / LogL: -119255.839 / Time: 2h:5m:42s (0h:6m:37s left)
+Iteration 580 / LogL: -119252.148 / Time: 2h:7m:44s (0h:4m:24s left)
+Iteration 590 / LogL: -119261.414 / Time: 2h:9m:46s (0h:2m:12s left)
+Iteration 600 / LogL: -119265.110 / Time: 2h:11m:55s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -119428.047
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -119256.354 / Time: 2h:13m:58s (0h:19m:47s left)
+Iteration 620 / LogL: -119280.840 / Time: 2h:16m:2s (0h:17m:34s left)
+Iteration 630 / LogL: -119270.003 / Time: 2h:18m:21s (0h:15m:23s left)
+Iteration 640 / LogL: -119414.083 / Time: 2h:20m:30s (0h:13m:11s left)
+Iteration 650 / LogL: -119314.394 / Time: 2h:22m:44s (0h:10m:59s left)
+Log-likelihood cutoff on original alignment: -119428.047
+Iteration 660 / LogL: -119416.080 / Time: 2h:24m:50s (0h:8m:47s left)
+Iteration 670 / LogL: -119296.589 / Time: 2h:26m:50s (0h:6m:35s left)
+Iteration 680 / LogL: -119268.971 / Time: 2h:28m:55s (0h:4m:23s left)
+Iteration 690 / LogL: -119395.437 / Time: 2h:31m:5s (0h:2m:11s left)
+Iteration 700 / LogL: -119268.495 / Time: 2h:33m:9s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -119428.047
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+TREE SEARCH COMPLETED AFTER 700 ITERATIONS / Time: 2h:33m:11s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -119248.912
+2. Current log-likelihood: -119248.880
+3. Current log-likelihood: -119248.829
+4. Current log-likelihood: -119248.777
+5. Current log-likelihood: -119248.727
+6. Current log-likelihood: -119248.677
+7. Current log-likelihood: -119248.626
+8. Current log-likelihood: -119248.574
+9. Current log-likelihood: -119248.522
+10. Current log-likelihood: -119248.471
+11. Current log-likelihood: -119248.419
+12. Current log-likelihood: -119248.369
+13. Current log-likelihood: -119248.319
+14. Current log-likelihood: -119248.268
+15. Current log-likelihood: -119248.216
+16. Current log-likelihood: -119248.164
+17. Current log-likelihood: -119248.112
+18. Current log-likelihood: -119248.060
+19. Current log-likelihood: -119248.009
+20. Current log-likelihood: -119247.960
+21. Current log-likelihood: -119247.908
+22. Current log-likelihood: -119247.856
+23. Current log-likelihood: -119247.803
+24. Current log-likelihood: -119247.752
+25. Current log-likelihood: -119247.699
+26. Current log-likelihood: -119247.648
+27. Current log-likelihood: -119247.598
+28. Current log-likelihood: -119247.548
+29. Current log-likelihood: -119247.498
+30. Current log-likelihood: -119247.447
+31. Current log-likelihood: -119247.399
+32. Current log-likelihood: -119247.352
+33. Current log-likelihood: -119247.304
+34. Current log-likelihood: -119247.256
+35. Current log-likelihood: -119247.211
+36. Current log-likelihood: -119247.166
+37. Current log-likelihood: -119247.121
+38. Current log-likelihood: -119247.075
+39. Current log-likelihood: -119247.031
+40. Current log-likelihood: -119246.989
+41. Current log-likelihood: -119246.946
+42. Current log-likelihood: -119246.905
+43. Current log-likelihood: -119246.886
+44. Current log-likelihood: -119246.845
+45. Current log-likelihood: -119246.811
+46. Current log-likelihood: -119246.773
+47. Current log-likelihood: -119246.755
+48. Current log-likelihood: -119246.716
+49. Current log-likelihood: -119246.697
+50. Current log-likelihood: -119246.661
+51. Current log-likelihood: -119246.644
+52. Current log-likelihood: -119246.611
+53. Current log-likelihood: -119246.594
+54. Current log-likelihood: -119246.572
+55. Current log-likelihood: -119246.555
+56. Current log-likelihood: -119246.532
+57. Current log-likelihood: -119246.515
+58. Current log-likelihood: -119246.493
+59. Current log-likelihood: -119246.476
+60. Current log-likelihood: -119246.454
+61. Current log-likelihood: -119246.438
+62. Current log-likelihood: -119246.416
+63. Current log-likelihood: -119246.401
+64. Current log-likelihood: -119246.382
+65. Current log-likelihood: -119246.367
+66. Current log-likelihood: -119246.347
+67. Current log-likelihood: -119246.332
+68. Current log-likelihood: -119246.311
+69. Current log-likelihood: -119246.297
+70. Current log-likelihood: -119246.282
+71. Current log-likelihood: -119246.270
+72. Current log-likelihood: -119246.258
+73. Current log-likelihood: -119246.241
+74. Current log-likelihood: -119246.228
+75. Current log-likelihood: -119246.209
+76. Current log-likelihood: -119246.197
+77. Current log-likelihood: -119246.182
+78. Current log-likelihood: -119246.170
+79. Current log-likelihood: -119246.159
+80. Current log-likelihood: -119246.143
+Optimal log-likelihood: -119246.129
+Site proportion and rates:  (0.076,0.018) (0.040,0.095) (0.091,0.200) (0.172,0.391) (0.159,0.667) (0.177,1.106) (0.138,1.666) (0.134,2.437) (0.014,3.684)
+Parameters optimization took 80 rounds (317.212 sec)
+BEST SCORE FOUND : -119246.129
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.splits.nex
+Total tree length: 145.134
+
+Total number of iterations: 700
+CPU time used for tree search: 62977.343 sec (17h:29m:37s)
+Wall-clock time used for tree search: 9167.552 sec (2h:32m:47s)
+Total CPU time used: 65356.831 sec (18h:9m:16s)
+Total wall-clock time used: 9510.779 sec (2h:38m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.splits.nex...
+406 taxa and 2945 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.contree
+Log-likelihood of consensus tree: -119245.503
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_aln.fasta.fasta.log
+
+Date and Time: Wed Dec 14 04:57:19 2022

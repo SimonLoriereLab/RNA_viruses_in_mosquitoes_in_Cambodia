@@ -1,0 +1,36 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=7;
+TAXLABELS
+[1] 'KF298273_uncultured_virus'
+[2] 'MW434754_Lasigmu_virus'
+[3] 'BK059491_Aedes_orbi-like_virus'
+[4] 'Erroyantry_virus_F1102C96F1102'
+[5] 'MT822189_Serbia_reo-like_virus_1'
+[6] 'Eshizing_virus_F1187C97F1187'
+[7] 'KX884702_Hubei_reo-like_virus_14'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=7 nsplits=14;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	85	 1 2,
+	100	 3,
+	100	 1 2 3,
+	100	 4,
+	99	 5 6 7,
+	100	 5,
+	100	 6 7,
+	100	 7,
+	100	 6,
+	12	 2 3,
+	3	 1 3,
+	2	 4 5,
+;
+END; [Splits]
+

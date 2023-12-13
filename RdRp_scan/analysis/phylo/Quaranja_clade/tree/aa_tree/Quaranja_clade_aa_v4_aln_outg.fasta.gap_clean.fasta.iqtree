@@ -1,0 +1,738 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Quaranja_clade/tree/aa_tree/Quaranja_clade_aa_v4_aln_outg.fasta.gap_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 320033
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 136 sequences with 770 amino-acid sites
+Number of constant sites: 59 (= 7.66234% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 59 (= 7.66234% of all sites)
+Number of parsimony informative sites: 697
+Number of distinct site patterns: 760
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R8
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R8          -81288.446  163176.891 +        1  163561.966 +        1  164570.808 +        1
+rtREV+F+R8       -81362.599  163325.198 - 6.25e-33  163710.272 - 6.25e-33  164719.115 - 6.25e-33
+LG+R8            -81436.672  163435.345 - 7.54e-57  163760.107 - 9.42e-44  164740.981 - 1.12e-37
+LG+R9            -81436.715  163439.431 - 9.78e-58  163770.180 - 6.12e-46  164754.359 - 1.39e-40
+LG+R7            -81455.749  163469.499 - 2.89e-64  163788.356 - 6.92e-50  164765.842 - 4.46e-43
+LG+R6            -81464.419  163482.838 - 3.67e-67  163795.871 - 1.61e-51  164769.889 - 5.89e-44
+LG+R5            -81507.521  163565.043 - 5.18e-85  163872.330 - 4.03e-68  164842.800 - 8.67e-60
+LG+I+G4          -81569.823  163677.647 - 1.83e-109  163968.167 - 6.23e-89  164927.526 - 3.47e-78
+LG+R4            -81631.404  163808.808 - 6.04e-138  164110.429 - 7.99e-120  165077.273 - 1.05e-110
+LG+G4            -81685.145  163906.290 - 4.1e-159  164194.083 - 5.46e-138  165151.523 - 7.93e-127
+VT+F+R8          -81745.156  164090.311 - 4.5e-199  164475.386 - 4.5e-199  165484.228 - 4.5e-199
+WAG+F+R8         -81783.399  164166.798 - 1.11e-215  164551.872 - 1.11e-215  165560.715 - 1.11e-215
+VT+R8            -81951.441  164464.883 - 2.07e-280  164789.645 - 2.59e-267  165770.519 - 3.06e-261
+LG+R3            -81988.559  164519.117 - 3.46e-292  164815.150 - 7.49e-273  165778.289 - 6.29e-263
+Blosum62+F+R8    -81947.186  164494.371 - 8.18e-287  164879.446 - 8.18e-287  165888.288 - 8.18e-287
+Blosum62+R8      -82063.970  164689.939 -        0  165014.702 - 3.49e-316  165995.575 - 4.13e-310
+PMB+F+R8         -82009.599  164619.198 - 6.41e-314  165004.273 - 6.41e-314  166013.115 - 6.41e-314
+rtREV+R8         -82081.150  164724.300 -        0  165049.062 - 9.88e-324  166029.936 - 1.43e-317
+WAG+R8           -82107.069  164776.138 -        0  165100.901 -        0  166081.774 -        0
+PMB+R8           -82178.507  164919.014 -        0  165243.777 -        0  166224.650 -        0
+cpREV+F+R8       -82198.963  164997.926 -        0  165383.001 -        0  166391.844 -        0
+JTTDCMut+F+R8    -82265.032  165130.064 -        0  165515.139 -        0  166523.981 -        0
+JTT+F+R8         -82292.920  165185.840 -        0  165570.915 -        0  166579.758 -        0
+mtInv+F+R8       -82306.603  165213.206 -        0  165598.281 -        0  166607.124 -        0
+mtZOA+F+R8       -82314.763  165229.526 -        0  165614.601 -        0  166623.444 -        0
+cpREV+R8         -82390.360  165342.721 -        0  165667.483 -        0  166648.356 -        0
+JTTDCMut+R8      -82513.089  165588.178 -        0  165912.941 -        0  166893.814 -        0
+JTT+R8           -82536.034  165634.069 -        0  165958.831 -        0  166939.705 -        0
+DCMut+F+R8       -82638.578  165877.156 -        0  166262.231 -        0  167271.073 -        0
+Dayhoff+F+R8     -82639.649  165879.298 -        0  166264.372 -        0  167273.215 -        0
+mtART+F+R8       -82912.114  166424.228 -        0  166809.302 -        0  167818.145 -        0
+LG+R2            -83126.875  166791.749 -        0  167082.269 -        0  168041.628 -        0
+mtMet+F+R8       -83060.449  166720.899 -        0  167105.973 -        0  168114.816 -        0
+DCMut+R8         -83244.219  167050.437 -        0  167375.200 -        0  168356.073 -        0
+Dayhoff+R8       -83244.671  167051.343 -        0  167376.105 -        0  168356.979 -        0
+mtREV+F+R8       -83246.101  167092.203 -        0  167477.277 -        0  168486.120 -        0
+FLU+F+R8         -83562.620  167725.240 -        0  168110.315 -        0  169119.157 -        0
+FLU+R8           -83774.619  168111.238 -        0  168436.000 -        0  169416.874 -        0
+mtZOA+R8         -84077.037  168716.075 -        0  169040.837 -        0  170021.711 -        0
+HIVb+F+R8        -84150.218  168900.435 -        0  169285.510 -        0  170294.352 -        0
+HIVb+R8          -84454.727  169471.453 -        0  169796.215 -        0  170777.089 -        0
+mtVer+F+R8       -84589.746  169779.492 -        0  170164.567 -        0  171173.409 -        0
+mtMAM+F+R8       -85038.168  170676.336 -        0  171061.411 -        0  172070.254 -        0
+mtInv+R8         -85215.491  170992.981 -        0  171317.744 -        0  172298.617 -        0
+mtMet+R8         -85268.251  171098.502 -        0  171423.264 -        0  172404.137 -        0
+mtART+R8         -85612.613  171787.226 -        0  172111.988 -        0  173092.862 -        0
+mtREV+R8         -85643.950  171849.901 -        0  172174.663 -        0  173155.536 -        0
+LG+I             -86282.627  173101.253 -        0  173389.045 -        0  174346.486 -        0
+mtVer+R8         -86671.860  173905.720 -        0  174230.483 -        0  175211.356 -        0
+HIVw+F+R8        -86666.938  173933.877 -        0  174318.951 -        0  175327.794 -        0
+mtMAM+R8         -87430.263  175422.527 -        0  175747.289 -        0  176728.163 -        0
+LG               -87776.747  176087.494 -        0  176372.578 -        0  177328.081 -        0
+HIVw+R8          -87910.039  176382.077 -        0  176706.840 -        0  177687.713 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R8
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0632
+  pi(R) = 0.0574
+  pi(N) = 0.0561
+  pi(D) = 0.0496
+  pi(C) = 0.0155
+  pi(Q) = 0.0283
+  pi(E) = 0.0703
+  pi(G) = 0.0612
+  pi(H) = 0.0242
+  pi(I) = 0.0577
+  pi(L) = 0.0910
+  pi(K) = 0.0654
+  pi(M) = 0.0337
+  pi(F) = 0.0405
+  pi(P) = 0.0449
+  pi(S) = 0.0734
+  pi(T) = 0.0683
+  pi(W) = 0.0112
+  pi(Y) = 0.0350
+  pi(V) = 0.0532
+
+Model of rate heterogeneity: FreeRate with 8 categories
+Site proportion and rates:  (0.1280,0.0186) (0.0719,0.1374) (0.0835,0.2423) (0.1593,0.4500) (0.1950,0.7922) (0.1744,1.3457) (0.1493,2.3830) (0.0386,3.9047)
+
+ Category  Relative_rate  Proportion
+  1         0.0186         0.1280
+  2         0.1374         0.0719
+  3         0.2423         0.0835
+  4         0.4500         0.1593
+  5         0.7922         0.1950
+  6         1.3457         0.1744
+  7         2.3830         0.1493
+  8         3.9047         0.0386
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -81273.6404 (s.e. 1703.7949)
+Unconstrained log-likelihood (without tree): -5101.9482
+Number of free parameters (#branches + #model parameters): 300
+Akaike information criterion (AIC) score: 163147.2808
+Corrected Akaike information criterion (AICc) score: 163532.3555
+Bayesian information criterion (BIC) score: 164541.1980
+
+Total tree length (sum of branch lengths): 42.9829
+Sum of internal branch lengths: 18.1588 (42.2465% of tree length)
+
+WARNING: 25 near-zero internal branches (<0.0013) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MW784037_Hainan_orthomyxo-like_virus_2' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                            +-----MN053837_Guadeloupe_mosquito_quaranja-like_virus_2
+                                         +--| (97)
+                                         |  |            +--MN053838_Guadeloupe_mosquito_quaranja-like_virus_1
+                                         |  |         +**| (71)
+                                         |  |         |  |  +**MW434249_Guadeloupe_mosquito_quaranja-like_virus_1
+                                         |  |         |  +--| (100)
+                                         |  |         |     +--OL343761_Palmetto_orthomyxo-like_virus
+                                         |  |      +--| (100)
+                                         |  |      |  |     +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058
+                                         |  |      |  |  +**| (13)
+                                         |  |      |  |  |  |  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062
+                                         |  |      |  |  |  +**| (27)
+                                         |  |      |  |  |     |  +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065
+                                         |  |      |  |  |     +**| (39)
+                                         |  |      |  |  |        +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067
+                                         |  |      |  +--| (97)
+                                         |  |      |     |  +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059
+                                         |  |      |     +**| (34)
+                                         |  |      |        +**Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068
+                                         |  |   +--| (98)
+                                         |  |   |  |     +--MW520417_Aedes_detritus_orthomyxo-like_virus
+                                         |  |   |  |  +--| (100)
+                                         |  |   |  |  |  +--KX898491_Whidbey_virus
+                                         |  |   |  +--| (98)
+                                         |  |   |     |           +**Panessemat_virus_F1398C269F1230
+                                         |  |   |     |        +**| (98)
+                                         |  |   |     |        |  +--Panessemat_virus_F1398C269F1540
+                                         |  |   |     |     +--| (100)
+                                         |  |   |     |     |  +**Panessemat_virus_F1398C269F1398
+                                         |  |   |     |  +--| (91)
+                                         |  |   |     |  |  |  +**Panessemat_virus_F1398C269F1387
+                                         |  |   |     |  |  +**| (73)
+                                         |  |   |     |  |     +**Panessemat_virus_F1398C269F1396
+                                         |  |   |     +--| (100)
+                                         |  |   |        +**Panessemat_virus_F1398C269F1551
+                                         |  +---| (100)
+                                         |      +--BK059432_Aedes_orthomyxo-like_virus_2
+                                      +--| (99)
+                                      |  +---MF176325_Aedes_alboannulatus_orthomyxo-like_virus
+                                   +--| (100)
+                                   |  |        +--KM817624_Wuhan_Mosquito_Virus_5
+                                   |  |     +--| (98)
+                                   |  |     |  +**MW452276_Wuhan_Mosquito_Virus_5
+                                   |  +-----| (100)
+                                   |        +**OL700089_Wuhan_Mosquito_Virus_5
+                                +--| (100)
+                                |  |  +------ON059763_Byreldi_virus
+                                |  +--| (98)
+                                |     |         +--MW434228_Astopletus_virus
+                                |     |  +------| (100)
+                                |     |  |      +**MW434229_Astopletus_virus
+                                |     +--| (100)
+                                |        |     +**KM817622_Wuhan_Mosquito_Virus_3
+                                |        +-----| (100)
+                                |              +--OL700086_Wuhan_Mosquito_Virus_3
+                             +--| (71)
+                             |  |     +-------------KM817617_Sanxia_Water_Strider_Virus_3
+                             |  |  +--| (96)
+                             |  |  |  |          +--KM817620_Wuhan_Louse_Fly_Virus_3
+                             |  |  |  |     +----| (100)
+                             |  |  |  |     |    |  +--KM817621_Wuhan_Louse_Fly_Virus_4
+                             |  |  |  |     |    +--| (100)
+                             |  |  |  |     |       +--MW199253_Orthomyxoviridae_sp.
+                             |  |  |  |  +--| (100)
+                             |  |  |  |  |  |     +--KM817615_Jingshan_Fly_Virus_1
+                             |  |  |  |  |  |  +--| (100)
+                             |  |  |  |  |  |  |  +---MT153448_Dipteran_orthomyxo-related_virus_OKIAV195
+                             |  |  |  |  |  +--| (99)
+                             |  |  |  |  |     |    +--MT129718_Splett_orthomyxo-like_virus
+                             |  |  |  |  |     +----| (100)
+                             |  |  |  |  |          +**MT129719_Splett_orthomyxo-like_virus
+                             |  |  |  +--| (99)
+                             |  |  |     +-------MT153481_Dipteran_orthomyxo-related_virus_OKIAV193
+                             |  +--| (98)
+                             |     +-------KM817619_Shuangao_Insect_Virus_4
+                          +--| (74)
+                          |  |                                                                +**OM817558_Wuhan_Mosquito_Virus_6
+                          |  |                                                             +**| (5)
+                          |  |                                                             |  +--MW434426_Wuhan_Mosquito_Virus_6
+                          |  |                                                          +**| (2)
+                          |  |                                                          |  |  +--MW434431_Wuhan_Mosquito_Virus_6
+                          |  |                                                          |  +**| (14)
+                          |  |                                                          |     +--MW434432_Wuhan_Mosquito_Virus_6
+                          |  |                                                       +**| (2)
+                          |  |                                                       |  +**MW434428_Wuhan_Mosquito_Virus_6
+                          |  |                                                    +**| (19)
+                          |  |                                                    |  |  +--MW434422_Wuhan_Mosquito_Virus_6
+                          |  |                                                    |  +**| (8)
+                          |  |                                                    |     |  +**MW434423_Wuhan_Mosquito_Virus_6
+                          |  |                                                    |     +--| (100)
+                          |  |                                                    |        +--MW434430_Wuhan_Mosquito_Virus_6
+                          |  |                                                 +--| (96)
+                          |  |                                                 |  |  +--MW434421_Wuhan_Mosquito_Virus_6
+                          |  |                                                 |  +**| (14)
+                          |  |                                                 |     +--MW434425_Wuhan_Mosquito_Virus_6
+                          |  |                                              +**| (51)
+                          |  |                                              |  +--MW434424_Wuhan_Mosquito_Virus_6
+                          |  |                                           +--| (94)
+                          |  |                                           |  +--MW434429_Wuhan_Mosquito_Virus_6
+                          |  |                                        +**| (30)
+                          |  |                                        |  |     +--MF176249_Wuhan_Mosquito_Virus_6
+                          |  |                                        |  |  +**| (98)
+                          |  |                                        |  |  |  |  +**MF176271_Wuhan_Mosquito_Virus_6
+                          |  |                                        |  |  |  +**| (67)
+                          |  |                                        |  |  |     +**MF176320_Wuhan_Mosquito_Virus_6
+                          |  |                                        |  +--| (100)
+                          |  |                                        |     +--MK440648_Wuhan_Mosquito_Virus_6
+                          |  |                                     +**| (18)
+                          |  |                                     |  +**MW452277_Wuhan_Mosquito_Virus_6
+                          |  |                                  +**| (25)
+                          |  |                                  |  |     +--KM817625_Wuhan_Mosquito_Virus_6
+                          |  |                                  |  |  +**| (81)
+                          |  |                                  |  |  |  +--Wuhan_Mosquito_Virus_6_F1115C44F1120
+                          |  |                                  |  +**| (7)
+                          |  |                                  |     +--MW520424_Culex_pipiens_orthomyxo-like_virus
+                          |  |                               +--| (84)
+                          |  |                               |  |     +**Wuhan_Mosquito_Virus_6_F1115C44F1115
+                          |  |                               |  |  +**| (55)
+                          |  |                               |  |  |  +**Wuhan_Mosquito_Virus_6_F1115C44F1576
+                          |  |                               |  +--| (98)
+                          |  |                               |     +**Wuhan_Mosquito_Virus_6_F1115C44F1422
+                          |  |                            +--| (100)
+                          |  |                            |  +**OL700090_Wuhan_Mosquito_Virus_6
+                          |  |                      +-----| (100)
+                          |  |                      |     +--OL700154_XiangYun_orthomyxo-like_virus_2
+                          |  |                   +--| (100)
+                          |  |                   |  |         +**MW434314_Usinis_virus
+                          |  |                   |  |      +**| (84)
+                          |  |                   |  |      |  +--MW434320_Usinis_virus
+                          |  |                   |  |  +---| (100)
+                          |  |                   |  |  |   |  +--Usinis_virus_F1083C108F1083
+                          |  |                   |  |  |   +--| (100)
+                          |  |                   |  |  |      +**Usinis_virus_F1083C108F1515
+                          |  |                   |  +--| (100)
+                          |  |                   |     +---Spoisillett_virus_F1019C753F1019
+                          |  |                +--| (100)
+                          |  |                |  +------ON860461_Tierp_virus
+                          |  |             +--| (89)
+                          |  |             |  +------ON059769_Byreska_virus
+                          |  |          +--| (96)
+                          |  |          |  |            +--MN513372_Culex_orthomyxo-like_virus
+                          |  |          |  |         +--| (99)
+                          |  |          |  |         |  +--MW520421_Culex_modestus_orthomyxo-like_virus
+                          |  |          |  |      +--| (100)
+                          |  |          |  |      |  |     +--OL700088_Wuhan_Mosquito_Virus_4
+                          |  |          |  |      |  |  +--| (99)
+                          |  |          |  |      |  |  |  |  +**OL700087_Wuhan_Mosquito_Virus_4
+                          |  |          |  |      |  |  |  +**| (51)
+                          |  |          |  |      |  |  |     +**KM817623_Wuhan_Mosquito_Virus_4
+                          |  |          |  |      |  +--| (68)
+                          |  |          |  |      |     +--MK440637_Wuhan_Mosquito_Virus_4
+                          |  |          |  |  +---| (100)
+                          |  |          |  |  |   |  +--MW317143_Orthomyxoviridae_sp.
+                          |  |          |  |  |   +--| (100)
+                          |  |          |  |  |      |  +**Pageromars_virus_F1413C102F1245
+                          |  |          |  |  |      +--| (96)
+                          |  |          |  |  |         +--Pageromars_virus_F1413C102F1413
+                          |  |          |  +--| (100)
+                          |  |          |     +-----MN053836_Guadeloupe_mosquito_quaranja-like_virus_3
+                          |  |  +-------| (100)
+                          |  |  |       +--------ON860462_Husby_virus
+                          |  +--| (38)
+                          |     +------------MW784019_Xinjiang_sediment_orthomyxo-like_virus_5
+                       +--| (100)
+                       |  |                +----MW784026_Xinjiang_sediment_orthomyxo-like_virus_2
+                       |  |             +--| (100)
+                       |  |             |  |  +--OL700153_XiangYun_orthomyxo-like_virus_1
+                       |  |             |  +--| (100)
+                       |  |             |     +--MW784029_Heilongjiang_sediment_orthomyxo-like_virus
+                       |  |     +-------| (100)
+                       |  |     |       +----MW784025_Henan_sediment_orthomyxo-like_virus
+                       |  |  +--| (99)
+                       |  |  |  |         +--MW784032_Yunnan_sediment_orthomyxo-like_virus
+                       |  |  |  |      +--| (100)
+                       |  |  |  |      |  +--OL700156_XiangYun_orthomyxo-like_virus_4
+                       |  |  |  +------| (100)
+                       |  |  |         +----MW784015_Xinjiang_sediment_orthomyxo-like_virus_4
+                       |  +--| (93)
+                       |     +---------------OL700157_XiangYun_orthomyxo-like_virus_5
++----------------------| (100)
+|                      |             +----------MW288205_Hemipteran_orthomyxo-related_virus_OKIAV187
+|                      |     +-------| (100)
+|                      |     |       |      +--MT153485_Hemipteran_orthomyxo-related_virus_OKIAV188
+|                      |     |       +------| (100)
+|                      |     |              +--ON872578_Bat_faecal_associated_orthomyxo-like_virus_1
+|                      |  +--| (58)
+|                      |  |  |         +--MT153419_Hemipteran_orthomyxo-related_virus_OKIAV191
+|                      |  |  |   +-----| (100)
+|                      |  |  |   |     +--OM650310_Halyomorpha_halys_orthomyxo-like_virus_1
+|                      |  |  +---| (100)
+|                      |  |      +-------MW288163_Neuropteran_orthomyxo-related_virus_OKIAV190
+|                      +--| (76)
+|                         |                           +--KM817627_Wuhan_Mothfly_Virus
+|                         |                    +------| (100)
+|                         |                    |      +---MK026596_Old_quarry_swamp_virus
+|                         |                 +--| (87)
+|                         |                 |  |     +----MW288220_Hymenopteran_orthomyxo-related_virus_OKIAV171
+|                         |                 |  |  +--| (100)
+|                         |                 |  |  |  |  +----MW288219_Hymenopteran_orthomyxo-related_virus_OKIAV175
+|                         |                 |  |  |  +--| (100)
+|                         |                 |  |  |     +--MW288228_Hymenopteran_orthomyxo-related_virus_OKIAV174
+|                         |                 |  +--| (98)
+|                         |                 |     |  +--MT153463_Phasmatodean_orthomyxo-related_virus_OKIAV172
+|                         |                 |     +--| (100)
+|                         |                 |        +--MT153296_Hymenopteran_orthomyxo-related_virus_OKIAV173
+|                         |              +--| (70)
+|                         |              |  +-----------MW033635_Soybean_thrips_quaranja-like_virus_1
+|                         |           +--| (99)
+|                         |           |  |            +**KX883882_Hubei_earwig_virus_1
+|                         |           |  +------------| (100)
+|                         |           |               +**KX883858_Hubei_earwig_virus_1
+|                         |        +--| (98)
+|                         |        |  |                    +-------MT153531_Coleopteran_orthomyxo-related_virus_OKIAV184
+|                         |        |  |                 +--| (89)
+|                         |        |  |                 |  +-------MG972993_Photinus_pyralis_orthomyxo-like_virus_2
+|                         |        |  |              +--| (73)
+|                         |        |  |              |  |  +-----MT153375_Hemipteran_orthomyxo-related_virus_OKIAV183
+|                         |        |  |              |  +--| (100)
+|                         |        |  |              |     +--------MT153551_Hemipteran_orthomyxo-related_virus_OKIAV182
+|                         |        |  |           +--| (97)
+|                         |        |  |           |  +-------MT153452_Coleopteran_orthomyxo-related_virus_OKIAV186
+|                         |        |  |        +--| (75)
+|                         |        |  |        |  |             +--KX883873_Hubei_orthomyxo-like_virus_1
+|                         |        |  |        |  |          +--| (79)
+|                         |        |  |        |  |          |  +--MT153423_Lepidopteran_orthomyxo-related_virus_OKIAV1731
+|                         |        |  |        |  |  +-------| (100)
+|                         |        |  |        |  |  |       +--MT153484_Lepidopteran_orthomyxo-related_virus_OKIAV178
+|                         |        |  |        |  +--| (99)
+|                         |        |  |        |     +----------MT153534_Coleopteran_orthomyxo-related_virus_OKIAV179
+|                         |        |  |     +--| (64)
+|                         |        |  |     |  +---------MT153541_Blattodean_orthomyxo-related_virus_OKIAV181
+|                         |        |  |  +--| (46)
+|                         |        |  |  |  |   +-----MW288202_Raphidiopteran_orthomyxo-related_virus_OKIAV180
+|                         |        |  |  |  +---| (100)
+|                         |        |  |  |      +-----MG972988_Photinus_pyralis_orthomyxo-like_virus_1
+|                         |        |  +--| (90)
+|                         |        |     +----------------MT153548_Dermapteran_orthomyxo-related_virus_OKIAV170
+|                         |     +--| (95)
+|                         |     |  |           +--MN167480_Lestrade_virus
+|                         |     |  |    +------| (100)
+|                         |     |  |    |      +--MT153496_Siphonapteran_orthomyxo-related_virus_OKIAV157
+|                         |     |  +----| (100)
+|                         |     |       +-------MT153412_Coleopteran_orthomyxo-related_virus_OKIAV158
+|                         |  +--| (66)
+|                         |  |  |                +----------KM817626_Wuhan_Mosquito_Virus_7
+|                         |  |  |          +-----| (100)
+|                         |  |  |          |     +-------------MT153392_Coleopteran_orthomyxo-related_virus_OKIAV200
+|                         |  |  |  +-------| (100)
+|                         |  |  |  |       |              +--MW310365_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bl
+|                         |  |  |  |       +--------------| (100)
+|                         |  |  |  |                      +--MW310389_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bz
+|                         |  |  +--| (81)
+|                         |  |     |     +---------------KX883844_Beihai_orthomyxo-like_virus_1
+|                         |  |     +-----| (100)
+|                         |  |           |               +--OM405131_Quaranjavirus_sp.
+|                         |  |           |         +-----| (100)
+|                         |  |           |         |     |  +**ON746456_Yanbian_Ortho_tick_virus_1
+|                         |  |           |         |     +--| (100)
+|                         |  |           |         |        +--ON872624_Orthomyxoviridae_sp.
+|                         |  |           |     +---| (100)
+|                         |  |           |     |   +-----MN830237_Uumaja_virus
+|                         |  |           +-----| (100)
+|                         |  |                 +---------NC_052931_Quaranjavirus_johnstonense
+|                         +--| (99)
+|                            +-----------------MT153421_Phasmatodean_orthomyxo-related_virus_OKIAV167
+|
++**MW784037_Hainan_orthomyxo-like_virus_2
+|
++**MW784037_Hainan_orthomyxo-like_virus_2_0001
+
+Tree in newick format:
+
+(((((((((MN053837_Guadeloupe_mosquito_quaranja-like_virus_2:0.3853364378,((((MN053838_Guadeloupe_mosquito_quaranja-like_virus_1:0.0046165705,(MW434249_Guadeloupe_mosquito_quaranja-like_virus_1:0.0000011654,OL343761_Palmetto_orthomyxo-like_virus:0.0026212799)100:0.0039251965)71:0.0000031605,((Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058:0.0000011654,(Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062:0.0026324680,(Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065:0.0000011654,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067:0.0013094000)39:0.0000011317)27:0.0000011655)13:0.0000025583,(Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059:0.0000011654,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068:0.0000011654)34:0.0000027452)97:0.0013313813)100:0.0660304118,((MW520417_Aedes_detritus_orthomyxo-like_virus:0.0697042778,KX898491_Whidbey_virus:0.0388572302)100:0.0668519705,((((Panessemat_virus_F1398C269F1230:0.0000011654,Panessemat_virus_F1398C269F1540:0.0013180276)98:0.0000012944,Panessemat_virus_F1398C269F1398:0.0000011654)100:0.0026237293,(Panessemat_virus_F1398C269F1387:0.0000011654,Panessemat_virus_F1398C269F1396:0.0000011654)73:0.0000025705)91:0.0013081211,Panessemat_virus_F1398C269F1551:0.0000025069)100:0.0759853932)98:0.0412889457)98:0.0545176755,BK059432_Aedes_orthomyxo-like_virus_2:0.1313903459)100:0.2754423857)97:0.0695204128,MF176325_Aedes_alboannulatus_orthomyxo-like_virus:0.2509558989)99:0.1025605461,((KM817624_Wuhan_Mosquito_Virus_5:0.0039927338,MW452276_Wuhan_Mosquito_Virus_5:0.0000011654)98:0.0026518114,OL700089_Wuhan_Mosquito_Virus_5:0.0000032144)100:0.3867064408)100:0.1778207269,(ON059763_Byreldi_virus:0.3984324225,((MW434228_Astopletus_virus:0.0013267214,MW434229_Astopletus_virus:0.0000030852)100:0.4185955171,(KM817622_Wuhan_Mosquito_Virus_3:0.0010118966,OL700086_Wuhan_Mosquito_Virus_3:0.0016180088)100:0.3539936658)100:0.2022245597)98:0.0829002244)100:0.1780203199,((KM817617_Sanxia_Water_Strider_Virus_3:0.8072183857,(((KM817620_Wuhan_Louse_Fly_Virus_3:0.0727148874,(KM817621_Wuhan_Louse_Fly_Virus_4:0.0586554144,MW199253_Orthomyxoviridae_sp.:0.0213369779)100:0.0889127350)100:0.2816690115,((KM817615_Jingshan_Fly_Virus_1:0.2183981732,MT153448_Dipteran_orthomyxo-related_virus_OKIAV195:0.2689787395)100:0.0545046034,(MT129718_Splett_orthomyxo-like_virus:0.0019180118,MT129719_Splett_orthomyxo-like_virus:0.0006408971)100:0.3108360352)99:0.0711104224)100:0.0947724289,MT153481_Dipteran_orthomyxo-related_virus_OKIAV193:0.4943422459)99:0.0386944895)96:0.0392875152,KM817619_Shuangao_Insect_Virus_4:0.4517842498)98:0.0752155364)71:0.0769654721,(((((((((((((((((((OM817558_Wuhan_Mosquito_Virus_6:0.0000011654,MW434426_Wuhan_Mosquito_Virus_6:0.0026680246)5:0.0000024761,(MW434431_Wuhan_Mosquito_Virus_6:0.0053338837,MW434432_Wuhan_Mosquito_Virus_6:0.0013303349)14:0.0000011655)2:0.0000031012,MW434428_Wuhan_Mosquito_Virus_6:0.0000011654)2:0.0000025813,(MW434422_Wuhan_Mosquito_Virus_6:0.0013307452,(MW434423_Wuhan_Mosquito_Virus_6:0.0000025629,MW434430_Wuhan_Mosquito_Virus_6:0.0013277944)100:0.0013304400)8:0.0000011655)19:0.0000011655,(MW434421_Wuhan_Mosquito_Virus_6:0.0013329103,MW434425_Wuhan_Mosquito_Virus_6:0.0026730335)14:0.0000025253)96:0.0013348291,MW434424_Wuhan_Mosquito_Virus_6:0.0013359364)51:0.0000029889,MW434429_Wuhan_Mosquito_Virus_6:0.0013315919)94:0.0026653553,((MF176249_Wuhan_Mosquito_Virus_6:0.0013302230,(MF176271_Wuhan_Mosquito_Virus_6:0.0000011654,MF176320_Wuhan_Mosquito_Virus_6:0.0000011654)67:0.0000011655)98:0.0012943730,MK440648_Wuhan_Mosquito_Virus_6:0.0122355513)100:0.0027133616)30:0.0000023843,MW452277_Wuhan_Mosquito_Virus_6:0.0000011654)18:0.0000011655,((KM817625_Wuhan_Mosquito_Virus_6:0.0013298657,Wuhan_Mosquito_Virus_6_F1115C44F1120:0.0021866375)81:0.0000019412,MW520424_Culex_pipiens_orthomyxo-like_virus:0.0026754159)7:0.0000011655)25:0.0000024678,((Wuhan_Mosquito_Virus_6_F1115C44F1115:0.0000011654,Wuhan_Mosquito_Virus_6_F1115C44F1576:0.0000011654)55:0.0000011655,Wuhan_Mosquito_Virus_6_F1115C44F1422:0.0000011654)98:0.0013309944)84:0.0030770593,OL700090_Wuhan_Mosquito_Virus_6:0.0009197463)100:0.1316347119,OL700154_XiangYun_orthomyxo-like_virus_2:0.1566156740)100:0.3583331389,(((MW434314_Usinis_virus:0.0000011654,MW434320_Usinis_virus:0.0013380558)84:0.0004402012,(Usinis_virus_F1083C108F1083:0.0013372340,Usinis_virus_F1083C108F1515:0.0000024521)100:0.0022397327)100:0.2776775747,Spoisillett_virus_F1019C753F1019:0.2404461304)100:0.1670696156)100:0.1477980170,ON860461_Tierp_virus:0.4389705653)100:0.2059342826,ON059769_Byreska_virus:0.4054463660)89:0.0572642748,((((MN513372_Culex_orthomyxo-like_virus:0.0144758725,MW520421_Culex_modestus_orthomyxo-like_virus:0.0262325053)99:0.0114552213,((OL700088_Wuhan_Mosquito_Virus_4:0.0013377952,(OL700087_Wuhan_Mosquito_Virus_4:0.0000011654,KM817623_Wuhan_Mosquito_Virus_4:0.0000011654)51:0.0000011655)99:0.0090497229,MK440637_Wuhan_Mosquito_Virus_4:0.0066020910)68:0.0103686506)100:0.0422537998,(MW317143_Orthomyxoviridae_sp.:0.0124201399,(Pageromars_virus_F1413C102F1245:0.0000011654,Pageromars_virus_F1413C102F1413:0.0054512379)96:0.0046505139)100:0.0653800895)100:0.2589505692,MN053836_Guadeloupe_mosquito_quaranja-like_virus_3:0.3402656089)100:0.1878774167)96:0.0780900188,ON860462_Husby_virus:0.5518064859)100:0.4717938240,MW784019_Xinjiang_sediment_orthomyxo-like_virus_5:0.7577708871)38:0.0433371128)74:0.0595780583,((((MW784026_Xinjiang_sediment_orthomyxo-like_virus_2:0.2856142699,(OL700153_XiangYun_orthomyxo-like_virus_1:0.0088773515,MW784029_Heilongjiang_sediment_orthomyxo-like_virus:0.0361559881)100:0.1122389395)100:0.1521393971,MW784025_Henan_sediment_orthomyxo-like_virus:0.3142867842)100:0.4892386036,((MW784032_Yunnan_sediment_orthomyxo-like_virus:0.1838581818,OL700156_XiangYun_orthomyxo-like_virus_4:0.2021728307)100:0.1964985941,MW784015_Xinjiang_sediment_orthomyxo-like_virus_4:0.2969462745)100:0.4085739244)99:0.0734213713,OL700157_XiangYun_orthomyxo-like_virus_5:0.9105405427)93:0.0901158952)100:0.2129110989,(((MW288205_Hemipteran_orthomyxo-related_virus_OKIAV187:0.6420624647,(MT153485_Hemipteran_orthomyxo-related_virus_OKIAV188:0.1870057345,ON872578_Bat_faecal_associated_orthomyxo-like_virus_1:0.1244919907)100:0.4243208067)100:0.4573724667,((MT153419_Hemipteran_orthomyxo-related_virus_OKIAV191:0.1682597211,OM650310_Halyomorpha_halys_orthomyxo-like_virus_1:0.1062324844)100:0.3861272145,MW288163_Neuropteran_orthomyxo-related_virus_OKIAV190:0.4587779568)100:0.2433032568)58:0.0748376476,((((((((KM817627_Wuhan_Mothfly_Virus:0.2031119826,MK026596_Old_quarry_swamp_virus:0.2699557225)100:0.4147980422,((MW288220_Hymenopteran_orthomyxo-related_virus_OKIAV171:0.3274354811,(MW288219_Hymenopteran_orthomyxo-related_virus_OKIAV175:0.2872348338,MW288228_Hymenopteran_orthomyxo-related_virus_OKIAV174:0.2196779334)100:0.1004650483)100:0.0950293906,(MT153463_Phasmatodean_orthomyxo-related_virus_OKIAV172:0.2122273739,MT153296_Hymenopteran_orthomyxo-related_virus_OKIAV173:0.1085189821)100:0.1600063696)98:0.0844332066)87:0.0842099132,MW033635_Soybean_thrips_quaranja-like_virus_1:0.7225446246)70:0.0644129568,(KX883882_Hubei_earwig_virus_1:0.0000031283,KX883858_Hubei_earwig_virus_1:0.0000024606)100:0.7738234568)99:0.1139623530,(((((((MT153531_Coleopteran_orthomyxo-related_virus_OKIAV184:0.4585117897,MG972993_Photinus_pyralis_orthomyxo-like_virus_2:0.4772341529)89:0.0719501818,(MT153375_Hemipteran_orthomyxo-related_virus_OKIAV183:0.3887018236,MT153551_Hemipteran_orthomyxo-related_virus_OKIAV182:0.5054798759)100:0.1151381557)73:0.0300956692,MT153452_Coleopteran_orthomyxo-related_virus_OKIAV186:0.4802893491)97:0.0692578011,(((KX883873_Hubei_orthomyxo-like_virus_1:0.1589058129,MT153423_Lepidopteran_orthomyxo-related_virus_OKIAV1731:0.1759120502)79:0.0870364755,MT153484_Lepidopteran_orthomyxo-related_virus_OKIAV178:0.1786945687)100:0.4975868224,MT153534_Coleopteran_orthomyxo-related_virus_OKIAV179:0.6688123941)99:0.1331852087)75:0.0720921297,MT153541_Blattodean_orthomyxo-related_virus_OKIAV181:0.5862713294)64:0.0698302681,(MW288202_Raphidiopteran_orthomyxo-related_virus_OKIAV180:0.3920610454,MG972988_Photinus_pyralis_orthomyxo-like_virus_1:0.3627687927)100:0.2733596319)46:0.0476986082,MT153548_Dermapteran_orthomyxo-related_virus_OKIAV170:0.9647666129)90:0.0730289001)98:0.0839574805,((MN167480_Lestrade_virus:0.1714545500,MT153496_Siphonapteran_orthomyxo-related_virus_OKIAV157:0.1322262171)100:0.4340280026,MT153412_Coleopteran_orthomyxo-related_virus_OKIAV158:0.4759311733)100:0.3292869707)95:0.0946069460,(((KM817626_Wuhan_Mosquito_Virus_7:0.6702484411,MT153392_Coleopteran_orthomyxo-related_virus_OKIAV200:0.7858790532)100:0.3836390694,(MW310365_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bl:0.0261882633,MW310389_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bz:0.0066678380)100:0.8676465244)100:0.5049813749,(KX883844_Beihai_orthomyxo-like_virus_1:0.9261954711,(((OM405131_Quaranjavirus_sp.:0.1162057443,(ON746456_Yanbian_Ortho_tick_virus_1:0.0000011654,ON872624_Orthomyxoviridae_sp.:0.0013675180)100:0.1399683495)100:0.3608899973,MN830237_Uumaja_virus:0.3609454408)100:0.2653067585,NC_052931_Quaranjavirus_johnstonense:0.5975654528)100:0.3406890165)100:0.3822024357)81:0.1170693102)66:0.0325586682,MT153421_Phasmatodean_orthomyxo-related_virus_OKIAV167:1.0126720237)99:0.1343259400)76:0.0851935529)100:1.3238691530,MW784037_Hainan_orthomyxo-like_virus_2:0.0000011654,MW784037_Hainan_orthomyxo-like_virus_2_0001:0.0000011654);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -81274.075630
+Robinson-Foulds distance between ML tree and consensus tree: 24
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                               +-----MN053837_Guadeloupe_mosquito_quaranja-like_virus_2
+                                            +--| (97)
+                                            |  |            +--MN053838_Guadeloupe_mosquito_quaranja-like_virus_1
+                                            |  |         +--| (71)
+                                            |  |         |  |  +--MW434249_Guadeloupe_mosquito_quaranja-like_virus_1
+                                            |  |         |  +--| (100)
+                                            |  |         |     +--OL343761_Palmetto_orthomyxo-like_virus
+                                            |  |      +--| (100)
+                                            |  |      |  |     +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058
+                                            |  |      |  |  +--| (35)
+                                            |  |      |  |  |  |     +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059
+                                            |  |      |  |  |  |  +--| (42)
+                                            |  |      |  |  |  |  |  |  +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062
+                                            |  |      |  |  |  |  |  +--| (57)
+                                            |  |      |  |  |  |  |     +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065
+                                            |  |      |  |  |  +--| (40)
+                                            |  |      |  |  |     +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068
+                                            |  |      |  +--| (97)
+                                            |  |      |     +--Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067
+                                            |  |   +--| (98)
+                                            |  |   |  |     +--MW520417_Aedes_detritus_orthomyxo-like_virus
+                                            |  |   |  |  +--| (100)
+                                            |  |   |  |  |  +--KX898491_Whidbey_virus
+                                            |  |   |  +--| (98)
+                                            |  |   |     |           +--Panessemat_virus_F1398C269F1230
+                                            |  |   |     |        +--| (98)
+                                            |  |   |     |        |  +--Panessemat_virus_F1398C269F1540
+                                            |  |   |     |     +--| (100)
+                                            |  |   |     |     |  +--Panessemat_virus_F1398C269F1398
+                                            |  |   |     |  +--| (91)
+                                            |  |   |     |  |  |  +--Panessemat_virus_F1398C269F1387
+                                            |  |   |     |  |  +--| (73)
+                                            |  |   |     |  |     +--Panessemat_virus_F1398C269F1396
+                                            |  |   |     +--| (100)
+                                            |  |   |        +--Panessemat_virus_F1398C269F1551
+                                            |  +---| (100)
+                                            |      +--BK059432_Aedes_orthomyxo-like_virus_2
+                                         +--| (99)
+                                         |  +---MF176325_Aedes_alboannulatus_orthomyxo-like_virus
+                                      +--| (100)
+                                      |  |        +--KM817624_Wuhan_Mosquito_Virus_5
+                                      |  |     +--| (98)
+                                      |  |     |  +--MW452276_Wuhan_Mosquito_Virus_5
+                                      |  +-----| (100)
+                                      |        +--OL700089_Wuhan_Mosquito_Virus_5
+                                   +--| (100)
+                                   |  |  +------ON059763_Byreldi_virus
+                                   |  +--| (98)
+                                   |     |         +--MW434228_Astopletus_virus
+                                   |     |  +------| (100)
+                                   |     |  |      +--MW434229_Astopletus_virus
+                                   |     +--| (100)
+                                   |        |     +--KM817622_Wuhan_Mosquito_Virus_3
+                                   |        +-----| (100)
+                                   |              +--OL700086_Wuhan_Mosquito_Virus_3
+                                +--| (71)
+                                |  |     +-------------KM817617_Sanxia_Water_Strider_Virus_3
+                                |  |  +--| (96)
+                                |  |  |  |          +--KM817620_Wuhan_Louse_Fly_Virus_3
+                                |  |  |  |     +----| (100)
+                                |  |  |  |     |    |  +--KM817621_Wuhan_Louse_Fly_Virus_4
+                                |  |  |  |     |    +--| (100)
+                                |  |  |  |     |       +--MW199253_Orthomyxoviridae_sp.
+                                |  |  |  |  +--| (100)
+                                |  |  |  |  |  |     +--KM817615_Jingshan_Fly_Virus_1
+                                |  |  |  |  |  |  +--| (100)
+                                |  |  |  |  |  |  |  +---MT153448_Dipteran_orthomyxo-related_virus_OKIAV195
+                                |  |  |  |  |  +--| (99)
+                                |  |  |  |  |     |    +--MT129718_Splett_orthomyxo-like_virus
+                                |  |  |  |  |     +----| (100)
+                                |  |  |  |  |          +--MT129719_Splett_orthomyxo-like_virus
+                                |  |  |  +--| (99)
+                                |  |  |     +-------MT153481_Dipteran_orthomyxo-related_virus_OKIAV193
+                                |  +--| (98)
+                                |     +-------KM817619_Shuangao_Insect_Virus_4
+                             +--| (41)
+                             |  |                                                                +--OM817558_Wuhan_Mosquito_Virus_6
+                             |  |                                                             +--| (11)
+                             |  |                                                             |  +--MW434428_Wuhan_Mosquito_Virus_6
+                             |  |                                                          +--| (5)
+                             |  |                                                          |  |  +--MW434422_Wuhan_Mosquito_Virus_6
+                             |  |                                                          |  +--| (5)
+                             |  |                                                          |     |     +--MW434423_Wuhan_Mosquito_Virus_6
+                             |  |                                                          |     |  +--| (100)
+                             |  |                                                          |     |  |  +--MW434430_Wuhan_Mosquito_Virus_6
+                             |  |                                                          |     +--| (37)
+                             |  |                                                          |        +--MW434431_Wuhan_Mosquito_Virus_6
+                             |  |                                                       +--| (19)
+                             |  |                                                       |  |  +--MW434426_Wuhan_Mosquito_Virus_6
+                             |  |                                                       |  +--| (12)
+                             |  |                                                       |     +--MW434432_Wuhan_Mosquito_Virus_6
+                             |  |                                                    +--| (19)
+                             |  |                                                    |  +--MW434421_Wuhan_Mosquito_Virus_6
+                             |  |                                                 +--| (96)
+                             |  |                                                 |  +--MW434425_Wuhan_Mosquito_Virus_6
+                             |  |                                              +--| (51)
+                             |  |                                              |  +--MW434424_Wuhan_Mosquito_Virus_6
+                             |  |                                           +--| (94)
+                             |  |                                           |  +--MW434429_Wuhan_Mosquito_Virus_6
+                             |  |                                        +--| (30)
+                             |  |                                        |  |     +--MF176249_Wuhan_Mosquito_Virus_6
+                             |  |                                        |  |  +--| (98)
+                             |  |                                        |  |  |  |     +**MF176271_Wuhan_Mosquito_Virus_6
+                             |  |                                        |  |  |  |  +--|
+                             |  |                                        |  |  |  |  |  +**MF176360_Wuhan_Mosquito_Virus_6
+                             |  |                                        |  |  |  +--| (67)
+                             |  |                                        |  |  |     +--MF176320_Wuhan_Mosquito_Virus_6
+                             |  |                                        |  +--| (100)
+                             |  |                                        |     +--MK440648_Wuhan_Mosquito_Virus_6
+                             |  |                                     +--| (18)
+                             |  |                                     |  +--MW452277_Wuhan_Mosquito_Virus_6
+                             |  |                                  +--| (12)
+                             |  |                                  |  |  +--KM817625_Wuhan_Mosquito_Virus_6
+                             |  |                                  |  +--| (81)
+                             |  |                                  |     +--Wuhan_Mosquito_Virus_6_F1115C44F1120
+                             |  |                               +--| (25)
+                             |  |                               |  +--MW520424_Culex_pipiens_orthomyxo-like_virus
+                             |  |                            +--| (84)
+                             |  |                            |  |     +--Wuhan_Mosquito_Virus_6_F1115C44F1115
+                             |  |                            |  |  +--| (55)
+                             |  |                            |  |  |  +--Wuhan_Mosquito_Virus_6_F1115C44F1576
+                             |  |                            |  +--| (98)
+                             |  |                            |     +--Wuhan_Mosquito_Virus_6_F1115C44F1422
+                             |  |                         +--| (100)
+                             |  |                         |  +--OL700090_Wuhan_Mosquito_Virus_6
+                             |  |                   +-----| (100)
+                             |  |                   |     +--OL700154_XiangYun_orthomyxo-like_virus_2
+                             |  |                +--| (100)
+                             |  |                |  |         +--MW434314_Usinis_virus
+                             |  |                |  |      +--| (84)
+                             |  |                |  |      |  +--MW434320_Usinis_virus
+                             |  |                |  |  +---| (100)
+                             |  |                |  |  |   |  +--Usinis_virus_F1083C108F1083
+                             |  |                |  |  |   +--| (100)
+                             |  |                |  |  |      +--Usinis_virus_F1083C108F1515
+                             |  |                |  +--| (100)
+                             |  |                |     +---Spoisillett_virus_F1019C753F1019
+                             |  |             +--| (100)
+                             |  |             |  +------ON860461_Tierp_virus
+                             |  |          +--| (89)
+                             |  |          |  +------ON059769_Byreska_virus
+                             |  |       +--| (96)
+                             |  |       |  |            +--MN513372_Culex_orthomyxo-like_virus
+                             |  |       |  |         +--| (99)
+                             |  |       |  |         |  +--MW520421_Culex_modestus_orthomyxo-like_virus
+                             |  |       |  |      +--| (100)
+                             |  |       |  |      |  |     +--OL700088_Wuhan_Mosquito_Virus_4
+                             |  |       |  |      |  |  +--| (99)
+                             |  |       |  |      |  |  |  |  +--OL700087_Wuhan_Mosquito_Virus_4
+                             |  |       |  |      |  |  |  +--| (51)
+                             |  |       |  |      |  |  |     +--KM817623_Wuhan_Mosquito_Virus_4
+                             |  |       |  |      |  +--| (68)
+                             |  |       |  |      |     +--MK440637_Wuhan_Mosquito_Virus_4
+                             |  |       |  |  +---| (100)
+                             |  |       |  |  |   |  +--MW317143_Orthomyxoviridae_sp.
+                             |  |       |  |  |   +--| (100)
+                             |  |       |  |  |      |  +--Pageromars_virus_F1413C102F1245
+                             |  |       |  |  |      +--| (96)
+                             |  |       |  |  |         +--Pageromars_virus_F1413C102F1413
+                             |  |       |  +--| (100)
+                             |  |       |     +-----MN053836_Guadeloupe_mosquito_quaranja-like_virus_3
+                             |  +-------| (100)
+                             |          +--------ON860462_Husby_virus
+                          +--| (74)
+                          |  +------------MW784019_Xinjiang_sediment_orthomyxo-like_virus_5
+                       +--| (100)
+                       |  |                +----MW784026_Xinjiang_sediment_orthomyxo-like_virus_2
+                       |  |             +--| (100)
+                       |  |             |  |  +--OL700153_XiangYun_orthomyxo-like_virus_1
+                       |  |             |  +--| (100)
+                       |  |             |     +--MW784029_Heilongjiang_sediment_orthomyxo-like_virus
+                       |  |     +-------| (100)
+                       |  |     |       +----MW784025_Henan_sediment_orthomyxo-like_virus
+                       |  |  +--| (99)
+                       |  |  |  |         +--MW784032_Yunnan_sediment_orthomyxo-like_virus
+                       |  |  |  |      +--| (100)
+                       |  |  |  |      |  +--OL700156_XiangYun_orthomyxo-like_virus_4
+                       |  |  |  +------| (100)
+                       |  |  |         +----MW784015_Xinjiang_sediment_orthomyxo-like_virus_4
+                       |  +--| (93)
+                       |     +---------------OL700157_XiangYun_orthomyxo-like_virus_5
++----------------------| (100)
+|                      |             +----------MW288205_Hemipteran_orthomyxo-related_virus_OKIAV187
+|                      |     +-------| (100)
+|                      |     |       |      +--MT153485_Hemipteran_orthomyxo-related_virus_OKIAV188
+|                      |     |       +------| (100)
+|                      |     |              +--ON872578_Bat_faecal_associated_orthomyxo-like_virus_1
+|                      |  +--| (58)
+|                      |  |  |         +--MT153419_Hemipteran_orthomyxo-related_virus_OKIAV191
+|                      |  |  |   +-----| (100)
+|                      |  |  |   |     +--OM650310_Halyomorpha_halys_orthomyxo-like_virus_1
+|                      |  |  +---| (100)
+|                      |  |      +-------MW288163_Neuropteran_orthomyxo-related_virus_OKIAV190
+|                      +--| (76)
+|                         |                           +--KM817627_Wuhan_Mothfly_Virus
+|                         |                    +------| (100)
+|                         |                    |      +---MK026596_Old_quarry_swamp_virus
+|                         |                 +--| (87)
+|                         |                 |  |     +----MW288220_Hymenopteran_orthomyxo-related_virus_OKIAV171
+|                         |                 |  |  +--| (100)
+|                         |                 |  |  |  |  +----MW288219_Hymenopteran_orthomyxo-related_virus_OKIAV175
+|                         |                 |  |  |  +--| (100)
+|                         |                 |  |  |     +--MW288228_Hymenopteran_orthomyxo-related_virus_OKIAV174
+|                         |                 |  +--| (98)
+|                         |                 |     |  +--MT153463_Phasmatodean_orthomyxo-related_virus_OKIAV172
+|                         |                 |     +--| (100)
+|                         |                 |        +--MT153296_Hymenopteran_orthomyxo-related_virus_OKIAV173
+|                         |              +--| (70)
+|                         |              |  +-----------MW033635_Soybean_thrips_quaranja-like_virus_1
+|                         |           +--| (99)
+|                         |           |  |            +--KX883882_Hubei_earwig_virus_1
+|                         |           |  +------------| (100)
+|                         |           |               +--KX883858_Hubei_earwig_virus_1
+|                         |        +--| (98)
+|                         |        |  |                    +-------MT153531_Coleopteran_orthomyxo-related_virus_OKIAV184
+|                         |        |  |                 +--| (89)
+|                         |        |  |                 |  +-------MG972993_Photinus_pyralis_orthomyxo-like_virus_2
+|                         |        |  |              +--| (73)
+|                         |        |  |              |  |  +-----MT153375_Hemipteran_orthomyxo-related_virus_OKIAV183
+|                         |        |  |              |  +--| (100)
+|                         |        |  |              |     +--------MT153551_Hemipteran_orthomyxo-related_virus_OKIAV182
+|                         |        |  |           +--| (97)
+|                         |        |  |           |  +-------MT153452_Coleopteran_orthomyxo-related_virus_OKIAV186
+|                         |        |  |        +--| (75)
+|                         |        |  |        |  |             +--KX883873_Hubei_orthomyxo-like_virus_1
+|                         |        |  |        |  |          +--| (79)
+|                         |        |  |        |  |          |  +--MT153423_Lepidopteran_orthomyxo-related_virus_OKIAV1731
+|                         |        |  |        |  |  +-------| (100)
+|                         |        |  |        |  |  |       +--MT153484_Lepidopteran_orthomyxo-related_virus_OKIAV178
+|                         |        |  |        |  +--| (99)
+|                         |        |  |        |     +----------MT153534_Coleopteran_orthomyxo-related_virus_OKIAV179
+|                         |        |  |     +--| (64)
+|                         |        |  |     |  +---------MT153541_Blattodean_orthomyxo-related_virus_OKIAV181
+|                         |        |  |  +--| (46)
+|                         |        |  |  |  |   +-----MW288202_Raphidiopteran_orthomyxo-related_virus_OKIAV180
+|                         |        |  |  |  +---| (100)
+|                         |        |  |  |      +-----MG972988_Photinus_pyralis_orthomyxo-like_virus_1
+|                         |        |  +--| (90)
+|                         |        |     +----------------MT153548_Dermapteran_orthomyxo-related_virus_OKIAV170
+|                         |     +--| (95)
+|                         |     |  |           +--MN167480_Lestrade_virus
+|                         |     |  |    +------| (100)
+|                         |     |  |    |      +--MT153496_Siphonapteran_orthomyxo-related_virus_OKIAV157
+|                         |     |  +----| (100)
+|                         |     |       +-------MT153412_Coleopteran_orthomyxo-related_virus_OKIAV158
+|                         |  +--| (66)
+|                         |  |  |                +----------KM817626_Wuhan_Mosquito_Virus_7
+|                         |  |  |          +-----| (100)
+|                         |  |  |          |     +-------------MT153392_Coleopteran_orthomyxo-related_virus_OKIAV200
+|                         |  |  |  +-------| (100)
+|                         |  |  |  |       |              +--MW310365_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bl
+|                         |  |  |  |       +--------------| (100)
+|                         |  |  |  |                      +--MW310389_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bz
+|                         |  |  +--| (81)
+|                         |  |     |     +---------------KX883844_Beihai_orthomyxo-like_virus_1
+|                         |  |     +-----| (100)
+|                         |  |           |               +--OM405131_Quaranjavirus_sp.
+|                         |  |           |         +-----| (100)
+|                         |  |           |         |     |  +--ON746456_Yanbian_Ortho_tick_virus_1
+|                         |  |           |         |     +--| (100)
+|                         |  |           |         |        +--ON872624_Orthomyxoviridae_sp.
+|                         |  |           |     +---| (100)
+|                         |  |           |     |   +-----MN830237_Uumaja_virus
+|                         |  |           +-----| (100)
+|                         |  |                 +---------NC_052931_Quaranjavirus_johnstonense
+|                         +--| (99)
+|                            +-----------------MT153421_Phasmatodean_orthomyxo-related_virus_OKIAV167
+|
++--MW784037_Hainan_orthomyxo-like_virus_2
+|
++--MW784037_Hainan_orthomyxo-like_virus_2_0001
+
+
+Consensus tree in newick format: 
+
+((((((((((MN053837_Guadeloupe_mosquito_quaranja-like_virus_2:0.3841183520,((((MN053838_Guadeloupe_mosquito_quaranja-like_virus_1:0.0046031480,(MW434249_Guadeloupe_mosquito_quaranja-like_virus_1:0.0000022690,OL343761_Palmetto_orthomyxo-like_virus:0.0026146190)100:0.0039144434)71:0.0000022713,((Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058:0.0000022690,((Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059:0.0000022690,(Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062:0.0026119649,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065:0.0000022690)57:0.0000117694)42:0.0000022690,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068:0.0000022690)40:0.0000022690)35:0.0000022690,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067:0.0013072054)97:0.0013280761)100:0.0658578889,((MW520417_Aedes_detritus_orthomyxo-like_virus:0.0695078893,KX898491_Whidbey_virus:0.0387489444)100:0.0666718925,((((Panessemat_virus_F1398C269F1230:0.0000022690,Panessemat_virus_F1398C269F1540:0.0013004945)98:0.0000151777,Panessemat_virus_F1398C269F1398:0.0000022690)100:0.0026172914,(Panessemat_virus_F1398C269F1387:0.0000022690,Panessemat_virus_F1398C269F1396:0.0000022690)73:0.0000022690)91:0.0013049405,Panessemat_virus_F1398C269F1551:0.0000022690)100:0.0757536446)98:0.0411671199)98:0.0543323225,BK059432_Aedes_orthomyxo-like_virus_2:0.1310487581)100:0.2744155540)97:0.0692672544,MF176325_Aedes_alboannulatus_orthomyxo-like_virus:0.2499361715)99:0.1019629067,((KM817624_Wuhan_Mosquito_Virus_5:0.0039811458,MW452276_Wuhan_Mosquito_Virus_5:0.0000022690)98:0.0026458092,OL700089_Wuhan_Mosquito_Virus_5:0.0000024374)100:0.3859135733)100:0.1778011994,(ON059763_Byreldi_virus:0.3963738230,((MW434228_Astopletus_virus:0.0013241154,MW434229_Astopletus_virus:0.0000020453)100:0.4164267574,(KM817622_Wuhan_Mosquito_Virus_3:0.0010102881,OL700086_Wuhan_Mosquito_Virus_3:0.0016124806)100:0.3532007086)100:0.2018805445)98:0.0826234339)100:0.1739069395,((KM817617_Sanxia_Water_Strider_Virus_3:0.8058993018,(((KM817620_Wuhan_Louse_Fly_Virus_3:0.0723839834,(KM817621_Wuhan_Louse_Fly_Virus_4:0.0584715739,MW199253_Orthomyxoviridae_sp.:0.0212854447)100:0.0887049892)100:0.2831677729,((KM817615_Jingshan_Fly_Virus_1:0.2176723268,MT153448_Dipteran_orthomyxo-related_virus_OKIAV195:0.2681304600)100:0.0548481210,(MT129718_Splett_orthomyxo-like_virus:0.0019163731,MT129719_Splett_orthomyxo-like_virus:0.0006365066)100:0.3098021752)99:0.0680493769)100:0.0948858182,MT153481_Dipteran_orthomyxo-related_virus_OKIAV193:0.4911700452)99:0.0375735603)96:0.0396767041,KM817619_Shuangao_Insect_Virus_4:0.4522407536)98:0.0765785882)71:0.0682094655,(((((((((((((((((((OM817558_Wuhan_Mosquito_Virus_6:0.0000022690,MW434428_Wuhan_Mosquito_Virus_6:0.0000022690)11:0.0000022690,(MW434422_Wuhan_Mosquito_Virus_6:0.0013263378,((MW434423_Wuhan_Mosquito_Virus_6:0.0000022690,MW434430_Wuhan_Mosquito_Virus_6:0.0013233977)100:0.0013260282,MW434431_Wuhan_Mosquito_Virus_6:0.0053162309)37:0.0000022690)5:0.0000022690)5:0.0000022690,(MW434426_Wuhan_Mosquito_Virus_6:0.0026591779,MW434432_Wuhan_Mosquito_Virus_6:0.0013259292)12:0.0000022690)19:0.0000022690,MW434421_Wuhan_Mosquito_Virus_6:0.0013284907)19:0.0000022690,MW434425_Wuhan_Mosquito_Virus_6:0.0026641703)96:0.0013304079,MW434424_Wuhan_Mosquito_Virus_6:0.0013315056)51:0.0000022690,MW434429_Wuhan_Mosquito_Virus_6:0.0013271820)94:0.0026565300,((MF176249_Wuhan_Mosquito_Virus_6:0.0013258278,((MF176271_Wuhan_Mosquito_Virus_6:0.0000000000,MF176360_Wuhan_Mosquito_Virus_6:0.0000000000):0.0000022690,MF176320_Wuhan_Mosquito_Virus_6:0.0000022690)67:0.0000022690)98:0.0012907907,MK440648_Wuhan_Mosquito_Virus_6:0.0121948470)100:0.0027041815)30:0.0000022690,MW452277_Wuhan_Mosquito_Virus_6:0.0000022690)18:0.0000022690,(KM817625_Wuhan_Mosquito_Virus_6:0.0013004945,Wuhan_Mosquito_Virus_6_F1115C44F1120:0.0021804310)81:0.0000268148)12:0.0000022690,MW520424_Culex_pipiens_orthomyxo-like_virus:0.0026665323)25:0.0000022690,((Wuhan_Mosquito_Virus_6_F1115C44F1115:0.0000022690,Wuhan_Mosquito_Virus_6_F1115C44F1576:0.0000022690)55:0.0000022690,Wuhan_Mosquito_Virus_6_F1115C44F1422:0.0000022690)98:0.0013265900)84:0.0030664545,OL700090_Wuhan_Mosquito_Virus_6:0.0009183216)100:0.1315196205,OL700154_XiangYun_orthomyxo-like_virus_2:0.1557796960)100:0.3570450607,(((MW434314_Usinis_virus:0.0000022690,MW434320_Usinis_virus:0.0013338896)84:0.0004171507,(Usinis_virus_F1083C108F1083:0.0013330700,Usinis_virus_F1083C108F1515:0.0000022690)100:0.0022534774)100:0.2762366751,Spoisillett_virus_F1019C753F1019:0.2399603912)100:0.1665468252)100:0.1468680733,ON860461_Tierp_virus:0.4380134569)100:0.2058196807,ON059769_Byreska_virus:0.4023263512)89:0.0571773049,((((MN513372_Culex_orthomyxo-like_virus:0.0144301308,MW520421_Culex_modestus_orthomyxo-like_virus:0.0261501505)99:0.0114227314,((OL700088_Wuhan_Mosquito_Virus_4:0.0013341765,(OL700087_Wuhan_Mosquito_Virus_4:0.0000022690,KM817623_Wuhan_Mosquito_Virus_4:0.0000022690)51:0.0000022690)99:0.0090199599,MK440637_Wuhan_Mosquito_Virus_4:0.0065835214)68:0.0103413568)100:0.0419046833,(MW317143_Orthomyxoviridae_sp.:0.0123710697,(Pageromars_virus_F1413C102F1245:0.0000022690,Pageromars_virus_F1413C102F1413:0.0054342038)96:0.0046499786)100:0.0653904779)100:0.2586026677,MN053836_Guadeloupe_mosquito_quaranja-like_virus_3:0.3388425173)100:0.1871604235)96:0.0792538154,ON860462_Husby_virus:0.5493903727)100:0.4988446324)41:0.0419045120,MW784019_Xinjiang_sediment_orthomyxo-like_virus_5:0.7705464068)74:0.0408454122,((((MW784026_Xinjiang_sediment_orthomyxo-like_virus_2:0.2846725390,(OL700153_XiangYun_orthomyxo-like_virus_1:0.0088658899,MW784029_Heilongjiang_sediment_orthomyxo-like_virus:0.0360584064)100:0.1117011174)100:0.1501624262,MW784025_Henan_sediment_orthomyxo-like_virus:0.3149385305)100:0.4847345255,((MW784032_Yunnan_sediment_orthomyxo-like_virus:0.1833795867,OL700156_XiangYun_orthomyxo-like_virus_4:0.2015671970)100:0.2007349068,MW784015_Xinjiang_sediment_orthomyxo-like_virus_4:0.2907653512)100:0.4074606047)99:0.0790898933,OL700157_XiangYun_orthomyxo-like_virus_5:0.8979129217)93:0.0864081324)100:0.2063644080,(((MW288205_Hemipteran_orthomyxo-related_virus_OKIAV187:0.6384515577,(MT153485_Hemipteran_orthomyxo-related_virus_OKIAV188:0.1861939532,ON872578_Bat_faecal_associated_orthomyxo-like_virus_1:0.1244137389)100:0.4236561663)100:0.4564978455,((MT153419_Hemipteran_orthomyxo-related_virus_OKIAV191:0.1680624920,OM650310_Halyomorpha_halys_orthomyxo-like_virus_1:0.1056621405)100:0.3868638545,MW288163_Neuropteran_orthomyxo-related_virus_OKIAV190:0.4554298983)100:0.2411272121)58:0.0719103473,((((((((KM817627_Wuhan_Mothfly_Virus:0.2024968620,MK026596_Old_quarry_swamp_virus:0.2691090078)100:0.4132567415,((MW288220_Hymenopteran_orthomyxo-related_virus_OKIAV171:0.3264266344,(MW288219_Hymenopteran_orthomyxo-related_virus_OKIAV175:0.2863528708,MW288228_Hymenopteran_orthomyxo-related_virus_OKIAV174:0.2190483640)100:0.1001576275)100:0.0947546428,(MT153463_Phasmatodean_orthomyxo-related_virus_OKIAV172:0.2116672798,MT153296_Hymenopteran_orthomyxo-related_virus_OKIAV173:0.1081389848)100:0.1596099147)98:0.0844437995)87:0.0842845923,MW033635_Soybean_thrips_quaranja-like_virus_1:0.7193630021)70:0.0642130814,(KX883882_Hubei_earwig_virus_1:0.0000022690,KX883858_Hubei_earwig_virus_1:0.0000022140)100:0.7711833483)99:0.1135097009,(((((((MT153531_Coleopteran_orthomyxo-related_virus_OKIAV184:0.4570987722,MG972993_Photinus_pyralis_orthomyxo-like_virus_2:0.4754726506)89:0.0717812288,(MT153375_Hemipteran_orthomyxo-related_virus_OKIAV183:0.3876401666,MT153551_Hemipteran_orthomyxo-related_virus_OKIAV182:0.5037887769)100:0.1148568800)73:0.0302474205,MT153452_Coleopteran_orthomyxo-related_virus_OKIAV186:0.4788495567)97:0.0691005855,(((KX883873_Hubei_orthomyxo-like_virus_1:0.1585213742,MT153423_Lepidopteran_orthomyxo-related_virus_OKIAV1731:0.1754255881)79:0.0866952640,MT153484_Lepidopteran_orthomyxo-related_virus_OKIAV178:0.1783758783)100:0.4955872374,MT153534_Coleopteran_orthomyxo-related_virus_OKIAV179:0.6665502477)99:0.1327275783)75:0.0718270327,MT153541_Blattodean_orthomyxo-related_virus_OKIAV181:0.5845441391)64:0.0696032848,(MW288202_Raphidiopteran_orthomyxo-related_virus_OKIAV180:0.3905407702,MG972988_Photinus_pyralis_orthomyxo-like_virus_1:0.3617486689)100:0.2728319777)46:0.0475888796,MT153548_Dermapteran_orthomyxo-related_virus_OKIAV170:0.9613371296)90:0.0729574104)98:0.0837449380,((MN167480_Lestrade_virus:0.1708398690,MT153496_Siphonapteran_orthomyxo-related_virus_OKIAV157:0.1320147346)100:0.4331707764,MT153412_Coleopteran_orthomyxo-related_virus_OKIAV158:0.4737373718)100:0.3286376104)95:0.0952021377,(((KM817626_Wuhan_Mosquito_Virus_7:0.6673258320,MT153392_Coleopteran_orthomyxo-related_virus_OKIAV200:0.7835955714)100:0.3825316776,(MW310365_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bl:0.0263376934,MW310389_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bz:0.0064196717)100:0.8638500354)100:0.5023244624,(KX883844_Beihai_orthomyxo-like_virus_1:0.9228613280,(((OM405131_Quaranjavirus_sp.:0.1159633708,(ON746456_Yanbian_Ortho_tick_virus_1:0.0000022690,ON872624_Orthomyxoviridae_sp.:0.0013638976)100:0.1394866789)100:0.3596253746,MN830237_Uumaja_virus:0.3597506669)100:0.2650016283,NC_052931_Quaranjavirus_johnstonense:0.5952275328)100:0.3395787443)100:0.3806958621)81:0.1167368676)66:0.0326527837,MT153421_Phasmatodean_orthomyxo-related_virus_OKIAV167:1.0090042315)99:0.1356136869)76:0.0838738518)100:1.3202155055,MW784037_Hainan_orthomyxo-like_virus_2:0.0000022690,MW784037_Hainan_orthomyxo-like_virus_2_0001:0.0000022690);
+
+TIME STAMP
+----------
+
+Date and time: Wed Mar 22 22:04:23 2023
+Total CPU time used: 17724.9365 seconds (4h:55m:24s)
+Total wall-clock time used: 1506.051357 seconds (0h:25m:6s)
+

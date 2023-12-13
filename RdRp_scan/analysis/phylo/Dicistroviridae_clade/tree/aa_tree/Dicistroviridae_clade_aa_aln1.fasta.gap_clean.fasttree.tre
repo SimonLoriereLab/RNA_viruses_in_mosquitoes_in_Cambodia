@@ -1,0 +1,414 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=312;
+	taxlabels
+	AB183472_Himetobi_P_virus
+	EU282007_Rhopalosiphum_padi_virus
+	Freiandnes_virus_F1429C5F1429[&!color=#b01d00]
+	Furrupy_virus_F1429C9F1002[&!color=#b01d00]
+	Furrupy_virus_F1429C9F1429[&!color=#b01d00]
+	HQ871932_Aphid_lethal_paralysis_virus
+	JF423195_Big_Sioux_River_virus[&!color=#0038b0]
+	JQ320375_Aphid_lethal_paralysis_virus
+	JX045858_Aphid_lethal_paralysis_virus
+	JX480861_Aphid_lethal_paralysis_virus
+	KC952671_Himetobi_P_virus
+	KF170223_Bat_dicistrovirus
+	KF280585_Himetobi_P_virus
+	KJ817182_Aphid_lethal_paralysis_virus
+	KM017736_Fesavirus_1
+	KM270559_Himetobi_P_virus
+	KR021407_Aphid_lethal_paralysis_virus
+	KX580886_Griffin_dicistrovirus
+	KX610809_Aphid_lethal_paralysis_virus
+	KX610810_Rhopalosiphum_padi_virus
+	KX644942_Bat_cripavirus
+	KX830963_Aphid_lethal_paralysis_virus
+	KX883690_Aphid_lethal_paralysis_virus
+	KX883929_Aphid_lethal_paralysis_virus
+	KX883941_Hubei_picorna-like_virus_15
+	KX883977_Aphid_lethal_paralysis_virus
+	KX884276_Aphid_lethal_paralysis_virus
+	KX884304_Wuhan_insect_virus_33
+	KY286106_Picornavirales_Q_sR_OV_011
+	KY286107_Picornavirales_Q_sR_OV_025
+	KY465682_Black_queen_cell_virus
+	KY465683_Black_queen_cell_virus
+	KY465684_Black_queen_cell_virus
+	KY465685_Black_queen_cell_virus
+	KY465686_Black_queen_cell_virus
+	KY465687_Black_queen_cell_virus
+	KY465688_Black_queen_cell_virus
+	KY503023_Dicistroviridae_sp_
+	KY933250_Big_Sioux_River_virus
+	KY933251_Big_Sioux_River_virus
+	KY933252_Big_Sioux_River_virus
+	KY933254_Big_Sioux_River_virus
+	KY933255_Big_Sioux_River_virus
+	KY933256_Big_Sioux_River_virus
+	KY933257_Big_Sioux_River_virus
+	KY933259_Big_Sioux_River_virus
+	LC552045_Sacri_virus
+	LN907586_Aphid_lethal_paralysis_virus
+	LN907588_Aphid_lethal_paralysis_virus
+	MF189971_Caledonia_beadlet_anemone_dicistro-like_virus_1
+	MF189974_Caledonia_beadlet_anemone_dicistro-like_virus_3
+	MF190024_Barns_Ness_breadcrumb_sponge_dicistro-like_virus_1
+	MF458892_Aphid_lethal_paralysis_virus
+	MF458893_Aphid_lethal_paralysis_virus
+	MF535297_Aphid_lethal_paralysis_virus
+	MF535298_Rhopalosiphum_padi_virus
+	MF795134_Aphid_lethal_paralysis_virus
+	MF795135_Aphid_lethal_paralysis_virus
+	MF928582_Big_Sioux_River_virus
+	MG571885_Fesa-like_virus
+	MG995701_Bundaberg_bee_virus_1
+	MG995730_Perth_bee_virus_1
+	MH025820_Rhopalosiphum_padi_virus
+	MH188004_Culex_dicistrovirus_1
+	MH188005_Culex_dicistrovirus_2
+	MH213235_Linepithema_humile_picorna-like_virus_1
+	MH267694_Black_queen_cell_virus
+	MH370347_Bat_dicistrovirus
+	MH476200_Aphis_gossypii_virus
+	MH476201_Aphis_gossypii_virus
+	MH476202_Aphis_gossypii_virus
+	MH476203_Aphis_gossypii_virus
+	MH476204_Aphis_gossypii_virus
+	MH477289_Myrmica_scabrinodis_virus_2
+	MH536111_Dicistroviridae_TZ-3
+	MH614301_Gorebridge_virus
+	MH714707_Solenopsis_invicta_virus_6
+	MH714708_Solenopsis_invicta_virus_6
+	MH727526_Solenopsis_invicta_virus_9
+	MK533147_Tetranychus_urticae-associated_dicistrovirus_1
+	MK645245_Drosophila_C_virus
+	MK704471_Aphid_lethal_paralysis_virus
+	MN296284_Wuhan_arthropod_virus_2
+	MN510867_Big_Sioux_River_virus
+	MN510869_Aphid_lethal_paralysis_virus
+	MN535735_Rhopalosiphum_padi_virus
+	MN565053_Vespa_velutina_associated_triato-like_virus
+	MN565058_Vespa_velutina_associated_triato-like_virus
+	MN606293_Violaceae-associated_triatovirus_1
+	MN606294_Rosaceae-associated_triatovirus_1
+	MN723599_Leibnitzia_anandria_dicistrovirus
+	MN734250_Trichosanthes_kirilowii_dicistrovirus
+	MN784058_Wuhan_insect_virus_33
+	MN841302_Lactuca_sativa_dicistroviridae
+	MN905950_Dicistroviridae_sp_
+	MN905951_Dicistroviridae_sp_
+	MN905952_Dicistroviridae_sp_
+	MN905953_Dicistroviridae_sp_
+	MN905954_Dicistroviridae_sp_
+	MN905955_Dicistroviridae_sp_
+	MN905956_Dicistroviridae_sp_
+	MN905958_Dicistroviridae_sp_
+	MN905959_Dicistroviridae_sp_
+	MN905960_Dicistroviridae_sp_
+	MN905961_Dicistroviridae_sp_
+	MN905962_Dicistroviridae_sp_
+	MN905963_Dicistroviridae_sp_
+	MN905964_Dicistroviridae_sp_
+	MN905965_Dicistroviridae_sp_
+	MN905966_Dicistroviridae_sp_
+	MN905967_Dicistroviridae_sp_
+	MN905968_Dicistroviridae_sp_
+	MN905969_Dicistroviridae_sp_
+	MN905972_Dicistroviridae_sp_
+	MN905973_Dicistroviridae_sp_
+	MN905974_Dicistroviridae_sp_
+	MN905975_Dicistroviridae_sp_
+	MN905976_Dicistroviridae_sp_
+	MN905977_Dicistroviridae_sp_
+	MN905978_Dicistroviridae_sp_
+	MN905979_Dicistroviridae_sp_
+	MN905980_Dicistroviridae_sp_
+	MN905981_Dicistroviridae_sp_
+	MN905982_Dicistroviridae_sp_
+	MN905985_Dicistroviridae_sp_
+	MN905987_Dicistroviridae_sp_
+	MN905988_Dicistroviridae_sp_
+	MN905990_Dicistroviridae_sp_
+	MN905991_Dicistroviridae_sp_
+	MN905992_Dicistroviridae_sp_
+	MN905993_Dicistroviridae_sp_
+	MN905994_Dicistroviridae_sp_
+	MN905995_Dicistroviridae_sp_
+	MN905997_Dicistroviridae_sp_
+	MN905998_Dicistroviridae_sp_
+	MN906000_Dicistroviridae_sp_
+	MN906002_Dicistroviridae_sp_
+	MN906004_Dicistroviridae_sp_
+	MN906006_Dicistroviridae_sp_
+	MN906007_Dicistroviridae_sp_
+	MN917664_Dicistroviridae_sp_
+	MN917665_Dicistroviridae_sp_
+	MN917666_Dicistroviridae_sp_
+	MN917667_Dicistroviridae_sp_
+	MN917668_Dicistroviridae_sp_
+	MN917670_Dicistroviridae_sp_
+	MN917671_Dicistroviridae_sp_
+	MN918663_Picornavirales_sp_
+	MN918665_Picornavirales_sp_
+	MN918672_Picornavirales_sp_
+	MN918677_Picornavirales_sp_
+	MN918689_Picornavirales_sp_
+	MN918733_Dicistroviridae_sp_
+	MN918734_Dicistroviridae_sp_
+	MN918735_Dicistroviridae_sp_
+	MN918736_Dicistroviridae_sp_
+	MN918737_Dicistroviridae_sp_
+	MN918738_Dicistroviridae_sp_
+	MN918739_Dicistroviridae_sp_
+	MN918740_Dicistroviridae_sp_
+	MN918741_Dicistroviridae_sp_
+	MN918743_Dicistroviridae_sp_
+	MN918745_Dicistroviridae_sp_
+	MN918748_Dicistroviridae_sp_
+	MN918749_Dicistroviridae_sp_
+	MN918752_Dicistroviridae_sp_
+	MN918754_Dicistroviridae_sp_
+	MN918755_Dicistroviridae_sp_
+	MN918756_Dicistroviridae_sp_
+	MN918757_Dicistroviridae_sp_
+	MN918758_Dicistroviridae_sp_
+	MN918760_Dicistroviridae_sp_
+	MN918761_Dicistroviridae_sp_
+	MN918762_Dicistroviridae_sp_
+	MN918763_Dicistroviridae_sp_
+	MN918764_Dicistroviridae_sp_
+	MN918765_Dicistroviridae_sp_
+	MN918766_Dicistroviridae_sp_
+	MN918767_Dicistroviridae_sp_
+	MN918768_Dicistroviridae_sp_
+	MN918769_Dicistroviridae_sp_
+	MN918770_Dicistroviridae_sp_
+	MN918771_Dicistroviridae_sp_
+	MN918772_Dicistroviridae_sp_
+	MN918773_Dicistroviridae_sp_
+	MN918774_Dicistroviridae_sp_
+	MN918775_Dicistroviridae_sp_
+	MN918776_Dicistroviridae_sp_
+	MN918777_Dicistroviridae_sp_
+	MN918778_Dicistroviridae_sp_
+	MN918779_Dicistroviridae_sp_
+	MN918780_Dicistroviridae_sp_
+	MN933872_Totiviridae_sp_
+	MT096523_Aphid_lethal_paralysis_virus
+	MT108239_Anoplolepis_gracilipes_virus_1
+	MT108240_Anoplolepis_gracilipes_virus_2
+	MT127560_Diversinervus_elegans_virus
+	MT138124_Dicistroviridae_sp_
+	MT138125_Dicistroviridae_sp_
+	MT138126_Dicistroviridae_sp_
+	MT138134_Picornavirales_sp_
+	MT138136_Picornavirales_sp_
+	MT176242_Phenacoccus_solenopsis_virus
+	MT195550_Soybean_thrips_dicistrovirus_1
+	MT240796_Aphid_lethal_paralysis_virus
+	MT240797_Soybean_thrips_picorna-like_virus_1
+	MT240798_Soybean_thrips_picorna-like_virus_3
+	MT240799_Soybean_thrips_picorna-like_virus_4
+	MT336161_Aphid_lethal_paralysis_virus
+	MT603635_Himetobi_P_virus
+	MT636344_Black_queen_cell_virus
+	MT636345_Black_queen_cell_virus
+	MT636346_Black_queen_cell_virus
+	MT747985_Triatovirus_A_2018_ITA
+	MT822187_Serbia_picorna-like_virus_1
+	MW039360_Rhopalosiphum_padi_virus
+	MW039361_Rhopalosiphum_padi_virus
+	MW063131_Aphid_lethal_paralysis_virus
+	MW314612_Linepithema_humile_picorna-like_virus_2
+	MW314667_Linepithema_humile_picorna-like_virus_1
+	MW314668_Linepithema_humile_picorna-like_virus_1
+	MW434105_Wuhan_insect_virus_33
+	MW447648_Aphid_lethal_paralysis_virus
+	MW826502_Dicistroviridae_sp_
+	MW834591_Aphis_glycines_virus
+	MZ209612_Himetobi_P_virus
+	MZ209775_Guiyang_dicistrovirus_3
+	MZ209781_Wuhan_insect_virus_33
+	MZ209806_Guiyang_argiope_bruennichi_dicistrovirus_1
+	MZ209925_Aphid_lethal_paralysis_virus
+	MZ210046_Aphid_lethal_paralysis_virus
+	MZ218059_Rhopalosiphum_padi_virus
+	MZ394716_Dicistroviridae_sp__1
+	MZ398104_Rhopalosiphum_padi_virus
+	MZ443577_Vespula_vulgaris_Picorna-like_virus_2
+	MZ443583_Nelson_Picorna-like_virus_6
+	MZ443584_Nelson_Picorna-like_virus_7
+	MZ443610_Leuven_Picorna-like_virus_7
+	MZ556249_Dicistroviridae_sp_
+	MZ556258_Dicistroviridae_sp_
+	MZ679055_Cripavirus_sp_
+	MZ679057_Cripavirus_sp_
+	MZ679061_Triatovirus_sp_
+	MZ679063_Cripavirus_sp_
+	MZ679067_Cripavirus_sp_
+	MZ679080_Triatovirus_sp_
+	MZ679085_Triatovirus_sp_
+	MZ679088_Cripavirus_sp_
+	MZ679090_Triatovirus_sp_
+	MZ679098_Triatovirus_sp_
+	MZ679102_Cripavirus_sp_
+	MZ679103_Triatovirus_sp_
+	MZ679105_Cripavirus_sp_
+	MZ679112_Triatovirus_sp_
+	MZ956596_Giant_panda_Dicistroviridae
+	NC_001874_Rhopalosiphum_padi_virus
+	NC_003005_Taura_syndrome_virus
+	NC_003782_Himetobi_P_virus
+	NC_003783_Triatoma_virus
+	NC_004365_Aphid_lethal_paralysis_virus
+	NC_008029_Homalodisca_coagulata_virus_1
+	NC_030232_Antarctic_picorna-like_virus_1
+	NC_032186_Hubei_picorna-like_virus_24
+	NC_032407_Beihai_echinoderm_virus_1
+	NC_032441_Beihai_mantis_shrimp_virus_3
+	NC_032446_Beihai_barnacle_virus_4
+	NC_032529_Beihai_picorna-like_virus_75
+	NC_032539_Beihai_picorna-like_virus_100
+	NC_032551_Beihai_picorna-like_virus_77
+	NC_032582_Beihai_picorna-like_virus_80
+	NC_032589_Beihai_picorna-like_virus_101
+	NC_032628_Beihai_picorna-like_virus_99
+	NC_032644_Beihai_picorna-like_virus_87
+	NC_032740_Changjiang_crawfish_virus_5
+	NC_032757_Hubei_picorna-like_virus_15
+	NC_032779_Changjiang_picorna-like_virus_12
+	NC_032837_Wenzhou_picorna-like_virus_27
+	NC_032898_Shahe_picorna-like_virus_10
+	NC_032928_Shahe_picorna-like_virus_11
+	NC_032969_Wenzhou_picorna-like_virus_35
+	NC_032989_Wenzhou_shrimp_virus_4
+	NC_033001_Wenzhou_picorna-like_virus_37
+	NC_033112_Hubei_picorna-like_virus_14
+	NC_033190_Hubei_picorna-like_virus_25
+	NC_033437_Wuhan_arthropod_virus_2
+	NC_033722_Wuhan_insect_virus_33
+	NC_035184_Big_Sioux_River_virus
+	NC_040820_Blackbird_arilivirus
+	OK392075_Planococcus_ficus-associated_dicistrovirus_1
+	OL700045_Aphid_lethal_paralysis_virus
+	OL700175_XiangYun_picorna-like_virus_3
+	OL700203_Aphis_gossypii_virus
+	OL803815_Aphid_lethal_paralysis_virus
+	OL803816_Aphid_lethal_paralysis_virus
+	OL803817_Aphid_lethal_paralysis_virus
+	OM953859_Flumine_dicistrovirus_1
+	OM954101_Flumine_dicistrovirus_16
+	ON162151_Picornaviridae_sp_
+	ON811696_Aphid_lethal_paralysis_virus
+	ON872534_Bat_faecal_associated_dicistrovirus_4
+	ON872536_Bat_faecal_associated_dicistrovirus_3
+	OP264903_Aphis_gossypii_virus
+	OP264913_Big_Sioux_River_virus
+	OP349062_Anagyrus_vladimiri_dicistrovirus
+	OP884010_Army_ant_associated_dicistrovirus_3
+	OP884011_Army_ant_associated_dicistrovirus_3
+	OP884012_Army_ant_associated_dicistrovirus_3
+	OP884016_Army_ant_associated_dicistrovirus_6
+	Unictinger_virus_F1429C4F1429[&!color=#b01d00]
+	Untradvers_virus_F1539C1F1524[&!color=#b01d00]
+	Untradvers_virus_F1539C1F1539[&!color=#b01d00]
+	Wuhan_insect_virus_33_F1452C2F1452[&!color=#b01d00]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (MN905953_Dicistroviridae_sp_:9.33E-4,MN918736_Dicistroviridae_sp_:0.003291,(((MN918776_Dicistroviridae_sp_:8.21E-4,(MN905954_Dicistroviridae_sp_:0.0,MN905950_Dicistroviridae_sp_:0.0,MN905952_Dicistroviridae_sp_:0.0,MN905995_Dicistroviridae_sp_:0.0,MN918760_Dicistroviridae_sp_:0.0,MN918762_Dicistroviridae_sp_:0.0,MN918777_Dicistroviridae_sp_:0.0):0.0)[&label=0.0]:0.0,(((MN905960_Dicistroviridae_sp_:0.001643,MN918772_Dicistroviridae_sp_:0.001646)[&label=0.0]:0.0,(MN918739_Dicistroviridae_sp_:0.0,(MN918748_Dicistroviridae_sp_:0.0,MN918756_Dicistroviridae_sp_:0.001644)[&label=0.838]:8.21E-4)[&label=0.857]:8.21E-4)[&label=0.0]:0.0,((MN918765_Dicistroviridae_sp_:8.21E-4,MN905962_Dicistroviridae_sp_:8.21E-4)[&label=0.0]:0.0,((MN905982_Dicistroviridae_sp_:0.002468,(MN918741_Dicistroviridae_sp_:8.22E-4,MN918764_Dicistroviridae_sp_:0.0)[&label=0.0]:0.0)[&label=0.946]:0.001643,(((MN918769_Dicistroviridae_sp_:0.002465,(MN918738_Dicistroviridae_sp_:0.0,MN918780_Dicistroviridae_sp_:0.0):0.0)[&label=0.915]:8.21E-4,((MN905966_Dicistroviridae_sp_:0.0,(MN918734_Dicistroviridae_sp_:0.0,((KX883929_Aphid_lethal_paralysis_virus:8.24E-4,(KX883977_Aphid_lethal_paralysis_virus:8.21E-4,KR021407_Aphid_lethal_paralysis_virus:0.0)[&label=0.791]:8.22E-4)[&label=0.882]:0.001643,((MF795134_Aphid_lethal_paralysis_virus:0.001643,MN918767_Dicistroviridae_sp_:0.0)[&label=0.924]:8.22E-4,((((((MH188004_Culex_dicistrovirus_1:0.032052,MN510869_Aphid_lethal_paralysis_virus:0.0)[&label=0.992]:0.006607,KX883690_Aphid_lethal_paralysis_virus:0.001643)[&label=0.0]:0.0,((MZ210046_Aphid_lethal_paralysis_virus:8.21E-4,(MN905993_Dicistroviridae_sp_:8.22E-4,MN918745_Dicistroviridae_sp_:0.001645)[&label=0.0]:0.0)[&label=0.911]:8.22E-4,(MN905963_Dicistroviridae_sp_:0.002472,OL700045_Aphid_lethal_paralysis_virus:0.003295)[&label=0.781]:8.18E-4)[&label=0.732]:0.0)[&label=0.0]:0.0,(MF795135_Aphid_lethal_paralysis_virus:8.22E-4,(MF458892_Aphid_lethal_paralysis_virus:0.0,MN905974_Dicistroviridae_sp_:0.0,MW063131_Aphid_lethal_paralysis_virus:0.0):0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,(MZ209925_Aphid_lethal_paralysis_virus:0.001645,(MW447648_Aphid_lethal_paralysis_virus:0.007417,((((JX480861_Aphid_lethal_paralysis_virus:0.003313,(MT096523_Aphid_lethal_paralysis_virus:8.22E-4,MK704471_Aphid_lethal_paralysis_virus:8.23E-4)[&label=0.758]:8.16E-4)[&label=0.8]:8.25E-4,(((LN907586_Aphid_lethal_paralysis_virus:0.0,MF458893_Aphid_lethal_paralysis_virus:0.0):0.0,LN907588_Aphid_lethal_paralysis_virus:8.21E-4)[&label=0.964]:0.004124,NC_004365_Aphid_lethal_paralysis_virus:0.010788)[&label=0.843]:0.001638)[&label=0.745]:6.7E-4,(MT336161_Aphid_lethal_paralysis_virus:0.00496,((JQ320375_Aphid_lethal_paralysis_virus:5.77E-4,MZ679088_Cripavirus_sp_:0.023829)[&label=1.0]:0.015245,(KX884276_Aphid_lethal_paralysis_virus:0.001648,ON811696_Aphid_lethal_paralysis_virus:8.2E-4)[&label=0.843]:8.27E-4)[&label=0.727]:0.0)[&label=0.779]:0.001275)[&label=0.912]:0.002983,(((MZ679063_Cripavirus_sp_:0.147419,((((((NC_032539_Beihai_picorna-like_virus_100:1.218806,NC_032529_Beihai_picorna-like_virus_75:0.903643)[&label=0.998]:0.383597,((MK645245_Drosophila_C_virus:0.931158,(NC_033190_Hubei_picorna-like_virus_25:1.093376,KY286106_Picornavirales_Q_sR_OV_011:0.689654)[&label=0.998]:0.297716)[&label=0.993]:0.216537,((((MF190024_Barns_Ness_breadcrumb_sponge_dicistro-like_virus_1:1.24702,(NC_032837_Wenzhou_picorna-like_virus_27:1.071166,NC_032441_Beihai_mantis_shrimp_virus_3:1.243004)[&label=0.593]:0.172439)[&label=0.6]:0.118793,((MH536111_Dicistroviridae_TZ-3:0.58499,NC_033001_Wenzhou_picorna-like_virus_37:1.445823)[&label=1.0]:0.493012,MK533147_Tetranychus_urticae-associated_dicistrovirus_1:1.129935)[&label=0.985]:0.239787)[&label=0.738]:0.08543,((NC_003005_Taura_syndrome_virus:1.265532,((NC_032989_Wenzhou_shrimp_virus_4:0.965871,MF189971_Caledonia_beadlet_anemone_dicistro-like_virus_1:1.065355)[&label=0.668]:0.166382,NC_032969_Wenzhou_picorna-like_virus_35:1.31881)[&label=0.2]:0.096188)[&label=0.991]:0.173749,(((NC_032582_Beihai_picorna-like_virus_80:1.550453,NC_032644_Beihai_picorna-like_virus_87:1.371321)[&label=0.6]:0.115329,(NC_032407_Beihai_echinoderm_virus_1:1.709004,((NC_040820_Blackbird_arilivirus:1.385308,(NC_032589_Beihai_picorna-like_virus_101:0.979538,NC_032740_Changjiang_crawfish_virus_5:1.003762)[&label=1.0]:0.415177)[&label=0.819]:0.123332,(MG571885_Fesa-like_virus:1.001319,(NC_032628_Beihai_picorna-like_virus_99:1.038027,(KM017736_Fesavirus_1:0.766671,NC_032446_Beihai_barnacle_virus_4:1.0236)[&label=0.984]:0.431955)[&label=0.932]:0.268931)[&label=1.0]:0.771708)[&label=0.874]:0.136955)[&label=0.897]:0.070321)[&label=0.269]:0.074373,((NC_032898_Shahe_picorna-like_virus_10:1.739457,((NC_030232_Antarctic_picorna-like_virus_1:1.065575,MN841302_Lactuca_sativa_dicistroviridae:1.289586)[&label=1.0]:0.38566,(NC_032779_Changjiang_picorna-like_virus_12:1.006205,(MN734250_Trichosanthes_kirilowii_dicistrovirus:1.34205,NC_032928_Shahe_picorna-like_virus_11:0.868811)[&label=0.992]:0.268141)[&label=1.0]:0.490032)[&label=0.239]:0.048362)[&label=0.908]:0.125821,(NC_008029_Homalodisca_coagulata_virus_1:1.074228,((MG995730_Perth_bee_virus_1:1.003446,(MT138126_Dicistroviridae_sp_:0.378337,NC_003783_Triatoma_virus:0.439958)[&label=0.999]:0.235536)[&label=1.0]:0.263089,((((MZ209612_Himetobi_P_virus:0.0,KM270559_Himetobi_P_virus:8.54E-4)[&label=0.812]:0.0,(KC952671_Himetobi_P_virus:0.001708,KF280585_Himetobi_P_virus:0.001714)[&label=0.914]:0.00257)[&label=1.0]:0.47422,((MZ679061_Triatovirus_sp_:0.551908,(MT603635_Himetobi_P_virus:0.163786,(AB183472_Himetobi_P_virus:0.0,NC_003782_Himetobi_P_virus:0.0):0.0)[&label=0.815]:0.29697)[&label=0.968]:0.604333,(ON872536_Bat_faecal_associated_dicistrovirus_3:0.248074,((((MN565058_Vespa_velutina_associated_triato-like_virus:0.0,MN565053_Vespa_velutina_associated_triato-like_virus:0.0)[&label=0.733]:0.0,((MT747985_Triatovirus_A_2018_ITA:0.007922,MT822187_Serbia_picorna-like_virus_1:0.0)[&label=1.0]:0.0,KF170223_Bat_dicistrovirus:0.0)[&label=1.0]:0.0)[&label=1.0]:0.104039,(MZ443577_Vespula_vulgaris_Picorna-like_virus_2:0.041042,(OP884010_Army_ant_associated_dicistrovirus_3:0.005613,(OP884012_Army_ant_associated_dicistrovirus_3:0.005561,OP884011_Army_ant_associated_dicistrovirus_3:0.008299)[&label=0.86]:0.006774)[&label=0.99]:0.035723)[&label=1.0]:0.077404)[&label=1.0]:0.1535,(Untradvers_virus_F1539C1F1524:0.001072,Untradvers_virus_F1539C1F1539:0.003481)[&label=1.0]:0.225929)[&label=0.165]:0.063761)[&label=0.586]:0.054779)[&label=0.997]:0.367569)[&label=1.0]:0.294675,(((MZ679085_Triatovirus_sp_:0.349055,(MH477289_Myrmica_scabrinodis_virus_2:0.166414,(MT240799_Soybean_thrips_picorna-like_virus_4:0.199538,(MT108240_Anoplolepis_gracilipes_virus_2:0.082955,(MZ679098_Triatovirus_sp_:0.014016,MZ556249_Dicistroviridae_sp_:0.018124)[&label=1.0]:0.103599)[&label=1.0]:0.077462)[&label=0.996]:0.077799)[&label=1.0]:0.117383)[&label=1.0]:0.189916,(((MN606294_Rosaceae-associated_triatovirus_1:0.002541,(NC_032186_Hubei_picorna-like_virus_24:0.003399,MN606293_Violaceae-associated_triatovirus_1:0.004238)[&label=0.0]:0.0)[&label=1.0]:0.351942,(MW314612_Linepithema_humile_picorna-like_virus_2:0.055748,(MW314668_Linepithema_humile_picorna-like_virus_1:0.0,(MH213235_Linepithema_humile_picorna-like_virus_1:0.0,MW314667_Linepithema_humile_picorna-like_virus_1:0.001664)[&label=1.0]:0.033322)[&label=1.0]:0.0653)[&label=1.0]:0.382019)[&label=1.0]:0.110924,((((MN918774_Dicistroviridae_sp_:0.15638,(((MN905990_Dicistroviridae_sp_:0.001666,((MN917665_Dicistroviridae_sp_:8.7E-4,(MN918740_Dicistroviridae_sp_:8.34E-4,(MT138124_Dicistroviridae_sp_:8.34E-4,MN905975_Dicistroviridae_sp_:0.0)[&label=0.0]:0.0)[&label=0.796]:0.0)[&label=0.873]:0.001667,(MN917664_Dicistroviridae_sp_:0.001666,(MN905964_Dicistroviridae_sp_:8.34E-4,MN905985_Dicistroviridae_sp_:0.0)[&label=0.766]:8.34E-4)[&label=0.757]:8.32E-4)[&label=0.423]:8.34E-4)[&label=0.741]:0.0,(MT138125_Dicistroviridae_sp_:0.0,(MN917668_Dicistroviridae_sp_:0.0,MN905980_Dicistroviridae_sp_:8.33E-4)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.842]:0.001151,MN917671_Dicistroviridae_sp_:0.0)[&label=1.0]:0.114468)[&label=1.0]:0.200635,((((MN296284_Wuhan_arthropod_virus_2:0.202169,(MZ443584_Nelson_Picorna-like_virus_7:0.049189,MZ443583_Nelson_Picorna-like_virus_6:0.044235)[&label=1.0]:0.160511)[&label=1.0]:0.088908,(MZ394716_Dicistroviridae_sp__1:0.253974,NC_033437_Wuhan_arthropod_virus_2:0.163502)[&label=0.999]:0.117469)[&label=1.0]:0.182703,(MZ679112_Triatovirus_sp_:0.122945,MH727526_Solenopsis_invicta_virus_9:0.093724)[&label=1.0]:0.165606)[&label=0.259]:0.063047,MT108239_Anoplolepis_gracilipes_virus_1:0.346498)[&label=0.999]:0.102884)[&label=0.967]:0.055749,(((MH370347_Bat_dicistrovirus:0.396957,MN905987_Dicistroviridae_sp_:0.329144)[&label=1.0]:0.158156,(((MN905956_Dicistroviridae_sp_:0.020315,MW826502_Dicistroviridae_sp_:0.00938)[&label=1.0]:0.422096,(MZ556258_Dicistroviridae_sp_:0.001355,MZ679080_Triatovirus_sp_:0.014145)[&label=1.0]:0.230698)[&label=0.916]:0.056457,(((MZ679103_Triatovirus_sp_:0.00385,(MN917670_Dicistroviridae_sp_:0.002556,(MN905973_Dicistroviridae_sp_:0.002495,MN917666_Dicistroviridae_sp_:0.001712)[&label=0.286]:8.3E-4)[&label=0.846]:0.003728)[&label=1.0]:0.279438,(MZ209775_Guiyang_dicistrovirus_3:0.261174,MZ209806_Guiyang_argiope_bruennichi_dicistrovirus_1:0.255917)[&label=1.0]:0.095828)[&label=1.0]:0.114304,(MZ679090_Triatovirus_sp_:0.291879,OP884016_Army_ant_associated_dicistrovirus_6:0.388682)[&label=0.945]:0.0569)[&label=0.354]:0.032394)[&label=0.951]:0.046484)[&label=0.835]:0.046639,MN905969_Dicistroviridae_sp_:0.449956)[&label=0.851]:0.034596)[&label=0.988]:0.070203,(KX644942_Bat_cripavirus:0.244863,(MT240798_Soybean_thrips_picorna-like_virus_3:0.032275,((MN918763_Dicistroviridae_sp_:8.38E-4,((MN905981_Dicistroviridae_sp_:0.0,MN905979_Dicistroviridae_sp_:0.0,MN918755_Dicistroviridae_sp_:0.0):8.31E-4,MN918773_Dicistroviridae_sp_:8.31E-4)[&label=0.799]:0.0)[&label=0.796]:0.002946,(MN917667_Dicistroviridae_sp_:0.0,(MN918758_Dicistroviridae_sp_:8.28E-4,MN918770_Dicistroviridae_sp_:0.002487)[&label=0.918]:0.001662)[&label=0.974]:0.007087)[&label=0.994]:0.034975)[&label=1.0]:0.151135)[&label=1.0]:0.152616)[&label=0.997]:0.096834)[&label=0.973]:0.071581)[&label=1.0]:0.18762,((KY465682_Black_queen_cell_virus:0.0,(((KY465688_Black_queen_cell_virus:0.0,KY465686_Black_queen_cell_virus:0.0)[&label=0.833]:0.001563,(((KY465685_Black_queen_cell_virus:0.0,(MT636346_Black_queen_cell_virus:8.3E-4,(MT636344_Black_queen_cell_virus:0.003342,(MT636345_Black_queen_cell_virus:0.0,MH267694_Black_queen_cell_virus:0.0)[&label=0.0]:0.0)[&label=0.476]:8.42E-4)[&label=1.0]:0.023488)[&label=0.415]:0.001932,KY465684_Black_queen_cell_virus:0.0)[&label=0.802]:0.0013,KY465683_Black_queen_cell_virus:0.002509)[&label=0.421]:9.67E-4)[&label=0.024]:0.0013,KY465687_Black_queen_cell_virus:0.0)[&label=0.612]:0.0)[&label=1.0]:0.635418,(MT240797_Soybean_thrips_picorna-like_virus_1:0.237601,(OP349062_Anagyrus_vladimiri_dicistrovirus:0.242298,MT127560_Diversinervus_elegans_virus:0.216215)[&label=1.0]:0.168151)[&label=1.0]:0.617325)[&label=0.999]:0.261281)[&label=0.994]:0.127449)[&label=0.979]:0.095547)[&label=1.0]:0.172535)[&label=1.0]:0.220266)[&label=0.978]:0.075801)[&label=0.935]:0.078337)[&label=0.174]:0.037218)[&label=0.242]:0.060685,((NC_032551_Beihai_picorna-like_virus_77:1.188388,MN918775_Dicistroviridae_sp_:1.104197)[&label=0.993]:0.314955,(KY503023_Dicistroviridae_sp_:1.076274,KX580886_Griffin_dicistrovirus:0.813405)[&label=1.0]:0.643526)[&label=0.945]:0.157726)[&label=0.912]:0.066652)[&label=0.237]:0.044807)[&label=0.457]:0.054273,(KY286107_Picornavirales_Q_sR_OV_025:1.273474,MF189974_Caledonia_beadlet_anemone_dicistro-like_virus_3:1.099587)[&label=0.981]:0.208054)[&label=1.0]:0.463836,(((MT176242_Phenacoccus_solenopsis_virus:0.068998,(MN723599_Leibnitzia_anandria_dicistrovirus:0.051057,(OL700175_XiangYun_picorna-like_virus_3:0.029001,OK392075_Planococcus_ficus-associated_dicistrovirus_1:0.057135)[&label=0.976]:0.023592)[&label=0.952]:0.032534)[&label=1.0]:0.428053,(LC552045_Sacri_virus:0.080647,MZ443610_Leuven_Picorna-like_virus_7:0.092927)[&label=1.0]:0.384656)[&label=0.992]:0.139864,((Unictinger_virus_F1429C4F1429:0.147221,(MG995701_Bundaberg_bee_virus_1:0.036536,(ON162151_Picornaviridae_sp_:0.060005,ON872534_Bat_faecal_associated_dicistrovirus_4:0.044042)[&label=0.694]:0.014851)[&label=1.0]:0.138938)[&label=1.0]:0.595792,((Furrupy_virus_F1429C9F1002:0.00335,Furrupy_virus_F1429C9F1429:0.003412)[&label=1.0]:0.175525,((MZ679105_Cripavirus_sp_:0.070148,(MH714707_Solenopsis_invicta_virus_6:0.001847,MH714708_Solenopsis_invicta_virus_6:0.004266)[&label=1.0]:0.095357)[&label=0.998]:0.047242,(Freiandnes_virus_F1429C5F1429:0.078749,(OM954101_Flumine_dicistrovirus_16:0.028087,OM953859_Flumine_dicistrovirus_1:0.013209)[&label=1.0]:0.096582)[&label=0.728]:0.031385)[&label=0.998]:0.106898)[&label=1.0]:0.413495)[&label=0.075]:0.078676)[&label=1.0]:0.344414)[&label=1.0]:0.238864,((MZ679057_Cripavirus_sp_:0.188829,((((OL700203_Aphis_gossypii_virus:0.020171,((((MF928582_Big_Sioux_River_virus:0.005104,(KY933257_Big_Sioux_River_virus:8.24E-4,((KY933251_Big_Sioux_River_virus:0.0,KY933252_Big_Sioux_River_virus:0.0,KY933254_Big_Sioux_River_virus:0.0,KY933259_Big_Sioux_River_virus:0.0):0.0,(KY933255_Big_Sioux_River_virus:8.24E-4,(KY933256_Big_Sioux_River_virus:8.25E-4,NC_035184_Big_Sioux_River_virus:8.24E-4)[&label=0.0]:0.0)[&label=1.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.136]:9.2E-5,KY933250_Big_Sioux_River_virus:0.001559)[&label=0.981]:0.011732,(OP264903_Aphis_gossypii_virus:0.004267,(MZ398104_Rhopalosiphum_padi_virus:0.0,MN933872_Totiviridae_sp_:0.097049)[&label=1.0]:0.795113)[&label=0.925]:0.025588)[&label=0.41]:0.004347,(((MH476204_Aphis_gossypii_virus:0.001646,MH476201_Aphis_gossypii_virus:0.001646)[&label=0.0]:0.0,((MH476202_Aphis_gossypii_virus:0.0,MH476203_Aphis_gossypii_virus:0.001645)[&label=0.74]:0.0,OP264913_Big_Sioux_River_virus:0.021524)[&label=0.015]:8.23E-4)[&label=0.761]:8.22E-4,(MH476200_Aphis_gossypii_virus:0.002451,MN510867_Big_Sioux_River_virus:0.010763)[&label=0.663]:8.62E-4)[&label=0.75]:0.001394)[&label=0.662]:0.005741)[&label=0.996]:0.018093,(MN784058_Wuhan_insect_virus_33[&!color=#b02000]:0.013354,(MZ209781_Wuhan_insect_virus_33[&!color=#b02000]:0.019464,(MW834591_Aphis_glycines_virus[&!color=#b02000]:0.004995,((NC_033722_Wuhan_insect_virus_33[&!color=#b02000]:0.0,(MW434105_Wuhan_insect_virus_33[&!color=#b02000]:0.004963,KX884304_Wuhan_insect_virus_33[&!color=#b02000]:0.003312)[&label=0.882,!color=#b02000]:0.001647)[&label=0.0,!color=#b02000]:0.0,Wuhan_insect_virus_33_F1452C2F1452[&!color=#b02000]:0.002474)[&label=0.913,!color=#b02000]:0.00263)[&label=0.868,!color=#b02000]:0.003727)[&label=0.98,!color=#b02000]:0.008343)[&label=0.632,!color=#b02000]:0.004508)[&label=0.829]:0.017679,JF423195_Big_Sioux_River_virus:0.013481)[&label=0.936]:0.032379,(KX610810_Rhopalosiphum_padi_virus:0.017096,(((MH188005_Culex_dicistrovirus_2:0.030642,NC_001874_Rhopalosiphum_padi_virus:8.38E-4)[&label=0.799]:8.07E-4,EU282007_Rhopalosiphum_padi_virus:8.22E-4)[&label=0.641]:5.85E-4,((MW039360_Rhopalosiphum_padi_virus:0.006944,MW039361_Rhopalosiphum_padi_virus:0.124991)[&label=0.974]:0.018196,(((MN906007_Dicistroviridae_sp_:8.2E-4,((MN905992_Dicistroviridae_sp_:0.0,MN905951_Dicistroviridae_sp_:0.0,MN905959_Dicistroviridae_sp_:0.0,MN905976_Dicistroviridae_sp_:0.0,MN906002_Dicistroviridae_sp_:0.0,MN918733_Dicistroviridae_sp_:0.0,MN918754_Dicistroviridae_sp_:0.0,MN918778_Dicistroviridae_sp_:0.0,MN918779_Dicistroviridae_sp_:0.0):0.0,MN918735_Dicistroviridae_sp_:8.2E-4)[&label=0.0]:0.0)[&label=0.849]:8.2E-4,((MN905998_Dicistroviridae_sp_:0.0,MN918757_Dicistroviridae_sp_:0.0):0.0,(MN906004_Dicistroviridae_sp_:0.026377,(((MN905978_Dicistroviridae_sp_:8.21E-4,(MN918743_Dicistroviridae_sp_:8.2E-4,(MN905967_Dicistroviridae_sp_:0.0,(MN918766_Dicistroviridae_sp_:0.001642,(MN905965_Dicistroviridae_sp_:0.001642,(MN918752_Dicistroviridae_sp_:0.0,MN906000_Dicistroviridae_sp_:0.0,MN918737_Dicistroviridae_sp_:0.0):0.0)[&label=0.0]:0.0)[&label=0.898]:8.21E-4)[&label=0.869]:8.2E-4)[&label=0.0]:0.0)[&label=0.0]:0.0,(MN905968_Dicistroviridae_sp_:0.0,MN905961_Dicistroviridae_sp_:0.001643)[&label=0.844]:8.2E-4)[&label=0.0]:0.0,(MN905977_Dicistroviridae_sp_:0.0,((MN905958_Dicistroviridae_sp_:0.0,MN905997_Dicistroviridae_sp_:0.0):4.26E-4,MN905994_Dicistroviridae_sp_:0.042038)[&label=0.762]:0.001216)[&label=0.0]:0.0)[&label=0.744]:0.0)[&label=0.901]:8.2E-4)[&label=0.0]:0.0)[&label=0.872]:0.001679,(MH025820_Rhopalosiphum_padi_virus:0.001846,(MN535735_Rhopalosiphum_padi_virus:0.0,(MF535298_Rhopalosiphum_padi_virus:0.0,MZ218059_Rhopalosiphum_padi_virus:0.001641)[&label=0.856]:8.21E-4)[&label=0.887]:0.001968)[&label=0.938]:0.002931)[&label=0.322]:7.98E-4)[&label=0.804]:0.001931)[&label=1.0]:0.093083)[&label=0.999]:0.062013)[&label=1.0]:0.130364)[&label=1.0]:0.28554,((MT195550_Soybean_thrips_dicistrovirus_1:0.210085,NC_033112_Hubei_picorna-like_virus_14:0.153133)[&label=1.0]:0.341862,(MZ956596_Giant_panda_Dicistroviridae:0.15375,(MT138134_Picornavirales_sp_:0.137188,((MN918663_Picornavirales_sp_:0.0,MN905972_Dicistroviridae_sp_:0.0):0.00157,MN918672_Picornavirales_sp_:0.105896)[&label=1.0]:0.132104)[&label=1.0]:0.107906)[&label=1.0]:0.174011)[&label=0.982]:0.08834)[&label=1.0]:0.168072)[&label=1.0]:0.317166,(((MN918677_Picornavirales_sp_:0.001571,(MN918665_Picornavirales_sp_:8.08E-4,MZ679102_Cripavirus_sp_:8.07E-4)[&label=0.749]:8.51E-4)[&label=0.998]:0.031911,(MT138136_Picornavirales_sp_:0.016021,(MN918689_Picornavirales_sp_:0.010121,(MH614301_Gorebridge_virus:0.005027,(NC_032757_Hubei_picorna-like_virus_15:0.008589,KX883941_Hubei_picorna-like_virus_15:0.00788)[&label=0.991]:0.010722)[&label=0.767]:0.001263)[&label=0.812]:0.003709)[&label=0.998]:0.034756)[&label=1.0]:0.126515,(MZ679067_Cripavirus_sp_:0.083158,MZ679055_Cripavirus_sp_:0.07225)[&label=1.0]:0.077108)[&label=1.0]:0.182087)[&label=0.999]:0.098702)[&label=1.0]:0.166179,(OL803815_Aphid_lethal_paralysis_virus:0.001677,(OL803816_Aphid_lethal_paralysis_virus:8.22E-4,OL803817_Aphid_lethal_paralysis_virus:0.0)[&label=0.768]:7.92E-4)[&label=0.987]:0.021355)[&label=0.995]:0.025198,(((JX045858_Aphid_lethal_paralysis_virus:0.001634,(MF535297_Aphid_lethal_paralysis_virus:0.004911,MT240796_Aphid_lethal_paralysis_virus:8.23E-4)[&label=0.756]:8.09E-4)[&label=0.505]:0.0,(HQ871932_Aphid_lethal_paralysis_virus:0.003873,KJ817182_Aphid_lethal_paralysis_virus:0.005717)[&label=0.046]:0.0)[&label=1.0]:0.036287,KX610809_Aphid_lethal_paralysis_virus:0.008371)[&label=0.873]:0.008563)[&label=0.876]:0.003384)[&label=0.891]:0.002498)[&label=0.865]:0.001653)[&label=0.873]:0.001644)[&label=0.437]:8.22E-4,KX830963_Aphid_lethal_paralysis_virus:0.010721)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.849]:8.21E-4)[&label=0.966]:0.002463)[&label=0.845]:8.22E-4,MN918761_Dicistroviridae_sp_:0.0)[&label=0.0]:0.0)[&label=0.914]:8.21E-4,(MN918768_Dicistroviridae_sp_:0.0,MN918771_Dicistroviridae_sp_:0.0):0.0)[&label=0.0]:0.0)[&label=0.833]:8.21E-4)[&label=0.0]:0.0)[&label=1.0]:0.0)[&label=0.0]:0.0,((MN905988_Dicistroviridae_sp_:0.00252,(MN905991_Dicistroviridae_sp_:0.0,MN918749_Dicistroviridae_sp_:8.21E-4)[&label=0.913]:8.21E-4)[&label=0.0]:0.0,(MN905955_Dicistroviridae_sp_:0.005149,MN906006_Dicistroviridae_sp_:0.001195)[&label=0.597]:4.48E-4)[&label=0.0]:0.0)[&label=0.734]:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=212;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=2;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

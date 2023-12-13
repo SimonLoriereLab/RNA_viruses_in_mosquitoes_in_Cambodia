@@ -1,0 +1,74 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'OL700087_Wuhan_Mosquito_Virus_4'
+[2] 'KM817623_Wuhan_Mosquito_Virus_4'
+[3] 'OL700088_Wuhan_Mosquito_Virus_4'
+[4] 'MW520421_Culex_modestus_orthomyxo-like_virus'
+[5] 'MN513372_Culex_orthomyxo-like_virus'
+[6] 'MK440637_Wuhan_Mosquito_Virus_4'
+[7] 'Pageromars_virus_F1413C102F1245'
+[8] 'Pageromars_virus_F1413C102F1413'
+[9] 'MW317143_Orthomyxoviridae_sp.'
+[10] 'MN053836_Guadeloupe_mosquito_quaranja-like_virus_3'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=49;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 3,
+	28	 1 3,
+	100	 2,
+	95	 1 2 3,
+	100	 6,
+	76	 1 2 3 6,
+	100	 4,
+	100	 5,
+	64	 4 5,
+	88	 7 8 9 10,
+	100	 7,
+	100	 9,
+	46	 7 9,
+	100	 8,
+	97	 7 8 9,
+	100	 10,
+	24	 2 3,
+	2	 4 5 10,
+	12	 1 2 3 4 6,
+	10	 8 9,
+	23	 4 5 6,
+	47	 1 2,
+	41	 7 8,
+	18	 1 2 3 5 6,
+	2	 4 7 8 9,
+	2	 1 3 4 5 6,
+	3	 8 10,
+	0	 2 10,
+	2	 7 8 10,
+	1	 1 2 3 10,
+	1	 3 4 5 6,
+	6	 5 7 8 9,
+	4	 1 2 3 6 10,
+	0	 1 4 5 6,
+	1	 1 2 4 5 6,
+	2	 4 10,
+	0	 4 5 6 10,
+	1	 2 4 5 6,
+	0	 6 7 8 9,
+	1	 5 10,
+	0	 8 9 10,
+	0	 7 10,
+	0	 6 10,
+	0	 1 2 6,
+	0	 3 10,
+	0	 4 6,
+	0	 2 3 10,
+	0	 1 2 3 4 5,
+;
+END; [Splits]
+

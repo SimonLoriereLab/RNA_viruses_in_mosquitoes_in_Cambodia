@@ -1,0 +1,66 @@
+Snakefile: Snakefile_v326
+outdir: /full_path_to/wd
+data: data_folder_in_wd
+
+
+default_cpus: 23
+### this is proportional to what's available on the node with 94 CPUs and slightly over 0.5 Tb of memory
+default_mem: 125000
+partition: common
+qos: normal
+diamond-top: 5
+diamond-f: 6
+metaSPAdes-kmers: "21,33,55"
+
+
+readtype: "paired"
+assembling: "yes"
+assembler: "metaSPAdes"
+redundant_scaffold_removal: "no"
+run-diamond: "no"
+sum-diamond: "no"
+diamond-blocksize: 2.0
+diamond-indexchunk: 1.0
+
+##Definition of input, output files
+input_trimmed_single: "data_folder_in_wd/{sample}.fastq.gz"
+input_trimmed_paired: ["data_folder_in_wd/{sample}_R1.fastq.gz","data_folder_in_wd/{sample}_R2.fastq.gz"]
+output_trimmed_single: "auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}.qual.fastq.gz"
+output_trimmed_paired: ["auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}_R1.qual.fastq.gz",
+"auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}_R1.unpair.fastq.gz",
+"auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}_R2.qual.fastq.gz",
+"auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}_R2.unpair.fastq.gz",
+"auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}_R12.unpair.fastq.gz"]
+
+
+bis_input_metaspades: ["auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}bis_R1.qual.fastq.gz",
+"auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}bis_R2.qual.fastq.gz",
+"auto_metaviromics/analyzed_samples/{sample}/Trimmed/{sample}bis_R12.unpair.fastq.gz"]
+
+
+
+output_megahit: "auto_metaviromics/analyzed_samples/{sample}/Megahit/Megahit_output_{sample}/final.contigs.fasta"
+output_metaSPAdes: "auto_metaviromics/analyzed_samples/{sample}/metaSPAdes/metaSPAdes_output_{sample}/contigs.fasta"
+output_cluster_genomes: "auto_metaviromics/analyzed_samples/{sample}/metaSPAdes/metaSPAdes_output_{sample}/contigs_95-80.fna"
+output_run_diamond: "auto_metaviromics/analyzed_samples/{sample}/DIAMOND/diamond.hits.{sample}.taxid.tsv"
+#renamed these outputs
+output_sum_diamond: ["auto_metaviromics/analyzed_samples/{sample}/DIAMOND/f6.diamond.hits.{sample}.taxid.tsv.gz",
+"auto_metaviromics/analyzed_samples/{sample}/DIAMOND/lineage_collapsed.diamond.hits.{sample}.taxid.tsv.gz",
+"auto_metaviromics/analyzed_samples/{sample}/DIAMOND/lineage_complete.diamond.hits.{sample}.taxid.tsv.gz"]
+
+log_megahit: "auto_metaviromics/analyzed_samples/{sample}/Megahit/Megahit_output_{sample}"
+log_metaSPAdes: "auto_metaviromics/analyzed_samples/{sample}/metaSPAdes/metaSPAdes.log"
+dir_trimmed: "auto_metaviromics/analyzed_samples/{sample}/Trimmed"
+dir_megahit_single: "auto_metaviromics/analyzed_samples/{sample}/Megahit"
+dir_megahit_paired: "auto_metaviromics/analyzed_samples/{sample}/Megahit/Megahit_output_{sample}"
+dir_metaSPAdes: "auto_metaviromics/analyzed_samples/{sample}/metaSPAdes/metaSPAdes_output_{sample}"
+dir_sum_diamond:  "auto_metaviromics/analyzed_samples/{sample}/DIAMOND/"
+dir_run_diamond: "auto_metaviromics/analyzed_samples/{sample}/DIAMOND"
+
+## DBs
+diamond-db: "/full_path_to/nrprot_tax_20210717.dmnd"
+lineage: "/full_path_to/ncbi_lineages_2021-07-23.csv"
+
+## Scripts
+cluster-genomes-script: "/full_path_to/stampede-clustergenomes/bin/Cluster_genomes.pl"
+sum_diamond_script: "auto_metaviromics/pipeline/Lineage_v1.2.3.R"

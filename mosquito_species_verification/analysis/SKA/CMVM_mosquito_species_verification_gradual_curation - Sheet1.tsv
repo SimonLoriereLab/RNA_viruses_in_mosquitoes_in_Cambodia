@@ -1,0 +1,580 @@
+sample_id	morph_mosq_sp	SKA_SNP_dist_dend	verif_mosq_sp	comment	cluster_on_SKA_plot
+F1360	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1363	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1368	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1362	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1366	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1356	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1358	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1369	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1018	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1359	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1361	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1365	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1370	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1364	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1367	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1357	Anopheles peditaeniatus	correct	Anopheles peditaeniatus	_	cluster1
+F1502	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1538	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1236	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1547	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1540	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1542	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1237	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1229	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1232	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1231	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1235	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1549	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1390	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1388	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1398	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1548	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1541	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1395	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1545	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1399	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1387	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1552	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1393	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1396	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1543	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1226	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1551	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1225	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1539	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1550	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1392	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1546	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1023	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1389	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1386	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1230	Coquillettidia crassipes	correct	Coquillettidia crassipes	_	cluster2
+F1247	Culex brevipalpis	mixed custer, internally divergent	Culicidae sp Coquillettidia crassipes or Culex brevipalpis	_	cluster3
+F1228	Coquillettidia crassipes	mixed custer, internally divergent	Culicidae sp Coquillettidia crassipes or Culex brevipalpis	_	cluster3
+F1246	Culex brevipalpis	mixed custer, internally divergent	Culicidae sp Coquillettidia crassipes or Culex brevipalpis	_	cluster3
+F1227	Coquillettidia crassipes	mixed custer, internally divergent	Culicidae sp Coquillettidia crassipes or Culex brevipalpis	_	cluster3
+F1415	Culex brevipalpis	mixed custer, internally divergent	Culicidae sp Aedes caecus or Culex brevipalpis or Culex quinquefasciatus or Culex vishnui.g	_	cluster4
+F1287	Culex quinquefasciatus	mixed custer, internally divergent	Culicidae sp Aedes caecus or Culex brevipalpis or Culex quinquefasciatus or Culex vishnui.g	_	cluster4
+F1183	Aedes caecus	mixed custer, internally divergent	Culicidae sp Aedes caecus or Culex brevipalpis or Culex quinquefasciatus or Culex vishnui.g	_	cluster4
+F1050	Culex vishnui.g	mixed custer, internally divergent	Culicidae sp Aedes caecus or Culex brevipalpis or Culex quinquefasciatus or Culex vishnui.g	_	cluster4
+F1285	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1253	Culex cinctellus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1254	Culex cinctellus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1249	Culex cinctellus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1278	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1277	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1568	Culex quinquefasciatus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1282	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1284	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1280	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1275	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1276	Culex infantulus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	F1276 closely related to F1256, a bit more distant from the rest of the cluster	cluster5
+F1256	Culex cinctellus	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	F1276 closely related to F1256, a bit more distant from the rest of the cluster	cluster5
+F1416	Culex brevipalpis	mixed custer, internally divergent	Culex sp brevipalpis or cinctellus or infantulus or quinquefasciatus	_	cluster5
+F1299	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1294	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1563	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1565	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1566	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1296	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1567	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1298	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1292	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1564	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1039	Culex nigropunctatus	correct	Culex nigropunctatus	_	cluster6
+F1290	Culex nigropunctatus	correct	Culex nigropunctatus	very clean cluster	cluster6
+F1042	Culex quinquefasciatus	mixed, only 2 samples	Culex sp quinquefasciatus or sinensis	close to another sample (sinensis), cannot assign to any cluster	cluster7
+F1305	Culex sinensis	mixed, only 2 samples	Culex sp quinquefasciatus or sinensis	_	cluster7
+F1107	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1258	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1267	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1109	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1110	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1561	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1259	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1560	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1562	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1028	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1102	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1559	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1106	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1105	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1111	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1103	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1262	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1104	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1108	Culex gelidus	correct	Culex gelidus	_	cluster8
+F1043	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1044	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1037	Culex gelidus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1035	Culex gelidus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1046	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1047	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1451	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1449	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1143	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1130	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1127	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1045	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1152	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1151	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1147	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1156	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1141	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1129	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1146	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1134	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1139	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1140	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1315	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1148	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1149	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1054	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1450	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1453	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1324	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1466	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1609	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1605	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1312	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1455	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1588	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1610	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1317	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1613	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1326	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1132	Culex tritaeniorhynchus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1142	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1144	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1150	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1462	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1057	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1055	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	_	cluster9
+F1252	Culex cinctellus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or tritaeniorhynchus or vishnui.g	cluster dominated by vishnui	cluster9
+F1238	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1414	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1558	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1239	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1403	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1024	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1404	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1240	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1244	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1413	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1557	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1243	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1242	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1412	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1554	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1245	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1556	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1553	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1408	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1241	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1402	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1401	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1410	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1400	Culex bitaeniorhynchus	correct	Culex bitaeniorhynchus	_	cluster10
+F1435	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1460	Culex vishnui.g	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1443	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1584	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1497	Mansonia uniformis	misannotated, mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1446	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1405	Culex bitaeniorhynchus	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1407	Culex bitaeniorhynchus	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1409	Culex bitaeniorhynchus	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1441	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1452	Culex vishnui.g	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1445	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1406	Culex bitaeniorhynchus	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1439	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1437	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1436	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1434	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1440	Culex sinensis	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1456	Culex vishnui.g	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1454	Culex vishnui.g	mixed cluster	Culex sp bitaeniorhynchus or sinensis or vishnui.g	_	cluster11
+F1590	Culex sinensis	internally divergent	Culex sinensis	_	cluster12
+F1586	Culex sinensis	internally divergent	Culex sinensis	_	cluster12
+F1447	Culex sinensis	internally divergent	Culex sinensis	_	cluster12
+F1583	Culex sinensis	internally divergent	Culex sinensis	_	cluster12
+F1444	Culex sinensis	internally divergent	Culex sinensis	_	cluster12
+F1032	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1025	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1026	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1309	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1260	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1030	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1313	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1036	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1029	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1031	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1034	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1038	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1033	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1056	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1263	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1270	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1272	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1327	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1304	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1027	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1310	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1266	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1265	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1585	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1268	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1307	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1306	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1316	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1264	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1271	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1269	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster13
+F1332	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1261	Culex gelidus	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1457	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1600	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1052	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1051	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1048	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1049	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1608	Culex vishnui.g	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1597	Culex sinensis	mixed cluster	Culex sp gelidus or sinensis or vishnui.g	_	cluster14
+F1611	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1320	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1599	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1308	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1461	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1333	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1322	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1602	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1325	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1595	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1594	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1592	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1604	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1606	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1331	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1612	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1589	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1318	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1319	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1323	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1607	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1311	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1596	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1601	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1418	Culex gelidus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1603	Culex vishnui.g	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1591	Culex sinensis	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1646	Culex cinctellus	mixed cluster	Culex sp cinctellus or gelidus or sinensis or vishnui.g	_	cluster15
+F1569	Culex quinquefasciatus	mixed, only 2 samples	Culex sp cinctellus or quinquefasciatus	_	cluster16
+F1257	Culex cinctellus	mixed, only 2 samples	Culex sp cinctellus or quinquefasciatus	_	cluster16
+F1120	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1426	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1121	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1573	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1119	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1126	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1116	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1125	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1113	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1115	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1420	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1419	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1431	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1428	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1433	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1432	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1118	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1580	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1578	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1579	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1581	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1427	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1041	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1112	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1577	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1423	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1572	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1422	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1123	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1117	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1122	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1425	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1576	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1582	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1571	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1575	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1570	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1430	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1124	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1429	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1574	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1424	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1114	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1040	Culex quinquefasciatus	correct	Culex quinquefasciatus	_	cluster17
+F1616	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1619	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1617	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1486	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1622	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1618	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1628	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1627	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1621	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1482	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1477	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1476	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1626	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1484	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1472	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1480	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1620	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1483	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1479	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1481	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1630	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1478	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1473	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1474	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1625	Mansonia indiana	correct	Mansonia indiana	_	cluster18
+F1614	Mansonia annulifera	correct	Mansonia annulifera	_	cluster19
+F1470	Mansonia annulifera	correct	Mansonia annulifera	_	cluster19
+F1468	Mansonia annulifera	correct	Mansonia annulifera	_	cluster19
+F1471	Mansonia annulifera	correct	Mansonia annulifera	_	cluster19
+F1615	Mansonia annulifera	correct	Mansonia annulifera	_	cluster19
+F1469	Mansonia annulifera	correct	Mansonia annulifera	_	cluster19
+F1467	Mansonia annulifera	correct	Mansonia annulifera	_	cluster19
+F1631	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1633	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1632	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1641	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1489	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1488	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1643	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1498	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1640	Mansonia uniformis	correct	Mansonia uniformis	_	cluster20
+F1623	Mansonia indiana	misannotated	Mansonia uniformis	Possibly misannotated uniformis, because:  1) it clusters with uniformis on SKA; 2) it was quite poorly sequenced (few reads, P2M platform); 3) it has the same phasivirus virus as the uniformis F1632. For further conclusiveness, COI and COII should provide some info.	cluster20
+F1334	Mansonia annulifera	mixed cluster, internally divergent	Culicidae sp Armigeres subalbatus or Culex cinctellus or Mansonia annulifera	_	cluster21
+F1216	Armigeres subalbatus	mixed cluster, internally divergent	Culicidae sp Armigeres subalbatus or Culex cinctellus or Mansonia annulifera	_	cluster21
+F1217	Armigeres subalbatus	mixed cluster, internally divergent	Culicidae sp Armigeres subalbatus or Culex cinctellus or Mansonia annulifera	_	cluster21
+F1250	Culex cinctellus	mixed cluster, internally divergent	Culicidae sp Armigeres subalbatus or Culex cinctellus or Mansonia annulifera	_	cluster21
+F1384	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1378	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1375	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1527	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1089	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1534	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1523	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1223	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1092	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1022	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1213	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1094	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1095	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1097	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1215	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1019	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1224	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1385	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1374	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1377	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1382	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1381	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1380	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1221	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1379	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1090	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1091	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1087	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1099	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1211	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1219	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1220	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1096	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1212	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1222	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1098	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1100	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1383	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1529	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1093	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1533	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1528	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1537	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1536	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1530	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1526	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1531	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1532	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1525	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1371	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1372	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1373	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1088	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1021	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1210	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1535	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1020	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1524	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1101	Armigeres subalbatus	correct, internally divergent	Armigeres subalbatus	_	cluster22
+F1209	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1206	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1202	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1201	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1205	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1207	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1200	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1203	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1204	Aedes thailandensis	correct	Aedes thailandensis	_	cluster23
+F1182	Aedes caecus	misannotated	Aedes thailandensis	_	cluster23
+F1177	Aedes caecus	correct	Aedes caecus	_	cluster24
+F1172	Aedes caecus	correct	Aedes caecus	_	cluster24
+F1187	Aedes caecus	correct	Aedes caecus	_	cluster24
+F1186	Aedes caecus	correct	Aedes caecus	_	cluster24
+F1185	Aedes caecus	correct	Aedes caecus	_	cluster24
+F1598	Culex tritaeniorhynchus	mixed cluster, internally divergent	Culicidae sp Aedes caecus or Culex bitaeniorhynchus or Culex tritaeniorhynchus or Culex vishnui.g or Mansonia uniformis	_	cluster25
+F1330	Culex vishnui.g	mixed cluster, internally divergent	Culicidae sp Aedes caecus or Culex bitaeniorhynchus or Culex tritaeniorhynchus or Culex vishnui.g or Mansonia uniformis	_	cluster25
+F1178	Aedes caecus	mixed cluster, internally divergent	Culicidae sp Aedes caecus or Culex bitaeniorhynchus or Culex tritaeniorhynchus or Culex vishnui.g or Mansonia uniformis	_	cluster25
+F1555	Culex bitaeniorhynchus	mixed cluster, internally divergent	Culicidae sp Aedes caecus or Culex bitaeniorhynchus or Culex tritaeniorhynchus or Culex vishnui.g or Mansonia uniformis	_	cluster25
+F1492	Mansonia uniformis	mixed cluster, internally divergent	Culicidae sp Aedes caecus or Culex bitaeniorhynchus or Culex tritaeniorhynchus or Culex vishnui.g or Mansonia uniformis	_	cluster25
+F1490	Mansonia uniformis	mixed cluster, internally divergent	Culicidae sp Aedes caecus or Culex bitaeniorhynchus or Culex tritaeniorhynchus or Culex vishnui.g or Mansonia uniformis	_	cluster25
+F1067	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1059	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1507	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1058	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1335	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1336	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1063	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1061	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1086	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1339	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1503	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1504	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1505	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1002	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1064	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1001	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1068	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1065	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1085	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1084	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1060	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1506	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1062	Aedes aegypti	correct	Aedes aegypti	_	cluster26
+F1195	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1198	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1346	Aedes albopictus	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1011	Aedes albopictus	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1196	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1190	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1192	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1193	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1347	Aedes albopictus	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	_	cluster27
+F1194	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	related to F1191; cluster with 2 sequences only and it is indeed related to other Aedes gardneri. It is most likely correct species assignment.	cluster27
+F1191	Aedes gardneri	mixed cluster, internally divergent	Aedes sp albopictus or gardneri	related to F1194; cluster with 2 sequences only and it is indeed related to other Aedes gardneri. It is most likely correct species assignment.	cluster27
+F1353	Culex sinensis	misannotated	Aedes albopictus	_	cluster28
+F1184	Aedes caecus	misannotated	Aedes albopictus	_	cluster28
+F1349	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1508	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1513	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1514	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1511	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1519	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1337	Aedes aegypti	misannotated	Aedes albopictus	_	cluster28
+F1007	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1008	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1013	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1075	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1069	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1014	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1004	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1003	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1518	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1515	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1161	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1521	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1197	Aedes gardneri	misannotated	Aedes albopictus	_	cluster28
+F1342	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1159	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1344	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1070	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1352	Culex bitaeniorhynchus	misannotated	Aedes albopictus	_	cluster28
+F1012	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1010	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1006	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1015	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1017	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1165	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1079	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1016	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1083	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1520	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1341	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1009	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1005	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1509	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1517	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1076	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1162	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1516	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1343	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1066	Aedes aegypti	misannotated	Aedes albopictus	_	cluster28
+F1350	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1080	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1171	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1082	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1340	Aedes aegypti	misannotated	Aedes albopictus	_	cluster28
+F1345	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1157	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1348	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1081	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1168	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1078	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1160	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1074	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1158	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1071	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1163	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1351	Culex bitaeniorhynchus	misannotated	Aedes albopictus	_	cluster28
+F1167	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1164	Aedes albopictus	correct	Aedes albopictus	_	cluster28
+F1463	Culex vishnui.g	could not be analyzed	NA	SKA did not work for these samples	not relevant
+F1234	Coquillettidia crassipes	could not be analyzed	NA	SKA did not work for these samples	not relevant
+F1288	Culex quinquefasciatus	could not be analyzed	NA	SKA did not work for these samples	not relevant
+F1073	Aedes albopictus	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS1c	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS1a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS1b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS2a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS4a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS4b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS5a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS5b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS6a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS6b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS7a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS7b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS8a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS8b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS9b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS10a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS12a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS14b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS15a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS14a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS13b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS13a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS18a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS16a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS15b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS16b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS11a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS19a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS19b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS20a	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant
+PBS20b	NA	could not be analyzed	NA	SKA did not work for these samples	not relevant

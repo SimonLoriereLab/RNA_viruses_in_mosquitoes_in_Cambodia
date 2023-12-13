@@ -1,0 +1,148 @@
+tip_join_var	nt_seq_ID	tip_labels	host_taxon	host_genus	Country	Location	Year	novel_seq	nt_slen	nt_title
+AB377213	AB377213_Culex_flavivirus	AB377213_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Tokyo, Shinjuku	2003	NA	10837	Culex flavivirus genomic RNA, complete genome, strain: NIID-21-2
+NC_008604	NC_008604_Culex_flavivirus	NC_008604_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan:Tokyo, Shinjuku	2003	NA	10837	Culex flavivirus, complete genome
+FJ663034	FJ663034_Culex_flavivirus	FJ663034_Culex_flavivirus_polyprotein	Culex pipiens	Culex	USA	USA: Iowa	2007	NA	10837	Culex flavivirus isolate Iowa07, complete genome
+KX657782	KX657782_Culex_flavivirus	KX657782_Culex_flavivirus_polyprotein	Culicidae	Culicidae	USA	USA	2016	NA	10710	Culex flavivirus strain UWB1, partial genome
+KX924632	KX924632_Culex_flavivirus	KX924632_Culex_flavivirus_polyprotein	water flea	unknown	USA	USA	2016	NA	10011	Culex flavivirus strain 93C0 polyprotein gene, partial cds
+MW434107	MW434107_Culex_flavivirus	MW434107_Culex_flavivirus_polyprotein	Culex pipiens	Culex	USA	USA: Alameda County, California	2017	NA	10946	Culex flavivirus isolate CMS001_029_ALCO genomic sequence
+MW434108	MW434108_Culex_flavivirus	MW434108_Culex_flavivirus_polyprotein	Culex pipiens	Culex	USA	USA: Alameda County, California	2017	NA	10824	Culex flavivirus isolate CMS001_044_ALCO genomic sequence
+AB701769	AB701769_Culex_flavivirus	AB701769_Culex_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	Japan	Japan: Toyama	2007	NA	10836	Culex flavivirus RNA, complete genome, strain: Toyama1849
+AB701770	AB701770_Culex_flavivirus	AB701770_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Toyama	2004	NA	10836	Culex flavivirus RNA, complete genome, strain: Toyama41
+AB701775	AB701775_Culex_flavivirus	AB701775_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Toyama	2006	NA	10835	Culex flavivirus RNA, complete genome, strain: Toyama1431
+AB701774	AB701774_Culex_flavivirus	AB701774_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Toyama	2005	NA	10836	Culex flavivirus RNA, complete genome, strain: Toyama861
+AB701776	AB701776_Culex_flavivirus	AB701776_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Toyama	2008	NA	10837	Culex flavivirus RNA, complete genome, strain: Toyama2627
+Culex_flavivirus_F1432C5F1432	Culex_flavivirus_F1432C5F1432	Culex_flavivirus_F1432C5F1432	Culex quinquefasciatus	Culex	Cambodia	Kompong Thom	2019	1	NA	NA
+Culex_flavivirus_F1432C5F1433	Culex_flavivirus_F1432C5F1433	Culex_flavivirus_F1432C5F1433	Culex quinquefasciatus	Culex	Cambodia	Kompong Thom	2019	1	NA	NA
+EU879060	EU879060_Culex_flavivirus	EU879060_Culex_flavivirus_polyprotein	Culex quinquefasciatus	Culex	Mexico	Mexico: Yucatan State	2007	NA	10837	Culex flavivirus strain CxFV-Mex07, complete genome
+KY349933	KY349933_Culex_flavivirus	KY349933_Culex_flavivirus_polyprotein	Culex quinquefasciatus	Culex	Brazil	Brazil: Cuiaba, MT	2013	NA	10640	Culex flavivirus strain CxFV_BR/MT_CbaAr1256p2/2013, complete genome
+LC504568	LC504568_Culex_flavivirus	LC504568_Culex_flavivirus_polyprotein	Culex	Culex	Ghana	Ghana:Damongo	NA	NA	10270	Culex flavivirus 16GH36 genomic RNA, complete genome
+MH719098	MH719098_Culex_flavivirus	MH719098_Culex_flavivirus_polyprotein	Culex quinquefasciatus	Culex	Mexico	Mexico	2008	NA	10837	Culex flavivirus isolate CxFV-T1123, complete genome
+GQ165808	GQ165808_Culex_flavivirus	GQ165808_Culex_flavivirus_polyprotein	Culex quinquefasciatus	Culex	Uganda	Uganda	2008	NA	10089	Culex flavivirus strain Uganda08 polyprotein gene, partial cds
+KU726615	KU726615_Culex_flavivirus	KU726615_Culex_flavivirus_polyprotein	Culex	Culex	Argentina	Argentina	2009	NA	10092	Culex flavivirus isolate Otero 2009 polyprotein gene, complete cds
+KT726939	KT726939_Culex_flavivirus	KT726939_Culex_flavivirus_polyprotein	Culex	Culex	Brazil	Brazil	2012	NA	10706	Culex flavivirus isolate BR_SJRP_01_2012 polyprotein gene, complete cds
+MN294938	MN294938_Culex_flavivirus	MN294938_Culex_flavivirus_polyprotein	Culex quinquefasciatus	Culex	Saudi Arabia	Saudi Arabia: Al-Janoub, Jeddah	2016	NA	10799	Culex flavivirus isolate SA-JD-AJ-AJ-16-1-C7, complete genome
+JX897904	JX897904_Culex_flavivirus	JX897904_Culex_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	Taiwan	Taiwan	2010	NA	10089	Culex flavivirus strain TW100322 polyprotein gene, partial cds
+HQ678513	HQ678513_Culex_flavivirus	HQ678513_Culex_flavivirus_polyprotein	Culex pipiens	Culex	China	China: Liaoning	2009	NA	10841	Culex flavivirus isolate H0901, complete genome
+JQ308187	JQ308187_Culex_flavivirus	JQ308187_Culex_flavivirus_polyprotein	Culex pipiens	Culex	China	China	2010	NA	10841	Culex flavivirus isolate HLD105, complete genome
+JQ308186	JQ308186_Culex_flavivirus	JQ308186_Culex_flavivirus_polyprotein	Culex pipiens	Culex	China	China	2010	NA	10841	Culex flavivirus isolate HLD102, complete genome
+JQ518484	JQ518484_Culex_flavivirus	JQ518484_Culex_flavivirus_polyprotein	Culex pipiens	Culex	China	China	2006	NA	10089	Culex flavivirus strain SDDM06-11 polyprotein gene, partial cds
+JQ308190	JQ308190_Culex_flavivirus	JQ308190_Culex_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	China	China	2010	NA	10841	Culex flavivirus isolate DG1007, complete genome
+JQ308189	JQ308189_Culex_flavivirus	JQ308189_Culex_flavivirus_polyprotein	Culex pipiens	Culex	China	China	2010	NA	10841	Culex flavivirus isolate DG1068, complete genome
+AB701766	AB701766_Culex_flavivirus	AB701766_Culex_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	Japan	Japan: Toyama	2004	NA	10837	Culex flavivirus RNA, complete genome, strain: Toyama71
+AB701768	AB701768_Culex_flavivirus	AB701768_Culex_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	Japan	Japan: Toyama	2006	NA	10837	Culex flavivirus RNA, complete genome, strain: Toyama1701
+AB701771	AB701771_Culex_flavivirus	AB701771_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Toyama	2004	NA	10837	Culex flavivirus RNA, complete genome, strain: Toyama75
+AB701773	AB701773_Culex_flavivirus	AB701773_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Toyama	2005	NA	10837	Culex flavivirus RNA, complete genome, strain: Toyama791
+AB701767	AB701767_Culex_flavivirus	AB701767_Culex_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	Japan	Japan: Toyama	2005	NA	10837	Culex flavivirus RNA, complete genome, strain: Toyama734
+FJ502995	FJ502995_Culex_flavivirus	FJ502995_Culex_flavivirus_polyprotein	Culex quinquefasciatus	Culex	USA	USA	2008	NA	10837	Culex flavivirus strain HOU24518, complete genome
+KX512322	KX512322_Culex_flavivirus	KX512322_Culex_flavivirus_polyprotein	Culex pipiens	Culex	USA	USA	2016	NA	9834	Culex flavivirus strain NM1 polyprotein gene, partial cds
+MH188006	MH188006_Culex_flavivirus	MH188006_Culex_flavivirus_polyprotein	Culex	Culex	USA	USA	2016	NA	10776	Culex flavivirus strain CFV/San Francisco, complete genome
+MW434109	MW434109_Culex_flavivirus	MW434109_Culex_flavivirus_polyprotein	Culex pipiens	Culex	USA	USA: Placer Valley, California	2017	NA	10796	Culex flavivirus isolate CMS002_049a_PLCR genomic sequence
+KX924633	KX924633_Culex_flavivirus	KX924633_Culex_flavivirus_polyprotein	Culex pipiens	Culex	USA	USA	2016	NA	10469	Culex flavivirus strain Mos102 polyprotein gene, partial cds
+LC513839	LC513839_Culex_flavivirus	LC513839_Culex_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	Japan	Japan: Nagasaki, Isahaya	NA	NA	10745	Culex flavivirus 17CxNGK-Ctr-C6P2 gene for polyprotein, complete cds
+AB701772	AB701772_Culex_flavivirus	AB701772_Culex_flavivirus_polyprotein	Culex pipiens	Culex	Japan	Japan: Toyama	2005	NA	10837	Culex flavivirus RNA, complete genome, strain: Toyama740
+MN318426	MN318426_Culex_flavivirus	MN318426_Culex_flavivirus_polyprotein	Culex pipiens	Culex	China	China: Pudong New Area, Shanghai	2017	NA	10799	Culex flavivirus strain PA3_17-6E-P-Cxp-C-1-3 polyprotein gene, complete cds
+MW246772	MW246772_Culex_flavivirus	MW246772_Culex_flavivirus_polyprotein	Culex pipiens	Culex	China	China: Jining, Shandong Province	2018	NA	10799	Culex flavivirus strain JS,JA_A4_18-9E-SJ-Cxp-Y-1-1 polyprotein gene, complete cds
+Accesaty_virus_F1416C39C8C2F1416	Accesaty_virus_F1416C39C8C2F1416	Accesaty_virus_F1416C39C8C2F1416	Culex sp brevipalpis	Culex	Cambodia	Kompong Thom	2019	1	NA	NA
+AB981186	AB981186_Quang_Binh_virus	AB981186_Quang_Binh_virus_polyprotein	Culex	Culex	Japan	Japan: Yamaguchi, Yoshida	2013	NA	10863	Mosquito flavivirus gene for polyprotein, complete cds, strain: YDFV/Oct/2013
+LC513840	LC513840_Mosquito_flavivirus	LC513840_Mosquito_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	Japan	Japan: Nagasaki, Isahaya	NA	NA	10790	Mosquito flavivirus 17CxNGK-Ctr-C6P3 gene for polyprotein, complete cds
+Quang_Binh_virus_F1407C2F1407	Quang_Binh_virus_F1407C2F1407	Quang_Binh_virus_F1407C2F1407	Culex sp bitaeniorhynchus or sinensis	Culex	Cambodia	Kompong Thom	2019	1	NA	NA
+Quang_Binh_virus_F1449C1F1108	Quang_Binh_virus_F1449C1F1108	Quang_Binh_virus_F1449C1F1108	Culex gelidus	Culex	Cambodia	Sihanuokville	2019	1	NA	NA
+MH827523	MH827523_Quang_Binh_virus	MH827523_Quang_Binh_virus_polyprotein	Culicidae	Culicidae	China	China	2017	NA	10844	Quang Binh virus isolate LZ17046/China/2017, complete genome
+NC_012671	NC_012671_Quang_Binh_virus	NC_012671_Quang_Binh_virus_polyprotein	Culex tritaeniorhynchus	Culex	Viet Nam	Viet Nam	2002	NA	10865	Quang Binh virus, complete genome
+Quang_Binh_virus_F1449C1F1449	Quang_Binh_virus_F1449C1F1449	Quang_Binh_virus_F1449C1F1449	Culex sp tritaeniorhynchus or vishnui or sinensis	Culex	Cambodia	Kompong Thom	2019	1	NA	NA
+Quang_Binh_virus_F1449C1F1466	Quang_Binh_virus_F1449C1F1466	Quang_Binh_virus_F1449C1F1466	Culex sp tritaeniorhynchus or vishnui or sinensis	Culex	Cambodia	Kompong Thom	2019	1	NA	NA
+Quang_Binh_virus_F1449C1F1110	Quang_Binh_virus_F1449C1F1110	Quang_Binh_virus_F1449C1F1110	Culex gelidus	Culex	Cambodia	Sihanuokville	2019	1	NA	NA
+MG719525	MG719525_Quang_Binh_virus	MG719525_Quang_Binh_virus_polyprotein	Culex tritaeniorhynchus	Culex	China	China	2017	NA	10080	Quang Binh virus isolate DD1716 polyprotein gene, complete cds
+MW452275	MW452275_Quang_Binh_virus	MW452275_Quang_Binh_virus_polyprotein	Culicidae	Culicidae	China	China	2018	NA	10813	Quang Binh virus strain YX594, complete genome
+MH827524	MH827524_Quang_Binh_virus	MH827524_Quang_Binh_virus_polyprotein	Culicidae	Culicidae	China	China	2017	NA	10891	Quang Binh virus isolate JM17156/China/2017, complete genome
+MW246771	MW246771_Quang_Binh_virus	MW246771_Quang_Binh_virus_polyprotein	Culex tritaeniorhynchus	Culex	China	China: Jinshan District, Shanghai Municipality	2018	NA	10785	Quang Binh virus strain JS,JA_H6_18-10E-JS-Cxt-C-2-1 polyprotein gene, complete cds
+MZ821064	MZ821064_Mosquito_flavivirus	MZ821064_Mosquito_flavivirus_polyprotein	Culicoides	Culicoides	China	China: Yunnan	2015	NA	10816	Mosquito flavivirus strain YN15-283-02, complete genome
+NC_021069	NC_021069_Mosquito_flavivirus	NC_021069_Mosquito_flavivirus_polyprotein	Culex tritaeniorhynchus	Culex	China	China	2009	NA	10865	Mosquito flavivirus isolate LSFlaviV-A20-09, complete genome
+Cell_fusing_agent_virus_F1335C10F1058	Cell_fusing_agent_virus_F1335C10F1058	Cell_fusing_agent_virus_F1335C10F1058	Aedes aegypti	Aedes	Cambodia	Sihanuokville	2019	1	NA	NA
+LR694078	LR694078_Cell_fusing_agent_virus	LR694078_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Cambodia	Cambodia:Phnom Penh	2015	NA	10696	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate PP
+LR694077	LR694077_Cell_fusing_agent_virus	LR694077_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Cambodia	Cambodia:Kampong Cham	2015	NA	10696	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate KC
+Cell_fusing_agent_virus_F1335C10F1061	Cell_fusing_agent_virus_F1335C10F1061	Cell_fusing_agent_virus_F1335C10F1061	Aedes aegypti	Aedes	Cambodia	Sihanuokville	2019	1	NA	NA
+Cell_fusing_agent_virus_F1335C10F1068	Cell_fusing_agent_virus_F1335C10F1068	Cell_fusing_agent_virus_F1335C10F1068	Aedes aegypti	Aedes	Cambodia	Sihanuokville	2019	1	NA	NA
+LR694079	LR694079_Cell_fusing_agent_virus	LR694079_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Cambodia	Cambodia:Kampong Cham	2013	NA	10681	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate mosq395
+LR694080	LR694080_Cell_fusing_agent_virus	LR694080_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Cambodia	Cambodia:Kampong Cham	2013	NA	10682	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate mof2522
+Cell_fusing_agent_virus_F1335C10F1059	Cell_fusing_agent_virus_F1335C10F1059	Cell_fusing_agent_virus_F1335C10F1059	Aedes aegypti	Aedes	Cambodia	Sihanuokville	2019	1	NA	NA
+Cell_fusing_agent_virus_F1335C10F1084	Cell_fusing_agent_virus_F1335C10F1084	Cell_fusing_agent_virus_F1335C10F1084	Aedes aegypti	Aedes	Cambodia	Sihanuokville	2019	1	NA	NA
+Cell_fusing_agent_virus_F1335C10F1335	Cell_fusing_agent_virus_F1335C10F1335	Cell_fusing_agent_virus_F1335C10F1335	Aedes aegypti	Aedes	Cambodia	Kompong Thom	2019	1	NA	NA
+Cell_fusing_agent_virus_F1335C10F1065	Cell_fusing_agent_virus_F1335C10F1065	Cell_fusing_agent_virus_F1335C10F1065	Aedes aegypti	Aedes	Cambodia	Sihanuokville	2019	1	NA	NA
+LC496857	LC496857_Cell_fusing_agent_virus	LC496857_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Ghana	Ghana: Accra	NA	NA	10679	Cell fusing agent virus 16GH83 RNA, complete genome
+LR694076	LR694076_Cell_fusing_agent_virus	LR694076_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Uganda	Uganda:Zika forest village	2016	NA	10696	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate Zik
+LR694073	LR694073_Cell_fusing_agent_virus	LR694073_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	USA	USA:Florida	2016	NA	10677	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate FL-05-MOS
+LR694081	LR694081_Cell_fusing_agent_virus	LR694081_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Guadeloupe	Guadeloupe:Les Abymes	2016	NA	10443	Cell fusing agent virus partial polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate Guadeloupe
+GQ165810	GQ165810_Cell_fusing_agent_virus	GQ165810_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Puerto Rico	Puerto Rico:San Juan	2002	NA	9765	Cell fusing agent virus strain Rio Piedras02 polyprotein gene, partial cds
+KJ476731	KJ476731_Cell_fusing_agent_virus	KJ476731_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Mexico	Mexico:Axopachian	2011	NA	9555	Cell fusing agent virus isolate Mex AR269 polyprotein gene, partial cds
+LR694075	LR694075_Cell_fusing_agent_virus	LR694075_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Australia	Australia:Cairns	2014	NA	10684	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate Cairns
+LR694072	LR694072_Cell_fusing_agent_virus	LR694072_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	USA	USA:Florida	2016	NA	10693	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate FL-08-MOS
+LR596014	LR596014_Cell_fusing_agent_virus	LR596014_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Thailand	Thailand:Kampaeng Phet, Thep Nakhon	2013	NA	10696	Cell fusing agent virus Polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate KPP
+LR694074	LR694074_Cell_fusing_agent_virus	LR694074_Cell_fusing_agent_virus_polyprotein	Aedes aegypti	Aedes	Thailand	Thailand: Bangkok	2015	NA	10659	Cell fusing agent virus polyprotein gene for polyprotein, C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-NS4B-NS5 region, isolate Bangkok
+HE574573	HE574573_Culex_theileri_flavivirus	HE574573_Culex_theileri_flavivirus_viral_polyprotein	Culex theileri	Culex	Portugal	Portugal:Comporta	2011	NA	10538	Culex theileri flavivirus RP-2011 gene for viral polyprotein, genomic RNA, isolate 153
+HE574574	HE574574_Culex_theileri_flavivirus	HE574574_Culex_theileri_flavivirus_viral_polyprotein	Culex theileri	Culex	Portugal	Portugal:Dunas Douradas-Almancil	2011	NA	10538	Culex theileri flavivirus RP-2011 gene for viral polyprotein, genomic RNA, isolate 178
+KX652375	KX652375_Culex_theileri_flavivirus	KX652375_Culex_theileri_flavivirus_polyprotein	Culex theileri	Culex	Turkey	Turkey	2015	NA	10697	Mosquito flavivirus isolate 94_1, complete genome
+KX652376	KX652376_Culex_theileri_flavivirus	KX652376_Culex_theileri_flavivirus_polyprotein	Culex theileri	Culex	Turkey	Turkey	2015	NA	10449	Mosquito flavivirus isolate 94_02, partial genome
+KX652378	KX652378_Culex_theileri_flavivirus	KX652378_Culex_theileri_flavivirus_polyprotein	Culex theileri	Culex	Turkey	Turkey	2014	NA	10697	Mosquito flavivirus isolate 599, complete genome
+KX652377	KX652377_Culex_theileri_flavivirus	KX652377_Culex_theileri_flavivirus_polyprotein	Culex theileri	Culex	Turkey	Turkey	2015	NA	10697	Mosquito flavivirus isolate 65_02, complete genome
+MF582365	MF582365_Culex_flavivirus	MF582365_Culex_flavivirus_polyprotein	Culex	Culex	Myanmar	Myanmar	2014	NA	10472	Culex flavivirus isolate M-15, complete genome
+MH827522	MH827522_Culex_flavivirus	MH827522_Culex_flavivirus_polyprotein	Culicidae	Culicidae	China	China	2013	NA	10467	Culex flavivirus isolate GD13124/China/2013, partial genome
+MF582366	MF582366_Culex_flavivirus	MF582366_Culex_flavivirus_polyprotein	Culex	Culex	Myanmar	Myanmar	2014	NA	10472	Culex flavivirus isolate M-20, complete genome
+NC_040682	NC_040682_Culex_theileri_flavivirus	NC_040682_Culex_theileri_flavivirus_polyprotein	Anopheles vagus	Anopheles	Indonesia	Indonesia	1981	NA	10280	Culex theileri flavivirus, complete genome
+Palm_Creek_virus_F1392C1F1225	Palm_Creek_virus_F1392C1F1225	Palm_Creek_virus_F1392C1F1225	Coquillettidia crassipes	Coquillettidia	Cambodia	Pursat	2019	1	NA	NA
+Palm_Creek_virus_F1392C1F1392	Palm_Creek_virus_F1392C1F1392	Palm_Creek_virus_F1392C1F1392	Coquillettidia crassipes	Coquillettidia	Cambodia	Kompong Thom	2019	1	NA	NA
+Palm_Creek_virus_F1392C1F1551	Palm_Creek_virus_F1392C1F1551	Palm_Creek_virus_F1392C1F1551	Coquillettidia crassipes	Coquillettidia	Cambodia	Preah Vihear	2019	1	NA	NA
+KT192550	KT192550_Palm_Creek_virus	KT192550_Palm_Creek_virus_polyprotein_precursor	Coquillettidia xanthogaster	Coquillettidia	Australia	Australia:Kununurra	2010	NA	9729	Palm Creek virus isolate K71061 polyprotein precursor, gene, partial cds
+NC_033694	NC_033694_Palm_Creek_virus	NC_033694_Palm_Creek_virus_polyprotein	Coquillettidia xanthogaster	Coquillettidia	Australia	Australia	2010	NA	10095	Palm Creek virus isolate 56 polyprotein gene, complete cds
+Palm_Creek_virus_F1616C2F1616	Palm_Creek_virus_F1616C2F1616	Palm_Creek_virus_F1616C2F1616	Mansonia indiana	Mansonia	Cambodia	Preah Vihear	2019	1	NA	NA
+GQ165809	GQ165809_Nakiwogo_virus	GQ165809_Nakiwogo_virus_polyprotein	Mansonia africana	Mansonia	Uganda	Uganda	2008	NA	10122	Nakiwogo virus strain Uganda08 polyprotein gene, partial cds
+KX245154	KX245154_Cuacua_virus	KX245154_Cuacua_virus_polyprotein	Mansonia	Mansonia	Mozambique	Mozambique	2014	NA	9747	Cuacua virus isolate MZ2014-Cv polyprotein gene, partial cds
+JQ957875	JQ957875_Nienokoue_virus	JQ957875_Nienokoue_virus_polyprotein	Culex	Culex	Cote d'Ivoire	Cote d'Ivoire	2004	NA	10878	Nienokoue virus isolate B51/CI/2004, complete genome
+KX879626	KX879626_Nienokoue_virus	KX879626_Nienokoue_virus_polyprotein	Culex	Culex	Cote d'Ivoire	Cote d'Ivoire	2004	NA	10830	Nienokoue virus strain C64/CI/2004 polyprotein gene, complete cds
+KX879625	KX879625_Nienokoue_virus	KX879625_Nienokoue_virus_polyprotein	Culex	Culex	Cote d'Ivoire	Cote d'Ivoire	2004	NA	10830	Nienokoue virus strain B21/CI/2004 polyprotein gene, complete cds
+AY149904	AY149904_Kamiti_River_virus	AY149904_Kamiti_River_virus_polyprotein_precursor	Aedes macintoshi	Aedes	Kenya	Kenya:Central Province	1999	NA	11375	Kamiti River virus isolate SR-75 polyprotein precursor, gene, complete cds
+NC_005064	NC_005064_Kamiti_River_virus	NC_005064_Kamiti_River_virus_polyprotein	Aedes macintoshi	Aedes	Kenya	Kenya:Central Province	1999	NA	11375	Kamiti River virus, complete genome
+Aedes_flavivirus_F1161C1F1161	Aedes_flavivirus_F1161C1F1161	Aedes_flavivirus_F1161C1F1161	Aedes albopictus	Aedes	Cambodia	Pursat	2019	1	NA	NA
+KJ741266	KJ741266_Aedes_flavivirus	KJ741266_Aedes_flavivirus_polyprotein	Aedes albopictus	Aedes	Thailand	Thailand	2012	NA	11063	Aedes flavivirus strain Bangkok, complete genome
+MT254427	MT254427_Aedes_flavivirus	MT254427_Aedes_flavivirus_polyprotein	Aedes aegypti	Aedes	China	China: Changdong community, Tengyue town, YunnanProvince	2018	NA	10998	Aedes flavivirus strain TC4A8_18-9L-Y-T-Aea-B-1-1, complete genome
+LC536088	LC536088_Aedes_flavivirus	LC536088_Aedes_flavivirus_polyprotein	Aedes albopictus	Aedes	Indonesia	Indonesia:West Java, Bogor	NA	NA	11072	Aedes flavivirus AEFV/MQ/29/Bogor/2017 gene for polyprotein complete cds
+KC181923	KC181923_Aedes_flavivirus	KC181923_Aedes_flavivirus_polyprotein	Aedes albopictus	Aedes	USA	USA: Springfield, Missouri	2011	NA	11079	Aedes flavivirus strain AEFV-SPFLD-MO-2011-MP6, complete genome
+NC_012932	NC_012932_Aedes_flavivirus	NC_012932_Aedes_flavivirus_polyprotein	Aedes albopictus	Aedes	Japan	Japan: Chiba, Narita	2003	NA	11064	Aedes flavivirus genomic RNA, complete genome, strain: Narita-21
+MT577804	MT577804_Aedes_flavivirus	MT577804_Aedes_flavivirus_polyprotein	Aedes albopictus	Aedes	Switzerland	Switzerland: Ticino, Lugano	2019	NA	11038	Aedes flavivirus strain AEFV/Ticino/2019, complete genome
+MK251047	MK251047_Aedes_flavivirus	MK251047_Aedes_flavivirus_polyprotein	Aedes albopictus	Aedes	Turkey	Turkey	2016	NA	9931	Aedes flavivirus strain KRD32 polyprotein gene, partial cds
+KU201526	KU201526_Xishuangbanna_aedes_flavivirus	KU201526_Xishuangbanna_aedes_flavivirus_polyprotein	Aedes albopictus	Aedes	China	China	2010	NA	10884	Xishuangbanna aedes flavivirus, complete genome
+KX907452	KX907452_Menghai_flavivirus	KX907452_Menghai_flavivirus_polyprotein	Aedes albopictus	Aedes	China	China: Menghai	2010	NA	10897	Menghai flavivirus isolate MHAedFV1, complete genome
+MN567479	MN567479_Falli_virus	MN567479_Falli_virus_polyprotein	Aedes vexans	Aedes	Senegal	Senegal: Younoufere	2014	NA	10974	Falli virus isolate Ferlo, complete genome
+LC567152	LC567152_Ochlerotatus_scapularis_flavivirus	LC567152_Ochlerotatus_scapularis_flavivirus_polyprotein	Ochlerotatus sp.	Ochlerotatus	Bolivia	Bolivia	NA	NA	10449	Ochlerotatus scapularis flavivirus bvmq18-25 RNA, nearly complete genome
+HF548540	HF548540_Hanko_virus	HF548540_Hanko_virus_polyprotein	Ochlerotatus caspius	Ochlerotatus	Portugal	Portugal:Southern regions	2009	NA	9839	Ochlerotatus caspius flavivirus partial gene for polyprotein, clone 174
+NC_034242	NC_034242_Ochlerotatus_caspius_flavivirus	NC_034242_Ochlerotatus_caspius_flavivirus_polyprotein	Ochlerotatus caspius	Ochlerotatus	Turkey	Turkey	2015	NA	10370	Ochlerotatus caspius flavivirus isolate 1608 polyprotein gene, complete cds
+NC_030401	NC_030401_Hanko_virus	NC_030401_Hanko_virus_polyprotein	Ochlerotatus caspius	Ochlerotatus	Finland	Finland	2005	NA	10158	Hanko virus polyprotein gene, complete cds
+MZ358856	MZ358856_Aedes_notoscriptus_flavivirus	MZ358856_Aedes_notoscriptus_flavivirus_polyprotein	Aedes notoscriptus	Aedes	Australia	Australia:Queensland	2018	NA	10800	Aedes notoscriptus flavivirus isolate 207218, partial genome
+MZ358857	MZ358857_Aedes_notoscriptus_flavivirus	MZ358857_Aedes_notoscriptus_flavivirus_polyprotein	Aedes notoscriptus	Aedes	Australia	Australia:Queensland	2019	NA	10790	Aedes notoscriptus flavivirus isolate 207252, partial genome
+NC_027817	NC_027817_Parramatta_River_virus	NC_027817_Parramatta_River_virus_polyprotein	Ochlerotatus vigilax	Ochlerotatus	Australia	Australia	2007	NA	10893	Parramatta River virus isolate 92-B115745, complete genome
+KP688057	KP688057_Mercadeo_virus	KP688057_Mercadeo_virus_polyprotein	Culex	Culex	Panama	Panama	2011	NA	10938	Mercadeo virus isolate ER-M31, complete genome
+NC_027819	NC_027819_Mercadeo_virus	NC_027819_Mercadeo_virus_polyprotein	Culex	Culex	Panama	Panama	2011	NA	10938	Mercadeo virus isolate ER-M10, complete genome
+KT599442	KT599442_Culiseta_flavivirus	KT599442_Culiseta_flavivirus_polyprotein	Culiseta melanura	Culiseta	USA	USA: Willington, Connecticut	2013	NA	10864	Culiseta flavivirus strain 502-13, complete genome
+KX669682	KX669682_Calbertado_virus	KX669682_Calbertado_virus_polyprotein	Culex tarsalis	Culex	USA	USA: California	2007	NA	10749	Calbertado virus isolate Cal_mos_2 polyprotein gene, complete cds
+KX669683	KX669683_Calbertado_virus	KX669683_Calbertado_virus_polyprotein	Culex tarsalis	Culex	Canada	Canada: Manitoba	2007	NA	10736	Calbertado virus isolate 42-81 polyprotein gene, complete cds
+KX669684	KX669684_Calbertado_virus	KX669684_Calbertado_virus_polyprotein	Culex tarsalis	Culex	Canada	Canada: Saskatchewan	2007	NA	10734	Calbertado virus isolate SK-43 polyprotein gene, complete cds
+MW434106	MW434106_Calbertado_virus	MW434106_Calbertado_virus_polyprotein	Culex tarsalis	Culex	USA	USA: Alameda County, California	2017	NA	10763	Calbertado virus isolate CMS001_032_ALCO genomic sequence
+KX669685	KX669685_Calbertado_virus	KX669685_Calbertado_virus_polyprotein	Culex tarsalis	Culex	Canada	Canada: Saskatchewan	2007	NA	10731	Calbertado virus isolate SK-90 polyprotein gene, complete cds
+KX669686	KX669686_Calbertado_virus	KX669686_Calbertado_virus_polyprotein	Culex tarsalis	Culex	Canada	Canada: Manitoba	2007	NA	10719	Calbertado virus isolate 42-15 polyprotein gene, complete cds
+KX669687	KX669687_Calbertado_virus	KX669687_Calbertado_virus_polyprotein	Culex tarsalis	Culex	Canada	Canada: Manitoba	2007	NA	10717	Calbertado virus isolate 4a2 polyprotein gene, complete cds
+KX669688	KX669688_Calbertado_virus	KX669688_Calbertado_virus_polyprotein	Culex tarsalis	Culex	Canada	Canada: Manitoba	2007	NA	10734	Calbertado virus isolate 44-13 polyprotein gene, complete cds
+KX669689	KX669689_Calbertado_virus	KX669689_Calbertado_virus_polyprotein	Culex tarsalis cell line	Culex	Canada	Canada: Manitoba	2016	NA	10733	Calbertado virus isolate CALper polyprotein gene, complete cds
+MH899446	MH899446_Sabethes_flavivirus	MH899446_Sabethes_flavivirus_polyprotein_precursor	Sabethes belisarioi	Sabethes	Brazil	Brazil	2017	NA	10585	Sabethes flavivirus isolate Ms42, complete genome
+KX148546	KX148546_Anopheles_flavivirus	KX148546_Anopheles_flavivirus_polyprotein	Anopheles gambiae	Anopheles	Liberia	Liberia	2013	NA	10588	Anopheles flavivirus variant 1, complete genome
+KX148547	KX148547_Anopheles_flavivirus	KX148547_Anopheles_flavivirus_polyprotein	Anopheles gambiae	Anopheles	Liberia	Liberia	2013	NA	10529	Anopheles flavivirus variant 2, complete genome
+MF352617	MF352617_Haslams_Creek_virus	MF352617_Haslams_Creek_virus_polyprotein	Anopheles annulipes	Anopheles	Australia	Australia: Sydney	2007	NA	9997	Haslams Creek virus isolate HaCV 115734 polyprotein gene, partial cds
+MF352616	MF352616_Mac_Peak_virus	MF352616_Mac_Peak_virus_polyprotein	Anopheles farauti	Anopheles	Australia	Australia: Cairns	2005	NA	10026	Mac Peak virus isolate McPV 150840 polyprotein gene, complete cds
+KY460522	KY460522_Karumba_virus	KY460522_Karumba_virus_polyprotein	Anopheles meraukensis	Anopheles	Australia	Australia: Karumba	2001	NA	10646	Karumba virus isolate KRBV 1892, complete genome
+KY460523	KY460523_Karumba_virus	KY460523_Karumba_virus_polyprotein	Anopheles meraukensis	Anopheles	Australia	Australia: Wide Bay	2005	NA	10026	Karumba virus isolate KRBV WBay2 polyprotein gene, partial cds
+MF352615	MF352615_Karumba_virus	MF352615_Karumba_virus_polyprotein	Anopheles meraukensis	Anopheles	Australia	Australia: Wyndham	2014	NA	10029	Karumba virus isolate KRBV Kim1 polyprotein gene, complete cds
+LC567153	LC567153_Mansonia_flavivirus	LC567153_Mansonia_flavivirus_polyprotein	Mansonia	Mansonia	Bolivia	Bolivia	NA	NA	10922	Mansonia flavivirus bvmq18-1 RNA, nearly complete genome
+LC540441	LC540441_Tabanus_rufidens_flavivirus	LC540441_Tabanus_rufidens_flavivirus_polyprotein	Tabanus rufidens	Tabanus	Japan	Japan: Ishikawa, Wajima	NA	NA	10310	Tabanus rufidens flavivirus 18HF18 gene for polyprotein, complete cds
+MZ972992	MZ972992_Cell_fusing_agent_virus	NA	Aedes	Aedes	Brazil	Brazil	2017	NA	10684	Cell fusing agent virus strain Macapa_01, complete genome
+MZ972993	MZ972993_Cell_fusing_agent_virus	NA	Aedes	Aedes	Brazil	Brazil	2017	NA	10684	Cell fusing agent virus strain Macapa_04, complete genome
+MZ972994	MZ972994_Cell_fusing_agent_virus	NA	Aedes	Aedes	Brazil	Brazil	2017	NA	10684	Cell fusing agent virus strain Macapa_02, complete genome
+MZ202252	MZ202252_Tafomo_virus	NA	Culex	Culex	Cote d'Ivoire	Cote d'Ivoire	2004	NA	10324	Tafomo virus strain TV/B22-CI-2004, complete genome

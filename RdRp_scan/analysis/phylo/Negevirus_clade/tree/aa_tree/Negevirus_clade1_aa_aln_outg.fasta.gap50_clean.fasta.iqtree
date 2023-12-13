@@ -1,0 +1,243 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 96828
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 15 sequences with 2691 amino-acid sites
+Number of constant sites: 631 (= 23.4485% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 631 (= 23.4485% of all sites)
+Number of parsimony informative sites: 1213
+Number of distinct site patterns: 1916
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R3          -23706.083   47512.166 +        1   47514.098 +        1   47807.049 +        1
+WAG+F+R3         -23764.445   47628.891 -  4.5e-26   47630.823 -  4.5e-26   47923.774 -  4.5e-26
+rtREV+F+R3       -23777.286   47654.572 - 1.19e-31   47656.503 - 1.19e-31   47949.455 - 1.19e-31
+JTTDCMut+F+R3    -23783.058   47666.115 - 3.72e-34   47668.047 - 3.72e-34   47960.999 - 3.72e-34
+JTT+F+R3         -23783.126   47666.252 - 3.47e-34   47668.184 - 3.47e-34   47961.136 - 3.47e-34
+LG+R3            -23870.910   47803.820 - 4.66e-64   47804.567 - 8.42e-64   47986.648 -    1e-39
+LG+G4            -23888.164   47832.328 -    3e-70   47832.938 - 5.82e-70   47997.463 - 4.49e-42
+LG+R4            -23870.751   47807.502 - 7.39e-65   47808.347 - 1.27e-64   48002.125 - 4.36e-43
+LG+R2            -23889.039   47836.078 - 4.61e-71   47836.732 - 8.73e-71   48007.110 - 3.61e-44
+LG+I+G4          -23890.182   47838.364 - 1.47e-71   47839.018 - 2.78e-71   48009.396 - 1.15e-44
+VT+F+R3          -23807.390   47714.780 - 1.01e-44   47716.712 - 1.01e-44   48009.664 - 1.01e-44
+Dayhoff+F+R3     -23823.735   47747.470 - 8.03e-52   47749.401 - 8.03e-52   48042.353 - 8.03e-52
+DCMut+F+R3       -23824.371   47748.742 - 4.25e-52   47750.674 - 4.25e-52   48043.626 - 4.25e-52
+mtInv+F+R3       -23833.588   47767.176 - 4.22e-56   47769.108 - 4.22e-56   48062.059 - 4.22e-56
+cpREV+F+R3       -23842.582   47785.164 - 5.24e-60   47787.096 - 5.24e-60   48080.047 - 5.24e-60
+mtZOA+F+R3       -23866.148   47832.295 - 3.05e-70   47834.227 - 3.05e-70   48127.179 - 3.05e-70
+WAG+R3           -23967.615   47997.230 - 4.67e-106   47997.976 - 8.46e-106   48180.058 - 1.01e-81
+mtMet+F+R3       -23895.596   47891.192 - 4.96e-83   47893.124 - 4.96e-83   48186.075 - 4.96e-83
+VT+R3            -23972.798   48007.596 - 2.62e-108   48008.342 - 4.74e-108   48190.424 - 5.64e-84
+JTT+R3           -23976.650   48015.300 - 5.57e-110   48016.046 - 1.01e-109   48198.128 -  1.2e-85
+JTTDCMut+R3      -23977.566   48017.132 - 2.23e-110   48017.878 - 4.03e-110   48199.960 - 4.79e-86
+mtREV+F+R3       -23912.078   47924.156 - 3.45e-90   47926.088 - 3.45e-90   48219.040 - 3.45e-90
+Blosum62+F+R3    -23914.601   47929.202 - 2.77e-91   47931.134 - 2.77e-91   48224.085 - 2.77e-91
+PMB+F+R3         -23925.886   47951.773 - 3.47e-96   47953.705 - 3.47e-96   48246.656 - 3.47e-96
+LG+I             -24018.467   48092.935 - 7.72e-127   48093.545 - 1.5e-126   48258.069 - 1.15e-98
+FLU+F+R3         -23944.026   47988.053 - 4.6e-104   47989.984 - 4.6e-104   48282.936 - 4.6e-104
+HIVb+F+R3        -23994.623   48089.247 - 4.88e-126   48091.178 - 4.88e-126   48384.130 - 4.88e-126
+Blosum62+R3      -24082.097   48226.194 - 8.93e-156   48226.941 - 1.61e-155   48409.022 - 1.92e-131
+mtART+F+R3       -24012.170   48124.340 - 1.17e-133   48126.271 - 1.17e-133   48419.223 - 1.17e-133
+cpREV+R3         -24098.034   48258.069 - 1.07e-162   48258.815 - 1.94e-162   48440.896 - 2.3e-138
+FLU+R3           -24117.685   48297.371 - 3.13e-171   48298.117 - 5.65e-171   48480.199 - 6.72e-147
+PMB+R3           -24127.284   48316.568 - 2.12e-175   48317.314 - 3.83e-175   48499.396 - 4.56e-151
+rtREV+R3         -24149.272   48360.544 - 5.98e-185   48361.290 - 1.08e-184   48543.372 - 1.29e-160
+LG               -24168.865   48391.730 - 1.01e-191   48392.298 -   2e-191   48550.967 - 2.89e-162
+mtVer+F+R3       -24078.382   48256.765 - 2.05e-162   48258.696 - 2.05e-162   48551.648 - 2.05e-162
+Dayhoff+R3       -24156.264   48374.527 - 5.5e-188   48375.274 - 9.95e-188   48557.355 - 1.18e-163
+DCMut+R3         -24157.144   48376.288 - 2.28e-188   48377.034 - 4.13e-188   48559.115 - 4.91e-164
+mtMAM+F+R3       -24149.803   48399.607 - 1.97e-193   48401.539 - 1.97e-193   48694.490 - 1.97e-193
+HIVb+R3          -24328.191   48718.382 - 1.18e-262   48719.128 - 2.14e-262   48901.210 - 2.55e-238
+HIVw+F+R3        -24360.075   48820.149 - 9.44e-285   48822.081 - 9.44e-285   49115.032 - 9.44e-285
+mtZOA+R3         -24903.670   49869.340 -        0   49870.086 -        0   50052.168 -        0
+HIVw+R3          -24914.012   49890.024 -        0   49890.770 -        0   50072.852 -        0
+mtMet+R3         -24993.670   50049.341 -        0   50050.087 -        0   50232.169 -        0
+mtREV+R3         -25096.144   50254.288 -        0   50255.034 -        0   50437.116 -        0
+mtInv+R3         -25169.173   50400.346 -        0   50401.093 -        0   50583.174 -        0
+mtART+R3         -25182.900   50427.800 -        0   50428.546 -        0   50610.628 -        0
+mtVer+R3         -25291.717   50645.433 -        0   50646.179 -        0   50828.261 -        0
+mtMAM+R3         -25363.090   50788.180 -        0   50788.926 -        0   50971.007 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R3
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0548
+  pi(R) = 0.0456
+  pi(N) = 0.0575
+  pi(D) = 0.0646
+  pi(C) = 0.0230
+  pi(Q) = 0.0325
+  pi(E) = 0.0503
+  pi(G) = 0.0418
+  pi(H) = 0.0276
+  pi(I) = 0.0736
+  pi(L) = 0.0825
+  pi(K) = 0.0660
+  pi(M) = 0.0213
+  pi(F) = 0.0419
+  pi(P) = 0.0411
+  pi(S) = 0.0815
+  pi(T) = 0.0603
+  pi(W) = 0.0058
+  pi(Y) = 0.0459
+  pi(V) = 0.0824
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.4221,0.1957) (0.4535,0.9024) (0.1245,4.0831)
+
+ Category  Relative_rate  Proportion
+  1         0.1957         0.4221
+  2         0.9024         0.4535
+  3         4.0831         0.1245
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -23705.6609 (s.e. 225.2984)
+Unconstrained log-likelihood (without tree): -19626.9672
+Number of free parameters (#branches + #model parameters): 50
+Akaike information criterion (AIC) score: 47511.3218
+Corrected Akaike information criterion (AICc) score: 47513.2536
+Bayesian information criterion (BIC) score: 47806.2052
+
+Total tree length (sum of branch lengths): 4.9072
+Sum of internal branch lengths: 1.8745 (38.1983% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'OL700120_XiangYun_hepe-virga-like_virus_7' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                    +--Undsholming_virus_F1359C1F1359
+                 +--| (100)
+                 |  +--Undsholming_virus_F1359C1F1018
+              +--| (100)
+              |  +--Saljeroized_virus_F1018C1F1018
+        +-----| (100)
+        |     |  +--Verstrife_virus_F1359C2F1018
+        |     +--| (100)
+        |        +--Verstrife_virus_F1359C2F1359
++-------| (100)
+|       |           +**KX883774_Hubei_virga-like_virus_23
+|       |        +--| (92)
+|       |        |  +**NC_033174_Hubei_virga-like_virus_23
+|       |     +--| (100)
+|       |     |  +**MW452293_Riboviria_sp_
+|       +-----| (100)
+|             +--OL700071_Hubei_virga-like_virus_23
+|
+|              +--MW452294_Riboviria_sp_
+|           +--| (96)
+|           |  +--MK440650_Rinkaby_virus
+|        +--| (96)
+|        |  +**OP264894_Rinkaby_virus
++--------| (100)
+|        |  +--Gracties_virus_F1049C1F1608
+|        +--| (99)
+|           +--Gracties_virus_F1049C1F1049
+|
++-----------------------------------------------------------OL700120_XiangYun_hepe-virga-like_virus_7
+
+Tree in newick format:
+
+(((((Undsholming_virus_F1359C1F1359:0.0052146508,Undsholming_virus_F1359C1F1018:0.0057985418)100:0.0870624362,Saljeroized_virus_F1018C1F1018:0.0781272420)100:0.0523703551,(Verstrife_virus_F1359C2F1018:0.0074697678,Verstrife_virus_F1359C2F1359:0.0073411516)100:0.0915601816)100:0.2861038736,(((KX883774_Hubei_virga-like_virus_23:0.0000011615,NC_033174_Hubei_virga-like_virus_23:0.0000011615)92:0.0011040808,MW452293_Riboviria_sp_:0.0000025990)100:0.0437825480,OL700071_Hubei_virga-like_virus_23:0.0499602220)100:0.3134430175)100:0.4108953932,(((MW452294_Riboviria_sp_:0.0148321090,MK440650_Rinkaby_virus:0.0084974972)96:0.0085496537,OP264894_Rinkaby_virus:0.0000011615)96:0.0607720915,(Gracties_virus_F1049C1F1608:0.0016430339,Gracties_virus_F1049C1F1049:0.0041216741)99:0.0755407135)100:0.4443900951,OL700120_XiangYun_hepe-virga-like_virus_7:2.8486253957);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -23705.667870
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                    +--Undsholming_virus_F1359C1F1359
+                 +--| (100)
+                 |  +--Undsholming_virus_F1359C1F1018
+              +--| (100)
+              |  +--Saljeroized_virus_F1018C1F1018
+        +-----| (100)
+        |     |  +--Verstrife_virus_F1359C2F1018
+        |     +--| (100)
+        |        +--Verstrife_virus_F1359C2F1359
++-------| (100)
+|       |           +--KX883774_Hubei_virga-like_virus_23
+|       |        +--| (92)
+|       |        |  +--NC_033174_Hubei_virga-like_virus_23
+|       |     +--| (100)
+|       |     |  +--MW452293_Riboviria_sp_
+|       +-----| (100)
+|             +--OL700071_Hubei_virga-like_virus_23
+|
+|              +--MW452294_Riboviria_sp_
+|           +--| (96)
+|           |  +--MK440650_Rinkaby_virus
+|        +--| (96)
+|        |  +--OP264894_Rinkaby_virus
++--------| (100)
+|        |  +--Gracties_virus_F1049C1F1608
+|        +--| (99)
+|           +--Gracties_virus_F1049C1F1049
+|
++-----------------------------------------------------------OL700120_XiangYun_hepe-virga-like_virus_7
+
+
+Consensus tree in newick format: 
+
+(((((Undsholming_virus_F1359C1F1359:0.0052148168,Undsholming_virus_F1359C1F1018:0.0057923335)100:0.0870117179,Saljeroized_virus_F1018C1F1018:0.0780696438)100:0.0523929423,(Verstrife_virus_F1359C2F1018:0.0074709416,Verstrife_virus_F1359C2F1359:0.0073347973)100:0.0914754715)100:0.2869367170,(((KX883774_Hubei_virga-like_virus_23:0.0000024483,NC_033174_Hubei_virga-like_virus_23:0.0000024483)92:0.0011037838,MW452293_Riboviria_sp_:0.0000025270)100:0.0437526350,OL700071_Hubei_virga-like_virus_23:0.0499923030)100:0.3124280055)100:0.4130081085,(((MW452294_Riboviria_sp_:0.0148314400,MK440650_Rinkaby_virus:0.0084975475)96:0.0085496248,OP264894_Rinkaby_virus:0.0000020890)96:0.0606853061,(Gracties_virus_F1049C1F1608:0.0016504030,Gracties_virus_F1049C1F1049:0.0041134700)99:0.0756629464)100:0.4429299154,OL700120_XiangYun_hepe-virga-like_virus_7:2.8467984274);
+
+TIME STAMP
+----------
+
+Date and time: Wed Jan 25 12:49:00 2023
+Total CPU time used: 526.13364 seconds (0h:8m:46s)
+Total wall-clock time used: 16.76199034 seconds (0h:0m:16s)
+

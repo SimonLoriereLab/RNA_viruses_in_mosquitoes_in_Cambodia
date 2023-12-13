@@ -1,0 +1,238 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=136;
+	taxlabels
+	BK059432_Aedes_orthomyxo-like_virus_2
+	Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058[&!color=#cc5200]
+	Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059[&!color=#cc5200]
+	Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062[&!color=#cc5200]
+	Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065[&!color=#cc5200]
+	Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067[&!color=#cc5200]
+	Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068[&!color=#cc5200]
+	KM817615_Jingshan_Fly_Virus_1
+	KM817617_Sanxia_Water_Strider_Virus_3
+	KM817619_Shuangao_Insect_Virus_4
+	KM817620_Wuhan_Louse_Fly_Virus_3
+	KM817621_Wuhan_Louse_Fly_Virus_4
+	KM817622_Wuhan_Mosquito_Virus_3
+	KM817623_Wuhan_Mosquito_Virus_4
+	KM817624_Wuhan_Mosquito_Virus_5
+	KM817625_Wuhan_Mosquito_Virus_6
+	KM817626_Wuhan_Mosquito_Virus_7
+	KM817627_Wuhan_Mothfly_Virus
+	KX883844_Beihai_orthomyxo-like_virus_1
+	KX883858_Hubei_earwig_virus_1
+	KX883873_Hubei_orthomyxo-like_virus_1
+	KX883882_Hubei_earwig_virus_1
+	KX898491_Whidbey_virus
+	MF176249_Wuhan_Mosquito_Virus_6
+	MF176271_Wuhan_Mosquito_Virus_6
+	MF176320_Wuhan_Mosquito_Virus_6
+	MF176325_Aedes_alboannulatus_orthomyxo-like_virus
+	MF176360_Wuhan_Mosquito_Virus_6
+	MG972988_Photinus_pyralis_orthomyxo-like_virus_1
+	MG972993_Photinus_pyralis_orthomyxo-like_virus_2
+	MK026596_Old_quarry_swamp_virus
+	MK440637_Wuhan_Mosquito_Virus_4
+	MK440648_Wuhan_Mosquito_Virus_6
+	MN053836_Guadeloupe_mosquito_quaranja-like_virus_3
+	MN053837_Guadeloupe_mosquito_quaranja-like_virus_2
+	MN053838_Guadeloupe_mosquito_quaranja-like_virus_1
+	MN167480_Lestrade_virus
+	MN513372_Culex_orthomyxo-like_virus
+	MN830237_Uumaja_virus
+	MT129718_Splett_orthomyxo-like_virus
+	MT129719_Splett_orthomyxo-like_virus
+	MT153296_Hymenopteran_orthomyxo-related_virus_OKIAV173
+	MT153375_Hemipteran_orthomyxo-related_virus_OKIAV183
+	MT153392_Coleopteran_orthomyxo-related_virus_OKIAV200
+	MT153412_Coleopteran_orthomyxo-related_virus_OKIAV158
+	MT153419_Hemipteran_orthomyxo-related_virus_OKIAV191
+	MT153421_Phasmatodean_orthomyxo-related_virus_OKIAV167
+	MT153423_Lepidopteran_orthomyxo-related_virus_OKIAV1731
+	MT153448_Dipteran_orthomyxo-related_virus_OKIAV195
+	MT153452_Coleopteran_orthomyxo-related_virus_OKIAV186
+	MT153463_Phasmatodean_orthomyxo-related_virus_OKIAV172
+	MT153481_Dipteran_orthomyxo-related_virus_OKIAV193
+	MT153484_Lepidopteran_orthomyxo-related_virus_OKIAV178
+	MT153485_Hemipteran_orthomyxo-related_virus_OKIAV188
+	MT153496_Siphonapteran_orthomyxo-related_virus_OKIAV157
+	MT153531_Coleopteran_orthomyxo-related_virus_OKIAV184
+	MT153534_Coleopteran_orthomyxo-related_virus_OKIAV179
+	MT153541_Blattodean_orthomyxo-related_virus_OKIAV181
+	MT153548_Dermapteran_orthomyxo-related_virus_OKIAV170
+	MT153551_Hemipteran_orthomyxo-related_virus_OKIAV182
+	MW033635_Soybean_thrips_quaranja-like_virus_1
+	'MW199253_Orthomyxoviridae_sp.'
+	MW288163_Neuropteran_orthomyxo-related_virus_OKIAV190[&!color=#000000]
+	MW288202_Raphidiopteran_orthomyxo-related_virus_OKIAV180
+	MW288205_Hemipteran_orthomyxo-related_virus_OKIAV187
+	MW288219_Hymenopteran_orthomyxo-related_virus_OKIAV175
+	MW288220_Hymenopteran_orthomyxo-related_virus_OKIAV171
+	MW288228_Hymenopteran_orthomyxo-related_virus_OKIAV174
+	MW310365_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bl
+	MW310389_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bz
+	'MW317143_Orthomyxoviridae_sp.'
+	MW434228_Astopletus_virus
+	MW434229_Astopletus_virus
+	MW434249_Guadeloupe_mosquito_quaranja-like_virus_1
+	MW434314_Usinis_virus
+	MW434320_Usinis_virus
+	MW434421_Wuhan_Mosquito_Virus_6
+	MW434422_Wuhan_Mosquito_Virus_6
+	MW434423_Wuhan_Mosquito_Virus_6
+	MW434424_Wuhan_Mosquito_Virus_6
+	MW434425_Wuhan_Mosquito_Virus_6
+	MW434426_Wuhan_Mosquito_Virus_6
+	MW434428_Wuhan_Mosquito_Virus_6
+	MW434429_Wuhan_Mosquito_Virus_6
+	MW434430_Wuhan_Mosquito_Virus_6
+	MW434431_Wuhan_Mosquito_Virus_6
+	MW434432_Wuhan_Mosquito_Virus_6
+	MW452276_Wuhan_Mosquito_Virus_5
+	MW452277_Wuhan_Mosquito_Virus_6
+	MW520417_Aedes_detritus_orthomyxo-like_virus
+	MW520421_Culex_modestus_orthomyxo-like_virus
+	MW520424_Culex_pipiens_orthomyxo-like_virus
+	MW784015_Xinjiang_sediment_orthomyxo-like_virus_4
+	MW784019_Xinjiang_sediment_orthomyxo-like_virus_5
+	MW784025_Henan_sediment_orthomyxo-like_virus
+	MW784026_Xinjiang_sediment_orthomyxo-like_virus_2
+	MW784029_Heilongjiang_sediment_orthomyxo-like_virus
+	MW784032_Yunnan_sediment_orthomyxo-like_virus
+	MW784037_Hainan_orthomyxo-like_virus_2[&!color=#0047cc]
+	MW784037_Hainan_orthomyxo-like_virus_2_0001
+	NC_052931_Quaranjavirus_johnstonense
+	OL343761_Palmetto_orthomyxo-like_virus
+	OL700086_Wuhan_Mosquito_Virus_3
+	OL700087_Wuhan_Mosquito_Virus_4
+	OL700088_Wuhan_Mosquito_Virus_4
+	OL700089_Wuhan_Mosquito_Virus_5
+	OL700090_Wuhan_Mosquito_Virus_6
+	OL700153_XiangYun_orthomyxo-like_virus_1
+	OL700154_XiangYun_orthomyxo-like_virus_2
+	OL700156_XiangYun_orthomyxo-like_virus_4
+	OL700157_XiangYun_orthomyxo-like_virus_5
+	'OM405131_Quaranjavirus_sp.'
+	OM650310_Halyomorpha_halys_orthomyxo-like_virus_1
+	OM817558_Wuhan_Mosquito_Virus_6
+	ON059763_Byreldi_virus
+	ON059769_Byreska_virus
+	ON746456_Yanbian_Ortho_tick_virus_1
+	ON860461_Tierp_virus
+	ON860462_Husby_virus
+	ON872578_Bat_faecal_associated_orthomyxo-like_virus_1
+	'ON872624_Orthomyxoviridae_sp.'
+	Pageromars_virus_F1413C102F1245[&!color=#cc5200]
+	Pageromars_virus_F1413C102F1413[&!color=#cc5200]
+	Panessemat_virus_F1398C269F1230[&!color=#cc5200]
+	Panessemat_virus_F1398C269F1387[&!color=#cc5200]
+	Panessemat_virus_F1398C269F1396[&!color=#cc5200]
+	Panessemat_virus_F1398C269F1398[&!color=#cc5200]
+	Panessemat_virus_F1398C269F1540[&!color=#cc5200]
+	Panessemat_virus_F1398C269F1551[&!color=#cc5200]
+	Spoisillett_virus_F1019C753F1019[&!color=#cc5200]
+	Usinis_virus_F1083C108F1083[&!color=#cc5200]
+	Usinis_virus_F1083C108F1515[&!color=#cc5200]
+	Wuhan_Mosquito_Virus_6_F1115C44F1115[&!color=#cc5200]
+	Wuhan_Mosquito_Virus_6_F1115C44F1120[&!color=#cc5200]
+	Wuhan_Mosquito_Virus_6_F1115C44F1422[&!color=#cc5200]
+	Wuhan_Mosquito_Virus_6_F1115C44F1576[&!color=#cc5200]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((MW288163_Neuropteran_orthomyxo-related_virus_OKIAV190:0.390364,(MT153419_Hemipteran_orthomyxo-related_virus_OKIAV191:0.165342,OM650310_Halyomorpha_halys_orthomyxo-like_virus_1:0.099789)[&label=1.0]:0.365934)[&label=1.0]:0.269697,((((OL700157_XiangYun_orthomyxo-like_virus_5[&!color=#cc5200]:0.768332,((MW784025_Henan_sediment_orthomyxo-like_virus[&!color=#cc5200]:0.303595,(MW784026_Xinjiang_sediment_orthomyxo-like_virus_2[&!color=#cc5200]:0.263924,(OL700153_XiangYun_orthomyxo-like_virus_1[&!color=#cc5200]:0.005871,MW784029_Heilongjiang_sediment_orthomyxo-like_virus[&!color=#cc5200]:0.038451)[&label=0.985,!color=#cc5200]:0.106707)[&label=0.99,!color=#cc5200]:0.134844)[&label=1.0,!color=#cc5200]:0.432949,(MW784015_Xinjiang_sediment_orthomyxo-like_virus_4[&!color=#cc5200]:0.265386,(MW784032_Yunnan_sediment_orthomyxo-like_virus[&!color=#cc5200]:0.175341,OL700156_XiangYun_orthomyxo-like_virus_4[&!color=#cc5200]:0.190523)[&label=0.999,!color=#cc5200]:0.18812)[&label=1.0,!color=#cc5200]:0.354741)[&label=0.884,!color=#cc5200]:0.08375)[&label=0.908,!color=#cc5200]:0.087372,(((((OL700089_Wuhan_Mosquito_Virus_5[&!color=#cc5200]:3.43E-4,(MW452276_Wuhan_Mosquito_Virus_5[&!color=#cc5200]:0.0,KM817624_Wuhan_Mosquito_Virus_5[&!color=#cc5200]:0.003866)[&label=0.78,!color=#cc5200]:0.002268)[&label=1.0,!color=#cc5200]:0.352466,(MF176325_Aedes_alboannulatus_orthomyxo-like_virus[&!color=#cc5200]:0.233188,(MN053837_Guadeloupe_mosquito_quaranja-like_virus_2[&!color=#cc5200]:0.348178,(BK059432_Aedes_orthomyxo-like_virus_2[&!color=#cc5200]:0.124134,(((((Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1067[&!color=#cc5200]:0.001285,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1065[&!color=#cc5200]:0.0)[&label=0.735,!color=#cc5200]:0.0,((Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1068[&!color=#cc5200]:0.0,(Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1059[&!color=#cc5200]:0.0,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1062[&!color=#cc5200]:0.002573)[&label=0.75,!color=#cc5200]:0.0)[&label=0.0,!color=#cc5200]:0.0,Guadeloupe_mosquito_quaranja_like_virus_1_F1058C389F1058[&!color=#cc5200]:0.0)[&label=0.0,!color=#cc5200]:0.0)[&label=0.814,!color=#cc5200]:0.001313,(MW434249_Guadeloupe_mosquito_quaranja-like_virus_1[&!color=#cc5200]:0.0,OL343761_Palmetto_orthomyxo-like_virus[&!color=#cc5200]:0.002572)[&label=0.924,!color=#cc5200]:0.003831)[&label=0.487,!color=#cc5200]:2.1E-5,MN053838_Guadeloupe_mosquito_quaranja-like_virus_1[&!color=#cc5200]:0.0045)[&label=1.0,!color=#cc5200]:0.069244,((Panessemat_virus_F1398C269F1551[&!color=#cc5200]:0.0,((Panessemat_virus_F1398C269F1387[&!color=#cc5200]:0.0,Panessemat_virus_F1398C269F1396[&!color=#cc5200]:0.0)[&!color=#cc5200]:0.0,(Panessemat_virus_F1398C269F1398[&!color=#cc5200]:0.0,(Panessemat_virus_F1398C269F1540[&!color=#cc5200]:0.001282,Panessemat_virus_F1398C269F1230[&!color=#cc5200]:0.0)[&label=0.201,!color=#cc5200]:3.0E-6)[&label=0.95,!color=#cc5200]:0.002558)[&label=0.29,!color=#cc5200]:0.001277)[&label=1.0,!color=#cc5200]:0.075221,(MW520417_Aedes_detritus_orthomyxo-like_virus[&!color=#cc5200]:0.06641,KX898491_Whidbey_virus[&!color=#cc5200]:0.039158)[&label=1.0,!color=#cc5200]:0.061681)[&label=0.976,!color=#cc5200]:0.036667)[&label=0.969,!color=#cc5200]:0.050856)[&label=1.0,!color=#cc5200]:0.24886)[&label=0.72,!color=#cc5200]:0.061819)[&label=0.965,!color=#cc5200]:0.100005)[&label=1.0,!color=#cc5200]:0.161016,(ON059763_Byreldi_virus[&!color=#cc5200]:0.359376,((KM817622_Wuhan_Mosquito_Virus_3[&!color=#cc5200]:9.68E-4,OL700086_Wuhan_Mosquito_Virus_3[&!color=#cc5200]:0.001609)[&label=1.0,!color=#cc5200]:0.327858,(MW434228_Astopletus_virus[&!color=#cc5200]:0.00129,MW434229_Astopletus_virus[&!color=#cc5200]:0.0)[&label=1.0,!color=#cc5200]:0.379881)[&label=0.999,!color=#cc5200]:0.192182)[&label=0.799,!color=#cc5200]:0.077784)[&label=0.999,!color=#cc5200]:0.157173,(KM817619_Shuangao_Insect_Virus_4[&!color=#cc5200]:0.42787,(KM817617_Sanxia_Water_Strider_Virus_3[&!color=#cc5200]:0.745,(MT153481_Dipteran_orthomyxo-related_virus_OKIAV193[&!color=#cc5200]:0.444233,((KM817620_Wuhan_Louse_Fly_Virus_3[&!color=#cc5200]:0.075602,(KM817621_Wuhan_Louse_Fly_Virus_4[&!color=#cc5200]:0.05744,'MW199253_Orthomyxoviridae_sp.'[&!color=#cc5200]:0.02006)[&label=0.999,!color=#cc5200]:0.080514)[&label=1.0,!color=#cc5200]:0.26737,((MT129718_Splett_orthomyxo-like_virus[&!color=#cc5200]:0.001573,MT129719_Splett_orthomyxo-like_virus[&!color=#cc5200]:9.54E-4)[&label=1.0,!color=#cc5200]:0.287217,(KM817615_Jingshan_Fly_Virus_1[&!color=#cc5200]:0.203973,MT153448_Dipteran_orthomyxo-related_virus_OKIAV195[&!color=#cc5200]:0.247268)[&label=0.954,!color=#cc5200]:0.057278)[&label=0.695,!color=#cc5200]:0.060209)[&label=0.992,!color=#cc5200]:0.080743)[&label=0.877,!color=#cc5200]:0.02747)[&label=0.494,!color=#cc5200]:0.038106)[&label=0.956,!color=#cc5200]:0.076728)[&label=0.696,!color=#cc5200]:0.066423,((ON860461_Tierp_virus[&!color=#cc5200]:0.407018,((OL700154_XiangYun_orthomyxo-like_virus_2[&!color=#cc5200]:0.152753,(((MW434432_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.001298,(((((MW434422_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.001298,MW434426_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.002601)[&label=0.4,!color=#cc5200]:0.0,(MW434431_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.005204,OM817558_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0)[&label=0.0,!color=#cc5200]:0.0)[&label=1.0,!color=#cc5200]:0.0,(MW434423_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0,MW434430_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.001297)[&label=0.842,!color=#cc5200]:0.001299)[&label=0.0,!color=#cc5200]:0.0,MW434425_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.002605)[&label=0.0,!color=#cc5200]:0.0,(MW434421_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.001299,MW434428_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0)[&label=0.0,!color=#cc5200]:0.0)[&label=0.0,!color=#cc5200]:0.0)[&label=0.861,!color=#cc5200]:0.0013,(((((MF176249_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.001301,(MF176271_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0,MF176320_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0,MF176360_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0)[&!color=#cc5200]:0.0)[&label=0.755,!color=#cc5200]:0.001271,MK440648_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.011879)[&label=0.855,!color=#cc5200]:0.002638,Wuhan_Mosquito_Virus_6_F1115C44F1120[&!color=#cc5200]:0.002106)[&label=0.736,!color=#cc5200]:0.0,((MW452277_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0,KM817625_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.001302)[&label=0.0,!color=#cc5200]:0.0,((OL700090_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.003906,((Wuhan_Mosquito_Virus_6_F1115C44F1115[&!color=#cc5200]:0.0,Wuhan_Mosquito_Virus_6_F1115C44F1576[&!color=#cc5200]:0.0)[&!color=#cc5200]:0.0,Wuhan_Mosquito_Virus_6_F1115C44F1422[&!color=#cc5200]:0.0)[&label=0.838,!color=#cc5200]:0.0013)[&label=0.0,!color=#cc5200]:0.0,MW520424_Culex_pipiens_orthomyxo-like_virus[&!color=#cc5200]:0.002606)[&label=0.0,!color=#cc5200]:0.0)[&label=0.0,!color=#cc5200]:0.0)[&label=0.917,!color=#cc5200]:0.002602,MW434424_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.001301)[&label=0.0,!color=#cc5200]:0.0)[&label=0.774,!color=#cc5200]:0.001299,MW434429_Wuhan_Mosquito_Virus_6[&!color=#cc5200]:0.0)[&label=1.0,!color=#cc5200]:0.125408)[&label=1.0,!color=#cc5200]:0.325346,(Spoisillett_virus_F1019C753F1019[&!color=#cc5200]:0.224198,((MW434314_Usinis_virus[&!color=#cc5200]:0.0,MW434320_Usinis_virus[&!color=#cc5200]:0.001301)[&label=0.622,!color=#cc5200]:0.001174,(Usinis_virus_F1083C108F1515[&!color=#cc5200]:0.0,Usinis_virus_F1083C108F1083[&!color=#cc5200]:0.001301)[&label=0.61,!color=#cc5200]:0.001435)[&label=1.0,!color=#cc5200]:0.258271)[&label=1.0,!color=#cc5200]:0.147484)[&label=0.996,!color=#cc5200]:0.12777)[&label=0.998,!color=#cc5200]:0.16774,((MN053836_Guadeloupe_mosquito_quaranja-like_virus_3[&!color=#cc5200]:0.31266,(('MW317143_Orthomyxoviridae_sp.'[&!color=#cc5200]:0.009929,(Pageromars_virus_F1413C102F1245[&!color=#cc5200]:0.0,Pageromars_virus_F1413C102F1413[&!color=#cc5200]:0.003785)[&label=0.865,!color=#cc5200]:0.008052)[&label=0.997,!color=#cc5200]:0.062628,((MK440637_Wuhan_Mosquito_Virus_4[&!color=#cc5200]:0.004154,(MN513372_Culex_orthomyxo-like_virus[&!color=#cc5200]:0.01392,MW520421_Culex_modestus_orthomyxo-like_virus[&!color=#cc5200]:0.025293)[&label=0.997,!color=#cc5200]:0.019808)[&label=0.224,!color=#cc5200]:0.009741,(OL700088_Wuhan_Mosquito_Virus_4[&!color=#cc5200]:0.001302,(OL700087_Wuhan_Mosquito_Virus_4[&!color=#cc5200]:0.0,KM817623_Wuhan_Mosquito_Virus_4[&!color=#cc5200]:0.0)[&!color=#cc5200]:0.0)[&label=0.649,!color=#cc5200]:0.001157)[&label=0.988,!color=#cc5200]:0.044262)[&label=1.0,!color=#cc5200]:0.244467)[&label=1.0,!color=#cc5200]:0.168373,(ON860462_Husby_virus[&!color=#cc5200]:0.535815,ON059769_Byreska_virus[&!color=#cc5200]:0.359941)[&label=0.269,!color=#cc5200]:0.051744)[&label=0.377,!color=#cc5200]:0.057053)[&label=1.0,!color=#cc5200]:0.485635)[&label=0.808,!color=#cc5200]:0.048605)[&label=0.266,!color=#cc5200]:0.046458,MW784019_Xinjiang_sediment_orthomyxo-like_virus_5[&!color=#cc5200]:0.628743)[&label=1.0,!color=#cc5200]:0.153199,(MW784037_Hainan_orthomyxo-like_virus_2:0.0,MW784037_Hainan_orthomyxo-like_virus_2_0001:0.0):1.143034)[&label=0.916]:0.077303)[&label=0.145]:0.059887,(MW288205_Hemipteran_orthomyxo-related_virus_OKIAV187:0.542279,(MT153485_Hemipteran_orthomyxo-related_virus_OKIAV188:0.158906,ON872578_Bat_faecal_associated_orthomyxo-like_virus_1:0.13808)[&label=1.0]:0.404289)[&label=1.0]:0.376962,(((MW310365_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bl:0.02474,MW310389_Bactrocera_correcta_orthomyxo-like_virus_isolate_Bz:0.007266)[&label=1.0]:0.766979,(KM817626_Wuhan_Mosquito_Virus_7:0.591538,MT153392_Coleopteran_orthomyxo-related_virus_OKIAV200:0.665537)[&label=0.999]:0.308262)[&label=1.0]:0.452026,(((MT153412_Coleopteran_orthomyxo-related_virus_OKIAV158:0.41868,(MN167480_Lestrade_virus:0.166823,MT153496_Siphonapteran_orthomyxo-related_virus_OKIAV157:0.126544)[&label=1.0]:0.401716)[&label=1.0]:0.291642,(((KX883882_Hubei_earwig_virus_1:0.0,KX883858_Hubei_earwig_virus_1:0.0)[&label=1.0]:0.672645,(MW033635_Soybean_thrips_quaranja-like_virus_1:0.644276,((KM817627_Wuhan_Mothfly_Virus:0.18592,MK026596_Old_quarry_swamp_virus:0.255666)[&label=1.0]:0.368346,((MT153463_Phasmatodean_orthomyxo-related_virus_OKIAV172:0.200318,MT153296_Hymenopteran_orthomyxo-related_virus_OKIAV173:0.102948)[&label=1.0]:0.147354,(MW288220_Hymenopteran_orthomyxo-related_virus_OKIAV171:0.297503,(MW288219_Hymenopteran_orthomyxo-related_virus_OKIAV175:0.267882,MW288228_Hymenopteran_orthomyxo-related_virus_OKIAV174:0.209499)[&label=0.989]:0.106016)[&label=0.992]:0.085935)[&label=0.78]:0.080756)[&label=0.829]:0.079128)[&label=0.36]:0.067495)[&label=0.976]:0.099988,((MT153541_Blattodean_orthomyxo-related_virus_OKIAV181:0.50566,(MW288202_Raphidiopteran_orthomyxo-related_virus_OKIAV180:0.349453,MG972988_Photinus_pyralis_orthomyxo-like_virus_1:0.338616)[&label=1.0]:0.216358)[&label=0.354]:0.061817,(((((MG972993_Photinus_pyralis_orthomyxo-like_virus_2:0.479492,(MT153375_Hemipteran_orthomyxo-related_virus_OKIAV183:0.370183,MT153551_Hemipteran_orthomyxo-related_virus_OKIAV182:0.456614)[&label=0.997]:0.108646)[&label=0.378]:0.02617,MT153452_Coleopteran_orthomyxo-related_virus_OKIAV186:0.424917)[&label=0.553]:0.051519,MT153531_Coleopteran_orthomyxo-related_virus_OKIAV184:0.467811)[&label=0.098]:0.049132,(MT153534_Coleopteran_orthomyxo-related_virus_OKIAV179:0.600837,(MT153484_Lepidopteran_orthomyxo-related_virus_OKIAV178:0.169184,(KX883873_Hubei_orthomyxo-like_virus_1:0.151144,MT153423_Lepidopteran_orthomyxo-related_virus_OKIAV1731:0.173623)[&label=0.44]:0.083422)[&label=1.0]:0.4328)[&label=0.989]:0.125373)[&label=0.516]:0.054381,MT153548_Dermapteran_orthomyxo-related_virus_OKIAV170:0.857918)[&label=0.563]:0.056327)[&label=0.991]:0.100441)[&label=0.651]:0.05513)[&label=0.993]:0.100301,(MT153421_Phasmatodean_orthomyxo-related_virus_OKIAV167:0.826363,(KX883844_Beihai_orthomyxo-like_virus_1:0.786254,(NC_052931_Quaranjavirus_johnstonense:0.529479,(MN830237_Uumaja_virus:0.339966,('OM405131_Quaranjavirus_sp.':0.109134,(ON746456_Yanbian_Ortho_tick_virus_1:0.0,'ON872624_Orthomyxoviridae_sp.':0.001333)[&label=1.0]:0.132564)[&label=1.0]:0.324771)[&label=0.998]:0.238812)[&label=1.0]:0.312615)[&label=1.0]:0.352118)[&label=0.456]:0.061788)[&label=0.658]:0.050735)[&label=0.968]:0.086347);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

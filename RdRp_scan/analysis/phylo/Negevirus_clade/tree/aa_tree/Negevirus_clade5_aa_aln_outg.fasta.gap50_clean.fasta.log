@@ -1,0 +1,442 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1069 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o MH614308_Bombus-associated_virus_Vir1
+Seed:    886622 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jan 25 12:46:52 2023
+Kernel:  AVX+FMA - auto-detect threads (47 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 43 sequences with 332 columns, 330 distinct patterns
+119 parsimony-informative, 75 singleton sites, 138 constant sites
+                                                       Gap/Ambiguity  Composition  p-value
+   1  Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058     0.30%    passed     99.89%
+   2  Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059     0.30%    passed     99.89%
+   3  Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1061     0.30%    passed     99.89%
+   4  LC496783_Aedes_aegypti_virga-like_virus                  9.94%    passed     99.96%
+   5  BK059499_Aedes_binegev-like_virus_1                      9.94%    passed     99.93%
+   6  MZ556107_Orbis_virgavirus                               94.88%    passed     18.42%
+   7  Aedes_binegev_like_virus_2_subsp1_F1015C34F1013          0.30%    passed     99.97%
+   8  Aedes_binegev_like_virus_2_subsp1_F1015C34F1015          0.30%    passed     99.97%
+   9  Aedes_binegev_like_virus_2_subsp1_F1015C34F1508          0.30%    passed     99.97%
+  10  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1161    2.41%    passed    100.00%
+  11  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1517    6.02%    passed    100.00%
+  12  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1514   59.34%    passed     21.37%
+  13  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1508   10.84%    passed    100.00%
+  14  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1003   29.82%    passed     99.95%
+  15  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1341   43.07%    passed     98.83%
+  16  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1519   45.18%    passed     92.75%
+  17  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1513   54.82%    passed     99.41%
+  18  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1079    1.51%    passed     99.99%
+  19  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1017   34.94%    passed     87.05%
+  20  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1520   11.45%    passed     99.78%
+  21  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1521   53.01%    passed     67.60%
+  22  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1518   47.29%    passed     89.27%
+  23  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1083   61.75%    passed     51.05%
+  24  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1168   15.06%    passed     98.96%
+  25  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1509   15.66%    passed     99.88%
+  26  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1014    9.94%    passed     99.98%
+  27  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1004    1.20%    passed    100.00%
+  28  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1076   20.48%    passed     99.66%
+  29  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1165   53.31%    passed     23.65%
+  30  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1016   21.08%    passed     99.86%
+  31  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1511   78.61%    passed     42.40%
+  32  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1352   86.14%    passed     75.40%
+  33  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1013   32.53%    passed     91.76%
+  34  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1005   30.12%    passed     97.86%
+  35  Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1009   54.52%    passed     73.27%
+  36  BK059488_Aedes_binegev-like_virus_2                      9.94%    passed     99.97%
+  37  Aedes_binegev_like_virus_2_subsp1_F1015C34F1014          1.51%    passed     99.94%
+  38  Aedes_binegev_like_virus_2_subsp1_F1015C34F1074          6.63%    passed     99.84%
+  39  Aedes_binegev_like_virus_2_subsp2_F1194C83F1194          0.30%    passed     99.98%
+  40  Aedes_binegev_like_virus_2_subsp1_F1015C34F1006          2.71%    passed     99.96%
+  41  Aedes_binegev_like_virus_2_subsp1_F1015C34F1343          5.12%    passed     99.97%
+  42  Aedes_binegev_like_virus_2_subsp1_F1015C34F1516         32.83%    passed     99.81%
+  43  MH614308_Bombus-associated_virus_Vir1                   48.80%    passed     37.81%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                   25.69%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059 is identical to Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058 but kept for subsequent analysis
+NOTE: Aedes_binegev_like_virus_2_subsp1_F1015C34F1015 is identical to Aedes_binegev_like_virus_2_subsp1_F1015C34F1013 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1061 (identical to Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058) is ignored but added at the end
+NOTE: Aedes_binegev_like_virus_2_subsp1_F1015C34F1508 (identical to Aedes_binegev_like_virus_2_subsp1_F1015C34F1013) is ignored but added at the end
+Alignment was printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Measuring multi-threading efficiency up to 47 CPU cores
+Increase to 10 rounds for branch lengths
+121 trees examined
+Threads: 1 / Time: 47.084 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -5687
+Threads: 2 / Time: 26.175 sec / Speedup: 1.799 / Efficiency: 90% / LogL: -5687
+Threads: 3 / Time: 18.822 sec / Speedup: 2.502 / Efficiency: 83% / LogL: -5687
+Threads: 4 / Time: 15.151 sec / Speedup: 3.108 / Efficiency: 78% / LogL: -5687
+Threads: 5 / Time: 12.232 sec / Speedup: 3.849 / Efficiency: 77% / LogL: -5687
+Threads: 6 / Time: 11.372 sec / Speedup: 4.140 / Efficiency: 69% / LogL: -5687
+Threads: 7 / Time: 10.357 sec / Speedup: 4.546 / Efficiency: 65% / LogL: -5687
+Threads: 8 / Time: 9.388 sec / Speedup: 5.015 / Efficiency: 63% / LogL: -5687
+Threads: 9 / Time: 9.137 sec / Speedup: 5.153 / Efficiency: 57% / LogL: -5687
+Threads: 10 / Time: 8.749 sec / Speedup: 5.382 / Efficiency: 54% / LogL: -5687
+Threads: 11 / Time: 8.257 sec / Speedup: 5.702 / Efficiency: 52% / LogL: -5687
+Threads: 12 / Time: 8.331 sec / Speedup: 5.652 / Efficiency: 47% / LogL: -5687
+BEST NUMBER OF THREADS: 11
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2126.449
+Optimal log-likelihood: -2126.351
+Proportion of invariable sites: 0.185
+Gamma shape alpha: 0.811
+Parameters optimization took 1 rounds (0.047 sec)
+Time for fast ML tree search: 0.240 seconds
+
+NOTE: ModelFinder requires 23 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 332) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            2153.434     79  4464.868     4515.027     4765.474
+  2  LG+I          2132.892     80  4425.784     4477.418     4730.195
+  3  LG+G4         2124.965     80  4409.931     4461.564     4714.341
+  4  LG+I+G4       2126.196     81  4414.391     4467.527     4722.607
+  5  LG+R2         2128.208     81  4418.416     4471.552     4726.632
+  6  LG+R3         2125.900     83  4417.800     4474.026     4733.626
+ 16  LG+F+G4       2112.754     99  4423.507     4508.852     4800.215
+ 17  LG+F+I+G4     2114.123     100 4428.246     4515.692     4808.760
+ 29  WAG+G4        2126.715     80  4413.430     4465.064     4717.841
+ 30  WAG+I+G4      2126.885     81  4415.769     4468.905     4723.985
+ 42  WAG+F+G4      2109.528     99  4417.056     4502.401     4793.764
+ 43  WAG+F+I+G4    2109.918     100 4419.835     4507.281     4800.349
+ 55  JTT+G4        2121.559     80  4403.118     4454.751     4707.528
+ 56  JTT+I+G4      2122.065     81  4406.130     4459.266     4714.346
+ 68  JTT+F+G4      2107.407     99  4412.813     4498.158     4789.522
+ 69  JTT+F+I+G4    2108.162     100 4416.324     4503.770     4796.838
+ 81  JTTDCMut+G4   2121.607     80  4403.214     4454.847     4707.625
+ 82  JTTDCMut+I+G4 2122.186     81  4406.371     4459.507     4714.587
+ 94  JTTDCMut+F+G4 2107.311     99  4412.621     4497.966     4789.330
+ 95  JTTDCMut+F+I+G4 2108.138     100 4416.276     4503.722     4796.790
+107  DCMut+G4      2137.564     80  4435.129     4486.762     4739.540
+108  DCMut+I+G4    2137.992     81  4437.983     4491.119     4746.199
+120  DCMut+F+G4    2111.168     99  4420.336     4505.681     4797.044
+121  DCMut+F+I+G4  2112.041     100 4424.083     4511.529     4804.596
+133  VT+G4         2114.163     80  4388.325     4439.959     4692.736
+134  VT+I+G4       2114.240     81  4390.479     4443.615     4698.695
+146  VT+F+G4       2101.759     99  4401.517     4486.862     4778.226
+147  VT+F+I+G4     2101.976     100 4403.953     4491.399     4784.466
+159  PMB+G4        2118.844     80  4397.687     4449.321     4702.098
+160  PMB+I+G4      2119.095     81  4400.190     4453.326     4708.405
+172  PMB+F+G4      2106.669     99  4411.337     4496.682     4788.046
+173  PMB+F+I+G4    2106.992     100 4413.983     4501.429     4794.497
+185  Blosum62+G4   2126.604     80  4413.208     4464.842     4717.619
+186  Blosum62+I+G4 2127.002     81  4416.003     4469.139     4724.219
+198  Blosum62+F+G4 2110.519     99  4419.038     4504.383     4795.746
+199  Blosum62+F+I+G4 2110.996     100 4421.992     4509.438     4802.505
+211  Dayhoff+G4    2137.786     80  4435.571     4487.205     4739.982
+212  Dayhoff+I+G4  2138.170     81  4438.340     4491.476     4746.556
+224  Dayhoff+F+G4  2111.387     99  4420.775     4506.120     4797.483
+225  Dayhoff+F+I+G4 2112.213     100 4424.426     4511.872     4804.940
+237  mtREV+G4      2201.929     80  4563.858     4615.491     4868.269
+238  mtREV+I+G4    2202.922     81  4567.843     4620.979     4876.059
+250  mtREV+F+G4    2130.348     99  4458.696     4544.041     4835.404
+251  mtREV+F+I+G4  2131.065     100 4462.129     4549.575     4842.643
+263  mtART+G4      2248.914     80  4657.827     4709.461     4962.238
+264  mtART+I+G4    2249.650     81  4661.301     4714.437     4969.517
+276  mtART+F+G4    2159.269     99  4516.539     4601.884     4893.247
+277  mtART+F+I+G4  2159.761     100 4519.522     4606.967     4900.035
+289  mtZOA+G4      2210.710     80  4581.420     4633.053     4885.831
+290  mtZOA+I+G4    2211.386     81  4584.772     4637.908     4892.988
+302  mtZOA+F+G4    2135.958     99  4469.915     4555.260     4846.623
+303  mtZOA+F+I+G4  2136.678     100 4473.355     4560.801     4853.869
+315  mtMet+G4      2215.363     80  4590.726     4642.359     4895.137
+316  mtMet+I+G4    2216.343     81  4594.686     4647.822     4902.902
+328  mtMet+F+G4    2127.319     99  4452.638     4537.983     4829.347
+329  mtMet+F+I+G4  2127.957     100 4455.914     4543.360     4836.427
+341  mtVer+G4      2219.428     80  4598.855     4650.489     4903.266
+342  mtVer+I+G4    2219.967     81  4601.933     4655.069     4910.149
+354  mtVer+F+G4    2135.865     99  4469.730     4555.074     4846.438
+355  mtVer+F+I+G4  2136.122     100 4472.245     4559.691     4852.758
+367  mtInv+G4      2244.437     80  4648.874     4700.507     4953.285
+368  mtInv+I+G4    2245.270     81  4652.541     4705.677     4960.757
+380  mtInv+F+G4    2120.370     99  4438.741     4524.086     4815.449
+381  mtInv+F+I+G4  2121.266     100 4442.532     4529.978     4823.046
+393  mtMAM+G4      2224.179     80  4608.357     4659.991     4912.768
+394  mtMAM+I+G4    2224.824     81  4611.647     4664.783     4919.863
+406  mtMAM+F+G4    2146.066     99  4490.132     4575.477     4866.841
+407  mtMAM+F+I+G4  2146.234     100 4492.469     4579.914     4872.982
+419  HIVb+G4       2149.058     80  4458.115     4509.749     4762.526
+420  HIVb+I+G4     2149.751     81  4461.502     4514.638     4769.718
+432  HIVb+F+G4     2124.363     99  4446.726     4532.071     4823.434
+433  HIVb+F+I+G4   2125.201     100 4450.401     4537.847     4830.915
+445  HIVw+G4       2195.546     80  4551.093     4602.726     4855.504
+446  HIVw+I+G4     2195.870     81  4553.740     4606.876     4861.956
+458  HIVw+F+G4     2141.271     99  4480.542     4565.887     4857.251
+459  HIVw+F+I+G4   2141.544     100 4483.089     4570.535     4863.602
+471  FLU+G4        2155.567     80  4471.134     4522.768     4775.545
+472  FLU+I+G4      2156.128     81  4474.255     4527.391     4782.471
+484  FLU+F+G4      2129.325     99  4456.651     4541.996     4833.359
+485  FLU+F+I+G4    2129.872     100 4459.743     4547.189     4840.257
+497  rtREV+G4      2139.617     80  4439.233     4490.867     4743.644
+498  rtREV+I+G4    2140.232     81  4442.463     4495.599     4750.679
+510  rtREV+F+G4    2122.952     99  4443.904     4529.248     4820.612
+511  rtREV+F+I+G4  2123.916     100 4447.832     4535.278     4828.346
+523  cpREV+G4      2137.762     80  4435.523     4487.157     4739.934
+524  cpREV+I+G4    2138.586     81  4439.173     4492.309     4747.389
+536  cpREV+F+G4    2120.781     99  4439.562     4524.907     4816.271
+537  cpREV+F+I+G4  2121.813     100 4443.627     4531.073     4824.140
+Akaike Information Criterion:           VT+G4
+Corrected Akaike Information Criterion: VT+G4
+Bayesian Information Criterion:         VT+G4
+Best-fit model: VT+G4 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 1037.249 seconds (0h:17m:17s)
+Wall-clock time for ModelFinder: 202.281 seconds (0h:3m:22s)
+Generating 1000 samples for ultrafast bootstrap (seed: 886622)...
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2114.163
+Optimal log-likelihood: -2114.137
+Gamma shape alpha: 0.917
+Parameters optimization took 1 rounds (0.042 sec)
+Computing ML distances based on estimated model parameters... 0.235 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.007 seconds
+Log-likelihood of BIONJ tree: -2182.144
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.321 second
+Computing log-likelihood of 98 initial trees ... 0.800 seconds
+Current best score: -2114.137
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2114.127
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2113.451
+BETTER TREE FOUND at iteration 3: -2113.449
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -2113.381
+Iteration 10 / LogL: -2114.120 / Time: 0h:0m:3s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -2113.351
+Iteration 20 / LogL: -2114.119 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -2113.351 / CPU time: 5.106
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 23: -2113.351
+BETTER TREE FOUND at iteration 27: -2113.351
+BETTER TREE FOUND at iteration 28: -2113.351
+Iteration 30 / LogL: -2118.106 / Time: 0h:0m:7s (0h:0m:24s left)
+Iteration 40 / LogL: -2113.351 / Time: 0h:0m:9s (0h:0m:22s left)
+Iteration 50 / LogL: -2113.351 / Time: 0h:0m:11s (0h:0m:19s left)
+Log-likelihood cutoff on original alignment: -2125.844
+BETTER TREE FOUND at iteration 51: -2113.351
+BETTER TREE FOUND at iteration 53: -2113.350
+Iteration 60 / LogL: -2113.351 / Time: 0h:0m:15s (0h:0m:23s left)
+Iteration 70 / LogL: -2113.350 / Time: 0h:0m:17s (0h:0m:21s left)
+BETTER TREE FOUND at iteration 73: -2113.350
+Iteration 80 / LogL: -2113.352 / Time: 0h:0m:19s (0h:0m:22s left)
+BETTER TREE FOUND at iteration 84: -2113.350
+Iteration 90 / LogL: -2113.351 / Time: 0h:0m:21s (0h:0m:23s left)
+Iteration 100 / LogL: -2113.351 / Time: 0h:0m:24s (0h:0m:20s left)
+Log-likelihood cutoff on original alignment: -2128.087
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.874
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+BETTER TREE FOUND at iteration 105: -2113.350
+BETTER TREE FOUND at iteration 106: -2113.350
+Iteration 110 / LogL: -2114.932 / Time: 0h:0m:26s (0h:0m:23s left)
+Iteration 120 / LogL: -2113.351 / Time: 0h:0m:28s (0h:0m:20s left)
+Iteration 130 / LogL: -2113.351 / Time: 0h:0m:31s (0h:0m:18s left)
+Iteration 140 / LogL: -2113.351 / Time: 0h:0m:33s (0h:0m:16s left)
+Iteration 150 / LogL: -2113.350 / Time: 0h:0m:37s (0h:0m:13s left)
+Log-likelihood cutoff on original alignment: -2129.028
+Iteration 160 / LogL: -2113.350 / Time: 0h:0m:39s (0h:0m:11s left)
+Iteration 170 / LogL: -2113.353 / Time: 0h:0m:42s (0h:0m:9s left)
+Iteration 180 / LogL: -2117.007 / Time: 0h:0m:45s (0h:0m:6s left)
+BETTER TREE FOUND at iteration 186: -2113.350
+Iteration 190 / LogL: -2129.941 / Time: 0h:0m:49s (0h:0m:24s left)
+Iteration 200 / LogL: -2114.789 / Time: 0h:0m:52s (0h:0m:22s left)
+Log-likelihood cutoff on original alignment: -2129.384
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.862
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -2113.350 / Time: 0h:0m:55s (0h:0m:23s left)
+Iteration 220 / LogL: -2113.351 / Time: 0h:0m:57s (0h:0m:21s left)
+BETTER TREE FOUND at iteration 221: -2113.350
+Iteration 230 / LogL: -2113.351 / Time: 0h:1m:1s (0h:0m:24s left)
+BETTER TREE FOUND at iteration 240: -2113.349
+Iteration 240 / LogL: -2113.349 / Time: 0h:1m:5s (0h:0m:27s left)
+Iteration 250 / LogL: -2113.350 / Time: 0h:1m:8s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -2130.147
+BETTER TREE FOUND at iteration 259: -2113.349
+Iteration 260 / LogL: -2113.349 / Time: 0h:1m:11s (0h:0m:27s left)
+BETTER TREE FOUND at iteration 267: -2113.349
+Iteration 270 / LogL: -2113.350 / Time: 0h:1m:13s (0h:0m:26s left)
+Iteration 280 / LogL: -2113.349 / Time: 0h:1m:16s (0h:0m:23s left)
+Iteration 290 / LogL: -2129.942 / Time: 0h:1m:19s (0h:0m:21s left)
+Iteration 300 / LogL: -2113.349 / Time: 0h:1m:21s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -2130.147
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.832
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -2113.352 / Time: 0h:1m:24s (0h:0m:24s left)
+BETTER TREE FOUND at iteration 312: -2113.349
+Iteration 320 / LogL: -2113.350 / Time: 0h:1m:27s (0h:0m:25s left)
+Iteration 330 / LogL: -2113.349 / Time: 0h:1m:30s (0h:0m:22s left)
+Iteration 340 / LogL: -2113.350 / Time: 0h:1m:33s (0h:0m:19s left)
+Iteration 350 / LogL: -2114.933 / Time: 0h:1m:36s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -2130.338
+BETTER TREE FOUND at iteration 352: -2113.349
+BETTER TREE FOUND at iteration 355: -2113.349
+Iteration 360 / LogL: -2113.349 / Time: 0h:1m:40s (0h:0m:26s left)
+BETTER TREE FOUND at iteration 364: -2113.349
+Iteration 370 / LogL: -2113.350 / Time: 0h:1m:43s (0h:0m:26s left)
+BETTER TREE FOUND at iteration 379: -2113.349
+Iteration 380 / LogL: -2113.755 / Time: 0h:1m:46s (0h:0m:27s left)
+Iteration 390 / LogL: -2113.350 / Time: 0h:1m:50s (0h:0m:25s left)
+Iteration 400 / LogL: -2113.350 / Time: 0h:1m:52s (0h:0m:22s left)
+Log-likelihood cutoff on original alignment: -2130.338
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.757
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -2113.351 / Time: 0h:1m:55s (0h:0m:25s left)
+BETTER TREE FOUND at iteration 411: -2113.349
+Iteration 420 / LogL: -2113.349 / Time: 0h:1m:59s (0h:0m:25s left)
+Iteration 430 / LogL: -2113.349 / Time: 0h:2m:2s (0h:0m:23s left)
+Iteration 440 / LogL: -2129.940 / Time: 0h:2m:5s (0h:0m:20s left)
+Iteration 450 / LogL: -2129.940 / Time: 0h:2m:8s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -2131.189
+Iteration 460 / LogL: -2113.349 / Time: 0h:2m:12s (0h:0m:14s left)
+Iteration 470 / LogL: -2114.787 / Time: 0h:2m:15s (0h:0m:11s left)
+Iteration 480 / LogL: -2113.351 / Time: 0h:2m:18s (0h:0m:8s left)
+BETTER TREE FOUND at iteration 486: -2113.349
+Iteration 490 / LogL: -2116.150 / Time: 0h:2m:21s (0h:0m:27s left)
+BETTER TREE FOUND at iteration 492: -2113.349
+BETTER TREE FOUND at iteration 493: -2113.349
+Iteration 500 / LogL: -2113.349 / Time: 0h:2m:24s (0h:0m:26s left)
+Log-likelihood cutoff on original alignment: -2133.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.710
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -2113.350 / Time: 0h:2m:28s (0h:0m:26s left)
+Iteration 520 / LogL: -2113.349 / Time: 0h:2m:30s (0h:0m:23s left)
+Iteration 530 / LogL: -2113.354 / Time: 0h:2m:34s (0h:0m:20s left)
+Iteration 540 / LogL: -2113.349 / Time: 0h:2m:37s (0h:0m:17s left)
+BETTER TREE FOUND at iteration 544: -2113.349
+BETTER TREE FOUND at iteration 549: -2113.349
+Iteration 550 / LogL: -2116.314 / Time: 0h:2m:40s (0h:0m:28s left)
+Log-likelihood cutoff on original alignment: -2134.743
+Iteration 560 / LogL: -2113.349 / Time: 0h:2m:43s (0h:0m:26s left)
+Iteration 570 / LogL: -2113.350 / Time: 0h:2m:47s (0h:0m:23s left)
+BETTER TREE FOUND at iteration 579: -2113.349
+Iteration 580 / LogL: -2113.349 / Time: 0h:2m:50s (0h:0m:29s left)
+Iteration 590 / LogL: -2114.022 / Time: 0h:2m:54s (0h:0m:26s left)
+Iteration 600 / LogL: -2113.350 / Time: 0h:2m:57s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -2134.743
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.840
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -2113.350 / Time: 0h:3m:0s (0h:0m:26s left)
+Iteration 620 / LogL: -2114.023 / Time: 0h:3m:3s (0h:0m:23s left)
+Iteration 630 / LogL: -2113.350 / Time: 0h:3m:6s (0h:0m:20s left)
+Iteration 640 / LogL: -2113.350 / Time: 0h:3m:10s (0h:0m:17s left)
+Iteration 650 / LogL: -2118.105 / Time: 0h:3m:13s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -2134.743
+Iteration 660 / LogL: -2113.350 / Time: 0h:3m:16s (0h:0m:11s left)
+Iteration 670 / LogL: -2113.350 / Time: 0h:3m:18s (0h:0m:8s left)
+Iteration 680 / LogL: -2113.349 / Time: 0h:3m:21s (0h:0m:5s left)
+Iteration 690 / LogL: -2115.742 / Time: 0h:3m:25s (0h:0m:2s left)
+Iteration 700 / LogL: -2113.351 / Time: 0h:3m:27s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2134.931
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.862
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -2113.349 / Time: 0h:3m:31s (0h:0m:26s left)
+Iteration 720 / LogL: -2113.349 / Time: 0h:3m:34s (0h:0m:23s left)
+Iteration 730 / LogL: -2113.350 / Time: 0h:3m:37s (0h:0m:20s left)
+Iteration 740 / LogL: -2113.351 / Time: 0h:3m:40s (0h:0m:17s left)
+Iteration 750 / LogL: -2113.349 / Time: 0h:3m:44s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -2135.553
+Iteration 760 / LogL: -2115.741 / Time: 0h:3m:47s (0h:0m:11s left)
+Iteration 770 / LogL: -2129.941 / Time: 0h:3m:50s (0h:0m:8s left)
+Iteration 780 / LogL: -2113.349 / Time: 0h:3m:53s (0h:0m:6s left)
+Iteration 790 / LogL: -2114.022 / Time: 0h:3m:56s (0h:0m:3s left)
+Iteration 800 / LogL: -2113.349 / Time: 0h:3m:59s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2137.397
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.893
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -2113.350 / Time: 0h:4m:2s (0h:0m:26s left)
+Iteration 820 / LogL: -2116.291 / Time: 0h:4m:6s (0h:0m:24s left)
+Iteration 830 / LogL: -2116.314 / Time: 0h:4m:9s (0h:0m:21s left)
+Iteration 840 / LogL: -2113.349 / Time: 0h:4m:12s (0h:0m:18s left)
+Iteration 850 / LogL: -2113.349 / Time: 0h:4m:16s (0h:0m:15s left)
+Log-likelihood cutoff on original alignment: -2139.251
+Iteration 860 / LogL: -2114.023 / Time: 0h:4m:20s (0h:0m:12s left)
+Iteration 870 / LogL: -2114.931 / Time: 0h:4m:23s (0h:0m:9s left)
+Iteration 880 / LogL: -2113.350 / Time: 0h:4m:26s (0h:0m:6s left)
+Iteration 890 / LogL: -2113.350 / Time: 0h:4m:29s (0h:0m:3s left)
+Iteration 900 / LogL: -2116.316 / Time: 0h:4m:33s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2139.251
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.928
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -2113.349 / Time: 0h:4m:36s (0h:0m:27s left)
+Iteration 920 / LogL: -2115.742 / Time: 0h:4m:39s (0h:0m:24s left)
+Iteration 930 / LogL: -2113.352 / Time: 0h:4m:43s (0h:0m:21s left)
+Iteration 940 / LogL: -2113.350 / Time: 0h:4m:47s (0h:0m:18s left)
+Iteration 950 / LogL: -2113.349 / Time: 0h:4m:51s (0h:0m:15s left)
+Log-likelihood cutoff on original alignment: -2139.251
+BETTER TREE FOUND at iteration 960: -2113.349
+Iteration 960 / LogL: -2113.349 / Time: 0h:4m:55s (0h:0m:30s left)
+Iteration 970 / LogL: -2113.349 / Time: 0h:4m:59s (0h:0m:27s left)
+Iteration 980 / LogL: -2113.349 / Time: 0h:5m:2s (0h:0m:24s left)
+Iteration 990 / LogL: -2113.351 / Time: 0h:5m:6s (0h:0m:21s left)
+Iteration 1000 / LogL: -2113.349 / Time: 0h:5m:10s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -2139.251
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.945
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 0h:5m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2113.349
+Optimal log-likelihood: -2113.348
+Gamma shape alpha: 0.978
+Parameters optimization took 1 rounds (0.023 sec)
+BEST SCORE FOUND : -2113.348
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 1.927
+
+Total number of iterations: 1001
+CPU time used for tree search: 2990.658 sec (0h:49m:50s)
+Wall-clock time used for tree search: 310.655 sec (0h:5m:10s)
+Total CPU time used: 2993.278 sec (0h:49m:53s)
+Total wall-clock time used: 311.088 sec (0h:5m:11s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+41 taxa and 1083 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -2113.366
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Wed Jan 25 12:55:26 2023

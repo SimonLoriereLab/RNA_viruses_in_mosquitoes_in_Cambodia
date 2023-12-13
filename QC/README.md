@@ -1,0 +1,1 @@
+- install [KrakenTools](https://github.com/jenniferlu717/KrakenTools) into [./scripts/](./scripts)

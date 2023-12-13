@@ -1,0 +1,1236 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1069 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA
+Seed:    730018 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Dec 22 07:06:13 2022
+Kernel:  AVX+FMA - auto-detect threads (95 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 902 sequences with 1398 columns, 1398 distinct patterns
+1395 parsimony-informative, 2 singleton sites, 1 constant sites
+WARNING: Some sequence names are changed as follows:
+MW491751_Porton's_virus -> MW491751_Porton_s_virus
+
+                                                                        Gap/Ambiguity  Composition  p-value
+   1  Aedes_albopictus_anphevirus_F1016C1F1016                                  5.29%    passed     14.27%
+   2  Aedes_anphevirus_F1058C3F1058                                             5.79%    passed     92.99%
+   3  Aedes_anphevirus_F1058C3F1059                                             5.79%    passed     92.39%
+   4  Aedes_anphevirus_F1058C3F1060                                            13.23%    passed     97.72%
+   5  Aedes_anphevirus_F1058C3F1061                                             5.79%    passed     94.34%
+   6  Aedes_anphevirus_F1058C3F1062                                             5.79%    passed     92.35%
+   7  Aedes_anphevirus_F1058C3F1067                                             9.94%    passed     94.31%
+   8  Aedes_anphevirus_F1058C3F1068                                            37.63%    passed     87.17%
+   9  AH012179_Hapavirus_flanders                                               1.29%    failed      2.44%
+  10  AM690337_Vesiculovirus_indiana                                            0.00%    passed     98.84%
+  11  Antlested_virus_F1034C1F1034                                              0.86%    passed     17.84%
+  12  Ardicrand_virus_F1568C1F1277                                              2.15%    passed     43.80%
+  13  Ardicrand_virus_F1568C1F1568                                              0.86%    passed     35.47%
+  14  Arindly_virus_F1098C3F1087                                                0.00%    passed     98.59%
+  15  Arindly_virus_F1098C3F1090                                                0.00%    passed     98.48%
+  16  Arindly_virus_F1098C3F1095                                               32.62%    passed     71.77%
+  17  Arindly_virus_F1098C3F1098                                                0.00%    passed     98.59%
+  18  Arindly_virus_F1098C3F1099                                               35.34%    passed     85.40%
+  19  Arindly_virus_F1098C3F1219                                                0.00%    passed     98.37%
+  20  Arlicasen_virus_F1276C1F1256                                             28.18%    passed     51.26%
+  21  Arlicasen_virus_F1276C1F1276                                             28.18%    passed     50.61%
+  22  Ausist_virus_F1341C1F1003                                                 3.93%    failed      0.00%
+  23  Ausist_virus_F1341C1F1079                                                 3.93%    failed      0.01%
+  24  Ausist_virus_F1341C1F1167                                                 5.15%    failed      0.01%
+  25  Ausist_virus_F1341C1F1337                                                 3.93%    failed      0.00%
+  26  Ausist_virus_F1341C1F1341                                                 3.93%    failed      0.00%
+  27  Ausist_virus_F1341C1F1344                                                29.04%    failed      0.34%
+  28  AY224663_Ophiovirus_citri                                                16.81%    failed      0.00%
+  29  Begrized_virus_F1588C1F1462                                               0.43%    failed      4.47%
+  30  Begrized_virus_F1588C1F1588                                               0.43%    failed      3.95%
+  31  BK011194_Cytorhabdovirus_trichosanthei                                    6.51%    passed     11.28%
+  32  BK014298_Asclepias_syriaca_virus_1                                        6.44%    passed     12.86%
+  33  BK059423_San_Gabriel_mononegavirus                                        1.36%    passed     47.07%
+  34  BK059424_Formosus_virus                                                   0.00%    passed     94.98%
+  35  BK059721_Girado_virus_3                                                  14.59%    failed      0.00%
+  36  BK061545_Chalcocoris_rutilans_mononega-like_virus_1                       7.73%    failed      0.30%
+  37  BK061547_Periplaneta_americana_mononega-like_virus                        6.01%    failed      0.27%
+  38  BK061669_Belostoma_flumineum_mononega-like_virus                          4.58%    failed      1.32%
+  39  BK061670_Trichopria_drosophilae_mononega-like_virus                       4.65%    passed      9.36%
+  40  BK061672_Supella_longipalpa_mononega-like_virus_2                         4.58%    failed      3.54%
+  41  DQ097384_Sprivivirus_cyprinus                                             0.07%    passed     68.27%
+  42  DQ491000_Sprivivirus_cyprinus                                             0.07%    passed     73.28%
+  43  EF197793_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+  44  EU338414_Avian_metaavulavirus_2                                           7.65%    passed      9.03%
+  45  FJ478454_Recombinant_vesicular_stomatitis_Indiana_virus_rVSV-G_GFP        0.00%    passed     98.91%
+  46  Grenada_mosquito_rhabdovirus_1_F1429C1F1040                               0.79%    passed     35.68%
+  47  Grenada_mosquito_rhabdovirus_1_F1429C1F1042                               0.79%    passed     32.75%
+  48  Grenada_mosquito_rhabdovirus_1_F1429C1F1112                               0.79%    passed     37.97%
+  49  Grenada_mosquito_rhabdovirus_1_F1429C1F1113                              10.80%    passed     33.31%
+  50  Grenada_mosquito_rhabdovirus_1_F1429C1F1114                               0.79%    passed     35.68%
+  51  Grenada_mosquito_rhabdovirus_1_F1429C1F1115                               0.79%    passed     32.75%
+  52  Grenada_mosquito_rhabdovirus_1_F1429C1F1118                               0.79%    passed     35.68%
+  53  Grenada_mosquito_rhabdovirus_1_F1429C1F1119                               0.79%    passed     35.68%
+  54  Grenada_mosquito_rhabdovirus_1_F1429C1F1120                               3.15%    passed     44.11%
+  55  Grenada_mosquito_rhabdovirus_1_F1429C1F1121                               0.79%    passed     35.68%
+  56  Grenada_mosquito_rhabdovirus_1_F1429C1F1123                              32.69%    passed     26.61%
+  57  Grenada_mosquito_rhabdovirus_1_F1429C1F1124                               0.79%    passed     35.68%
+  58  Grenada_mosquito_rhabdovirus_1_F1429C1F1125                               0.79%    passed     35.68%
+  59  Grenada_mosquito_rhabdovirus_1_F1429C1F1126                              31.62%    passed     12.68%
+  60  Grenada_mosquito_rhabdovirus_1_F1429C1F1419                               0.79%    passed     35.68%
+  61  Grenada_mosquito_rhabdovirus_1_F1429C1F1420                               4.51%    passed     54.88%
+  62  Grenada_mosquito_rhabdovirus_1_F1429C1F1422                               0.79%    passed     31.35%
+  63  Grenada_mosquito_rhabdovirus_1_F1429C1F1423                               0.79%    passed     35.11%
+  64  Grenada_mosquito_rhabdovirus_1_F1429C1F1425                               0.79%    passed     35.68%
+  65  Grenada_mosquito_rhabdovirus_1_F1429C1F1426                               0.79%    passed     35.39%
+  66  Grenada_mosquito_rhabdovirus_1_F1429C1F1427                               0.79%    passed     35.68%
+  67  Grenada_mosquito_rhabdovirus_1_F1429C1F1428                               3.72%    passed     22.62%
+  68  Grenada_mosquito_rhabdovirus_1_F1429C1F1429                               0.79%    passed     37.66%
+  69  Grenada_mosquito_rhabdovirus_1_F1429C1F1430                               0.79%    passed     35.68%
+  70  Grenada_mosquito_rhabdovirus_1_F1429C1F1431                               0.79%    passed     35.68%
+  71  Grenada_mosquito_rhabdovirus_1_F1429C1F1432                               0.79%    passed     35.68%
+  72  Grenada_mosquito_rhabdovirus_1_F1429C1F1433                               0.79%    passed     35.68%
+  73  Grenada_mosquito_rhabdovirus_1_F1429C1F1570                               0.79%    passed     31.88%
+  74  Grenada_mosquito_rhabdovirus_1_F1429C1F1571                               0.79%    passed     35.68%
+  75  Grenada_mosquito_rhabdovirus_1_F1429C1F1572                               0.79%    passed     36.78%
+  76  Grenada_mosquito_rhabdovirus_1_F1429C1F1573                               0.79%    passed     35.68%
+  77  Grenada_mosquito_rhabdovirus_1_F1429C1F1575                               0.79%    passed     35.68%
+  78  Grenada_mosquito_rhabdovirus_1_F1429C1F1576                               0.79%    passed     35.68%
+  79  Grenada_mosquito_rhabdovirus_1_F1429C1F1578                               0.79%    passed     35.68%
+  80  Grenada_mosquito_rhabdovirus_1_F1429C1F1579                               0.79%    passed     36.69%
+  81  Grenada_mosquito_rhabdovirus_1_F1429C1F1582                               0.79%    passed     35.68%
+  82  GU190711_Vesiculovirus_chandipura                                         0.07%    passed     84.52%
+  83  GU212857_Vesiculovirus_chandipura                                         0.07%    passed     88.11%
+  84  GU212858_Vesiculovirus_chandipura                                         0.07%    passed     87.09%
+  85  HM627186_Vesiculovirus_chandipura                                         0.07%    passed     93.57%
+  86  HM627187_Vesiculovirus_chandipura                                         0.07%    passed     88.99%
+  87  HM849039_Soybean_cyst_nematode_associated_northern_cereal_mosaic_virus   16.17%    failed      0.00%
+  88  Imjin_River_virus_1_F1051C1F1051                                          5.36%    failed      1.95%
+  89  JN639009_Perhabdovirus_anguilla                                           0.36%    passed     45.17%
+  90  JN639010_Perhabdovirus_anguilla                                           0.29%    passed     47.38%
+  91  JX121107_Vesiculovirus_newjersey                                          0.00%    passed     75.79%
+  92  JX121108_Vesiculovirus_newjersey                                          0.00%    passed     76.01%
+  93  JX121111_Vesiculovirus_newjersey                                          0.00%    passed     68.59%
+  94  JX121112_Vesiculovirus_newjersey                                          0.00%    passed     78.88%
+  95  JX827265_Perhabdovirus_anguilla                                           0.29%    passed     45.46%
+  96  KC519324_Siniperhavirus_chuatsi                                           0.43%    passed     44.65%
+  97  KC608033_Perhabdovirus_anguilla                                           0.29%    passed     47.38%
+  98  KC608034_Perhabdovirus_anguilla                                           0.29%    passed     46.14%
+  99  KC608035_Perhabdovirus_anguilla                                           0.29%    passed     44.28%
+ 100  KC608036_Perhabdovirus_anguilla                                           0.29%    passed     47.93%
+ 101  KC608037_Perhabdovirus_anguilla                                           0.29%    passed     44.28%
+ 102  KC608038_Perhabdovirus_anguilla                                           0.29%    passed     45.03%
+ 103  KC905171_Vesiculovirus_newjersey                                          0.00%    passed     74.60%
+ 104  KF310911_Beaumont_virus                                                  15.24%    passed     98.80%
+ 105  KF468772_Vesiculovirus_chandipura                                         0.07%    passed     88.77%
+ 106  KF468773_Vesiculovirus_chandipura                                         0.07%    passed     90.10%
+ 107  KF468774_Vesiculovirus_chandipura                                         0.07%    passed     88.29%
+ 108  KF880907_Vesiculovirus_indiana                                            0.00%    passed     98.66%
+ 109  KF880911_Vesiculovirus_indiana                                            0.00%    passed     98.89%
+ 110  KF880914_Vesiculovirus_indiana                                            0.00%    passed     99.15%
+ 111  KF935251_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 112  KJ513477_Sprivivirus_cyprinus                                             0.07%    passed     71.58%
+ 113  KM012169_Vesiculovirus_newjersey                                          0.00%    passed     73.03%
+ 114  KM276084_Ephemerovirus_febris                                             0.21%    failed      0.00%
+ 115  KM817597_Scarabeuvirus_lishiense                                          5.72%    passed     17.79%
+ 116  KM817601_Chuvivirus_canceris                                              4.51%    failed      1.83%
+ 117  KM817603_Charybdivirus_charybdis                                         13.45%    passed      8.51%
+ 118  KM817612_Shuangao_Fly_Virus_1                                            37.27%    failed      2.26%
+ 119  KM817613_Lacewing_mivirus                                                13.59%    passed     24.10%
+ 120  KM817631_Jingshan_Fly_Virus_2                                             4.15%    failed      0.00%
+ 121  KM817633_Sanstrivirus_gerridis                                            9.73%    passed     14.05%
+ 122  KM817639_Shuangao_Insect_Virus_6                                          8.44%    passed      7.38%
+ 123  KM817647_Wuhan_Fly_Virus_3                                                5.44%    failed      0.37%
+ 124  KP202364_Vesiculovirus_newjersey                                          0.00%    passed     74.56%
+ 125  KP255976_Iranian_citrus_ringspot_virus                                   46.35%    failed      0.98%
+ 126  KP688353_Vesiculovirus_newjersey                                          0.00%    passed     74.52%
+ 127  KP872861_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 128  KP872862_Vesiculovirus_indiana                                            0.00%    passed     99.00%
+ 129  KP872863_Vesiculovirus_indiana                                            0.00%    passed     98.87%
+ 130  KP872864_Vesiculovirus_indiana                                            0.00%    passed     98.93%
+ 131  KP872866_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 132  KP872867_Vesiculovirus_indiana                                            0.00%    passed     98.89%
+ 133  KP872868_Vesiculovirus_indiana                                            0.07%    passed     98.82%
+ 134  KP872869_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 135  KP872870_Vesiculovirus_indiana                                            0.00%    passed     98.84%
+ 136  KP872871_Vesiculovirus_indiana                                            0.00%    passed     99.00%
+ 137  KP872872_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 138  KP872875_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 139  KP872876_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 140  KP872877_Vesiculovirus_indiana                                            0.00%    passed     98.82%
+ 141  KP872878_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 142  KP872879_Vesiculovirus_indiana                                            0.00%    passed     98.89%
+ 143  KP872883_Vesiculovirus_indiana                                            0.00%    passed     99.04%
+ 144  KP872884_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 145  KP872885_Vesiculovirus_indiana                                            0.00%    passed     98.66%
+ 146  KP872886_Vesiculovirus_indiana                                            0.00%    passed     98.93%
+ 147  KP872888_Vesiculovirus_indiana                                            0.00%    passed     98.61%
+ 148  KP900919_Rhizoctonia_solani_negative-stranded_virus_1                    16.60%    failed      0.01%
+ 149  KR822813_Drosophila_busckii_rhabdovirus                                   1.43%    passed     75.81%
+ 150  KR822815_Drosophila_montana_sigmavirus                                    3.15%    passed     74.03%
+ 151  KR822816_Sigmavirus_sturtevanti                                           0.14%    passed     96.13%
+ 152  KR822817_Drosophila_subobscura_rhabdovirus                                5.01%    failed      0.14%
+ 153  KR822823_Drosophila_sturtevanti_rhabdovirus_1                             4.65%    failed      0.37%
+ 154  KR822824_Drosophila_algonquin_sigmavirus                                  0.07%    passed     78.79%
+ 155  KR822825_Sigmavirus_capitata                                              0.43%    failed      1.09%
+ 156  KR822826_Alphapaprhavirus_pararge                                         0.14%    passed     12.29%
+ 157  KT378600_Orthobornavirus_betapsittaciforme                               23.89%    passed     44.20%
+ 158  KT429217_Vesicular_stomatitis_virus                                       0.00%    passed     75.50%
+ 159  KT598228_Botrytimonavirus_glycinis                                       10.09%    failed      0.00%
+ 160  KU248086_Riverside_virus_1                                                0.14%    passed     43.33%
+ 161  KU248087_Riverside_virus_1                                                0.14%    passed     52.78%
+ 162  KU296051_Vesiculovirus_newjersey                                          0.00%    passed     73.90%
+ 163  KU296053_Vesiculovirus_newjersey                                          0.00%    passed     77.71%
+ 164  KU296056_Vesiculovirus_newjersey                                          0.00%    passed     74.53%
+ 165  KU296058_Vesiculovirus_indiana                                            0.00%    passed     96.72%
+ 166  KU296059_Vesiculovirus_indiana                                            0.14%    passed     98.88%
+ 167  KX148551_Bolahun_virus_variant_1                                          5.22%    passed     36.69%
+ 168  KX148553_Gambievirus_senegalense                                          5.22%    passed     13.34%
+ 169  KX884002_Yingvirus_wenzhouense                                           28.90%    failed      0.00%
+ 170  KX884404_Hermit_mivirus                                                   8.80%    failed      0.77%
+ 171  KX884408_Berhavirus_sipunculi                                            19.24%    passed     33.52%
+ 172  KX884410_Hexartovirus_cirripedis                                         15.09%    failed      0.00%
+ 173  KX884414_Betanemrhavirus_shayang                                          2.00%    failed      0.01%
+ 174  KX884418_Damravirus_dentatis                                              9.37%    passed     50.49%
+ 175  KX884419_Odonatavirus_fabricii                                            5.36%    passed      8.67%
+ 176  KX884420_Peropuvirus_dentati                                             14.23%    passed     16.12%
+ 177  KX884422_Hubei_rhabdo-like_virus_1                                        1.93%    passed     12.30%
+ 178  KX884428_Draselvirus_dentati                                              9.16%    failed      0.16%
+ 179  KX884430_Alasvirus_muscae                                                 6.01%    failed      0.00%
+ 180  KX884432_Sigmavirus_wuhan                                                 0.07%    passed     66.14%
+ 181  KX884438_Hubei_chuvirus-like_virus_4                                     23.18%    failed      1.10%
+ 182  KX884443_Hubei_myriapoda_virus_7                                          7.87%    failed      0.46%
+ 183  KX884444_Myriavirus_myriapedis                                           19.81%    passed     44.31%
+ 184  KX884446_Peropuvirus_juli                                                11.44%    failed      0.05%
+ 185  KX884458_Taceavirus_wenlingense                                          18.10%    failed      0.00%
+ 186  KX924630_Doliuvirus_culisetae                                             4.15%    failed      0.45%
+ 187  KY315724_Ephemerovirus_febris                                             0.14%    failed      0.00%
+ 188  KY354230_Apis_rhabdovirus_1                                               5.94%    passed     55.80%
+ 189  KY354231_Apis_rhabdovirus_1                                               5.94%    passed     50.32%
+ 190  KY354232_Apis_rhabdovirus_1                                               5.94%    passed     50.45%
+ 191  KY354234_Apis_rhabdovirus_2                                               6.94%    passed     18.25%
+ 192  KY435948_Cururu_virus                                                    77.97%    passed      9.50%
+ 193  KY475636_Sprivivirus_cyprinus                                             0.07%    passed     67.88%
+ 194  KY768857_Ohlsrhavirus_ohlsdorf                                            0.21%    passed     70.67%
+ 195  KY768859_Ohlsrhavirus_ohlsdorf                                            0.21%    passed     71.48%
+ 196  KY768860_Ohlsrhavirus_ohlsdorf                                            0.21%    passed     70.53%
+ 197  KY768861_Ohlsrhavirus_ohlsdorf                                            0.21%    passed     70.67%
+ 198  LC026102_Merhavirus_tritaeniorhynchus                                     0.57%    failed      1.01%
+ 199  LC150618_Fusarium_poae_negative-stranded_virus_1                         17.31%    failed      2.16%
+ 200  LC270812_Almendravirus_menghai                                            2.93%    failed      0.00%
+ 201  LC431581_Feline_paramyxovirus_163                                         7.58%    failed      0.02%
+ 202  LC514054_Triniovirus_yonagoense                                           5.36%    passed     49.29%
+ 203  LC514055_Triniovirus_yonagoense                                           5.36%    passed     44.69%
+ 204  LC514056_Ohlsrhavirus_pseudovishnui                                       0.14%    passed     96.40%
+ 205  LC514057_Ohlsrhavirus_pseudovishnui                                       0.14%    passed     95.47%
+ 206  LC514058_Culex_tritaeniorhynchus_Aspiviridae-related_virus               16.45%    failed      0.02%
+ 207  LC514403_Merhavirus_tritaeniorhynchus                                     0.57%    failed      0.62%
+ 208  MF114348_Apis_rhabdovirus_1                                               5.94%    passed     57.14%
+ 209  MF114349_Apis_rhabdovirus_1                                               6.08%    passed     50.66%
+ 210  MF114351_Apis_rhabdovirus_1                                               5.94%    passed     57.14%
+ 211  MF141072_Norway_mononegavirus_1                                           0.07%    passed      8.48%
+ 212  MF141073_Norway_mononegavirus_1                                           0.07%    passed      7.53%
+ 213  MF176245_Culex_mononega-like_virus_1                                      6.08%    passed      8.07%
+ 214  MF176247_Doupovirus_australiaense                                         5.29%    passed     10.33%
+ 215  MF176268_Doupovirus_australiaense                                         5.29%    passed      9.31%
+ 216  MF176269_Ohlsrhavirus_culex                                               0.14%    passed     99.04%
+ 217  MF176296_Culex_mononega-like_virus_1                                      6.08%    passed      8.47%
+ 218  MF176316_Culex_mononega-like_virus_1                                      6.08%    passed      8.81%
+ 219  MF176318_Doupovirus_australiaense                                         5.29%    passed     10.07%
+ 220  MF176332_Doupovirus_australiaense                                         5.29%    passed     10.47%
+ 221  MF176351_Wilkie_ophio-like_virus_1                                       21.24%    failed      0.00%
+ 222  MF176356_Culex_mononega-like_virus_1                                      6.08%    passed      8.07%
+ 223  MF176358_Ohlsrhavirus_culex                                               0.14%    passed     99.11%
+ 224  MF176375_Culex_mononega-like_virus_1                                      6.08%    passed      9.13%
+ 225  MF189987_Barns_Ness_beadlet_anemone_chu-like_virus_1                     11.09%    passed      7.09%
+ 226  MF190042_Caledonia_dog_whelk_rhabdo-like_virus_1                         10.66%    failed      0.00%
+ 227  MF196237_Vesiculovirus_newjersey                                          0.00%    passed     73.20%
+ 228  MF196238_Vesiculovirus_newjersey                                          0.00%    passed     73.35%
+ 229  MF279192_Rhabdoviridae_sp_                                                0.07%    passed     31.14%
+ 230  MF344595_Ohlsrhavirus_lobeira                                             3.79%    passed     25.91%
+ 231  MF360789_Nigecruvirus_ixodes                                              4.72%    failed      0.01%
+ 232  MF360790_Betaricinrhavirus_scapularis                                     2.72%    failed      0.48%
+ 233  MF360791_Dog_Tick_rhabdovirus-1                                           8.44%    failed      0.01%
+ 234  MF536978_Betapaprhavirus_frugiperda                                       1.65%    failed      1.91%
+ 235  MF536979_Betapaprhavirus_frugiperda                                       1.65%    failed      2.83%
+ 236  MF615270_Ephemerovirus_kent                                               0.50%    failed      0.00%
+ 237  MF882997_Merida-like_virus_Turkey                                         0.50%    passed     18.26%
+ 238  MF893248_Penicillimonavirus_kilnbarnense                                 41.63%    passed     80.04%
+ 239  MF975531_Betaricinrhavirus_chimay                                         2.50%    failed      0.21%
+ 240  MG012486_Aedes_aegypti_anphevirus                                        10.87%    passed     99.14%
+ 241  MG385079_Grenada_mosquito_rhabdovirus_1                                   0.79%    passed     28.86%
+ 242  MG489864_Lepeophtheirus_virus_LS24                                       11.02%    passed      9.52%
+ 243  MG550267_Soybean_cyst_nematode_nyami-like_virus                          11.02%    failed      0.00%
+ 244  MG552608_Vesiculovirus_newjersey                                          0.00%    passed     75.20%
+ 245  MG552609_Vesiculovirus_newjersey                                          0.00%    passed     74.60%
+ 246  MG599980_Xilang_striavirus                                               11.09%    failed      0.76%
+ 247  MG599981_Huangjiao_thamnovirus                                           10.87%    failed      0.53%
+ 248  MG600018_Wenling_dimarhabdovirus_9                                       28.33%    passed     17.62%
+ 249  MG600019_Wenling_dimarhabdovirus_10                                      13.73%    failed      1.94%
+ 250  MG600059_Cynoglossus_cynoglossusvirus                                    12.45%    passed     17.74%
+ 251  MG600062_Hoplichthys_hoplichthysvirus                                    10.66%    failed      0.12%
+ 252  MG604920_Alphanucleorhabdovirus_tritici                                  12.88%    passed     11.49%
+ 253  MG663512_Sprivivirus_cyprinus                                             0.07%    passed     70.25%
+ 254  MG663513_Sprivivirus_cyprinus                                             0.07%    passed     74.82%
+ 255  MG880117_Deer_tick_mononegavirales-like_virus                            28.40%    failed      0.01%
+ 256  MH037149_Gylbovirus_aagae                                                 5.79%    passed     98.32%
+ 257  MH105245_Ephemerovirus_febris                                             0.14%    failed      0.00%
+ 258  MH188000_Culex_rhabdovirus                                                0.64%    passed     14.81%
+ 259  MH188003_Ohlsrhavirus_culex                                               0.14%    passed     96.44%
+ 260  MH188031_Culicidavirus_quitotaense                                        5.36%    failed      0.56%
+ 261  MH188036_Culicidavirus_culicis                                            5.65%    failed      0.18%
+ 262  MH237595_Aedes_aegypti_anphevirus                                         5.79%    passed     97.63%
+ 263  MH267691_Apis_rhabdovirus_1                                               5.94%    passed     57.40%
+ 264  MH267692_Apis_rhabdovirus_1                                               5.94%    passed     55.51%
+ 265  MH310083_Merhavirus_merida                                                0.43%    passed     24.80%
+ 266  MH319839_Chinese_rice-field_eel_rhabdovirus                               0.43%    passed     35.70%
+ 267  MH430648_Gylbovirus_aagae                                                 5.79%    passed     98.81%
+ 268  MH430650_Gylbovirus_aagae                                                 5.79%    passed     99.05%
+ 269  MH430651_Gylbovirus_aagae                                                 5.79%    passed     92.30%
+ 270  MH430652_Gylbovirus_aagae                                                 5.79%    passed     90.57%
+ 271  MH430653_Gylbovirus_aagae                                                 5.79%    passed     92.72%
+ 272  MH430654_Gylbovirus_aagae                                                 5.79%    passed     93.98%
+ 273  MH430655_Gylbovirus_aagae                                                 5.79%    passed     93.64%
+ 274  MH430656_Gylbovirus_aagae                                                 5.79%    passed     91.31%
+ 275  MH430657_Gylbovirus_aagae                                                 5.79%    passed     90.36%
+ 276  MH430658_Gylbovirus_aagae                                                 6.22%    passed     95.77%
+ 277  MH430663_Gylbovirus_aagae                                                 5.79%    passed     98.01%
+ 278  MH430665_Gylbovirus_aagae                                                 5.79%    passed     93.46%
+ 279  MH430666_Gylbovirus_aagae                                                 5.79%    passed     92.56%
+ 280  MH477287_Formivirus_angliae                                              16.38%    failed      0.28%
+ 281  MH477288_Alphahymrhavirus_neglectus                                       1.14%    passed     30.09%
+ 282  MH620817_Lampyris_noctiluca_rhabdo-like_virus_1                          13.81%    failed      0.11%
+ 283  MH620818_Scarabeuvirus_lampyris                                           5.79%    failed      1.86%
+ 284  MH643740_Tetrastichus_brontispae_RNA_virus_1                              0.36%    failed      0.35%
+ 285  MH664040_Hapavirus_flanders                                               0.36%    failed      3.51%
+ 286  MH664041_Hapavirus_flanders                                               0.36%    failed      2.46%
+ 287  MH664043_Hapavirus_flanders                                               0.36%    failed      3.45%
+ 288  MH664045_Hapavirus_flanders                                               0.36%    failed      3.45%
+ 289  MH664047_Hapavirus_flanders                                               0.36%    failed      3.51%
+ 290  MH688549_Mivirus_boleense                                                 7.37%    failed      0.00%
+ 291  MH688550_Mivirus_boleense                                                 4.58%    failed      0.00%
+ 292  MH688551_Mivirus_boleense                                                 5.44%    failed      0.00%
+ 293  MH688553_Mivirus_boleense                                                 4.58%    failed      0.00%
+ 294  MH707450_Grenada_mosquito_rhabdovirus_1                                   0.79%    passed     30.32%
+ 295  MH720470_Cytorhabdovirus_oryzae                                          12.09%    passed     35.98%
+ 296  MH756623_Ephemerovirus_febris                                             0.14%    failed      0.00%
+ 297  MH778545_Betanucleorhabdovirus_mali                                      11.59%    failed      0.00%
+ 298  MH822963_Madalivirus_amazonaense                                          5.15%    passed     57.02%
+ 299  MH822964_Madalivirus_amazonaense                                          5.15%    passed     60.12%
+ 300  MH822965_Madalivirus_amapaense                                            5.08%    passed     46.09%
+ 301  MH919396_Vesiculovirus_indiana                                            0.00%    passed     98.39%
+ 302  MH919398_Vesiculovirus_indiana                                            0.00%    passed     99.17%
+ 303  MH919399_Vesiculovirus_indiana                                            0.00%    passed     99.33%
+ 304  MH926029_Betapaprhavirus_frugiperda                                       1.72%    failed      1.64%
+ 305  MH926030_Betapaprhavirus_frugiperda                                       2.22%    failed      1.97%
+ 306  MH926031_Betapaprhavirus_frugiperda                                       1.72%    failed      1.88%
+ 307  MH982249_Cytorhabdovirus_betatrifolii                                     6.80%    failed      1.58%
+ 308  MK026564_Manly_virus                                                      0.36%    passed     13.61%
+ 309  MK026565_Fairlight_virus                                                  2.79%    failed      0.02%
+ 310  MK026568_Quarantine_head_virus                                            2.79%    failed      0.35%
+ 311  MK026591_Mivirus_genovaense                                               4.65%    failed      0.01%
+ 312  MK231099_Entomophthora_rhabdovirus_A                                      5.51%    failed      0.24%
+ 313  MK336155_Nipah_henipavirus                                               28.97%    failed      3.86%
+ 314  MK397811_Micropterus_salmoides_rhabdovirus                                0.43%    passed     38.89%
+ 315  MK440621_Merhavirus_merida                                                0.43%    passed     12.45%
+ 316  MK440623_Doupovirus_australiaense                                         5.29%    passed     12.93%
+ 317  MK440629_Phyllomonavirus_gysingense                                      18.31%    passed     21.25%
+ 318  MK440635_Nackenback_virus                                                31.04%    failed      0.00%
+ 319  MK440639_Vinslov_virus                                                   28.33%    failed      0.00%
+ 320  MK440640_Culicidavirus_quitotaense                                        5.36%    failed      0.97%
+ 321  MK440643_Culex_mononega-like_virus_1                                      6.08%    passed      8.60%
+ 322  MK613994_Vesiculovirus_newjersey                                          0.00%    passed     71.71%
+ 323  MK934319_Vesiculovirus_indiana                                            0.00%    passed     99.25%
+ 324  MK934320_Vesiculovirus_indiana                                            0.00%    passed     98.87%
+ 325  MK934321_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 326  MN013386_Guadeloupe_Culex_rhabdovirus                                     0.79%    passed     40.81%
+ 327  MN013387_Guadeloupe_Culex_rhabdovirus                                     0.79%    passed     43.67%
+ 328  MN013388_Guadeloupe_Culex_rhabdovirus                                     0.79%    passed     37.71%
+ 329  MN013389_Guadeloupe_Culex_rhabdovirus                                     0.79%    passed     38.43%
+ 330  MN013390_Guadeloupe_Culex_rhabdovirus                                     0.79%    passed     41.67%
+ 331  MN013392_Guadeloupe_Culex_rhabdovirus                                     0.79%    passed     40.50%
+ 332  MN013393_Guadeloupe_Culex_rhabdovirus                                     0.79%    passed     40.81%
+ 333  MN025503_Alpharicinrhavirus_blanchesco                                    0.29%    failed      2.11%
+ 334  MN025520_Mivirus_sp_                                                      4.58%    failed      0.74%
+ 335  MN035109_Aspiviridae_sp_                                                 15.95%    failed      1.17%
+ 336  MN053735_Guadeloupe_mosquito_mononega-like_virus                          5.44%    passed     66.59%
+ 337  MN053736_Guadeloupe_mosquito_mononega-like_virus                          5.58%    passed     81.06%
+ 338  MN053737_Aedes_aegypti_anphevirus                                         5.79%    passed     97.98%
+ 339  MN053738_Aedes_aegypti_anphevirus                                         5.79%    passed     96.90%
+ 340  MN053739_Aedes_aegypti_anphevirus                                         5.79%    passed     98.02%
+ 341  MN053740_Aedes_aegypti_anphevirus                                         5.79%    passed     97.57%
+ 342  MN053741_Aedes_aegypti_anphevirus                                         5.79%    passed     98.02%
+ 343  MN053742_Aedes_aegypti_anphevirus                                         5.79%    passed     97.54%
+ 344  MN053743_Aedes_aegypti_anphevirus                                         5.79%    passed     98.25%
+ 345  MN053744_Aedes_aegypti_anphevirus                                         5.79%    passed     96.90%
+ 346  MN095545_Changping_mivirus                                                4.58%    failed      0.37%
+ 347  MN148800_Ephemerovirus_febris                                             0.14%    failed      0.00%
+ 348  MN148801_Ephemerovirus_febris                                             0.14%    failed      0.00%
+ 349  MN164438_Vesiculovirus_indiana                                            0.00%    passed     98.91%
+ 350  MN217667_Hebei_tick_virus_1                                               4.58%    failed      0.60%
+ 351  MN386971_Rhizomonavirus_mali                                             22.17%    failed      0.00%
+ 352  MN513369_Doupovirus_australiaense                                         5.29%    passed     13.43%
+ 353  MN542376_Liman_tick_virus                                                 4.58%    failed      0.00%
+ 354  MN556996_Plasmopara_viticola_lesion_associated_mononega_virus_1          13.52%    failed      1.52%
+ 355  MN560630_Rondonia_rhabdovirus                                             3.08%    failed      0.02%
+ 356  MN560631_Rondonia_rhabdovirus                                            23.46%    failed      2.37%
+ 357  MN560632_Rondonia_rhabdovirus                                            48.00%    passed     13.39%
+ 358  MN565681_Bremia_lactucae_associated_yuevirus-like_virus_1                28.40%    failed      0.01%
+ 359  MN567480_Primus_virus                                                     1.36%    passed     11.69%
+ 360  MN585277_Plasmopara_viticola_lesion_associated_mycoophiovirus_1          15.59%    failed      0.02%
+ 361  MN585286_Plasmopara_viticola_lesion_associated_Yue-like_virus_1          53.15%    failed      0.00%
+ 362  MN585288_Plasmopara_viticola_lesion_associated_Yue-like_virus_3          53.29%    failed      0.00%
+ 363  MN593030_Agrotis_ipsilon_virus                                            2.58%    passed     34.63%
+ 364  MN599998_Mivirus_karukeraense                                             4.58%    failed      0.00%
+ 365  MN607592_Ledantevirus_taiyi                                               0.36%    failed      0.35%
+ 366  MN607593_Qiongzhong_bat_virus                                             0.07%    passed     42.02%
+ 367  MN607594_Vesiculovirus_yinshui                                            0.07%    passed     52.16%
+ 368  MN607595_Vesiculovirus_yinshui                                            0.07%    passed     64.21%
+ 369  MN607597_Vesiculovirus_yinshui                                            0.07%    passed     52.16%
+ 370  MN661024_Atrato_Chu-like_virus_1                                          5.01%    failed      0.54%
+ 371  MN661026_Atrato_Chu-like_virus_1                                          4.15%    failed      1.89%
+ 372  MN661028_Atrato_Chu-like_virus_2                                          7.08%    failed      0.42%
+ 373  MN661034_Atrato_Rhabdo-like_virus_3                                       1.29%    passed     26.07%
+ 374  MN661109_Atrato_Rhabdo-like_virus_2                                       5.94%    passed      5.42%
+ 375  MN689395_Kenyan_potato_cytorhabdovirus                                    6.58%    failed      2.47%
+ 376  MN689396_Kenyan_potato_cytorhabdovirus                                    6.58%    failed      2.58%
+ 377  MN689397_Kenyan_potato_cytorhabdovirus                                    6.58%    failed      2.43%
+ 378  MN714688_Frankliniella_occidentalis_associated_mononegavirales_virus_1    9.37%    failed      0.03%
+ 379  MN745080_Bactrocera_dorsalis_sigmavirus                                   0.00%    failed      0.90%
+ 380  MN745081_Bactrocera_dorsalis_borna-like_virus                            35.12%    failed      0.26%
+ 381  MN764147_Frankliniella_occidentalis_associated_qin-like_virus1           28.68%    failed      0.03%
+ 382  MN764157_Thrips_tabaci_associated_yue-like_virus_1                       22.10%    failed      0.00%
+ 383  MN803433_Schistocephalus_solidus_rhabdovirus                             11.30%    passed     50.74%
+ 384  MN803434_Schistocephalus_solidus_jingchuvirus                            11.59%    passed     25.43%
+ 385  MN829806_Mivirus_boleense                                                 4.58%    failed      0.01%
+ 386  MN830236_Umea_virus                                                      12.37%    failed      0.01%
+ 387  MN905763_Ephemerovirus_febris                                             0.14%    failed      0.00%
+ 388  MN963996_Perhabdovirus_perca                                              0.29%    passed     91.71%
+ 389  MN963997_Perhabdovirus_trutta                                             0.29%    passed     47.18%
+ 390  MN963998_Perhabdovirus_perca                                              0.29%    passed     90.50%
+ 391  MN963999_Perhabdovirus_trutta                                             0.29%    passed     54.42%
+ 392  MN964000_Perhabdovirus_perca                                              0.29%    passed     93.36%
+ 393  MT019608_Vesiculovirus_chandipura                                         0.07%    passed     92.89%
+ 394  MT019609_Vesiculovirus_chandipura                                         0.07%    passed     93.57%
+ 395  MT019610_Vesiculovirus_chandipura                                         0.07%    passed     93.94%
+ 396  MT019611_Vesiculovirus_chandipura                                         0.07%    passed     94.20%
+ 397  MT019612_Vesiculovirus_chandipura                                         0.07%    passed     93.57%
+ 398  MT019615_Vesiculovirus_chandipura                                         0.07%    passed     92.11%
+ 399  MT019617_Vesiculovirus_chandipura                                         0.07%    passed     93.20%
+ 400  MT019618_Vesiculovirus_chandipura                                         0.07%    passed     92.46%
+ 401  MT019619_Vesiculovirus_chandipura                                         0.07%    passed     93.10%
+ 402  MT094083_Vesicular_stomatitis_virus                                       0.00%    passed     67.28%
+ 403  MT094084_Vesicular_stomatitis_virus                                       0.00%    passed     68.59%
+ 404  MT094094_Vesicular_stomatitis_virus                                       0.00%    passed     65.01%
+ 405  MT094095_Vesicular_stomatitis_virus                                       0.00%    passed     69.25%
+ 406  MT094096_Vesicular_stomatitis_virus                                       0.00%    passed     67.28%
+ 407  MT094098_Vesicular_stomatitis_virus                                       0.00%    passed     69.80%
+ 408  MT094099_Vesicular_stomatitis_virus                                       0.00%    passed     70.39%
+ 409  MT094105_Vesicular_stomatitis_virus                                       0.00%    passed     67.28%
+ 410  MT094110_Vesicular_stomatitis_virus                                       0.00%    passed     67.95%
+ 411  MT094116_Vesicular_stomatitis_virus                                       0.00%    passed     70.50%
+ 412  MT094117_Vesicular_stomatitis_virus                                       0.00%    passed     67.28%
+ 413  MT094121_Vesicular_stomatitis_virus                                       0.00%    passed     66.32%
+ 414  MT094125_Vesicular_stomatitis_virus                                       0.00%    passed     66.32%
+ 415  MT094126_Vesicular_stomatitis_virus                                       0.00%    passed     63.47%
+ 416  MT094130_Vesicular_stomatitis_virus                                       0.00%    passed     66.01%
+ 417  MT094131_Vesicular_stomatitis_virus                                       0.00%    passed     66.01%
+ 418  MT094134_Vesicular_stomatitis_virus                                       0.00%    passed     64.30%
+ 419  MT094135_Vesicular_stomatitis_virus                                       0.00%    passed     67.28%
+ 420  MT094136_Vesicular_stomatitis_virus                                       0.00%    passed     70.32%
+ 421  MT094139_Vesicular_stomatitis_virus                                       0.00%    passed     72.85%
+ 422  MT094140_Vesicular_stomatitis_virus                                       0.00%    passed     70.14%
+ 423  MT129693_Gudgenby_Calliphora_mononega-like_virus                          6.58%    failed      0.00%
+ 424  MT153357_Hymenopteran_anphe-related_virus_OKIAV73                        40.13%    failed      0.75%
+ 425  MT153369_Hemipteran_chu-related_virus_OKIAV139                           39.06%    passed     40.89%
+ 426  MT153372_Hymenopteran_rhabdo-related_virus_OKIAV109                       1.22%    passed      8.42%
+ 427  MT153376_Ulegvirus_freckenfeldense                                        8.87%    passed     18.48%
+ 428  MT153398_Coleopteran_rhabdo-related_virus_OKIAV20                         4.01%    failed      0.98%
+ 429  MT153400_Hemipteran_rhabdo-related_virus_OKIAV30                          1.93%    passed     18.63%
+ 430  MT153411_Coleopteran_rhabdo-related_virus_OKIAV28                         2.15%    passed      9.01%
+ 431  MT153413_Lepidopteran_rhabdo-related_virus_OKIAV33                       59.80%    passed     37.37%
+ 432  MT153436_Lepidopteran_rhabdo-related_virus_OKIAV3                         0.64%    failed      0.20%
+ 433  MT153442_Lepidopteran_rhabdo-related_virus_OKIAV32                        2.15%    passed     58.20%
+ 434  MT153443_Lepidopteran_rhabdo-related_virus_OKIAV12                        0.14%    passed     13.08%
+ 435  MT153449_Megalopteran_arli-related_virus_OKIAV106                        10.87%    passed     16.55%
+ 436  MT153454_Hymenopteran_rhabdo-related_virus_OKIAV38                        1.36%    passed     24.38%
+ 437  MT153466_Lepidopteran_rhabdo-related_virus_OKIAV34                        1.79%    passed     49.68%
+ 438  MT153471_Hymenopteran_rhabdo-related_virus_OKIAV8                         0.50%    passed     13.84%
+ 439  MT153510_Lepidopteran_rhabdo-related_virus_OKIAV35                       30.19%    passed     16.21%
+ 440  MT153513_Hemipteran_rhabdo-related_virus_OKIAV26                         40.06%    passed     55.67%
+ 441  MT153532_Blattodean_rhabdo-related_virus_OKIAV14                          2.93%    passed      7.85%
+ 442  MT153538_Coleopteran_rhabdo-related_virus_OKIAV29                         2.36%    passed      6.19%
+ 443  MT153562_Hymenopteran_rhabdo-related_virus_OKIAV40                       12.88%    failed      0.11%
+ 444  MT181988_IRE_CTVM19-associated_rhabdovirus                                3.00%    failed      0.00%
+ 445  MT224149_Soybean_thrips_negative-stranded_RNA_virus_4                    27.97%    passed      5.52%
+ 446  MT224150_Soybean_thrips_chu-like_virus_1                                  4.79%    failed      4.12%
+ 447  MT240824_Almendravirus_menghai                                            2.93%    failed      0.00%
+ 448  MT240825_Almendravirus_menghai                                            2.93%    failed      0.00%
+ 449  MT240827_Almendravirus_menghai                                            2.93%    failed      0.00%
+ 450  MT240828_Almendravirus_menghai                                            2.93%    failed      0.00%
+ 451  MT259204_Auricularimonavirus_auriculariae                                20.24%    failed      0.00%
+ 452  MT437283_Vesiculovirus_indiana                                            0.00%    passed     99.03%
+ 453  MT437284_Vesiculovirus_indiana                                            0.00%    passed     98.85%
+ 454  MT437285_Vesiculovirus_indiana                                            0.00%    passed     98.87%
+ 455  MT561344_Vesiculovirus_eptesicus                                          0.00%    passed     95.46%
+ 456  MT561345_Vesiculovirus_eptesicus                                          0.00%    passed     96.33%
+ 457  MT561346_Vesiculovirus_eptesicus                                          0.00%    passed     96.33%
+ 458  MT561347_Vesiculovirus_eptesicus                                          0.00%    passed     96.33%
+ 459  MT577803_Culex_rhabdovirus                                                0.43%    passed     24.74%
+ 460  MT636360_Apis_rhabdovirus_1                                               5.94%    passed     48.51%
+ 461  MT636363_Apis_rhabdovirus_1                                               5.94%    passed     44.59%
+ 462  MT818233_Micropterus_salmoides_rhabdovirus                                0.43%    passed     28.84%
+ 463  MT822181_Serbia_mononega-like_virus_1                                     5.29%    passed      9.48%
+ 464  MW023861_Soybean_thrips_rhabdo-like_virus_3                               2.50%    passed     61.37%
+ 465  MW029967_Nuomin_virus                                                     4.43%    failed      0.00%
+ 466  MW029968_Nuomin_virus                                                     4.43%    failed      0.00%
+ 467  MW029969_Nuomin_virus                                                     4.43%    failed      0.00%
+ 468  MW039257_Pterovirus_chulinense                                            5.08%    failed      2.47%
+ 469  MW039260_Hymenopteran_rhabdo-related_virus_OKIAV24                        2.36%    failed      2.97%
+ 470  MW084959_Nephotettix_cincticeps_negative-stranded_RNA_virus_1             1.00%    passed     43.31%
+ 471  MW147277_Aedes_albopictus_anphevirus                                      5.29%    passed     10.84%
+ 472  MW199241_Chuviridae_sp_                                                   4.58%    failed      0.00%
+ 473  MW199242_Mononegavirales_sp_                                              0.00%    passed      7.30%
+ 474  MW199243_Chuviridae_sp_                                                   4.43%    failed      0.00%
+ 475  MW208811_Bactrocera_tryoni_rhabdovirus_1                                  0.00%    failed      1.33%
+ 476  MW246699_Frankliniella_occidentalis_associated_mononegavirales_virus_3    1.57%    passed     25.60%
+ 477  MW288177_Hymenopteran_rhabdo-related_virus_OKIAV25                       48.71%    passed     12.19%
+ 478  MW288178_Orthopteran_chu-related_virus_OKIAV152                           4.79%    failed      0.16%
+ 479  MW288192_Hymenopteran_anphe-related_virus_OKIAV72                         7.15%    failed      0.03%
+ 480  MW288210_Hymenopteran_rhabdo-related_virus_OKIAV45                       13.59%    passed      6.39%
+ 481  MW288224_Neuropteran_rhabdo-related_virus_OKIAV31                        23.03%    failed      0.00%
+ 482  MW288226_Pelmivirus_eymattense                                            6.65%    passed     35.39%
+ 483  MW291462_Siniperhavirus_chuatsi                                           0.43%    passed     43.81%
+ 484  MW291694_Odonatan_chu-related_virus_OKIAV136                              5.36%    failed      4.52%
+ 485  MW291695_Odonatan_chu-related_virus_OKIAV137                              5.36%    failed      2.37%
+ 486  MW314717_Hymenopteran_rhabdo-related_virus                                2.43%    passed     10.29%
+ 487  MW314718_Hymenopteran_rhabdo-related_virus                                1.22%    failed      1.74%
+ 488  MW373776_Vesiculovirus_indiana                                            0.00%    passed     98.87%
+ 489  MW434100_Culicidavirus_quitotaense                                        5.36%    failed      0.68%
+ 490  MW434101_Culicidavirus_quitotaense                                        5.36%    failed      0.76%
+ 491  MW434102_Culicidavirus_quitotaense                                        5.36%    failed      0.79%
+ 492  MW434103_Culicidavirus_quitotaense                                        5.36%    failed      0.83%
+ 493  MW434104_Culicidavirus_quitotaense                                        5.36%    failed      0.76%
+ 494  MW434767_Elisy_virus                                                      0.79%    failed      2.04%
+ 495  MW434768_Elisy_virus                                                      0.79%    failed      2.98%
+ 496  MW434769_Merhavirus_merida                                                0.43%    passed     24.17%
+ 497  MW434770_Merhavirus_merida                                                0.43%    passed     26.04%
+ 498  MW434771_Merhavirus_merida                                                0.43%    passed     28.37%
+ 499  MW434772_Merhavirus_merida                                                0.43%    passed     28.02%
+ 500  MW434773_Merhavirus_merida                                                0.43%    passed     26.11%
+ 501  MW434774_Stang_virus                                                      0.86%    passed     12.51%
+ 502  MW434775_Stang_virus                                                      0.86%    passed     10.87%
+ 503  MW435012_Gylbovirus_aagae                                                 5.79%    passed     98.22%
+ 504  MW435013_Gylbovirus_aagae                                                 5.79%    passed     98.44%
+ 505  MW435014_Gordis_virus                                                     5.29%    passed     52.52%
+ 506  MW435015_Gordis_virus                                                     5.29%    passed     46.29%
+ 507  MW435016_Gordis_virus                                                     5.29%    passed     52.52%
+ 508  MW435017_Gordis_virus                                                     5.29%    passed     52.48%
+ 509  MW435018_Gordis_virus                                                     5.29%    passed     47.55%
+ 510  MW435019_Gordis_virus                                                     5.29%    passed     52.48%
+ 511  MW435020_Gordis_virus                                                     5.29%    passed     52.30%
+ 512  MW452291_Culicidavirus_culicidae                                         77.97%    passed     24.05%
+ 513  MW452297_Mononegavirales_sp_                                              5.29%    passed      8.62%
+ 514  MW452298_Merhavirus_tritaeniorhynchus                                     0.57%    failed      0.48%
+ 515  MW452302_Wuhan_Mosquito_Virus_9                                           0.86%    passed     21.72%
+ 516  MW452303_Anphevirus_sp_                                                   5.72%    passed     79.85%
+ 517  MW463337_Ephemerovirus_febris                                             0.14%    failed      0.01%
+ 518  MW480851_Strawberry_virus_2                                               8.01%    passed     14.14%
+ 519  MW491751_Porton_s_virus                                                   0.07%    failed      0.21%
+ 520  MW491753_Sunrhavirus_boteke                                               0.93%    failed      0.00%
+ 521  MW491756_Sunrhavirus_bimbo                                                1.00%    failed      0.01%
+ 522  MW512963_Ephemerovirus_febris                                             0.14%    failed      0.01%
+ 523  MW520372_Evros_rhabdovirus_2                                              0.36%    passed     50.86%
+ 524  MW550041_Actinidia_cytorhabdovirus_JS27                                   6.44%    passed     34.54%
+ 525  MW557328_Vesiculovirus_mediterranean                                      0.07%    passed     51.81%
+ 526  MW557329_Vesiculovirus_mediterranean                                      0.07%    passed     44.18%
+ 527  MW557330_Vesiculovirus_mediterranean                                      0.07%    passed     42.69%
+ 528  MW557331_Vesiculovirus_mediterranean                                      0.07%    passed     42.69%
+ 529  MW557333_Vesiculovirus_mediterranean                                      0.07%    passed     42.69%
+ 530  MW557334_Vesiculovirus_mediterranean                                      0.07%    passed     39.07%
+ 531  MW557338_Vesiculovirus_mediterranean                                      0.07%    passed     41.10%
+ 532  MW557339_Vesiculovirus_mediterranean                                      0.07%    passed     52.88%
+ 533  MW557342_Vesiculovirus_mediterranean                                      0.07%    passed     52.50%
+ 534  MW557343_Vesiculovirus_mediterranean                                      0.07%    passed     52.88%
+ 535  MW561973_Liman_tick_virus                                                 4.58%    failed      0.00%
+ 536  MW685822_Perhabdovirus_perca                                              0.29%    passed     75.60%
+ 537  MW760862_Vesiculovirus_indiana                                            0.00%    passed     98.84%
+ 538  MW760865_Vesiculovirus_indiana                                            0.00%    passed     98.87%
+ 539  MW760867_Vesiculovirus_indiana                                            0.00%    passed     98.87%
+ 540  MW760872_Vesiculovirus_newjersey                                          0.00%    passed     75.50%
+ 541  MW798173_Mejal_virus                                                      0.00%    passed     18.51%
+ 542  MW826401_Chuviridae_sp_                                                   5.01%    failed      0.11%
+ 543  MW826481_Rhabdoviridae_sp_                                                0.14%    passed      7.38%
+ 544  MW826525_Rhabdoviridae_sp_                                                0.00%    passed     75.77%
+ 545  MW848533_Cytorhabdovirus_lactucanecante                                   6.80%    failed      2.49%
+ 546  MW864604_Lariophagus_distinguendus_negative-strand_RNA_virus_1            1.22%    passed     38.73%
+ 547  MW890015_Shanxi_Arboretum_virus                                           1.86%    failed      0.00%
+ 548  MW890016_Shanxi_Armigeres_subalbatus_rhabdovirus                          2.15%    failed      0.00%
+ 549  MW897032_Xinjiang_varicosa-like_virus                                     8.94%    failed      0.81%
+ 550  MW897043_Yunnan_rhabdo-like_virus                                        52.07%    passed     53.68%
+ 551  MZ078292_Turkana_Chu-like_virus                                           3.93%    failed      0.04%
+ 552  MZ202303_Cimo_rhabdovirus_III                                            83.62%    passed     42.99%
+ 553  MZ202327_Cytorhabdovirus_lactucanecante                                   6.80%    failed      1.71%
+ 554  MZ209636_Hangzhou_nephotettix_cincticeps_rhabdovirus_1                    1.00%    passed     43.31%
+ 555  MZ209638_Guiyang_nephotettix_cincticeps_rhabdovirus_1                     4.15%    passed     37.73%
+ 556  MZ209642_Guiyang_xinmovirus_1                                            24.46%    failed      0.00%
+ 557  MZ209651_Hangzhou_rhabdovirus_1                                           1.29%    passed     42.05%
+ 558  MZ209673_Hangzhou_cletus_punctiger_xinmovirus_1                          12.16%    failed      4.85%
+ 559  MZ209685_Hangzhou_chuvirus_4                                              4.08%    failed      0.03%
+ 560  MZ209686_Hangzhou_chuvirus_1                                              4.15%    failed      0.01%
+ 561  MZ209687_Hangzhou_rhabdovirus_3                                           3.29%    failed      0.00%
+ 562  MZ209705_Guiyang_nephotettix_cincticeps_rhabdovirus_1                     4.15%    passed     37.73%
+ 563  MZ209708_Hangzhou_altica_cyanea_chuvirus_1                                4.43%    failed      2.33%
+ 564  MZ209710_Hangzhou_zicrona_caerulea_xinmovirus_1                           8.58%    passed     21.29%
+ 565  MZ209719_Hangzhou_chuvirus_3                                              4.15%    failed      1.57%
+ 566  MZ209737_Hangzhou_rhabdovirus_4                                           0.14%    passed     88.44%
+ 567  MZ209738_Hangzhou_rhabdovirus_5                                           4.15%    failed      0.14%
+ 568  MZ209744_Hangzhou_rhabdovirus_1                                          15.81%    passed     20.10%
+ 569  MZ209752_Odonatavirus_fabricii                                            5.36%    passed      7.37%
+ 570  MZ209756_Hangzhou_altica_cyanea_chuvirus_1                                7.22%    failed      2.63%
+ 571  MZ209762_Hangzhou_tipula_scripta_rhabdovirus_1                            0.21%    failed      1.87%
+ 572  MZ209819_Guiyang_nephotettix_cincticeps_rhabdovirus_1                     4.15%    passed     38.43%
+ 573  MZ209828_Sanya_chuvirus_2                                                 5.87%    failed      0.28%
+ 574  MZ209844_Sanya_conocephalus_maculatus_rhabdovirus_1                       2.50%    failed      0.03%
+ 575  MZ209914_Sanya_Ischnura_senegalensis_xinmovirus_1                         9.73%    passed     69.25%
+ 576  MZ209928_Sanya_rhabdovirus_1                                              6.15%    passed     48.01%
+ 577  MZ210030_Fushun_monolepta_lauta_xinmovirus_1                             10.59%    passed     40.69%
+ 578  MZ210031_Fushun_monolepta_lauta_xinmovirus_2                             11.66%    failed      1.00%
+ 579  MZ210049_Fushun_oxya_chinensis_chuvirus_1                                 4.79%    passed      5.78%
+ 580  MZ244262_Hebei_mivirus_1                                                  4.58%    failed      0.51%
+ 581  MZ244263_Hebei_mivirus_2                                                  6.51%    failed      0.73%
+ 582  MZ244264_Mivirus_boleense                                                 4.58%    failed      0.00%
+ 583  MZ244265_Mivirus_boleense                                                 4.58%    failed      0.00%
+ 584  MZ244269_Xinjiang_mivirus_1                                              10.37%    failed      1.96%
+ 585  MZ244270_Hebei_mivirus_3                                                  4.58%    failed      0.00%
+ 586  MZ328291_Wufeng_Rhinolophus_pearsonii_tupavirus_1                         0.57%    failed      1.74%
+ 587  MZ328292_Longquan_Rhinolophus_sinicus_vesiculovirus_1                     0.07%    passed     35.10%
+ 588  MZ328293_Longquan_Niviventer_coninga_ledantevirus_1                       0.07%    passed     15.93%
+ 589  MZ516114_Human_orthopneumovirus                                          17.24%    failed      0.49%
+ 590  MZ556272_Sichuan_mosquito_mivirus                                         4.08%    failed      0.04%
+ 591  MZ687779_Ephemerovirus_febris                                             0.21%    failed      0.00%
+ 592  MZ771217_Rhabdoviridae_sp_                                               15.88%    passed      7.07%
+ 593  MZ771226_Rhabdoviridae_sp_                                                2.50%    passed     13.60%
+ 594  MZ821789_Apis_rhabdovirus_1                                               6.08%    passed     54.51%
+ 595  MZ821792_Apis_rhabdovirus_1                                               6.08%    passed     53.09%
+ 596  MZ822104_Apis_rhabdovirus_3                                               0.14%    passed     92.27%
+ 597  MZ822105_Apis_rhabdovirus_4                                               1.86%    passed     14.57%
+ 598  MZ822106_Apis_rhabdovirus_5                                               1.86%    failed      4.22%
+ 599  MZ822107_Apis_rhabdovirus_5                                               2.07%    failed      4.83%
+ 600  MZ822108_Apis_rhabdovirus_5                                               1.86%    failed      4.10%
+ 601  MZ852361_Drosophila-associated_anphevirus                                24.18%    passed     23.68%
+ 602  MZ962213_Cytorhabdovirus_fragariarugosus                                  7.08%    failed      0.13%
+ 603  NC_001542_Lyssavirus_rabies                                               1.29%    failed      0.40%
+ 604  NC_001560_Vesiculovirus_indiana                                           0.00%    passed     98.77%
+ 605  NC_005974_Gammanucleorhabdovirus_maydis                                  13.59%    passed     54.65%
+ 606  NC_007642_Cytorhabdovirus_lactucanecante                                  6.80%    failed      2.16%
+ 607  NC_009609_Dichorhavirus_orchidaceae                                      14.52%    failed      0.35%
+ 608  NC_011532_Cytorhabdovirus_lactucamaculante                                6.80%    passed     16.39%
+ 609  NC_012702_Nyavirus_midwayense                                            10.44%    failed      0.00%
+ 610  NC_013955_Hapavirus_ngaingan                                              0.21%    failed      1.25%
+ 611  NC_018381_Cytorhabdovirus_persimmon                                       6.44%    failed      0.11%
+ 612  NC_020805_Vesiculovirus_chandipura                                        0.07%    passed     85.01%
+ 613  NC_020806_Vesiculovirus_isfahan                                           0.07%    passed     94.27%
+ 614  NC_022581_Perhabdovirus_anguilla                                          0.29%    passed     40.01%
+ 615  NC_022755_Vesiculovirus_eptesicus                                         0.00%    passed     98.79%
+ 616  NC_024473_Vesiculovirus_newjersey                                         0.00%    passed     72.26%
+ 617  NC_025255_Vesiculovirus_maraba                                            0.00%    passed     84.74%
+ 618  NC_025341_Ledantevirus_fikirini                                           0.29%    passed     41.53%
+ 619  NC_025342_Ledantevirus_kolente                                            0.29%    passed     52.29%
+ 620  NC_025345_Sunshinevirus_reptilis                                         10.87%    failed      1.31%
+ 621  NC_025356_Sprivivirus_esox                                                0.07%    passed     87.68%
+ 622  NC_025358_Ephemerovirus_berrimah                                          0.14%    failed      0.02%
+ 623  NC_025364_Vesiculovirus_malpais                                           0.00%    passed     72.21%
+ 624  NC_025371_Sprivivirus_esox                                                0.07%    passed     83.15%
+ 625  NC_025373_Avian_paraavulavirus_3                                          6.72%    failed      0.74%
+ 626  NC_025376_Sprivivirus_esox                                                0.07%    passed     59.15%
+ 627  NC_025378_Vesiculovirus_bogdanovac                                        0.00%    passed     55.29%
+ 628  NC_025382_Betapaprhavirus_frugiperda                                      1.72%    failed      2.23%
+ 629  NC_025384_Merhavirus_tritaeniorhynchus                                    0.57%    failed      0.79%
+ 630  NC_025386_Salem_salemvirus                                                7.15%    passed     26.45%
+ 631  NC_025387_Scophrhavirus_maximus                                           0.50%    passed     97.45%
+ 632  NC_025393_Almendravirus_arboretum                                         1.86%    failed      0.00%
+ 633  NC_025394_Vesiculovirus_perinet                                           0.00%    passed     79.37%
+ 634  NC_025395_Almendravirus_almendras                                         1.93%    failed      0.00%
+ 635  NC_025396_Ephemerovirus_kimberley                                         0.07%    failed      0.00%
+ 636  NC_025400_Malakal_virus                                                   0.07%    failed      0.02%
+ 637  NC_025406_Cetarhavirus_laganorhynchus                                     0.14%    passed     62.15%
+ 638  NC_026732_Sclerotimonavirus_sclerotiniae                                 19.67%    passed     72.34%
+ 639  NC_028255_Vesiculovirus_cocal                                             0.00%    passed     87.68%
+ 640  NC_028259_Mivirus_boleense                                                4.58%    failed      0.00%
+ 641  NC_028260_Mivirus_changpingense                                           4.58%    failed      0.00%
+ 642  NC_028265_Culicidavirus_culicidae                                         5.51%    failed      0.14%
+ 643  NC_028482_Culicidavirus_imjinense                                         5.36%    failed      1.76%
+ 644  NC_028484_Ohlsrhavirus_tongilchon                                         0.14%    passed     94.52%
+ 645  NC_028867_Fox_fecal_rhabdovirus                                          10.37%    failed      3.25%
+ 646  NC_030451_Diachasmimorpha_longicaudata_rhabdovirus                        2.43%    passed     16.34%
+ 647  NC_031093_Sanxia_Water_Strider_Virus_5                                    3.22%    passed     10.81%
+ 648  NC_031215_Sigmavirus_shayang                                              0.00%    passed     90.82%
+ 649  NC_031216_Alphadrosrhavirus_shayang                                       5.44%    failed      0.16%
+ 650  NC_031217_Shuangao_Bedbug_Virus_2                                         5.01%    failed      1.36%
+ 651  NC_031232_Cytorhabdovirus_gammawuhaninsectum                              6.80%    failed      0.21%
+ 652  NC_031236_Wuhan_Insect_virus_7                                            0.36%    passed     98.27%
+ 653  NC_031244_Anphevirus_xinchengense                                         5.72%    passed     70.42%
+ 654  NC_031259_Arlivirus_arachnae                                             12.66%    failed      0.00%
+ 655  NC_031272_Tacheng_Tick_Virus_7                                            4.01%    passed     13.37%
+ 656  NC_031275_Crustavirus_wenzhouense                                        13.66%    failed      1.06%
+ 657  NC_031276_Wuhan_Ant_Virus                                                 1.22%    passed      6.42%
+ 658  NC_031278_Sigmavirus_domestica                                            0.00%    passed     94.08%
+ 659  NC_031282_Sigmavirus_wuhan                                                0.07%    passed     67.62%
+ 660  NC_031283_Alphadrosrhavirus_hubei                                         5.58%    passed     21.71%
+ 661  NC_031302_Sigmavirus_hippoboscid                                          0.00%    passed     33.22%
+ 662  NC_031303_Wuhan_Mosquito_Virus_9                                         83.98%    passed     35.12%
+ 663  NC_031305_Ledantevirus_yongjia                                            0.14%    passed     15.21%
+ 664  NC_031691_Gata_virus                                                      0.43%    passed     48.56%
+ 665  NC_031957_Almendravirus_cootbay                                           2.93%    failed      0.00%
+ 666  NC_031958_Almendravirus_chico                                             4.43%    failed      0.00%
+ 667  NC_032272_Yingvirus_beihaiense                                           29.04%    failed      0.00%
+ 668  NC_032409_Wenling_chuvirus-like_virus_1                                   4.43%    failed      0.00%
+ 669  NC_032414_Wenling_chuvirus-like_virus_2                                   4.94%    passed      8.17%
+ 670  NC_032427_Pediavirus_cirripedis                                          12.16%    failed      0.00%
+ 671  NC_032432_Beihai_barnacle_virus_7                                        13.16%    failed      2.87%
+ 672  NC_032544_Berhavirus_radialis                                            15.52%    passed     18.02%
+ 673  NC_032739_Alphacrustrhavirus_wenling                                      3.72%    passed      7.28%
+ 674  NC_032781_Alphacrustrhavirus_zhejiang                                     5.51%    failed      3.16%
+ 675  NC_032793_Crustavirus_wenlingense                                        14.52%    failed      0.06%
+ 676  NC_032849_Hoptevirus_orthopteris                                         16.45%    failed      0.40%
+ 677  NC_032907_Alphapaprhavirus_hubei                                          0.14%    passed     45.99%
+ 678  NC_032956_Odonatavirus_fabricii                                           5.36%    passed      8.67%
+ 679  NC_032971_Hubei_rhabdo-like_virus_1                                       1.93%    passed     12.30%
+ 680  NC_033006_Hubei_dimarhabdovirus_virus_2                                   0.43%    failed      0.20%
+ 681  NC_033015_Scarabeuvirus_dentati                                           5.58%    failed      1.67%
+ 682  NC_033027_Draselvirus_dentati                                             9.16%    failed      0.16%
+ 683  NC_033034_Sigmavirus_hubei                                                0.36%    passed      6.46%
+ 684  NC_033055_Alasvirus_muscae                                                6.01%    failed      0.00%
+ 685  NC_033103_Sigmavirus_myga                                                 0.14%    passed     97.44%
+ 686  NC_033182_Betanemrhavirus_shayang                                         2.00%    failed      0.00%
+ 687  NC_033261_Hubei_rhabdo-like_virus_2                                       8.73%    failed      0.06%
+ 688  NC_033267_Betanemrhavirus_hubei                                           2.15%    passed     29.23%
+ 689  NC_033282_Yingvirus_hubeiense                                            24.96%    failed      0.00%
+ 690  NC_033284_Yingvirus_sanxiaense                                           26.32%    failed      0.00%
+ 691  NC_033287_Yingvirus_shaheense                                            27.68%    failed      0.01%
+ 692  NC_033289_Yuyuevirus_shaheense                                           25.54%    failed      0.04%
+ 693  NC_033291_Chuvivirus_brunnichi                                            4.15%    failed      0.00%
+ 694  NC_033293_Crustacean_mivirus                                              4.08%    failed      0.00%
+ 695  NC_033296_Yingvirus_charybdis                                            32.05%    failed      0.00%
+ 696  NC_033327_Scarabeuvirus_hubeiense                                         7.08%    failed      0.01%
+ 697  NC_033436_Nematovirus_wuchangense                                         9.59%    passed     17.12%
+ 698  NC_033450_Tapwovirus_cesti                                               15.02%    failed      0.40%
+ 699  NC_033703_Xinzhou_dimarhabdovirus_virus_1                                 0.36%    passed     33.08%
+ 700  NC_033704_Xinzhou_mivirus                                                13.16%    failed      0.29%
+ 701  NC_033753_Yingvirus_xinzhouense                                          32.98%    failed      0.00%
+ 702  NC_034240_Cytorhabdovirus_lycopersici                                     6.65%    failed      0.82%
+ 703  NC_034451_Ledantevirus_kern                                               0.36%    passed      8.47%
+ 704  NC_034508_Vesiculovirus_morreton                                          0.00%    passed     70.48%
+ 705  NC_034530_Hapavirus_marco                                                 0.00%    passed     10.58%
+ 706  NC_034533_Hapavirus_landjia                                               0.21%    failed      1.69%
+ 707  NC_034537_Hapavirus_lajoya                                                0.14%    passed     18.52%
+ 708  NC_034539_Ledantevirus_nkolbisson                                         0.21%    passed     89.68%
+ 709  NC_034541_Hapavirus_graylodge                                             0.36%    passed     30.89%
+ 710  NC_035132_Ohlsrhavirus_culex                                              0.14%    passed     99.11%
+ 711  NC_035133_Doupovirus_australiaense                                        5.29%    passed     11.74%
+ 712  NC_038236_Vesiculovirus_indiana                                           0.00%    passed     99.14%
+ 713  NC_038276_Ledantevirus_nishimuro                                          0.29%    passed     98.16%
+ 714  NC_038278_Sigmavirus_affinis                                              0.07%    passed     84.97%
+ 715  NC_038282_Tibrovirus_alphaekpoma                                          4.15%    passed     88.68%
+ 716  NC_038285_Vesiculovirus_carajas                                           0.00%    passed     77.04%
+ 717  NC_038286_Vesiculovirus_piry                                              0.07%    passed     95.71%
+ 718  NC_038287_Vesiculovirus_radi                                              0.00%    passed     61.38%
+ 719  NC_039013_Carbovirus_queenslandense                                      20.96%    failed      4.24%
+ 720  NC_039200_Almendravirus_balsa                                             2.22%    failed      0.00%
+ 721  NC_039202_Hapavirus_flanders                                              0.36%    passed      5.39%
+ 722  NC_039206_Vesiculovirus_jurona                                            0.00%    passed     21.53%
+ 723  NC_040532_Merida-like_virus_KE-2017a                                      0.43%    passed     24.93%
+ 724  NC_040599_Merhavirus_merida                                               0.43%    passed     24.93%
+ 725  NC_040602_Almendravirus_menghai                                           2.93%    failed      0.00%
+ 726  NC_040669_Riverside_virus_1                                               0.14%    passed     45.15%
+ 727  NC_043472_Scarabeuvirus_blattae                                           4.58%    failed      0.00%
+ 728  NC_043484_Drunivirus_chambonense                                         10.37%    failed      1.70%
+ 729  NC_055111_Shuangao_anphevirus                                             7.30%    failed      0.00%
+ 730  NC_055112_Gambievirus_bolahunense                                         5.22%    passed     40.51%
+ 731  NC_055292_Ohlsrhavirus_northcreek                                         0.21%    passed     99.56%
+ 732  NC_055460_Sunrhavirus_harrison                                            0.93%    failed      0.00%
+ 733  NC_055477_Ohlsrhavirus_ohlsdorf                                           0.21%    passed     70.67%
+ 734  OK167013_Vesicular_stomatitis_virus                                       0.00%    passed     98.87%
+ 735  OK167014_Vesicular_stomatitis_virus                                       0.00%    passed     98.87%
+ 736  OK167015_Vesicular_stomatitis_virus                                       0.00%    passed     98.87%
+ 737  OK167016_Vesicular_stomatitis_virus                                       0.00%    passed     98.79%
+ 738  OK167020_Vesicular_stomatitis_virus                                       0.00%    passed     98.87%
+ 739  OK167022_Vesicular_stomatitis_virus                                       0.00%    passed     99.18%
+ 740  OK167029_Vesicular_stomatitis_virus                                       0.00%    passed     98.87%
+ 741  OK167030_Vesicular_stomatitis_virus                                       0.00%    passed     98.87%
+ 742  OK491499_Xiangshan_rhabdo-like_virus_1                                    2.15%    failed      0.00%
+ 743  OK491500_Xiangshan_rhabdo-like_virus_2                                    4.51%    passed      6.89%
+ 744  OK491501_Xiangshan_rhabdo-like_virus_3                                    1.22%    failed      0.68%
+ 745  OK491502_Xiangshan_rhabdo-like_virus_4                                    2.36%    failed      0.28%
+ 746  OK491503_Xiangshan_rhabdo-like_virus_5                                    1.00%    failed      0.00%
+ 747  OK491516_Almendravirus_arboretum                                          1.86%    failed      0.00%
+ 748  OL420706_Aksy-Durug_Melophagus_sigmavirus                                 0.07%    failed      0.01%
+ 749  OL420707_Aksy-Durug_Melophagus_sigmavirus                                 0.07%    failed      0.01%
+ 750  OL420708_Aksy-Durug_Melophagus_sigmavirus                                 1.43%    failed      0.05%
+ 751  OL420709_Aksy-Durug_Melophagus_sigmavirus                                 0.07%    failed      0.01%
+ 752  OL420710_Aksy-Durug_Melophagus_sigmavirus                                 0.07%    failed      0.01%
+ 753  OL452068_Mivirus_genovaense                                               4.65%    failed      0.01%
+ 754  OL452069_Mivirus_genovaense                                               4.65%    failed      0.01%
+ 755  OL452070_Mivirus_genovaense                                               4.65%    failed      0.00%
+ 756  OL452071_Mivirus_genovaense                                               4.65%    failed      0.01%
+ 757  OL452073_Mivirus_genovaense                                               4.65%    failed      0.00%
+ 758  OL452074_Mivirus_genovaense                                               4.65%    failed      0.01%
+ 759  OL452075_Mivirus_genovaense                                               4.65%    failed      0.00%
+ 760  OL472112_Pastinaca_cytorhabdovirus_1                                      6.51%    failed      0.63%
+ 761  OL472125_Taraxacum_cytorhabdovirus_1                                      6.29%    passed     11.09%
+ 762  OL700050_Culex_mononega-like_virus_1                                      6.08%    passed     10.51%
+ 763  OL700051_Doupovirus_australiaense                                         5.29%    passed      8.10%
+ 764  OL700054_Ohlsrhavirus_pseudovishnui                                       0.14%    passed     97.22%
+ 765  OL700055_Merhavirus_tritaeniorhynchus                                    28.04%    passed     49.73%
+ 766  OL700074_Merhavirus_merida                                                0.43%    passed     22.53%
+ 767  OL700091_Wuhan_Mosquito_Virus_9                                           0.86%    passed     21.50%
+ 768  OL700094_Anphevirus_xinchengense                                          5.72%    passed     57.42%
+ 769  OL700126_XiangYun_mono-chu-like_virus_1                                   5.36%    passed     12.75%
+ 770  OL700129_XiangYun_mono-chu-like_virus_4                                   1.36%    passed      7.69%
+ 771  OL700130_XiangYun_mono-chu-like_virus_5                                   9.16%    passed      7.27%
+ 772  OL700131_XiangYun_mono-chu-like_virus_6                                   4.15%    failed      0.08%
+ 773  OL700133_XiangYun_mono-chu-like_virus_8                                   5.29%    passed     11.27%
+ 774  OL700134_XiangYun_mono-chu-like_virus_9                                   6.51%    passed     25.32%
+ 775  OL700136_XiangYun_mono-chu-like_virus_11                                  0.79%    passed     17.66%
+ 776  OL774843_Sunrhavirus_bimbo                                                1.00%    failed      0.01%
+ 777  OL803819_Apis_rhabdovirus_1                                               5.94%    passed     55.80%
+ 778  OL803820_Apis_rhabdovirus_1                                               5.94%    passed     55.51%
+ 779  OL803821_Apis_rhabdovirus_1                                               5.94%    passed     55.80%
+ 780  OM030290_Wenzhou_Myotis_laniger_tupavirus_1                               0.64%    failed      0.02%
+ 781  OM030291_Longquan_Rhinolophus_affinis_vesiculovirus_1                     0.07%    passed     23.79%
+ 782  OM030292_Wufeng_Myotis_altarium_vesiculovirus_1                           0.00%    passed     10.54%
+ 783  OM240631_Mivirus_sp_                                                      4.58%    failed      0.44%
+ 784  OM320812_Mundri_virus                                                     0.79%    passed     52.02%
+ 785  OM405140_Hebei_mivirus_1                                                  4.58%    failed      0.01%
+ 786  OM523356_Sambucus_cytorhabdovirus                                         6.51%    failed      0.18%
+ 787  OM523357_Sambucus_cytorhabdovirus                                         6.51%    failed      0.12%
+ 788  OM523358_Sambucus_cytorhabdovirus                                         6.51%    failed      0.10%
+ 789  OM744316_Apis_rhabdovirus_1                                               6.01%    passed     55.39%
+ 790  OM744317_Apis_rhabdovirus_1                                               6.08%    passed     59.24%
+ 791  OM744318_Apis_rhabdovirus_1                                               5.94%    passed     55.84%
+ 792  OM817546_Merhavirus_merida                                                0.43%    passed     20.30%
+ 793  ON059778_Lantra_virus                                                     0.36%    passed     50.76%
+ 794  ON059779_Lantra_virus                                                     0.14%    passed     48.48%
+ 795  ON059791_Rovyktys_virus                                                   6.08%    failed      1.04%
+ 796  ON059792_Rovyktys_virus                                                   6.08%    failed      0.28%
+ 797  ON059793_Tolviot_virus                                                    5.58%    failed      0.25%
+ 798  ON059794_Tolviot_virus                                                    5.58%    failed      0.32%
+ 799  ON059795_Tolviot_virus                                                    5.58%    failed      0.29%
+ 800  ON059796_Tolviot_virus                                                    5.58%    failed      0.36%
+ 801  ON324119_jopcycgri_virus_1                                                0.00%    failed      0.14%
+ 802  ON375848_Ephemerovirus_yata                                               0.00%    passed     16.67%
+ 803  ON408183_Yichun_mivirus                                                   4.72%    failed      0.37%
+ 804  ON408184_Yichun_mivirus                                                   4.72%    failed      0.37%
+ 805  ON548551_Puer_bat_vesiculovirus                                           0.07%    passed     34.12%
+ 806  ON620344_Apis_rhabdovirus_1                                               5.94%    passed     55.80%
+ 807  ON694109_Siniperhavirus_chuatsi                                           0.43%    passed     28.89%
+ 808  ON746379_Yushu_Chuvi_tick_virus_1                                         4.58%    failed      0.01%
+ 809  ON746381_Zhangye_Chuvi_tick_virus_1                                       4.58%    failed      0.00%
+ 810  ON746382_Yanbian_Chuvi_tick_virus_1                                       4.72%    failed      0.43%
+ 811  ON746384_Dali_Chuvi_tick_virus_1                                          4.58%    failed      0.00%
+ 812  ON746385_Nanning_Chuvi_tick_virus_2                                       4.58%    failed      0.00%
+ 813  ON746523_Tongren_Rhabd_tick_virus_1                                       3.00%    failed      0.00%
+ 814  ON746524_Yanbian_Rhabd_tick_virus_3                                       3.00%    failed      0.00%
+ 815  ON746525_Mudanjiang_Rhabd_tick_virus_1                                    2.50%    failed      2.30%
+ 816  ON746528_Yanbian_Rhabd_tick_virus_2                                       3.00%    failed      0.00%
+ 817  ON746532_Lhasa_Rhabd_tick_virus_1                                         2.72%    failed      0.65%
+ 818  ON746534_Tongren_Rhabd_tick_virus_2                                       0.07%    passed      9.06%
+ 819  ON805823_Vesicular_stomatitis_virus                                       0.00%    passed     73.22%
+ 820  ON812478_Yongjia_Tick_Virus_2                                             0.07%    passed     19.61%
+ 821  ON812479_Rhabdoviridae_sp_                                                2.50%    failed      2.30%
+ 822  ON812527_Longquan_Niviventer_coninga_ledantevirus_1                       0.07%    passed     18.41%
+ 823  ON812533_Rhabdoviridae_sp_                                                0.07%    passed      9.93%
+ 824  ON812534_Yongjia_Tick_Virus_2                                             0.07%    passed     19.52%
+ 825  ON812535_Longquan_Niviventer_coninga_ledantevirus_1                       0.07%    passed     10.92%
+ 826  ON812536_Longquan_Niviventer_coninga_ledantevirus_1                       0.07%    passed     11.32%
+ 827  ON812544_Rhabdoviridae_sp_                                                2.50%    failed      2.54%
+ 828  ON812551_Rhabdoviridae_sp_                                                2.50%    failed      2.37%
+ 829  ON812558_Rhabdoviridae_sp_                                                3.00%    failed      0.00%
+ 830  ON812564_Rhabdoviridae_sp_                                                2.50%    failed      2.30%
+ 831  ON812565_Rhabdoviridae_sp_                                                2.50%    failed      2.72%
+ 832  ON812578_Rhabdoviridae_sp_                                                2.72%    failed      0.65%
+ 833  ON812579_Rhabdoviridae_sp_                                                8.30%    failed      3.09%
+ 834  ON860454_Hedemora_virus                                                   6.72%    passed     15.97%
+ 835  ON860459_Malby_virus                                                      6.72%    passed     13.15%
+ 836  ON872562_Bat_faecal_associated_anphe-like_virus_1                         6.22%    passed     19.71%
+ 837  ON872565_Bat_faecal_associated_chuvirus_1                                 4.79%    failed      0.00%
+ 838  ON955141_Enontekio_merhavirus                                            12.59%    failed      0.30%
+ 839  ON955142_Hattula_rhabdovirus                                              0.00%    passed     51.33%
+ 840  ON955143_Inari_rhabdovirus                                                0.00%    passed     81.38%
+ 841  ON955147_Hattula_chuvirus                                                32.47%    passed      5.74%
+ 842  ON955148_Hattula_chuvirus                                                 4.15%    failed      0.83%
+ 843  ON955149_Hattula_chuvirus                                                 4.15%    failed      0.75%
+ 844  ON955152_Hattula_chuvirus                                                 4.15%    failed      1.28%
+ 845  ON955153_Hattula_chuvirus                                                 4.15%    failed      0.75%
+ 846  ON955154_Hattula_chuvirus                                                24.18%    passed      8.99%
+ 847  ON955246_Hattula_rhabdovirus                                             15.67%    passed     59.67%
+ 848  ON955251_Joutseno_rhabdovirus_1                                          78.25%    passed     18.78%
+ 849  ON955253_Ohlsrhavirus_ohlsdorf                                           16.74%    passed     68.51%
+ 850  ON955254_Ohlsrhavirus_ohlsdorf                                            0.21%    passed     65.09%
+ 851  ON955255_Enontekio_anphevirus_1                                          76.97%    passed     62.09%
+ 852  ON955256_Enontekio_anphevirus_2                                          47.42%    passed     65.23%
+ 853  ON955257_Hanko_anphevirus                                                26.61%    passed     76.42%
+ 854  ON955258_Joensuu_anphevirus                                              77.25%    passed     27.42%
+ 855  ON955260_Joensuu_anphevirus                                              61.16%    passed      9.15%
+ 856  ON955261_Joensuu_anphevirus                                              50.29%    passed     72.76%
+ 857  ON955263_Joensuu_anphevirus                                              71.82%    passed     65.16%
+ 858  OP264923_Almendravirus_menghai                                           50.93%    failed      0.99%
+ 859  OP313012_Fuyun_tick_rhabdovirus                                           4.15%    passed     16.72%
+ 860  OP352885_Black_currant_cytorhabdovirus_1                                  6.65%    passed     38.36%
+ 861  OP589940_Rhabdoviridae_sp_                                                7.87%    passed     49.39%
+ 862  OP589941_Rhabdoviridae_sp_                                                1.22%    failed      0.00%
+ 863  OP589942_Rhabdoviridae_sp_                                                6.22%    failed      0.00%
+ 864  OU592964_Kokolu_virus                                                     0.07%    failed      0.10%
+ 865  Poterfers_virus_F1543C2F1543                                              2.93%    failed      0.00%
+ 866  Preculath_virus_F1097C1F1019                                              1.36%    passed     47.93%
+ 867  Preculath_virus_F1097C1F1021                                              1.36%    passed     51.36%
+ 868  Preculath_virus_F1097C1F1089                                              1.36%    passed     47.93%
+ 869  Preculath_virus_F1097C1F1090                                              1.36%    passed     46.53%
+ 870  Preculath_virus_F1097C1F1097                                              1.36%    passed     47.93%
+ 871  Preculath_virus_F1097C1F1098                                              1.36%    passed     48.91%
+ 872  Preculath_virus_F1097C1F1099                                             42.20%    passed     77.14%
+ 873  Preculath_virus_F1097C1F1371                                              1.36%    passed     43.00%
+ 874  Preculath_virus_F1097C1F1380                                              1.36%    passed     46.05%
+ 875  Preculath_virus_F1097C1F1525                                              1.36%    passed     47.93%
+ 876  Preculath_virus_F1097C1F1526                                              1.36%    passed     47.93%
+ 877  Preculath_virus_F1097C1F1527                                              1.36%    passed     47.93%
+ 878  Preculath_virus_F1097C1F1531                                              1.36%    passed     50.43%
+ 879  Preculath_virus_F1097C1F1532                                              1.36%    passed     47.93%
+ 880  Preculath_virus_F1097C1F1533                                              1.36%    passed     47.93%
+ 881  Preculath_virus_F1097C1F1534                                              1.36%    passed     42.69%
+ 882  Preculath_virus_F1097C1F1536                                              1.36%    passed     48.87%
+ 883  Preculath_virus_F1097C1F1537                                              1.36%    passed     47.93%
+ 884  Prepisiers_virus_F1032C1F1032                                             5.29%    passed     21.72%
+ 885  Raistely_virus_F1107C4F1107                                              38.13%    failed      3.18%
+ 886  Regreagly_virus_F1187C3F1177                                             25.89%    passed     84.98%
+ 887  Regreagly_virus_F1187C3F1178                                              0.14%    passed     94.85%
+ 888  Regreagly_virus_F1187C3F1187                                              0.14%    passed     95.84%
+ 889  Reloonsia_virus_F1535C4F1020                                              1.36%    passed     34.32%
+ 890  Reloonsia_virus_F1535C4F1524                                              1.36%    passed     30.85%
+ 891  Reloonsia_virus_F1535C4F1535                                              1.36%    passed     34.32%
+ 892  Retriended_virus_F1011C1F1011                                             1.36%    passed     11.44%
+ 893  San_Gabriel_mononegavirus_F1076C1F1016                                    1.36%    passed     56.19%
+ 894  San_Gabriel_mononegavirus_F1076C1F1076                                    1.36%    passed     64.02%
+ 895  San_Gabriel_mononegavirus_F1076C1F1168                                    1.43%    passed     56.90%
+ 896  San_Gabriel_mononegavirus_F1076C1F1197                                    1.36%    passed     62.96%
+ 897  San_Gabriel_mononegavirus_F1076C1F1345                                    1.36%    passed     64.96%
+ 898  San_Gabriel_mononegavirus_F1076C1F1350                                    1.36%    passed     60.25%
+ 899  San_Gabriel_mononegavirus_F1076C1F1518                                    1.36%    passed     63.65%
+ 900  X73872_Novirhabdovirus_salmonid                                          42.35%    failed      2.92%
+ 901  Xincheng_Mosquito_Virus_F1356C1F1356                                      5.72%    passed     70.53%
+ 902  Xincheng_Mosquito_Virus_F1356C1F1367                                      5.72%    passed     48.94%
+WARNING: 15 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                     6.12%  323 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Arindly_virus_F1098C3F1098 is identical to Arindly_virus_F1098C3F1087 but kept for subsequent analysis
+NOTE: FJ478454_Recombinant_vesicular_stomatitis_Indiana_virus_rVSV-G_GFP is identical to EF197793_Vesiculovirus_indiana but kept for subsequent analysis
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1114 is identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040 but kept for subsequent analysis
+NOTE: MT019609_Vesiculovirus_chandipura is identical to HM627186_Vesiculovirus_chandipura but kept for subsequent analysis
+NOTE: KC608033_Perhabdovirus_anguilla is identical to JN639010_Perhabdovirus_anguilla but kept for subsequent analysis
+NOTE: MG552609_Vesiculovirus_newjersey is identical to KC905171_Vesiculovirus_newjersey but kept for subsequent analysis
+NOTE: KP872885_Vesiculovirus_indiana is identical to KF880907_Vesiculovirus_indiana but kept for subsequent analysis
+NOTE: KP872886_Vesiculovirus_indiana is identical to KP872864_Vesiculovirus_indiana but kept for subsequent analysis
+NOTE: MW760872_Vesiculovirus_newjersey is identical to KT429217_Vesicular_stomatitis_virus but kept for subsequent analysis
+NOTE: NC_032956_Odonatavirus_fabricii is identical to KX884419_Odonatavirus_fabricii but kept for subsequent analysis
+NOTE: NC_032971_Hubei_rhabdo-like_virus_1 is identical to KX884422_Hubei_rhabdo-like_virus_1 but kept for subsequent analysis
+NOTE: NC_033027_Draselvirus_dentati is identical to KX884428_Draselvirus_dentati but kept for subsequent analysis
+NOTE: NC_033055_Alasvirus_muscae is identical to KX884430_Alasvirus_muscae but kept for subsequent analysis
+NOTE: OL803819_Apis_rhabdovirus_1 is identical to KY354230_Apis_rhabdovirus_1 but kept for subsequent analysis
+NOTE: KY768861_Ohlsrhavirus_ohlsdorf is identical to KY768857_Ohlsrhavirus_ohlsdorf but kept for subsequent analysis
+NOTE: MF114351_Apis_rhabdovirus_1 is identical to MF114348_Apis_rhabdovirus_1 but kept for subsequent analysis
+NOTE: NC_035132_Ohlsrhavirus_culex is identical to MF176358_Ohlsrhavirus_culex but kept for subsequent analysis
+NOTE: OL803820_Apis_rhabdovirus_1 is identical to MH267692_Apis_rhabdovirus_1 but kept for subsequent analysis
+NOTE: MN013393_Guadeloupe_Culex_rhabdovirus is identical to MN013386_Guadeloupe_Culex_rhabdovirus but kept for subsequent analysis
+NOTE: MN053744_Aedes_aegypti_anphevirus is identical to MN053738_Aedes_aegypti_anphevirus but kept for subsequent analysis
+NOTE: MN053741_Aedes_aegypti_anphevirus is identical to MN053739_Aedes_aegypti_anphevirus but kept for subsequent analysis
+NOTE: MN607597_Vesiculovirus_yinshui is identical to MN607594_Vesiculovirus_yinshui but kept for subsequent analysis
+NOTE: MT094096_Vesicular_stomatitis_virus is identical to MT094083_Vesicular_stomatitis_virus but kept for subsequent analysis
+NOTE: MT094125_Vesicular_stomatitis_virus is identical to MT094121_Vesicular_stomatitis_virus but kept for subsequent analysis
+NOTE: MT094131_Vesicular_stomatitis_virus is identical to MT094130_Vesicular_stomatitis_virus but kept for subsequent analysis
+NOTE: MW373776_Vesiculovirus_indiana is identical to MT437285_Vesiculovirus_indiana but kept for subsequent analysis
+NOTE: MT561346_Vesiculovirus_eptesicus is identical to MT561345_Vesiculovirus_eptesicus but kept for subsequent analysis
+NOTE: MZ209636_Hangzhou_nephotettix_cincticeps_rhabdovirus_1 is identical to MW084959_Nephotettix_cincticeps_negative-stranded_RNA_virus_1 but kept for subsequent analysis
+NOTE: MW434104_Culicidavirus_quitotaense is identical to MW434101_Culicidavirus_quitotaense but kept for subsequent analysis
+NOTE: MW435016_Gordis_virus is identical to MW435014_Gordis_virus but kept for subsequent analysis
+NOTE: MW557331_Vesiculovirus_mediterranean is identical to MW557330_Vesiculovirus_mediterranean but kept for subsequent analysis
+NOTE: MW557343_Vesiculovirus_mediterranean is identical to MW557339_Vesiculovirus_mediterranean but kept for subsequent analysis
+NOTE: MZ209705_Guiyang_nephotettix_cincticeps_rhabdovirus_1 is identical to MZ209638_Guiyang_nephotettix_cincticeps_rhabdovirus_1 but kept for subsequent analysis
+NOTE: OL420707_Aksy-Durug_Melophagus_sigmavirus is identical to OL420706_Aksy-Durug_Melophagus_sigmavirus but kept for subsequent analysis
+NOTE: OL452074_Mivirus_genovaense is identical to OL452068_Mivirus_genovaense but kept for subsequent analysis
+NOTE: OL452075_Mivirus_genovaense is identical to OL452070_Mivirus_genovaense but kept for subsequent analysis
+NOTE: ON408184_Yichun_mivirus is identical to ON408183_Yichun_mivirus but kept for subsequent analysis
+NOTE: ON812558_Rhabdoviridae_sp_ is identical to ON746524_Yanbian_Rhabd_tick_virus_3 but kept for subsequent analysis
+NOTE: ON812479_Rhabdoviridae_sp_ is identical to ON746525_Mudanjiang_Rhabd_tick_virus_1 but kept for subsequent analysis
+NOTE: ON812578_Rhabdoviridae_sp_ is identical to ON746532_Lhasa_Rhabd_tick_virus_1 but kept for subsequent analysis
+NOTE: ON955153_Hattula_chuvirus is identical to ON955149_Hattula_chuvirus but kept for subsequent analysis
+NOTE: Preculath_virus_F1097C1F1089 is identical to Preculath_virus_F1097C1F1019 but kept for subsequent analysis
+NOTE: Reloonsia_virus_F1535C4F1535 is identical to Reloonsia_virus_F1535C4F1020 but kept for subsequent analysis
+NOTE: 52 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KF935251_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872861_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872866_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872869_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872872_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872875_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872876_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872878_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: KP872884_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: MN164438_Vesiculovirus_indiana (identical to EF197793_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1118 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1119 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1121 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1124 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1125 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1419 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1425 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1427 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1430 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1431 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1432 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1433 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1571 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1573 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1575 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1576 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1578 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: Grenada_mosquito_rhabdovirus_1_F1429C1F1582 (identical to Grenada_mosquito_rhabdovirus_1_F1429C1F1040) is ignored but added at the end
+NOTE: MT019612_Vesiculovirus_chandipura (identical to HM627186_Vesiculovirus_chandipura) is ignored but added at the end
+NOTE: OL803821_Apis_rhabdovirus_1 (identical to KY354230_Apis_rhabdovirus_1) is ignored but added at the end
+NOTE: ON620344_Apis_rhabdovirus_1 (identical to KY354230_Apis_rhabdovirus_1) is ignored but added at the end
+NOTE: NC_055477_Ohlsrhavirus_ohlsdorf (identical to KY768857_Ohlsrhavirus_ohlsdorf) is ignored but added at the end
+NOTE: MT094105_Vesicular_stomatitis_virus (identical to MT094083_Vesicular_stomatitis_virus) is ignored but added at the end
+NOTE: MT094117_Vesicular_stomatitis_virus (identical to MT094083_Vesicular_stomatitis_virus) is ignored but added at the end
+NOTE: MT094135_Vesicular_stomatitis_virus (identical to MT094083_Vesicular_stomatitis_virus) is ignored but added at the end
+NOTE: MW760865_Vesiculovirus_indiana (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: MW760867_Vesiculovirus_indiana (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: OK167013_Vesicular_stomatitis_virus (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: OK167014_Vesicular_stomatitis_virus (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: OK167015_Vesicular_stomatitis_virus (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: OK167020_Vesicular_stomatitis_virus (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: OK167029_Vesicular_stomatitis_virus (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: OK167030_Vesicular_stomatitis_virus (identical to MT437285_Vesiculovirus_indiana) is ignored but added at the end
+NOTE: MW557333_Vesiculovirus_mediterranean (identical to MW557330_Vesiculovirus_mediterranean) is ignored but added at the end
+NOTE: ON812564_Rhabdoviridae_sp_ (identical to ON746525_Mudanjiang_Rhabd_tick_virus_1) is ignored but added at the end
+NOTE: Preculath_virus_F1097C1F1097 (identical to Preculath_virus_F1097C1F1019) is ignored but added at the end
+NOTE: Preculath_virus_F1097C1F1525 (identical to Preculath_virus_F1097C1F1019) is ignored but added at the end
+NOTE: Preculath_virus_F1097C1F1526 (identical to Preculath_virus_F1097C1F1019) is ignored but added at the end
+NOTE: Preculath_virus_F1097C1F1527 (identical to Preculath_virus_F1097C1F1019) is ignored but added at the end
+NOTE: Preculath_virus_F1097C1F1532 (identical to Preculath_virus_F1097C1F1019) is ignored but added at the end
+NOTE: Preculath_virus_F1097C1F1533 (identical to Preculath_virus_F1097C1F1019) is ignored but added at the end
+NOTE: Preculath_virus_F1097C1F1537 (identical to Preculath_virus_F1097C1F1019) is ignored but added at the end
+Alignment was printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 2.416 seconds
+Measuring multi-threading efficiency up to 95 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 140.712 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2237115
+Threads: 2 / Time: 75.217 sec / Speedup: 1.871 / Efficiency: 94% / LogL: -2237115
+Threads: 3 / Time: 52.300 sec / Speedup: 2.690 / Efficiency: 90% / LogL: -2237115
+Threads: 4 / Time: 40.898 sec / Speedup: 3.441 / Efficiency: 86% / LogL: -2237115
+Threads: 5 / Time: 34.064 sec / Speedup: 4.131 / Efficiency: 83% / LogL: -2237115
+Threads: 6 / Time: 29.854 sec / Speedup: 4.713 / Efficiency: 79% / LogL: -2237115
+Threads: 7 / Time: 26.473 sec / Speedup: 5.315 / Efficiency: 76% / LogL: -2237115
+Threads: 8 / Time: 24.103 sec / Speedup: 5.838 / Efficiency: 73% / LogL: -2237115
+Threads: 9 / Time: 22.463 sec / Speedup: 6.264 / Efficiency: 70% / LogL: -2237115
+Threads: 10 / Time: 21.098 sec / Speedup: 6.669 / Efficiency: 67% / LogL: -2237115
+Threads: 11 / Time: 20.045 sec / Speedup: 7.020 / Efficiency: 64% / LogL: -2237115
+Threads: 12 / Time: 19.402 sec / Speedup: 7.253 / Efficiency: 60% / LogL: -2237115
+Threads: 13 / Time: 18.323 sec / Speedup: 7.680 / Efficiency: 59% / LogL: -2237115
+Threads: 14 / Time: 17.716 sec / Speedup: 7.943 / Efficiency: 57% / LogL: -2237115
+Threads: 15 / Time: 17.500 sec / Speedup: 8.041 / Efficiency: 54% / LogL: -2237115
+Threads: 16 / Time: 17.165 sec / Speedup: 8.198 / Efficiency: 51% / LogL: -2237115
+Threads: 17 / Time: 16.962 sec / Speedup: 8.296 / Efficiency: 49% / LogL: -2237115
+BEST NUMBER OF THREADS: 16
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -870416.643
+Optimal log-likelihood: -870416.619
+Proportion of invariable sites: 0.001
+Gamma shape alpha: 1.249
+Parameters optimization took 1 rounds (1.438 sec)
+Time for fast ML tree search: 21.249 seconds
+
+NOTE: ModelFinder requires 1870 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 1398) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            907507.230   1697 1818408.460  7581420.460  1827305.488
+  2  LG+I          907320.486   1698 1818036.973  7587840.973  1826939.244
+  3  LG+G4         870454.894   1698 1744305.788  7514109.788  1753208.058
+  4  LG+I+G4       870416.624   1699 1744231.248  7520831.248  1753138.762
+  5  LG+R2         879811.656   1699 1763021.313  7539621.313  1771928.827
+  6  LG+R3         873137.241   1701 1749676.482  7539880.482  1758594.481
+  7  LG+R4         870314.172   1703 1744034.345  7547858.345  1752962.830
+  8  LG+R5         869067.535   1705 1741545.069  7559005.069  1750484.039
+  9  LG+R6         868314.370   1707 1740042.740  7571154.740  1748992.196
+ 10  LG+R7         867923.397   1709 1739264.794  7584044.794  1748224.736
+ 11  LG+R8         867659.710   1711 1738741.421  7597205.421  1747711.848
+ 12  LG+R9         867516.378   1713 1738458.755  7610622.755  1747439.668
+ 13  LG+R10        867477.412   1715 1738384.825  7624264.825  1747376.223
+ 26  LG+F+R10      864865.065   1734 1733198.130  7750178.130  1742289.141
+ 39  WAG+R10       874384.419   1715 1752198.837  7638078.837  1761190.236
+ 52  WAG+F+R10     869574.300   1734 1742616.601  7759596.601  1751707.612
+ 65  JTT+R10       880613.642   1715 1764657.284  7650537.284  1773648.683
+ 78  JTT+F+R10     876091.549   1734 1755651.098  7772631.098  1764742.109
+ 91  JTTDCMut+R10  880645.553   1715 1764721.106  7650601.106  1773712.504
+104  JTTDCMut+F+R10 876052.691   1734 1755573.382  7772553.382  1764664.394
+117  DCMut+R10     889256.853   1715 1781943.706  7667823.706  1790935.104
+130  DCMut+F+R10   879290.292   1734 1762048.584  7779028.584  1771139.595
+143  VT+R10        872831.259   1715 1749092.517  7634972.517  1758083.916
+156  VT+F+R10      869613.406   1734 1742694.811  7759674.811  1751785.823
+169  PMB+R10       873627.832   1715 1750685.664  7636565.664  1759677.063
+182  PMB+F+R10     872590.820   1734 1748649.641  7765629.641  1757740.653
+195  Blosum62+R10  872831.340   1715 1749092.680  7634972.680  1758084.078
+208  Blosum62+F+R10 871137.118   1734 1745742.235  7762722.235  1754833.247
+221  Dayhoff+R10   889288.934   1715 1782007.868  7667887.868  1790999.266
+234  Dayhoff+F+R10 879310.626   1734 1762089.252  7779069.252  1771180.263
+247  mtREV+R10     909475.158   1715 1822380.316  7708260.316  1831371.715
+260  mtREV+F+R10   884670.790   1734 1772809.579  7789789.579  1781900.591
+273  mtART+R10     910633.088   1715 1824696.177  7710576.177  1833687.575
+286  mtART+F+R10   884443.794   1734 1772355.589  7789335.589  1781446.600
+299  mtZOA+R10     894108.087   1715 1791646.175  7677526.175  1800637.573
+312  mtZOA+F+R10   876318.515   1734 1756105.030  7773085.030  1765196.042
+325  mtMet+R10     906018.155   1715 1815466.310  7701346.310  1824457.708
+338  mtMet+F+R10   881970.807   1734 1767409.615  7784389.615  1776500.626
+351  mtVer+R10     921267.257   1715 1845964.514  7731844.514  1854955.912
+364  mtVer+F+R10   897532.629   1734 1798533.259  7815513.259  1807624.270
+377  mtInv+R10     906015.719   1715 1815461.439  7701341.439  1824452.837
+390  mtInv+F+R10   874800.622   1734 1753069.244  7770049.244  1762160.256
+403  mtMAM+R10     928977.687   1715 1861385.373  7747265.373  1870376.772
+416  mtMAM+F+R10   903334.505   1734 1810137.010  7827117.010  1819228.022
+429  HIVb+R10      897145.927   1715 1797721.853  7683601.853  1806713.251
+442  HIVb+F+R10    893729.066   1734 1790926.133  7807906.133  1800017.144
+455  HIVw+R10      936865.924   1715 1877161.847  7763041.847  1886153.246
+468  HIVw+F+R10    919651.147   1734 1842770.294  7859750.294  1851861.306
+481  FLU+R10       892725.009   1715 1788880.018  7674760.018  1797871.416
+494  FLU+F+R10     888778.533   1734 1781025.066  7798005.066  1790116.078
+507  rtREV+R10     874516.551   1715 1752463.102  7638343.102  1761454.501
+520  rtREV+F+R10   866492.140   1734 1736452.280  7753432.280  1745543.292
+533  cpREV+R10     876532.471   1715 1756494.942  7642374.942  1765486.341
+546  cpREV+F+R10   874873.309   1734 1753214.618  7770194.618  1762305.630
+Akaike Information Criterion:           LG+F+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+R10
+Best-fit model: LG+F+R10 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.model.gz
+CPU time for ModelFinder: 283840.455 seconds (78h:50m:40s)
+Wall-clock time for ModelFinder: 18932.220 seconds (5h:15m:32s)
+Generating 1000 samples for ultrafast bootstrap (seed: 730018)...
+
+NOTE: 1870 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -864865.065
+Optimal log-likelihood: -864865.060
+Site proportion and rates:  (0.034,0.051) (0.062,0.171) (0.086,0.291) (0.099,0.411) (0.128,0.544) (0.148,0.762) (0.147,1.064) (0.136,1.482) (0.104,2.065) (0.057,2.948)
+Parameters optimization took 1 rounds (4.369 sec)
+Computing ML distances based on estimated model parameters... 296.175 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+1.275 seconds
+Log-likelihood of BIONJ tree: -868077.441
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 263.787 second
+Computing log-likelihood of 98 initial trees ... 134.208 seconds
+Current best score: -864865.060
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -864792.403
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -864770.394
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -864728.997
+Iteration 10 / LogL: -864849.971 / Time: 0h:22m:5s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -864725.007
+Iteration 20 / LogL: -864893.498 / Time: 0h:37m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -864725.007 / CPU time: 2175.389
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -864782.177 / Time: 0h:46m:16s (2h:10m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -864721.542
+Iteration 40 / LogL: -865935.002 / Time: 0h:55m:19s (2h:10m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -864712.259
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -864707.695
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -864691.175
+Iteration 50 / LogL: -864720.879 / Time: 1h:5m:28s (2h:12m:16s left)
+Log-likelihood cutoff on original alignment: -864897.960
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -864683.206
+Iteration 60 / LogL: -864683.206 / Time: 1h:15m:8s (2h:7m:21s left)
+Iteration 70 / LogL: -864939.068 / Time: 1h:24m:20s (1h:50m:0s left)
+Iteration 80 / LogL: -864896.889 / Time: 1h:33m:21s (1h:34m:32s left)
+Iteration 90 / LogL: -865521.867 / Time: 1h:42m:51s (1h:20m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -864673.001
+Iteration 100 / LogL: -865255.306 / Time: 1h:52m:10s (1h:52m:10s left)
+Log-likelihood cutoff on original alignment: -864897.960
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -864923.035 / Time: 2h:1m:24s (1h:40m:14s left)
+Iteration 120 / LogL: -864700.692 / Time: 2h:10m:19s (1h:27m:37s left)
+Iteration 130 / LogL: -864749.478 / Time: 2h:19m:25s (1h:15m:39s left)
+Iteration 140 / LogL: -864830.644 / Time: 2h:28m:4s (1h:3m:55s left)
+Iteration 150 / LogL: -864770.143 / Time: 2h:37m:29s (0h:52m:50s left)
+Log-likelihood cutoff on original alignment: -864897.960
+Iteration 160 / LogL: -864907.561 / Time: 2h:46m:53s (0h:41m:59s left)
+Iteration 170 / LogL: -865125.274 / Time: 2h:55m:31s (0h:31m:9s left)
+Iteration 180 / LogL: -865021.340 / Time: 3h:4m:25s (0h:20m:36s left)
+Iteration 190 / LogL: -864710.933 / Time: 3h:13m:47s (0h:10m:15s left)
+Iteration 200 / LogL: -865464.455 / Time: 3h:22m:49s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -864897.960
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 3h:22m:54s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -864673.001
+Optimal log-likelihood: -864673.001
+Site proportion and rates:  (0.034,0.051) (0.063,0.171) (0.089,0.292) (0.105,0.418) (0.121,0.553) (0.144,0.766) (0.147,1.065) (0.136,1.483) (0.103,2.063) (0.058,2.940)
+Parameters optimization took 1 rounds (5.666 sec)
+BEST SCORE FOUND : -864673.001
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.splits.nex
+Total tree length: 348.859
+
+Total number of iterations: 200
+CPU time used for tree search: 187950.530 sec (52h:12m:30s)
+Wall-clock time used for tree search: 12119.320 sec (3h:21m:59s)
+Total CPU time used: 188729.578 sec (52h:25m:29s)
+Total wall-clock time used: 12184.709 sec (3h:23m:4s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.splits.nex...
+850 taxa and 5213 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.contree
+Log-likelihood of consensus tree: -864689.119
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade_aa_aln1.fasta.fasta.log
+
+Date and Time: Thu Dec 22 15:45:09 2022

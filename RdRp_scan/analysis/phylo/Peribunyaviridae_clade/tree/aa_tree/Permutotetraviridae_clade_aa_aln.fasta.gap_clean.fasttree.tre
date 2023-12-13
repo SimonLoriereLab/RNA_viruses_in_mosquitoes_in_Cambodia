@@ -1,0 +1,239 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=137;
+	taxlabels
+	AF461742_Euprosterna_elaeasa_virus
+	Culex_permutotetra_like_virus_F1052C13C663F1052[&!color=#bf3d00]
+	Culex_permutotetra_like_virus_F1052C13C663F1276[&!color=#bf3d00]
+	Culex_permutotetra_like_virus_F1052C13C663F1322[&!color=#bf3d00]
+	Culex_permutotetra_like_virus_F1052C13C663F1332[&!color=#bf3d00]
+	GQ342964_Drosophila_melanogaster_tetravirus_SW-2009a
+	Gretteness_virus_F1052C9F1052[&!color=#bf3d00]
+	Hubei_permutotetra_like_virus_2_F1357C9F1357[&!color=#bf3d00]
+	Hubei_permutotetra_like_virus_2_F1357C9F1441[&!color=#bf3d00]
+	KP714070_Newfield_virus
+	KP969908_Drosophila_A_virus
+	KP969909_Drosophila_A_virus
+	KP969910_Drosophila_A_virus
+	KP969911_Drosophila_A_virus
+	KP969912_Drosophila_A_virus
+	KP969914_Drosophila_A_virus
+	KP969915_Drosophila_A_virus
+	KP969916_Drosophila_A_virus
+	KP969923_Drosophila_A_virus
+	KP969926_Drosophila_A_virus
+	KP969927_Drosophila_A_virus
+	KP969928_Drosophila_A_virus
+	KP969929_Drosophila_A_virus
+	KP969930_Drosophila_A_virus
+	KP969939_Drosophila_A_virus
+	KP969940_Drosophila_A_virus
+	KP969944_Drosophila_A_virus
+	KP969945_Drosophila_A_virus
+	KP969946_Drosophila_A_virus
+	KP969947_Drosophila_A_virus
+	KP969948_Drosophila_A_virus
+	KP969949_Drosophila_A_virus
+	KP969950_Drosophila_A_virus
+	KX580892_Niehaus_virus
+	KX604243_Aphis_glycines_virus_2
+	KX883437_Beihai_sphaeromadae_virus_4
+	KX883439_Shuangao_permutotetra-like_virus_1
+	KX883440_Hubei_permutotetra-like_virus_11
+	KX883446_Hubei_permutotetra-like_virus_1
+	KX883447_Beihai_permutotetra-like_virus_1
+	KX883448_Hubei_permutotetra-like_virus_1
+	KX883455_Hubei_permutotetra-like_virus_2
+	KX883457_Hubei_permutotetra-like_virus_1
+	LC505019_Culex_permutotetra-like_virus
+	LC536111_Permutotetraviridae_sp_
+	MH188027_Culex_Daeseongdong-like_virus
+	MH384282_Drosophila_A_virus
+	MH384290_Drosophila_A_virus
+	MH384302_Newfield_virus
+	MH384307_Newfield_virus
+	MH384369_Drosophila_A_virus
+	MN565051_Vespa_velutina_associated_permutotetra-like_virus_1
+	MN565052_Vespa_velutina_associated_permutotetra-like_virus_2
+	MN784079_Smithfield_permutotetra-like_virus
+	MN784080_Smithfield_permutotetra-like_virus
+	MN784081_Smithfield_permutotetra-like_virus
+	MN832441_Viola_philippica_permutotetra_like_virus
+	MN933893_Riboviria_sp_
+	MN933895_Riboviria_sp_
+	MN933898_Riboviria_sp_
+	MN982394_Scaphoideus_titanus_permutotetra-like_virus_1
+	MT138111_Nodaviridae_sp_
+	MT138184_Riboviria_sp_
+	MT138186_Riboviria_sp_
+	MT138189_Riboviria_sp_
+	MT138191_Riboviria_sp_
+	MT138205_Riboviria_sp_
+	MT753154_Sanxia_permutotetra-like_virus_1
+	MT896207_Aedes_permutotetra-like_virus_1
+	MW033624_Aphis_glycines_virus_2
+	MW239486_Riboviria_sp_
+	MW239550_Riboviria_sp_
+	MW314616_Lasius_neglectus_permutotetra-like_virus_1
+	MW317140_ssRNA_positive-strand_virus_sp_
+	MW676133_Hypera_postica_associated_permutotetravirus
+	MZ209769_Guiyang_permutotetra-like_virus_1
+	MZ209785_Guiyang_cletus_punctiger_permutotetra-like_virus_1
+	MZ209786_Guiyang_permutotetra-like_virus_2
+	MZ209846_Sanya_permutotetravirus_1
+	MZ209854_Sanya_permutotetra-like_virus_1
+	MZ209857_Sanya_permutotetra-like_virus_2
+	MZ209858_Sanya_permutotetra-like_virus_3
+	MZ209962_Sanya_permutotetravirus_1
+	MZ209963_Sanya_permutotetravirus_2
+	MZ209964_Sanya_permutotetravirus_3
+	MZ218695_Permutotetraviridae_sp_
+	MZ218708_Permutotetraviridae_sp_
+	MZ218709_Permutotetraviridae_sp_
+	MZ218715_Permutotetraviridae_sp_
+	MZ218721_Permutotetraviridae_sp_
+	MZ218722_Permutotetraviridae_sp_
+	MZ218726_Permutotetraviridae_sp_
+	MZ218732_Permutotetraviridae_sp_
+	MZ218737_Permutotetraviridae_sp_
+	MZ218742_Permutotetraviridae_sp_
+	MZ218743_Permutotetraviridae_sp_
+	MZ218757_Permutotetraviridae_sp_
+	MZ218758_Permutotetraviridae_sp_
+	MZ328306_Rhodnius_prolixus_virus_3
+	MZ328307_Rhodnius_prolixus_virus_4
+	MZ328310_Rhodnius_prolixus_virus_7
+	MZ375162_Riboviria_sp_
+	MZ375189_Riboviria_sp_
+	MZ375203_Riboviria_sp_
+	NC_003412_Euprosterna_elaeasa_virus
+	NC_012958_Drosophila_A_virus
+	NC_028381_Aphis_glycines_virus_2
+	NC_028489_Daeseongdong_virus_2
+	NC_030845_Egaro_virus[&!color=#002cbd]
+	NC_033097_Hubei_permutotetra-like_virus_11
+	NC_033105_Hubei_permutotetra-like_virus_1
+	NC_033114_Hubei_permutotetra-like_virus_6
+	NC_033121_Hubei_permutotetra-like_virus_2
+	NC_033132_Hubei_permutotetra-like_virus_7
+	NC_033140_Hubei_permutotetra-like_virus_4
+	NC_033179_Hubei_permutotetra-like_virus_3
+	NC_033188_Sanxia_permutotetra-like_virus_1
+	NC_033196_Sanxia_water_strider_virus_19
+	NC_033216_Hubei_permutotetra-like_virus_8
+	NC_033233_Hubei_permutotetra-like_virus_5
+	NC_033251_Hubei_permutotetra-like_virus_9
+	NC_033470_Wuhan_house_centipede_virus_9
+	NC_040540_Sarawak_virus
+	NC_040795_Shinobi_tetravirus
+	NC_043232_Thosea_asigna_virus
+	OL700211_XiangYun_permutotetra-like_virus
+	ON955104_Inari_permutotetravirus
+	ON955105_Inari_permutotetravirus
+	ON955106_Inari_permutotetravirus
+	ON955107_Inari_permutotetravirus
+	OP264914_Daeseongdong_virus_2
+	OP858841_Sarawak_virus
+	Sarawak_virus_F1348C1F1006[&!color=#bf3d00]
+	Sarawak_virus_F1348C1F1183[&!color=#bf3d00]
+	Sarawak_virus_F1348C1F1346[&!color=#bf3d00]
+	Sarawak_virus_F1348C1F1348[&!color=#bf3d00]
+	Sarawak_virus_F1348C1F1508[&!color=#bf3d00]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (KP969948_Drosophila_A_virus:0.002567,((KP969946_Drosophila_A_virus:0.002568,(((MH384290_Drosophila_A_virus:0.005128,(((KP969923_Drosophila_A_virus:0.008655,((KP969910_Drosophila_A_virus:0.0,(KP969916_Drosophila_A_virus:0.0,(KP969914_Drosophila_A_virus:0.0,KP969915_Drosophila_A_virus:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.905]:0.002572,((KP969909_Drosophila_A_virus:0.0,KP969912_Drosophila_A_virus:0.0):0.0,KP969911_Drosophila_A_virus:0.0)[&label=0.781]:0.001282)[&label=0.764]:0.001422)[&label=0.931]:0.005191,((MW317140_ssRNA_positive-strand_virus_sp_:0.084792,(((MN832441_Viola_philippica_permutotetra_like_virus:0.280957,((KX883440_Hubei_permutotetra-like_virus_11:0.0,NC_033097_Hubei_permutotetra-like_virus_11:0.0):0.326341,MW239550_Riboviria_sp_:0.217238)[&label=0.959]:0.09054)[&label=0.999]:0.124479,(((NC_033114_Hubei_permutotetra-like_virus_6:0.592699,((MZ218709_Permutotetraviridae_sp_:0.078411,(MW314616_Lasius_neglectus_permutotetra-like_virus_1:0.068282,(MZ375162_Riboviria_sp_:0.0,(MZ375203_Riboviria_sp_:0.003668,MZ375189_Riboviria_sp_:0.0)[&label=0.871]:0.0)[&label=1.0]:0.069848)[&label=0.971]:0.072028)[&label=1.0]:0.899049,((((MZ209858_Sanya_permutotetra-like_virus_3:0.657136,((MZ209854_Sanya_permutotetra-like_virus_1:0.099535,(MZ209785_Guiyang_cletus_punctiger_permutotetra-like_virus_1:0.089202,MZ209857_Sanya_permutotetra-like_virus_2:0.088585)[&label=0.938]:0.06893)[&label=1.0]:0.594913,(MT138186_Riboviria_sp_:0.5645,MZ209786_Guiyang_permutotetra-like_virus_2:0.318726)[&label=1.0]:0.367982)[&label=0.366]:0.08753)[&label=1.0]:0.450593,(MZ218715_Permutotetraviridae_sp_:0.432942,((AF461742_Euprosterna_elaeasa_virus:0.0,NC_003412_Euprosterna_elaeasa_virus:0.0):0.16619,NC_043232_Thosea_asigna_virus:0.179171)[&label=1.0]:0.249418)[&label=1.0]:0.570601)[&label=0.286]:0.092416,(((KX883439_Shuangao_permutotetra-like_virus_1:0.617022,NC_033216_Hubei_permutotetra-like_virus_8:0.983807)[&label=0.846]:0.152289,(MZ218737_Permutotetraviridae_sp_:0.927168,(NC_033196_Sanxia_water_strider_virus_19:0.939089,(MZ328307_Rhodnius_prolixus_virus_4:0.13849,(MZ328306_Rhodnius_prolixus_virus_3:0.073315,MZ328310_Rhodnius_prolixus_virus_7:0.114675)[&label=0.915]:0.059345)[&label=1.0]:0.539558)[&label=0.913]:0.164061)[&label=0.947]:0.14542)[&label=0.578]:0.074521,(MZ218695_Permutotetraviridae_sp_:0.681187,(NC_033251_Hubei_permutotetra-like_virus_9:0.544452,(MT138189_Riboviria_sp_:0.375299,(MZ218722_Permutotetraviridae_sp_:0.154426,MZ218758_Permutotetraviridae_sp_:0.203116)[&label=1.0]:0.335225)[&label=0.976]:0.143069)[&label=1.0]:0.249848)[&label=0.972]:0.107357)[&label=0.807]:0.121666)[&label=0.974]:0.108062,((Gretteness_virus_F1052C9F1052:0.942214,(MZ218757_Permutotetraviridae_sp_:0.234187,((KX604243_Aphis_glycines_virus_2:0.0,MW033624_Aphis_glycines_virus_2:0.0,NC_028381_Aphis_glycines_virus_2:0.0):0.049664,(MN933895_Riboviria_sp_:0.036475,NC_033140_Hubei_permutotetra-like_virus_4:0.063432)[&label=0.945]:0.032304)[&label=0.999]:0.235593)[&label=1.0]:0.675231)[&label=0.997]:0.37379,(((NC_030845_Egaro_virus:0.936601,((NC_033470_Wuhan_house_centipede_virus_9[&!color=#bf3d00]:0.465608,((((KX883448_Hubei_permutotetra-like_virus_1[&!color=#bf3d00]:0.0,(NC_033105_Hubei_permutotetra-like_virus_1[&!color=#bf3d00]:0.002579,(KX883446_Hubei_permutotetra-like_virus_1[&!color=#bf3d00]:0.0,KX883457_Hubei_permutotetra-like_virus_1[&!color=#bf3d00]:0.0)[&label=0.0,!color=#bf3d00]:0.0)[&label=0.858,!color=#bf3d00]:0.001289)[&label=1.0,!color=#bf3d00]:0.056445,MZ218708_Permutotetraviridae_sp_[&!color=#bf3d00]:0.019287)[&label=0.147,!color=#bf3d00]:0.016673,((MZ209964_Sanya_permutotetravirus_3[&!color=#bf3d00]:0.030283,MZ218721_Permutotetraviridae_sp_[&!color=#bf3d00]:0.036414)[&label=0.0,!color=#bf3d00]:0.0,MZ218726_Permutotetraviridae_sp_[&!color=#bf3d00]:0.054358)[&label=0.158,!color=#bf3d00]:0.016873)[&label=1.0,!color=#bf3d00]:0.316815,(MZ209963_Sanya_permutotetravirus_2[&!color=#bf3d00]:0.216183,((MT753154_Sanxia_permutotetra-like_virus_1[&!color=#bf3d00]:0.016699,NC_033188_Sanxia_permutotetra-like_virus_1[&!color=#bf3d00]:0.029279)[&label=1.0,!color=#bf3d00]:0.082072,(MZ218732_Permutotetraviridae_sp_[&!color=#bf3d00]:0.104819,(((MZ218742_Permutotetraviridae_sp_[&!color=#bf3d00]:0.003901,OL700211_XiangYun_permutotetra-like_virus[&!color=#bf3d00]:0.004529)[&label=0.838,!color=#bf3d00]:0.0,(MZ209846_Sanya_permutotetravirus_1[&!color=#bf3d00]:0.005376,MZ209962_Sanya_permutotetravirus_1[&!color=#bf3d00]:0.0)[&label=0.812,!color=#bf3d00]:0.002637)[&label=1.0,!color=#bf3d00]:0.077772,((Hubei_permutotetra_like_virus_2_F1357C9F1357[&!color=#bf3d00]:0.0,Hubei_permutotetra_like_virus_2_F1357C9F1441[&!color=#bf3d00]:0.0)[&label=1.0,!color=#bf3d00]:0.053139,(KX883455_Hubei_permutotetra-like_virus_2[&!color=#bf3d00]:0.002635,NC_033121_Hubei_permutotetra-like_virus_2[&!color=#bf3d00]:0.0)[&label=0.997,!color=#bf3d00]:0.035591)[&label=0.982,!color=#bf3d00]:0.034248)[&label=0.962,!color=#bf3d00]:0.038002)[&label=0.976,!color=#bf3d00]:0.044942)[&label=1.0,!color=#bf3d00]:0.141694)[&label=0.94,!color=#bf3d00]:0.083542)[&label=1.0,!color=#bf3d00]:0.276559)[&label=1.0,!color=#bf3d00]:0.277684,(((LC536111_Permutotetraviridae_sp_[&!color=#bf3d00]:0.009067,((((Sarawak_virus_F1348C1F1006[&!color=#bf3d00]:0.002625,Sarawak_virus_F1348C1F1508[&!color=#bf3d00]:0.003937)[&label=0.037,!color=#bf3d00]:0.0,OP858841_Sarawak_virus[&!color=#bf3d00]:0.0)[&label=0.861,!color=#bf3d00]:0.007666,(NC_040540_Sarawak_virus[&!color=#bf3d00]:0.013685,NC_040795_Shinobi_tetravirus[&!color=#bf3d00]:0.020083)[&label=0.811,!color=#bf3d00]:0.003831)[&label=0.009,!color=#bf3d00]:0.001534,(Sarawak_virus_F1348C1F1183[&!color=#bf3d00]:0.00175,(Sarawak_virus_F1348C1F1348[&!color=#bf3d00]:0.001299,Sarawak_virus_F1348C1F1346[&!color=#bf3d00]:0.0)[&label=0.563,!color=#bf3d00]:8.0E-6)[&label=0.991,!color=#bf3d00]:0.01288)[&label=0.846,!color=#bf3d00]:0.011857)[&label=0.995,!color=#bf3d00]:0.110296,(LC505019_Culex_permutotetra-like_virus[&!color=#bf3d00]:0.07463,(Culex_permutotetra_like_virus_F1052C13C663F1332[&!color=#bf3d00]:0.001411,(Culex_permutotetra_like_virus_F1052C13C663F1322[&!color=#bf3d00]:0.0,(Culex_permutotetra_like_virus_F1052C13C663F1276[&!color=#bf3d00]:0.0,Culex_permutotetra_like_virus_F1052C13C663F1052[&!color=#bf3d00]:0.0)[&label=0.49,!color=#bf3d00]:0.0)[&label=0.476,!color=#bf3d00]:0.0)[&label=0.998,!color=#bf3d00]:0.038489)[&label=0.757,!color=#bf3d00]:0.028089)[&label=1.0,!color=#bf3d00]:0.85816,(NC_033179_Hubei_permutotetra-like_virus_3[&!color=#bf3d00]:0.459794,(MZ218743_Permutotetraviridae_sp_[&!color=#bf3d00]:0.071749,(KP714070_Newfield_virus[&!color=#bf3d00]:0.026881,(MH384302_Newfield_virus[&!color=#bf3d00]:0.0,MH384307_Newfield_virus[&!color=#bf3d00]:0.003959)[&label=0.984,!color=#bf3d00]:0.021492)[&label=0.969,!color=#bf3d00]:0.053206)[&label=1.0,!color=#bf3d00]:0.391015)[&label=0.981,!color=#bf3d00]:0.155702)[&label=0.998,!color=#bf3d00]:0.26924)[&label=0.961,!color=#bf3d00]:0.15819)[&label=0.999]:0.278338,((KX580892_Niehaus_virus:0.248669,MZ209769_Guiyang_permutotetra-like_virus_1:0.222607)[&label=1.0]:0.787208,MN982394_Scaphoideus_titanus_permutotetra-like_virus_1:1.00107)[&label=0.864]:0.130966)[&label=0.232]:0.057954,((MW239486_Riboviria_sp_:1.041962,((((MN933893_Riboviria_sp_:0.0,MT138205_Riboviria_sp_:0.0):0.0,MT138184_Riboviria_sp_:0.0)[&label=0.911]:0.002193,MN933898_Riboviria_sp_:0.0)[&label=0.0]:0.0,MT138191_Riboviria_sp_:0.001741)[&label=1.0]:0.70078)[&label=0.985]:0.271611,(KX883437_Beihai_sphaeromadae_virus_4:0.839437,KX883447_Beihai_permutotetra-like_virus_1:1.030136)[&label=1.0]:1.054392)[&label=0.898]:0.119614)[&label=0.799]:0.053802)[&label=0.878]:0.047208)[&label=1.0]:0.373361)[&label=0.993]:0.197898)[&label=0.916]:0.097955,((NC_033233_Hubei_permutotetra-like_virus_5:0.765403,MW676133_Hypera_postica_associated_permutotetravirus:0.529808)[&label=0.894]:0.09972,NC_033132_Hubei_permutotetra-like_virus_7:1.187618)[&label=0.408]:0.045556)[&label=0.994]:0.135848,(MT138111_Nodaviridae_sp_:0.388943,(MT896207_Aedes_permutotetra-like_virus_1:0.410307,((ON955104_Inari_permutotetravirus:0.0,(ON955107_Inari_permutotetravirus:0.001333,(ON955106_Inari_permutotetravirus:0.001332,ON955105_Inari_permutotetravirus:0.0)[&label=0.0]:0.0)[&label=0.753]:0.002664)[&label=1.0]:0.200062,((MN784081_Smithfield_permutotetra-like_virus:0.0,(MN784079_Smithfield_permutotetra-like_virus:0.0,MN784080_Smithfield_permutotetra-like_virus:0.0)[&label=0.431]:0.0)[&label=0.998]:0.065135,(MH188027_Culex_Daeseongdong-like_virus:0.0,(OP264914_Daeseongdong_virus_2:0.001301,NC_028489_Daeseongdong_virus_2:0.001301)[&label=0.777]:0.001299)[&label=0.994]:0.059906)[&label=1.0]:0.244811)[&label=0.986]:0.115731)[&label=1.0]:0.177969)[&label=0.957]:0.09824)[&label=0.985]:0.076639)[&label=0.999]:0.169934,(MN565051_Vespa_velutina_associated_permutotetra-like_virus_1:0.328796,MN565052_Vespa_velutina_associated_permutotetra-like_virus_2:0.242507)[&label=0.997]:0.108859)[&label=1.0]:0.274796)[&label=1.0]:0.103971,KP969908_Drosophila_A_virus:0.007038)[&label=0.208]:0.003841)[&label=0.999]:0.014112,(KP969926_Drosophila_A_virus:0.00132,(KP969929_Drosophila_A_virus:0.0,(KP969927_Drosophila_A_virus:0.0,(KP969930_Drosophila_A_virus:0.0,KP969928_Drosophila_A_virus:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.781]:0.001281)[&label=0.966]:0.005151)[&label=0.885]:0.0)[&label=0.078]:0.001281,(MH384282_Drosophila_A_virus:0.001281,MH384369_Drosophila_A_virus:0.0)[&label=0.883]:0.002561)[&label=0.889]:0.002572,(NC_012958_Drosophila_A_virus:0.002568,(KP969939_Drosophila_A_virus:0.0,KP969940_Drosophila_A_virus:0.0)[&label=0.978]:0.006423)[&label=0.246]:0.001278)[&label=0.734]:0.0)[&label=0.902]:0.001281,((KP969947_Drosophila_A_virus:0.008894,KP969949_Drosophila_A_virus:0.003756)[&label=0.75]:0.001482,(GQ342964_Drosophila_melanogaster_tetravirus_SW-2009a:0.011316,KP969950_Drosophila_A_virus:0.003845)[&label=0.858]:0.0)[&label=0.0]:0.0)[&label=0.911]:0.001282,(KP969945_Drosophila_A_virus:0.0013,KP969944_Drosophila_A_virus:0.0)[&label=0.0]:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=106;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

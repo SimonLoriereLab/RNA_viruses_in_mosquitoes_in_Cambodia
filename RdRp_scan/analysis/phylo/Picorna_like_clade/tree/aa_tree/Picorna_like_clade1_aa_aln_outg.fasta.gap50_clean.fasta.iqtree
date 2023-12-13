@@ -1,0 +1,294 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Picorna_like_clade/tree/aa_tree/Picorna_like_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 758605
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 27 sequences with 3108 amino-acid sites
+Number of constant sites: 1185 (= 38.1274% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1185 (= 38.1274% of all sites)
+Number of parsimony informative sites: 821
+Number of distinct site patterns: 1539
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R3          -24688.363   49524.726 +        1   49528.385 +        1   49971.814 +        1
+LG+R3            -24793.031   49696.062 - 6.24e-38   49698.080 - 1.42e-37   50028.357 - 5.27e-13
+JTTDCMut+F+R3    -24716.695   49581.390 - 4.96e-13   49585.050 - 4.96e-13   50028.479 - 4.96e-13
+JTT+F+R3         -24719.794   49587.588 - 2.24e-14   49591.247 - 2.24e-14   50034.676 - 2.24e-14
+LG+R4            -24792.932   49699.864 - 9.31e-39   49702.032 - 1.96e-38   50044.243 - 1.87e-16
+LG+R2            -24818.436   49742.872 - 4.27e-48   49744.746 - 1.04e-47   50063.084 - 1.52e-20
+WAG+F+R3         -24753.770   49655.541 - 3.93e-29   49659.200 - 3.93e-29   50102.629 - 3.93e-29
+LG+G4            -24853.512   49811.025 - 6.78e-63   49812.829 - 1.71e-62   50125.195 - 4.94e-34
+LG+I+G4          -24856.529   49819.059 - 1.22e-64   49820.933 - 2.98e-64   50139.271 - 4.34e-37
+rtREV+F+R3       -24780.900   49709.801 - 6.48e-41   49713.460 - 6.48e-41   50156.889 - 6.48e-41
+cpREV+F+R3       -24784.886   49717.772 -  1.2e-42   49721.432 -  1.2e-42   50164.861 -  1.2e-42
+JTTDCMut+R3      -24861.995   49833.990 - 6.98e-68   49836.009 - 1.59e-67   50166.286 -  5.9e-43
+JTT+R3           -24863.030   49836.059 - 2.48e-68   49838.077 - 5.64e-68   50168.354 -  2.1e-43
+mtInv+F+R3       -24801.284   49750.568 -  9.1e-50   49754.228 -  9.1e-50   50197.656 -  9.1e-50
+FLU+F+R3         -24802.889   49753.779 - 1.83e-50   49757.438 - 1.83e-50   50200.867 - 1.83e-50
+mtZOA+F+R3       -24823.436   49794.873 - 2.18e-59   49798.533 - 2.18e-59   50241.961 - 2.18e-59
+VT+F+R3          -24828.659   49805.318 - 1.18e-61   49808.977 - 1.18e-61   50252.406 - 1.18e-61
+WAG+R3           -24911.811   49933.622 - 1.62e-89   49935.640 - 3.68e-89   50265.918 - 1.37e-64
+Dayhoff+F+R3     -24838.727   49825.453 - 4.99e-66   49829.113 - 4.99e-66   50272.541 - 4.99e-66
+DCMut+F+R3       -24840.711   49829.423 - 6.85e-67   49833.082 - 6.85e-67   50276.511 - 6.85e-67
+mtMet+F+R3       -24858.775   49865.551 - 9.79e-75   49869.210 - 9.79e-75   50312.639 - 9.79e-75
+VT+R3            -24936.203   49982.407 - 4.13e-100   49984.425 - 9.38e-100   50314.702 - 3.49e-75
+FLU+R3           -24947.853   50005.707 - 3.6e-105   50007.725 - 8.18e-105   50338.002 - 3.04e-80
+cpREV+R3         -24959.441   50028.882 - 3.34e-110   50030.900 - 7.59e-110   50361.177 - 2.82e-85
+HIVb+F+R3        -24890.631   49929.263 - 1.43e-88   49932.923 - 1.43e-88   50376.351 - 1.43e-88
+mtREV+F+R3       -24893.767   49935.534 - 6.22e-90   49939.194 - 6.22e-90   50382.622 - 6.22e-90
+rtREV+R3         -25014.593   50139.186 - 3.73e-134   50141.204 - 8.47e-134   50471.481 - 3.15e-109
+LG+I             -25029.489   50162.979 - 2.54e-139   50164.783 - 6.43e-139   50477.149 - 1.85e-110
+Blosum62+F+R3    -24977.239   50102.478 - 3.49e-126   50106.138 - 3.49e-126   50549.567 - 3.49e-126
+PMB+F+R3         -24977.325   50102.651 - 3.2e-126   50106.311 - 3.2e-126   50549.739 - 3.2e-126
+mtVer+F+R3       -24993.515   50135.029 - 2.98e-133   50138.689 - 2.98e-133   50582.117 - 2.98e-133
+mtART+F+R3       -25019.850   50187.700 - 1.09e-144   50191.359 - 1.09e-144   50634.788 - 1.09e-144
+HIVb+R3          -25126.817   50363.634 - 6.81e-183   50365.652 - 1.55e-182   50695.929 - 5.76e-158
+Blosum62+R3      -25138.935   50387.870 - 3.72e-188   50389.888 - 8.45e-188   50720.165 - 3.14e-163
+Dayhoff+R3       -25141.545   50393.089 - 2.74e-189   50395.108 - 6.22e-189   50725.385 - 2.31e-164
+DCMut+R3         -25143.965   50397.929 - 2.43e-190   50399.948 - 5.53e-190   50730.225 - 2.06e-165
+PMB+R3           -25174.676   50459.353 - 1.12e-203   50461.371 - 2.54e-203   50791.648 - 9.45e-179
+mtMAM+F+R3       -25136.177   50420.354 - 3.29e-195   50424.014 - 3.29e-195   50867.443 - 3.29e-195
+LG               -25278.310   50658.619 -   6e-247   50660.355 - 1.57e-246   50966.748 - 8.97e-217
+HIVw+F+R3        -25237.357   50622.714 - 3.76e-239   50626.373 - 3.76e-239   51069.802 - 3.76e-239
+HIVw+R3          -25639.300   51388.600 -        0   51390.618 -        0   51720.895 -        0
+mtZOA+R3         -25803.225   51716.451 -        0   51718.469 -        0   52048.746 -        0
+mtMet+R3         -25819.768   51749.537 -        0   51751.555 -        0   52081.832 -        0
+mtREV+R3         -25849.567   51809.134 -        0   51811.153 -        0   52141.430 -        0
+mtVer+R3         -25963.790   52037.580 -        0   52039.599 -        0   52369.876 -        0
+mtInv+R3         -26083.574   52277.148 -        0   52279.166 -        0   52609.443 -        0
+mtART+R3         -26136.280   52382.559 -        0   52384.578 -        0   52714.855 -        0
+mtMAM+R3         -26143.898   52397.795 -        0   52399.813 -        0   52730.091 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R3
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0739
+  pi(R) = 0.0418
+  pi(N) = 0.0568
+  pi(D) = 0.0546
+  pi(C) = 0.0144
+  pi(Q) = 0.0396
+  pi(E) = 0.0543
+  pi(G) = 0.0488
+  pi(H) = 0.0219
+  pi(I) = 0.0696
+  pi(L) = 0.0809
+  pi(K) = 0.0672
+  pi(M) = 0.0271
+  pi(F) = 0.0451
+  pi(P) = 0.0410
+  pi(S) = 0.0724
+  pi(T) = 0.0752
+  pi(W) = 0.0126
+  pi(Y) = 0.0406
+  pi(V) = 0.0622
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.5269,0.1709) (0.3674,0.9442) (0.1057,5.3260)
+
+ Category  Relative_rate  Proportion
+  1         0.1709         0.5269
+  2         0.9442         0.3674
+  3         5.3260         0.1057
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -24686.7716 (s.e. 306.9085)
+Unconstrained log-likelihood (without tree): -20673.4528
+Number of free parameters (#branches + #model parameters): 74
+Akaike information criterion (AIC) score: 49521.5432
+Corrected Akaike information criterion (AICc) score: 49525.2029
+Bayesian information criterion (BIC) score: 49968.6316
+
+Total tree length (sum of branch lengths): 3.1715
+Sum of internal branch lengths: 0.4612 (14.5433% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MZ209811_Guiyang_Solinvi-like_virus_3' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+               +--MH703052_Yongsan_picorna-like_virus_2
+            +--| (97)
+            |  |  +--MH703060_Yongsan_picorna-like_virus_2
+            |  +--| (100)
+            |     +--OP264911_Yongsan_picorna-like_virus_2
+         +--| (98)
+         |  +--OL700096_Yongsan_picorna-like_virus_2
+      +--| (82)
+      |  |     +--MW650740_Ecclesville_picorna-like_virus
+      |  |  +--| (93)
+      |  |  |  +**MW650741_Ecclesville_picorna-like_virus
+      |  +--| (98)
+      |     |  +--MN661035_Atrato_picorna-like_virus_1
+      |     +--| (83)
+      |        +--MN661036_Atrato_picorna-like_virus_1
+   +--| (88)
+   |  |  +**Yongsan_picorna_like_virus_2_F1457C1F1409
+   |  +--| (100)
+   |     +**Yongsan_picorna_like_virus_2_F1457C1F1457
++--| (49)
+|  |           +--MN784075_Old_Port_virus
+|  |        +**| (35)
+|  |        |  +--MN784077_Old_Port_virus
+|  |     +**| (45)
+|  |     |  +**MN784076_Old_Port_virus
+|  |  +--| (99)
+|  |  |  +--MN784073_Old_Port_virus
+|  +--| (98)
+|     +--MN784074_Old_Port_virus
+|
+|              +--Zhejiang_mosquito_virus_1_F1605C1F1035
+|           +--| (98)
+|           |  +**Zhejiang_mosquito_virus_1_F1605C1F1613
+|        +--| (46)
+|        |  |  +**Zhejiang_mosquito_virus_1_F1605C1F1043
+|        |  +**| (46)
+|        |     |  +--Zhejiang_mosquito_virus_1_F1605C1F1044
+|        |     +**| (50)
+|        |        +--Zhejiang_mosquito_virus_1_F1605C1F1605
+|     +--| (62)
+|     |  |  +--Zhejiang_mosquito_virus_1_F1605C1F1466
+|     |  +--| (99)
+|     |     +--Zhejiang_mosquito_virus_1_F1605C1F1046
+|  +--| (100)
+|  |  +--Zhejiang_mosquito_virus_1_F1605C1F1047
++--| (98)
+|  |  +--MW452304_Riboviria_sp_
+|  +--| (100)
+|     |  +**KX883285_Zhejiang_mosquito_virus_1
+|     +--| (64)
+|        +--NC_033716_Zhejiang_mosquito_virus_1
+|
++----------------------------------------------------------MZ209811_Guiyang_Solinvi-like_virus_3
+
+Tree in newick format:
+
+((((((MH703052_Yongsan_picorna-like_virus_2:0.0113503558,(MH703060_Yongsan_picorna-like_virus_2:0.0066668669,OP264911_Yongsan_picorna-like_virus_2:0.0137470293)100:0.0045776572)97:0.0064379000,OL700096_Yongsan_picorna-like_virus_2:0.0114320307)98:0.0196446849,((MW650740_Ecclesville_picorna-like_virus:0.0006177682,MW650741_Ecclesville_picorna-like_virus:0.0000010251)93:0.0012721864,(MN661035_Atrato_picorna-like_virus_1:0.0042457901,MN661036_Atrato_picorna-like_virus_1:0.0039030766)83:0.0028251642)98:0.0789030417)82:0.0317171945,(Yongsan_picorna_like_virus_2_F1457C1F1409:0.0000010251,Yongsan_picorna_like_virus_2_F1457C1F1457:0.0000010251)100:0.0438153554)88:0.0789035238,((((MN784075_Old_Port_virus:0.0009570714,MN784077_Old_Port_virus:0.0009598870)35:0.0000010251,MN784076_Old_Port_virus:0.0000010251)45:0.0000010251,MN784073_Old_Port_virus:0.0009574661)99:0.0089125203,MN784074_Old_Port_virus:0.0122071266)98:0.0898890739)49:0.0305667865,(((((Zhejiang_mosquito_virus_1_F1605C1F1035:0.0025394504,Zhejiang_mosquito_virus_1_F1605C1F1613:0.0003171968)98:0.0006365330,(Zhejiang_mosquito_virus_1_F1605C1F1043:0.0003207218,(Zhejiang_mosquito_virus_1_F1605C1F1044:0.0009512843,Zhejiang_mosquito_virus_1_F1605C1F1605:0.0009486758)50:0.0003164311)46:0.0003167316)46:0.0006351248,(Zhejiang_mosquito_virus_1_F1605C1F1466:0.0006727202,Zhejiang_mosquito_virus_1_F1605C1F1046:0.0006367712)99:0.0012773242)62:0.0015252784,Zhejiang_mosquito_virus_1_F1605C1F1047:0.0095886772)100:0.0394925965,(MW452304_Riboviria_sp_:0.0043264819,(KX883285_Zhejiang_mosquito_virus_1:0.0003203948,NC_033716_Zhejiang_mosquito_virus_1:0.0015980100)64:0.0005000674)100:0.0283360609)98:0.0345588593,MZ209811_Guiyang_Solinvi-like_virus_3:2.5772011985);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -24687.585164
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+               +--MH703052_Yongsan_picorna-like_virus_2
+            +--| (97)
+            |  |  +--MH703060_Yongsan_picorna-like_virus_2
+            |  +--| (100)
+            |     +--OP264911_Yongsan_picorna-like_virus_2
+         +--| (98)
+         |  +--OL700096_Yongsan_picorna-like_virus_2
+      +--| (82)
+      |  |     +--MW650740_Ecclesville_picorna-like_virus
+      |  |  +--| (93)
+      |  |  |  +--MW650741_Ecclesville_picorna-like_virus
+      |  +--| (98)
+      |     |  +--MN661035_Atrato_picorna-like_virus_1
+      |     +--| (83)
+      |        +--MN661036_Atrato_picorna-like_virus_1
+   +--| (88)
+   |  |  +--Yongsan_picorna_like_virus_2_F1457C1F1409
+   |  +--| (100)
+   |     +--Yongsan_picorna_like_virus_2_F1457C1F1457
++--| (49)
+|  |           +--MN784075_Old_Port_virus
+|  |        +--| (35)
+|  |        |  +--MN784077_Old_Port_virus
+|  |     +--| (45)
+|  |     |  +--MN784076_Old_Port_virus
+|  |  +--| (99)
+|  |  |  +--MN784073_Old_Port_virus
+|  +--| (98)
+|     +--MN784074_Old_Port_virus
+|
+|                 +--Zhejiang_mosquito_virus_1_F1605C1F1035
+|              +--| (98)
+|              |  +--Zhejiang_mosquito_virus_1_F1605C1F1613
+|           +--| (45)
+|           |  |  +--Zhejiang_mosquito_virus_1_F1605C1F1466
+|           |  +--| (99)
+|           |     +--Zhejiang_mosquito_virus_1_F1605C1F1046
+|        +--| (47)
+|        |  +--Zhejiang_mosquito_virus_1_F1605C1F1043
+|     +--| (62)
+|     |  |  +--Zhejiang_mosquito_virus_1_F1605C1F1044
+|     |  +--| (50)
+|     |     +--Zhejiang_mosquito_virus_1_F1605C1F1605
+|  +--| (100)
+|  |  +--Zhejiang_mosquito_virus_1_F1605C1F1047
++--| (98)
+|  |  +--MW452304_Riboviria_sp_
+|  +--| (100)
+|     |  +--KX883285_Zhejiang_mosquito_virus_1
+|     +--| (64)
+|        +--NC_033716_Zhejiang_mosquito_virus_1
+|
++----------------------------------------------------------MZ209811_Guiyang_Solinvi-like_virus_3
+
+
+Consensus tree in newick format: 
+
+((((((MH703052_Yongsan_picorna-like_virus_2:0.0113668163,(MH703060_Yongsan_picorna-like_virus_2:0.0066748297,OP264911_Yongsan_picorna-like_virus_2:0.0137513816)100:0.0045763968)97:0.0064458784,OL700096_Yongsan_picorna-like_virus_2:0.0114506709)98:0.0197085326,((MW650740_Ecclesville_picorna-like_virus:0.0006177130,MW650741_Ecclesville_picorna-like_virus:0.0000022534)93:0.0012739034,(MN661035_Atrato_picorna-like_virus_1:0.0042500549,MN661036_Atrato_picorna-like_virus_1:0.0039069535)83:0.0028280066)98:0.0789917817)82:0.0318693286,(Yongsan_picorna_like_virus_2_F1457C1F1409:0.0000022534,Yongsan_picorna_like_virus_2_F1457C1F1457:0.0000025728)100:0.0437464184)88:0.0794998132,((((MN784075_Old_Port_virus:0.0009581297,MN784077_Old_Port_virus:0.0009609503)35:0.0000022534,MN784076_Old_Port_virus:0.0000022534)45:0.0000022534,MN784073_Old_Port_virus:0.0009584290)99:0.0089823696,MN784074_Old_Port_virus:0.0121724664)98:0.0897323185)49:0.0315089405,((((((Zhejiang_mosquito_virus_1_F1605C1F1035:0.0025442741,Zhejiang_mosquito_virus_1_F1605C1F1613:0.0003172214)98:0.0006376133,(Zhejiang_mosquito_virus_1_F1605C1F1466:0.0006742230,Zhejiang_mosquito_virus_1_F1605C1F1046:0.0006377437)99:0.0019260859)45:0.0003165005,Zhejiang_mosquito_virus_1_F1605C1F1043:0.0003207206)47:0.0003162260,(Zhejiang_mosquito_virus_1_F1605C1F1044:0.0009516212,Zhejiang_mosquito_virus_1_F1605C1F1605:0.0009497406)50:0.0000022534)62:0.0013188171,Zhejiang_mosquito_virus_1_F1605C1F1047:0.0104703253)100:0.0397940210,(MW452304_Riboviria_sp_:0.0043338335,(KX883285_Zhejiang_mosquito_virus_1:0.0003208125,NC_033716_Zhejiang_mosquito_virus_1:0.0016002797)64:0.0005019985)100:0.0280206627)98:0.0343582567,MZ209811_Guiyang_Solinvi-like_virus_3:2.5801807384);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jan  9 14:35:34 2023
+Total CPU time used: 770.274789 seconds (0h:12m:50s)
+Total wall-clock time used: 28.50715771 seconds (0h:0m:28s)
+

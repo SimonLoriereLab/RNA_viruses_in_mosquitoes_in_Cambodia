@@ -1,0 +1,51 @@
+contig_id	keep	vir_group	reason_to_discard
+F1002_NODE_354_length_2507_cov_4.176998	0	NA	partial genome, too short, structural part
+F1011_NODE_1_length_12910_cov_159.228082	1	Chuviridae	NA
+F1011_NODE_88_length_2394_cov_21.765284	0	NA	partial genome, too short
+F1020_NODE_32_length_2422_cov_1.494297	0	NA	partial genome, too short
+F1020_NODE_39_length_2337_cov_1.716915	0	NA	partial genome, too short
+F1032_NODE_1_length_13213_cov_14.139915	1	Chuviridae	NA
+F1041_NODE_1_length_10955_cov_49.590092	1	Virgaviridae	NA
+F1052_NODE_9_length_4423_cov_7.729625	1	Permutotetraviridae	NA
+F1058_NODE_249_length_2873_cov_1427.914478	1	Solemoviridae	NA
+F1083_NODE_175_length_2081_cov_1162.253208	0	Phasmaviridae	nucleoprotein, not RdRP
+F1087_NODE_248_length_2122_cov_11578.753266	1	Narnaviridae	NA
+F1097_NODE_7_length_2867_cov_32.811522	1	Narnaviridae	NA
+F1117_NODE_14_length_2164_cov_4.907539	1	Narnaviridae	NA
+F1120_NODE_2_length_7852_cov_13.154547	1	Tombusviridae	NA
+F1120_NODE_4_length_5019_cov_758.624496	1	Tombusviridae	NA
+F1158_NODE_5_length_3077_cov_117.842819	0	Partitiviridae	partial genome, too short
+F1183_NODE_2_length_5307_cov_3.704303	1	Totiviridae	NA
+F1198_NODE_11_length_2312_cov_97.537439	0	NA	partial genome, too short
+F1250_NODE_1_length_2823_cov_966.036488	1	unknown	NA
+F1261_NODE_1_length_2988_cov_1102.824412	1	Luteoviridae	NA
+F1324_NODE_1_length_3555_cov_13.955143	0	NA	partial genome, too short
+F1352_NODE_69_length_3272_cov_31.923220	1	Partitiviridae	NA
+F1357_NODE_9_length_4740_cov_48.165208	1	Permutotetraviridae	NA
+F1359_NODE_2_length_14873_cov_82.619989	1	Virgaviridae	NA
+F1409_NODE_27_length_3949_cov_121.578326	1	Negevirus	NA
+F1422_NODE_7_length_6690_cov_40.209495	1	Bunyavirales	NA
+F1426_NODE_28_length_2861_cov_111.933001	1	unknown	NA
+F1426_NODE_50_length_2488_cov_5.993424	0	NA	partial genome, too short
+F1431_NODE_141_length_3200_cov_252.367886	1	Chrysoviridae	NA
+F1457_NODE_1_length_9780_cov_2915.760617	1	Picornaviridae	NA
+F1472_NODE_1_length_7201_cov_146.442065	1	Bunyavirales	NA
+F1486_NODE_8_length_6793_cov_9.764619	1	Bunyavirales	NA
+F1497_NODE_136_length_2378_cov_1144.077056	1	Polymycoviridae	NA
+F1497_NODE_147_length_2285_cov_2251.611659	0	Polymycoviridae	looks like non-RdRP segment
+F1502_NODE_85_length_2916_cov_12.682279	1	Solemoviridae	NA
+F1505_NODE_643_length_2608_cov_2.829221	0	NA	partial genome, too short
+F1506_NODE_39_length_2155_cov_15.576190	1	Narnaviridae	NA
+F1539_NODE_1_length_9238_cov_54.876511	1	Picornaviridae	NA
+F1543_NODE_27_length_5990_cov_6.343724	1	Bunyavirales	NA
+F1552_NODE_18_length_3190_cov_494.525040	1	Narnaviridae	NA
+F1559_NODE_15_length_3431_cov_895.395438	1	Amalgaviridae	NA
+F1559_NODE_16_length_3429_cov_142.246888	1	Narnaviridae	NA
+F1560_NODE_544_length_2623_cov_546.129283	1	Narnaviridae	NA
+F1600_NODE_2_length_5756_cov_13.689177	1	Bunyavirales	NA
+F1605_NODE_1_length_9870_cov_225.745695	1	Picornaviridae	NA
+F1611_NODE_47_length_2738_cov_1797.427507	0	Reoviridae	capsid segment, very distant too
+F1612_NODE_2_length_3966_cov_21.213245	0	NA	partial genome, too short
+F1621_NODE_32_length_2992_cov_117.672114	1	Narnaviridae	NA
+F1628_NODE_1_length_7594_cov_95.775700	1	unknown	NA
+F1628_NODE_31_length_2048_cov_5.982439	0	NA	partial genome, too short

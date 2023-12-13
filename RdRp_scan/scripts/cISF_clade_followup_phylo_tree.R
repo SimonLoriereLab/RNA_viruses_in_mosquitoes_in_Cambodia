@@ -1,0 +1,699 @@
+library(tidyverse)
+library(ggtree)
+library(treeio)
+library(seqinr)
+library(lubridate)
+
+################## Tree and metadata 
+tree_file_NS <- "/full_path_to/wd/RdRp_scan/analysis/phylo/cISF_clade/tree/aa_tree/cISF_full_polyprot_aa_aln_v3_NSregion_outg.fasta.contree"
+tree_NS <- read.iqtree(tree_file_NS)
+tip_labels <- tree_NS@phylo$tip.label
+tip_accessions <- str_extract(tip_labels, '^[[A-Z]]{2}[[\\_]]*?[[:digit:]]+(?=\\_)')
+### Novel sequences are not yet supposed to have accessions, and we have 20 novel sequences in thos clade
+sum(is.na(tip_accessions))==20 ### check
+tip_df <- tibble(tip_labels, tip_accessions)
+
+###### Metadata
+tip_mdf_brief <- read_delim("/full_path_to/wd/RdRp_scan/analysis/phylo/cISF_clade/updated_metadata.txt", 
+                  delim = "\t")
+
+
+tip_mdf_brief$tip_join_var <- NULL
+tip_mdf_brief$tip_labels <- tip_mdf_brief$nt_seq_ID
+rownames(tip_mdf_brief) <- tip_mdf_brief$nt_seq_ID
+
+
+
+
+tip_mdf_brief$tip_label_alpha <- "half-transparent"
+tip_mdf_brief[which(tip_mdf_brief$novel_seq == 1),]$tip_label_alpha <-  "normal"
+### order genera
+tip_mdf_brief$host_genus <- factor(tip_mdf_brief$host_genus, ordered = TRUE,
+                                   levels = c('Anopheles', 
+                                                  'Sabethes', 
+                                                        'Mansonia','Coquillettidia',
+                                              
+                                                  'Culiseta',
+    
+                                                  'Culex',
+                                                 
+                                                  'Aedes', 'Ochlerotatus',
+                                              
+                                              'Tabanus',
+                                              'Culicidae','Culicoides','unknown'))
+
+unique(tip_mdf_brief$nt_seq_ID)
+tip_mdf_brief$var <- tip_mdf_brief$host_genus
+
+
+
+
+
+sort(unique(tip_mdf_brief$Country))
+
+
+tip_mdf_brief$Region <- NA
+
+tip_mdf_brief[which(tip_mdf_brief$Country %in% 
+                      c("Canada","USA","Mexico", 
+                        "Panama", 
+                        "Puerto Rico", "Guadeloupe")),
+]$Region <- "North America including Central and Caribbean"
+
+tip_mdf_brief[which(tip_mdf_brief$Country %in% 
+                      c("Brazil", "Bolivia", "Argentina")),
+]$Region <- "South America"
+
+tip_mdf_brief[which(tip_mdf_brief$Country %in% 
+                      c("Finland", "Switzerland", "Portugal")),
+]$Region <- "Europe"
+
+tip_mdf_brief[which(tip_mdf_brief$Country %in% 
+                      c("Senegal", "Liberia", "Cote d'Ivoire", "Ghana")),
+]$Region <- "West Africa"
+
+tip_mdf_brief[which(tip_mdf_brief$Country %in% 
+                      c("Uganda", "Kenya", "Mozambique")),
+]$Region <- "Southeast Africa"
+
+tip_mdf_brief[which(tip_mdf_brief$Country %in% 
+                      c("Turkey", "Saudi Arabia")),
+]$Region <- "Southwest Asia"
+
+tip_mdf_brief[which(tip_mdf_brief$Country %in% 
+                      c("Japan", "China","Taiwan",
+                        "Myanmar", "Viet Nam", "Thailand", "Cambodia",
+                        "Indonesia", "Australia")),
+              ]$Region <- "Southeast Asia and Australia"
+
+sort(unique(tip_mdf_brief[which(is.na(tip_mdf_brief$Region)),]$Country))
+
+unique(tip_mdf_brief$Region)
+
+
+
+
+genus_matrix <- tip_mdf_brief %>% select(nt_seq_ID, host_genus, var) %>% 
+  spread(key = host_genus, value = var, fill = NA) %>% 
+  as.data.frame()
+
+rownames(genus_matrix) <- genus_matrix$nt_seq_ID
+
+for (j in 1:ncol(genus_matrix)){
+  genus_matrix[, j] <- as.character(genus_matrix[, j])
+  genus_matrix[which(is.na(genus_matrix[,j])), j] <- "na"
+}
+
+region_df <- tip_mdf_brief %>%
+  select(nt_seq_ID, Region)
+
+genus_matrix <-  left_join(genus_matrix, region_df)
+rownames(genus_matrix) <- genus_matrix$nt_seq_ID
+genus_matrix$nt_seq_ID <- NULL
+
+
+
+
+novel_tip_vec <- tip_mdf_brief[which(tip_mdf_brief$novel_seq == 1),]$tip_labels
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### nsORF TREE
+tree_NS@phylo$tip.label
+tree_NS@treetext
+
+#######################
+
+tree_NS1 <- tree_NS
+
+root <- rootnode(tree_NS1)
+
+edge = tree_NS1@phylo$edge
+edge = as.data.frame(edge)
+edge = edge[edge[,2] <= Ntip(tree_NS1), ]
+
+df = tree_NS1@data[, c("node", "UFboot")]
+
+### Assign a mock support value to the root/outgroup node, to be able to keep this branch on the tree.
+### Replicate sequence branches will also be assigned a mock 100% support
+
+df[which(is.na(df$UFboot)),]$UFboot <- 100
+
+merge(df, edge, by.x="node", by.y="V1", all.x=F, all.y=T) -> df2
+df3= df2[, c(3, 2)]
+colnames(df3) = colnames(df)
+tree_NS1@data = bind_rows(as_tibble(df3), df)
+
+ggt2 <- ggtree(tree_NS1, 
+               aes(size=cut(UFboot, c(0, 70, 100))), alpha  = 1/3
+) %<+% tip_mdf_brief
+
+
+
+# ####### Collapse irrelevant nodes
+# nodes_to_collapse_Anopheles_cISFs <- c(232)
+# for (nd in nodes_to_collapse_Anopheles_cISFs){
+#   tryCatch(
+#     expr = {
+#       ggt2 <- ggt2 %>% collapse(node=nd)
+#     },
+#     warning = function(w){
+#       print(nd)
+#     }
+#   )
+#   
+# }
+# ggt2 <- ggt2 + geom_point2(aes(subset=(node %in% nodes_to_collapse_Anopheles_cISFs)),
+#                            shape=23, size=2,
+#                            fill = "black")
+# ggt2 <- ggt2 + geom_text2(aes(subset=(node %in% nodes_to_collapse_Anopheles_cISFs),
+#                               label = "Anopheles-associated cISFs"),
+#                           size=2,
+#                           color = "black", nudge_x = 0.25
+# )
+# 
+# nodes_to_collapse_Calbertado_virus <- c(242)
+# for (nd in nodes_to_collapse_Calbertado_virus){
+#   tryCatch(
+#     expr = {
+#       ggt2 <- ggt2 %>% collapse(node=nd)
+#     },
+#     warning = function(w){
+#       print(nd)
+#     }
+#   )
+#   
+# }
+# ggt2 <- ggt2 + geom_point2(aes(subset=(node %in% nodes_to_collapse_Calbertado_virus)),
+#                            shape=23, size=2,
+#                            fill = "black")
+# ggt2 <- ggt2 + geom_text2(aes(subset=(node %in% nodes_to_collapse_Calbertado_virus),
+#                               label = "Calbertado virus"),
+#                           size=2,
+#                           color = "black", nudge_x = 0.25
+# )
+# 
+# 
+
+
+
+
+ggt2 <- ggt2 + geom_tiplab(data = ggt2$data[which(!is.na(ggt2$data$tip_label_alpha)),], 
+  align = TRUE,
+  linetype = "dotted",
+  linesize = 0.5,
+  offset = 0, 
+  size = 0,
+  aes(alpha = tip_label_alpha)
+  # size = 2 ### this will put back tip labels
+)
+
+
+
+####### TEMP
+# ggt2 <- ggt2 + geom_label(data = ggt2$data[which(ggt2$data$isTip == F),],
+#                           aes(label=node), fill='lightgreen', size = 1.5, alpha = 1/8)
+####### 
+
+
+ggt2 <- ggt2 + geom_treescale(x = 0, y = -5, width = 1, offset = 1, fontsize = 2, linesize = 0.75,color = "grey50")
+
+
+ggt2 <- ggt2 + scale_alpha_manual(values=c("half-transparent"=1/4,"normal"=1),
+                                  guide='legend',
+                                  name='tip_label')
+ggt2 <- ggt2 + scale_size_manual(values=c('(0,70]'=0.5, '(70,100]'=1),
+                                 guide='legend',
+                                 name='UFboot')
+
+
+
+
+virus_clade <- c("Calbertado virus", "Anopheles-associated cISFs", "Culex flavivirus",
+                 "Accessaty virus", "Quang Binh virus", "Culex theileri flavivirus", 
+                 "Tafomo virus", "Palm Creek virus", "Nakiwogo virus",
+                 "Cuacua virus", "Nienokoue virus", "Mercadeo virus", "Culiseta flavivirus",
+                 "Sabethes flavivirus", "Mansonia flavivirus", 
+                 "Cell fusing agent virus", "Kamiti River virus", "Aedes flavivirus",
+                 "Falli virus", "Ochlerotatus scapularis flavivirus", "Menghai flavivirus",
+                 "Xishuangbanna aedes flavivirus", "Hanko virus", "Aedes notoscriptus flavivirus", 
+                 "Parramatta River virus")
+
+clades_df_NS <- tibble(virus_clade)
+clades_df_NS$node <- NA
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Tafomo virus"), ]$node <- 26
+clades_df_NS[which(clades_df_NS$virus_clade == "Accessaty virus"), ]$node <- 70
+clades_df_NS[which(clades_df_NS$virus_clade == "Cuacua virus"), ]$node <- 77
+clades_df_NS[which(clades_df_NS$virus_clade == "Nakiwogo virus"), ]$node <- 78
+clades_df_NS[which(clades_df_NS$virus_clade == "Culiseta flavivirus"), ]$node <- 91
+clades_df_NS[which(clades_df_NS$virus_clade == "Sabethes flavivirus"), ]$node <- 101
+clades_df_NS[which(clades_df_NS$virus_clade == "Mansonia flavivirus"), ]$node <- 102
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Parramatta River virus"), ]$node <- 108
+
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Falli virus"), ]$node <- 143
+clades_df_NS[which(clades_df_NS$virus_clade == "Ochlerotatus scapularis flavivirus"), ]$node <- 144
+clades_df_NS[which(clades_df_NS$virus_clade == "Menghai flavivirus"), ]$node <- 145
+clades_df_NS[which(clades_df_NS$virus_clade == "Xishuangbanna aedes flavivirus"), ]$node <- 146
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Quang Binh virus"), ]$node <- 156
+clades_df_NS[which(clades_df_NS$virus_clade == "Culex theileri flavivirus"), ]$node <- 170
+clades_df_NS[which(clades_df_NS$virus_clade == "Culex flavivirus"), ]$node <- 180
+clades_df_NS[which(clades_df_NS$virus_clade == "Palm Creek virus"), ]$node <- 224
+clades_df_NS[which(clades_df_NS$virus_clade == "Nienokoue virus"), ]$node <- 230
+clades_df_NS[which(clades_df_NS$virus_clade == "Anopheles-associated cISFs"), ]$node <- 232
+clades_df_NS[which(clades_df_NS$virus_clade == "Mercadeo virus"), ]$node <- 241
+clades_df_NS[which(clades_df_NS$virus_clade == "Calbertado virus"), ]$node <- 242
+
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Hanko virus"), ]$node <- 253
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Aedes notoscriptus flavivirus"), ]$node <- 255
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Aedes flavivirus"), ]$node <- 258
+
+clades_df_NS[which(clades_df_NS$virus_clade == "Kamiti River virus"), ]$node <- 266
+clades_df_NS[which(clades_df_NS$virus_clade == "Cell fusing agent virus"), ]$node <- 267
+
+write.table(x = clades_df_NS,
+            file = "/full_path_to/wd/RdRp_scan/analysis/phylo/cISF_clade/clades.tsv",
+            append = F, sep = "\t", col.names = T,
+            row.names = F, quote = F)
+
+clades_df_NS <- read_delim("/full_path_to/wd/RdRp_scan/analysis/phylo/cISF_clade/clades.tsv", delim = '\t')
+### After first visualization, keep annotation of only the clades that contain new sequences.
+### THIS WILL PRODUCE 21 WARNINGS, which is okay
+# essential_clades <- c( "AEFV","PCV",
+#                        "CxFV","QBV", "CFAV")
+# clades_df_NS$virus_clade_essential <- NA
+# clades_df_NS[which(clades_df_NS$virus_clade %in% essential_clades), ]$virus_clade_essential <- clades_df_NS[which(clades_df_NS$virus_clade %in% essential_clades), ]$virus_clade
+clades_df_NS$virus_clade_essential <- clades_df_NS$virus_clade
+
+clades_df_NS$tip <- FALSE
+clades_df_NS[which(clades_df_NS$virus_clade_essential %in% c("Accessaty virus", 
+                                                             "Tafomo virus", 
+                                                             "Nakiwogo virus",
+                                                             "Nakiwogo virus",
+                                                             "Cuacua virus", 
+                                                             "Culiseta flavivirus",
+                                                             "Sabethes flavivirus", 
+                                                             "Mansonia flavivirus",
+                                                             "Falli virus", 
+                                                             "Ochlerotatus scapularis flavivirus", 
+                                                             "Menghai flavivirus",
+                                                             "Xishuangbanna aedes flavivirus",
+                                                             "Parramatta River virus"
+                                                             )
+                   ),]$tip <- TRUE
+
+
+
+for (i in 1:nrow(clades_df_NS)){
+  if (clades_df_NS[i, "tip"][[1]]){
+    ggt2 <- ggt2 + geom_cladelab(node=clades_df_NS[i, "node"][[1]],
+                                 label=clades_df_NS[i, "virus_clade_essential"][[1]],
+
+                                 #align=FALSE, offset = .1, offset.text = 0.1,
+                                 align=FALSE, offset = 0, offset.text = 0,
+                                 textcolour='firebrick3', barcolor='firebrick3',
+                                 fontsize = 2, angle = 0, vjust = 0.4)
+
+
+  }else{
+    ggt2 <- ggt2 + geom_cladelab(node=clades_df_NS[i, "node"][[1]],
+                               label=clades_df_NS[i, "virus_clade_essential"][[1]],
+
+                               #align=FALSE, offset = .1, offset.text = 0.1,
+                               align=FALSE, offset = 0, offset.text = -0.6,
+                               textcolor='firebrick3', barcolor='firebrick3',
+                               barsize=1, fontsize = 2, angle = 10, vjust = 1)
+    
+    # ggt2 <- ggt2 + geom_cladelab(node=clades_df_NS[i, "node"][[1]],
+    #                              label=clades_df_NS[i, "virus_clade_essential"][[1]],
+    #                              
+    #                              #align=FALSE, offset = .1, offset.text = 0.1,
+    #                              align=TRUE, offset = 0, offset.text = -0.45,
+    #                              textcolor='firebrick3', barcolor='firebrick3',
+    #                              barsize=1, fontsize = 0, angle = 10, vjust = 2.5)
+  }
+}
+
+ggt2_hm <- gheatmap(ggt2, genus_matrix, offset=0.05, width=0.2, font.size=2,
+                    colnames_angle=-90, hjust=0)
+
+
+
+extracted_xlims <- layer_scales(ggt2_hm)$x$range$range
+ggt2_hm <- ggt2_hm + geom_text(data = ggt2_hm$data[which(ggt2_hm$data$isTip == T),],
+                               aes( x = (extracted_xlims[2] + 0.01), y = y, 
+                                    label=Country, 
+                                    color = Region), 
+                               size=2,
+                               hjust = "left")
+
+
+ggt2_hm <- ggt2_hm + geom_point(data = ggt2_hm$data[which(!is.na(ggt2_hm$data$novel_seq)),],
+                          aes( x = (extracted_xlims[2] - 0.425), y = y), 
+                          color = "black",
+                          size=1, shape = 8)
+
+
+
+
+
+ggt2_hm <- ggt2_hm + xlim((extracted_xlims[1]), (extracted_xlims[2]+0.1))
+
+
+#### Coloring of mosquito genus and region
+ggt2_hm <- ggt2_hm + scale_fill_manual(breaks=c('Anopheles',
+                                                'Sabethes',
+                                                'Mansonia','Coquillettidia',
+
+                                                'Culiseta',
+
+                                                'Culex',
+
+                                                'Aedes', 'Ochlerotatus',
+
+                                                'Tabanus',
+                                                'Culicidae','Culicoides',
+                                                'unknown',
+                                                'na',
+     
+                                                "North America including Central and Caribbean", 
+                                                "South America", 
+                                                "Europe", 
+                                                "West Africa",
+                                                "Southeast Africa",
+                                                "Southwest Asia",
+                                                "Southeast Asia and Australia"                                      
+                                                ),
+                                       values=c("black",
+                                                "#88CCEE",
+                                                "#44AA99","#117733",
+
+                                                "#DDCC77",
+
+                                                "#332288",
+
+                                                "#882255", "#CC6677",
+
+                                                "grey30",
+                                                "grey30","grey30",
+                                                "grey30",
+                                                "grey90",
+                                       
+                                                "#cbc9e2", 
+                                                "#9e9ac8", 
+                                                "#0570b0", 
+                                                "#c2e699",
+                                                "#78c679",
+                                                "#238443",
+                                                "#d94701"
+                                                ))
+
+ggt2_hm <- ggt2_hm + scale_color_manual(breaks=c('Anopheles',
+                                                'Sabethes',
+                                                'Mansonia','Coquillettidia',
+                                                
+                                                'Culiseta',
+                                                
+                                                'Culex',
+                                                
+                                                'Aedes', 'Ochlerotatus',
+                                                
+                                                'Tabanus',
+                                                'Culicidae','Culicoides',
+                                                'unknown',
+                                                'na',
+                                                
+                                                "North America including Central and Caribbean", 
+                                                "South America", 
+                                                "Europe", 
+                                                "West Africa",
+                                                "Southeast Africa",
+                                                "Southwest Asia",
+                                                "Southeast Asia and Australia"),
+                                        values=c("black",
+         "#88CCEE",
+         "#44AA99","#117733",
+         
+         "#DDCC77",
+         
+         "#332288",
+         
+         "#882255", "#CC6677",
+         
+         "grey30",
+         "grey30","grey30",
+         "grey30",
+         "grey90",
+         
+         "#cbc9e2", 
+         "#9e9ac8", 
+         "#0570b0", 
+         "#c2e699",
+         "#78c679",
+         "#238443",
+         "#d94701"
+))
+
+
+
+
+
+#### add space at the bottom
+extracted_ylims <- layer_scales(ggt2)$y$range$range
+ggt2_hm <- ggt2_hm + ylim((extracted_ylims[1]-22), (extracted_ylims[2]+5))
+ggt2_hm <- ggt2_hm + theme_tree(legend.position="none")
+ggt2_hm <- ggt2_hm + theme(plot.margin = unit(c(0, 0, 0, 0), "inch"))
+
+ggt2_hm_legend <- ggt2_hm + theme_tree(legend.position="bottom")
+
+print(ggt2_hm)
+ggt2_hm_file <- "/full_path_to/wd/RdRp_scan/analysis/phylo/cISF_clade/cISF_full_polyprot_aa_aln_v3_NSregion_outg.ggtree_hm.pdf"
+ggsave(plot = ggt2_hm, filename = ggt2_hm_file, device = "pdf", width = 18, height = 29, units = "cm")
+
+ggt2_hm_file_legend <- "/full_path_to/wd/RdRp_scan/analysis/phylo/cISF_clade/cISF_full_polyprot_aa_aln_v3_NSregion_outg.ggtree_hm_legend.pdf"
+ggsave(plot = ggt2_hm_legend, filename = ggt2_hm_file_legend, device = "pdf", width = 50, height = 50, units = "cm")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################### 
+####################### TREES. SUPPLEMENTARY FIGURE
+####################### 
+### order genera
+tip_mdf_brief$host_genus <- factor(tip_mdf_brief$host_genus, ordered = TRUE,
+                                   levels = c('Anopheles', 
+                                              'Sabethes', 
+                                              'Mansonia','Coquillettidia',
+                                              
+                                              'Culiseta',
+                                              
+                                              'Culex',
+                                              
+                                              'Aedes', 'Ochlerotatus',
+                                              
+                                              'Tabanus',
+                                              'Culicidae','Culicoides','unknown'))
+
+tip_mdf_brief$nt_seq_ID
+tip_mdf_brief$var <- tip_mdf_brief$host_genus
+
+genus_matrix <- tip_mdf_brief %>% select(nt_seq_ID, host_genus, var) %>% 
+  spread(key = host_genus, value = var, fill = NA) %>% 
+  as.data.frame()
+
+rownames(genus_matrix) <- genus_matrix$nt_seq_ID
+genus_matrix$nt_seq_ID <- NULL
+
+for (j in 1:ncol(genus_matrix)){
+  genus_matrix[, j] <- as.character(genus_matrix[, j])
+  genus_matrix[which(is.na(genus_matrix[,j])), j] <- "na"
+}
+
+novel_tip_vec <- tip_mdf_brief[which(tip_mdf_brief$novel_seq == 1),]$tip_labels
+
+#### nsORF TREE
+tree_NS@phylo$tip.label
+tree_NS@treetext
+
+tree_NS1 <- tree_NS
+
+root <- rootnode(tree_NS1)
+
+edge = tree_NS1@phylo$edge
+edge = as.data.frame(edge)
+edge = edge[edge[,2] <= Ntip(tree_NS1), ]
+
+df = tree_NS1@data[, c("node", "UFboot")]
+
+### Assign a mock support value to the root/outgroup node, to be able to keep this branch on the tree.
+### Replicate sequence branches will also be assigned a mock 100% support
+
+df[which(is.na(df$UFboot)),]$UFboot <- 100
+
+merge(df, edge, by.x="node", by.y="V1", all.x=F, all.y=T) -> df2
+df3= df2[, c(3, 2)]
+colnames(df3) = colnames(df)
+tree_NS1@data = bind_rows(as_tibble(df3), df)
+
+ggt_sup2 <- ggtree(tree_NS1, 
+               aes(size=cut(UFboot, c(0, 70, 100))), alpha  = 1/4
+) %<+% tip_mdf_brief
+ggt_sup2 <- ggt_sup2 + geom_tiplab(data = ggt2$data[which(!is.na(ggt2$data$tip_label_alpha)),],
+  align = TRUE,
+  linetype = "dotted",
+  linesize = 0.5,
+  offset = 0, 
+  aes(alpha = tip_label_alpha),
+  size = 2 ### this will put back tip labels
+  
+)
+
+####### TEMP
+ggt_sup2 <- ggt_sup2 + geom_label(data = ggt_sup2$data,
+                                  # data = ggt_sup2$data[which(ggt_sup2$data$isTip == F),],
+                          aes(label=node), fill='lightgreen', size = 1.5, alpha = 1/8)
+####### 
+
+
+ggt_sup2 <- ggt_sup2 + geom_treescale(x = 0, y = -5, width = 1, offset = 1, fontsize = 2, linesize = 0.75)
+
+ggt_sup2 <- ggt_sup2 + scale_alpha_manual(values=c("half-transparent"=1/4,"normal"=1),
+                                  guide='legend',
+                                  name='tip_label')
+ggt_sup2 <- ggt_sup2 + scale_size_manual(values=c('(0,70]'=0.25, '(70,100]'=0.75),
+                                 guide='legend',
+                                 name='UFboot')
+
+# clades_df_NS <- clades_df_S
+# clades_df_NS$node <- NA
+# clades_df_NS[which(clades_df_NS$virus_clade == "AEFV"), ]$node <- 270
+# clades_df_NS[which(clades_df_NS$virus_clade == "KRV"), ]$node <- 249
+# clades_df_NS[which(clades_df_NS$virus_clade == "TrFV"), ]$node <- 143
+# clades_df_NS[which(clades_df_NS$virus_clade == "PaRV"), ]$node <- 142
+# clades_df_NS[which(clades_df_NS$virus_clade == "AenoFV"), ]$node <- 284
+# clades_df_NS[which(clades_df_NS$virus_clade == "HANKV"), ]$node <- 282
+# clades_df_NS[which(clades_df_NS$virus_clade == "FalV"), ]$node <- 136
+# clades_df_NS[which(clades_df_NS$virus_clade == "OSFV"), ]$node <- 135
+# clades_df_NS[which(clades_df_NS$virus_clade == "XFV"), ]$node <- 133
+# clades_df_NS[which(clades_df_NS$virus_clade == "MFV"), ]$node <- 134
+# clades_df_NS[which(clades_df_NS$virus_clade == "CFAV"), ]$node <- 250
+# clades_df_NS[which(clades_df_NS$virus_clade == "MAFV"), ]$node <- 101
+# clades_df_NS[which(clades_df_NS$virus_clade == "SbFV"), ]$node <- 100
+# clades_df_NS[which(clades_df_NS$virus_clade == "CsFV"), ]$node <- 90
+# clades_df_NS[which(clades_df_NS$virus_clade == "MECDV"), ]$node <- 236
+# clades_df_NS[which(clades_df_NS$virus_clade == "CLBOV"), ]$node <- 237
+# clades_df_NS[which(clades_df_NS$virus_clade == "KRBV"), ]$node <- 231
+# clades_df_NS[which(clades_df_NS$virus_clade == "AnFV"), ]$node <- 229
+# clades_df_NS[which(clades_df_NS$virus_clade == "McPV"), ]$node <- 83
+# clades_df_NS[which(clades_df_NS$virus_clade == "HaCV"), ]$node <- 84
+# clades_df_NS[which(clades_df_NS$virus_clade == "NIEV"), ]$node <- 225
+# clades_df_NS[which(clades_df_NS$virus_clade == "NAKV"), ]$node <- 76
+# clades_df_NS[which(clades_df_NS$virus_clade == "CuCuV"), ]$node <- 77
+# clades_df_NS[which(clades_df_NS$virus_clade == "PCV"), ]$node <- 223
+# clades_df_NS[which(clades_df_NS$virus_clade == "CTFV"), ]$node <- 208
+# clades_df_NS[which(clades_df_NS$virus_clade == "QBV"), ]$node <- 194
+# clades_df_NS[which(clades_df_NS$virus_clade == "CxFV"), ]$node <- 151
+# 
+# write.table(x = clades_df_NS,
+#             file = paste0(tree_file_NS, ".clades.tsv"),
+#             append = F, sep = "\t", col.names = T,
+#             row.names = F, quote = F)
+
+# clades_df_NS <- read_delim(paste0(tree_file_NS, ".clades.tsv"), delim = '\t')
+# ### After first visualization, keep annotation of only the clades that contain new sequences.
+# ### THIS WILL PRODUCE 21 WARNINGS, which is okay
+# essential_clades <- c( "AEFV","PCV",
+#                        "CxFV","QBV", "CFAV")
+# clades_df_NS$virus_clade_essential <- NA
+# clades_df_NS[which(clades_df_NS$virus_clade %in% essential_clades), ]$virus_clade_essential <- clades_df_NS[which(clades_df_NS$virus_clade %in% essential_clades), ]$virus_clade
+# 
+# 
+# 
+# 
+# 
+# 
+# for (i in 1:nrow(clades_df_NS)){
+#   ggt_sup2 <- ggt_sup2 + geom_cladelab(node=clades_df_NS[i, "node"][[1]],
+#                                label=clades_df_NS[i, "virus_clade_essential"][[1]],
+#                                #align=FALSE, offset = .1, offset.text = 0.1,
+#                                align=TRUE, offset = -0.025, offset.text = -0.4,
+#                                textcolor='firebrick3', barcolor='firebrick3',
+#                                barsize=0.75, fontsize = 3.5)
+# }
+
+ggt_sup2_hm <- gheatmap(ggt_sup2, genus_matrix, offset=1.5, width=0.6, font.size=3,
+                    colnames_angle=-90, hjust=0)
+
+
+
+#### Coloring by mosquito genus
+ggt_sup2_hm <- ggt_sup2_hm + scale_fill_manual(breaks=c('Anopheles',
+                                                'Sabethes',
+                                                'Mansonia','Coquillettidia',
+                                                
+                                                'Culiseta',
+                                                
+                                                'Culex',
+                                                
+                                                'Aedes', 'Ochlerotatus',
+                                                
+                                                'Tabanus',
+                                                'Culicidae','Culicoides',
+                                                'unknown',
+                                                'na'),
+                                       values=c("black",
+                                                "#88CCEE",
+                                                "#44AA99","#117733",
+                                                
+                                                "#DDCC77",
+                                                
+                                                "#332288",
+                                                
+                                                "#882255", "#CC6677",
+                                                
+                                                "grey30",
+                                                "grey30","grey30",
+                                                "grey30",
+                                                "grey90"))
+
+
+
+
+
+#### add space at the bottom
+extracted_ylims <- layer_scales(ggt_sup2)$y$range$range
+ggt_sup2_hm <- ggt_sup2_hm + ylim((extracted_ylims[1]-22), (extracted_ylims[2]+5))
+ggt_sup2_hm <- ggt_sup2_hm + theme_tree(legend.position="none")
+#ggt_sup2_hm <- ggt_sup2_hm + theme(plot.margin = unit(c(0, 0, 0, 0), "inch"))
+
+
+print(ggt_sup2_hm)
+ggt_sup2_hm_file <- "/full_path_to/wd/RdRp_scan/analysis/phylo/cISF_clade/cISF_full_polyprot_aa_aln_v3_NSregion_outg.ggtree_hm_supplementary.pdf"
+ggsave(plot = ggt_sup2_hm, filename = ggt_sup2_hm_file, device = "pdf", width = 21, height = 60, units = "cm")

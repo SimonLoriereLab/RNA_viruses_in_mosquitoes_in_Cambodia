@@ -1,0 +1,306 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1067 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o MN164619_Pink_bollworm_virus_2
+Seed:    811218 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan  5 11:31:30 2023
+Kernel:  AVX+FMA - auto-detect threads (47 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 64 sequences with 2088 columns, 1987 distinct patterns
+1787 parsimony-informative, 91 singleton sites, 210 constant sites
+                                                 Gap/Ambiguity  Composition  p-value
+   1  MT361031_Aedes_phasmavirus                         1.15%    passed     95.90%
+   2  MT361034_Aedes_phasmavirus                         1.05%    passed     95.67%
+   3  MT361037_Aedes_phasmavirus                         1.05%    passed     94.81%
+   4  MT361028_Aedes_phasmavirus                         1.01%    passed     94.82%
+   5  MT361040_Aedes_phasmavirus                         0.34%    passed     94.52%
+   6  MT361043_Aedes_phasmavirus                         0.38%    passed     94.24%
+   7  MT361049_Aedes_phasmavirus                         0.34%    passed     94.54%
+   8  Aedes_phasmavirus_F1083C4F1083                     0.05%    passed     99.32%
+   9  MW434650_Orthophasmavirus_bastukasense             0.05%    passed     99.42%
+  10  MW434651_Orthophasmavirus_barstukasense            0.05%    passed     99.40%
+  11  MW434652_Orthophasmavirus_barstukasense            0.05%    passed     99.24%
+  12  MW434654_Orthophasmavirus_barstukasense            0.05%    passed     99.29%
+  13  MW434660_Orthophasmavirus_barstukasense            0.05%    passed     99.51%
+  14  Aedes_phasmavirus_F1083C4F1520                     0.05%    passed     99.41%
+  15  ON955170_Kuusamo_orthophasmavirus_4                0.10%    passed     99.35%
+  16  MN513376_Flen_bunya-like_virus                     0.14%    passed     91.19%
+  17  NC_040759_Yongsan_bunyavirus_1                     0.10%    passed     59.15%
+  18  MW434693_Orthophasmavirus_miglotasense             0.62%    passed     98.48%
+  19  MW434694_Orthophasmavirus_moglotasense             0.62%    passed     98.62%
+  20  MW434698_Orthophasmavirus_miglotasense             0.62%    passed     98.92%
+  21  MW434699_Orthophasmavirus_moglotasense             0.62%    passed     98.83%
+  22  MW434704_Orthophasmavirus_moglotasense             0.62%    passed     98.48%
+  23  MW434703_Orthophasmavirus_moglotasense             0.62%    passed     98.94%
+  24  MW434700_Orthophasmavirus_miglotasense             0.62%    passed     98.53%
+  25  MW434692_Orthophasmavirus_moglotasense             0.62%    passed     98.45%
+  26  MW434697_Orthophasmavirus_miglotasense             0.62%    passed     98.78%
+  27  MW434696_Orthophasmavirus_miglotasense             0.62%    passed     98.50%
+  28  MW434695_Orthophasmavirus_moglotasense             0.62%    passed     98.56%
+  29  MW434705_Orthophasmavirus_miglotasense             0.62%    passed     98.41%
+  30  MN661018_Culex_orthophasmavirus                    1.53%    passed     94.76%
+  31  MF176293_Culex_orthophasmavirus                    0.43%    passed     88.91%
+  32  MF176313_Culex_orthophasmavirus                    0.43%    passed     89.60%
+  33  NC_055215_Culex_orthophasmavirus                   0.43%    passed     88.95%
+  34  MK440628_Anjon_virus                               0.43%    passed     58.80%
+  35  OL700053_Culex_orthophasmavirus                    0.62%    passed     95.06%
+  36  MW452284_Wuhan_mosquito_orthophasmavirus_2         0.43%    passed     29.55%
+  37  NC_031312_Wuhan_mosquito_orthophasmavirus_2        1.53%    passed     39.12%
+  38  OL700113_XiangYun_bunya-arena-like_virus_12        0.38%    passed     14.41%
+  39  ON955163_Hameenlinna_orthophasmavirus_1           77.73%    passed     76.65%
+  40  ON955161_Hameenlinna_orthophasmavirus_1           80.70%    passed     45.04%
+  41  ON955162_Hameenlinna_orthophasmavirus_1           76.87%    passed     45.15%
+  42  ON955171_Lestijarvi_orthophasmavirus_1            83.14%    passed     47.28%
+  43  ON955167_Kuusamo_orthophasmavirus_2               77.30%    passed     36.52%
+  44  MN661021_Orthophasmavirus_coredoense               0.67%    passed     78.77%
+  45  ON059782_Niukluk_phantom_orthophasmavirus          0.67%    passed     49.13%
+  46  ON059784_Niukluk_phantom_orthophasmavirus          0.67%    passed     47.37%
+  47  MN168168_Niukluk_phantom_orthophasmavirus          0.67%    passed     58.94%
+  48  ON059783_Niukluk_phantom_orthophasmavirus          0.67%    passed     61.20%
+  49  NC_034462_Kigluaik_phantom_orthophasmavirus        0.72%    passed     34.74%
+  50  KX884805_Hubei_diptera_virus_6                     1.29%    failed      1.06%
+  51  OK491514_Hubei_diptera_virus_6                     1.29%    failed      1.95%
+  52  MT153491_Dipteran_phasma-related_virus_OKIAV224   39.46%    passed      8.53%
+  53  MT153492_Dipteran_phasma-related_virus_OKIAV225   70.74%    passed     46.14%
+  54  MW310369_Bactrocera_latifrons_orthophasmavirus     1.05%    passed     40.05%
+  55  MW452283_Wuhan_mosquito_orthophasmavirus_1         7.28%    passed     12.66%
+  56  OL700085_Wuhan_mosquito_orthophasmavirus_1         1.01%    passed     11.24%
+  57  NC_031307_Wuhan_mosquito_orthophasmavirus_1        1.01%    passed     12.68%
+  58  NC_055394_Anopheles_orthophasmavirus               0.91%    passed     12.76%
+  59  MT129676_Peralta_bunya-like_virus                  0.96%    passed     27.97%
+  60  MT129677_Peralta_bunya-like_virus                  0.96%    passed     23.85%
+  61  KY354237_Apis_bunyavirus_2                         0.96%    passed      9.34%
+  62  NC_038745_Nome_phantom_orthophasmavirus           31.66%    passed     64.84%
+  63  KX884807_Hubei_diptera_virus_7                     1.44%    failed      0.05%
+  64  MN164619_Pink_bollworm_virus_2                     2.16%    failed      0.01%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                              9.09%  4 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.057 seconds
+Measuring multi-threading efficiency up to 47 CPU cores
+Increase to 10 rounds for branch lengths
+11 trees examined
+Threads: 1 / Time: 50.411 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -168088
+Threads: 2 / Time: 26.144 sec / Speedup: 1.928 / Efficiency: 96% / LogL: -168088
+Threads: 3 / Time: 17.603 sec / Speedup: 2.864 / Efficiency: 95% / LogL: -168088
+Threads: 4 / Time: 13.402 sec / Speedup: 3.761 / Efficiency: 94% / LogL: -168088
+Threads: 5 / Time: 10.925 sec / Speedup: 4.614 / Efficiency: 92% / LogL: -168088
+Threads: 6 / Time: 9.634 sec / Speedup: 5.232 / Efficiency: 87% / LogL: -168088
+Threads: 7 / Time: 8.031 sec / Speedup: 6.277 / Efficiency: 90% / LogL: -168088
+Threads: 8 / Time: 7.239 sec / Speedup: 6.964 / Efficiency: 87% / LogL: -168088
+Threads: 9 / Time: 6.513 sec / Speedup: 7.741 / Efficiency: 86% / LogL: -168088
+Threads: 10 / Time: 6.023 sec / Speedup: 8.370 / Efficiency: 84% / LogL: -168088
+Threads: 11 / Time: 5.681 sec / Speedup: 8.874 / Efficiency: 81% / LogL: -168088
+Threads: 12 / Time: 5.343 sec / Speedup: 9.436 / Efficiency: 79% / LogL: -168088
+Threads: 13 / Time: 4.926 sec / Speedup: 10.233 / Efficiency: 79% / LogL: -168088
+Threads: 14 / Time: 4.693 sec / Speedup: 10.741 / Efficiency: 77% / LogL: -168088
+Threads: 15 / Time: 4.489 sec / Speedup: 11.229 / Efficiency: 75% / LogL: -168088
+Threads: 16 / Time: 4.288 sec / Speedup: 11.756 / Efficiency: 73% / LogL: -168088
+Threads: 17 / Time: 4.187 sec / Speedup: 12.039 / Efficiency: 71% / LogL: -168088
+Threads: 18 / Time: 4.018 sec / Speedup: 12.545 / Efficiency: 70% / LogL: -168088
+Threads: 19 / Time: 3.927 sec / Speedup: 12.836 / Efficiency: 68% / LogL: -168088
+Threads: 20 / Time: 3.824 sec / Speedup: 13.182 / Efficiency: 66% / LogL: -168088
+Threads: 21 / Time: 3.746 sec / Speedup: 13.457 / Efficiency: 64% / LogL: -168088
+Threads: 22 / Time: 3.679 sec / Speedup: 13.703 / Efficiency: 62% / LogL: -168088
+Threads: 23 / Time: 3.638 sec / Speedup: 13.856 / Efficiency: 60% / LogL: -168088
+Threads: 24 / Time: 3.544 sec / Speedup: 14.226 / Efficiency: 59% / LogL: -168088
+Threads: 25 / Time: 3.440 sec / Speedup: 14.653 / Efficiency: 59% / LogL: -168088
+Threads: 26 / Time: 3.462 sec / Speedup: 14.561 / Efficiency: 56% / LogL: -168088
+Threads: 27 / Time: 3.424 sec / Speedup: 14.724 / Efficiency: 55% / LogL: -168088
+Threads: 28 / Time: 3.383 sec / Speedup: 14.901 / Efficiency: 53% / LogL: -168088
+Threads: 29 / Time: 3.374 sec / Speedup: 14.942 / Efficiency: 52% / LogL: -168088
+Threads: 30 / Time: 3.364 sec / Speedup: 14.987 / Efficiency: 50% / LogL: -168088
+BEST NUMBER OF THREADS: 25
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -74602.145
+Optimal log-likelihood: -74602.070
+Proportion of invariable sites: 0.074
+Gamma shape alpha: 1.147
+Parameters optimization took 1 rounds (0.091 sec)
+Time for fast ML tree search: 1.122 seconds
+
+NOTE: ModelFinder requires 206 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 2088) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            78519.620    125 157289.241   157305.296   157994.736
+  2  LG+I          77167.099    126 154586.199   154602.519   155297.338
+  3  LG+G4         74658.374    126 149568.748   149585.068   150279.887
+  4  LG+I+G4       74602.057    127 149458.114   149474.701   150174.897
+  5  LG+R2         75283.205    127 150820.410   150836.998   151537.193
+  6  LG+R3         74719.031    129 149696.063   149713.193   150424.134
+  7  LG+R4         74618.989    131 149499.978   149517.659   150239.337
+  8  LG+R5         74587.057    133 149440.113   149458.355   150190.760
+  9  LG+R6         74586.926    135 149443.852   149462.664   150205.787
+ 17  LG+F+I+G4     74064.833    146 148421.666   148443.780   149245.684
+ 30  WAG+I+G4      75105.437    127 150464.874   150481.461   151181.657
+ 43  WAG+F+I+G4    74385.303    146 149062.607   149084.721   149886.625
+ 56  JTT+I+G4      75445.775    127 151145.549   151162.137   151862.333
+ 69  JTT+F+I+G4    74727.464    146 149746.927   149769.041   150570.945
+ 82  JTTDCMut+I+G4 75443.241    127 151140.481   151157.069   151857.264
+ 95  JTTDCMut+F+I+G4 74720.497    146 149732.993   149755.107   150557.012
+108  DCMut+I+G4    76133.392    127 152520.784   152537.372   153237.567
+121  DCMut+F+I+G4  74966.284    146 150224.567   150246.681   151048.585
+134  VT+I+G4       75053.684    127 150361.368   150377.956   151078.151
+147  VT+F+I+G4     74474.061    146 149240.122   149262.237   150064.141
+160  PMB+I+G4      75464.923    127 151183.846   151200.434   151900.630
+173  PMB+F+I+G4    74798.937    146 149889.873   149911.988   150713.892
+186  Blosum62+I+G4 75219.165    127 150692.331   150708.919   151409.114
+199  Blosum62+F+I+G4 74689.638    146 149671.275   149693.390   150495.294
+212  Dayhoff+I+G4  76132.440    127 152518.881   152535.468   153235.664
+225  Dayhoff+F+I+G4 74965.626    146 150223.252   150245.366   151047.270
+238  mtREV+I+G4    78298.510    127 156851.020   156867.608   157567.803
+251  mtREV+F+I+G4  75657.453    146 151606.906   151629.020   152430.924
+264  mtART+I+G4    78415.523    127 157085.046   157101.634   157801.829
+277  mtART+F+I+G4  75677.800    146 151647.600   151669.714   152471.618
+290  mtZOA+I+G4    77302.792    127 154859.584   154876.171   155576.367
+303  mtZOA+F+I+G4  75027.033    146 150346.066   150368.181   151170.085
+316  mtMet+I+G4    77779.075    127 155812.149   155828.737   156528.932
+329  mtMet+F+I+G4  75465.983    146 151223.966   151246.081   152047.985
+342  mtVer+I+G4    78970.095    127 158194.190   158210.778   158910.973
+355  mtVer+F+I+G4  76527.038    146 153346.076   153368.191   154170.095
+368  mtInv+I+G4    77913.017    127 156080.034   156096.622   156796.818
+381  mtInv+F+I+G4  74997.198    146 150286.395   150308.510   151110.414
+394  mtMAM+I+G4    79535.166    127 159324.332   159340.920   160041.115
+407  mtMAM+F+I+G4  76965.444    146 154222.887   154245.002   155046.906
+420  HIVb+I+G4     76580.902    127 153415.805   153432.392   154132.588
+433  HIVb+F+I+G4   75759.646    146 151811.293   151833.407   152635.311
+446  HIVw+I+G4     79097.044    127 158448.088   158464.676   159164.871
+459  HIVw+F+I+G4   77557.643    146 155407.286   155429.400   156231.304
+472  FLU+I+G4      75964.479    127 152182.958   152199.545   152899.741
+485  FLU+F+I+G4    75506.253    146 151304.506   151326.620   152128.524
+498  rtREV+I+G4    75346.332    127 150946.665   150963.253   151663.448
+511  rtREV+F+I+G4  74191.138    146 148674.275   148696.390   149498.294
+524  cpREV+I+G4    75378.677    127 151011.354   151027.942   151728.137
+537  cpREV+F+I+G4  74810.141    146 149912.281   149934.395   150736.300
+Akaike Information Criterion:           LG+F+I+G4
+Corrected Akaike Information Criterion: LG+F+I+G4
+Bayesian Information Criterion:         LG+F+I+G4
+Best-fit model: LG+F+I+G4 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 4627.466 seconds (1h:17m:7s)
+Wall-clock time for ModelFinder: 338.396 seconds (0h:5m:38s)
+Generating 1000 samples for ultrafast bootstrap (seed: 811218)...
+
+NOTE: 87 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.113 / Estimate: 0.000, 0.761 / LogL: -74115.329
+Init pinv, alpha: 0.011, 1.113 / Estimate: 0.074, 1.113 / LogL: -74064.835
+Init pinv, alpha: 0.022, 1.113 / Estimate: 0.074, 1.113 / LogL: -74064.835
+Init pinv, alpha: 0.034, 1.113 / Estimate: 0.074, 1.111 / LogL: -74064.849
+Init pinv, alpha: 0.045, 1.113 / Estimate: 0.074, 1.113 / LogL: -74064.835
+Init pinv, alpha: 0.056, 1.113 / Estimate: 0.074, 1.112 / LogL: -74064.838
+Init pinv, alpha: 0.067, 1.113 / Estimate: 0.074, 1.112 / LogL: -74064.836
+Init pinv, alpha: 0.078, 1.113 / Estimate: 0.075, 1.116 / LogL: -74064.835
+Init pinv, alpha: 0.089, 1.113 / Estimate: 0.075, 1.116 / LogL: -74064.845
+Init pinv, alpha: 0.101, 1.113 / Estimate: 0.075, 1.117 / LogL: -74064.847
+Optimal pinv,alpha: 0.074, 1.113 / LogL: -74064.835
+
+Parameters optimization took 5.290 sec
+Computing ML distances based on estimated model parameters... 0.795 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.007 seconds
+Log-likelihood of BIONJ tree: -74375.147
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.346 second
+Computing log-likelihood of 98 initial trees ... 3.622 seconds
+Current best score: -74064.835
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -74064.832
+BETTER TREE FOUND at iteration 2: -74064.832
+BETTER TREE FOUND at iteration 8: -74064.830
+BETTER TREE FOUND at iteration 9: -74064.830
+Iteration 10 / LogL: -74064.832 / Time: 0h:0m:26s
+Iteration 20 / LogL: -74064.833 / Time: 0h:0m:39s
+Finish initializing candidate tree set (19)
+Current best tree score: -74064.830 / CPU time: 33.329
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -74496.647 / Time: 0h:0m:51s (0h:2m:19s left)
+Iteration 40 / LogL: -74494.526 / Time: 0h:1m:2s (0h:1m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -74063.686
+Iteration 50 / LogL: -74063.714 / Time: 0h:1m:14s (0h:2m:27s left)
+Log-likelihood cutoff on original alignment: -74113.148
+Iteration 60 / LogL: -74063.943 / Time: 0h:1m:27s (0h:2m:9s left)
+Iteration 70 / LogL: -74063.751 / Time: 0h:1m:40s (0h:1m:52s left)
+Iteration 80 / LogL: -74063.981 / Time: 0h:1m:53s (0h:1m:36s left)
+Iteration 90 / LogL: -74063.689 / Time: 0h:2m:6s (0h:1m:21s left)
+Iteration 100 / LogL: -74067.403 / Time: 0h:2m:20s (0h:1m:6s left)
+Log-likelihood cutoff on original alignment: -74111.534
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -74067.396 / Time: 0h:2m:33s (0h:2m:6s left)
+BETTER TREE FOUND at iteration 113: -74063.685
+BETTER TREE FOUND at iteration 119: -74063.684
+Iteration 120 / LogL: -74063.699 / Time: 0h:2m:47s (0h:2m:19s left)
+Iteration 130 / LogL: -74063.689 / Time: 0h:3m:1s (0h:2m:5s left)
+Iteration 140 / LogL: -74063.686 / Time: 0h:3m:14s (0h:1m:50s left)
+Iteration 150 / LogL: -74063.936 / Time: 0h:3m:29s (0h:1m:36s left)
+Log-likelihood cutoff on original alignment: -74111.534
+Iteration 160 / LogL: -74065.134 / Time: 0h:3m:42s (0h:1m:22s left)
+Iteration 170 / LogL: -74063.937 / Time: 0h:3m:55s (0h:1m:8s left)
+Iteration 180 / LogL: -74067.393 / Time: 0h:4m:8s (0h:0m:54s left)
+Iteration 190 / LogL: -74064.854 / Time: 0h:4m:21s (0h:0m:40s left)
+Iteration 200 / LogL: -74063.685 / Time: 0h:4m:34s (0h:0m:26s left)
+Log-likelihood cutoff on original alignment: -74111.534
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 210 / LogL: -74063.687 / Time: 0h:4m:47s (0h:2m:3s left)
+Iteration 220 / LogL: -74063.941 / Time: 0h:5m:1s (0h:1m:50s left)
+TREE SEARCH COMPLETED AFTER 220 ITERATIONS / Time: 0h:5m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -74063.684
+Optimal log-likelihood: -74063.684
+Proportion of invariable sites: 0.075
+Gamma shape alpha: 1.114
+Parameters optimization took 1 rounds (0.091 sec)
+BEST SCORE FOUND : -74063.684
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 17.733
+
+Total number of iterations: 220
+CPU time used for tree search: 7242.738 sec (2h:0m:42s)
+Wall-clock time used for tree search: 296.296 sec (0h:4m:56s)
+Total CPU time used: 7385.540 sec (2h:3m:5s)
+Total wall-clock time used: 302.274 sec (0h:5m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+64 taxa and 374 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -74063.758
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Thu Jan  5 11:42:11 2023

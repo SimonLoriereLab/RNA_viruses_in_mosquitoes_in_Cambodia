@@ -1,0 +1,206 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=104;
+	taxlabels
+	Guadeloupe_Culex_tymo_like_virus_F1120C2F1116[&!color=#b54e00]
+	Guadeloupe_Culex_tymo_like_virus_F1120C2F1117[&!color=#b54e00]
+	Guadeloupe_Culex_tymo_like_virus_F1120C2F1120[&!color=#b54e00]
+	KJ433990_Bombyx_mori_Macula-like_virus
+	KM523134_Maize_rayado_fino_virus
+	KT360947_Fusarium_graminearum_mycotymovirus_1
+	KX109927_Grapevine_Red_Globe_virus
+	KX171167_Grapevine_Red_Globe_virus
+	KX828704_Grapevine_Red_Globe_virus
+	KY348614_Peach_virus_T
+	KY348615_Peach_virus_T
+	KY513702_Grapevine_rupestris_vein_feathering_virus
+	LC512732_Culex_pseudovishnui_tymo-like_virus
+	LC704876_Grapevine_Red_Globe_virus
+	LC704878_Grapevine_Red_Globe_virus
+	MF000325_Grapevine_rupestris_vein_feathering_virus
+	MF000326_Grapevine_rupestris_vein_feathering_virus
+	MH188018_Culex_originated_Tymoviridae-like_virus
+	MH383239_Grapevine_associated_tymo-like_virus
+	MH620813_Lampyris_noctiluca_tymovirus-like_virus_1
+	MH898958_Peach_marafivirus_D
+	MK440631_Tarnsjo_virus
+	MK440641_Tarnsjo_virus
+	MN053825_Guadeloupe_Culex_tymo-like_virus
+	MN053826_Guadeloupe_Culex_tymo-like_virus
+	MN053827_Guadeloupe_Culex_tymo-like_virus
+	MN100128_Sorghum_bicolor_marafivirus
+	MN510431_Culex_originated_Tymoviridae-like_virus
+	MN627487_Erysiphe_necator_associated_tymo-like_virus_1
+	MN714643_Sorghum_almum_marafivirus
+	MN879754_Citrus_virus_C
+	MN974275_Grapevine_rupestris_vein_feathering_virus
+	MN974276_Grapevine_rupestris_vein_feathering_virus
+	MT036048_Camellia-associated_marafivirus
+	MT084807_Grapevine_rupestris_vein_feathering_virus
+	MT084808_Grapevine_rupestris_vein_feathering_virus
+	MT084811_Grapevine_rupestris_vein_feathering_virus
+	MT084812_Grapevine_rupestris_vein_feathering_virus
+	MT084813_Grapevine_rupestris_vein_feathering_virus
+	MT084814_Grapevine_rupestris_vein_feathering_virus
+	MT435496_Gonipterus_platensis_Macula-Like_virus
+	MT454063_Grapevine_rupestris_vein_feathering_virus
+	MW328754_Nasturtium_officinale_macula-like_virus_1
+	MW434965_Guadeloupe_Culex_tymo-like_virus
+	MW452308_Tymoviridae_sp_
+	MW520376_Xanthi_tymo-likevirus
+	MW826552_Tymoviridae_sp_
+	MW864076_Tymoviridae_sp__XZN137671
+	MZ027155_Grapevine_rupestris_vein_feathering_virus
+	MZ344581_Grapevine_Red_Globe_virus
+	MZ344584_Grapevine_Red_Globe_virus
+	MZ344586_Grapevine_Red_Globe_virus
+	MZ344587_Grapevine_Red_Globe_virus
+	MZ422607_Grapevine-associated_marafivirus
+	MZ451066_Grapevine_Red_Globe_virus
+	MZ451067_Grapevine_Red_Globe_virus
+	MZ451068_Grapevine_Red_Globe_virus
+	MZ451069_Grapevine_Red_Globe_virus
+	MZ451070_Grapevine_Red_Globe_virus
+	MZ451071_Grapevine_Red_Globe_virus
+	MZ451072_Grapevine_Red_Globe_virus
+	MZ451073_Grapevine_Red_Globe_virus
+	MZ451074_Grapevine_Red_Globe_virus
+	MZ451075_Grapevine_Red_Globe_virus
+	MZ451076_Grapevine_rupestris_vein_feathering_virus
+	MZ451077_Grapevine_rupestris_vein_feathering_virus
+	MZ451083_Grapevine_rupestris_vein_feathering_virus
+	MZ451084_Grapevine_rupestris_vein_feathering_virus
+	MZ451085_Grapevine_rupestris_vein_feathering_virus
+	MZ451086_Grapevine_rupestris_vein_feathering_virus
+	MZ451088_Grapevine_rupestris_vein_feathering_virus
+	MZ451089_Grapevine_rupestris_vein_feathering_virus
+	MZ451090_Grapevine_rupestris_vein_feathering_virus
+	MZ451092_Grapevine_rupestris_vein_feathering_virus
+	MZ451094_Grapevine_rupestris_vein_feathering_virus
+	MZ451095_Grapevine_rupestris_vein_feathering_virus
+	MZ451096_Grapevine_rupestris_vein_feathering_virus
+	MZ451097_Grapevine_rupestris_vein_feathering_virus
+	MZ451098_Grapevine_rupestris_vein_feathering_virus
+	MZ451100_Grapevine_rupestris_vein_feathering_virus
+	MZ451103_Grapevine_rupestris_vein_feathering_virus
+	MZ451104_Grapevine_rupestris_vein_feathering_virus
+	MZ451106_Grapevine_rupestris_vein_feathering_virus
+	MZ451107_Grapevine_rupestris_vein_feathering_virus
+	MZ451108_Grapevine_rupestris_vein_feathering_virus
+	MZ556262_Sichuan_mosquito_tymo-like_virus
+	MZ556269_Sichuan_mosquito_tymo-like_virus[&!color=#0047b3]
+	MZ852357_Drosophila-associated_tymovirus
+	NC_002786_Maize_rayado_fino_virus
+	NC_015524_Bombyx_mori_Macula-like_virus
+	NC_030693_Grapevine_Red_Globe_virus
+	NC_034205_Grapevine_rupestris_vein_feathering_virus
+	NC_038331_Bombyx_mori_latent_virus
+	NC_040556_Bee_Macula-Like_virus_2
+	OK491506_Xiangshan_tymo-like_virus
+	OL700056_Guadeloupe_Culex_tymo-like_virus
+	ON221463_Grapevine_Red_Globe_virus
+	ON221464_Grapevine_rupestris_vein_feathering_virus
+	ON221465_Grapevine_rupestris_vein_feathering_virus
+	ON409651_Alfalfa_virus_F
+	ON603917_Grapevine_Red_Globe_virus
+	ON603918_Grapevine_Red_Globe_virus
+	ON603919_Grapevine_rupestris_vein_feathering_virus
+	ON603920_Grapevine_rupestris_vein_feathering_virus
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((ON221464_Grapevine_rupestris_vein_feathering_virus:0.013886,(MT084807_Grapevine_rupestris_vein_feathering_virus:6.54E-4,MT084808_Grapevine_rupestris_vein_feathering_virus:0.003508)[&label=0.993]:0.009077)[&label=0.92]:0.003059,(((MZ451083_Grapevine_rupestris_vein_feathering_virus:0.006914,MZ451106_Grapevine_rupestris_vein_feathering_virus:0.017879)[&label=0.618]:0.003018,(NC_034205_Grapevine_rupestris_vein_feathering_virus:0.007861,((MZ451088_Grapevine_rupestris_vein_feathering_virus:0.002385,MZ451092_Grapevine_rupestris_vein_feathering_virus:0.001173)[&label=0.999]:0.008064,(MZ451089_Grapevine_rupestris_vein_feathering_virus:0.008145,(MZ451090_Grapevine_rupestris_vein_feathering_virus:0.008232,MF000326_Grapevine_rupestris_vein_feathering_virus:0.006314)[&label=0.986]:0.006285)[&label=0.931]:0.003349)[&label=0.579]:0.001462)[&label=0.73]:8.0E-4)[&label=0.954]:0.004506,((((MZ451103_Grapevine_rupestris_vein_feathering_virus:0.02144,((MZ451085_Grapevine_rupestris_vein_feathering_virus:0.009289,MZ451086_Grapevine_rupestris_vein_feathering_virus:0.006438)[&label=0.985]:0.007997,(MZ451104_Grapevine_rupestris_vein_feathering_virus:0.009895,MN974276_Grapevine_rupestris_vein_feathering_virus:0.026803)[&label=0.363]:0.003313)[&label=0.98]:0.009657)[&label=0.998]:0.012493,(ON221465_Grapevine_rupestris_vein_feathering_virus:0.021024,(MZ451077_Grapevine_rupestris_vein_feathering_virus:0.019172,(((((MN627487_Erysiphe_necator_associated_tymo-like_virus_1:0.713531,(MH620813_Lampyris_noctiluca_tymovirus-like_virus_1:0.527897,((MW328754_Nasturtium_officinale_macula-like_virus_1:0.418025,(NC_040556_Bee_Macula-Like_virus_2:0.329608,MZ852357_Drosophila-associated_tymovirus:0.293705)[&label=1.0]:0.145164)[&label=0.997]:0.129382,(OK491506_Xiangshan_tymo-like_virus:0.533003,(NC_015524_Bombyx_mori_Macula-like_virus:0.014926,(NC_038331_Bombyx_mori_latent_virus:0.006728,KJ433990_Bombyx_mori_Macula-like_virus:0.006675)[&label=0.144]:0.00209)[&label=1.0]:0.46442)[&label=0.981]:0.101424)[&label=0.341]:0.046348)[&label=0.977]:0.074141)[&label=0.997]:0.150113,((MH383239_Grapevine_associated_tymo-like_virus:1.393039,KT360947_Fusarium_graminearum_mycotymovirus_1:1.374201)[&label=1.0]:0.702344,(MZ556269_Sichuan_mosquito_tymo-like_virus[&!color=#0047b3]:1.015862,((LC512732_Culex_pseudovishnui_tymo-like_virus[&!color=#b54e00]:0.111607,(MK440631_Tarnsjo_virus[&!color=#b54e00]:0.03586,(MK440641_Tarnsjo_virus[&!color=#b54e00]:0.027688,((MW452308_Tymoviridae_sp_[&!color=#b54e00]:0.008245,(MZ556262_Sichuan_mosquito_tymo-like_virus[&!color=#b54e00]:0.002945,OL700056_Guadeloupe_Culex_tymo-like_virus[&!color=#b54e00]:0.004713)[&label=0.156,!color=#b54e00]:0.003013)[&label=0.998,!color=#b54e00]:0.015524,((MW434965_Guadeloupe_Culex_tymo-like_virus[&!color=#b54e00]:0.001088,(MH188018_Culex_originated_Tymoviridae-like_virus[&!color=#b54e00]:0.002047,MN510431_Culex_originated_Tymoviridae-like_virus[&!color=#b54e00]:0.04581)[&label=0.957,!color=#b54e00]:0.009173)[&label=0.809,!color=#b54e00]:0.001316,((MN053825_Guadeloupe_Culex_tymo-like_virus[&!color=#b54e00]:0.002466,(MN053826_Guadeloupe_Culex_tymo-like_virus[&!color=#b54e00]:0.001842,MN053827_Guadeloupe_Culex_tymo-like_virus[&!color=#b54e00]:0.002456)[&label=0.716,!color=#b54e00]:5.98E-4)[&label=1.0,!color=#b54e00]:0.008611,(Guadeloupe_Culex_tymo_like_virus_F1120C2F1116[&!color=#b54e00]:0.001864,(Guadeloupe_Culex_tymo_like_virus_F1120C2F1120[&!color=#b54e00]:6.14E-4,Guadeloupe_Culex_tymo_like_virus_F1120C2F1117[&!color=#b54e00]:0.003105)[&label=0.866,!color=#b54e00]:0.001228)[&label=1.0,!color=#b54e00]:0.008782)[&label=0.632,!color=#b54e00]:0.002663)[&label=1.0,!color=#b54e00]:0.026581)[&label=0.988,!color=#b54e00]:0.01706)[&label=0.987,!color=#b54e00]:0.020711)[&label=1.0,!color=#b54e00]:0.077927)[&label=1.0,!color=#b54e00]:0.463318,(MW520376_Xanthi_tymo-likevirus[&!color=#b54e00]:0.363995,(MT435496_Gonipterus_platensis_Macula-Like_virus[&!color=#b54e00]:0.099371,MW864076_Tymoviridae_sp__XZN137671[&!color=#b54e00]:0.049181)[&label=1.0,!color=#b54e00]:0.340125)[&label=0.995,!color=#b54e00]:0.134294)[&label=1.0,!color=#b54e00]:0.262275)[&label=0.997,!color=#b54e00]:0.187542)[&label=0.857]:0.122346)[&label=1.0]:0.262351,(ON409651_Alfalfa_virus_F:0.403074,(MN879754_Citrus_virus_C:0.337324,((MZ451072_Grapevine_Red_Globe_virus:0.014748,MZ451070_Grapevine_Red_Globe_virus:0.012796)[&label=0.973]:0.021939,(KX171167_Grapevine_Red_Globe_virus:0.015228,(((LC704876_Grapevine_Red_Globe_virus:0.001789,LC704878_Grapevine_Red_Globe_virus:5.92E-4)[&label=0.999]:0.010991,(((MZ451067_Grapevine_Red_Globe_virus:0.00191,ON603917_Grapevine_Red_Globe_virus:0.002685)[&label=0.975]:0.005387,MZ451069_Grapevine_Red_Globe_virus:0.006437)[&label=0.714]:0.001628,((MZ451074_Grapevine_Red_Globe_virus:0.00619,MZ344581_Grapevine_Red_Globe_virus:0.006962)[&label=0.847]:0.002507,(ON603918_Grapevine_Red_Globe_virus:0.003794,(KX109927_Grapevine_Red_Globe_virus:0.010262,NC_030693_Grapevine_Red_Globe_virus:0.008757)[&label=0.979]:0.006006)[&label=0.741]:0.001206)[&label=0.563]:0.001813)[&label=0.858]:0.004655)[&label=0.386]:0.004053,((((MZ451075_Grapevine_Red_Globe_virus:0.015211,(MZ451071_Grapevine_Red_Globe_virus:0.006656,(KX828704_Grapevine_Red_Globe_virus:0.002959,(MZ344584_Grapevine_Red_Globe_virus:0.001186,MZ344586_Grapevine_Red_Globe_virus:0.0)[&label=0.523]:0.001236)[&label=0.976]:0.004664)[&label=0.461]:0.002029)[&label=0.338]:0.002019,MZ451068_Grapevine_Red_Globe_virus:0.004839)[&label=0.983]:0.005154,(MZ344587_Grapevine_Red_Globe_virus:0.004795,MZ451066_Grapevine_Red_Globe_virus:0.007211)[&label=0.93]:0.003452)[&label=0.824]:0.003054,(MZ451073_Grapevine_Red_Globe_virus:0.003474,ON221463_Grapevine_Red_Globe_virus:0.002489)[&label=0.99]:0.008158)[&label=0.855]:0.00508)[&label=0.73]:0.007176)[&label=0.902]:0.014382)[&label=1.0]:0.347423)[&label=1.0]:0.148283)[&label=0.998]:0.117342)[&label=0.935]:0.090859,((MT036048_Camellia-associated_marafivirus:0.292207,((MW826552_Tymoviridae_sp_:0.214575,(KM523134_Maize_rayado_fino_virus:0.007565,NC_002786_Maize_rayado_fino_virus:0.009795)[&label=1.0]:0.16576)[&label=1.0]:0.224261,(MN100128_Sorghum_bicolor_marafivirus:0.033989,MN714643_Sorghum_almum_marafivirus:0.042137)[&label=1.0]:0.25618)[&label=0.931]:0.050311)[&label=0.995]:0.066503,(MZ422607_Grapevine-associated_marafivirus:0.348258,(MH898958_Peach_marafivirus_D:0.071135,(KY348614_Peach_virus_T:0.016295,KY348615_Peach_virus_T:0.014584)[&label=1.0]:0.065605)[&label=1.0]:0.338216)[&label=0.675]:0.05543)[&label=0.514]:0.04661)[&label=1.0]:0.473802,((MZ451098_Grapevine_rupestris_vein_feathering_virus:0.004941,MZ451108_Grapevine_rupestris_vein_feathering_virus:0.006474)[&label=1.0]:0.0296,((MT454063_Grapevine_rupestris_vein_feathering_virus:0.024857,MZ451107_Grapevine_rupestris_vein_feathering_virus:0.018366)[&label=0.957]:0.008372,((MZ451096_Grapevine_rupestris_vein_feathering_virus:0.019177,(MZ451094_Grapevine_rupestris_vein_feathering_virus:0.001199,MZ451095_Grapevine_rupestris_vein_feathering_virus:0.003582)[&label=1.0]:0.017213)[&label=0.989]:0.007732,((MZ027155_Grapevine_rupestris_vein_feathering_virus:0.01162,(ON603919_Grapevine_rupestris_vein_feathering_virus:0.012095,(MF000325_Grapevine_rupestris_vein_feathering_virus:0.004993,(MT084811_Grapevine_rupestris_vein_feathering_virus:0.0,MT084814_Grapevine_rupestris_vein_feathering_virus:0.0):0.004793)[&label=0.997]:0.009528)[&label=0.52]:0.003804)[&label=0.314]:0.002041,((MT084812_Grapevine_rupestris_vein_feathering_virus:0.0,MT084813_Grapevine_rupestris_vein_feathering_virus:5.93E-4)[&label=1.0]:0.020208,ON603920_Grapevine_rupestris_vein_feathering_virus:0.016219)[&label=0.046]:0.00248)[&label=0.992]:0.008997)[&label=0.952]:0.007743)[&label=0.923]:0.007913)[&label=0.98]:0.022658)[&label=0.987]:0.024139)[&label=0.949]:0.009448)[&label=0.98]:0.011321)[&label=0.686]:0.002625,(MZ451076_Grapevine_rupestris_vein_feathering_virus:0.024642,MZ451097_Grapevine_rupestris_vein_feathering_virus:0.029114)[&label=0.932]:0.006663)[&label=0.959]:0.005533,MZ451084_Grapevine_rupestris_vein_feathering_virus:0.020257)[&label=0.262]:0.001687)[&label=0.661]:0.002408,(MZ451100_Grapevine_rupestris_vein_feathering_virus:0.021392,(KY513702_Grapevine_rupestris_vein_feathering_virus:0.008819,MN974275_Grapevine_rupestris_vein_feathering_virus:0.011591)[&label=0.343]:0.003086)[&label=0.597]:0.002044);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

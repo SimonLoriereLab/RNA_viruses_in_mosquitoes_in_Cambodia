@@ -1,0 +1,157 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=23;
+TAXLABELS
+[1] 'MW434102_Culicidavirus_quitotaense'
+[2] 'MW434103_Culicidavirus_quitotaense'
+[3] 'MH188031_Culicidavirus_quitotaense'
+[4] 'MW434101_Culicidavirus_quitotaense'
+[5] 'MW434104_Culicidavirus_quitotaense'
+[6] 'MW434100_Culicidavirus_quitotaense'
+[7] 'MK440640_Culicidavirus_quitotaense'
+[8] 'MH188036_Culicidavirus_culicis'
+[9] 'MW452291_Culicidavirus_culicidae'
+[10] 'NC_028265_Culicidavirus_culicidae'
+[11] 'Imjin_River_virus_1_F1051C1F1051'
+[12] 'NC_028482_Culicidavirus_imjinense'
+[13] 'ON955149_Hattula_chuvirus'
+[14] 'ON955153_Hattula_chuvirus'
+[15] 'ON955154_Hattula_chuvirus'
+[16] 'ON955148_Hattula_chuvirus'
+[17] 'ON955147_Hattula_chuvirus'
+[18] 'ON955152_Hattula_chuvirus'
+[19] 'MN661024_Atrato_Chu-like_virus_1'
+[20] 'MN661026_Atrato_Chu-like_virus_1'
+[21] 'KX924630_Doliuvirus_culisetae'
+[22] 'MZ078292_Turkana_Chu-like_virus'
+[23] 'KM817612_Shuangao_Fly_Virus_1'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=23 nsplits=119;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	81	 1 2,
+	100	 5,
+	100	 6,
+	25	 5 6,
+	20	 1 2 5 6,
+	100	 3,
+	37	 1 2 3 5 6,
+	100	 4,
+	99	 1 2 3 4 5 6,
+	100	 7,
+	98	 1 2 3 4 5 6 7,
+	100	 8,
+	43	 1 2 3 4 5 6 7 8,
+	100	 9,
+	100	 10,
+	100	 9 10,
+	82	 1 2 3 4 5 6 7 8 9 10,
+	100	 11,
+	100	 12,
+	99	 11 12,
+	100	 13 14 15 16 17 18 19 20 21 22 23,
+	100	 13,
+	100	 14,
+	56	 13 14,
+	100	 15,
+	79	 13 14 15,
+	100	 16,
+	99	 13 14 15 16,
+	100	 18,
+	1	 13 14 15 16 18,
+	100	 17,
+	100	 13 14 15 16 17 18,
+	100	 21,
+	68	 13 14 15 16 17 18 21,
+	100	 19,
+	100	 20,
+	100	 19 20,
+	100	 13 14 15 16 17 18 19 20 21,
+	100	 22,
+	100	 13 14 15 16 17 18 19 20 21 22,
+	100	 23,
+	26	 1 2 6,
+	24	 3 4,
+	19	 1 2 3 4 6,
+	43	 8 9 10,
+	5	 13 14 16,
+	99	 13 14 15 16 17,
+	19	 1 2 3,
+	11	 1 2 3 4,
+	13	 1 2 3 4 5,
+	6	 13 15,
+	32	 13 14 15 16 17 18 19 20,
+	13	 1 2 5,
+	14	 3 6,
+	4	 3 5 6,
+	12	 15 16,
+	3	 4 5 6,
+	10	 3 4 5 6,
+	2	 1 3 4 5 6,
+	11	 3 5,
+	8	 3 4 5,
+	2	 1 5,
+	1	 2 3 5 6,
+	1	 2 3 4 5 6,
+	14	 1 2 4 5 6,
+	37	 14 15,
+	15	 9 10 11 12,
+	14	 8 9 10 11 12,
+	1	 2 3,
+	2	 14 15 16,
+	5	 1 2 4 6,
+	1	 1 5 6,
+	1	 2 6,
+	2	 1 2 3 5,
+	3	 1 2 3 6,
+	2	 1 2 3 4 5 6 8 9 10 11 12,
+	2	 4 5,
+	3	 1 2 4,
+	4	 1 6,
+	1	 1 3 4,
+	3	 1 2 3 4 5 6 7 11 12,
+	1	 1 3 4 5,
+	6	 4 6,
+	1	 2 5,
+	1	 1 2 4 5,
+	4	 3 4 6,
+	1	 1 3,
+	0	 2 3 4,
+	1	 13 16,
+	0	 2 3 4 5,
+	1	 1 2 4 5 6 7,
+	0	 1 4,
+	1	 6 7,
+	1	 1 2 5 6 7,
+	1	 13 14 15 17,
+	0	 1 2 5 7,
+	0	 2 3 4 6,
+	0	 1 2 3 4 5 6 7 8 9 10 11,
+	0	 2 4 6,
+	0	 7 8 9 10 11 12,
+	1	 2 5 6,
+	0	 19 20 21,
+	0	 1 3 6,
+	0	 5 6 7,
+	0	 2 5 6 7,
+	0	 2 4 5 6,
+	1	 2 4,
+	0	 1 2 3 4 5 6 7 8 9 10 12,
+	0	 1 2 6 7,
+	0	 13 15 16,
+	0	 2 3 6,
+	0	 1 4 5 6,
+	0	 1 3 5 6,
+	0	 16 17,
+	0	 1 4 5,
+	0	 1 4 6,
+	0	 1 3 4 6,
+;
+END; [Splits]
+

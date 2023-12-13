@@ -1,0 +1,419 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Ghabrivirales_clade/tree/aa_tree/Ghabrivirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 947993
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 57 sequences with 865 amino-acid sites
+Number of constant sites: 110 (= 12.7168% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 110 (= 12.7168% of all sites)
+Number of parsimony informative sites: 701
+Number of distinct site patterns: 828
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+I+G4        -23935.558   48135.117 +        1   48183.084 +        1   48763.797 +        1
+WAG+F+I+G4       -23989.354   48242.708 - 4.33e-24   48290.676 - 4.33e-24   48871.389 - 4.33e-24
+rtREV+F+I+G4     -24004.947   48273.895 - 7.32e-31   48321.862 - 7.32e-31   48902.575 - 7.32e-31
+LG+I+G4          -24076.537   48379.073 - 1.06e-53   48413.380 - 9.82e-51   48917.262 - 4.74e-34
+LG+R4            -24072.744   48379.489 - 8.62e-54   48416.452 - 2.11e-51   48936.728 - 2.81e-38
+LG+R5            -24066.087   48370.174 - 9.08e-52   48408.509 - 1.12e-49   48936.939 - 2.53e-38
+LG+G4            -24092.234   48408.468 - 4.39e-60   48442.128 - 5.61e-57   48941.894 - 2.12e-39
+LG+R3            -24099.808   48429.616 - 1.12e-64   48465.237 - 5.39e-62   48977.330 - 4.28e-47
+VT+F+I+G4        -24049.463   48362.925 -  3.4e-50   48410.893 -  3.4e-50   48991.606 -  3.4e-50
+JTTDCMut+F+I+G4  -24072.208   48408.416 - 4.51e-60   48456.383 - 4.51e-60   49037.096 - 4.51e-60
+JTT+F+I+G4       -24074.667   48413.334 - 3.85e-61   48461.301 - 3.85e-61   49042.014 - 3.85e-61
+cpREV+F+I+G4     -24091.194   48446.388 - 2.56e-68   48494.355 - 2.56e-68   49075.068 - 2.56e-68
+WAG+I+G4         -24159.536   48545.073 - 9.53e-90   48579.379 - 8.82e-87   49083.261 - 4.26e-70
+VT+I+G4          -24185.190   48596.380 - 6.89e-101   48630.686 - 6.37e-98   49134.568 - 3.08e-81
+Dayhoff+F+I+G4   -24146.237   48556.474 - 3.19e-92   48604.442 - 3.19e-92   49185.155 - 3.19e-92
+DCMut+F+I+G4     -24147.179   48558.358 - 1.24e-92   48606.325 - 1.24e-92   49187.038 - 1.24e-92
+JTTDCMut+I+G4    -24217.668   48661.336 - 5.41e-115   48695.642 -   5e-112   49199.525 - 2.42e-95
+JTT+I+G4         -24218.046   48662.093 - 3.7e-115   48696.399 - 3.43e-112   49200.281 - 1.65e-95
+Blosum62+F+I+G4  -24164.216   48592.432 - 4.96e-100   48640.400 - 4.96e-100   49221.113 - 4.96e-100
+mtInv+F+I+G4     -24183.698   48631.396 - 1.72e-108   48679.363 - 1.72e-108   49260.076 - 1.72e-108
+PMB+F+I+G4       -24193.430   48650.860 - 1.02e-112   48698.827 - 1.02e-112   49279.540 - 1.02e-112
+LG+R2            -24266.287   48758.574 - 4.15e-136   48792.880 - 3.84e-133   49296.762 - 1.85e-116
+cpREV+I+G4       -24273.046   48772.092 - 4.81e-139   48806.398 - 4.46e-136   49310.280 - 2.15e-119
+Blosum62+I+G4    -24290.552   48807.103 - 1.2e-146   48841.410 - 1.11e-143   49345.292 - 5.37e-127
+PMB+I+G4         -24309.264   48844.529 - 8.98e-155   48878.835 - 8.31e-152   49382.717 - 4.01e-135
+mtMet+F+I+G4     -24284.269   48832.539 - 3.6e-152   48880.506 - 3.6e-152   49461.219 - 3.6e-152
+FLU+F+I+G4       -24284.541   48833.082 - 2.75e-152   48881.049 - 2.75e-152   49461.762 - 2.75e-152
+mtZOA+F+I+G4     -24286.266   48836.532 - 4.89e-153   48884.499 - 4.89e-153   49465.213 - 4.89e-153
+mtREV+F+I+G4     -24318.956   48901.913 - 3.11e-167   48949.880 - 3.11e-167   49530.593 - 3.11e-167
+rtREV+I+G4       -24410.371   49046.742 - 1.1e-198   49081.049 - 1.02e-195   49584.931 - 4.93e-179
+Dayhoff+I+G4     -24412.570   49051.140 - 1.22e-199   49085.447 - 1.13e-196   49589.329 - 5.47e-180
+DCMut+I+G4       -24413.411   49052.821 - 5.28e-200   49087.128 - 4.89e-197   49591.010 - 2.36e-180
+FLU+I+G4         -24423.603   49073.206 - 1.98e-204   49107.512 - 1.83e-201   49611.395 - 8.84e-185
+HIVb+F+I+G4      -24382.360   49028.719 - 9.05e-195   49076.686 - 9.05e-195   49657.399 - 9.05e-195
+mtART+F+I+G4     -24549.933   49363.867 - 1.51e-267   49411.834 - 1.51e-267   49992.547 - 1.51e-267
+mtVer+F+I+G4     -24552.061   49368.123 - 1.8e-268   49416.090 - 1.8e-268   49996.803 - 1.8e-268
+HIVb+I+G4        -24648.580   49523.161 - 3.89e-302   49557.467 - 3.6e-299   50061.349 - 1.74e-282
+LG+I             -24675.739   49575.478 - 1.7e-313   49609.138 - 2.17e-310   50108.904 - 8.2e-293
+mtMAM+F+I+G4     -24663.395   49590.790 - 8.03e-317   49638.757 - 8.03e-317   50219.470 - 8.03e-317
+HIVw+F+I+G4      -24943.627   50151.254 -        0   50199.221 -        0   50779.934 -        0
+mtZOA+I+G4       -25108.341   50442.682 -        0   50476.989 -        0   50980.871 -        0
+LG               -25151.035   50524.069 -        0   50557.089 -        0   51052.732 -        0
+mtMet+I+G4       -25240.188   50706.376 -        0   50740.682 -        0   51244.564 -        0
+mtInv+I+G4       -25269.730   50765.459 -        0   50799.765 -        0   51303.648 -        0
+HIVw+I+G4        -25487.599   51201.197 -        0   51235.504 -        0   51739.386 -        0
+mtREV+I+G4       -25502.025   51230.050 -        0   51264.357 -        0   51768.239 -        0
+mtART+I+G4       -25567.713   51361.426 -        0   51395.732 -        0   51899.615 -        0
+mtVer+I+G4       -25696.058   51618.116 -        0   51652.422 -        0   52156.304 -        0
+mtMAM+I+G4       -25890.307   52006.614 -        0   52040.921 -        0   52544.803 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0540
+  pi(R) = 0.0655
+  pi(N) = 0.0412
+  pi(D) = 0.0567
+  pi(C) = 0.0257
+  pi(Q) = 0.0182
+  pi(E) = 0.0468
+  pi(G) = 0.0646
+  pi(H) = 0.0167
+  pi(I) = 0.0530
+  pi(L) = 0.1001
+  pi(K) = 0.0595
+  pi(M) = 0.0245
+  pi(F) = 0.0478
+  pi(P) = 0.0313
+  pi(S) = 0.0971
+  pi(T) = 0.0622
+  pi(W) = 0.0191
+  pi(Y) = 0.0372
+  pi(V) = 0.0788
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0877
+Gamma shape alpha: 1.1064
+
+ Category  Relative_rate  Proportion
+  0         0              0.0877
+  1         0.1728         0.2281
+  2         0.5552         0.2281
+  3         1.1132         0.2281
+  4         2.5431         0.2281
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -23933.7417 (s.e. 467.0293)
+Unconstrained log-likelihood (without tree): -5789.9669
+Number of free parameters (#branches + #model parameters): 132
+Akaike information criterion (AIC) score: 48131.4835
+Corrected Akaike information criterion (AICc) score: 48179.4507
+Bayesian information criterion (BIC) score: 48760.1638
+
+Total tree length (sum of branch lengths): 13.0952
+Sum of internal branch lengths: 6.3644 (48.6005% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0012) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MZ209749_Fushun_totivirus_5' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                               +**MW434940_Aedes_aegypti_totivirus
+                                                            +--| (100)
+                                                            |  +**MW434941_Aedes_aegypti_totivirus
+                                                         +--| (79)
+                                                         |  |              +--MN053722_Aedes_aegypti_totivirus
+                                                         |  |           +--| (96)
+                                                         |  |           |  +**MN053726_Aedes_aegypti_totivirus
+                                                         |  |        +--| (67)
+                                                         |  |        |  +--MN053725_Aedes_aegypti_totivirus
+                                                         |  |     +**| (63)
+                                                         |  |     |  |  +--MN053728_Aedes_aegypti_totivirus
+                                                         |  |     |  +--| (99)
+                                                         |  |     |     +**MN053734_Aedes_aegypti_totivirus
+                                                         |  |  +--| (94)
+                                                         |  |  |  +--MN053732_Aedes_aegypti_totivirus
+                                                         |  +--| (88)
+                                                         |     |     +--LC496074_Aedes_aegypti_totivirus
+                                                         |     |  +--| (52)
+                                                         |     |  |  +--Aedes_aegypti_totivirus_F1506C12C58C205F1506
+                                                         |     +--| (49)
+                                                         |        +--MZ556103_Lactea_totivirus
+                                                      +--| (76)
+                                                      |  +--MT435499_Aedes_aegypti_totivirus_2
+                                                   +--| (79)
+                                                   |  |        +**MN053723_Aedes_aegypti_totivirus
+                                                   |  |     +--| (100)
+                                                   |  |     |  +**MN053724_Aedes_aegypti_totivirus
+                                                   |  |  +--| (93)
+                                                   |  |  |  +**MN053733_Aedes_aegypti_totivirus
+                                                   |  +--| (82)
+                                                   |     +--MN053730_Aedes_aegypti_totivirus
+                                                +**| (44)
+                                                |  +--MN053727_Aedes_aegypti_totivirus
+                                 +--------------| (100)
+                                 |              |  +**MN053731_Aedes_aegypti_totivirus
+                                 |              +--| (94)
+                                 |                 +**MN053729_Aedes_aegypti_totivirus
+                              +--| (78)
+                              |  +--------MN661076_Embera_virus
++-----------------------------| (100)
+|                             |  +----MW520394_Drama_totivirus
+|                             +--| (98)
+|                                +------ON860472_Koversta_virus
+|
+|                                                       +**Culex_inatomii_totivirus_F1570C24F1570
+|                                                    +--| (100)
+|                                                    |  +--Culex_inatomii_totivirus_F1570C24F1582
+|                                                 +--| (98)
+|                                                 |  |  +--OL700195_XiangYun_toti-like_virus_6
+|                                                 |  +--| (93)
+|                                                 |     +--OP264907_Culex_modestus_totivirus
+|                                              +--| (100)
+|                                              |  |        +--MW699041_Culex_inatomii_totivirus
+|                                              |  |     +--| (97)
+|                                              |  |     |  +**MW699042_Culex_inatomii_totivirus
+|                                              |  |  +--| (97)
+|                                              |  |  |  +--MW520387_Culex_modestus_totivirus
+|                                              |  +--| (100)
+|                                              |     +--LC514398_Culex_inatomii_totivirus
+|                                           +--| (96)
+|                                           |  +--MT498830_Fitzroy_Crossing_toti-like_virus_1
+|                                        +--| (97)
+|                                        |  +---MK440653_Lindangsbacken_virus
+|                                   +----| (100)
+|                                   |    |        +**MH188048_Totivirus-like_Culex_mosquito_virus_1
+|                                   |    |     +--| (100)
+|                                   |    |     |  +**MW434958_Totivirus-like_Culex_mosquito_virus_1
+|                                   |    |  +--| (100)
+|                                   |    |  |  +--OM817549_Totivirus-like_Culex_mosquito_virus_1
+|                                   |    +--| (80)
+|                                   |       +---OM743943_Green_Valley_Lake_virus
+|                          +--------| (100)
+|                          |        |                          +--OP019870_Hattula_totivirus_1
+|                          |        |                       +--| (97)
+|                          |        |                       |  +--OP019868_Hattula_totivirus_1
+|                          |        |                    +--| (59)
+|                          |        |                    |  +--OP019869_Hattula_totivirus_1
+|                          |        |                 +--| (63)
+|                          |        |                 |  +--OP019871_Hattula_totivirus_1
+|                          |        |              +--| (100)
+|                          |        |              |  |  +--OP019901_Hattula_totivirus_1
+|                          |        |              |  +--| (100)
+|                          |        |              |     +--OP020071_Hattula_totivirus_1
+|                          |        |           +--| (90)
+|                          |        |           |  +--OP020072_Hattula_totivirus_1
+|                          |        |        +--| (100)
+|                          |        |        |  +--OP020070_Hattula_totivirus_1
+|                          |        |     +--| (71)
+|                          |        |     |  |       +--MN661079_Pisingos_virus
+|                          |        |     |  |    +--| (98)
+|                          |        |     |  |    |  +--MN661081_Pisingos_virus
+|                          |        |     |  +----| (100)
+|                          |        |     |       |     +--MN661078_Pisingos_virus
+|                          |        |     |       |  +--| (88)
+|                          |        |     |       |  |  +--MN661080_Pisingos_virus
+|                          |        |     |       +--| (81)
+|                          |        |     |          +--MF344587_Murici_virus
+|                          |        +-----| (100)
+|                          |              |     +--MN784057_Australian_Anopheles_totivirus
+|                          |              +-----| (100)
+|                          |                    |     +--MF073201_Australian_Anopheles_totivirus
+|                          |                    |  +--| (93)
+|                          |                    |  |  +--NC_035674_Australian_Anopheles_totivirus
+|                          |                    +--| (89)
+|                          |                       +--MN784056_Australian_Anopheles_totivirus
+|               +----------| (100)
+|               |          +----------------MW251336_Zyryana_toti-like_virus
++---------------| (99)
+|               |           +-----------MZ209742_Hangzhou_totivirus_9
+|               +-----------| (100)
+|                           +-----------MN745083_Bactrocera_dorsalis_toti-like_virus_2
+|
++-----------------------------------------------------------MZ209749_Fushun_totivirus_5
+
+Tree in newick format:
+
+(((((((((MW434940_Aedes_aegypti_totivirus:0.0000009999,MW434941_Aedes_aegypti_totivirus:0.0000009999)100:0.0108673571,(((((MN053722_Aedes_aegypti_totivirus:0.0012019629,MN053726_Aedes_aegypti_totivirus:0.0000009999)96:0.0012071208,MN053725_Aedes_aegypti_totivirus:0.0109171256)67:0.0011965159,(MN053728_Aedes_aegypti_totivirus:0.0024412063,MN053734_Aedes_aegypti_totivirus:0.0000009999)99:0.0024163909)63:0.0000009999,MN053732_Aedes_aegypti_totivirus:0.0012009368)94:0.0271647476,((LC496074_Aedes_aegypti_totivirus:0.0126728943,Aedes_aegypti_totivirus_F1506C12C58C205F1506:0.0123090751)52:0.0027992269,MZ556103_Lactea_totivirus:0.1246530764)49:0.0025559720)88:0.0053657033)79:0.0032236344,MT435499_Aedes_aegypti_totivirus_2:0.0283336157)76:0.0016294446,(((MN053723_Aedes_aegypti_totivirus:0.0000009999,MN053724_Aedes_aegypti_totivirus:0.0000009999)100:0.0023994708,MN053733_Aedes_aegypti_totivirus:0.0000021286)93:0.0024116241,MN053730_Aedes_aegypti_totivirus:0.0060144999)82:0.0012004613)79:0.0012048672,MN053727_Aedes_aegypti_totivirus:0.0036632340)44:0.0000021727,(MN053731_Aedes_aegypti_totivirus:0.0000009999,MN053729_Aedes_aegypti_totivirus:0.0000009999)94:0.0011980553)100:0.6585736655,MN661076_Embera_virus:0.4343066590)78:0.0220189958,(MW520394_Drama_totivirus:0.2522340126,ON860472_Koversta_virus:0.3329432101)98:0.1564023938)100:1.3414536930,(((((((((Culex_inatomii_totivirus_F1570C24F1570:0.0000009999,Culex_inatomii_totivirus_F1570C24F1582:0.0022999156)100:0.0108419753,(OL700195_XiangYun_toti-like_virus_6:0.0231581885,OP264907_Culex_modestus_totivirus:0.0120977765)93:0.0078715125)98:0.0445967278,(((MW699041_Culex_inatomii_totivirus:0.0023471420,MW699042_Culex_inatomii_totivirus:0.0000009999)97:0.0011736929,MW520387_Culex_modestus_totivirus:0.0035344052)97:0.0137672888,LC514398_Culex_inatomii_totivirus:0.0020204782)100:0.0577892765)100:0.0614650567,MT498830_Fitzroy_Crossing_toti-like_virus_1:0.1082004861)96:0.0562184122,MK440653_Lindangsbacken_virus:0.1909564881)97:0.0711260106,(((MH188048_Totivirus-like_Culex_mosquito_virus_1:0.0000009999,MW434958_Totivirus-like_Culex_mosquito_virus_1:0.0000009999)100:0.0398020278,OM817549_Totivirus-like_Culex_mosquito_virus_1:0.0201266067)100:0.1300052885,OM743943_Green_Valley_Lake_virus:0.1981275190)80:0.0463091346)100:0.2605126835,((((((((OP019870_Hattula_totivirus_1:0.0062861808,OP019868_Hattula_totivirus_1:0.0112436603)97:0.0081304889,OP019869_Hattula_totivirus_1:0.0074360877)59:0.0014870075,OP019871_Hattula_totivirus_1:0.0063105290)63:0.0065645700,(OP019901_Hattula_totivirus_1:0.0023752487,OP020071_Hattula_totivirus_1:0.0023919079)100:0.0156116174)100:0.0289256286,OP020072_Hattula_totivirus_1:0.0604257789)90:0.0203906659,OP020070_Hattula_totivirus_1:0.0351674586)100:0.1591399572,((MN661079_Pisingos_virus:0.0319777227,MN661081_Pisingos_virus:0.0255035609)98:0.0379380267,((MN661078_Pisingos_virus:0.0367479995,MN661080_Pisingos_virus:0.0272255651)88:0.0029237229,MF344587_Murici_virus:0.1070351888)81:0.0304705540)100:0.2228357507)71:0.0737349751,(MN784057_Australian_Anopheles_totivirus:0.0043918521,((MF073201_Australian_Anopheles_totivirus:0.0236146942,NC_035674_Australian_Anopheles_totivirus:0.0073725523)93:0.0084053493,MN784056_Australian_Anopheles_totivirus:0.0073296288)89:0.0043137742)100:0.2997227313)100:0.3005331288)100:0.4020050958,MW251336_Zyryana_toti-like_virus:0.7784908313)100:0.4849004995,(MZ209742_Hangzhou_totivirus_9:0.5513655444,MN745083_Bactrocera_dorsalis_toti-like_virus_2:0.5482828275)100:0.5505923094)99:0.7132255073,MZ209749_Fushun_totivirus_5:2.6098681786);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -23933.752414
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                               +--MW434940_Aedes_aegypti_totivirus
+                                                            +--| (100)
+                                                            |  +--MW434941_Aedes_aegypti_totivirus
+                                                         +--| (79)
+                                                         |  |              +--MN053722_Aedes_aegypti_totivirus
+                                                         |  |           +--| (96)
+                                                         |  |           |  +--MN053726_Aedes_aegypti_totivirus
+                                                         |  |        +--| (67)
+                                                         |  |        |  +--MN053725_Aedes_aegypti_totivirus
+                                                         |  |     +--| (63)
+                                                         |  |     |  |  +--MN053728_Aedes_aegypti_totivirus
+                                                         |  |     |  +--| (99)
+                                                         |  |     |     +--MN053734_Aedes_aegypti_totivirus
+                                                         |  |  +--| (94)
+                                                         |  |  |  +--MN053732_Aedes_aegypti_totivirus
+                                                         |  +--| (88)
+                                                         |     |     +--LC496074_Aedes_aegypti_totivirus
+                                                         |     |  +--| (52)
+                                                         |     |  |  +--Aedes_aegypti_totivirus_F1506C12C58C205F1506
+                                                         |     +--| (49)
+                                                         |        +--MZ556103_Lactea_totivirus
+                                                      +--| (76)
+                                                      |  +--MT435499_Aedes_aegypti_totivirus_2
+                                                   +--| (79)
+                                                   |  |        +--MN053723_Aedes_aegypti_totivirus
+                                                   |  |     +--| (100)
+                                                   |  |     |  +--MN053724_Aedes_aegypti_totivirus
+                                                   |  |  +--| (93)
+                                                   |  |  |  +--MN053733_Aedes_aegypti_totivirus
+                                                   |  +--| (82)
+                                                   |     +--MN053730_Aedes_aegypti_totivirus
+                                                +--| (44)
+                                                |  +--MN053727_Aedes_aegypti_totivirus
+                                 +--------------| (100)
+                                 |              |  +--MN053731_Aedes_aegypti_totivirus
+                                 |              +--| (94)
+                                 |                 +--MN053729_Aedes_aegypti_totivirus
+                              +--| (78)
+                              |  +--------MN661076_Embera_virus
++-----------------------------| (100)
+|                             |  +----MW520394_Drama_totivirus
+|                             +--| (98)
+|                                +------ON860472_Koversta_virus
+|
+|                                                       +--Culex_inatomii_totivirus_F1570C24F1570
+|                                                    +--| (100)
+|                                                    |  +--Culex_inatomii_totivirus_F1570C24F1582
+|                                                 +--| (98)
+|                                                 |  |  +--OL700195_XiangYun_toti-like_virus_6
+|                                                 |  +--| (93)
+|                                                 |     +--OP264907_Culex_modestus_totivirus
+|                                              +--| (100)
+|                                              |  |        +--MW699041_Culex_inatomii_totivirus
+|                                              |  |     +--| (97)
+|                                              |  |     |  +--MW699042_Culex_inatomii_totivirus
+|                                              |  |  +--| (97)
+|                                              |  |  |  +--MW520387_Culex_modestus_totivirus
+|                                              |  +--| (100)
+|                                              |     +--LC514398_Culex_inatomii_totivirus
+|                                           +--| (96)
+|                                           |  +--MT498830_Fitzroy_Crossing_toti-like_virus_1
+|                                        +--| (97)
+|                                        |  +---MK440653_Lindangsbacken_virus
+|                                   +----| (100)
+|                                   |    |        +--MH188048_Totivirus-like_Culex_mosquito_virus_1
+|                                   |    |     +--| (100)
+|                                   |    |     |  +--MW434958_Totivirus-like_Culex_mosquito_virus_1
+|                                   |    |  +--| (100)
+|                                   |    |  |  +--OM817549_Totivirus-like_Culex_mosquito_virus_1
+|                                   |    +--| (80)
+|                                   |       +---OM743943_Green_Valley_Lake_virus
+|                          +--------| (100)
+|                          |        |                          +--OP019870_Hattula_totivirus_1
+|                          |        |                       +--| (97)
+|                          |        |                       |  +--OP019868_Hattula_totivirus_1
+|                          |        |                    +--| (59)
+|                          |        |                    |  +--OP019869_Hattula_totivirus_1
+|                          |        |                 +--| (63)
+|                          |        |                 |  +--OP019871_Hattula_totivirus_1
+|                          |        |              +--| (100)
+|                          |        |              |  |  +--OP019901_Hattula_totivirus_1
+|                          |        |              |  +--| (100)
+|                          |        |              |     +--OP020071_Hattula_totivirus_1
+|                          |        |           +--| (90)
+|                          |        |           |  +--OP020072_Hattula_totivirus_1
+|                          |        |        +--| (100)
+|                          |        |        |  +--OP020070_Hattula_totivirus_1
+|                          |        |     +--| (71)
+|                          |        |     |  |       +--MN661079_Pisingos_virus
+|                          |        |     |  |    +--| (98)
+|                          |        |     |  |    |  +--MN661081_Pisingos_virus
+|                          |        |     |  +----| (100)
+|                          |        |     |       |     +--MN661078_Pisingos_virus
+|                          |        |     |       |  +--| (88)
+|                          |        |     |       |  |  +--MN661080_Pisingos_virus
+|                          |        |     |       +--| (81)
+|                          |        |     |          +--MF344587_Murici_virus
+|                          |        +-----| (100)
+|                          |              |     +--MN784057_Australian_Anopheles_totivirus
+|                          |              +-----| (100)
+|                          |                    |     +--MF073201_Australian_Anopheles_totivirus
+|                          |                    |  +--| (93)
+|                          |                    |  |  +--NC_035674_Australian_Anopheles_totivirus
+|                          |                    +--| (89)
+|                          |                       +--MN784056_Australian_Anopheles_totivirus
+|               +----------| (100)
+|               |          +----------------MW251336_Zyryana_toti-like_virus
++---------------| (99)
+|               |           +-----------MZ209742_Hangzhou_totivirus_9
+|               +-----------| (100)
+|                           +-----------MN745083_Bactrocera_dorsalis_toti-like_virus_2
+|
++-----------------------------------------------------------MZ209749_Fushun_totivirus_5
+
+
+Consensus tree in newick format: 
+
+(((((((((MW434940_Aedes_aegypti_totivirus:0.0000021293,MW434941_Aedes_aegypti_totivirus:0.0000021293)100:0.0108711753,(((((MN053722_Aedes_aegypti_totivirus:0.0012028972,MN053726_Aedes_aegypti_totivirus:0.0000021293)96:0.0012081383,MN053725_Aedes_aegypti_totivirus:0.0109210100)67:0.0011974397,(MN053728_Aedes_aegypti_totivirus:0.0024439182,MN053734_Aedes_aegypti_totivirus:0.0000021293)99:0.0024184443)63:0.0000021293,MN053732_Aedes_aegypti_totivirus:0.0012018587)94:0.0271746630,((LC496074_Aedes_aegypti_totivirus:0.0126770664,Aedes_aegypti_totivirus_F1506C12C58C205F1506:0.0123136698)52:0.0028004948,MZ556103_Lactea_totivirus:0.1247025253)49:0.0025557538)88:0.0053682471)79:0.0032255282,MT435499_Aedes_aegypti_totivirus_2:0.0283428241)76:0.0016308304,(((MN053723_Aedes_aegypti_totivirus:0.0000021293,MN053724_Aedes_aegypti_totivirus:0.0000021293)100:0.0024020509,MN053733_Aedes_aegypti_totivirus:0.0000021293)93:0.0024142202,MN053730_Aedes_aegypti_totivirus:0.0060172754)82:0.0012017437)79:0.0012057609,MN053727_Aedes_aegypti_totivirus:0.0036645171)44:0.0000021293,(MN053731_Aedes_aegypti_totivirus:0.0000021293,MN053729_Aedes_aegypti_totivirus:0.0000021293)94:0.0011993897)100:0.6588229708,MN661076_Embera_virus:0.4344678986)78:0.0219795625,(MW520394_Drama_totivirus:0.2522700273,ON860472_Koversta_virus:0.3330744751)98:0.1564838327)100:1.3415947883,(((((((((Culex_inatomii_totivirus_F1570C24F1570:0.0000021293,Culex_inatomii_totivirus_F1570C24F1582:0.0023009512)100:0.0108449241,(OL700195_XiangYun_toti-like_virus_6:0.0231629386,OP264907_Culex_modestus_totivirus:0.0121003246)93:0.0078706729)98:0.0445999486,(((MW699041_Culex_inatomii_totivirus:0.0023482039,MW699042_Culex_inatomii_totivirus:0.0000021293)97:0.0011749987,MW520387_Culex_modestus_totivirus:0.0035364564)97:0.0137696429,LC514398_Culex_inatomii_totivirus:0.0020216639)100:0.0578023262)100:0.0614776792,MT498830_Fitzroy_Crossing_toti-like_virus_1:0.1082190697)96:0.0562320230,MK440653_Lindangsbacken_virus:0.1909917598)97:0.0711776788,(((MH188048_Totivirus-like_Culex_mosquito_virus_1:0.0000021293,MW434958_Totivirus-like_Culex_mosquito_virus_1:0.0000024419)100:0.0398116836,OM817549_Totivirus-like_Culex_mosquito_virus_1:0.0201269014)100:0.1300954355,OM743943_Green_Valley_Lake_virus:0.1981688699)80:0.0461740500)100:0.2605212054,((((((((OP019870_Hattula_totivirus_1:0.0062880811,OP019868_Hattula_totivirus_1:0.0112458039)97:0.0081317273,OP019869_Hattula_totivirus_1:0.0074374071)59:0.0014864223,OP019871_Hattula_totivirus_1:0.0063127297)63:0.0065659533,(OP019901_Hattula_totivirus_1:0.0023763368,OP020071_Hattula_totivirus_1:0.0023928214)100:0.0156135151)100:0.0289302308,OP020072_Hattula_totivirus_1:0.0604343449)90:0.0203908612,OP020070_Hattula_totivirus_1:0.0351749587)100:0.1591711784,((MN661079_Pisingos_virus:0.0319835238,MN661081_Pisingos_virus:0.0255064672)98:0.0379753589,((MN661078_Pisingos_virus:0.0367560034,MN661080_Pisingos_virus:0.0272289657)88:0.0029309995,MF344587_Murici_virus:0.1070426880)81:0.0304414536)100:0.2228581308)71:0.0737424691,(MN784057_Australian_Anopheles_totivirus:0.0043899787,((MF073201_Australian_Anopheles_totivirus:0.0236189616,NC_035674_Australian_Anopheles_totivirus:0.0073751160)93:0.0084072819,MN784056_Australian_Anopheles_totivirus:0.0073307887)89:0.0043157136)100:0.2997759952)100:0.3006153568)100:0.4021417915,MW251336_Zyryana_toti-like_virus:0.7786211777)100:0.4850891718,(MZ209742_Hangzhou_totivirus_9:0.5515185563,MN745083_Bactrocera_dorsalis_toti-like_virus_2:0.5483788864)100:0.5506268746)99:0.7136250153,MZ209749_Fushun_totivirus_5:2.6108429842);
+
+TIME STAMP
+----------
+
+Date and time: Wed Feb 15 15:00:57 2023
+Total CPU time used: 1088.178622 seconds (0h:18m:8s)
+Total wall-clock time used: 71.0594505 seconds (0h:1m:11s)
+

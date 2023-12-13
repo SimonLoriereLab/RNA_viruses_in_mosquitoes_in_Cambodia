@@ -1,0 +1,540 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=438;
+	taxlabels
+	Broome_luteo_like_virus_1_F1261C1F1261[&!color=#d40400]
+	Colokingly_virus_F1527C217F1019[&!color=#d40400]
+	Colokingly_virus_F1527C217F1021[&!color=#d40400]
+	Colokingly_virus_F1527C217F1094[&!color=#d40400]
+	Colokingly_virus_F1527C217F1096[&!color=#d40400]
+	Colokingly_virus_F1527C217F1100[&!color=#d40400]
+	Colokingly_virus_F1527C217F1211[&!color=#d40400]
+	Colokingly_virus_F1527C217F1381[&!color=#d40400]
+	Colokingly_virus_F1527C217F1382[&!color=#d40400]
+	Colokingly_virus_F1527C217F1527[&!color=#d40400]
+	Colokingly_virus_F1527C217F1534[&!color=#d40400]
+	Comfornsto_virus_F1216C3F1183[&!color=#d40400]
+	Comfornsto_virus_F1216C3F1216[&!color=#d40400]
+	Culex_associated_Luteo_like_virus_F1042C4F1042[&!color=#d40400]
+	Culex_luteo_like_virus_F1039C258F1039[&!color=#d40400]
+	Culex_luteo_like_virus_F1039C258F1563[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1016[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1017[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1070[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1071[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1073[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1078[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1083[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1171[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1339[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1351[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1352[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1517[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp1_F1020C17F1020[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1094[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1215[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1219[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1222[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1223[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1381[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1383[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1525[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1527[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1528[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1531[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1532[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1533[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1536[&!color=#d40400]
+	Hubei_sobemo_like_virus_41_subsp2_F1381C255F1537[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1001[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1002[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1058[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1060[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1062[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1063[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1065[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1067[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1086[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1335[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1336[&!color=#d40400]
+	Humaita_Tubiacanga_virus_F1058C249F1503[&!color=#d40400]
+	KM048319_Ixodes_scapularis_associated_virus_2
+	KU754509_La_Tardoire_virus
+	KX138223_Baird_Spence_virus
+	KX580896_Sherman_virus
+	KX882764_Hubei_mosquito_virus_2
+	KX882812_Hubei_sobemo-like_virus_21
+	KX882856_Hubei_diptera_virus_14
+	KX882864_Hubei_sobemo-like_virus_40
+	KX882872_Hubei_sobemo-like_virus_41
+	KX882898_Hubei_myriapoda_virus_9
+	KX882925_Hubei_sobemo-like_virus_18
+	KX882926_Hubei_tetragnatha_maxillosa_virus_6
+	LC094964_Ixodes_scapularis_associated_virus_1
+	LC512854_Wenzhou_sobemo-like_virus_3
+	LC512855_Wenzhou_sobemo-like_virus_3
+	LC512856_Wenzhou_sobemo-like_virus_3
+	LC512857_Wenzhou_sobemo-like_virus_3
+	LC513833_Culex_inatomii_luteo-like_virus
+	MF141064_Norway_luteo-like_virus_1
+	MF141067_Norway_luteo-like_virus_2
+	MF141069_Norway_luteo-like_virus_3
+	MF176307_Culex_luteo-like_virus
+	MF189984_Barns_Ness_beadlet_anemone_sobemo-like_virus_1
+	MF893251_Medway_virus
+	MF893258_Tama_virus
+	MF893259_Teise_virus
+	MH188016_Culex-associated_Luteo-like_virus
+	MH188030_Culex_mosquito_virus_6
+	MH703049_Yongsan_sobemo-like_virus_1
+	MK026567_Store_beach_virus
+	MK026570_Blue_fish_point_virus
+	MK285337_Renna_virus
+	MK440646_Marma_virus
+	MK440647_Culex_associated_luteo_like_virus
+	MK440657_Berrek_virus
+	MN053787_Guadeloupe_mosquito_virus
+	MN053789_Guadeloupe_mosquito_virus
+	MN053791_Guadeloupe_mosquito_virus
+	MN053797_Guadeloupe_mosquito_virus
+	MN053803_Guadeloupe_mosquito_virus
+	MN053809_Humaita-Tubiacanga_virus
+	MN053817_Humaita-Tubiacanga_virus
+	MN053819_Humaita-Tubiacanga_virus
+	MN053823_Humaita-Tubiacanga_virus
+	MN167478_Mycroft_virus
+	MN167486_Mortimer_virus
+	MN167489_Stapleton_virus
+	MN551127_Plasmopara_viticola_lesion_associated_sobemo-like_1
+	MN609861_Leveillula_taurica_associated_sobemo-like_virus_1
+	MN627439_Erysiphe_necator_associated_sobemo-like_virus_3
+	MN627482_Erysiphe_necator_associated_sobemo-like_virus_2
+	MN661085_Atrato_Sobemo-like_virus_1
+	MN661087_Atrato_Sobemo-like_virus_1
+	MN661089_Atrato_Sobemo-like_virus_2
+	MN661091_Atrato_Sobemo-like_virus_3
+	MN661093_Atrato_Sobemo-like_virus_3
+	MN661095_Atrato_Sobemo-like_virus_4
+	MN661097_Atrato_Sobemo-like_virus_5
+	MN661099_Atrato_Sobemo-like_virus_5
+	MN661101_Atrato_Sobemo-like_virus_6
+	MN661107_Atrato_Sobemo-like_virus_5
+	MN714676_Neohydatothrips_associated_sobemo-like_virus_1
+	MN725049_Frankliniella_occidentalis_associated_sobemo-like_virus_1
+	MN831442_Cycas_revoluta_sobemo-like_virus
+	MN831443_Teucrium_fruticans_sobemo-like_virus
+	MN831444_Teucrium_fruticans_sobemo-like_virus
+	MN982389_Scaphoideus_titanus_sobemo-like_virus_1
+	MN982391_Scaphoideus_titanus_sobemo-like_virus_2
+	MT025121_Khabarov_virus
+	MT096519_Wenzhou_sobemo-like_virus_4
+	MT129761_Rosadiaz_solemo-like_virus
+	MT129762_Jeffords_solemo-like_virus
+	MT129764_Mlepnos_solemo-like_virus
+	'MT138161_Solemoviridae_sp.'
+	'MT138162_Solemoviridae_sp.'
+	'MT138164_Solemoviridae_sp.'
+	'MT138166_Solemoviridae_sp.'
+	'MT138167_Solemoviridae_sp.'
+	'MT138168_Solemoviridae_sp.'
+	MT316412_Jilin_luteo-like_virus_2
+	MT361053_Guangzhou_sobemo-like_virus
+	MT361055_Guangzhou_sobemo-like_virus
+	MT361059_Guangzhou_sobemo-like_virus
+	MT361061_Guangzhou_sobemo-like_virus
+	MT361063_Kisumu_mosquito_virus
+	MT361065_Kwale_mosquito_virus
+	MT498822_Broome_luteo-like_virus_1
+	MT568530_Pyongtaek_Culex_sobemo-like_virus
+	MT568531_Pyongtaek_Culex_luteo-like_virus
+	MT568532_Pyongtaek_Culex_Solemovirus
+	MT568542_Pyongtaek_Culex_sobemo-like_virus
+	MT747990_Skokie_sobemo-like_virus
+	MT896210_Aedes_sobemo-like_virus
+	MT896211_Aedes_sobemo-like_virus
+	MW023867_Soybean_thrips_sobemo-like_virus_5
+	MW030470_Hubei_mosquito_virus_2
+	MW030472_Hubei_mosquito_virus_2
+	MW030476_Hubei_mosquito_virus_2
+	MW030478_Hubei_mosquito_virus_2
+	MW030480_Hubei_mosquito_virus_2
+	MW030482_Hubei_mosquito_virus_2
+	MW030484_Hubei_mosquito_virus_2
+	MW030486_Hubei_mosquito_virus_2
+	MW030488_Hubei_mosquito_virus_2
+	MW039353_Soybean_thrips_sobemo-like_virus_7
+	MW039355_Soybean_thrips_sobemo-like_virus_9
+	MW039375_Soybean_thrips_sobemo-like_virus_10
+	'MW199220_Virus_sp.'
+	'MW199221_Virus_sp.'
+	'MW199222_Virus_sp.'
+	'MW199223_Virus_sp.'
+	'MW199224_Virus_sp.'
+	'MW199225_Virus_sp.'
+	'MW199227_Virus_sp.'
+	'MW199229_Virus_sp.'
+	'MW199230_Virus_sp.'
+	'MW239182_Riboviria_sp.'
+	'MW239183_Riboviria_sp.'
+	'MW239188_Riboviria_sp.'
+	'MW239189_Riboviria_sp.'
+	'MW239215_Riboviria_sp.'
+	'MW239222_Riboviria_sp.'
+	'MW239223_Riboviria_sp.'
+	'MW239226_Riboviria_sp.'
+	'MW239227_Riboviria_sp.'
+	'MW239228_Riboviria_sp.'
+	'MW239234_Riboviria_sp.'
+	'MW239235_Riboviria_sp.'
+	'MW239237_Riboviria_sp.'
+	'MW239244_Riboviria_sp.'
+	'MW239246_Riboviria_sp.'
+	'MW239270_Riboviria_sp.'
+	'MW239278_Riboviria_sp.'
+	'MW239279_Riboviria_sp.'
+	'MW239280_Riboviria_sp.'
+	'MW239281_Riboviria_sp.'
+	'MW239287_Riboviria_sp.'
+	'MW239294_Riboviria_sp.'
+	'MW239310_Riboviria_sp.'
+	'MW239318_Riboviria_sp.'
+	'MW239322_Riboviria_sp.'
+	'MW239328_Riboviria_sp.'
+	'MW239331_Riboviria_sp.'
+	'MW239335_Riboviria_sp.'
+	'MW239337_Riboviria_sp.'
+	'MW239338_Riboviria_sp.'
+	'MW239343_Riboviria_sp.'
+	'MW239348_Riboviria_sp.'
+	'MW239351_Riboviria_sp.'
+	'MW239353_Riboviria_sp.'
+	'MW239360_Riboviria_sp.'
+	'MW239361_Riboviria_sp.'
+	'MW239370_Riboviria_sp.'
+	'MW239372_Riboviria_sp.'
+	'MW239377_Riboviria_sp.'
+	'MW239382_Riboviria_sp.'
+	'MW239384_Riboviria_sp.'
+	'MW239386_Riboviria_sp.'
+	'MW239390_Riboviria_sp.'
+	'MW239399_Riboviria_sp.'
+	'MW239402_Riboviria_sp.'
+	'MW239404_Riboviria_sp.'
+	'MW239414_Riboviria_sp.'
+	'MW239417_Riboviria_sp.'
+	'MW239434_Riboviria_sp.'
+	'MW239435_Riboviria_sp.'
+	'MW239436_Riboviria_sp.'
+	'MW239441_Riboviria_sp.'
+	'MW239450_Riboviria_sp.'
+	'MW239454_Riboviria_sp.'
+	'MW239457_Riboviria_sp.'
+	'MW239461_Riboviria_sp.'
+	'MW239465_Riboviria_sp.'
+	'MW239469_Riboviria_sp.'
+	'MW239471_Riboviria_sp.'
+	'MW239473_Riboviria_sp.'
+	'MW239476_Riboviria_sp.'
+	'MW239479_Riboviria_sp.'
+	'MW239487_Riboviria_sp.'
+	'MW239495_Riboviria_sp.'
+	'MW239497_Riboviria_sp.'
+	'MW239498_Riboviria_sp.'
+	'MW239501_Riboviria_sp.'
+	'MW239503_Riboviria_sp.'
+	'MW239506_Riboviria_sp.'
+	'MW239512_Riboviria_sp.'
+	'MW239525_Riboviria_sp.'
+	'MW239527_Riboviria_sp.'
+	'MW239530_Riboviria_sp.'
+	'MW239542_Riboviria_sp.'
+	'MW239556_Riboviria_sp.'
+	MW251326_Tartas_insect-associated_virus
+	MW310331_Zeugodacus_cucurbitae_sobemovirus_isolate_Bc
+	MW310351_Zeugodacus_cucurbitae_sobemovirus
+	MW314622_Lasius_neglectus_virus_5
+	MW314643_Myrmica_rubra_virus_7
+	'MW317137_Luteoviridae_sp.'
+	MW434129_Culex-associated_Luteo-like_virus
+	MW434130_Culex-associated_Luteo-like_virus
+	MW434131_Culex-associated_Luteo-like_virus
+	MW434132_Culex-associated_Luteo-like_virus
+	MW434133_Culex-associated_Luteo-like_virus
+	MW434790_Culex_mosquito_virus_6
+	MW434798_Culex_mosquito_virus_6
+	MW434800_Culex_mosquito_virus_6
+	MW434802_Culex_mosquito_virus_6
+	MW434812_Guadeloupe_mosquito_virus
+	MW434813_Guadeloupe_mosquito_virus
+	MW434821_Kellev_virus
+	MW434863_Marma_virus
+	MW434872_Marma_virus
+	MW434875_Marma_virus
+	MW434902_Marma_virus
+	MW509554_Laem_Singh_virus
+	MW520373_Thassos_sobemo-like_virus
+	MW520380_Evros_sobemo-like_virus
+	MW520388_Culex_impudicus_luteo-like_virus
+	MW650676_Humaita-Tubiacanga_virus
+	MW676135_Hypera_postica_associated_sobemovirus_1
+	MW676137_Hypera_postica_associated_sobemovirus_3
+	MW773212_Humaita-Tubiacanga_virus
+	'MW826409_Solemoviridae_sp.'
+	'MW826410_Solemoviridae_sp.'
+	'MW826498_Luteoviridae_sp.'
+	'MW826499_Luteoviridae_sp.'
+	'MW826500_Luteoviridae_sp.'
+	'MW826501_Luteoviridae_sp.'
+	'MW826514_Solemoviridae_sp.'
+	'MW826515_Solemoviridae_sp.'
+	'MW826516_Solemoviridae_sp.'
+	'MW826517_Solemoviridae_sp.'
+	'MW826518_Solemoviridae_sp.'
+	'MW826519_Solemoviridae_sp.'
+	'MW826520_Solemoviridae_sp.'
+	'MW826521_Solemoviridae_sp.'
+	'MW826522_Solemoviridae_sp.'
+	MZ328309_Rhodnius_prolixus_virus_6
+	'MZ375164_Riboviria_sp.'
+	'MZ375169_Riboviria_sp.'
+	'MZ375178_Riboviria_sp.'
+	'MZ375179_Riboviria_sp.'
+	'MZ375180_Riboviria_sp.'
+	'MZ375184_Riboviria_sp.'
+	'MZ375185_Riboviria_sp.'
+	'MZ375188_Riboviria_sp.'
+	'MZ375190_Riboviria_sp.'
+	'MZ375195_Riboviria_sp.'
+	'MZ375199_Riboviria_sp.'
+	'MZ375201_Riboviria_sp.'
+	'MZ375202_Riboviria_sp.'
+	'MZ375204_Riboviria_sp.'
+	'MZ375206_Riboviria_sp.'
+	'MZ395979_Solemoviridae_sp.'
+	'MZ396017_Solemoviridae_sp.'
+	'MZ396021_Solemoviridae_sp.'
+	'MZ396026_Solemoviridae_sp.'
+	MZ443569_Vespula_vulgaris_luteo-like_virus_1
+	MZ443571_Vespula_vulgaris_Sobemo-like_virus_1
+	MZ443576_Vespula_vulgaris_Luteo-like_virus_2
+	MZ443594_Leuven_Sobemo-like_virus_1
+	MZ443595_Leuven_Sobemo-like_virus_2
+	MZ443604_Leuven_Sobemo-like_virus_3
+	MZ443605_Leuven_Luteo-like_virus_1
+	MZ443630_Nelson_Sobemo-like_virus_1
+	'MZ484471_Solemoviridae_sp.'
+	MZ556263_Sichuan_mosquito_sobemo-like_virus
+	MZ556266_Sichuan_mosquito_sobemo-like_virus
+	'MZ771233_Solemoviridae_sp.'
+	NC_032173_Hubei_sobemo-like_virus_43
+	NC_032176_Hubei_sobemo-like_virus_19
+	NC_032177_Hubei_sobemo-like_virus_18
+	NC_032178_Hubei_sobemo-like_virus_26
+	NC_032184_Hubei_sobemo-like_virus_9
+	NC_032187_Hubei_sobemo-like_virus_32
+	NC_032188_Hubei_sobemo-like_virus_36
+	NC_032191_Hubei_sobemo-like_virus_47
+	NC_032193_Beihai_sobemo-like_virus_26
+	NC_032195_Hubei_sobemo-like_virus_46
+	NC_032196_Hubei_sobemo-like_virus_7
+	NC_032197_Hubei_sobemo-like_virus_5
+	NC_032199_Hubei_sobemo-like_virus_10
+	NC_032200_Hubei_sobemo-like_virus_34
+	NC_032210_Hubei_sobemo-like_virus_20
+	NC_032213_Hubei_sobemo-like_virus_44
+	NC_032223_Hubei_sobemo-like_virus_31
+	NC_032227_Hubei_sobemo-like_virus_33
+	NC_032228_Hubei_sobemo-like_virus_27
+	NC_032229_Hubei_sobemo-like_virus_24
+	NC_032232_Hubei_sobemo-like_virus_48
+	NC_032233_Hubei_sobemo-like_virus_49
+	NC_032234_Hubei_sobemo-like_virus_29
+	NC_032235_Hubei_sobemo-like_virus_30
+	NC_032236_Hubei_sobemo-like_virus_8
+	NC_032237_Hubei_sobemo-like_virus_35
+	NC_032238_Hubei_sobemo-like_virus_45
+	NC_032240_Hubei_sobemo-like_virus_13
+	NC_032243_Hubei_sobemo-like_virus_42
+	NC_032246_Hubei_sobemo-like_virus_28
+	NC_032247_Hubei_sobemo-like_virus_38
+	NC_032248_Hubei_sobemo-like_virus_25
+	NC_032250_Hubei_sobemo-like_virus_23
+	NC_032251_Hubei_sobemo-like_virus_40
+	NC_032253_Hubei_sobemo-like_virus_41
+	NC_032254_Hubei_sobemo-like_virus_22
+	NC_032268_Hubei_tetragnatha_maxillosa_virus_6
+	NC_032645_Beihai_shrimp_virus_5
+	NC_032865_Beihai_sobemo-like_virus_27
+	NC_032918_Sanxia_sobemo-like_virus_4
+	NC_032923_Sanxia_sobemo-like_virus_1
+	NC_032930_Sanxia_sobemo-like_virus_2
+	NC_032937_Sanxia_sobemo-like_virus_3
+	NC_032941_Sanxia_sobemo-like_virus_5
+	NC_033072_Shuangao_sobemo-like_virus_3
+	NC_033089_Shuangao_sobemo-like_virus_2
+	NC_033095_Shuangao_insect_virus_9
+	NC_033128_Wenzhou_sobemo-like_virus_3
+	NC_033138_Wenzhou_sobemo-like_virus_4
+	NC_033230_Wenling_sobemo-like_virus_2
+	NC_033279_Sanxia_water_strider_virus_10
+	NC_033300_Wenzhou_shrimp_virus_9
+	NC_033303_Hubei_diptera_virus_12
+	NC_033304_Hubei_diptera_virus_14
+	NC_033305_Hubei_mosquito_virus_2
+	NC_033331_Hubei_diptera_virus_13
+	NC_033452_Wuchan_romanomermis_nematode_virus_3
+	NC_033472_Wuhan_insect_virus_17
+	NC_033487_Wuhan_heteroptera_virus_2
+	NC_033489_Wuhan_house_centipede_virus_5
+	NC_033713_Wuhan_insect_virus_34
+	NC_033752_Xingshan_nematode_virus_5
+	OL420721_Ulaatai_Melophagus_solemo-like_virus
+	OL420723_Ulaatai_Melophagus_solemo-like_virus
+	OL420725_Ulaatai_Melophagus_solemo-like_virus
+	OL420727_Ulaatai_Melophagus_solemo-like_virus
+	OL420729_Ulaatai_Melophagus_solemo-like_virus
+	OL420731_Ulaatai_Melophagus_solemo-like_virus
+	OL700081_Wenzhou_sobemo-like_virus_3
+	OL700082_Wenzhou_sobemo-like_virus_3
+	OL700122_XiangYun_luteo-sobemo-like_virus_1
+	OL700123_XiangYun_luteo-sobemo-like_virus_1
+	OL700124_XiangYun_luteo-sobemo-like_virus_1
+	OL700125_XiangYun_luteo-sobemo-like_virus_2
+	OM743945_Pine_Lake_virus
+	OM817536_Culex_mosquito_virus_6
+	ON125137_Freshwater_macrophyte_associated_sobeli-like_virus_2
+	ON408196_Ixodes_scapularis_associated_virus_1
+	ON408200_Ixodes_scapularis_associated_virus_1
+	ON408201_Ixodes_scapularis_associated_virus_1
+	ON408202_Xinjiang_tick_associated_virus_1
+	ON408203_Xinjiang_tick_associated_virus_1
+	ON408204_Xinjiang_tick_associated_virus_1
+	ON408205_Xinjiang_tick_associated_virus_1
+	ON408206_Jilin_luteo-like_virus_2
+	ON408207_Jilin_luteo-like_virus_2
+	ON408208_Jilin_luteo-like_virus_2
+	ON408210_Jilin_luteo-like_virus_2
+	ON408211_Jilin_luteo-like_virus_2
+	ON684366_Ixodes_ricinus_sobemo-like_virus_1
+	Peninsere_virus_F1127C300F1032[&!color=#d40400]
+	Peninsere_virus_F1127C300F1056[&!color=#d40400]
+	Peninsere_virus_F1127C300F1127[&!color=#d40400]
+	Peninsere_virus_F1127C300F1132[&!color=#d40400]
+	Peninsere_virus_F1127C300F1156[&!color=#d40400]
+	Peninsere_virus_F1127C300F1450[&!color=#d40400]
+	Peninsere_virus_F1127C300F1461[&!color=#d40400]
+	Perkeld_virus_F1502C85F1502[&!color=#d40400]
+	Pirounced_virus_F1032C17F1032[&!color=#d40400]
+	Pirounced_virus_F1032C17F1034[&!color=#d40400]
+	Pirounced_virus_F1032C17F1056[&!color=#d40400]
+	Pirounced_virus_F1032C17F1127[&!color=#d40400]
+	Pirounced_virus_F1032C17F1266[&!color=#d40400]
+	Pirounced_virus_F1032C17F1271[&!color=#d40400]
+	Pirounced_virus_F1032C17F1305[&!color=#d40400]
+	Pirounced_virus_F1032C17F1316[&!color=#d40400]
+	Pirounced_virus_F1032C17F1325[&!color=#d40400]
+	Pirounced_virus_F1032C17F1461[&!color=#d40400]
+	Pirounced_virus_F1032C17F1585[&!color=#d40400]
+	Pirounced_virus_F1032C17F1604[&!color=#d40400]
+	Pirounced_virus_F1032C17F1607[&!color=#d40400]
+	Poterfers_virus_F1276C48F1276[&!color=#d40400]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((((((((((((((((((((((((((((((((((((('MZ396021_Solemoviridae_sp.':2.0E-6,NC_033713_Wuhan_insect_virus_34:0.009076)[&label=100]:0.037772,'MW199225_Virus_sp.':0.043424)[&label=100]:0.070592,'MZ395979_Solemoviridae_sp.':0.066255)[&label=100]:0.046848,(('MW199220_Virus_sp.':0.143332,'MZ396026_Solemoviridae_sp.':0.008246)[&label=97]:0.035577,'MW199224_Virus_sp.':0.005189)[&label=97]:0.09954)[&label=100]:0.265251,NC_033489_Wuhan_house_centipede_virus_5:0.293418)[&label=100]:0.201195,('MW239390_Riboviria_sp.':0.202501,MZ443595_Leuven_Sobemo-like_virus_2:0.245909)[&label=100]:0.239181)[&label=94]:0.123646,(((('MT138167_Solemoviridae_sp.':2.0E-6,'MT138168_Solemoviridae_sp.':0.006007)[&label=100]:0.165061,NC_032233_Hubei_sobemo-like_virus_49:0.153262)[&label=100]:0.117158,'MW826514_Solemoviridae_sp.':0.258249)[&label=100]:0.0907,(MN627439_Erysiphe_necator_associated_sobemo-like_virus_3:0.404352,'MW239343_Riboviria_sp.':0.185361)[&label=99]:0.128392)[&label=86]:0.016254)[&label=78]:0.044192,(((('MZ375169_Riboviria_sp.':0.138736,NC_032232_Hubei_sobemo-like_virus_48:0.101822)[&label=100]:0.15941,KU754509_La_Tardoire_virus:0.178901)[&label=100]:0.062942,MF893251_Medway_virus:0.210889)[&label=100]:0.119228,'MW239498_Riboviria_sp.':0.338413)[&label=69]:0.05027)[&label=62]:0.047367,(((MN661085_Atrato_Sobemo-like_virus_1:0.00292,MN661087_Atrato_Sobemo-like_virus_1:2.0E-6)[&label=100]:0.038612,MW520380_Evros_sobemo-like_virus:0.046907)[&label=100]:0.32619,(MN609861_Leveillula_taurica_associated_sobemo-like_virus_1:0.396109,'MW239506_Riboviria_sp.':0.49926)[&label=50]:0.041814)[&label=30]:0.026033)[&label=62]:0.059859,(((OL700122_XiangYun_luteo-sobemo-like_virus_1:2.0E-6,OL700123_XiangYun_luteo-sobemo-like_virus_1:2.0E-6)[&label=100]:0.002973,MW520373_Thassos_sobemo-like_virus:0.008941)[&label=74]:0.005756,OL700124_XiangYun_luteo-sobemo-like_virus_1:2.06E-4)[&label=100]:0.625341)[&label=42]:0.056317,'MZ771233_Solemoviridae_sp.':0.731716)[&label=65]:0.084096,('MW239189_Riboviria_sp.':0.676852,NC_033472_Wuhan_insect_virus_17:1.184713)[&label=94]:0.203466)[&label=44]:0.033895,((((((NC_032191_Hubei_sobemo-like_virus_47:0.209209,NC_032195_Hubei_sobemo-like_virus_46:0.390253)[&label=100]:0.172018,Poterfers_virus_F1276C48F1276:0.536072)[&label=99]:0.097478,('MT138166_Solemoviridae_sp.':0.497253,'MW239503_Riboviria_sp.':0.296546)[&label=89]:0.13759)[&label=33]:0.03231,'MW239215_Riboviria_sp.':0.446212)[&label=42]:0.053313,(('MT138164_Solemoviridae_sp.':0.191435,NC_032238_Hubei_sobemo-like_virus_45:0.206203)[&label=100]:0.159977,NC_032213_Hubei_sobemo-like_virus_44:0.221404)[&label=100]:0.441696)[&label=40]:0.043325,'MW239281_Riboviria_sp.':0.895954)[&label=48]:0.017137)[&label=92]:0.055066,((MN661089_Atrato_Sobemo-like_virus_2:0.49481,'MW239471_Riboviria_sp.':0.460305)[&label=95]:0.067371,MN725049_Frankliniella_occidentalis_associated_sobemo-like_virus_1:0.541095)[&label=93]:0.047737)[&label=98]:0.091278,(((((((((((((('MZ375180_Riboviria_sp.':2.0E-6,'MZ375199_Riboviria_sp.':2.0E-6)[&label=100]:0.020017,'MZ375188_Riboviria_sp.':0.007217)[&label=100]:0.04873,'MZ375202_Riboviria_sp.':0.056248)[&label=100]:0.086975,('MW239237_Riboviria_sp.':0.173474,'MW239525_Riboviria_sp.':0.160581)[&label=100]:0.081437)[&label=100]:0.123453,'MW239556_Riboviria_sp.':0.207925)[&label=100]:0.06168,((((OL420727_Ulaatai_Melophagus_solemo-like_virus:0.002908,OL420729_Ulaatai_Melophagus_solemo-like_virus:0.002896)[&label=100]:0.011662,OL420723_Ulaatai_Melophagus_solemo-like_virus:2.0E-6)[&label=97]:0.005775,(OL420725_Ulaatai_Melophagus_solemo-like_virus:0.008955,OL420731_Ulaatai_Melophagus_solemo-like_virus:0.011499)[&label=100]:0.014664)[&label=98]:0.002898,OL420721_Ulaatai_Melophagus_solemo-like_virus:2.0E-6)[&label=100]:0.212119)[&label=100]:0.136683,(KX882856_Hubei_diptera_virus_14:0.001103,NC_033304_Hubei_diptera_virus_14:0.00753)[&label=100]:0.376897)[&label=100]:0.14446,MN627482_Erysiphe_necator_associated_sobemo-like_virus_2:0.649003)[&label=78]:0.084018,('MW239234_Riboviria_sp.':0.431932,OL700125_XiangYun_luteo-sobemo-like_virus_2:0.385378)[&label=100]:0.335642)[&label=61]:0.035049,((('MW239227_Riboviria_sp.':0.216154,'MW239360_Riboviria_sp.':0.131775)[&label=100]:0.155459,MW039375_Soybean_thrips_sobemo-like_virus_10:0.29044)[&label=99]:0.099863,(('MZ375179_Riboviria_sp.':0.01735,'MZ375206_Riboviria_sp.':2.0E-6)[&label=100]:0.213389,NC_032243_Hubei_sobemo-like_virus_42:0.313013)[&label=100]:0.203937)[&label=100]:0.279003)[&label=70]:0.04424,'MW239331_Riboviria_sp.':0.701477)[&label=100]:0.273945,((((MN167478_Mycroft_virus:0.472821,MN167489_Stapleton_virus:0.502062)[&label=100]:0.300629,('MW239469_Riboviria_sp.':0.550928,'MW826520_Solemoviridae_sp.':0.684313)[&label=96]:0.046287)[&label=100]:0.141303,ON684366_Ixodes_ricinus_sobemo-like_virus_1:0.421626)[&label=100]:0.158994,NC_033072_Shuangao_sobemo-like_virus_3:0.938824)[&label=80]:0.035398)[&label=93]:0.036803,(((('MW239328_Riboviria_sp.':0.45311,'MW239436_Riboviria_sp.':0.554675)[&label=93]:0.053384,('MW239386_Riboviria_sp.':0.383466,NC_032173_Hubei_sobemo-like_virus_43:0.383988)[&label=93]:0.11944)[&label=99]:0.161639,('MW239223_Riboviria_sp.':0.094897,'MW239322_Riboviria_sp.':0.136051)[&label=100]:0.323691)[&label=100]:0.150955,'MW239351_Riboviria_sp.':0.68881)[&label=100]:0.269077)[&label=94]:0.060016,(((('MW826522_Solemoviridae_sp.':0.014558,'MZ375204_Riboviria_sp.':0.013919)[&label=100]:0.057352,'MW826516_Solemoviridae_sp.':0.092117)[&label=100]:0.339903,'MW826519_Solemoviridae_sp.':0.424633)[&label=100]:0.315997,'MW826521_Solemoviridae_sp.':0.495416)[&label=100]:0.362061)[&label=89]:0.060562)[&label=38]:0.024328,'MW239542_Riboviria_sp.':0.641045)[&label=100]:0.272724,(((((((((((((((((((((((((Hubei_sobemo_like_virus_41_subsp2_F1381C255F1021:0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1381:0.0):0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1531:0.0):0.0,KX882872_Hubei_sobemo-like_virus_41:0.0):0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1532:0.0):0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1525:0.0):2.0E-6,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1219:2.0E-6)[&label=20]:2.0E-6,(Hubei_sobemo_like_virus_41_subsp2_F1381C255F1222:2.0E-6,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1528:0.005878)[&label=25]:2.0E-6)[&label=18]:2.0E-6,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1223:2.0E-6)[&label=21]:2.0E-6,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1215:2.0E-6)[&label=40]:2.0E-6,((((((Hubei_sobemo_like_virus_41_subsp2_F1381C255F1019:0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1527:0.0):0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1536:0.0):0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1533:0.0):0.0,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1537:0.0):2.0E-6,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1094:2.0E-6)[&label=99]:2.0E-6,NC_032253_Hubei_sobemo-like_virus_41:0.002933)[&label=100]:0.002931)[&label=72]:2.0E-6,Hubei_sobemo_like_virus_41_subsp2_F1381C255F1383:0.002949)[&label=99]:0.062183,Hubei_sobemo_like_virus_41_subsp1_F1020C17F1020:0.051641)[&label=100]:0.131736,((((Culex_luteo_like_virus_F1039C258F1039:2.0E-6,Culex_luteo_like_virus_F1039C258F1563:0.00297)[&label=99]:0.019874,MF176307_Culex_luteo-like_virus:0.016368)[&label=98]:0.009319,MW520388_Culex_impudicus_luteo-like_virus:0.025776)[&label=96]:0.013137,MT568531_Pyongtaek_Culex_luteo-like_virus:0.010217)[&label=100]:0.16274)[&label=100]:0.12553,MK440657_Berrek_virus:0.205018)[&label=99]:0.069812,(((((((((MW434790_Culex_mosquito_virus_6:2.0E-6,MW434802_Culex_mosquito_virus_6:2.0E-6)[&label=36]:2.0E-6,MH188030_Culex_mosquito_virus_6:2.0E-6)[&label=81]:2.0E-6,MW434798_Culex_mosquito_virus_6:0.002949)[&label=90]:2.0E-6,MW434800_Culex_mosquito_virus_6:0.002936)[&label=96]:0.003964,OM817536_Culex_mosquito_virus_6:0.027614)[&label=100]:0.149507,OM743945_Pine_Lake_virus:0.094691)[&label=100]:0.06566,(Broome_luteo_like_virus_1_F1261C1F1261:0.030928,MT498822_Broome_luteo-like_virus_1:0.054931)[&label=100]:0.086335)[&label=100]:0.195493,(MN661095_Atrato_Sobemo-like_virus_4:0.114301,MT568532_Pyongtaek_Culex_Solemovirus:0.275324)[&label=91]:0.035886)[&label=99]:0.081203,(MN661091_Atrato_Sobemo-like_virus_3:2.0E-6,MN661093_Atrato_Sobemo-like_virus_3:0.003052)[&label=100]:0.230029)[&label=100]:0.103906)[&label=100]:0.096803,((((((((((((((Humaita_Tubiacanga_virus_F1058C249F1002:0.0,MN053809_Humaita-Tubiacanga_virus:0.0):0.0,MN053819_Humaita-Tubiacanga_virus:0.0):0.0,Humaita_Tubiacanga_virus_F1058C249F1086:0.0):0.0,Humaita_Tubiacanga_virus_F1058C249F1063:0.0):0.0,MN053817_Humaita-Tubiacanga_virus:0.0):2.0E-6,Humaita_Tubiacanga_virus_F1058C249F1062:2.0E-6)[&label=95]:2.0E-6,(Humaita_Tubiacanga_virus_F1058C249F1058:0.002865,MN053823_Humaita-Tubiacanga_virus:0.002859)[&label=28]:2.0E-6)[&label=31]:2.0E-6,MW650676_Humaita-Tubiacanga_virus:0.002858)[&label=35]:0.002861,MW773212_Humaita-Tubiacanga_virus:2.0E-6)[&label=66]:2.0E-6,Humaita_Tubiacanga_virus_F1058C249F1060:0.002856)[&label=37]:2.0E-6,((Humaita_Tubiacanga_virus_F1058C249F1001:0.0,Humaita_Tubiacanga_virus_F1058C249F1335:0.0):2.0E-6,Humaita_Tubiacanga_virus_F1058C249F1067:2.0E-6)[&label=39]:2.0E-6)[&label=31]:2.0E-6,Humaita_Tubiacanga_virus_F1058C249F1503:0.00287)[&label=42]:2.0E-6,Humaita_Tubiacanga_virus_F1058C249F1336:0.002851)[&label=72]:0.002851,Humaita_Tubiacanga_virus_F1058C249F1065:2.0E-6)[&label=100]:0.303675)[&label=100]:0.07798,('MW199221_Virus_sp.':0.175635,'MW199223_Virus_sp.':0.111607)[&label=100]:0.196356)[&label=100]:0.107807,(('MW239244_Riboviria_sp.':0.09544,MZ443605_Leuven_Luteo-like_virus_1:0.126781)[&label=100]:0.381154,'MW239226_Riboviria_sp.':0.42663)[&label=97]:0.092133)[&label=83]:0.041333,((MN831442_Cycas_revoluta_sobemo-like_virus:2.0E-6,MN831444_Teucrium_fruticans_sobemo-like_virus:2.0E-6)[&label=100]:0.34101,'MW239188_Riboviria_sp.':0.328448)[&label=97]:0.114733)[&label=80]:0.024855,('MW199222_Virus_sp.':0.236187,'MZ396017_Solemoviridae_sp.':0.139063)[&label=100]:0.402888)[&label=100]:0.117979,'MZ484471_Solemoviridae_sp.':0.72442)[&label=100]:0.104566,NC_033452_Wuchan_romanomermis_nematode_virus_3:0.432706)[&label=100]:0.127468,NC_032865_Beihai_sobemo-like_virus_27:0.776768)[&label=98]:0.052829,((((('MW239454_Riboviria_sp.':0.038038,'MW239461_Riboviria_sp.':0.028261)[&label=100]:0.827196,'MW239404_Riboviria_sp.':0.539261)[&label=100]:0.178848,('MW239435_Riboviria_sp.':0.400988,NC_032251_Hubei_sobemo-like_virus_40:0.362214)[&label=100]:0.323722)[&label=79]:0.110446,(KX882864_Hubei_sobemo-like_virus_40:0.366524,NC_033089_Shuangao_sobemo-like_virus_2:0.308789)[&label=100]:0.568931)[&label=96]:0.06831,'MW239382_Riboviria_sp.':0.516717)[&label=100]:0.144182)[&label=84]:0.069995,(((MW509554_Laem_Singh_virus:0.006009,NC_033300_Wenzhou_shrimp_virus_9:3.0E-6)[&label=100]:0.552011,MF189984_Barns_Ness_beadlet_anemone_sobemo-like_virus_1:0.383276)[&label=100]:0.17779,(MT025121_Khabarov_virus:0.843611,ON125137_Freshwater_macrophyte_associated_sobeli-like_virus_2:0.653824)[&label=67]:0.083513)[&label=77]:0.070185)[&label=100]:0.15691)[&label=100]:0.437627,NC_032193_Beihai_sobemo-like_virus_26:1.198274)[&label=94]:0.098429,((((((((((((((('MW239473_Riboviria_sp.':0.347322,NC_032234_Hubei_sobemo-like_virus_29:0.266497)[&label=97]:0.074148,MF141064_Norway_luteo-like_virus_1:0.298354)[&label=75]:0.080311,(MT747990_Skokie_sobemo-like_virus:0.503957,NC_032235_Hubei_sobemo-like_virus_30:0.528549)[&label=66]:0.088225)[&label=73]:0.097796,((MF893258_Tama_virus:0.303253,'MW239501_Riboviria_sp.':0.312864)[&label=61]:0.034355,NC_032918_Sanxia_sobemo-like_virus_4:0.27334)[&label=100]:0.181304)[&label=61]:0.070164,((((MN982389_Scaphoideus_titanus_sobemo-like_virus_1:0.231364,'MW826515_Solemoviridae_sp.':0.27284)[&label=100]:0.099836,'MW239182_Riboviria_sp.':0.21561)[&label=100]:0.087034,((MZ556266_Sichuan_mosquito_sobemo-like_virus:0.293731,NC_032178_Hubei_sobemo-like_virus_26:0.34366)[&label=80]:0.043221,'MW239370_Riboviria_sp.':0.420768)[&label=91]:0.069448)[&label=90]:0.065232,'MW826498_Luteoviridae_sp.':0.471331)[&label=100]:0.184012)[&label=28]:0.024134,((((('MW239294_Riboviria_sp.':0.103436,'MW239487_Riboviria_sp.':0.115043)[&label=100]:0.260683,NC_033331_Hubei_diptera_virus_13:0.311714)[&label=100]:0.130762,NC_032246_Hubei_sobemo-like_virus_28:0.264589)[&label=100]:0.119952,NC_032228_Hubei_sobemo-like_virus_27:0.549425)[&label=90]:0.075522,('MW239348_Riboviria_sp.':0.384253,MZ443569_Vespula_vulgaris_luteo-like_virus_1:0.695341)[&label=90]:0.113201)[&label=99]:0.122006)[&label=48]:0.022711,(((((('MW239450_Riboviria_sp.':0.089032,MZ443604_Leuven_Sobemo-like_virus_3:0.03284)[&label=100]:0.185539,NC_032937_Sanxia_sobemo-like_virus_3:0.202861)[&label=99]:0.050342,NC_033303_Hubei_diptera_virus_12:0.345156)[&label=100]:0.190094,(KX882812_Hubei_sobemo-like_virus_21:0.225202,'MW199230_Virus_sp.':0.208769)[&label=100]:0.302821)[&label=100]:0.108312,'MW239434_Riboviria_sp.':0.797621)[&label=94]:0.078967,((((KX882925_Hubei_sobemo-like_virus_18:0.009129,NC_032177_Hubei_sobemo-like_virus_18:3.0E-6)[&label=100]:0.123974,NC_032176_Hubei_sobemo-like_virus_19:0.135057)[&label=100]:0.367632,(('MW199229_Virus_sp.':0.114513,NC_032210_Hubei_sobemo-like_virus_20:0.093237)[&label=100]:0.309985,'MW826501_Luteoviridae_sp.':0.393614)[&label=93]:0.101861)[&label=93]:0.107928,NC_032254_Hubei_sobemo-like_virus_22:0.55768)[&label=52]:0.059025)[&label=98]:0.135426)[&label=58]:0.048292,(((KX882926_Hubei_tetragnatha_maxillosa_virus_6:2.0E-6,NC_032268_Hubei_tetragnatha_maxillosa_virus_6:2.0E-6)[&label=100]:0.392145,NC_032223_Hubei_sobemo-like_virus_31:0.271173)[&label=100]:0.349735,(MN714676_Neohydatothrips_associated_sobemo-like_virus_1:0.211191,NC_032248_Hubei_sobemo-like_virus_25:0.265945)[&label=100]:0.397596)[&label=78]:0.081447)[&label=60]:0.061784,(((('MW239278_Riboviria_sp.':0.280546,'MW239287_Riboviria_sp.':0.254539)[&label=100]:0.254119,'MW239318_Riboviria_sp.':0.856515)[&label=89]:0.160733,(('MW239417_Riboviria_sp.':0.192242,MW314643_Myrmica_rubra_virus_7:0.222246)[&label=100]:0.193139,NC_032227_Hubei_sobemo-like_virus_33:0.276053)[&label=100]:0.227135)[&label=76]:0.077768,(('MW239183_Riboviria_sp.':0.404521,NC_032941_Sanxia_sobemo-like_virus_5:0.447855)[&label=100]:0.090918,'MW239441_Riboviria_sp.':0.637395)[&label=87]:0.059747)[&label=61]:0.05401)[&label=70]:0.066727,(((((MN982391_Scaphoideus_titanus_sobemo-like_virus_2:0.289841,'MW239279_Riboviria_sp.':0.236692)[&label=100]:0.091242,'MW239222_Riboviria_sp.':0.40597)[&label=95]:0.07988,'MW239497_Riboviria_sp.':0.469541)[&label=100]:0.231421,'MW239310_Riboviria_sp.':0.664346)[&label=92]:0.122165,(MN831443_Teucrium_fruticans_sobemo-like_virus:0.343267,NC_032229_Hubei_sobemo-like_virus_24:0.333145)[&label=100]:0.380277)[&label=83]:0.12452)[&label=55]:0.009101,(((('MW239476_Riboviria_sp.':0.228366,MW676137_Hypera_postica_associated_sobemovirus_3:0.250296)[&label=100]:0.28805,MW676135_Hypera_postica_associated_sobemovirus_1:0.481822)[&label=100]:0.332217,NC_032250_Hubei_sobemo-like_virus_23:0.659211)[&label=66]:0.101534,('MW239246_Riboviria_sp.':0.687491,'MW239399_Riboviria_sp.':0.776374)[&label=87]:0.186483)[&label=73]:0.087323)[&label=65]:0.035267,((((((('MZ375178_Riboviria_sp.':0.095368,'MZ375195_Riboviria_sp.':0.129807)[&label=97]:0.027846,MW023867_Soybean_thrips_sobemo-like_virus_5:0.135358)[&label=98]:0.064132,(('MZ375185_Riboviria_sp.':0.034919,'MZ375190_Riboviria_sp.':0.006204)[&label=100]:0.001935,'MZ375184_Riboviria_sp.':0.006235)[&label=100]:0.136711)[&label=75]:0.082002,'MW239495_Riboviria_sp.':0.256254)[&label=100]:0.074341,NC_032237_Hubei_sobemo-like_virus_35:0.334113)[&label=100]:0.36107,NC_032200_Hubei_sobemo-like_virus_34:0.64094)[&label=92]:0.183636,(((KX580896_Sherman_virus:0.423179,NC_032188_Hubei_sobemo-like_virus_36:0.5426)[&label=100]:0.133067,MN167486_Mortimer_virus:0.384658)[&label=100]:0.100219,('MW239338_Riboviria_sp.':0.283989,'MW239479_Riboviria_sp.':0.295828)[&label=100]:0.206057)[&label=100]:0.126621)[&label=87]:0.080601)[&label=75]:0.052785,('MW239457_Riboviria_sp.':0.502438,NC_032187_Hubei_sobemo-like_virus_32:0.566714)[&label=100]:0.106834)[&label=81]:0.109404,'MW239465_Riboviria_sp.':0.752151)[&label=100]:0.405066,(NC_033752_Xingshan_nematode_virus_5:0.3324,Perkeld_virus_F1502C85F1502:0.354142)[&label=100]:0.524329)[&label=76]:0.075413)[&label=80]:0.098445,(NC_032247_Hubei_sobemo-like_virus_38:1.327427,NC_032645_Beihai_shrimp_virus_5:1.143788)[&label=96]:0.299212)[&label=97]:0.1672,(((NC_032197_Hubei_sobemo-like_virus_5:0.955421,NC_033487_Wuhan_heteroptera_virus_2:0.791957)[&label=100]:0.353313,NC_032196_Hubei_sobemo-like_virus_7:1.29284)[&label=98]:0.12123,MT129764_Mlepnos_solemo-like_virus:0.919915)[&label=100]:0.651362)[&label=61]:0.066096,NC_033230_Wenling_sobemo-like_virus_2:1.770755)[&label=100]:0.213977,KX882898_Hubei_myriapoda_virus_9:1.69622)[&label=98]:0.149696,(((((((ON408207_Jilin_luteo-like_virus_2:0.0,ON408211_Jilin_luteo-like_virus_2:0.0):2.0E-6,ON408208_Jilin_luteo-like_virus_2:2.0E-6)[&label=54]:2.0E-6,(MT316412_Jilin_luteo-like_virus_2:0.003164,ON408206_Jilin_luteo-like_virus_2:0.003125)[&label=48]:2.0E-6)[&label=59]:2.0E-6,ON408210_Jilin_luteo-like_virus_2:0.006239)[&label=100]:0.037681,MF141067_Norway_luteo-like_virus_2:0.037941)[&label=100]:0.10735,KM048319_Ixodes_scapularis_associated_virus_2:0.21267)[&label=100]:0.094349,MK026567_Store_beach_virus:0.114832)[&label=100]:0.378703)[&label=97]:0.131977,(((((ON408196_Ixodes_scapularis_associated_virus_1:2.0E-6,ON408200_Ixodes_scapularis_associated_virus_1:2.0E-6)[&label=62]:2.0E-6,ON408201_Ixodes_scapularis_associated_virus_1:0.005999)[&label=100]:0.050363,MF141069_Norway_luteo-like_virus_3:0.026526)[&label=98]:0.045607,LC094964_Ixodes_scapularis_associated_virus_1:0.066358)[&label=100]:0.186584,(((ON408203_Xinjiang_tick_associated_virus_1:2.0E-6,ON408205_Xinjiang_tick_associated_virus_1:0.012583)[&label=90]:0.003098,ON408202_Xinjiang_tick_associated_virus_1:2.0E-6)[&label=90]:0.003096,ON408204_Xinjiang_tick_associated_virus_1:2.0E-6)[&label=100]:0.241026)[&label=100]:0.521862)[&label=97]:0.184041,(((((MW039353_Soybean_thrips_sobemo-like_virus_7:0.555656,MW314622_Lasius_neglectus_virus_5:0.527397)[&label=99]:0.092017,KX138223_Baird_Spence_virus:0.634071)[&label=97]:0.082789,NC_033095_Shuangao_insect_virus_9:0.699117)[&label=100]:0.194412,(('MT138161_Solemoviridae_sp.':0.243658,'MW826409_Solemoviridae_sp.':0.382452)[&label=100]:0.085428,('MW239235_Riboviria_sp.':0.574534,'MW239280_Riboviria_sp.':0.337865)[&label=99]:0.079278)[&label=100]:0.60884)[&label=93]:0.159616,(('MW239335_Riboviria_sp.':0.910064,'MW239372_Riboviria_sp.':0.590338)[&label=89]:0.1414,MZ328309_Rhodnius_prolixus_virus_6:0.938228)[&label=98]:0.236078)[&label=66]:0.059735)[&label=60]:0.063587,('MW826499_Luteoviridae_sp.':0.476893,NC_033279_Sanxia_water_strider_virus_10:0.485807)[&label=100]:0.182399)[&label=61]:0.081805,(((((((((((((((((((((((((Peninsere_virus_F1127C300F1127:0.0,Pirounced_virus_F1032C17F1127:0.0):0.0,Peninsere_virus_F1127C300F1156:0.0):2.0E-6,Peninsere_virus_F1127C300F1132:2.0E-6)[&label=64]:2.0E-6,Peninsere_virus_F1127C300F1450:0.002981)[&label=99]:0.002998,((MW030476_Hubei_mosquito_virus_2:0.004062,MW030482_Hubei_mosquito_virus_2:2.0E-6)[&label=99]:2.0E-6,KX882764_Hubei_mosquito_virus_2:2.0E-6)[&label=79]:2.0E-6)[&label=99]:0.002989,((((((MW030470_Hubei_mosquito_virus_2:0.024793,MW030484_Hubei_mosquito_virus_2:2.0E-6)[&label=36]:2.0E-6,MW030486_Hubei_mosquito_virus_2:0.011548)[&label=65]:2.0E-6,MW030478_Hubei_mosquito_virus_2:2.0E-6)[&label=59]:1.85E-4,MW030488_Hubei_mosquito_virus_2:2.0E-6)[&label=90]:0.006007,MW030480_Hubei_mosquito_virus_2:2.0E-6)[&label=62]:2.0E-6,MW030472_Hubei_mosquito_virus_2:2.0E-6)[&label=70]:2.0E-6)[&label=94]:0.005502,((((((((((Peninsere_virus_F1127C300F1056:0.0,Pirounced_virus_F1032C17F1316:0.0):0.0,Pirounced_virus_F1032C17F1056:0.0):0.0,Pirounced_virus_F1032C17F1585:0.0):0.0,Pirounced_virus_F1032C17F1271:0.0):0.0,Pirounced_virus_F1032C17F1305:0.0):2.0E-6,Pirounced_virus_F1032C17F1032:2.0E-6)[&label=35]:2.0E-6,(Peninsere_virus_F1127C300F1032:2.0E-6,Pirounced_virus_F1032C17F1266:2.0E-6)[&label=86]:2.0E-6)[&label=49]:2.0E-6,Pirounced_virus_F1032C17F1034:2.0E-6)[&label=98]:0.002983,(((Peninsere_virus_F1127C300F1461:0.0,Pirounced_virus_F1032C17F1607:0.0):0.0,Pirounced_virus_F1032C17F1604:0.0):2.0E-6,Pirounced_virus_F1032C17F1461:2.0E-6)[&label=60]:2.0E-6)[&label=54]:2.0E-6,Pirounced_virus_F1032C17F1325:0.002987)[&label=97]:0.004811)[&label=93]:0.002871,LC513833_Culex_inatomii_luteo-like_virus:0.014693)[&label=100]:0.044374,((((MW434875_Marma_virus:2.0E-6,MW434902_Marma_virus:0.011326)[&label=76]:2.0E-6,MW434863_Marma_virus:2.0E-6)[&label=48]:2.0E-6,MW434872_Marma_virus:0.003127)[&label=98]:0.003129,MK440646_Marma_virus:2.0E-6)[&label=98]:0.014559)[&label=100]:0.018797,NC_033305_Hubei_mosquito_virus_2:0.049552)[&label=98]:0.023902,MT361063_Kisumu_mosquito_virus:0.053296)[&label=100]:0.033851,((((((((((((((Guangzhou_sobemo_like_virus_F1517C31F1016:0.0,Guangzhou_sobemo_like_virus_F1517C31F1517:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1083:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1351:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1078:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1339:0.0):2.0E-6,Guangzhou_sobemo_like_virus_F1517C31F1071:2.0E-6)[&label=27]:2.0E-6,MT361061_Guangzhou_sobemo-like_virus:2.0E-6)[&label=17]:2.0E-6,Guangzhou_sobemo_like_virus_F1517C31F1171:0.003007)[&label=19]:2.0E-6,((Guangzhou_sobemo_like_virus_F1517C31F1073:2.0E-6,Guangzhou_sobemo_like_virus_F1517C31F1352:2.0E-6)[&label=99]:0.003009,Guangzhou_sobemo_like_virus_F1517C31F1070:0.003012)[&label=31]:2.0E-6)[&label=89]:0.002974,MT361053_Guangzhou_sobemo-like_virus:2.0E-6)[&label=46]:3.6E-5,MT361055_Guangzhou_sobemo-like_virus:2.0E-6)[&label=41]:2.0E-6,((((MT096519_Wenzhou_sobemo-like_virus_4:2.0E-6,NC_033138_Wenzhou_sobemo-like_virus_4:2.0E-6)[&label=100]:0.003004,MZ556263_Sichuan_mosquito_sobemo-like_virus:2.0E-6)[&label=95]:0.002982,MT361059_Guangzhou_sobemo-like_virus:2.0E-6)[&label=44]:2.3E-5,Guangzhou_sobemo_like_virus_F1517C31F1017:2.0E-6)[&label=19]:2.0E-6)[&label=100]:0.078653,(((((MW434812_Guadeloupe_mosquito_virus:2.0E-6,MW434813_Guadeloupe_mosquito_virus:2.0E-6)[&label=56]:2.0E-6,MK285337_Renna_virus:0.003573)[&label=63]:2.0E-6,MT361065_Kwale_mosquito_virus:0.011904)[&label=87]:0.005917,((MN053789_Guadeloupe_mosquito_virus:2.0E-6,MN053791_Guadeloupe_mosquito_virus:2.0E-6)[&label=61]:2.0E-6,MN053787_Guadeloupe_mosquito_virus:0.002964)[&label=56]:2.0E-6)[&label=93]:0.00295,(MN053797_Guadeloupe_mosquito_virus:2.0E-6,MN053803_Guadeloupe_mosquito_virus:0.002947)[&label=68]:2.0E-6)[&label=100]:0.078269)[&label=90]:0.02721,MH703049_Yongsan_sobemo-like_virus_1:0.102934)[&label=30]:0.014711)[&label=30]:0.008008,(((MN661099_Atrato_Sobemo-like_virus_5:2.0E-6,MN661107_Atrato_Sobemo-like_virus_5:0.003211)[&label=100]:0.006459,MN661097_Atrato_Sobemo-like_virus_5:2.0E-6)[&label=100]:0.113119,(MT896210_Aedes_sobemo-like_virus:0.116037,MT896211_Aedes_sobemo-like_virus:0.01108)[&label=100]:0.069887)[&label=87]:0.030572)[&label=63]:0.017098,(Comfornsto_virus_F1216C3F1183:2.0E-6,Comfornsto_virus_F1216C3F1216:2.0E-6)[&label=100]:0.100539)[&label=94]:0.014576,MW434821_Kellev_virus:0.072599)[&label=90]:0.030309,((((((((Colokingly_virus_F1527C217F1019:0.0,Colokingly_virus_F1527C217F1100:0.0):0.0,Colokingly_virus_F1527C217F1382:0.0):0.0,Colokingly_virus_F1527C217F1527:0.0):0.0,Colokingly_virus_F1527C217F1534:0.0):0.0,Colokingly_virus_F1527C217F1094:0.0):2.0E-6,Colokingly_virus_F1527C217F1021:2.0E-6)[&label=81]:2.0E-6,(Colokingly_virus_F1527C217F1211:2.0E-6,Colokingly_virus_F1527C217F1381:2.0E-6)[&label=72]:2.0E-6)[&label=60]:2.0E-6,Colokingly_virus_F1527C217F1096:0.003008)[&label=100]:0.076837)[&label=98]:0.04442,((MW310331_Zeugodacus_cucurbitae_sobemovirus_isolate_Bc:0.037873,MW310351_Zeugodacus_cucurbitae_sobemovirus:0.047122)[&label=100]:0.055745,'MW199227_Virus_sp.':0.070161)[&label=100]:0.067529)[&label=97]:0.018411,MZ443571_Vespula_vulgaris_Sobemo-like_virus_1:0.131102)[&label=99]:0.053914,'MW239414_Riboviria_sp.':0.419311)[&label=100]:0.087217,'MW239377_Riboviria_sp.':0.391616)[&label=98]:0.070525,'MT138162_Solemoviridae_sp.':0.238856)[&label=81]:0.043685,((MK026570_Blue_fish_point_virus:0.225759,'MZ375201_Riboviria_sp.':0.279294)[&label=100]:0.22919,('MW239512_Riboviria_sp.':0.009531,'MZ375164_Riboviria_sp.':0.019543)[&label=100]:0.268737)[&label=100]:0.083629)[&label=98]:0.086752,MZ443630_Nelson_Sobemo-like_virus_1:0.565433)[&label=81]:0.058039,'MW239270_Riboviria_sp.':0.424529)[&label=99]:0.060892,((((('MW239353_Riboviria_sp.':0.358682,NC_032184_Hubei_sobemo-like_virus_9:0.287943)[&label=88]:0.078501,'MW239337_Riboviria_sp.':0.514758)[&label=76]:0.048701,(MW039355_Soybean_thrips_sobemo-like_virus_9:0.337425,NC_032199_Hubei_sobemo-like_virus_10:0.357961)[&label=61]:0.042192)[&label=100]:0.201219,('MW239384_Riboviria_sp.':0.642966,NC_032236_Hubei_sobemo-like_virus_8:0.406723)[&label=100]:0.072764)[&label=81]:0.060418,((MN661101_Atrato_Sobemo-like_virus_6:0.312977,MW251326_Tartas_insect-associated_virus:0.382746)[&label=100]:0.250763,MN551127_Plasmopara_viticola_lesion_associated_sobemo-like_1:0.367571)[&label=84]:0.099033)[&label=94]:0.079039)[&label=96]:0.162764)[&label=94]:0.136896,('MW826500_Luteoviridae_sp.':0.585327,MZ443594_Leuven_Sobemo-like_virus_1:0.464339)[&label=100]:0.399727)[&label=91]:0.145983,((('MW239527_Riboviria_sp.':0.177012,'MW826518_Solemoviridae_sp.':0.11315)[&label=100]:0.286459,'MW826410_Solemoviridae_sp.':0.435831)[&label=100]:0.215025,(MF893259_Teise_virus:0.326076,MT129762_Jeffords_solemo-like_virus:0.45145)[&label=100]:0.629315)[&label=91]:0.124905)[&label=86]:0.125788,(('MW239402_Riboviria_sp.':0.602677,NC_032930_Sanxia_sobemo-like_virus_2:0.651581)[&label=100]:0.301101,'MW239361_Riboviria_sp.':0.722725)[&label=99]:0.168475)[&label=99]:0.122586,(((MT129761_Rosadiaz_solemo-like_virus:0.068384,'MW826517_Solemoviridae_sp.':0.019285)[&label=100]:0.446927,('MW239530_Riboviria_sp.':0.436706,NC_032240_Hubei_sobemo-like_virus_13:0.358803)[&label=100]:0.102563)[&label=100]:0.14005,'MW239228_Riboviria_sp.':0.479266)[&label=100]:0.226275)[&label=100]:0.148628,NC_032923_Sanxia_sobemo-like_virus_1:1.071546)[&label=99]:0.16272,MZ443576_Vespula_vulgaris_Luteo-like_virus_2:0.671752)[&label=100]:0.544831,MW434129_Culex-associated_Luteo-like_virus:2.0E-6)[&label=56]:0.006207,(Culex_associated_Luteo_like_virus_F1042C4F1042:0.003127,'MW317137_Luteoviridae_sp.':0.025332)[&label=47]:0.006201)[&label=70]:3.0E-6,(MH188016_Culex-associated_Luteo-like_virus:2.0E-6,MW434132_Culex-associated_Luteo-like_virus:0.003106)[&label=57]:2.0E-6)[&label=37]:2.0E-6,MW434130_Culex-associated_Luteo-like_virus:0.003094)[&label=81]:0.0031,MW434131_Culex-associated_Luteo-like_virus:2.0E-6)[&label=82]:0.003103,MW434133_Culex-associated_Luteo-like_virus:2.0E-6)[&label=92]:0.014424,MK440647_Culex_associated_luteo_like_virus:0.017422)[&label=99]:0.033866,((((MT568530_Pyongtaek_Culex_sobemo-like_virus:0.010028,NC_033128_Wenzhou_sobemo-like_virus_3:0.007833)[&label=100]:0.003798,(OL700081_Wenzhou_sobemo-like_virus_3:2.0E-6,OL700082_Wenzhou_sobemo-like_virus_3:0.003079)[&label=100]:0.00308)[&label=100]:0.002249,MT568542_Pyongtaek_Culex_sobemo-like_virus:0.004038)[&label=100]:0.006079,LC512855_Wenzhou_sobemo-like_virus_3:0.003085)[&label=94]:2.0E-6)[&label=98]:0.003073,LC512857_Wenzhou_sobemo-like_virus_3:0.00617)[&label=98]:0.003082,LC512854_Wenzhou_sobemo-like_virus_3:0.003078)[&label=98]:0.003092,LC512856_Wenzhou_sobemo-like_virus_3:2.0E-6)[&label=100];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=80;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=14;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

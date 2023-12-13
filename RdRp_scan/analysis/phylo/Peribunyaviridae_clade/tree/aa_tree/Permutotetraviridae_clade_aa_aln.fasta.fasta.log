@@ -1,0 +1,276 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1067 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade_aa_aln.fasta.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA
+Seed:    148210 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb 28 14:51:06 2023
+Kernel:  AVX+FMA - auto-detect threads (47 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade_aa_aln.fasta.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 137 sequences with 768 columns, 765 distinct patterns
+718 parsimony-informative, 20 singleton sites, 30 constant sites
+                                                              Gap/Ambiguity  Composition  p-value
+   1  AF461742_Euprosterna_elaeasa_virus                              4.95%    passed     37.68%
+   2  GQ342964_Drosophila_melanogaster_tetravirus_SW-2009a            7.81%    passed     89.44%
+   3  KP714070_Newfield_virus                                         1.69%    passed     40.12%
+   4  KP969908_Drosophila_A_virus                                     3.91%    passed     99.77%
+   5  KP969909_Drosophila_A_virus                                     0.00%    passed     96.33%
+   6  KP969910_Drosophila_A_virus                                     5.08%    passed     96.70%
+   7  KP969911_Drosophila_A_virus                                     0.13%    passed     95.83%
+   8  KP969912_Drosophila_A_virus                                     0.00%    passed     96.33%
+   9  KP969914_Drosophila_A_virus                                     0.91%    passed     96.85%
+  10  KP969915_Drosophila_A_virus                                     0.00%    passed     96.92%
+  11  KP969916_Drosophila_A_virus                                     0.13%    passed     96.26%
+  12  KP969923_Drosophila_A_virus                                     7.94%    passed     72.71%
+  13  KP969926_Drosophila_A_virus                                     1.69%    passed     96.49%
+  14  KP969927_Drosophila_A_virus                                     3.52%    passed     99.83%
+  15  KP969928_Drosophila_A_virus                                     2.99%    passed     90.88%
+  16  KP969929_Drosophila_A_virus                                     1.69%    passed     97.60%
+  17  KP969930_Drosophila_A_virus                                     0.00%    passed     97.53%
+  18  KP969939_Drosophila_A_virus                                     0.00%    passed     97.67%
+  19  KP969940_Drosophila_A_virus                                     6.25%    passed     99.77%
+  20  KP969944_Drosophila_A_virus                                     7.03%    passed     82.31%
+  21  KP969945_Drosophila_A_virus                                     0.65%    passed     95.16%
+  22  KP969946_Drosophila_A_virus                                     0.00%    passed     96.77%
+  23  KP969947_Drosophila_A_virus                                     0.00%    passed     94.86%
+  24  KP969948_Drosophila_A_virus                                     0.00%    passed     95.01%
+  25  KP969949_Drosophila_A_virus                                     0.00%    passed     96.61%
+  26  KP969950_Drosophila_A_virus                                     0.00%    passed     97.66%
+  27  KX580892_Niehaus_virus                                          5.08%    failed      0.64%
+  28  KX604243_Aphis_glycines_virus_2                                 4.56%    passed     51.23%
+  29  KX883437_Beihai_sphaeromadae_virus_4                           11.72%    failed      1.04%
+  30  KX883439_Shuangao_permutotetra-like_virus_1                    20.83%    passed     35.80%
+  31  KX883440_Hubei_permutotetra-like_virus_11                       0.39%    passed     14.39%
+  32  KX883446_Hubei_permutotetra-like_virus_1                        0.52%    passed     74.60%
+  33  KX883447_Beihai_permutotetra-like_virus_1                      13.15%    passed     10.21%
+  34  KX883448_Hubei_permutotetra-like_virus_1                        0.52%    passed     75.30%
+  35  KX883455_Hubei_permutotetra-like_virus_2                        0.78%    passed     66.92%
+  36  KX883457_Hubei_permutotetra-like_virus_1                       21.74%    passed     46.87%
+  37  LC505019_Culex_permutotetra-like_virus                          2.34%    passed     23.37%
+  38  LC536111_Permutotetraviridae_sp_                                1.56%    passed     30.79%
+  39  MH188027_Culex_Daeseongdong-like_virus                          0.78%    passed     94.67%
+  40  MH384282_Drosophila_A_virus                                     0.00%    passed     97.10%
+  41  MH384290_Drosophila_A_virus                                     0.00%    passed     96.32%
+  42  MH384302_Newfield_virus                                         1.69%    passed     52.92%
+  43  MH384307_Newfield_virus                                         1.69%    passed     62.55%
+  44  MH384369_Drosophila_A_virus                                     0.00%    passed     97.62%
+  45  MN565051_Vespa_velutina_associated_permutotetra-like_virus_1    0.13%    passed     73.52%
+  46  MN565052_Vespa_velutina_associated_permutotetra-like_virus_2    0.13%    passed     96.82%
+  47  MN784079_Smithfield_permutotetra-like_virus                     0.52%    passed     83.38%
+  48  MN784080_Smithfield_permutotetra-like_virus                     0.91%    passed     82.46%
+  49  MN784081_Smithfield_permutotetra-like_virus                    10.68%    passed     71.45%
+  50  MN832441_Viola_philippica_permutotetra_like_virus              18.10%    passed     93.57%
+  51  MN933893_Riboviria_sp_                                          1.95%    passed     85.36%
+  52  MN933895_Riboviria_sp_                                          4.43%    passed     49.47%
+  53  MN933898_Riboviria_sp_                                         30.08%    passed     91.03%
+  54  MN982394_Scaphoideus_titanus_permutotetra-like_virus_1          5.86%    passed      8.78%
+  55  MT138111_Nodaviridae_sp_                                        0.78%    passed     77.99%
+  56  MT138184_Riboviria_sp_                                         16.41%    passed     92.42%
+  57  MT138186_Riboviria_sp_                                          1.30%    passed     91.87%
+  58  MT138189_Riboviria_sp_                                          1.69%    passed     20.08%
+  59  MT138191_Riboviria_sp_                                          1.95%    passed     83.77%
+  60  MT138205_Riboviria_sp_                                          1.95%    passed     85.36%
+  61  MT753154_Sanxia_permutotetra-like_virus_1                       0.78%    passed     96.89%
+  62  MT896207_Aedes_permutotetra-like_virus_1                        2.08%    passed     80.96%
+  63  MW033624_Aphis_glycines_virus_2                                 4.56%    passed     51.23%
+  64  MW239486_Riboviria_sp_                                         22.40%    passed     19.91%
+  65  MW239550_Riboviria_sp_                                         40.10%    passed     94.39%
+  66  MW314616_Lasius_neglectus_permutotetra-like_virus_1             2.34%    passed     90.76%
+  67  MW317140_ssRNA_positive-strand_virus_sp_                       14.45%    passed     64.58%
+  68  MW676133_Hypera_postica_associated_permutotetravirus            1.04%    passed     59.92%
+  69  MZ209769_Guiyang_permutotetra-like_virus_1                      4.04%    passed      5.32%
+  70  MZ209785_Guiyang_cletus_punctiger_permutotetra-like_virus_1     3.26%    passed     31.62%
+  71  MZ209786_Guiyang_permutotetra-like_virus_2                      2.34%    passed     95.03%
+  72  MZ209846_Sanya_permutotetravirus_1                              3.26%    passed     62.73%
+  73  MZ209854_Sanya_permutotetra-like_virus_1                        3.39%    passed     15.19%
+  74  MZ209857_Sanya_permutotetra-like_virus_2                        3.52%    passed     52.60%
+  75  MZ209858_Sanya_permutotetra-like_virus_3                        3.65%    passed     21.78%
+  76  MZ209962_Sanya_permutotetravirus_1                              0.39%    passed     66.47%
+  77  MZ209963_Sanya_permutotetravirus_2                              2.21%    passed     95.61%
+  78  MZ209964_Sanya_permutotetravirus_3                              0.65%    passed     86.01%
+  79  MZ218695_Permutotetraviridae_sp_                                3.91%    passed     96.77%
+  80  MZ218708_Permutotetraviridae_sp_                               16.80%    passed     97.07%
+  81  MZ218709_Permutotetraviridae_sp_                                2.60%    passed     72.43%
+  82  MZ218715_Permutotetraviridae_sp_                               26.82%    failed      0.14%
+  83  MZ218721_Permutotetraviridae_sp_                               66.93%    passed     82.27%
+  84  MZ218722_Permutotetraviridae_sp_                                1.82%    passed     32.92%
+  85  MZ218726_Permutotetraviridae_sp_                                0.78%    passed     63.80%
+  86  MZ218732_Permutotetraviridae_sp_                                3.39%    passed     92.59%
+  87  MZ218737_Permutotetraviridae_sp_                                5.99%    passed     26.03%
+  88  MZ218742_Permutotetraviridae_sp_                                0.39%    passed     76.69%
+  89  MZ218743_Permutotetraviridae_sp_                               19.14%    passed     70.95%
+  90  MZ218757_Permutotetraviridae_sp_                               19.01%    passed     64.28%
+  91  MZ218758_Permutotetraviridae_sp_                               17.84%    passed     13.67%
+  92  MZ328306_Rhodnius_prolixus_virus_3                              1.43%    passed     86.43%
+  93  MZ328307_Rhodnius_prolixus_virus_4                              1.43%    passed     54.04%
+  94  MZ328310_Rhodnius_prolixus_virus_7                              1.43%    passed     44.10%
+  95  MZ375162_Riboviria_sp_                                          2.34%    passed     89.10%
+  96  MZ375189_Riboviria_sp_                                         37.37%    passed     77.84%
+  97  MZ375203_Riboviria_sp_                                         19.40%    passed     91.52%
+  98  NC_003412_Euprosterna_elaeasa_virus                             4.95%    passed     37.68%
+  99  NC_012958_Drosophila_A_virus                                    0.00%    passed     96.82%
+ 100  NC_028381_Aphis_glycines_virus_2                                4.56%    passed     51.23%
+ 101  NC_028489_Daeseongdong_virus_2                                  0.78%    passed     93.81%
+ 102  NC_030845_Egaro_virus                                          11.59%    failed      4.15%
+ 103  NC_033097_Hubei_permutotetra-like_virus_11                      0.39%    passed     14.39%
+ 104  NC_033105_Hubei_permutotetra-like_virus_1                       0.52%    passed     72.47%
+ 105  NC_033114_Hubei_permutotetra-like_virus_6                       1.56%    passed     10.86%
+ 106  NC_033121_Hubei_permutotetra-like_virus_2                       1.43%    passed     71.06%
+ 107  NC_033132_Hubei_permutotetra-like_virus_7                       2.21%    failed      1.33%
+ 108  NC_033140_Hubei_permutotetra-like_virus_4                       4.56%    passed     67.26%
+ 109  NC_033179_Hubei_permutotetra-like_virus_3                       1.30%    passed     93.94%
+ 110  NC_033188_Sanxia_permutotetra-like_virus_1                      0.78%    passed     99.12%
+ 111  NC_033196_Sanxia_water_strider_virus_19                         6.12%    passed     55.86%
+ 112  NC_033216_Hubei_permutotetra-like_virus_8                       2.08%    passed      6.83%
+ 113  NC_033233_Hubei_permutotetra-like_virus_5                       2.21%    passed     11.74%
+ 114  NC_033251_Hubei_permutotetra-like_virus_9                       2.08%    passed      5.95%
+ 115  NC_033470_Wuhan_house_centipede_virus_9                         1.43%    passed     91.43%
+ 116  NC_040540_Sarawak_virus                                         1.56%    passed     17.01%
+ 117  NC_040795_Shinobi_tetravirus                                   11.46%    passed     32.13%
+ 118  NC_043232_Thosea_asigna_virus                                   4.95%    passed     85.96%
+ 119  OL700211_XiangYun_permutotetra-like_virus                      48.57%    passed     43.40%
+ 120  ON955104_Inari_permutotetravirus                                0.52%    passed     96.85%
+ 121  ON955105_Inari_permutotetravirus                                0.52%    passed     98.31%
+ 122  ON955106_Inari_permutotetravirus                                0.52%    passed     98.10%
+ 123  ON955107_Inari_permutotetravirus                                0.52%    passed     98.05%
+ 124  OP264914_Daeseongdong_virus_2                                   0.78%    passed     95.44%
+ 125  OP858841_Sarawak_virus                                         79.43%    passed     36.29%
+ 126  Culex_permutotetra_like_virus_F1052C13C663F1052                 2.21%    passed     28.41%
+ 127  Culex_permutotetra_like_virus_F1052C13C663F1276                 8.59%    passed     23.24%
+ 128  Culex_permutotetra_like_virus_F1052C13C663F1322                 5.73%    passed     26.47%
+ 129  Culex_permutotetra_like_virus_F1052C13C663F1332                 8.59%    passed     38.29%
+ 130  Gretteness_virus_F1052C9F1052                                  31.12%    passed     54.40%
+ 131  Hubei_permutotetra_like_virus_2_F1357C9F1357                    0.39%    passed     80.96%
+ 132  Hubei_permutotetra_like_virus_2_F1357C9F1441                    1.82%    passed     82.78%
+ 133  Sarawak_virus_F1348C1F1006                                      1.56%    passed     19.09%
+ 134  Sarawak_virus_F1348C1F1183                                     25.65%    passed      5.85%
+ 135  Sarawak_virus_F1348C1F1346                                     42.06%    passed     31.98%
+ 136  Sarawak_virus_F1348C1F1348                                      1.56%    passed     28.00%
+ 137  Sarawak_virus_F1348C1F1508                                      1.56%    passed     17.49%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                           6.80%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: NC_003412_Euprosterna_elaeasa_virus is identical to AF461742_Euprosterna_elaeasa_virus but kept for subsequent analysis
+NOTE: KP969912_Drosophila_A_virus is identical to KP969909_Drosophila_A_virus but kept for subsequent analysis
+NOTE: MW033624_Aphis_glycines_virus_2 is identical to KX604243_Aphis_glycines_virus_2 but kept for subsequent analysis
+NOTE: NC_033097_Hubei_permutotetra-like_virus_11 is identical to KX883440_Hubei_permutotetra-like_virus_11 but kept for subsequent analysis
+NOTE: MT138205_Riboviria_sp_ is identical to MN933893_Riboviria_sp_ but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: NC_028381_Aphis_glycines_virus_2 (identical to KX604243_Aphis_glycines_virus_2) is ignored but added at the end
+Alignment was printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade_aa_aln.fasta.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade_aa_aln.fasta.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.092 seconds
+Measuring multi-threading efficiency up to 47 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 48.207 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -156316
+Threads: 2 / Time: 24.951 sec / Speedup: 1.932 / Efficiency: 97% / LogL: -156316
+Threads: 3 / Time: 17.119 sec / Speedup: 2.816 / Efficiency: 94% / LogL: -156316
+Threads: 4 / Time: 13.402 sec / Speedup: 3.597 / Efficiency: 90% / LogL: -156316
+Threads: 5 / Time: 11.249 sec / Speedup: 4.286 / Efficiency: 86% / LogL: -156316
+Threads: 6 / Time: 9.513 sec / Speedup: 5.068 / Efficiency: 84% / LogL: -156316
+Threads: 7 / Time: 8.625 sec / Speedup: 5.590 / Efficiency: 80% / LogL: -156316
+Threads: 8 / Time: 7.715 sec / Speedup: 6.248 / Efficiency: 78% / LogL: -156316
+Threads: 9 / Time: 7.289 sec / Speedup: 6.614 / Efficiency: 73% / LogL: -156316
+Threads: 10 / Time: 6.937 sec / Speedup: 6.950 / Efficiency: 69% / LogL: -156316
+Threads: 11 / Time: 6.516 sec / Speedup: 7.399 / Efficiency: 67% / LogL: -156316
+Threads: 12 / Time: 6.259 sec / Speedup: 7.702 / Efficiency: 64% / LogL: -156316
+Threads: 13 / Time: 5.804 sec / Speedup: 8.306 / Efficiency: 64% / LogL: -156316
+Threads: 14 / Time: 5.578 sec / Speedup: 8.643 / Efficiency: 62% / LogL: -156316
+Threads: 15 / Time: 5.413 sec / Speedup: 8.906 / Efficiency: 59% / LogL: -156316
+Threads: 16 / Time: 5.350 sec / Speedup: 9.010 / Efficiency: 56% / LogL: -156316
+Threads: 17 / Time: 5.169 sec / Speedup: 9.327 / Efficiency: 55% / LogL: -156316
+Threads: 18 / Time: 5.058 sec / Speedup: 9.531 / Efficiency: 53% / LogL: -156316
+Threads: 19 / Time: 5.934 sec / Speedup: 8.123 / Efficiency: 43% / LogL: -156316
+BEST NUMBER OF THREADS: 18
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -73196.017
+Optimal log-likelihood: -73195.815
+Proportion of invariable sites: 0.037
+Gamma shape alpha: 1.323
+Parameters optimization took 1 rounds (0.134 sec)
+Time for fast ML tree search: 1.584 seconds
+
+NOTE: ModelFinder requires 168 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 768) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            76482.498    269 153502.995   153794.682   154752.175
+  2  LG+I          75820.145    270 152180.290   152474.737   153434.113
+  3  LG+G4         73259.378    270 147058.756   147353.203   148312.580
+  4  LG+I+G4       73195.817    271 146933.634   147230.860   148192.101
+  5  LG+R2         73861.978    271 148265.956   148563.182   149524.423
+  6  LG+R3         73325.001    273 147196.002   147498.844   148463.757
+  7  LG+R4         73165.842    275 146881.683   147190.220   148158.725
+  8  LG+R5         73106.588    277 146767.177   147081.487   148053.506
+  9  LG+R6         73097.474    279 146752.948   147073.112   148048.565
+ 10  LG+R7         73096.016    281 146754.033   147080.132   148058.938
+ 21  LG+F+R5       73026.276    296 146644.553   147017.852   148019.115
+ 22  LG+F+R6       73017.828    298 146631.655   147011.621   148015.505
+ 34  WAG+R5        73368.029    277 147290.057   147604.367   148576.387
+ 35  WAG+R6        73365.346    279 147288.693   147608.857   148584.310
+ 47  WAG+F+R5      73341.896    296 147275.792   147649.092   148650.354
+ 48  WAG+F+R6      73339.103    298 147274.206   147654.172   148658.055
+ 60  JTT+R5        74186.191    277 148926.381   149240.691   150212.711
+ 61  JTT+R6        74178.745    279 148915.490   149235.653   150211.107
+ 73  JTT+F+R5      74125.415    296 148842.830   149216.130   150217.392
+ 74  JTT+F+R6      74116.832    298 148829.664   149209.630   150213.514
+ 86  JTTDCMut+R5   74164.256    277 148882.512   149196.822   150168.841
+ 87  JTTDCMut+R6   74156.312    279 148870.623   149190.787   150166.241
+ 99  JTTDCMut+F+R5 74106.425    296 148804.849   149178.148   150179.411
+100  JTTDCMut+F+R6 74097.899    298 148791.797   149171.763   150175.647
+112  DCMut+R5      74573.631    277 149701.262   150015.572   150987.592
+113  DCMut+R6      74563.656    279 149685.312   150005.476   150980.929
+125  DCMut+F+R5    74305.985    296 149203.970   149577.269   150578.532
+126  DCMut+F+R6    74296.329    298 149188.657   149568.623   150572.506
+138  VT+R5         73499.672    277 147553.345   147867.655   148839.675
+139  VT+R6         73496.694    279 147551.387   147871.551   148847.004
+151  VT+F+R5       73452.232    296 147496.465   147869.764   148871.026
+152  VT+F+R6       73449.256    298 147494.512   147874.478   148878.361
+164  PMB+R5        73722.029    277 147998.058   148312.368   149284.388
+165  PMB+R6        73721.191    279 148000.382   148320.546   149296.000
+177  PMB+F+R5      73722.660    296 148037.320   148410.620   149411.882
+178  PMB+F+R6      73722.105    298 148040.209   148420.175   149424.058
+190  Blosum62+R5   73684.213    277 147922.425   148236.736   149208.755
+191  Blosum62+R6   73681.679    279 147921.358   148241.521   149216.975
+203  Blosum62+F+R5 73632.832    296 147857.665   148230.964   149232.226
+204  Blosum62+F+R6 73630.295    298 147856.590   148236.556   149240.439
+216  Dayhoff+R5    74576.148    277 149706.297   150020.607   150992.626
+217  Dayhoff+R6    74565.779    279 149689.559   150009.723   150985.176
+229  Dayhoff+F+R5  74309.008    296 149210.016   149583.315   150584.577
+230  Dayhoff+F+R6  74299.316    298 149194.633   149574.599   150578.482
+242  mtREV+R5      78297.740    277 157149.480   157463.790   158435.809
+243  mtREV+R6      78279.235    279 157116.469   157436.633   158412.087
+255  mtREV+F+R5    75113.229    296 150818.459   151191.758   152193.020
+256  mtREV+F+R6    75093.906    298 150783.811   151163.777   152167.660
+268  mtART+R5      78867.809    277 158289.618   158603.928   159575.948
+269  mtART+R6      78809.138    279 158176.275   158496.439   159471.893
+281  mtART+F+R5    75481.736    296 151555.473   151928.772   152930.035
+282  mtART+F+R6    75443.910    298 151483.820   151863.786   152867.669
+294  mtZOA+R5      76842.527    277 154239.053   154553.364   155525.383
+295  mtZOA+R6      76813.941    279 154185.882   154506.046   155481.499
+307  mtZOA+F+R5    74601.452    296 149794.903   150168.203   151169.465
+308  mtZOA+F+R6    74575.073    298 149746.146   150126.112   151129.995
+320  mtMet+R5      78263.872    277 157081.744   157396.054   158368.074
+321  mtMet+R6      78243.329    279 157044.659   157364.823   158340.276
+333  mtMet+F+R5    75071.971    296 150735.941   151109.240   152110.503
+334  mtMet+F+R6    75051.312    298 150698.625   151078.591   152082.474
+346  mtVer+R5      79164.917    277 158883.834   159198.144   160170.164
+347  mtVer+R6      79136.942    279 158831.883   159152.047   160127.500
+359  mtVer+F+R5    76331.405    296 153254.810   153628.109   154629.372
+360  mtVer+F+R6    76305.842    298 153207.684   153587.649   154591.533
+372  mtInv+R5      78419.531    277 157393.062   157707.372   158679.392
+373  mtInv+R6      78404.490    279 157366.981   157687.145   158662.598
+385  mtInv+F+R5    74417.568    296 149427.136   149800.436   150801.698
+386  mtInv+F+R6    74399.463    298 149394.926   149774.892   150778.776
+398  mtMAM+R5      80286.331    277 161126.661   161440.971   162412.991
+399  mtMAM+R6      80230.752    279 161019.503   161339.667   162315.121
+411  mtMAM+F+R5    77041.452    296 154674.903   155048.202   156049.465

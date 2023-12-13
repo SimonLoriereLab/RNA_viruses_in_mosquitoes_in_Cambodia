@@ -1,0 +1,776 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/cISF_clade/tree/aa_tree/cISF_full_polyprot_aa_aln_v3_NSregion_outg.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 715942
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 147 sequences with 2961 amino-acid sites
+Number of constant sites: 481 (= 16.2445% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 481 (= 16.2445% of all sites)
+Number of parsimony informative sites: 2255
+Number of distinct site patterns: 2658
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R7         -117890.477  236412.953 +        1  236488.726 +        1  238306.830 +        1
+LG+R7           -118214.136  237022.273 - 4.87e-133  237088.743 - 5.1e-131  238802.277 - 2.6e-108
+LG+R8           -118212.065  237022.130 - 5.23e-133  237089.548 - 3.41e-131  238814.121 - 6.97e-111
+LG+R6           -118229.617  237049.234 - 6.81e-139  237114.765 - 1.14e-136  238817.253 - 1.46e-111
+LG+R5           -118258.942  237103.884 - 9.25e-151  237168.483 - 2.47e-148  238859.916 - 7.92e-121
+LG+I+G4         -118288.210  237150.421 - 7.26e-161  237212.266 - 7.68e-158  238870.493 -   4e-123
+LG+R4           -118314.364  237210.728 - 5.82e-174  237274.402 - 2.47e-171  238954.774 -   2e-141
+LG+G4           -118475.196  237522.392 - 1.23e-241  237583.785 - 1.63e-238  239236.471 - 1.35e-202
+LG+R3           -118574.514  237727.029 - 4.49e-286  237789.784 - 3.01e-283  239459.087 - 6.17e-251
+rtREV+F+R7      -118466.901  237565.803 - 4.59e-251  237641.576 - 4.59e-251  239459.680 - 4.59e-251
+JTTDCMut+F+R7   -118498.341  237628.682 - 1.02e-264  237704.455 - 1.02e-264  239522.559 - 1.02e-264
+JTT+F+R7        -118503.020  237638.040 - 9.46e-267  237713.813 - 9.46e-267  239531.917 - 9.46e-267
+WAG+F+R7        -118571.588  237775.176 - 1.57e-296  237850.949 - 1.57e-296  239669.053 - 1.57e-296
+JTT+R7          -118734.393  238062.785 -        0  238129.256 -        0  239842.790 -        0
+JTTDCMut+R7     -118747.981  238089.961 -        0  238156.432 -        0  239869.966 -        0
+VT+F+R7         -118855.679  238343.358 -        0  238419.131 -        0  240237.235 -        0
+WAG+R7          -119024.588  238643.176 -        0  238709.647 -        0  240423.181 -        0
+mtInv+F+R7      -118956.146  238544.293 -        0  238620.066 -        0  240438.170 -        0
+cpREV+F+R7      -119023.087  238678.175 -        0  238753.948 -        0  240572.052 -        0
+VT+R7           -119181.309  238956.618 -        0  239023.089 -        0  240736.623 -        0
+mtZOA+F+R7      -119207.463  239046.926 -        0  239122.699 -        0  240940.803 -        0
+Dayhoff+F+R7    -119314.875  239261.749 -        0  239337.522 -        0  241155.627 -        0
+DCMut+F+R7      -119324.139  239280.278 -        0  239356.051 -        0  241174.155 -        0
+FLU+F+R7        -119366.174  239364.349 -        0  239440.122 -        0  241258.226 -        0
+mtMet+F+R7      -119462.799  239557.597 -        0  239633.370 -        0  241451.474 -        0
+cpREV+R7        -119551.871  239697.742 -        0  239764.213 -        0  241477.747 -        0
+LG+R2           -119670.579  239915.157 -        0  239977.002 -        0  241635.229 -        0
+rtREV+R7        -119653.137  239900.274 -        0  239966.745 -        0  241680.279 -        0
+Blosum62+F+R7   -119699.993  240031.985 -        0  240107.758 -        0  241925.863 -        0
+PMB+F+R7        -119795.329  240222.659 -        0  240298.432 -        0  242116.536 -        0
+Blosum62+R7     -119891.694  240377.388 -        0  240443.859 -        0  242157.393 -        0
+PMB+R7          -119900.730  240395.461 -        0  240461.932 -        0  242175.466 -        0
+mtREV+F+R7      -119863.841  240359.683 -        0  240435.456 -        0  242253.560 -        0
+HIVb+F+R7       -120040.068  240712.135 -        0  240787.908 -        0  242606.012 -        0
+FLU+R7          -120228.653  241051.305 -        0  241117.776 -        0  242831.310 -        0
+Dayhoff+R7      -120279.004  241152.009 -        0  241218.479 -        0  242932.013 -        0
+DCMut+R7        -120288.921  241171.843 -        0  241238.314 -        0  242951.848 -        0
+HIVb+R7         -120721.801  242037.602 -        0  242104.073 -        0  243817.607 -        0
+mtART+F+R7      -120686.777  242005.554 -        0  242081.327 -        0  243899.431 -        0
+mtVer+F+R7      -120951.478  242534.956 -        0  242610.729 -        0  244428.833 -        0
+mtZOA+R7        -121450.707  243495.414 -        0  243561.885 -        0  245275.419 -        0
+LG+I            -122028.776  244629.551 -        0  244690.944 -        0  246343.630 -        0
+mtMAM+F+R7      -121978.821  244589.642 -        0  244665.415 -        0  246483.519 -        0
+mtMet+R7        -123094.555  246783.109 -        0  246849.580 -        0  248563.114 -        0
+HIVw+F+R7       -123221.597  247075.194 -        0  247150.967 -        0  248969.071 -        0
+mtREV+R7        -123754.528  248103.056 -        0  248169.527 -        0  249883.061 -        0
+mtInv+R7        -123770.927  248135.854 -        0  248202.325 -        0  249915.859 -        0
+mtART+R7        -124284.068  249162.137 -        0  249228.607 -        0  250942.141 -        0
+mtVer+R7        -124445.538  249485.076 -        0  249551.547 -        0  251265.081 -        0
+LG              -125167.068  250904.137 -        0  250965.079 -        0  252612.222 -        0
+HIVw+R7         -125474.916  251543.833 -        0  251610.303 -        0  253323.837 -        0
+mtMAM+R7        -125942.705  252479.410 -        0  252545.881 -        0  254259.415 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R7
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0713
+  pi(R) = 0.0609
+  pi(N) = 0.0359
+  pi(D) = 0.0488
+  pi(C) = 0.0186
+  pi(Q) = 0.0297
+  pi(E) = 0.0511
+  pi(G) = 0.0762
+  pi(H) = 0.0248
+  pi(I) = 0.0533
+  pi(L) = 0.0889
+  pi(K) = 0.0453
+  pi(M) = 0.0308
+  pi(F) = 0.0440
+  pi(P) = 0.0444
+  pi(S) = 0.0674
+  pi(T) = 0.0625
+  pi(W) = 0.0245
+  pi(Y) = 0.0319
+  pi(V) = 0.0898
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.1694,0.0213) (0.0482,0.2139) (0.0822,0.2139) (0.1762,0.5272) (0.3024,1.0792) (0.1801,2.1338) (0.0416,3.9655)
+
+ Category  Relative_rate  Proportion
+  1         0.0213         0.1694
+  2         0.2139         0.0482
+  3         0.2139         0.0822
+  4         0.5272         0.1762
+  5         1.0792         0.3024
+  6         2.1338         0.1801
+  7         3.9655         0.0416
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -117875.3905 (s.e. 1515.1530)
+Unconstrained log-likelihood (without tree): -22937.5120
+Number of free parameters (#branches + #model parameters): 316
+Akaike information criterion (AIC) score: 236382.7811
+Corrected Akaike information criterion (AICc) score: 236458.5542
+Bayesian information criterion (BIC) score: 238276.6583
+
+Total tree length (sum of branch lengths): 16.3024
+Sum of internal branch lengths: 9.8160 (60.2122% of tree length)
+
+WARNING: 11 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'LC540441_Tabanus_rufidens_flavivirus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                        +--Quang_Binh_virus_F1449C1F1466
+                                                     +**| (90)
+                                                     |  |  +--Quang_Binh_virus_F1449C1F1110
+                                                     |  +--| (100)
+                                                     |     +--Quang_Binh_virus_F1449C1F1108
+                                                  +--| (100)
+                                                  |  |  +--Quang_Binh_virus_F1449C1F1449
+                                                  |  +--| (61)
+                                                  |     |  +--NC_012671_Quang_Binh_virus
+                                                  |     +--| (99)
+                                                  |        +--MH827523_Quang_Binh_virus
+                                               +--| (100)
+                                               |  |  +--MW452275_Quang_Binh_virus
+                                               |  +--| (100)
+                                               |     |     +--MW246771_Quang_Binh_virus
+                                               |     |  +**| (38)
+                                               |     |  |  +--MG719525_Quang_Binh_virus
+                                               |     +--| (87)
+                                               |        +--MH827524_Quang_Binh_virus
+                                            +--| (100)
+                                            |  |  +--NC_021069_Mosquito_flavivirus
+                                            |  +--| (100)
+                                            |     +--MZ821064_Mosquito_flavivirus
+                                         +--| (100)
+                                         |  +--Quang_Binh_virus_F1407C2F1407
+                                    +----| (100)
+                                    |    |  +--LC513840_Mosquito_flavivirus
+                                    |    +--| (100)
+                                    |       +--AB981186_Quang_Binh_virus
+                                 +--| (100)
+                                 |  |         +--NC_040682_Culex_theileri_flavivirus
+                                 |  |      +--| (100)
+                                 |  |      |  |  +--MH827522_Culex_flavivirus
+                                 |  |      |  +--| (100)
+                                 |  |      |     |  +--MF582366_Culex_flavivirus
+                                 |  |      |     +--| (100)
+                                 |  |      |        +**MF582365_Culex_flavivirus
+                                 |  |  +---| (100)
+                                 |  |  |   |        +--KX652378_Culex_theileri_flavivirus
+                                 |  |  |   |     +--| (96)
+                                 |  |  |   |     |  |  +**KX652377_Culex_theileri_flavivirus
+                                 |  |  |   |     |  +**| (56)
+                                 |  |  |   |     |     +--KX652376_Culex_theileri_flavivirus
+                                 |  |  |   |  +--| (100)
+                                 |  |  |   |  |  +--KX652375_Culex_theileri_flavivirus
+                                 |  |  |   +--| (100)
+                                 |  |  |      |  +--HE574574_Culex_theileri_flavivirus
+                                 |  |  |      +--| (100)
+                                 |  |  |         +--HE574573_Culex_theileri_flavivirus
+                                 |  +--| (100)
+                                 |     +----MZ202252_Tafomo_virus
+                      +----------| (100)
+                      |          |                                         +--NC_008604_Culex_flavivirus
+                      |          |                                      +--| (100)
+                      |          |                                      |  +**AB377213_Culex_flavivirus
+                      |          |                                   +--| (100)
+                      |          |                                   |  |        +**MW434108_Culex_flavivirus
+                      |          |                                   |  |     +**| (61)
+                      |          |                                   |  |     |  |  +**KX924632_Culex_flavivirus
+                      |          |                                   |  |     |  +--| (99)
+                      |          |                                   |  |     |     +**KX657782_Culex_flavivirus
+                      |          |                                   |  |  +--| (99)
+                      |          |                                   |  |  |  +--MW434107_Culex_flavivirus
+                      |          |                                   |  +--| (97)
+                      |          |                                   |     |  +--FJ663034_Culex_flavivirus
+                      |          |                                   |     +--| (97)
+                      |          |                                   |        |     +--AB701775_Culex_flavivirus
+                      |          |                                   |        |  +**| (45)
+                      |          |                                   |        |  |  +--AB701769_Culex_flavivirus
+                      |          |                                   |        +--| (97)
+                      |          |                                   |           |  +**AB701774_Culex_flavivirus
+                      |          |                                   |           +**| (66)
+                      |          |                                   |              +**AB701770_Culex_flavivirus
+                      |          |                                +--| (66)
+                      |          |                                |  +--KX924633_Culex_flavivirus
+                      |          |                             +--| (58)
+                      |          |                             |  |              +--MW434109_Culex_flavivirus
+                      |          |                             |  |           +**| (55)
+                      |          |                             |  |           |  +--MH188006_Culex_flavivirus
+                      |          |                             |  |        +**| (84)
+                      |          |                             |  |        |  +--FJ502995_Culex_flavivirus
+                      |          |                             |  |     +--| (99)
+                      |          |                             |  |     |  +--KX512322_Culex_flavivirus
+                      |          |                             |  |  +--| (66)
+                      |          |                             |  |  |  +--LC513839_Culex_flavivirus
+                      |          |                             |  +--| (46)
+                      |          |                             |     |  +**AB701773_Culex_flavivirus
+                      |          |                             |     +--| (100)
+                      |          |                             |        +**AB701771_Culex_flavivirus
+                      |          |                          +**| (33)
+                      |          |                          |  +--AB701776_Culex_flavivirus
+                      |          |                       +--| (59)
+                      |          |                       |  +--AB701772_Culex_flavivirus
+                      |          |                    +--| (98)
+                      |          |                    |  |        +--MW246772_Culex_flavivirus
+                      |          |                    |  |     +--| (100)
+                      |          |                    |  |     |  +--MN318426_Culex_flavivirus
+                      |          |                    |  |  +--| (70)
+                      |          |                    |  |  |  +--JQ308189_Culex_flavivirus
+                      |          |                    |  +--| (52)
+                      |          |                    |     +--JQ308190_Culex_flavivirus
+                      |          |                 +--| (97)
+                      |          |                 |  |  +--JQ518484_Culex_flavivirus
+                      |          |                 |  +--| (98)
+                      |          |                 |     |     +--JQ308187_Culex_flavivirus
+                      |          |                 |     |  +--| (100)
+                      |          |                 |     |  |  +--JQ308186_Culex_flavivirus
+                      |          |                 |     +--| (99)
+                      |          |                 |        +--HQ678513_Culex_flavivirus
+                      |          |              +--| (49)
+                      |          |              |  +--JX897904_Culex_flavivirus
+                      |          |           +--| (38)
+                      |          |           |  |  +--MN294938_Culex_flavivirus
+                      |          |           |  +--| (88)
+                      |          |           |     |     +--MH719098_Culex_flavivirus
+                      |          |           |     |  +--| (100)
+                      |          |           |     |  |  +**EU879060_Culex_flavivirus
+                      |          |           |     +--| (95)
+                      |          |           |        |     +--LC504568_Culex_flavivirus
+                      |          |           |        |  +--| (98)
+                      |          |           |        |  |  |  +--KY349933_Culex_flavivirus
+                      |          |           |        |  |  +--| (94)
+                      |          |           |        |  |     |  +--KU726615_Culex_flavivirus
+                      |          |           |        |  |     +--| (95)
+                      |          |           |        |  |        +--KT726939_Culex_flavivirus
+                      |          |           |        +--| (95)
+                      |          |           |           +--GQ165808_Culex_flavivirus
+                      |          |        +--| (38)
+                      |          |        |  +--Culex_flavivirus_F1432C5F1432
+                      |          |  +-----| (100)
+                      |          |  |     +**Culex_flavivirus_F1432C5F1433
+                      |          +--| (96)
+                      |             +-------Accesaty_virus_F1416C39C8C2F1416
+            +---------| (100)
+            |         |               +--Palm_Creek_virus_F1616C2F1616
+            |         |          +----| (100)
+            |         |          |    |     +--Palm_Creek_virus_F1392C1F1551
+            |         |          |    |  +--| (100)
+            |         |          |    |  |  |  +--Palm_Creek_virus_F1392C1F1392
+            |         |          |    |  |  +--| (100)
+            |         |          |    |  |     +--Palm_Creek_virus_F1392C1F1225
+            |         |          |    +--| (100)
+            |         |          |       |  +--NC_033694_Palm_Creek_virus
+            |         |          |       +--| (100)
+            |         |          |          +--KT192550_Palm_Creek_virus
+            |         |  +-------| (100)
+            |         |  |       |     +--KX245154_Cuacua_virus
+            |         |  |       +-----| (100)
+            |         |  |             +--GQ165809_Nakiwogo_virus
+            |         +--| (100)
+            |            |               +--KX879626_Nienokoue_virus
+            |            |            +--| (100)
+            |            |            |  +--KX879625_Nienokoue_virus
+            |            +------------| (100)
+            |                         +**JQ957875_Nienokoue_virus
+       +----| (100)
+       |    |                                    +--MF352617_Haslams_Creek_virus
+       |    |                                 +--| (83)
+       |    |                                 |  +--MF352616_Mac_Peak_virus
+       |    |                              +--| (74)
+       |    |                              |  |   +--KX148547_Anopheles_flavivirus
+       |    |                              |  +---| (100)
+       |    |                              |      +--KX148546_Anopheles_flavivirus
+       |    +------------------------------| (100)
+       |                                   |  +--MF352615_Karumba_virus
+       |                                   +--| (100)
+       |                                      |  +--KY460523_Karumba_virus
+       |                                      +--| (100)
+       |                                         +--KY460522_Karumba_virus
+    +--| (86)
+    |  |                                  +--NC_027819_Mercadeo_virus
+    |  |                             +----| (100)
+    |  |                             |    +--KP688057_Mercadeo_virus
+    |  |                   +---------| (100)
+    |  |                   |         +------KT599442_Culiseta_flavivirus
+    |  |               +---| (100)
+    |  |               |   |                            +--MW434106_Calbertado_virus
+    |  |               |   |                         +--| (100)
+    |  |               |   |                         |  +--KX669682_Calbertado_virus
+    |  |               |   |                      +--| (100)
+    |  |               |   |                      |  +**KX669684_Calbertado_virus
+    |  |               |   |                   +--| (100)
+    |  |               |   |                   |  +--KX669683_Calbertado_virus
+    |  |               |   |                +--| (99)
+    |  |               |   |                |  +--KX669685_Calbertado_virus
+    |  |               |   +----------------| (100)
+    |  |               |                    |        +--KX669689_Calbertado_virus
+    |  |               |                    |     +--| (99)
+    |  |               |                    |     |  +**KX669687_Calbertado_virus
+    |  |               |                    |  +--| (99)
+    |  |               |                    |  |  +--KX669686_Calbertado_virus
+    |  |               |                    +--| (98)
+    |  |               |                       +--KX669688_Calbertado_virus
+    |  +---------------| (100)
+    |                  +------------MH899446_Sabethes_flavivirus
++---| (96)
+|   +---------------------------------LC567153_Mansonia_flavivirus
+|
+|                                     +--NC_034242_Ochlerotatus_caspius_flavivirus
+|                                  +--| (100)
+|                                  |  +--HF548540_Hanko_virus
+|                             +----| (100)
+|                             |    +--NC_030401_Hanko_virus
+|                          +--| (97)
+|                          |  |     +**MZ358857_Aedes_notoscriptus_flavivirus
+|                          |  +-----| (100)
+|                          |        +**MZ358856_Aedes_notoscriptus_flavivirus
+|    +---------------------| (100)
+|    |                     +---NC_027817_Parramatta_River_virus
++----| (100)
+|    |                                +--NC_012932_Aedes_flavivirus
+|    |                             +--| (100)
+|    |                             |  |     +--MT577804_Aedes_flavivirus
+|    |                             |  |  +--| (100)
+|    |                             |  |  |  +--KC181923_Aedes_flavivirus
+|    |                             |  +--| (100)
+|    |                             |     +--MK251047_Aedes_flavivirus
+|    |                          +--| (89)
+|    |                          |  |     +--MT254427_Aedes_flavivirus
+|    |                          |  |  +**| (88)
+|    |                          |  |  |  +--KJ741266_Aedes_flavivirus
+|    |                          |  +--| (93)
+|    |                          |     +--Aedes_flavivirus_F1161C1F1161
+|    |                    +-----| (100)
+|    |                    |     +--LC536088_Aedes_flavivirus
+|    |  +-----------------| (100)
+|    |  |                 |      +--NC_005064_Kamiti_River_virus
+|    |  |                 |  +---| (100)
+|    |  |                 |  |   +**AY149904_Kamiti_River_virus
+|    |  |                 +--| (100)
+|    |  |                    |                 +--MZ972994_Cell_fusing_agent_virus
+|    |  |                    |              +--| (100)
+|    |  |                    |              |  +--LR694073_Cell_fusing_agent_virus
+|    |  |                    |           +--| (88)
+|    |  |                    |           |  +--LR694081_Cell_fusing_agent_virus
+|    |  |                    |        +--| (80)
+|    |  |                    |        |  |        +--MZ972993_Cell_fusing_agent_virus
+|    |  |                    |        |  |     +--| (100)
+|    |  |                    |        |  |     |  +**MZ972992_Cell_fusing_agent_virus
+|    |  |                    |        |  |  +--| (100)
+|    |  |                    |        |  |  |  +--GQ165810_Cell_fusing_agent_virus
+|    |  |                    |        |  +--| (100)
+|    |  |                    |        |     |        +--LR694075_Cell_fusing_agent_virus
+|    |  |                    |        |     |     +--| (100)
+|    |  |                    |        |     |     |  +--KJ476731_Cell_fusing_agent_virus
+|    |  |                    |        |     |  +--| (91)
+|    |  |                    |        |     |  |  |  +--LR694074_Cell_fusing_agent_virus
+|    |  |                    |        |     |  |  +--| (100)
+|    |  |                    |        |     |  |     +--LR596014_Cell_fusing_agent_virus
+|    |  |                    |        |     +--| (91)
+|    |  |                    |        |        +--LR694072_Cell_fusing_agent_virus
+|    |  |                    |     +--| (88)
+|    |  |                    |     |  |  +--LR694076_Cell_fusing_agent_virus
+|    |  |                    |     |  +--| (100)
+|    |  |                    |     |     +--LC496857_Cell_fusing_agent_virus
+|    |  |                    +-----| (100)
+|    |  |                          |     +--LR694080_Cell_fusing_agent_virus
+|    |  |                          |  +--| (100)
+|    |  |                          |  |  +--LR694079_Cell_fusing_agent_virus
+|    |  |                          +--| (97)
+|    |  |                             |           +--LR694078_Cell_fusing_agent_virus
+|    |  |                             |        +**| (97)
+|    |  |                             |        |  |     +--Cell_fusing_agent_virus_F1335C10F1068
+|    |  |                             |        |  |  +--| (74)
+|    |  |                             |        |  |  |  +--Cell_fusing_agent_virus_F1335C10F1065
+|    |  |                             |        |  +--| (72)
+|    |  |                             |        |     +--Cell_fusing_agent_virus_F1335C10F1061
+|    |  |                             |     +--| (99)
+|    |  |                             |     |  +--LR694077_Cell_fusing_agent_virus
+|    |  |                             |  +--| (99)
+|    |  |                             |  |  |  +--Cell_fusing_agent_virus_F1335C10F1084
+|    |  |                             |  |  +--| (100)
+|    |  |                             |  |     +--Cell_fusing_agent_virus_F1335C10F1058
+|    |  |                             +--| (94)
+|    |  |                                |  +--Cell_fusing_agent_virus_F1335C10F1335
+|    |  |                                +--| (93)
+|    |  |                                   +--Cell_fusing_agent_virus_F1335C10F1059
+|    +--| (94)
+|       |         +-----------MN567479_Falli_virus
+|       +---------| (100)
+|                 |  +-------------LC567152_Ochlerotatus_scapularis_flavivirus
+|                 +--| (99)
+|                    |     +----KX907452_Menghai_flavivirus
+|                    +-----| (100)
+|                          +---KU201526_Xishuangbanna_aedes_flavivirus
+|
++-----------------------------------------------------------LC540441_Tabanus_rufidens_flavivirus
+
+Tree in newick format:
+
+(((((((((((((Quang_Binh_virus_F1449C1F1466:0.0020364786,(Quang_Binh_virus_F1449C1F1110:0.0058007159,Quang_Binh_virus_F1449C1F1108:0.0087540164)100:0.0023038870)90:0.0000018894,(Quang_Binh_virus_F1449C1F1449:0.0036119131,(NC_012671_Quang_Binh_virus:0.0031811536,MH827523_Quang_Binh_virus:0.0023895513)99:0.0007960115)61:0.0007877029)100:0.0126814713,(MW452275_Quang_Binh_virus:0.0019745353,((MW246771_Quang_Binh_virus:0.0011951831,MG719525_Quang_Binh_virus:0.0007973278)38:0.0000027296,MH827524_Quang_Binh_virus:0.0019926118)87:0.0004170945)100:0.0130958742)100:0.0228089276,(NC_021069_Mosquito_flavivirus:0.0015000821,MZ821064_Mosquito_flavivirus:0.0008917145)100:0.0328930676)100:0.0300525049,Quang_Binh_virus_F1407C2F1407:0.0649666445)100:0.0395432833,(LC513840_Mosquito_flavivirus:0.0030731329,AB981186_Quang_Binh_virus:0.0028765623)100:0.0579468174)100:0.1792101642,(((NC_040682_Culex_theileri_flavivirus:0.0186211308,(MH827522_Culex_flavivirus:0.0058498763,(MF582366_Culex_flavivirus:0.0020129764,MF582365_Culex_flavivirus:0.0000024323)100:0.0035567197)100:0.0080802668)100:0.0192911786,(((KX652378_Culex_theileri_flavivirus:0.0016212116,(KX652377_Culex_theileri_flavivirus:0.0000027296,KX652376_Culex_theileri_flavivirus:0.0016147812)56:0.0000031501)96:0.0004399417,KX652375_Culex_theileri_flavivirus:0.0003681965)100:0.0042477524,(HE574574_Culex_theileri_flavivirus:0.0052185067,HE574573_Culex_theileri_flavivirus:0.0024773262)100:0.0031676870)100:0.0143800302)100:0.1398387311,MZ202252_Tafomo_virus:0.1596169586)100:0.0783271965)100:0.0528156753,(((((((((((((NC_008604_Culex_flavivirus:0.0019966438,AB377213_Culex_flavivirus:0.0000030593)100:0.0015991766,(((MW434108_Culex_flavivirus:0.0000027443,(KX924632_Culex_flavivirus:0.0000032245,KX657782_Culex_flavivirus:0.0000030232)99:0.0003984444)61:0.0000025877,MW434107_Culex_flavivirus:0.0003983973)99:0.0007985093,(FJ663034_Culex_flavivirus:0.0003986743,((AB701775_Culex_flavivirus:0.0003983754,AB701769_Culex_flavivirus:0.0007974361)45:0.0000027296,(AB701774_Culex_flavivirus:0.0000027296,AB701770_Culex_flavivirus:0.0000027296)66:0.0000029945)97:0.0003984000)97:0.0003986229)97:0.0003987024)100:0.0003978292,KX924633_Culex_flavivirus:0.0040157298)66:0.0012012964,(((((MW434109_Culex_flavivirus:0.0003988180,MH188006_Culex_flavivirus:0.0020006890)55:0.0000027062,FJ502995_Culex_flavivirus:0.0027960517)84:0.0000026556,KX512322_Culex_flavivirus:0.0020021292)99:0.0019993419,LC513839_Culex_flavivirus:0.0040021333)66:0.0011994751,(AB701773_Culex_flavivirus:0.0000027296,AB701771_Culex_flavivirus:0.0000029818)100:0.0015979262)46:0.0003993067)58:0.0003975755,AB701776_Culex_flavivirus:0.0060119852)33:0.0000026879,AB701772_Culex_flavivirus:0.0032027775)59:0.0007983771,(((MW246772_Culex_flavivirus:0.0008278489,MN318426_Culex_flavivirus:0.0027859671)100:0.0035911168,JQ308189_Culex_flavivirus:0.0003974551)70:0.0008002888,JQ308190_Culex_flavivirus:0.0019950935)52:0.0003994724)98:0.0024610646,(JQ518484_Culex_flavivirus:0.0060026222,((JQ308187_Culex_flavivirus:0.0007991161,JQ308186_Culex_flavivirus:0.0019958633)100:0.0003985381,HQ678513_Culex_flavivirus:0.0019988091)99:0.0024258677)98:0.0060529587)97:0.0195176770,JX897904_Culex_flavivirus:0.0065325741)49:0.0015059919,(MN294938_Culex_flavivirus:0.0031943714,((MH719098_Culex_flavivirus:0.0003999960,EU879060_Culex_flavivirus:0.0000032422)100:0.0020067935,((LC504568_Culex_flavivirus:0.0031997655,(KY349933_Culex_flavivirus:0.0003997448,(KU726615_Culex_flavivirus:0.0048320294,KT726939_Culex_flavivirus:0.0008023915)95:0.0003999035)94:0.0004070259)98:0.0012039908,GQ165808_Culex_flavivirus:0.0036043247)95:0.0004072891)95:0.0004249855)88:0.0045512227)38:0.0030881042,Culex_flavivirus_F1432C5F1432:0.0028111100)38:0.0007991823,Culex_flavivirus_F1432C5F1433:0.0000027439)100:0.2119778883,Accesaty_virus_F1416C39C8C2F1416:0.2749390039)96:0.0567840350)100:0.3644514867,(((Palm_Creek_virus_F1616C2F1616:0.0759956281,((Palm_Creek_virus_F1392C1F1551:0.0023693554,(Palm_Creek_virus_F1392C1F1392:0.0020151073,Palm_Creek_virus_F1392C1F1225:0.0008142998)100:0.0012897530)100:0.0423454170,(NC_033694_Palm_Creek_virus:0.0013796227,KT192550_Palm_Creek_virus:0.0026672928)100:0.0738490159)100:0.0273337083)100:0.1744645777,(KX245154_Cuacua_virus:0.0836306841,GQ165809_Nakiwogo_virus:0.0722610371)100:0.2221063413)100:0.2605738861,((KX879626_Nienokoue_virus:0.0036828405,KX879625_Nienokoue_virus:0.0016438263)100:0.0020459263,JQ957875_Nienokoue_virus:0.0000023265)100:0.4211081400)100:0.0988100359)100:0.3413076994,(((MF352617_Haslams_Creek_virus:0.0784659851,MF352616_Mac_Peak_virus:0.1087874422)83:0.0202754496,(KX148547_Anopheles_flavivirus:0.0078750060,KX148546_Anopheles_flavivirus:0.0099559193)100:0.1360058523)74:0.0471703115,(MF352615_Karumba_virus:0.0238213308,(KY460523_Karumba_virus:0.0026232646,KY460522_Karumba_virus:0.0025213096)100:0.0247135904)100:0.0400287457)100:1.0122494220)100:0.1709241034,((((NC_027819_Mercadeo_virus:0.0042953725,KP688057_Mercadeo_virus:0.0011101556)100:0.1845021015,KT599442_Culiseta_flavivirus:0.2339042772)100:0.3464245516,(((((MW434106_Calbertado_virus:0.0019695266,KX669682_Calbertado_virus:0.0023608077)100:0.0011754330,KX669684_Calbertado_virus:0.0000024786)100:0.0004327165,KX669683_Calbertado_virus:0.0007450785)100:0.0047109955,KX669685_Calbertado_virus:0.0036602529)99:0.0090814824,(((KX669689_Calbertado_virus:0.0090846240,KX669687_Calbertado_virus:0.0000012863)99:0.0011902345,KX669686_Calbertado_virus:0.0015524232)99:0.0015956271,KX669688_Calbertado_virus:0.0007770141)98:0.0031478887)100:0.5683652224)100:0.1399922122,MH899446_Sabethes_flavivirus:0.4392462259)100:0.5213428450)86:0.0761906111,LC567153_Mansonia_flavivirus:1.0842219848)96:0.1334579542,(((((NC_034242_Ochlerotatus_caspius_flavivirus:0.0042352654,HF548540_Hanko_virus:0.0076082565)100:0.0118613224,NC_030401_Hanko_virus:0.0094599506)100:0.1738874115,(MZ358857_Aedes_notoscriptus_flavivirus:0.0000027296,MZ358856_Aedes_notoscriptus_flavivirus:0.0000027296)100:0.2147194634)97:0.0734779335,NC_027817_Parramatta_River_virus:0.1524993869)100:0.7263080378,(((((NC_012932_Aedes_flavivirus:0.0036009246,((MT577804_Aedes_flavivirus:0.0008087503,KC181923_Aedes_flavivirus:0.0012124697)100:0.0004821493,MK251047_Aedes_flavivirus:0.0040527552)100:0.0020609827)100:0.0064124311,((MT254427_Aedes_flavivirus:0.0008089863,KJ741266_Aedes_flavivirus:0.0008086748)88:0.0000023517,Aedes_flavivirus_F1161C1F1161:0.0012127157)93:0.0083922963)89:0.0120000720,LC536088_Aedes_flavivirus:0.0171510630)100:0.2161753263,((NC_005064_Kamiti_River_virus:0.0004008697,AY149904_Kamiti_River_virus:0.0000027296)100:0.1468948518,(((((MZ972994_Cell_fusing_agent_virus:0.0032778625,LR694073_Cell_fusing_agent_virus:0.0032252722)100:0.0033172519,LR694081_Cell_fusing_agent_virus:0.0103913342)88:0.0094815077,(((MZ972993_Cell_fusing_agent_virus:0.0004061675,MZ972992_Cell_fusing_agent_virus:0.0000027296)100:0.0021394035,GQ165810_Cell_fusing_agent_virus:0.0014119006)100:0.0046977951,(((LR694075_Cell_fusing_agent_virus:0.0065678656,KJ476731_Cell_fusing_agent_virus:0.0076861899)100:0.0008142049,(LR694074_Cell_fusing_agent_virus:0.0036921090,LR596014_Cell_fusing_agent_virus:0.0003792849)100:0.0106377040)91:0.0004268613,LR694072_Cell_fusing_agent_virus:0.0073571551)91:0.0007565473)100:0.0035587880)80:0.0020010886,(LR694076_Cell_fusing_agent_virus:0.0044507908,LC496857_Cell_fusing_agent_virus:0.0057707779)100:0.0043442149)88:0.0095692130,((LR694080_Cell_fusing_agent_virus:0.0020324627,LR694079_Cell_fusing_agent_virus:0.0049040010)100:0.0025085995,((((LR694078_Cell_fusing_agent_virus:0.0016162568,((Cell_fusing_agent_virus_F1335C10F1068:0.0037465326,Cell_fusing_agent_virus_F1335C10F1065:0.0028334181)74:0.0009274883,Cell_fusing_agent_virus_F1335C10F1061:0.0012135641)72:0.0004017432)97:0.0000027296,LR694077_Cell_fusing_agent_virus:0.0012118829)99:0.0004033919,(Cell_fusing_agent_virus_F1335C10F1084:0.0008085861,Cell_fusing_agent_virus_F1335C10F1058:0.0012127558)100:0.0004043703)99:0.0016051051,(Cell_fusing_agent_virus_F1335C10F1335:0.0031486290,Cell_fusing_agent_virus_F1335C10F1059:0.0037383834)93:0.0011414883)94:0.0009094776)97:0.0052371465)100:0.2177526292)100:0.1215102261)100:0.5745134660,(MN567479_Falli_virus:0.3968980282,(LC567152_Ochlerotatus_scapularis_flavivirus:0.4483995551,(KX907452_Menghai_flavivirus:0.1775809011,KU201526_Xishuangbanna_aedes_flavivirus:0.1385837713)100:0.2223546826)99:0.0815116033)100:0.3347974048)94:0.1235490958)100:0.1782590997,LC540441_Tabanus_rufidens_flavivirus:1.9113742658);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -117883.765594
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                        +--Quang_Binh_virus_F1449C1F1466
+                                                     +--| (90)
+                                                     |  |  +--Quang_Binh_virus_F1449C1F1110
+                                                     |  +--| (100)
+                                                     |     +--Quang_Binh_virus_F1449C1F1108
+                                                  +--| (100)
+                                                  |  |  +--Quang_Binh_virus_F1449C1F1449
+                                                  |  +--| (61)
+                                                  |     |  +--NC_012671_Quang_Binh_virus
+                                                  |     +--| (99)
+                                                  |        +--MH827523_Quang_Binh_virus
+                                               +--| (100)
+                                               |  |  +--MW452275_Quang_Binh_virus
+                                               |  +--| (100)
+                                               |     |  +--MW246771_Quang_Binh_virus
+                                               |     +--| (87)
+                                               |        |  +--MH827524_Quang_Binh_virus
+                                               |        +--| (46)
+                                               |           +--MG719525_Quang_Binh_virus
+                                            +--| (100)
+                                            |  |  +--NC_021069_Mosquito_flavivirus
+                                            |  +--| (100)
+                                            |     +--MZ821064_Mosquito_flavivirus
+                                         +--| (100)
+                                         |  +--Quang_Binh_virus_F1407C2F1407
+                                    +----| (100)
+                                    |    |  +--LC513840_Mosquito_flavivirus
+                                    |    +--| (100)
+                                    |       +--AB981186_Quang_Binh_virus
+                                 +--| (100)
+                                 |  |         +--NC_040682_Culex_theileri_flavivirus
+                                 |  |      +--| (100)
+                                 |  |      |  |  +--MH827522_Culex_flavivirus
+                                 |  |      |  +--| (100)
+                                 |  |      |     |  +--MF582366_Culex_flavivirus
+                                 |  |      |     +--| (100)
+                                 |  |      |        +--MF582365_Culex_flavivirus
+                                 |  |  +---| (100)
+                                 |  |  |   |        +--KX652378_Culex_theileri_flavivirus
+                                 |  |  |   |     +--| (96)
+                                 |  |  |   |     |  |  +--KX652377_Culex_theileri_flavivirus
+                                 |  |  |   |     |  +--| (56)
+                                 |  |  |   |     |     +--KX652376_Culex_theileri_flavivirus
+                                 |  |  |   |  +--| (100)
+                                 |  |  |   |  |  +--KX652375_Culex_theileri_flavivirus
+                                 |  |  |   +--| (100)
+                                 |  |  |      |  +--HE574574_Culex_theileri_flavivirus
+                                 |  |  |      +--| (100)
+                                 |  |  |         +--HE574573_Culex_theileri_flavivirus
+                                 |  +--| (100)
+                                 |     +----MZ202252_Tafomo_virus
+                      +----------| (100)
+                      |          |                                   +--NC_008604_Culex_flavivirus
+                      |          |                                +--| (100)
+                      |          |                                |  +--AB377213_Culex_flavivirus
+                      |          |                             +--| (100)
+                      |          |                             |  |        +--MW434108_Culex_flavivirus
+                      |          |                             |  |     +--| (61)
+                      |          |                             |  |     |  |  +--KX924632_Culex_flavivirus
+                      |          |                             |  |     |  +--| (99)
+                      |          |                             |  |     |     +--KX657782_Culex_flavivirus
+                      |          |                             |  |  +--| (99)
+                      |          |                             |  |  |  +--MW434107_Culex_flavivirus
+                      |          |                             |  +--| (97)
+                      |          |                             |     |  +--FJ663034_Culex_flavivirus
+                      |          |                             |     +--| (97)
+                      |          |                             |        |     +--AB701775_Culex_flavivirus
+                      |          |                             |        |  +--| (45)
+                      |          |                             |        |  |  +--AB701769_Culex_flavivirus
+                      |          |                             |        +--| (97)
+                      |          |                             |           |  +--AB701774_Culex_flavivirus
+                      |          |                             |           +--| (66)
+                      |          |                             |              +--AB701770_Culex_flavivirus
+                      |          |                          +--| (66)
+                      |          |                          |  +--KX924633_Culex_flavivirus
+                      |          |                       +--| (58)
+                      |          |                       |  |              +--MW434109_Culex_flavivirus
+                      |          |                       |  |           +--| (55)
+                      |          |                       |  |           |  +--MH188006_Culex_flavivirus
+                      |          |                       |  |        +--| (84)
+                      |          |                       |  |        |  +--FJ502995_Culex_flavivirus
+                      |          |                       |  |     +--| (99)
+                      |          |                       |  |     |  +--KX512322_Culex_flavivirus
+                      |          |                       |  |  +--| (66)
+                      |          |                       |  |  |  +--LC513839_Culex_flavivirus
+                      |          |                       |  +--| (46)
+                      |          |                       |     |           +**AB701773_Culex_flavivirus
+                      |          |                       |     |        +**|
+                      |          |                       |     |        |  +**AB701767_Culex_flavivirus
+                      |          |                       |     |     +**|
+                      |          |                       |     |     |  +**AB701766_Culex_flavivirus
+                      |          |                       |     |  +--|
+                      |          |                       |     |  |  +**AB701768_Culex_flavivirus
+                      |          |                       |     +--| (100)
+                      |          |                       |        +--AB701771_Culex_flavivirus
+                      |          |                    +--| (33)
+                      |          |                    |  +--AB701776_Culex_flavivirus
+                      |          |                 +--| (59)
+                      |          |                 |  +--AB701772_Culex_flavivirus
+                      |          |              +--| (98)
+                      |          |              |  |        +--MW246772_Culex_flavivirus
+                      |          |              |  |     +--| (100)
+                      |          |              |  |     |  +--MN318426_Culex_flavivirus
+                      |          |              |  |  +--| (70)
+                      |          |              |  |  |  +--JQ308189_Culex_flavivirus
+                      |          |              |  +--| (52)
+                      |          |              |     +--JQ308190_Culex_flavivirus
+                      |          |           +--| (97)
+                      |          |           |  |  +--JQ518484_Culex_flavivirus
+                      |          |           |  +--| (98)
+                      |          |           |     |     +--JQ308187_Culex_flavivirus
+                      |          |           |     |  +--| (100)
+                      |          |           |     |  |  +--JQ308186_Culex_flavivirus
+                      |          |           |     +--| (99)
+                      |          |           |        +--HQ678513_Culex_flavivirus
+                      |          |        +--| (49)
+                      |          |        |  +--JX897904_Culex_flavivirus
+                      |          |  +-----| (100)
+                      |          |  |     |     +--MN294938_Culex_flavivirus
+                      |          |  |     |  +--| (88)
+                      |          |  |     |  |  |     +--MH719098_Culex_flavivirus
+                      |          |  |     |  |  |  +--| (100)
+                      |          |  |     |  |  |  |  +--EU879060_Culex_flavivirus
+                      |          |  |     |  |  +--| (95)
+                      |          |  |     |  |     |     +--LC504568_Culex_flavivirus
+                      |          |  |     |  |     |  +--| (98)
+                      |          |  |     |  |     |  |  |  +--KY349933_Culex_flavivirus
+                      |          |  |     |  |     |  |  +--| (94)
+                      |          |  |     |  |     |  |     |  +--KU726615_Culex_flavivirus
+                      |          |  |     |  |     |  |     +--| (95)
+                      |          |  |     |  |     |  |        +--KT726939_Culex_flavivirus
+                      |          |  |     |  |     +--| (95)
+                      |          |  |     |  |        +--GQ165808_Culex_flavivirus
+                      |          |  |     +--| (49)
+                      |          |  |        |  +--Culex_flavivirus_F1432C5F1433
+                      |          |  |        +--| (62)
+                      |          |  |           +--Culex_flavivirus_F1432C5F1432
+                      |          +--| (96)
+                      |             +-------Accesaty_virus_F1416C39C8C2F1416
+            +---------| (100)
+            |         |               +--Palm_Creek_virus_F1616C2F1616
+            |         |          +----| (100)
+            |         |          |    |     +--Palm_Creek_virus_F1392C1F1551
+            |         |          |    |  +--| (100)
+            |         |          |    |  |  |  +--Palm_Creek_virus_F1392C1F1392
+            |         |          |    |  |  +--| (100)
+            |         |          |    |  |     +--Palm_Creek_virus_F1392C1F1225
+            |         |          |    +--| (100)
+            |         |          |       |  +--NC_033694_Palm_Creek_virus
+            |         |          |       +--| (100)
+            |         |          |          +--KT192550_Palm_Creek_virus
+            |         |  +-------| (100)
+            |         |  |       |     +--KX245154_Cuacua_virus
+            |         |  |       +-----| (100)
+            |         |  |             +--GQ165809_Nakiwogo_virus
+            |         +--| (100)
+            |            |               +--KX879626_Nienokoue_virus
+            |            |            +--| (100)
+            |            |            |  +--KX879625_Nienokoue_virus
+            |            +------------| (100)
+            |                         +--JQ957875_Nienokoue_virus
+       +----| (100)
+       |    |                                    +--MF352617_Haslams_Creek_virus
+       |    |                                 +--| (83)
+       |    |                                 |  +--MF352616_Mac_Peak_virus
+       |    |                              +--| (74)
+       |    |                              |  |   +--KX148547_Anopheles_flavivirus
+       |    |                              |  +---| (100)
+       |    |                              |      +--KX148546_Anopheles_flavivirus
+       |    +------------------------------| (100)
+       |                                   |  +--MF352615_Karumba_virus
+       |                                   +--| (100)
+       |                                      |  +--KY460523_Karumba_virus
+       |                                      +--| (100)
+       |                                         +--KY460522_Karumba_virus
+    +--| (86)
+    |  |                                  +--NC_027819_Mercadeo_virus
+    |  |                             +----| (100)
+    |  |                             |    +--KP688057_Mercadeo_virus
+    |  |                   +---------| (100)
+    |  |                   |         +------KT599442_Culiseta_flavivirus
+    |  |               +---| (100)
+    |  |               |   |                            +--MW434106_Calbertado_virus
+    |  |               |   |                         +--| (100)
+    |  |               |   |                         |  +--KX669682_Calbertado_virus
+    |  |               |   |                      +--| (100)
+    |  |               |   |                      |  +--KX669684_Calbertado_virus
+    |  |               |   |                   +--| (100)
+    |  |               |   |                   |  +--KX669683_Calbertado_virus
+    |  |               |   |                +--| (99)
+    |  |               |   |                |  +--KX669685_Calbertado_virus
+    |  |               |   +----------------| (100)
+    |  |               |                    |        +--KX669689_Calbertado_virus
+    |  |               |                    |     +--| (99)
+    |  |               |                    |     |  +--KX669687_Calbertado_virus
+    |  |               |                    |  +--| (99)
+    |  |               |                    |  |  +--KX669686_Calbertado_virus
+    |  |               |                    +--| (98)
+    |  |               |                       +--KX669688_Calbertado_virus
+    |  +---------------| (100)
+    |                  +------------MH899446_Sabethes_flavivirus
++---| (96)
+|   +---------------------------------LC567153_Mansonia_flavivirus
+|
+|                                     +--NC_034242_Ochlerotatus_caspius_flavivirus
+|                                  +--| (100)
+|                                  |  +--HF548540_Hanko_virus
+|                             +----| (100)
+|                             |    +--NC_030401_Hanko_virus
+|                          +--| (97)
+|                          |  |     +--MZ358857_Aedes_notoscriptus_flavivirus
+|                          |  +-----| (100)
+|                          |        +--MZ358856_Aedes_notoscriptus_flavivirus
+|    +---------------------| (100)
+|    |                     +---NC_027817_Parramatta_River_virus
++----| (100)
+|    |                                +--NC_012932_Aedes_flavivirus
+|    |                             +--| (100)
+|    |                             |  |     +--MT577804_Aedes_flavivirus
+|    |                             |  |  +--| (100)
+|    |                             |  |  |  +--KC181923_Aedes_flavivirus
+|    |                             |  +--| (100)
+|    |                             |     +--MK251047_Aedes_flavivirus
+|    |                          +--| (89)
+|    |                          |  |     +--MT254427_Aedes_flavivirus
+|    |                          |  |  +--| (88)
+|    |                          |  |  |  +--KJ741266_Aedes_flavivirus
+|    |                          |  +--| (93)
+|    |                          |     +--Aedes_flavivirus_F1161C1F1161
+|    |                    +-----| (100)
+|    |                    |     +--LC536088_Aedes_flavivirus
+|    |  +-----------------| (100)
+|    |  |                 |      +--NC_005064_Kamiti_River_virus
+|    |  |                 |  +---| (100)
+|    |  |                 |  |   +--AY149904_Kamiti_River_virus
+|    |  |                 +--| (100)
+|    |  |                    |                 +--MZ972994_Cell_fusing_agent_virus
+|    |  |                    |              +--| (100)
+|    |  |                    |              |  +--LR694073_Cell_fusing_agent_virus
+|    |  |                    |           +--| (88)
+|    |  |                    |           |  +--LR694081_Cell_fusing_agent_virus
+|    |  |                    |        +--| (80)
+|    |  |                    |        |  |        +--MZ972993_Cell_fusing_agent_virus
+|    |  |                    |        |  |     +--| (100)
+|    |  |                    |        |  |     |  +--MZ972992_Cell_fusing_agent_virus
+|    |  |                    |        |  |  +--| (100)
+|    |  |                    |        |  |  |  +--GQ165810_Cell_fusing_agent_virus
+|    |  |                    |        |  +--| (100)
+|    |  |                    |        |     |        +--LR694075_Cell_fusing_agent_virus
+|    |  |                    |        |     |     +--| (100)
+|    |  |                    |        |     |     |  +--KJ476731_Cell_fusing_agent_virus
+|    |  |                    |        |     |  +--| (91)
+|    |  |                    |        |     |  |  |  +--LR694074_Cell_fusing_agent_virus
+|    |  |                    |        |     |  |  +--| (100)
+|    |  |                    |        |     |  |     +--LR596014_Cell_fusing_agent_virus
+|    |  |                    |        |     +--| (91)
+|    |  |                    |        |        +--LR694072_Cell_fusing_agent_virus
+|    |  |                    |     +--| (88)
+|    |  |                    |     |  |  +--LR694076_Cell_fusing_agent_virus
+|    |  |                    |     |  +--| (100)
+|    |  |                    |     |     +--LC496857_Cell_fusing_agent_virus
+|    |  |                    +-----| (100)
+|    |  |                          |     +--LR694080_Cell_fusing_agent_virus
+|    |  |                          |  +--| (100)
+|    |  |                          |  |  +--LR694079_Cell_fusing_agent_virus
+|    |  |                          +--| (97)
+|    |  |                             |           +--LR694078_Cell_fusing_agent_virus
+|    |  |                             |        +--| (97)
+|    |  |                             |        |  |     +--Cell_fusing_agent_virus_F1335C10F1068
+|    |  |                             |        |  |  +--| (74)
+|    |  |                             |        |  |  |  +--Cell_fusing_agent_virus_F1335C10F1065
+|    |  |                             |        |  +--| (72)
+|    |  |                             |        |     +--Cell_fusing_agent_virus_F1335C10F1061
+|    |  |                             |     +--| (99)
+|    |  |                             |     |  +--LR694077_Cell_fusing_agent_virus
+|    |  |                             |  +--| (99)
+|    |  |                             |  |  |  +--Cell_fusing_agent_virus_F1335C10F1084
+|    |  |                             |  |  +--| (100)
+|    |  |                             |  |     +--Cell_fusing_agent_virus_F1335C10F1058
+|    |  |                             +--| (94)
+|    |  |                                |  +--Cell_fusing_agent_virus_F1335C10F1335
+|    |  |                                +--| (93)
+|    |  |                                   +--Cell_fusing_agent_virus_F1335C10F1059
+|    +--| (94)
+|       |         +-----------MN567479_Falli_virus
+|       +---------| (100)
+|                 |  +-------------LC567152_Ochlerotatus_scapularis_flavivirus
+|                 +--| (99)
+|                    |     +----KX907452_Menghai_flavivirus
+|                    +-----| (100)
+|                          +---KU201526_Xishuangbanna_aedes_flavivirus
+|
++-----------------------------------------------------------LC540441_Tabanus_rufidens_flavivirus
+
+
+Consensus tree in newick format: 
+
+(((((((((((((Quang_Binh_virus_F1449C1F1466:0.0020282972,(Quang_Binh_virus_F1449C1F1110:0.0057801369,Quang_Binh_virus_F1449C1F1108:0.0087228715)100:0.0022951351)90:0.0000023182,(Quang_Binh_virus_F1449C1F1449:0.0035991178,(NC_012671_Quang_Binh_virus:0.0031698614,MH827523_Quang_Binh_virus:0.0023810578)99:0.0007914820)61:0.0007835897)100:0.0126372914,(MW452275_Quang_Binh_virus:0.0019667820,(MW246771_Quang_Binh_virus:0.0011897965,(MH827524_Quang_Binh_virus:0.0019846416,MG719525_Quang_Binh_virus:0.0007927781)46:0.0000023158)87:0.0004150672)100:0.0130500531)100:0.0227301642,(NC_021069_Mosquito_flavivirus:0.0014955430,MZ821064_Mosquito_flavivirus:0.0008882333)100:0.0327785808)100:0.0299041096,Quang_Binh_virus_F1407C2F1407:0.0647800157)100:0.0394516810,(LC513840_Mosquito_flavivirus:0.0030297500,AB981186_Quang_Binh_virus:0.0028990959)100:0.0577183446)100:0.1775036512,(((NC_040682_Culex_theileri_flavivirus:0.0185536494,(MH827522_Culex_flavivirus:0.0058287744,(MF582366_Culex_flavivirus:0.0020047581,MF582365_Culex_flavivirus:0.0000023158)100:0.0035439438)100:0.0080513751)100:0.0191702960,(((KX652378_Culex_theileri_flavivirus:0.0016145845,(KX652377_Culex_theileri_flavivirus:0.0000023158,KX652376_Culex_theileri_flavivirus:0.0016081763)56:0.0000023158)96:0.0004375031,KX652375_Culex_theileri_flavivirus:0.0003658853)100:0.0042325032,(HE574574_Culex_theileri_flavivirus:0.0051997438,HE574573_Culex_theileri_flavivirus:0.0024681752)100:0.0031562512)100:0.0143855893)100:0.1392559484,MZ202252_Tafomo_virus:0.1588314587)100:0.0788376689)100:0.0525547857,(((((((((((NC_008604_Culex_flavivirus:0.0019880546,AB377213_Culex_flavivirus:0.0000023158)100:0.0015922961,(((MW434108_Culex_flavivirus:0.0000023158,(KX924632_Culex_flavivirus:0.0000023158,KX657782_Culex_flavivirus:0.0000023158)99:0.0003963968)61:0.0000023158,MW434107_Culex_flavivirus:0.0003963502)99:0.0007947077,(FJ663034_Culex_flavivirus:0.0003966253,((AB701775_Culex_flavivirus:0.0003963276,AB701769_Culex_flavivirus:0.0007936401)45:0.0000023158,(AB701774_Culex_flavivirus:0.0000023158,AB701770_Culex_flavivirus:0.0000023158)66:0.0000023158)97:0.0003963529)97:0.0003965751)97:0.0003966559)100:0.0003957976,KX924633_Culex_flavivirus:0.0040004249)66:0.0011961312,(((((MW434109_Culex_flavivirus:0.0003967715,MH188006_Culex_flavivirus:0.0019920840)55:0.0000023158,FJ502995_Culex_flavivirus:0.0027854069)84:0.0000023158,KX512322_Culex_flavivirus:0.0019935965)99:0.0019909374,LC513839_Culex_flavivirus:0.0039868776)66:0.0011943302,((((AB701773_Culex_flavivirus:0.0000000000,AB701767_Culex_flavivirus:0.0000000000):0.0000000000,AB701766_Culex_flavivirus:0.0000000000):0.0000000000,AB701768_Culex_flavivirus:0.0000000000):0.0000023158,AB701771_Culex_flavivirus:0.0000023158)100:0.0015910534)46:0.0003972581)58:0.0003955399,AB701776_Culex_flavivirus:0.0059890879)33:0.0000023158,AB701772_Culex_flavivirus:0.0031905782)59:0.0007945759,(((MW246772_Culex_flavivirus:0.0008239371,MN318426_Culex_flavivirus:0.0027753951)100:0.0035774895,JQ308189_Culex_flavivirus:0.0003954275)70:0.0007964825,JQ308190_Culex_flavivirus:0.0019865259)52:0.0003974279)98:0.0024732125,(JQ518484_Culex_flavivirus:0.0059794147,((JQ308187_Culex_flavivirus:0.0007953242,JQ308186_Culex_flavivirus:0.0019873140)100:0.0003964975,HQ678513_Culex_flavivirus:0.0019902458)99:0.0024171393)98:0.0060092745)97:0.0193576332,JX897904_Culex_flavivirus:0.0064683883)49:0.0000020767,((MN294938_Culex_flavivirus:0.0031711832,((MH719098_Culex_flavivirus:0.0003979499,EU879060_Culex_flavivirus:0.0000023158)100:0.0019982258,((LC504568_Culex_flavivirus:0.0031876463,(KY349933_Culex_flavivirus:0.0003977026,(KU726615_Culex_flavivirus:0.0048136465,KT726939_Culex_flavivirus:0.0007985792)95:0.0003974839)94:0.0004049457)98:0.0011993862,GQ165808_Culex_flavivirus:0.0035906981)95:0.0004051956)95:0.0004338879)88:0.0046798730,(Culex_flavivirus_F1432C5F1433:0.0007960729,Culex_flavivirus_F1432C5F1432:0.0028005915)62:0.0029197403)49:0.0016153121)100:0.2122424507,Accesaty_virus_F1416C39C8C2F1416:0.2748139605)96:0.0564151977)100:0.3644694787,(((Palm_Creek_virus_F1616C2F1616:0.0757593130,((Palm_Creek_virus_F1392C1F1551:0.0023623590,(Palm_Creek_virus_F1392C1F1392:0.0020073645,Palm_Creek_virus_F1392C1F1225:0.0008103883)100:0.0012849805)100:0.0421728099,(NC_033694_Palm_Creek_virus:0.0013747676,KT192550_Palm_Creek_virus:0.0026576026)100:0.0736245127)100:0.0272378832)100:0.1736660670,(KX245154_Cuacua_virus:0.0834119860,GQ165809_Nakiwogo_virus:0.0719736446)100:0.2214965693)100:0.2593543045,((KX879626_Nienokoue_virus:0.0036700469,KX879625_Nienokoue_virus:0.0016373967)100:0.0020377867,JQ957875_Nienokoue_virus:0.0000026510)100:0.4200716249)100:0.0976598541)100:0.3407729676,(((MF352617_Haslams_Creek_virus:0.0782213014,MF352616_Mac_Peak_virus:0.1084075942)83:0.0202277644,(KX148547_Anopheles_flavivirus:0.0078533709,KX148546_Anopheles_flavivirus:0.0099228787)100:0.1355454069)74:0.0471517752,(MF352615_Karumba_virus:0.0237479438,(KY460523_Karumba_virus:0.0026149187,KY460522_Karumba_virus:0.0025126565)100:0.0246329838)100:0.0397807382)100:1.0077387176)100:0.1708274168,((((NC_027819_Mercadeo_virus:0.0042839961,KP688057_Mercadeo_virus:0.0011062319)100:0.1838565821,KT599442_Culiseta_flavivirus:0.2332490216)100:0.3454645971,(((((MW434106_Calbertado_virus:0.0019627172,KX669682_Calbertado_virus:0.0023526478)100:0.0011717945,KX669684_Calbertado_virus:0.0000023158)100:0.0004305656,KX669683_Calbertado_virus:0.0007419451)100:0.0046963069,KX669685_Calbertado_virus:0.0036489387)99:0.0090418491,(((KX669689_Calbertado_virus:0.0090563513,KX669687_Calbertado_virus:0.0000023158)99:0.0011853904,KX669686_Calbertado_virus:0.0015476176)99:0.0015906977,KX669688_Calbertado_virus:0.0007736153)98:0.0031527592)100:0.5663557993)100:0.1396841957,MH899446_Sabethes_flavivirus:0.4377655159)100:0.5196004936)86:0.0762044106,LC567153_Mansonia_flavivirus:1.0806108415)96:0.1332289592,(((((NC_034242_Ochlerotatus_caspius_flavivirus:0.0042235956,HF548540_Hanko_virus:0.0075857422)100:0.0118217033,NC_030401_Hanko_virus:0.0094416606)100:0.1733382445,(MZ358857_Aedes_notoscriptus_flavivirus:0.0000023158,MZ358856_Aedes_notoscriptus_flavivirus:0.0000023158)100:0.2140698914)97:0.0732500556,NC_027817_Parramatta_River_virus:0.1521007868)100:0.7239887268,(((((NC_012932_Aedes_flavivirus:0.0035909879,((MT577804_Aedes_flavivirus:0.0008054748,KC181923_Aedes_flavivirus:0.0012081139)100:0.0004795608,MK251047_Aedes_flavivirus:0.0040413261)100:0.0020546610)100:0.0063946417,((MT254427_Aedes_flavivirus:0.0008057148,KJ741266_Aedes_flavivirus:0.0008054052)88:0.0000023158,Aedes_flavivirus_F1161C1F1161:0.0012083671)93:0.0083688268)89:0.0119631679,LC536088_Aedes_flavivirus:0.0171117937)100:0.2156361414,((NC_005064_Kamiti_River_virus:0.0003992126,AY149904_Kamiti_River_virus:0.0000023158)100:0.1465520753,(((((MZ972994_Cell_fusing_agent_virus:0.0032683943,LR694073_Cell_fusing_agent_virus:0.0032156594)100:0.0033073659,LR694081_Cell_fusing_agent_virus:0.0103632972)88:0.0094569114,(((MZ972993_Cell_fusing_agent_virus:0.0004036439,MZ972992_Cell_fusing_agent_virus:0.0000023158)100:0.0021330525,GQ165810_Cell_fusing_agent_virus:0.0014082242)100:0.0046854130,(((LR694075_Cell_fusing_agent_virus:0.0065502381,KJ476731_Cell_fusing_agent_virus:0.0076654694)100:0.0008110734,(LR694074_Cell_fusing_agent_virus:0.0036823171,LR596014_Cell_fusing_agent_virus:0.0003769083)100:0.0106092704)91:0.0004246595,LR694072_Cell_fusing_agent_virus:0.0073373706)91:0.0007533065)100:0.0035481353)80:0.0019959120,(LR694076_Cell_fusing_agent_virus:0.0044389255,LC496857_Cell_fusing_agent_virus:0.0057551396)100:0.0043324371)88:0.0095489519,((LR694080_Cell_fusing_agent_virus:0.0020269604,LR694079_Cell_fusing_agent_virus:0.0048907958)100:0.0025011724,((((LR694078_Cell_fusing_agent_virus:0.0016119309,((Cell_fusing_agent_virus_F1335C10F1068:0.0037357739,Cell_fusing_agent_virus_F1335C10F1065:0.0028249653)74:0.0009247778,Cell_fusing_agent_virus_F1335C10F1061:0.0012093715)72:0.0004000358)97:0.0000023158,LR694077_Cell_fusing_agent_virus:0.0012076999)99:0.0004016630,(Cell_fusing_agent_virus_F1335C10F1084:0.0008054084,Cell_fusing_agent_virus_F1335C10F1058:0.0012085690)100:0.0004022487)99:0.0016008771,(Cell_fusing_agent_virus_F1335C10F1335:0.0031393115,Cell_fusing_agent_virus_F1335C10F1059:0.0037284504)93:0.0011370647)94:0.0009068770)97:0.0052209540)100:0.2171077584)100:0.1211609630)100:0.5728741292,(MN567479_Falli_virus:0.3958253947,(LC567152_Ochlerotatus_scapularis_flavivirus:0.4471105580,(KX907452_Menghai_flavivirus:0.1771572978,KU201526_Xishuangbanna_aedes_flavivirus:0.1381239484)100:0.2216913503)99:0.0812702035)100:0.3339431691)94:0.1232649362)100:0.1777335726,LC540441_Tabanus_rufidens_flavivirus:1.9045085179);
+
+TIME STAMP
+----------
+
+Date and time: Tue Nov 22 17:59:13 2022
+Total CPU time used: 38591.23664 seconds (10h:43m:11s)
+Total wall-clock time used: 2308.528132 seconds (0h:38m:28s)
+

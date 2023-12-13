@@ -1,0 +1,477 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v2311_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 149002
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 85 sequences with 472 amino-acid sites
+Number of constant sites: 255 (= 54.0254% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 255 (= 54.0254% of all sites)
+Number of parsimony informative sites: 171
+Number of distinct site patterns: 355
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+R3             -4902.338   10090.675 +    0.777   10216.236 +    0.877   10685.123 +     0.89
+JTTDCMut+R3       -4904.784   10095.569 +   0.0673   10221.130 +   0.0759   10690.017 +    0.077
+JTT+R3            -4905.696   10097.393 -    0.027   10222.954 -   0.0305   10691.841 -   0.0309
+LG+R4             -4902.138   10094.276 +    0.128   10224.153 -   0.0167   10697.038 -   0.0023
+LG+I+G4           -4917.652   10117.303 - 1.28e-06   10238.649 - 1.19e-05   10703.437 - 9.38e-05
+LG+G4             -4921.790   10123.580 - 5.57e-08   10242.854 - 1.45e-06   10705.557 - 3.25e-05
+WAG+R3            -4913.569   10113.139 - 1.03e-05   10238.700 - 1.16e-05   10707.587 - 1.18e-05
+LG+R2             -4925.138   10132.277 - 7.19e-10   10253.622 - 6.68e-09   10718.411 - 5.26e-08
+VT+R3             -4919.758   10125.516 - 2.11e-08   10251.077 - 2.38e-08   10719.964 - 2.42e-08
+cpREV+R3          -4920.371   10126.743 - 1.14e-08   10252.304 - 1.29e-08   10721.191 - 1.31e-08
+rtREV+R3          -4935.483   10156.966 - 3.13e-15   10282.527 - 3.53e-15   10751.414 - 3.58e-15
+Blosum62+R3       -4943.959   10173.918 - 6.53e-19   10299.479 - 7.36e-19   10768.366 - 7.47e-19
+PMB+R3            -4944.930   10175.860 - 2.47e-19   10301.421 - 2.79e-19   10770.308 - 2.83e-19
+JTTDCMut+F+R3     -4898.608   10121.216 - 1.81e-07   10292.129 -  2.9e-17   10794.647 - 1.47e-24
+WAG+F+R3          -4899.020   10122.040 -  1.2e-07   10292.953 - 1.92e-17   10795.471 - 9.72e-25
+JTT+F+R3          -4899.963   10123.927 - 4.68e-08   10294.839 - 7.49e-18   10797.357 - 3.78e-25
+Dayhoff+R3        -4958.458   10202.916 - 3.29e-25   10328.477 - 3.72e-25   10797.364 - 3.77e-25
+DCMut+R3          -4958.520   10203.040 -  3.1e-25   10328.601 - 3.49e-25   10797.488 - 3.54e-25
+LG+F+R3           -4900.934   10125.868 - 1.77e-08   10296.780 - 2.84e-18   10799.298 - 1.43e-25
+HIVb+R3           -4964.429   10214.857 - 8.41e-28   10340.418 - 9.49e-28   10809.305 - 9.63e-28
+cpREV+F+R3        -4908.496   10140.993 - 9.21e-12   10311.906 - 1.47e-21   10814.423 - 7.45e-29
+VT+F+R3           -4915.368   10154.735 - 9.55e-15   10325.648 - 1.53e-24   10828.166 - 7.73e-32
+rtREV+F+R3        -4922.227   10168.454 -    1e-17   10339.367 -  1.6e-27   10841.885 - 8.11e-35
+Dayhoff+F+R3      -4925.643   10175.286 - 3.29e-19   10346.199 - 5.27e-29   10848.717 - 2.66e-36
+DCMut+F+R3        -4925.696   10175.391 - 3.12e-19   10346.304 -    5e-29   10848.822 - 2.53e-36
+FLU+R3            -4984.282   10254.564 - 2.01e-36   10380.125 - 2.26e-36   10849.012 -  2.3e-36
+mtInv+F+R3        -4943.852   10211.705 - 4.07e-27   10382.618 - 6.51e-37   10885.136 - 3.29e-44
+FLU+F+R3          -4943.881   10211.762 - 3.95e-27   10382.675 - 6.33e-37   10885.193 -  3.2e-44
+LG+I              -5015.355   10310.711 - 1.29e-48   10429.985 - 3.37e-47   10892.688 - 7.54e-46
+Blosum62+F+R3     -4947.771   10219.541 - 8.09e-29   10390.454 - 1.29e-38   10892.972 - 6.54e-46
+PMB+F+R3          -4949.290   10222.581 - 1.77e-29   10393.493 - 2.83e-39   10896.011 - 1.43e-46
+HIVb+F+R3         -4961.322   10246.644 - 1.05e-34   10417.557 - 1.69e-44   10920.075 - 8.51e-52
+mtZOA+F+R3        -4963.725   10251.449 - 9.53e-36   10422.362 - 1.53e-45   10924.880 -  7.7e-53
+mtREV+F+R3        -4964.343   10252.685 - 5.14e-36   10423.598 - 8.22e-46   10926.116 - 4.15e-53
+mtMet+F+R3        -4965.211   10254.421 - 2.16e-36   10425.334 - 3.45e-46   10927.852 - 1.74e-53
+mtART+F+R3        -5018.890   10361.780 - 1.05e-59   10532.693 - 1.68e-69   11035.211 - 8.49e-77
+mtVer+F+R3        -5030.685   10385.370 - 7.92e-65   10556.282 - 1.27e-74   11058.800 -  6.4e-82
+mtZOA+R3          -5119.372   10524.744 -  4.3e-95   10650.305 - 4.85e-95   11119.192 - 4.92e-95
+mtMAM+F+R3        -5066.719   10457.437 - 1.78e-80   10628.350 - 2.84e-90   11130.868 - 1.44e-97
+HIVw+F+R3         -5072.958   10469.915 - 3.46e-83   10640.828 - 5.55e-93   11143.346 - 2.8e-100
+HIVw+R3           -5151.888   10589.777 - 3.25e-109   10715.338 - 3.67e-109   11184.225 - 3.72e-109
+mtREV+R3          -5168.090   10622.179 - 2.99e-116   10747.740 - 3.38e-116   11216.627 - 3.42e-116
+mtMet+R3          -5169.408   10624.817 -   8e-117   10750.378 - 9.03e-117   11219.265 - 9.16e-117
+LG                -5205.559   10689.118 - 8.72e-131   10806.346 - 6.34e-129   11266.938 - 4.07e-127
+mtInv+R3          -5202.404   10690.808 - 3.74e-131   10816.369 - 4.22e-131   11285.256 - 4.28e-131
+mtART+R3          -5217.823   10721.647 - 7.53e-138   10847.208 - 8.5e-138   11316.095 - 8.62e-138
+mtVer+R3          -5226.185   10738.370 - 1.76e-141   10863.931 - 1.98e-141   11332.818 - 2.01e-141
+mtMAM+R3          -5268.353   10822.707 - 8.55e-160   10948.267 - 9.65e-160   11417.155 - 9.79e-160
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R3
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.7206,0.1739) (0.2167,1.9217) (0.0627,7.3067)
+
+ Category  Relative_rate  Proportion
+  1         0.1739         0.7206
+  2         1.9217         0.2167
+  3         7.3067         0.0627
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4894.9010 (s.e. 217.2405)
+Unconstrained log-likelihood (without tree): -2684.1593
+Number of free parameters (#branches + #model parameters): 143
+Akaike information criterion (AIC) score: 10075.8019
+Corrected Akaike information criterion (AICc) score: 10201.3629
+Bayesian information criterion (BIC) score: 10670.2499
+
+Total tree length (sum of branch lengths): 2.1550
+Sum of internal branch lengths: 1.4243 (66.0903% of tree length)
+
+WARNING: 34 near-zero internal branches (<0.0021) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MW434821_Kellev_virus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                        +**Peninsere_virus_F1127C300F1056
+                                                     +**| (4)
+                                                     |  |  +**Pirounced_virus_F1032C17F1266
+                                                     |  +**| (41)
+                                                     |     +**Peninsere_virus_F1127C300F1032
+                                                  +**| (24)
+                                                  |  +**Pirounced_virus_F1032C17F1305
+                                               +--| (99)
+                                               |  +**Pirounced_virus_F1032C17F1034
+                                            +--| (98)
+                                            |  +**Pirounced_virus_F1032C17F1607
+                                         +**| (58)
+                                         |  |  +**Peninsere_virus_F1127C300F1461
+                                         |  +**| (54)
+                                         |     +**Pirounced_virus_F1032C17F1604
+                                      +--| (97)
+                                      |  +--Pirounced_virus_F1032C17F1325
+                                   +--| (96)
+                                   |  +---LC513833_Culex_inatomii_luteo-like_virus
+                                +--| (88)
+                                |  |                       +**Peninsere_virus_F1127C300F1127
+                                |  |                    +**| (73)
+                                |  |                    |  +**Peninsere_virus_F1127C300F1156
+                                |  |                 +--| (96)
+                                |  |                 |  +--Peninsere_virus_F1127C300F1450
+                                |  |              +**| (25)
+                                |  |              |  +**KX882764_Hubei_mosquito_virus_2
+                                |  |           +**| (34)
+                                |  |           |  +**MW030482_Hubei_mosquito_virus_2
+                                |  |        +--| (96)
+                                |  |        |  +--MW030476_Hubei_mosquito_virus_2
+                                |  |     +**| (23)
+                                |  |     |  +**MW030472_Hubei_mosquito_virus_2
+                                |  |  +**| (14)
+                                |  |  |  +**MW030480_Hubei_mosquito_virus_2
+                                |  +**| (26)
+                                |     |        +--MW030484_Hubei_mosquito_virus_2
+                                |     |     +**| (20)
+                                |     |     |  +--MW030486_Hubei_mosquito_virus_2
+                                |     |  +**| (31)
+                                |     |  |  +**MW030478_Hubei_mosquito_virus_2
+                                |     +**| (45)
+                                |        +**MW030488_Hubei_mosquito_virus_2
+                      +---------| (100)
+                      |         +--MW030470_Hubei_mosquito_virus_2
+                  +---| (96)
+                  |   |           +--MW434902_Marma_virus
+                  |   |        +**| (47)
+                  |   |        |  +**MW434875_Marma_virus
+                  |   |     +**| (24)
+                  |   |     |  +**MW434863_Marma_virus
+                  |   |  +--| (97)
+                  |   |  |  +--MW434872_Marma_virus
+                  |   +--| (97)
+                  |      +**MK440646_Marma_virus
+            +-----| (94)
+            |     +------------NC_033305_Hubei_mosquito_virus_2
+   +--------| (97)
+   |        +----------MT361063_Kisumu_mosquito_virus
++--| (25)
+|  |  +------------------------MH703049_Yongsan_sobemo-like_virus_1
+|  +--| (31)
+|     |                            +**Comfornsto_virus_F1216C3F1183
+|     +----------------------------| (100)
+|                                  +--Comfornsto_virus_F1216C3F1216
+|
+|                                                          +--MN661099_Atrato_Sobemo-like_virus_5
+|                                                       +--| (73)
+|                                                       |  +--MN661107_Atrato_Sobemo-like_virus_5
+|             +-----------------------------------------| (100)
+|             |                                         +**MN661097_Atrato_Sobemo-like_virus_5
+|       +-----| (80)
+|       |     |                   +--------------------MT896210_Aedes_sobemo-like_virus
+|       |     +-------------------| (100)
+|       |                         +--MT896211_Aedes_sobemo-like_virus
+|  +----| (42)
+|  |    |                                      +**Guangzhou_sobemo_like_virus_F1517C31F1016
+|  |    |                                   +**| (77)
+|  |    |                                   |  +**Guangzhou_sobemo_like_virus_F1517C31F1083
+|  |    |                                +**| (14)
+|  |    |                                |  |  +--Guangzhou_sobemo_like_virus_F1517C31F1171
+|  |    |                                |  +**| (10)
+|  |    |                                |     |  +**MT361053_Guangzhou_sobemo-like_virus
+|  |    |                                |     +--| (49)
+|  |    |                                |        |  +**Guangzhou_sobemo_like_virus_F1517C31F1017
+|  |    |                                |        +**| (55)
+|  |    |                                |           |     +**MT096519_Wenzhou_sobemo-like_virus_4
+|  |    |                                |           |  +--| (66)
+|  |    |                                |           |  |  +--MZ556263_Sichuan_mosquito_sobemo-like_virus
+|  |    |                                |           +--| (91)
+|  |    |                                |              +**NC_033138_Wenzhou_sobemo-like_virus_4
+|  |    |                             +**| (30)
+|  |    |                             |  +--Guangzhou_sobemo_like_virus_F1517C31F1070
+|  |    |                          +**| (41)
+|  |    |                          |  +**MT361061_Guangzhou_sobemo-like_virus
+|  |    |                       +**| (53)
+|  |    |                       |  +**MT361055_Guangzhou_sobemo-like_virus
+|  |    |                    +--| (71)
+|  |    |                    |  +**MT361059_Guangzhou_sobemo-like_virus
+|  |    +--------------------| (100)
+|  |                         |  +**Guangzhou_sobemo_like_virus_F1517C31F1073
+|  |                         +**| (90)
+|  |                            +**Guangzhou_sobemo_like_virus_F1517C31F1352
++--| (20)
+|  |                                 +**MW434812_Guadeloupe_mosquito_virus
+|  |                              +**| (40)
+|  |                              |  +**MK285337_Renna_virus
+|  |                           +**| (65)
+|  |                           |  +--MW434813_Guadeloupe_mosquito_virus
+|  |                        +--| (87)
+|  |                        |  +--MT361065_Kwale_mosquito_virus
+|  |                     +**| (53)
+|  |                     |  |  +**MN053797_Guadeloupe_mosquito_virus
+|  |                     |  +--| (99)
+|  |                     |     +--MN053803_Guadeloupe_mosquito_virus
+|  |                  +--| (79)
+|  |                  |  +**MN053791_Guadeloupe_mosquito_virus
+|  |   +--------------| (100)
+|  |   |              |  +**MN053789_Guadeloupe_mosquito_virus
+|  |   |              +**| (76)
+|  |   |                 +--MN053787_Guadeloupe_mosquito_virus
+|  +---| (53)
+|      |                                        +**Colokingly_virus_F1527C217F1100
+|      |                                     +**| (13)
+|      |                                     |  |  +--Colokingly_virus_F1527C217F1211
+|      |                                     |  +**| (53)
+|      |                                     |     +**Colokingly_virus_F1527C217F1381
+|      |                                  +**| (11)
+|      |                                  |  +**Colokingly_virus_F1527C217F1382
+|      |                               +**| (18)
+|      |                               |  |  +--Colokingly_virus_F1527C217F1021
+|      |                               |  +**| (16)
+|      |                               |     +--Colokingly_virus_F1527C217F1096
+|      |                            +**| (34)
+|      |                            |  +--Colokingly_virus_F1527C217F1527
+|      |                         +--| (81)
+|      |                         |  +--Colokingly_virus_F1527C217F1534
+|      +-------------------------| (100)
+|                                +**Colokingly_virus_F1527C217F1019
+|
++-------------------MW434821_Kellev_virus
+
+Tree in newick format:
+
+((((((((((((((Peninsere_virus_F1127C300F1056:0.0000009998,(Pirounced_virus_F1032C17F1266:0.0000009998,Peninsere_virus_F1127C300F1032:0.0000009998)41:0.0000009998)4:0.0000009998,Pirounced_virus_F1032C17F1305:0.0000009998)24:0.0000009998,Pirounced_virus_F1032C17F1034:0.0000009998)99:0.0043775766,Pirounced_virus_F1032C17F1607:0.0000021117)98:0.0021908962,(Peninsere_virus_F1127C300F1461:0.0000009998,Pirounced_virus_F1032C17F1604:0.0000009998)54:0.0000020652)58:0.0000020737,Pirounced_virus_F1032C17F1325:0.0044163338)97:0.0130210534,LC513833_Culex_inatomii_luteo-like_virus:0.0248212413)96:0.0126701888,((((((((Peninsere_virus_F1127C300F1127:0.0000009998,Peninsere_virus_F1127C300F1156:0.0000009998)73:0.0000024932,Peninsere_virus_F1127C300F1450:0.0043652861)96:0.0047001112,KX882764_Hubei_mosquito_virus_2:0.0000009998)25:0.0000020961,MW030482_Hubei_mosquito_virus_2:0.0000009998)34:0.0000020149,MW030476_Hubei_mosquito_virus_2:0.0042318205)96:0.0046721835,MW030472_Hubei_mosquito_virus_2:0.0000009998)23:0.0000009998,MW030480_Hubei_mosquito_virus_2:0.0000009998)14:0.0000022424,(((MW030484_Hubei_mosquito_virus_2:0.0069794271,MW030486_Hubei_mosquito_virus_2:0.0124417575)20:0.0000026913,MW030478_Hubei_mosquito_virus_2:0.0000009998)31:0.0000023219,MW030488_Hubei_mosquito_virus_2:0.0000009998)45:0.0000024534)26:0.0000009998)88:0.0075987952,MW030470_Hubei_mosquito_virus_2:0.0191923338)100:0.0659033549,((((MW434902_Marma_virus:0.0125090508,MW434875_Marma_virus:0.0000009998)47:0.0000009998,MW434863_Marma_virus:0.0000009998)24:0.0000009998,MW434872_Marma_virus:0.0035380268)97:0.0035401005,MK440646_Marma_virus:0.0000027547)97:0.0217200178)96:0.0260795909,NC_033305_Hubei_mosquito_virus_2:0.0830338384)94:0.0417786352,MT361063_Kisumu_mosquito_virus:0.0737597832)97:0.0615450840,(MH703049_Yongsan_sobemo-like_virus_1:0.1561509508,(Comfornsto_virus_F1216C3F1183:0.0000021491,Comfornsto_virus_F1216C3F1216:0.0023441553)100:0.1841406076)31:0.0076751584)25:0.0225586110,(((((MN661099_Atrato_Sobemo-like_virus_5:0.0026625141,MN661107_Atrato_Sobemo-like_virus_5:0.0079088215)73:0.0052620411,MN661097_Atrato_Sobemo-like_virus_5:0.0000023387)100:0.2638663794,(MT896210_Aedes_sobemo-like_virus:0.1320878799,MT896211_Aedes_sobemo-like_virus:0.0114054011)100:0.1259734135)80:0.0397052260,(((((((Guangzhou_sobemo_like_virus_F1517C31F1016:0.0000009998,Guangzhou_sobemo_like_virus_F1517C31F1083:0.0000009998)77:0.0000009998,(Guangzhou_sobemo_like_virus_F1517C31F1171:0.0021588080,(MT361053_Guangzhou_sobemo-like_virus:0.0000009998,(Guangzhou_sobemo_like_virus_F1517C31F1017:0.0000009998,((MT096519_Wenzhou_sobemo-like_virus_4:0.0000020069,MZ556263_Sichuan_mosquito_sobemo-like_virus:0.0024754280)66:0.0024764773,NC_033138_Wenzhou_sobemo-like_virus_4:0.0000021651)91:0.0049534686)55:0.0000021865)49:0.0021599408)10:0.0000009998)14:0.0000009998,Guangzhou_sobemo_like_virus_F1517C31F1070:0.0021615249)30:0.0000024657,MT361061_Guangzhou_sobemo-like_virus:0.0000009998)41:0.0000025077,MT361055_Guangzhou_sobemo-like_virus:0.0000009998)53:0.0000026992,MT361059_Guangzhou_sobemo-like_virus:0.0000009998)71:0.0043252129,(Guangzhou_sobemo_like_virus_F1517C31F1073:0.0000009998,Guangzhou_sobemo_like_virus_F1517C31F1352:0.0000009998)90:0.0000020362)100:0.1359137096)42:0.0332252115,(((((((MW434812_Guadeloupe_mosquito_virus:0.0000009998,MK285337_Renna_virus:0.0000009998)40:0.0000009998,MW434813_Guadeloupe_mosquito_virus:0.0024369589)65:0.0000029009,MT361065_Kwale_mosquito_virus:0.0098906364)87:0.0048786695,(MN053797_Guadeloupe_mosquito_virus:0.0000029595,MN053803_Guadeloupe_mosquito_virus:0.0024265104)99:0.0024313954)53:0.0000022464,MN053791_Guadeloupe_mosquito_virus:0.0000009998)79:0.0048723120,(MN053789_Guadeloupe_mosquito_virus:0.0000009998,MN053787_Guadeloupe_mosquito_virus:0.0024392565)76:0.0000022659)100:0.0932334246,((((((Colokingly_virus_F1527C217F1100:0.0000009998,(Colokingly_virus_F1527C217F1211:0.0021831822,Colokingly_virus_F1527C217F1381:0.0000009998)53:0.0000009998)13:0.0000009998,Colokingly_virus_F1527C217F1382:0.0000009998)11:0.0000009998,(Colokingly_virus_F1527C217F1021:0.0021734158,Colokingly_virus_F1527C217F1096:0.0021491015)16:0.0000026417)18:0.0000009998,Colokingly_virus_F1527C217F1527:0.0021490355)34:0.0000009998,Colokingly_virus_F1527C217F1534:0.0021491169)81:0.0043298607,Colokingly_virus_F1527C217F1019:0.0000024609)100:0.1646792323)53:0.0304323977)20:0.0216966242,MW434821_Kellev_virus:0.1296771036);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4894.922607
+Robinson-Foulds distance between ML tree and consensus tree: 16
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                       +**Peninsere_virus_F1127C300F1056
+                                                                    +**|
+                                                                    |  +**Pirounced_virus_F1032C17F1316
+                                                                 +**|
+                                                                 |  +**Pirounced_virus_F1032C17F1585
+                                                              +**|
+                                                              |  +**Pirounced_virus_F1032C17F1032
+                                                           +**|
+                                                           |  +**Pirounced_virus_F1032C17F1271
+                                                        +--|
+                                                        |  +**Pirounced_virus_F1032C17F1056
+                                                     +--| (49)
+                                                     |  +--Pirounced_virus_F1032C17F1305
+                                                  +--| (24)
+                                                  |  |  +--Pirounced_virus_F1032C17F1266
+                                                  |  +--| (41)
+                                                  |     +--Peninsere_virus_F1127C300F1032
+                                               +--| (99)
+                                               |  +--Pirounced_virus_F1032C17F1034
+                                            +--| (98)
+                                            |  +--Pirounced_virus_F1032C17F1607
+                                         +--| (58)
+                                         |  |     +**Peninsere_virus_F1127C300F1461
+                                         |  |  +--|
+                                         |  |  |  +**Pirounced_virus_F1032C17F1461
+                                         |  +--| (54)
+                                         |     +--Pirounced_virus_F1032C17F1604
+                                      +--| (97)
+                                      |  +--Pirounced_virus_F1032C17F1325
+                                   +--| (96)
+                                   |  +---LC513833_Culex_inatomii_luteo-like_virus
+                                +--| (88)
+                                |  |                             +**Peninsere_virus_F1127C300F1127
+                                |  |                          +**|
+                                |  |                          |  +**Peninsere_virus_F1127C300F1132
+                                |  |                       +--|
+                                |  |                       |  +**Pirounced_virus_F1032C17F1127
+                                |  |                    +--| (73)
+                                |  |                    |  +--Peninsere_virus_F1127C300F1156
+                                |  |                 +--| (96)
+                                |  |                 |  +--Peninsere_virus_F1127C300F1450
+                                |  |              +--| (29)
+                                |  |              |  +--MW030482_Hubei_mosquito_virus_2
+                                |  |           +--| (34)
+                                |  |           |  +--KX882764_Hubei_mosquito_virus_2
+                                |  |        +--| (96)
+                                |  |        |  +--MW030476_Hubei_mosquito_virus_2
+                                |  |     +--| (23)
+                                |  |     |  +--MW030472_Hubei_mosquito_virus_2
+                                |  |  +--| (29)
+                                |  |  |  |        +--MW030484_Hubei_mosquito_virus_2
+                                |  |  |  |     +--| (45)
+                                |  |  |  |     |  +--MW030478_Hubei_mosquito_virus_2
+                                |  |  |  |  +--| (31)
+                                |  |  |  |  |  +--MW030486_Hubei_mosquito_virus_2
+                                |  |  |  +--| (45)
+                                |  |  |     +--MW030488_Hubei_mosquito_virus_2
+                                |  +--| (26)
+                                |     +--MW030480_Hubei_mosquito_virus_2
+                      +---------| (100)
+                      |         +--MW030470_Hubei_mosquito_virus_2
+                  +---| (96)
+                  |   |        +--MW434902_Marma_virus
+                  |   |     +--| (47)
+                  |   |     |  +--MW434875_Marma_virus
+                  |   |  +--| (97)
+                  |   |  |  |  +--MW434863_Marma_virus
+                  |   |  |  +--| (27)
+                  |   |  |     +--MW434872_Marma_virus
+                  |   +--| (97)
+                  |      +--MK440646_Marma_virus
+            +-----| (94)
+            |     +------------NC_033305_Hubei_mosquito_virus_2
+   +--------| (97)
+   |        +----------MT361063_Kisumu_mosquito_virus
++--| (25)
+|  |  +------------------------MH703049_Yongsan_sobemo-like_virus_1
+|  +--| (31)
+|     |                            +--Comfornsto_virus_F1216C3F1183
+|     +----------------------------| (100)
+|                                  +--Comfornsto_virus_F1216C3F1216
+|
+|                                                          +--MN661099_Atrato_Sobemo-like_virus_5
+|                                                       +--| (73)
+|                                                       |  +--MN661107_Atrato_Sobemo-like_virus_5
+|             +-----------------------------------------| (100)
+|             |                                         +--MN661097_Atrato_Sobemo-like_virus_5
+|       +-----| (80)
+|       |     |                   +--------------------MT896210_Aedes_sobemo-like_virus
+|       |     +-------------------| (100)
+|       |                         +--MT896211_Aedes_sobemo-like_virus
+|  +----| (42)
+|  |    |                                                     +**Guangzhou_sobemo_like_virus_F1517C31F1016
+|  |    |                                                  +**|
+|  |    |                                                  |  +**Guangzhou_sobemo_like_virus_F1517C31F1351
+|  |    |                                               +**|
+|  |    |                                               |  +**Guangzhou_sobemo_like_virus_F1517C31F1517
+|  |    |                                            +**|
+|  |    |                                            |  +**Guangzhou_sobemo_like_virus_F1517C31F1339
+|  |    |                                         +**|
+|  |    |                                         |  +**Guangzhou_sobemo_like_virus_F1517C31F1071
+|  |    |                                      +--|
+|  |    |                                      |  +**Guangzhou_sobemo_like_virus_F1517C31F1078
+|  |    |                                   +--| (77)
+|  |    |                                   |  +--Guangzhou_sobemo_like_virus_F1517C31F1083
+|  |    |                                +--| (29)
+|  |    |                                |  |  +--Guangzhou_sobemo_like_virus_F1517C31F1070
+|  |    |                                |  +--| (30)
+|  |    |                                |     +--Guangzhou_sobemo_like_virus_F1517C31F1171
+|  |    |                             +--| (30)
+|  |    |                             |  |  +--MT361053_Guangzhou_sobemo-like_virus
+|  |    |                             |  +--| (49)
+|  |    |                             |     |  +--Guangzhou_sobemo_like_virus_F1517C31F1017
+|  |    |                             |     +--| (55)
+|  |    |                             |        |     +--MT096519_Wenzhou_sobemo-like_virus_4
+|  |    |                             |        |  +--| (66)
+|  |    |                             |        |  |  +--MZ556263_Sichuan_mosquito_sobemo-like_virus
+|  |    |                             |        +--| (91)
+|  |    |                             |           +--NC_033138_Wenzhou_sobemo-like_virus_4
+|  |    |                          +--| (41)
+|  |    |                          |  +--MT361061_Guangzhou_sobemo-like_virus
+|  |    |                       +--| (53)
+|  |    |                       |  +--MT361055_Guangzhou_sobemo-like_virus
+|  |    |                    +--| (71)
+|  |    |                    |  +--MT361059_Guangzhou_sobemo-like_virus
+|  |    +--------------------| (100)
+|  |                         |  +--Guangzhou_sobemo_like_virus_F1517C31F1073
+|  |                         +--| (90)
+|  |                            +--Guangzhou_sobemo_like_virus_F1517C31F1352
++--| (20)
+|  |                                 +--MW434812_Guadeloupe_mosquito_virus
+|  |                              +--| (40)
+|  |                              |  +--MK285337_Renna_virus
+|  |                           +--| (65)
+|  |                           |  +--MW434813_Guadeloupe_mosquito_virus
+|  |                        +--| (87)
+|  |                        |  +--MT361065_Kwale_mosquito_virus
+|  |                     +--| (53)
+|  |                     |  |  +--MN053797_Guadeloupe_mosquito_virus
+|  |                     |  +--| (99)
+|  |                     |     +--MN053803_Guadeloupe_mosquito_virus
+|  |                  +--| (79)
+|  |                  |  +--MN053791_Guadeloupe_mosquito_virus
+|  |   +--------------| (100)
+|  |   |              |  +--MN053789_Guadeloupe_mosquito_virus
+|  |   |              +--| (76)
+|  |   |                 +--MN053787_Guadeloupe_mosquito_virus
+|  +---| (53)
+|      |                                           +**Colokingly_virus_F1527C217F1100
+|      |                                        +--|
+|      |                                        |  +**Colokingly_virus_F1527C217F1094
+|      |                                     +--| (13)
+|      |                                     |  |  +--Colokingly_virus_F1527C217F1211
+|      |                                     |  +--| (53)
+|      |                                     |     +--Colokingly_virus_F1527C217F1381
+|      |                                  +--| (13)
+|      |                                  |  |  +--Colokingly_virus_F1527C217F1021
+|      |                                  |  +--| (16)
+|      |                                  |     +--Colokingly_virus_F1527C217F1096
+|      |                               +--| (18)
+|      |                               |  +--Colokingly_virus_F1527C217F1382
+|      |                            +--| (34)
+|      |                            |  +--Colokingly_virus_F1527C217F1527
+|      |                         +--| (81)
+|      |                         |  +--Colokingly_virus_F1527C217F1534
+|      +-------------------------| (100)
+|                                +--Colokingly_virus_F1527C217F1019
+|
++-------------------MW434821_Kellev_virus
+
+
+Consensus tree in newick format: 
+
+(((((((((((((((((((Peninsere_virus_F1127C300F1056:0.0000000000,Pirounced_virus_F1032C17F1316:0.0000000000):0.0000000000,Pirounced_virus_F1032C17F1585:0.0000000000):0.0000000000,Pirounced_virus_F1032C17F1032:0.0000000000):0.0000000000,Pirounced_virus_F1032C17F1271:0.0000000000):0.0000000000,Pirounced_virus_F1032C17F1056:0.0000000000):0.0000020363,Pirounced_virus_F1032C17F1305:0.0000020363)49:0.0000020363,(Pirounced_virus_F1032C17F1266:0.0000020363,Peninsere_virus_F1127C300F1032:0.0000020363)41:0.0000020363)24:0.0000020363,Pirounced_virus_F1032C17F1034:0.0000020363)99:0.0043799324,Pirounced_virus_F1032C17F1607:0.0000020363)98:0.0021920855,((Peninsere_virus_F1127C300F1461:0.0000000000,Pirounced_virus_F1032C17F1461:0.0000000000):0.0000020363,Pirounced_virus_F1032C17F1604:0.0000020363)54:0.0000020363)58:0.0000020363,Pirounced_virus_F1032C17F1325:0.0044187586)97:0.0130395935,LC513833_Culex_inatomii_luteo-like_virus:0.0248402032)96:0.0126656577,((((((((((Peninsere_virus_F1127C300F1127:0.0000000000,Peninsere_virus_F1127C300F1132:0.0000000000):0.0000000000,Pirounced_virus_F1032C17F1127:0.0000000000):0.0000020363,Peninsere_virus_F1127C300F1156:0.0000020363)73:0.0000020363,Peninsere_virus_F1127C300F1450:0.0043682283)96:0.0046999841,MW030482_Hubei_mosquito_virus_2:0.0000020363)29:0.0000020438,KX882764_Hubei_mosquito_virus_2:0.0000020363)34:0.0000020438,MW030476_Hubei_mosquito_virus_2:0.0042347720)96:0.0046745839,MW030472_Hubei_mosquito_virus_2:0.0000020363)23:0.0000020438,(((MW030484_Hubei_mosquito_virus_2:0.0042921499,MW030478_Hubei_mosquito_virus_2:0.0000020363)45:0.0026845631,MW030486_Hubei_mosquito_virus_2:0.0124508381)31:0.0000020389,MW030488_Hubei_mosquito_virus_2:0.0000020363)45:0.0000020389)29:0.0000020438,MW030480_Hubei_mosquito_virus_2:0.0000020363)26:0.0000025729)88:0.0075952588,MW030470_Hubei_mosquito_virus_2:0.0192084213)100:0.0659367667,(((MW434902_Marma_virus:0.0125165252,MW434875_Marma_virus:0.0000020363)47:0.0000020363,(MW434863_Marma_virus:0.0000020363,MW434872_Marma_virus:0.0035397309)27:0.0000020363)97:0.0035418583,MK440646_Marma_virus:0.0000020363)97:0.0217339604)96:0.0260793101,NC_033305_Hubei_mosquito_virus_2:0.0830853697)94:0.0417864419,MT361063_Kisumu_mosquito_virus:0.0737934319)97:0.0615723855,(MH703049_Yongsan_sobemo-like_virus_1:0.1562172947,(Comfornsto_virus_F1216C3F1183:0.0000020363,Comfornsto_virus_F1216C3F1216:0.0023449745)100:0.1842094634)31:0.0076747372)25:0.0225740545,(((((MN661099_Atrato_Sobemo-like_virus_5:0.0026632127,MN661107_Atrato_Sobemo-like_virus_5:0.0079108712)73:0.0052636086,MN661097_Atrato_Sobemo-like_virus_5:0.0000020389)100:0.2639435299,(MT896210_Aedes_sobemo-like_virus:0.1321292561,MT896211_Aedes_sobemo-like_virus:0.0114093793)100:0.1260155672)80:0.0397079166,((((((((((((Guangzhou_sobemo_like_virus_F1517C31F1016:0.0000000000,Guangzhou_sobemo_like_virus_F1517C31F1351:0.0000000000):0.0000000000,Guangzhou_sobemo_like_virus_F1517C31F1517:0.0000000000):0.0000000000,Guangzhou_sobemo_like_virus_F1517C31F1339:0.0000000000):0.0000000000,Guangzhou_sobemo_like_virus_F1517C31F1071:0.0000000000):0.0000000000,Guangzhou_sobemo_like_virus_F1517C31F1078:0.0000000000):0.0000020363,Guangzhou_sobemo_like_virus_F1517C31F1083:0.0000020363)77:0.0000020363,(Guangzhou_sobemo_like_virus_F1517C31F1070:0.0021630608,Guangzhou_sobemo_like_virus_F1517C31F1171:0.0021603442)30:0.0000020363)29:0.0000020363,(MT361053_Guangzhou_sobemo-like_virus:0.0000020363,(Guangzhou_sobemo_like_virus_F1517C31F1017:0.0000020363,((MT096519_Wenzhou_sobemo-like_virus_4:0.0000020363,MZ556263_Sichuan_mosquito_sobemo-like_virus:0.0024760868)66:0.0024771353,NC_033138_Wenzhou_sobemo-like_virus_4:0.0000020363)91:0.0049547860)55:0.0021389091)49:0.0000237312)30:0.0000020363,MT361061_Guangzhou_sobemo-like_virus:0.0000020363)41:0.0000020363,MT361055_Guangzhou_sobemo-like_virus:0.0000020363)53:0.0032363068,MT361059_Guangzhou_sobemo-like_virus:0.0000020363)71:0.0010900194,(Guangzhou_sobemo_like_virus_F1517C31F1073:0.0000020363,Guangzhou_sobemo_like_virus_F1517C31F1352:0.0000020363)90:0.0000020363)100:0.1359508951)42:0.0332291062,(((((((MW434812_Guadeloupe_mosquito_virus:0.0000020363,MK285337_Renna_virus:0.0000020363)40:0.0000020363,MW434813_Guadeloupe_mosquito_virus:0.0024377578)65:0.0000020363,MT361065_Kwale_mosquito_virus:0.0098939053)87:0.0048802647,(MN053797_Guadeloupe_mosquito_virus:0.0000020363,MN053803_Guadeloupe_mosquito_virus:0.0024272948)99:0.0024321962)53:0.0000020363,MN053791_Guadeloupe_mosquito_virus:0.0000020363)79:0.0048740369,(MN053789_Guadeloupe_mosquito_virus:0.0000020363,MN053787_Guadeloupe_mosquito_virus:0.0024400499)76:0.0000021314)100:0.0932636068,(((((((Colokingly_virus_F1527C217F1100:0.0000000000,Colokingly_virus_F1527C217F1094:0.0000000000):0.0000020363,(Colokingly_virus_F1527C217F1211:0.0021838239,Colokingly_virus_F1527C217F1381:0.0000020363)53:0.0000020363)13:0.0000020363,(Colokingly_virus_F1527C217F1021:0.0021740597,Colokingly_virus_F1527C217F1096:0.0021497355)16:0.0000020363)13:0.0000020363,Colokingly_virus_F1527C217F1382:0.0000020363)18:0.0000020363,Colokingly_virus_F1527C217F1527:0.0021496684)34:0.0000020363,Colokingly_virus_F1527C217F1534:0.0021497402)81:0.0043314640,Colokingly_virus_F1527C217F1019:0.0000020389)100:0.1647361572)53:0.0304382868)20:0.0217051961,MW434821_Kellev_virus:0.1297336521);
+
+TIME STAMP
+----------
+
+Date and time: Wed Dec 14 13:23:14 2022
+Total CPU time used: 546.293614 seconds (0h:9m:6s)
+Total wall-clock time used: 185.1394952 seconds (0h:3m:5s)
+

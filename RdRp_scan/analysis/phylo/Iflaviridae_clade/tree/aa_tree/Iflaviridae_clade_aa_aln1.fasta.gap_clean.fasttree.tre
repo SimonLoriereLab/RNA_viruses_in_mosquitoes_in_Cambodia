@@ -1,0 +1,481 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=379;
+	taxlabels
+	AY341824_Ectropis_obliqua_virus
+	AY534885_Venturia_canescens_picorna-like_virus
+	BK012003_Iflavirus_HdromIV
+	Doriptiled_virus_F1453C1F1453[&!color=#b02300]
+	Drungrega_virus_F1090C3F1090[&!color=#b02300]
+	Dunhowed_virus_F1611C1F1586[&!color=#b02300]
+	Dunhowed_virus_F1611C1F1611[&!color=#b02300]
+	Dunhowed_virus_F1611C1F1612[&!color=#b02300]
+	EU868609_Infectious_flacherie_virus
+	FJ790486_Nasonia_vitripennis_virus
+	HQ322114_Sacbrood_virus
+	Hubei_mosquito_virus_1_F1357C1F1357[&!color=#b02300]
+	JQ390591_Sacbrood_virus
+	JQ390592_Sacbrood_virus
+	JX878305_Deformed_wing_virus
+	KC007374_Sacbrood_virus
+	KC786222_Varroa_destructor_virus_1
+	KJ186788_Spodoptera_exigua_iflavirus_2
+	KJ716805_Sacbrood_virus
+	KJ959613_Sacbrood_virus
+	KJ959614_Sacbrood_virus
+	KM495267_Sacbrood_virus
+	KM884990_Sacbrood_virus
+	KM884991_Sacbrood_virus
+	KM884992_Sacbrood_virus
+	KM884993_Sacbrood_virus
+	KM884994_Sacbrood_virus
+	KM884995_Sacbrood_virus
+	KP296800_Sacbrood_virus
+	KP296801_Sacbrood_virus
+	KP296802_Sacbrood_virus
+	KP296803_Sacbrood_virus
+	KP777548_Brevicoryne_brassicae_virus
+	KT698837_Diaphorina_citri_picorna-like_virus
+	KU574661_Sacbrood_virus
+	KU574662_Sacbrood_virus
+	KU754510_Kinkell_virus
+	KX668140_Sacbrood_virus
+	KX779452_Rolda_virus[&!color=#0023b0]
+	KX786162_Sacbrood_virus
+	KX883918_Hubei_mosquito_virus_1
+	KY020412_Ixodes_holocyclus_iflavirus
+	KY273489_Sacbrood_virus
+	KY465671_Sacbrood_virus
+	KY465672_Sacbrood_virus
+	KY465673_Sacbrood_virus
+	KY465674_Sacbrood_virus
+	KY465675_Sacbrood_virus
+	KY465676_Sacbrood_virus
+	KY465677_Sacbrood_virus
+	KY465678_Sacbrood_virus
+	KY465679_Sacbrood_virus
+	KY887697_Sacbrood_virus
+	KY887698_Sacbrood_virus
+	KY887699_Sacbrood_virus
+	LC496784_Tesano_Aedes_virus[&!color=#b02300]
+	LC513835_Isahaya_Culex_iflavirus[&!color=#b02300]
+	LC513837_Yongsan_iflavirus_1[&!color=#b02300]
+	MF036686_Deformed_wing_virus
+	MF287666_Formica_pressilabris_virus_2
+	MF623170_Sacbrood_virus
+	MF770715_Deformed_wing_virus
+	MF998083_Bee_iflavirus_1
+	MG012488_Tribolium_castaneum_iflavirus
+	MG545286_Sacbrood_virus
+	MG545287_Sacbrood_virus
+	MG733283_Sacbrood_virus
+	MG815140_Laodelphax_striatellus_iflavirus_1
+	MG818986_Sogatella_furcifera_honeydew_virus
+	MG963177_Iflavirus_sp_
+	MG963178_Iflavirus_sp_
+	MG995694_Darwin_bee_virus_2
+	MG995697_Darwin_bee_virus_3
+	MG995699_Darwin_bee_virus_4
+	MG995705_Bundaberg_bee_virus_4
+	MG995707_Bundaberg_bee_virus_6
+	MG995709_Renmark_bee_virus_2
+	MG995723_Victoria_bee_virus_1
+	MH165180_Deformed_wing_virus
+	MH188009_Culex_Iflavi-like_virus_2[&!color=#b02300]
+	MH188010_Culex_Iflavi-like_virus_3[&!color=#b02300]
+	MH267696_Deformed_wing_virus
+	MH267697_Sacbrood_virus
+	MH267698_Sacbrood_virus
+	MH509439_Sacbrood_virus
+	MH614303_Loch_Morlich_virus
+	MH620811_Lampyris_noctiluca_iflavirus_1
+	MH620812_Lampyris_noctiluca_iflavirus_2
+	MH703056_Yongsan_iflavirus_1[&!color=#b02300]
+	MH703058_Yongsan_iflavirus_1[&!color=#b02300]
+	MH727528_Solenopsis_invicta_virus_11
+	MH778500_King_virus
+	MH778501_King_virus
+	MK440624_Jotan_virus[&!color=#b02300]
+	MK440627_Ista_virus[&!color=#b02300]
+	MK682509_Lysiphlebus_fabarum_rna-virus_type_A
+	MK682510_Lysiphlebus_fabarum_rna-virus_type_B
+	MN082651_Sacbrood_virus
+	MN082652_Sacbrood_virus
+	MN164617_Pink_bollworm_virus_1
+	MN164618_Pink_bollworm_virus_1
+	MN164623_Pink_bollworm_virus_4
+	MN167484_Watson_virus
+	MN167485_Baskerville_virus
+	MN167498_Carfax_virus
+	MN167503_Moran_virus
+	MN314969_Aedes_vexans_iflavirus[&!color=#b02300]
+	MN328434_Diamondback_moth_iflavirus
+	MN395732_Iflavirus_sp_
+	MN497419_Iflavirus_sp_[&!color=#b02300]
+	MN528599_Sacbrood_virus
+	MN551117_Plasmopara_viticola_lesion_associated_iflavirus_1
+	MN551122_Plasmopara_viticola_lesion_associated_picorna-like_3
+	MN558692_Erysiphe_necator_associated_picorna-like_virus_1
+	MN560635_Rondonia_iflavirus_1
+	MN661038_Chajerado_virus[&!color=#b02300]
+	MN661039_Isla_virus[&!color=#b02300]
+	MN661040_Sabaleta_virus[&!color=#b02300]
+	MN661041_Atrato_Picorna-like_virus
+	MN714668_Thrips_tabaci_associated_iflavirus_1
+	MN714670_Frankliniella_occidentalis_associated_iflavirus_1
+	MN746311_Deformed_wing_virus
+	MN784065_Redbank_virus
+	MN784066_Redbank_virus
+	MN784067_Redbank_virus
+	MN784068_Redbank_virus
+	MN784069_Redbank_virus
+	MN784070_Perrin_Park_virus[&!color=#b02300]
+	MN784071_Perrin_Park_virus[&!color=#b02300]
+	MN784072_Perrin_Park_virus[&!color=#b02300]
+	MN832454_Pittosporum_tobira_picorna-like_virus
+	MN918668_Picornavirales_sp_
+	MN918670_Picornavirales_sp_
+	MN918690_Picornavirales_sp_
+	MN933865_Totiviridae_sp_
+	MN933866_Totiviridae_sp_
+	MN933868_Totiviridae_sp_
+	MN933869_Totiviridae_sp_
+	MN933870_Totiviridae_sp_
+	MN933871_Totiviridae_sp_
+	MN933872_Totiviridae_sp_
+	MN933873_Totiviridae_sp_
+	MN938851_Lymantria_dispar_iflavirus_1
+	MN982379_Scaphoideus_titanus_iflavirus_1
+	MN982380_Scaphoideus_titanus_iflavirus_1
+	MT129692_ACT_flea_iflavirus
+	MT137945_Iflaviridae_sp_
+	MT137950_Iflaviridae_sp_
+	MT137952_Iflaviridae_sp_
+	MT137960_Iflaviridae_sp_
+	MT137961_Iflaviridae_sp_
+	MT137962_Iflaviridae_sp_
+	MT137969_Iflaviridae_sp_
+	MT137971_Iflaviridae_sp_
+	MT137976_Iflaviridae_sp_
+	MT137986_Iflaviridae_sp_
+	MT137990_Iflaviridae_sp_
+	MT138146_Picornavirales_sp_
+	MT138150_Picornavirales_sp_
+	MT138151_Picornavirales_sp_
+	MT138171_Totiviridae_sp_
+	MT138175_Totiviridae_sp_
+	MT138398_Totiviridae_sp_
+	MT195547_Soybean_thrips_iflavirus_2
+	MT195548_Soybean_thrips_iflavirus_3
+	MT240781_Soybean_thrips_iflavirus_8
+	MT293129_Soybean_thrips_picorna-like_virus_8
+	MT482477_Sacbrood_virus
+	MT482495_PNG_bee_virus_13
+	MT636327_Sacbrood_virus
+	MT636328_Sacbrood_virus
+	MT636329_Sacbrood_virus
+	MT636330_Sacbrood_virus
+	MT636331_Sacbrood_virus
+	MT636332_Sacbrood_virus
+	MT636333_Sacbrood_virus
+	MT636334_Sacbrood_virus
+	MT636335_Sacbrood_virus
+	MT636336_Sacbrood_virus
+	MT739422_Tetrastichus_brontispae_RNA_virus_3
+	MT747986_Deformed_wing_virus
+	MT747987_Deformed_wing_virus
+	MT753155_Lymantria_dispar_iflavirus_1
+	MT822188_Serbia_picorna-like_virus_2
+	MT860233_Solenopsis_invicta_virus_16
+	MT860988_Aulacophora_lewisii_iflavirus_1
+	MW052132_Hiksystermes_virus
+	MW052135_Moksystermes_virus
+	MW115117_Antheraea_mylitta_iflavirus
+	MW199260_Picornavirales_sp_
+	MW251331_Uzakla_insect_virus
+	MW256668_Bemisia_tabaci_picorna-like_virus_1
+	MW256671_Bemisia_tabaci_iflavirus_1
+	MW314629_Myrmica_rubra_picorna-like_virus_11
+	MW314659_Deformed_wing_virus
+	MW434116_Culex_Iflavi-like_virus_3[&!color=#b02300]
+	MW434117_Culex_Iflavi-like_virus_3[&!color=#b02300]
+	MW676131_Hypera_postica_associated_iflavirus_1
+	MW676132_Hypera_postica_associated_iflavirus_2
+	MW699047_Yongsan_iflavirus_1[&!color=#b02300]
+	MW741888_Ixodes_holocyclus_iflavirus
+	MW826393_Iflaviridae_sp_
+	MW826396_Iflaviridae_sp_
+	MW826397_Iflaviridae_sp_
+	MZ202266_Sassandra_virus[&!color=#b02300]
+	MZ209611_Hangzhou_iflavirus_2
+	MZ209618_Hangzhou_iflavirus_4
+	MZ209721_Hangzhou_lschnura_senegalensis_iflavirus_1
+	MZ209776_Guiyang_srgiope_bruennichi_iflavirus_1
+	MZ209851_Sanya_iflavirus_1
+	MZ209860_Sanya_iflavirus_2
+	MZ209922_Sanya_Ischnura_senegalensis_iflavirus_1
+	MZ209924_Sanya_Ischnura_senegalensis_iflavirus_2
+	MZ209954_Sanya_iflavirus_2
+	MZ209967_Sanya_iflavirus_8
+	MZ209979_Sanya_iflavirus_9
+	MZ209994_Fushun_cicadella_viridis_iflavirus_1
+	MZ210043_Fushun_Iflavirus_1
+	MZ210044_Fushun_Iflavirus_2
+	MZ210055_Hangzhou_sogatella_furcifera_iflavirus_1
+	MZ375216_Iflaviridae_sp_
+	MZ394723_Iflaviridae_sp__2
+	MZ443611_Leuven_Picorna-like_virus_8
+	MZ443613_Leuven_Picorna-like_virus_10
+	MZ443629_Nelson_Picorna-like_virus_9
+	MZ556259_Sichuan_mosquito_associated_Iflaviridae
+	MZ556282_Red_panda_feces-associated_Iflaviridae
+	MZ679116_Iflaviridae_sp_
+	MZ679119_Iflaviridae_sp_
+	MZ679124_Iflaviridae_sp_
+	MZ821817_Deformed_wing_virus
+	MZ821818_Deformed_wing_virus
+	MZ821820_Deformed_wing_virus
+	MZ821828_Deformed_wing_virus
+	MZ821829_Deformed_wing_virus
+	MZ821834_Deformed_wing_virus
+	MZ821835_Deformed_wing_virus
+	MZ821837_Deformed_wing_virus
+	MZ821919_Sacbrood_virus
+	MZ821920_Sacbrood_virus
+	MZ821921_Sacbrood_virus
+	MZ821922_Sacbrood_virus
+	MZ821923_Sacbrood_virus
+	MZ821924_Sacbrood_virus
+	MZ821925_Sacbrood_virus
+	MZ821926_Sacbrood_virus
+	MZ821928_Sacbrood_virus
+	MZ821929_Sacbrood_virus
+	MZ821931_Sacbrood_virus
+	MZ821932_Sacbrood_virus
+	MZ821934_Sacbrood_virus
+	MZ821935_Sacbrood_virus
+	MZ821936_Sacbrood_virus
+	MZ821937_Sacbrood_virus
+	MZ822075_Apis_iflavirus_1
+	MZ822076_Apis_iflavirus_2
+	MZ867710_Deformed_wing_virus
+	MZ867712_Deformed_wing_virus
+	MZ956595_Giant_panda_Iflavirus
+	NC_002066_Sacbrood_virus
+	NC_003113_Perina_nuda_virus
+	NC_005092_Ectropis_obliqua_virus
+	NC_009530_Brevicoryne_brassicae_virus
+	NC_021566_Nilaparvata_lugens_honeydew_virus-2
+	NC_021567_Nilaparvata_lugens_honeydew_virus-3
+	NC_023022_Formica_exsecta_virus_2
+	NC_023483_Antheraea_pernyi_iflavirus
+	NC_023627_Laodelphax_striatella_honeydew_virus_1
+	NC_023676_Spodoptera_exigua_iflavirus_2
+	NC_024016_Heliconius_erato_iflavirus
+	NC_024497_Lymantria_dispar_iflavirus_1
+	NC_025788_Laodelphax_striatellus_picorna-like_virus_2
+	NC_025835_Dinocampus_coccinellae_paralysis_virus
+	NC_026250_Thaumetopoea_pityocampa_iflavirus_1
+	NC_027713_Bombyx_mori_iflavirus
+	NC_027917_Opsiphanes_invirae_iflavirus_1
+	NC_031338_Moku_virus
+	NC_031749_King_virus
+	NC_032087_Euscelidius_variegatus_virus_1
+	NC_032218_Hubei_myriapoda_virus_1
+	NC_032435_Shahe_heteroptera_virus_2
+	NC_032748_Hubei_picorna-like_virus_44
+	NC_032756_Hubei_picorna-like_virus_40
+	NC_032776_Hubei_picorna-like_virus_29
+	NC_032994_Shuangao_insect_virus_12
+	NC_033014_Hubei_mosquito_virus_1
+	NC_033030_Hubei_coleoptera_virus_1
+	NC_033046_Hubei_picorna-like_virus_27
+	NC_033061_Hubei_odonate_virus_2
+	NC_033099_Hubei_picorna-like_virus_28
+	NC_033102_Hubei_odonate_virus_3
+	NC_033180_Sanxia_water_strider_virus_7
+	NC_033189_Sanxia_water_strider_virus_21
+	NC_033194_Sanxia_water_strider_virus_8
+	NC_033225_Hubei_picorna-like_virus_30
+	NC_033238_Hubei_picorna-like_virus_41
+	NC_033243_Hubei_odonate_virus_4
+	NC_033418_Wuhan_coneheads_virus_1
+	NC_033455_Wuhan_insect_virus_13[&!color=#0023b0]
+	NC_033619_Helicoverpa_armigera_iflavirus
+	NC_034217_Pityohyphantes_rubrofasciatus_iflavirus
+	NC_034384_Diamondback_moth_iflavirus
+	NC_036389_Chequa_iflavirus
+	NC_036585_Armigeres_iflavirus[&!color=#b02300]
+	NC_038302_Nilaparvata_lugens_honeydew_virus_1
+	NC_040587_Yongsan_iflavirus_1[&!color=#b02300]
+	NC_040601_Varroa_destructor_iflavirus_1
+	NC_040646_Culex_Iflavi-like_virus_1[&!color=#b02300]
+	NC_040675_Nesidiocoris_tenuis_iflavirus_1
+	OK011763_Bactericera_cockerelli_picorna-like_virus
+	OK011764_Bactericera_cockerelli_picorna-like_virus
+	OK011765_Bactericera_cockerelli_picorna-like_virus
+	OK392073_Planococcus_ficus-associated_iflavirus_1
+	OK491493_Xiangshan_picorna-like_virus_2
+	OK491495_Xiangshan_picorna-like_virus_4
+	OK491496_Xiangshan_picorna-like_virus_5
+	OL420704_Khandagaity_Melophagus_ifla-like_virus
+	OL452106_Ixodes_holocyclus_iflavirus
+	OL452107_Ixodes_holocyclus_iflavirus
+	OL452108_Ixodes_holocyclus_iflavirus
+	OL452109_Ixodes_holocyclus_iflavirus
+	OL452110_Ixodes_holocyclus_iflavirus
+	OL452111_Ixodes_holocyclus_iflavirus
+	OL452112_Ixodes_holocyclus_iflavirus
+	OL452113_Ixodes_holocyclus_iflavirus
+	OL452114_Ixodes_holocyclus_iflavirus
+	OL452115_Ixodes_holocyclus_iflavirus
+	OL472192_Novo_Mesto_iflavirus_1
+	OL700095_Yongsan_iflavirus_1[&!color=#b02300]
+	OL700169_XiangYun_picorna-like_virus_1
+	OL700170_XiangYun_picorna-like_virus_2[&!color=#b02300]
+	OL700171_XiangYun_picorna-like_virus_2[&!color=#b02300]
+	OL700172_XiangYun_picorna-like_virus_2[&!color=#b02300]
+	OL803822_Deformed_wing_virus
+	OL803826_Deformed_wing_virus
+	OL803869_Sacbrood_virus
+	OL803870_Sacbrood_virus
+	OM421671_Picornaviridae_sp_
+	OM469323_alvulp_iflavirus_1
+	OM622379_Picornavirales_sp_[&!color=#0023b0]
+	OM622384_Picornavirales_sp_
+	OM622420_Picornavirales_sp_
+	OM650306_Halyomorpha_halys_ifla-like_virus_1
+	OM670245_Rolda_virus
+	OM744330_Sacbrood_virus
+	OM937767_Leuronota_fagarae_picorna-like_virus
+	OM954145_Flumine_iflavirus_10
+	OM954149_Flumine_iflavirus_6
+	ON162005_Picornaviridae_sp_
+	ON304033_Avian_associated_picorna-like_virus_10
+	ON402369_Exitianus_exitiosus_virus_2
+	ON620343_Sacbrood_virus
+	ON746399_Linzhi_Iflav_tick_virus_1
+	ON746503_Jinan_Picor_tick_virus_1
+	ON811754_Hubei_picorna-like_virus_44
+	ON811761_Hubei_picorna-like_virus_44
+	ON811762_Iflaviridae_sp_
+	ON811763_Iflaviridae_sp_
+	ON811764_Iflaviridae_sp_
+	ON812448_Picornaviridae_sp_
+	ON949933_Hanko_iflavirus_1[&!color=#b02300]
+	ON949934_Hanko_iflavirus_1[&!color=#b02300]
+	ON949935_Hanko_iflavirus_1[&!color=#b02300]
+	ON949936_Hanko_iflavirus_1[&!color=#b02300]
+	ON949937_Hanko_iflavirus_1[&!color=#b02300]
+	ON955063_Hanko_iflavirus_1[&!color=#b02300]
+	ON955064_Hanko_iflavirus_1[&!color=#b02300]
+	ON955110_Jotan_virus[&!color=#b02300]
+	ON955111_Jotan_virus[&!color=#b02300]
+	ON955112_Jotan_virus[&!color=#b02300]
+	OP264887_Aedes_vexans_iflavirus[&!color=#b02300]
+	OP349063_Anagyrus_vladimiri_iflavirus
+	OP649595_Recilia_dorsalis_iflavirus_2
+	OP884032_Army_ant_associated_iflavirus_4
+	OP884033_Army_ant_associated_iflavirus_5
+	OP884034_Army_ant_associated_iflavirus_6
+	OP884035_Army_ant_associated_iflavirus_7
+	OP884036_Army_ant_associated_iflavirus_7
+	OP884037_Army_ant_associated_iflavirus_8
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((MF623170_Sacbrood_virus:0.001148,(KY465675_Sacbrood_virus:5.74E-4,KY465673_Sacbrood_virus:0.001148)[&label=0.0]:0.0)[&label=0.854]:5.74E-4,(((MG545286_Sacbrood_virus:0.001148,MG545287_Sacbrood_virus:0.0)[&label=0.757]:5.74E-4,((ON620343_Sacbrood_virus:0.0,(MT636334_Sacbrood_virus:5.74E-4,(((MT636336_Sacbrood_virus:5.74E-4,MT636330_Sacbrood_virus:5.74E-4)[&label=0.0]:0.0,MT636331_Sacbrood_virus:5.74E-4)[&label=0.0]:0.0,((MT636327_Sacbrood_virus:0.0,MT636328_Sacbrood_virus:0.0,MT636329_Sacbrood_virus:0.0,MT636332_Sacbrood_virus:0.0,MT636333_Sacbrood_virus:0.0):0.0,MT636335_Sacbrood_virus:5.74E-4)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.838]:5.74E-4)[&label=0.868]:5.74E-4,((MH267698_Sacbrood_virus:0.003218,OL803869_Sacbrood_virus:0.003429)[&label=0.653]:2.54E-4,(MH267697_Sacbrood_virus:0.002872,OL803870_Sacbrood_virus:0.001149)[&label=0.449]:0.0)[&label=0.0]:0.0)[&label=0.776]:5.74E-4)[&label=0.957]:0.002302,((KY465679_Sacbrood_virus:0.005163,((KY273489_Sacbrood_virus:0.002527,NC_002066_Sacbrood_virus:0.002651)[&label=0.923]:0.002911,((MZ821929_Sacbrood_virus:0.001147,(MZ821925_Sacbrood_virus:0.0,(MZ821924_Sacbrood_virus:5.74E-4,(MZ821928_Sacbrood_virus:5.73E-4,(MZ821934_Sacbrood_virus:0.0,MZ821935_Sacbrood_virus:5.73E-4)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.917]:5.73E-4)[&label=0.0]:0.0)[&label=0.835]:0.001078,(((MG995699_Darwin_bee_virus_4:0.108573,MG995694_Darwin_bee_virus_2:0.125525)[&label=1.0]:0.109366,(MZ679116_Iflaviridae_sp_:0.291006,(((Hubei_mosquito_virus_1_F1357C1F1357:0.042677,(KX883918_Hubei_mosquito_virus_1:4.24E-4,NC_033014_Hubei_mosquito_virus_1:1.96E-4)[&label=0.987]:0.041628)[&label=1.0]:0.657687,(((MN933868_Totiviridae_sp_:0.0,(MN933871_Totiviridae_sp_:0.0,(MN933870_Totiviridae_sp_:5.73E-4,MN933872_Totiviridae_sp_:0.0)[&label=0.0]:0.0)[&label=0.821]:5.91E-4)[&label=1.0]:0.343911,(OL472192_Novo_Mesto_iflavirus_1:0.141333,(NC_032756_Hubei_picorna-like_virus_40:0.181728,(MT138175_Totiviridae_sp_:0.059218,MT138398_Totiviridae_sp_:0.044985)[&label=1.0]:0.088797)[&label=0.425]:0.05605)[&label=1.0]:0.187615)[&label=1.0]:0.074225,((NC_033194_Sanxia_water_strider_virus_8:0.350624,(MW314629_Myrmica_rubra_picorna-like_virus_11:0.226966,(MZ443629_Nelson_Picorna-like_virus_9:0.121213,MN933865_Totiviridae_sp_:0.0857)[&label=1.0]:0.173438)[&label=0.858]:0.059615)[&label=1.0]:0.104968,((MT138171_Totiviridae_sp_:0.328512,(MN933866_Totiviridae_sp_:5.78E-4,MN933869_Totiviridae_sp_:0.0)[&label=1.0]:0.361657)[&label=0.997]:0.087006,((MN661041_Atrato_Picorna-like_virus:0.256754,MN933873_Totiviridae_sp_:0.197603)[&label=1.0]:0.098406,(NC_033238_Hubei_picorna-like_virus_41:0.298965,MT240781_Soybean_thrips_iflavirus_8:0.354318)[&label=0.928]:0.063274)[&label=0.988]:0.063644)[&label=1.0]:0.122936)[&label=0.511]:0.049765)[&label=0.99]:0.082884)[&label=1.0]:0.194984,((MN784069_Redbank_virus:0.003665,((MN784068_Redbank_virus:0.0,(MN784067_Redbank_virus:5.7E-4,MN784066_Redbank_virus:0.0)[&label=0.0]:0.0)[&label=0.637]:7.0E-6,MN784065_Redbank_virus:5.8E-4)[&label=0.231]:3.94E-4)[&label=1.0]:0.580693,(MG995705_Bundaberg_bee_virus_4:0.650004,(MH614303_Loch_Morlich_virus:1.240995,((((MT137962_Iflaviridae_sp_:1.29393,(((Dunhowed_virus_F1611C1F1586[&!color=#b02300]:0.0,(Dunhowed_virus_F1611C1F1611[&!color=#b02300]:0.0,Dunhowed_virus_F1611C1F1612[&!color=#b02300]:0.0)[&!color=#b02300]:0.0)[&label=1.0,!color=#b02300]:0.895427,((OP884034_Army_ant_associated_iflavirus_6[&!color=#b02300]:0.361207,((MN328434_Diamondback_moth_iflavirus[&!color=#b02300]:0.005105,NC_034384_Diamondback_moth_iflavirus[&!color=#b02300]:0.005443)[&label=0.996,!color=#b02300]:0.035701,(((OP884035_Army_ant_associated_iflavirus_7[&!color=#b02300]:0.0,OP884036_Army_ant_associated_iflavirus_7[&!color=#b02300]:0.0)[&label=0.999,!color=#b02300]:0.03254,((AY341824_Ectropis_obliqua_virus[&!color=#b02300]:0.0,NC_005092_Ectropis_obliqua_virus[&!color=#b02300]:0.0)[&label=1.0,!color=#b02300]:0.0375,(OP884037_Army_ant_associated_iflavirus_8[&!color=#b02300]:0.041507,NC_003113_Perina_nuda_virus[&!color=#b02300]:0.029284)[&label=0.951,!color=#b02300]:0.011554)[&label=0.781,!color=#b02300]:0.006292)[&label=0.893,!color=#b02300]:0.006322,(MT137960_Iflaviridae_sp_[&!color=#b02300]:0.038909,OM469323_alvulp_iflavirus_1[&!color=#b02300]:0.26894)[&label=0.736,!color=#b02300]:0.003178)[&label=0.926,!color=#b02300]:0.032305)[&label=1.0,!color=#b02300]:0.240422)[&label=1.0,!color=#b02300]:0.13808,(OP884033_Army_ant_associated_iflavirus_5[&!color=#b02300]:0.470939,((MZ209860_Sanya_iflavirus_2[&!color=#b02300]:6.48E-4,MZ209954_Sanya_iflavirus_2[&!color=#b02300]:0.0)[&label=1.0,!color=#b02300]:0.188696,(MG963177_Iflavirus_sp_[&!color=#b02300]:0.080473,(MG963178_Iflavirus_sp_[&!color=#b02300]:0.149572,(NC_023676_Spodoptera_exigua_iflavirus_2[&!color=#b02300]:8.91E-4,KJ186788_Spodoptera_exigua_iflavirus_2[&!color=#b02300]:0.007689)[&label=1.0,!color=#b02300]:0.124306)[&label=0.907,!color=#b02300]:0.047725)[&label=0.952,!color=#b02300]:0.053704)[&label=1.0,!color=#b02300]:0.22644)[&label=0.983,!color=#b02300]:0.118975)[&label=1.0,!color=#b02300]:0.310949)[&label=1.0,!color=#b02300]:0.721035,(((KX779452_Rolda_virus:3.59E-4,OM670245_Rolda_virus:3.26E-4)[&label=1.0]:0.96554,((MZ822076_Apis_iflavirus_2:0.568601,MT138146_Picornavirales_sp_:0.554761)[&label=0.999]:0.194183,(OM421671_Picornaviridae_sp_:0.585543,MH620811_Lampyris_noctiluca_iflavirus_1:0.700412)[&label=0.955]:0.119549)[&label=1.0]:0.410016)[&label=0.986]:0.135221,((((MN918668_Picornavirales_sp_:7.48E-4,(MT137952_Iflaviridae_sp_:0.0,MT137986_Iflaviridae_sp_:0.0):0.002547)[&label=0.0]:0.0,(MT137945_Iflaviridae_sp_:0.003888,MT137961_Iflaviridae_sp_:0.022683)[&label=0.159]:0.003476)[&label=1.0]:0.550408,(OM954145_Flumine_iflavirus_10:1.404016,MN918670_Picornavirales_sp_:0.012058)[&label=1.0]:0.586161)[&label=1.0]:0.62557,((MT138151_Picornavirales_sp_:2.08E-4,((ON811754_Hubei_picorna-like_virus_44:0.0,ON811761_Hubei_picorna-like_virus_44:0.0):0.003746,NC_032748_Hubei_picorna-like_virus_44:0.001245)[&label=0.778]:0.004303)[&label=1.0]:1.237578,(MG995723_Victoria_bee_virus_1:2.078342,(OP884032_Army_ant_associated_iflavirus_4:0.467849,(MT293129_Soybean_thrips_picorna-like_virus_8:0.379125,ON162005_Picornaviridae_sp_:0.574322)[&label=0.965]:0.164185)[&label=0.986]:0.279063)[&label=1.0]:0.378957)[&label=0.829]:0.103988)[&label=0.968]:0.105613)[&label=0.74]:0.074408)[&label=0.504]:0.115629)[&label=0.992]:0.146746,(MH727528_Solenopsis_invicta_virus_11:0.634883,MZ556282_Red_panda_feces-associated_Iflaviridae:0.544211)[&label=1.0]:1.045073)[&label=0.987]:0.122845,((((((((MH188009_Culex_Iflavi-like_virus_2[&!color=#b33900]:0.0,NC_040646_Culex_Iflavi-like_virus_1[&!color=#b33900]:0.005872)[&label=1.0,!color=#b33900]:0.257563,(MN497419_Iflavirus_sp_[&!color=#b33900]:0.006265,OL700095_Yongsan_iflavirus_1[&!color=#b33900]:0.007327)[&label=0.826,!color=#b33900]:0.010198)[&label=0.97,!color=#b33900]:0.008534,((LC513837_Yongsan_iflavirus_1[&!color=#b33900]:0.00524,MW699047_Yongsan_iflavirus_1[&!color=#b33900]:0.004664)[&label=0.557,!color=#b33900]:0.005723,((NC_040587_Yongsan_iflavirus_1[&!color=#b33900]:0.003669,MH703056_Yongsan_iflavirus_1[&!color=#b33900]:0.003127)[&label=0.422,!color=#b33900]:0.002057,MH703058_Yongsan_iflavirus_1[&!color=#b33900]:0.0)[&label=0.857,!color=#b33900]:0.002224)[&label=0.851,!color=#b33900]:0.007554)[&label=0.111,!color=#b33900]:0.007128,(ON955112_Jotan_virus[&!color=#b33900]:0.014365,(ON955110_Jotan_virus[&!color=#b33900]:0.0,(MK440624_Jotan_virus[&!color=#b33900]:0.0,ON955111_Jotan_virus[&!color=#b33900]:0.019333)[&label=0.0,!color=#b33900]:0.0)[&label=0.542,!color=#b33900]:0.003503)[&label=0.813,!color=#b33900]:0.006011)[&label=1.0,!color=#b33900]:0.199563,((ON949935_Hanko_iflavirus_1[&!color=#b33900]:0.008373,((ON949936_Hanko_iflavirus_1[&!color=#b33900]:0.001687,(ON949937_Hanko_iflavirus_1[&!color=#b33900]:6.12E-4,(ON949934_Hanko_iflavirus_1[&!color=#b33900]:0.0,ON955063_Hanko_iflavirus_1[&!color=#b33900]:0.001189)[&label=0.424,!color=#b33900]:0.001232)[&label=0.97,!color=#b33900]:0.003867)[&label=0.885,!color=#b33900]:0.003546,(ON949933_Hanko_iflavirus_1[&!color=#b33900]:0.004503,ON955064_Hanko_iflavirus_1[&!color=#b33900]:0.0)[&label=0.741,!color=#b33900]:0.003268)[&label=0.451,!color=#b33900]:0.003364)[&label=1.0,!color=#b33900]:0.096958,((NC_036585_Armigeres_iflavirus[&!color=#b33900]:0.120618,Drungrega_virus_F1090C3F1090[&!color=#b33900]:0.129291)[&label=0.357,!color=#b33900]:0.021526,(MZ202266_Sassandra_virus[&!color=#b33900]:0.142827,(MN784070_Perrin_Park_virus[&!color=#b33900]:6.15E-4,(MN784071_Perrin_Park_virus[&!color=#b33900]:0.0,MN784072_Perrin_Park_virus[&!color=#b33900]:0.0)[&label=0.723,!color=#b33900]:0.0)[&label=1.0,!color=#b33900]:0.153707)[&label=0.885,!color=#b33900]:0.028027)[&label=0.998,!color=#b33900]:0.054852)[&label=0.995,!color=#b33900]:0.089615)[&label=1.0,!color=#b33900]:0.531414,(OM622379_Picornavirales_sp_:0.375096,(OM954149_Flumine_iflavirus_6:0.214311,(OM622384_Picornavirales_sp_:0.010629,OM622420_Picornavirales_sp_:0.005678)[&label=1.0]:0.354356)[&label=1.0]:0.411744)[&label=0.202]:0.231946)[&label=1.0]:0.80421,MG995709_Renmark_bee_virus_2:1.243478)[&label=0.94]:0.152613,(((((NC_032776_Hubei_picorna-like_virus_29:0.335591,OP649595_Recilia_dorsalis_iflavirus_2:0.324558)[&label=1.0]:0.737567,(((NC_033102_Hubei_odonate_virus_3:0.456023,(MZ209924_Sanya_Ischnura_senegalensis_iflavirus_2:0.213515,NC_033061_Hubei_odonate_virus_2:0.244479)[&label=1.0]:0.284976)[&label=1.0]:0.511733,(((((MW826396_Iflaviridae_sp_:0.0,MZ375216_Iflaviridae_sp_:0.00301)[&label=1.0]:0.288675,(NC_031338_Moku_virus:0.257553,MZ394723_Iflaviridae_sp__2:0.299346)[&label=0.536]:0.057719)[&label=1.0]:0.232528,(MN167503_Moran_virus:0.468709,(OK491496_Xiangshan_picorna-like_virus_5:0.271379,NC_033243_Hubei_odonate_virus_4:0.211115)[&label=1.0]:0.118543)[&label=1.0]:0.154952)[&label=1.0]:0.151642,((NC_033099_Hubei_picorna-like_virus_28:0.446528,MT195548_Soybean_thrips_iflavirus_3:0.33276)[&label=1.0]:0.188357,(MZ556259_Sichuan_mosquito_associated_Iflaviridae:0.570761,(NC_032087_Euscelidius_variegatus_virus_1:0.418378,(MN982379_Scaphoideus_titanus_iflavirus_1:0.0,MN982380_Scaphoideus_titanus_iflavirus_1:0.004309)[&label=1.0]:0.365881)[&label=1.0]:0.212856)[&label=1.0]:0.135364)[&label=0.582]:0.066399)[&label=1.0]:0.429238,((((((NC_021567_Nilaparvata_lugens_honeydew_virus-3:0.38129,(MZ210043_Fushun_Iflavirus_1:0.003998,MG815140_Laodelphax_striatellus_iflavirus_1:0.010612)[&label=1.0]:0.380996)[&label=1.0]:0.496512,MN832454_Pittosporum_tobira_picorna-like_virus:0.730706)[&label=0.874]:0.101342,(((OK491495_Xiangshan_picorna-like_virus_4:0.441942,((MG995707_Bundaberg_bee_virus_6:0.150621,(((MT747986_Deformed_wing_virus:0.001167,MT747987_Deformed_wing_virus:0.001168)[&label=0.733]:0.0,(OL803826_Deformed_wing_virus:5.84E-4,KC786222_Varroa_destructor_virus_1:0.00117)[&label=0.908]:0.001167)[&label=0.98]:0.00963,((JX878305_Deformed_wing_virus:0.008105,((MZ821837_Deformed_wing_virus:0.001167,(MZ821817_Deformed_wing_virus:0.001752,MH165180_Deformed_wing_virus:0.008788)[&label=0.892]:0.001168)[&label=0.899]:0.001168,(((MZ821829_Deformed_wing_virus:0.0,MZ821835_Deformed_wing_virus:0.0):0.001752,(MZ821828_Deformed_wing_virus:0.001752,(MF036686_Deformed_wing_virus:0.003503,(MF770715_Deformed_wing_virus:0.004677,MZ821820_Deformed_wing_virus:0.001167)[&label=0.0]:0.0)[&label=0.855]:5.83E-4)[&label=0.0]:0.0)[&label=0.896]:0.001166,(OL803822_Deformed_wing_virus:0.002927,(MH267696_Deformed_wing_virus:5.84E-4,((MZ867712_Deformed_wing_virus:5.84E-4,(MZ867710_Deformed_wing_virus:5.84E-4,MN746311_Deformed_wing_virus:0.0)[&label=0.0]:0.0)[&label=0.744]:0.0,MW314659_Deformed_wing_virus:0.003133)[&label=0.171]:5.83E-4)[&label=0.927]:0.001752)[&label=0.922]:0.001753)[&label=0.0]:0.0)[&label=0.737]:6.78E-4)[&label=0.493]:0.001328,(MZ821818_Deformed_wing_virus:5.86E-4,MZ821834_Deformed_wing_virus:5.81E-4)[&label=0.995]:0.006197)[&label=0.963]:0.009153)[&label=1.0]:0.101526)[&label=1.0]:0.204201,(MG995697_Darwin_bee_virus_3:0.275401,(MT482495_PNG_bee_virus_13:0.273645,OK491493_Xiangshan_picorna-like_virus_2:0.245635)[&label=0.997]:0.135104)[&label=1.0]:0.100212)[&label=0.971]:0.086713)[&label=0.982]:0.122687,MZ443611_Leuven_Picorna-like_virus_8:0.712505)[&label=0.531]:0.097641,(MF287666_Formica_pressilabris_virus_2:0.005237,NC_023022_Formica_exsecta_virus_2:0.003809)[&label=1.0]:0.608774)[&label=0.993]:0.095931)[&label=0.986]:0.071032,(MZ822075_Apis_iflavirus_1:0.733522,(MN558692_Erysiphe_necator_associated_picorna-like_virus_1:0.568057,OL700169_XiangYun_picorna-like_virus_1:0.737021)[&label=1.0]:0.279418)[&label=0.929]:0.084713)[&label=0.987]:0.076133,((MN560635_Rondonia_iflavirus_1:0.473679,(MZ956595_Giant_panda_Iflavirus:0.325778,((NC_033619_Helicoverpa_armigera_iflavirus:0.078283,(MN164617_Pink_bollworm_virus_1:0.001241,MN164618_Pink_bollworm_virus_1:5.25E-4)[&label=1.0]:0.08853)[&label=1.0]:0.115416,(((MW115117_Antheraea_mylitta_iflavirus:0.082384,(NC_023483_Antheraea_pernyi_iflavirus:0.048341,MZ209776_Guiyang_srgiope_bruennichi_iflavirus_1:0.060306)[&label=0.999]:0.032987)[&label=1.0]:0.053085,(NC_026250_Thaumetopoea_pityocampa_iflavirus_1:0.099002,(NC_027713_Bombyx_mori_iflavirus:0.107118,(NC_024497_Lymantria_dispar_iflavirus_1:0.008274,(MN938851_Lymantria_dispar_iflavirus_1:0.0,MT753155_Lymantria_dispar_iflavirus_1:0.0):0.009854)[&label=1.0]:0.097348)[&label=0.921]:0.021859)[&label=0.741]:0.01739)[&label=1.0]:0.070579,(MZ209851_Sanya_iflavirus_1:0.110021,NC_024016_Heliconius_erato_iflavirus:0.12665)[&label=0.986]:0.047353)[&label=1.0]:0.075992)[&label=1.0]:0.121871)[&label=1.0]:0.169909)[&label=1.0]:0.352206,(MW826397_Iflaviridae_sp_:0.551802,(MW826393_Iflaviridae_sp_:0.311924,((MT137969_Iflaviridae_sp_:0.001138,MT137976_Iflaviridae_sp_:0.00369)[&label=0.749]:0.005665,(MH778501_King_virus:5.93E-4,(MH778500_King_virus:0.001821,NC_031749_King_virus:0.001479)[&label=0.886]:0.001665)[&label=0.705]:0.00497)[&label=1.0]:0.326758)[&label=1.0]:0.374261)[&label=0.983]:0.130852)[&label=1.0]:0.110069)[&label=0.995]:0.091712,(NC_033046_Hubei_picorna-like_virus_27:0.479563,(NC_033030_Hubei_coleoptera_virus_1:0.463174,MG012488_Tribolium_castaneum_iflavirus:0.285334)[&label=0.998]:0.136607)[&label=1.0]:0.414272)[&label=0.791]:0.066149)[&label=0.469]:0.04893)[&label=0.998]:0.099521,(((KP777548_Brevicoryne_brassicae_virus:0.012718,NC_009530_Brevicoryne_brassicae_virus:0.002007)[&label=1.0]:0.884575,(NC_034217_Pityohyphantes_rubrofasciatus_iflavirus:0.251155,(MT137971_Iflaviridae_sp_:0.026289,MT137990_Iflaviridae_sp_:0.026857)[&label=1.0]:0.242914)[&label=1.0]:0.817374)[&label=0.332]:0.08913,(((MW256668_Bemisia_tabaci_picorna-like_virus_1:0.634203,(ON746503_Jinan_Picor_tick_virus_1:0.0,ON812448_Picornaviridae_sp_:0.0):0.414291)[&label=0.117]:0.061385,(MZ210044_Fushun_Iflavirus_2:0.290224,(KT698837_Diaphorina_citri_picorna-like_virus:0.398074,(OM937767_Leuronota_fagarae_picorna-like_virus:0.300669,(OK011764_Bactericera_cockerelli_picorna-like_virus:0.002584,(OK011763_Bactericera_cockerelli_picorna-like_virus:0.0,OK011765_Bactericera_cockerelli_picorna-like_virus:0.002293)[&label=0.586]:4.75E-4)[&label=1.0]:0.281996)[&label=0.924]:0.104683)[&label=0.0]:0.067653)[&label=1.0]:0.461002)[&label=0.925]:0.080099,ON304033_Avian_associated_picorna-like_virus_10:0.515347)[&label=1.0]:0.559182)[&label=0.913]:0.05582)[&label=0.136]:0.044506)[&label=0.344]:0.050503,((NC_032435_Shahe_heteroptera_virus_2:0.918683,(NC_033189_Sanxia_water_strider_virus_21:0.999058,MN551122_Plasmopara_viticola_lesion_associated_picorna-like_3:1.508543)[&label=0.914]:0.143786)[&label=0.941]:0.124427,(NC_021566_Nilaparvata_lugens_honeydew_virus-2:0.935588,(OM650306_Halyomorpha_halys_ifla-like_virus_1:0.604876,((MZ209618_Hangzhou_iflavirus_4:0.002199,NC_038302_Nilaparvata_lugens_honeydew_virus_1:0.009389)[&label=1.0]:0.255813,((NC_023627_Laodelphax_striatella_honeydew_virus_1:0.008795,NC_025788_Laodelphax_striatellus_picorna-like_virus_2:2.22E-4)[&label=1.0]:0.148356,(MG818986_Sogatella_furcifera_honeydew_virus:0.008673,(MZ209611_Hangzhou_iflavirus_2:0.003845,MZ210055_Hangzhou_sogatella_furcifera_iflavirus_1:0.003886)[&label=0.6]:0.002676)[&label=1.0]:0.156845)[&label=1.0]:0.135004)[&label=1.0]:0.424343)[&label=0.998]:0.19155)[&label=1.0]:0.213964)[&label=0.991]:0.093229)[&label=0.99]:0.067183,((((MN918690_Picornavirales_sp_:1.144269,NC_033180_Sanxia_water_strider_virus_7:0.888429)[&label=0.387]:0.137209,NC_040675_Nesidiocoris_tenuis_iflavirus_1:1.016168)[&label=0.991]:0.176616,(MZ209922_Sanya_Ischnura_senegalensis_iflavirus_1:0.292427,MZ209721_Hangzhou_lschnura_senegalensis_iflavirus_1:0.266082)[&label=1.0]:1.208146)[&label=0.97]:0.131308,((NC_040601_Varroa_destructor_iflavirus_1:1.173997,(MN551117_Plasmopara_viticola_lesion_associated_iflavirus_1:1.096621,((MW741888_Ixodes_holocyclus_iflavirus:0.0,(KY020412_Ixodes_holocyclus_iflavirus:0.0,(((OL452110_Ixodes_holocyclus_iflavirus:6.23E-4,(OL452111_Ixodes_holocyclus_iflavirus:0.0,(OL452106_Ixodes_holocyclus_iflavirus:0.0,OL452109_Ixodes_holocyclus_iflavirus:0.0):0.0)[&label=0.0]:0.0)[&label=0.866]:6.23E-4,((OL452112_Ixodes_holocyclus_iflavirus:6.23E-4,(OL452115_Ixodes_holocyclus_iflavirus:6.23E-4,(OL452113_Ixodes_holocyclus_iflavirus:0.0,OL452114_Ixodes_holocyclus_iflavirus:0.0):0.0)[&label=0.0]:0.0)[&label=0.857]:6.23E-4,OL452107_Ixodes_holocyclus_iflavirus:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,OL452108_Ixodes_holocyclus_iflavirus:0.0)[&label=0.92]:0.001246)[&label=0.975]:0.00249)[&label=1.0]:0.469734,(BK012003_Iflavirus_HdromIV:0.334527,(ON811762_Iflaviridae_sp_:0.004926,(ON811764_Iflaviridae_sp_:0.003135,(ON746399_Linzhi_Iflav_tick_virus_1:0.001886,ON811763_Iflaviridae_sp_:0.0)[&label=0.953]:0.003784)[&label=0.817]:0.00584)[&label=1.0]:0.270839)[&label=1.0]:0.268888)[&label=1.0]:0.446847)[&label=1.0]:0.260099)[&label=0.892]:0.090967,(((MZ209967_Sanya_iflavirus_8:0.620079,(MZ679119_Iflaviridae_sp_:0.502909,(((MW676132_Hypera_postica_associated_iflavirus_2:0.049611,MW676131_Hypera_postica_associated_iflavirus_1:0.052953)[&label=1.0]:0.331624,(MH620812_Lampyris_noctiluca_iflavirus_2:0.370989,(MT822188_Serbia_picorna-like_virus_2:0.335603,(MT129692_ACT_flea_iflavirus:0.223504,MN167484_Watson_virus:0.314961)[&label=0.407]:0.053024)[&label=1.0]:0.149015)[&label=0.659]:0.069188)[&label=0.499]:0.045528,(MZ679124_Iflaviridae_sp_:0.308768,MT860988_Aulacophora_lewisii_iflavirus_1:0.275515)[&label=0.999]:0.149088)[&label=0.97]:0.079606)[&label=1.0]:0.271341)[&label=1.0]:0.245938,(MW256671_Bemisia_tabaci_iflavirus_1:0.681503,MZ443613_Leuven_Picorna-like_virus_10:0.591914)[&label=1.0]:0.368754)[&label=0.169]:0.082348,(((MZ209994_Fushun_cicadella_viridis_iflavirus_1:0.274834,ON402369_Exitianus_exitiosus_virus_2:0.267511)[&label=1.0]:0.473846,(MN167498_Carfax_virus:0.556369,(KU754510_Kinkell_virus:0.470942,OL420704_Khandagaity_Melophagus_ifla-like_virus:0.424097)[&label=1.0]:0.260002)[&label=1.0]:0.373023)[&label=0.834]:0.098434,NC_032994_Shuangao_insect_virus_12:1.019855)[&label=0.996]:0.122437)[&label=1.0]:0.120212)[&label=0.912]:0.076097)[&label=0.514]:0.032793)[&label=0.986]:0.065368,((MN714668_Thrips_tabaci_associated_iflavirus_1:0.244785,(MT195547_Soybean_thrips_iflavirus_2:0.178491,MN714670_Frankliniella_occidentalis_associated_iflavirus_1:0.150494)[&label=0.997]:0.110047)[&label=1.0]:0.949068,(NC_036389_Chequa_iflavirus:1.065434,((MT138150_Picornavirales_sp_:0.629451,(MN164623_Pink_bollworm_virus_4:0.666427,(((MN167485_Baskerville_virus:0.624216,(AY534885_Venturia_canescens_picorna-like_virus:0.370085,(MK682509_Lysiphlebus_fabarum_rna-virus_type_A:0.007257,MK682510_Lysiphlebus_fabarum_rna-virus_type_B:0.007206)[&label=1.0]:0.302036)[&label=0.985]:0.118529)[&label=0.996]:0.107975,((MF998083_Bee_iflavirus_1:0.332573,(NC_033455_Wuhan_insect_virus_13:0.144361,MW199260_Picornavirales_sp_:0.136051)[&label=1.0]:0.194042)[&label=1.0]:0.282737,(((MH188010_Culex_Iflavi-like_virus_3[&!color=#b33900]:0.003358,(MW434116_Culex_Iflavi-like_virus_3[&!color=#b33900]:0.003198,MW434117_Culex_Iflavi-like_virus_3[&!color=#b33900]:0.00353)[&label=0.285,!color=#b33900]:0.008383)[&label=1.0,!color=#b33900]:0.384817,((LC513835_Isahaya_Culex_iflavirus[&!color=#b33900]:0.047658,Doriptiled_virus_F1453C1F1453[&!color=#b33900]:0.061731)[&label=1.0,!color=#b33900]:0.135594,(MK440627_Ista_virus[&!color=#b33900]:0.066619,(OL700170_XiangYun_picorna-like_virus_2[&!color=#b33900]:0.004885,(OL700172_XiangYun_picorna-like_virus_2[&!color=#b33900]:0.006572,OL700171_XiangYun_picorna-like_virus_2[&!color=#b33900]:0.002589)[&label=0.891,!color=#b33900]:0.003362)[&label=1.0,!color=#b33900]:0.059607)[&label=1.0,!color=#b33900]:0.111188)[&label=1.0,!color=#b33900]:0.190657)[&label=1.0,!color=#b33900]:0.327539,((LC496784_Tesano_Aedes_virus[&!color=#b33900]:0.082082,(MN314969_Aedes_vexans_iflavirus[&!color=#b33900]:5.97E-4,OP264887_Aedes_vexans_iflavirus[&!color=#b33900]:0.0)[&label=1.0,!color=#b33900]:0.090396)[&label=1.0,!color=#b33900]:0.304788,(MN661040_Sabaleta_virus[&!color=#b33900]:0.07916,(MN661038_Chajerado_virus[&!color=#b33900]:0.088406,MN661039_Isla_virus[&!color=#b33900]:0.097839)[&label=0.996,!color=#b33900]:0.065191)[&label=1.0,!color=#b33900]:0.423397)[&label=1.0,!color=#b33900]:0.225875)[&label=0.999,!color=#b33900]:0.131083)[&label=0.943]:0.050509)[&label=0.98]:0.075244,((NC_033225_Hubei_picorna-like_virus_30:0.62196,NC_025835_Dinocampus_coccinellae_paralysis_virus:0.587928)[&label=0.699]:0.108747,((OK392073_Planococcus_ficus-associated_iflavirus_1:0.001079,OP349063_Anagyrus_vladimiri_iflavirus:1.07E-4)[&label=1.0]:0.514383,(FJ790486_Nasonia_vitripennis_virus:0.412112,(MT739422_Tetrastichus_brontispae_RNA_virus_3:0.400493,NC_033418_Wuhan_coneheads_virus_1:0.455069)[&label=0.902]:0.0587)[&label=0.93]:0.067575)[&label=1.0]:0.184066)[&label=0.785]:0.0637)[&label=0.191]:0.06087)[&label=0.99]:0.113586)[&label=1.0]:0.200553,(NC_032218_Hubei_myriapoda_virus_1:0.871901,(MZ209979_Sanya_iflavirus_9:0.792926,((MW251331_Uzakla_insect_virus:0.664018,(MW052132_Hiksystermes_virus:0.328477,MW052135_Moksystermes_virus:0.312058)[&label=1.0]:0.252646)[&label=0.78]:0.090359,MT860233_Solenopsis_invicta_virus_16:0.850365)[&label=0.142]:0.066116)[&label=0.271]:0.08238)[&label=1.0]:0.30088)[&label=1.0]:0.233811)[&label=0.953]:0.091767)[&label=0.847]:0.067379)[&label=0.998]:0.094997)[&label=0.998]:0.109103)[&label=0.981]:0.151919,(EU868609_Infectious_flacherie_virus:0.682352,(MT137950_Iflaviridae_sp_:0.689406,NC_027917_Opsiphanes_invirae_iflavirus_1:0.680686)[&label=0.349]:0.152135)[&label=1.0]:1.051579)[&label=0.999]:0.208695)[&label=1.0]:0.364491)[&label=0.783]:0.115129)[&label=0.99]:0.080707)[&label=1.0]:0.165798)[&label=0.994]:0.089181)[&label=1.0]:0.258303,(MT482477_Sacbrood_virus:0.006874,(MN082651_Sacbrood_virus:0.004781,((((MZ821926_Sacbrood_virus:0.002302,(MZ821920_Sacbrood_virus:0.001149,(MN395732_Iflavirus_sp_:0.002872,MZ821923_Sacbrood_virus:0.0)[&label=0.283]:0.001149)[&label=0.982]:0.003537)[&label=0.944]:0.004496,(KU574661_Sacbrood_virus:0.009913,MZ821922_Sacbrood_virus:0.008026)[&label=0.342]:0.004992)[&label=0.796]:0.004731,((KP296802_Sacbrood_virus:0.004611,(KP296803_Sacbrood_virus:0.00342,((MN528599_Sacbrood_virus:0.01044,(HQ322114_Sacbrood_virus:5.38E-4,JQ390592_Sacbrood_virus:0.008111)[&label=0.742]:0.001162)[&label=0.926]:0.001762,KP296801_Sacbrood_virus:0.002231)[&label=0.491]:0.001185)[&label=0.723]:6.07E-4)[&label=0.978]:0.003585,((((OM744330_Sacbrood_virus:0.005189,MG733283_Sacbrood_virus:0.006915)[&label=0.739]:0.0,((MZ821936_Sacbrood_virus:0.0,MZ821937_Sacbrood_virus:0.0)[&label=0.982]:0.002871,(((MN082652_Sacbrood_virus:0.011608,KM495267_Sacbrood_virus:0.00984)[&label=0.88]:0.0,(KX786162_Sacbrood_virus:0.004032,(MH509439_Sacbrood_virus:0.004019,(MZ821919_Sacbrood_virus:0.0,MZ821921_Sacbrood_virus:0.0)[&label=0.975]:0.00287)[&label=0.753]:5.74E-4)[&label=0.0]:0.0)[&label=0.0]:0.0,(MZ821931_Sacbrood_virus:0.0,MZ821932_Sacbrood_virus:0.0):0.005172)[&label=0.8]:5.73E-4)[&label=0.75]:5.74E-4)[&label=0.0]:0.0,((KJ959614_Sacbrood_virus:0.0046,KM884994_Sacbrood_virus:0.004611)[&label=0.992]:0.005184,KJ716805_Sacbrood_virus:0.001738)[&label=0.738]:5.71E-4)[&label=0.0]:0.0,(KM884993_Sacbrood_virus:0.006859,((KM884990_Sacbrood_virus:0.0,KM884991_Sacbrood_virus:0.0):0.001236,KM884992_Sacbrood_virus:0.002216)[&label=0.151]:0.001144)[&label=0.759]:0.003549)[&label=0.991]:0.005054)[&label=0.595]:0.001369)[&label=0.928]:0.002646,(KU574662_Sacbrood_virus:0.013198,(KC007374_Sacbrood_virus:0.006722,(KX668140_Sacbrood_virus:0.010344,(KJ959613_Sacbrood_virus:0.0,KM884995_Sacbrood_virus:0.003448)[&label=0.999]:0.009287)[&label=0.98]:0.004734)[&label=0.873]:0.001502)[&label=0.764]:0.00115)[&label=0.993]:0.005768)[&label=0.78]:0.001716)[&label=0.737]:9.53E-4)[&label=0.781]:0.001143)[&label=0.87]:0.002239)[&label=0.843]:0.003239)[&label=0.952]:0.002913,KY465678_Sacbrood_virus:0.001725)[&label=0.736]:5.77E-4)[&label=0.724]:5.72E-4)[&label=0.0]:0.0,(KY465677_Sacbrood_virus:0.0,(KP296800_Sacbrood_virus:0.001147,KY465672_Sacbrood_virus:0.001151)[&label=0.77]:5.74E-4)[&label=0.837]:5.74E-4,(KY465674_Sacbrood_virus:0.0,((JQ390591_Sacbrood_virus:5.74E-4,(((KY887697_Sacbrood_virus:0.001723,KY887698_Sacbrood_virus:0.001723)[&label=0.0]:0.0,KY887699_Sacbrood_virus:0.0)[&label=0.786]:5.74E-4,KY465676_Sacbrood_virus:0.001148)[&label=0.782]:5.74E-4)[&label=0.489]:0.0,KY465671_Sacbrood_virus:0.001723)[&label=0.0]:0.0)[&label=0.0]:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=150;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

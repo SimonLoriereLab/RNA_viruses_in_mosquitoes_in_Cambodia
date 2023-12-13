@@ -1,0 +1,935 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=833;
+	taxlabels
+	AB176964_Magnaporthe_oryzae_virus_1
+	AB429554_Lentinula_edodes_mycovirus_HKB
+	AB558119_Rhizophagus_sp__RF1_medium_virus
+	AB620063_Rosellinia_necatrix_quadrivirus_1
+	AB735629_Persimmon_latent_virus
+	AF525216_Giardia_lamblia_virus
+	AJ781166_Alphachrysovirus_cerasi
+	AJ781397_Alphachrysovirus_cerasi
+	AM085134_Cherry_chlorotic_rusty_spot_associated_partitivirus
+	AM111096_Phlebiopsis_gigantea_mycovirus_dsRNA_1
+	AM111097_Phlebiopsis_gigantea_mycovirus_dsRNA_2
+	AP014897_Diatom_colony_associated_dsRNA_virus_6
+	AP014898_Diatom_colony_associated_dsRNA_virus_7
+	AP014899_Diatom_colony_associated_dsRNA_virus_8
+	AP014910_Diatom_colony_associated_dsRNA_virus_17_genome_type_A
+	Accrood_virus_F1561C1F1258[&!color=#b33c00]
+	Accrood_virus_F1561C1F1561[&!color=#b33c00]
+	Adjoured_virus_F1191C7F1191[&!color=#b33c00]
+	Adjoured_virus_F1191C7F1194[&!color=#b33c00]
+	Adlissaust_virus_F1183C2F1183[&!color=#b33c00]
+	Adsentalan_virus_F1186C10F1177[&!color=#b33c00]
+	Adsentalan_virus_F1186C10F1186[&!color=#b33c00]
+	Adsentalan_virus_F1186C10F1187[&!color=#b33c00]
+	Aedes_aegypti_toti_like_virus_F1063C6F1002[&!color=#b33c00]
+	Aedes_aegypti_toti_like_virus_F1063C6F1063[&!color=#b33c00]
+	Aedes_aegypti_totivirus_F1506C12C58C205F1506[&!color=#b33c00]
+	Aeriandims_virus_subsp1_F1156C2F1045[&!color=#b33c00]
+	Aeriandims_virus_subsp1_F1156C2F1142[&!color=#b33c00]
+	Aeriandims_virus_subsp1_F1156C2F1156[&!color=#b33c00]
+	Aeriandims_virus_subsp2_F1583C1F1583[&!color=#b33c00]
+	Aftionautor_virus_F1470C2F1470[&!color=#b33c00]
+	Aftionautor_virus_F1470C2F1471[&!color=#b33c00]
+	Agrichlet_virus_F1434C1F1407[&!color=#b33c00]
+	Agrichlet_virus_F1434C1F1434[&!color=#b33c00]
+	Agrichlet_virus_F1434C1F1445[&!color=#b33c00]
+	Agrichlet_virus_F1434C1F1456[&!color=#b33c00]
+	Andbire_virus_F1046C18F1046[&!color=#b33c00]
+	Andiett_virus_F1132C2F1132[&!color=#b33c00]
+	Ansforinte_virus_F1367C12F1360[&!color=#b33c00]
+	Ansforinte_virus_F1367C12F1367[&!color=#b33c00]
+	BK059668_Sphaeridi_virus
+	BK059861_Otus_toti-like_virus
+	BK059864_Laestrygon_toti-like_virus
+	BK059871_Chrysaor_toti-like_virus
+	BK059877_Antaeus_toti-like_virus_2
+	BK059878_Antaeus_toti-like_virus_1
+	BK059880_Aloadae_toti-like_virus_2
+	Belfgalbs_virus_F1490C6F1490[&!color=#b33c00]
+	Coundenality_virus_F1183C376F1183[&!color=#b33c00]
+	Counshes_virus_F1497C40F1497[&!color=#b33c00]
+	Culex_inatomii_totivirus_F1570C24F1570[&!color=#b33c00]
+	Culex_inatomii_totivirus_F1570C24F1582[&!color=#b33c00]
+	Culex_vishnui_subgroup_totivirus_F1143C11F1143[&!color=#b33c00]
+	DQ238861_Giardia_lamblia_virus
+	DQ494564_Ustilago_maydis_virus_H1
+	DQ494569_Ustilago_maydis_virus_H1
+	DQ494571_Ustilago_maydis_virus_H1
+	DQ494574_Ustilago_maydis_virus_H1
+	DQ494576_Ustilago_maydis_virus_H1
+	DQ494578_Ustilago_maydis_virus_H1
+	DQ494579_Ustilago_maydis_virus_H1
+	DQ494581_Ustilago_maydis_virus_H1
+	DQ494582_Ustilago_maydis_virus_H1
+	DQ494586_Ustilago_maydis_virus_H1
+	DQ494589_Ustilago_maydis_virus_H1
+	DQ494592_Ustilago_maydis_virus_H1
+	DQ494597_Ustilago_maydis_virus_H1
+	DQ865186_Alphachrysovirus_cryphonectriae
+	Demadles_virus_F1497C7F1497[&!color=#b33c00]
+	EU289896_Aspergillus_mycovirus_1816
+	EU547739_Diplodia_scrobiculata_RNA_virus_1
+	FR750563_Tolypocladium_cylindrosporum_virus_2
+	Fanomonover_virus_F1497C15F1497[&!color=#b33c00]
+	Flatesals_virus_F1187C10F1177[&!color=#b33c00]
+	Flatesals_virus_F1187C10F1178[&!color=#b33c00]
+	Flatesals_virus_F1187C10F1187[&!color=#b33c00]
+	GQ290650_Alphachrysovirus_cryphonectriae
+	GQ290652_Alphachrysovirus_cryphonectriae
+	GU108588_Grapevine_associated_chrysovirus-1
+	Gainquerated_virus_F1367C33F1367[&!color=#b33c00]
+	Gainquerated_virus_F1367C33F1414[&!color=#b33c00]
+	Gainquerated_virus_F1367C33F1426[&!color=#b33c00]
+	HQ228213_Betachrysovirus_fugramineari
+	HQ339954_Piscine_myocarditis_virus_AL_V-708
+	HQ343295_Betachrysovirus_fugramineari
+	HQ607514_Trichomonas_vaginalis_virus_2
+	HQ607516_Trichomonas_vaginalis_virus_1
+	Hubei_chryso_like_virus_1_F1427C12F1425[&!color=#b33c00]
+	Hubei_chryso_like_virus_1_F1427C12F1427[&!color=#b33c00]
+	Hubei_chryso_like_virus_1_F1427C12F1431[&!color=#b33c00]
+	JN603241_Phytophthora_infestans_RNA_virus_3
+	JN624781_Piscine_myocarditis_virus_TT-2012
+	JN997472_Xanthophyllomyces_dendrorhous_virus_L1A
+	JN997474_Xanthophyllomyces_dendrorhous_virus_L1A
+	JQ513382_Sclerotinia_sclerotiorum_dsRNA_mycovirus-L
+	KC433710_Ustilaginoidea_virens_RNA_virus_1
+	KF274642_Leptopilina_boulardi_Toti-like_virus
+	KF298277_uncultured_virus
+	KF688736_Betachrysovirus_botryosphaeriae
+	KF757256_Leishmania_aethiopica_RNA_virus
+	KJ573505_Betachrysovirus_botryosphaeriae
+	KM657432_Rhizoctonia_fumigata_mycovirus
+	KP642121_dsRNA_virus_environmental_sample
+	KP642122_dsRNA_virus_environmental_sample
+	KP642123_dsRNA_virus_environmental_sample
+	KP642124_dsRNA_virus_environmental_sample
+	KP642125_dsRNA_virus_environmental_sample
+	KP642128_dsRNA_virus_environmental_sample
+	KP782031_Alphachrysovirus_brassicae
+	KP893140_Magnaporthe_oryzae_virus_3
+	KT013296_Papaya_meleira_virus
+	KT188753_Ustilaginoidea_virens_RNA_virus_5
+	KT222801_Phakopsora_pachyrhizi_mycovirus
+	KT222802_Phakopsora_pachyrhizi_mycovirus
+	KT455449_Delisea_pulchra_totivirus_IndA
+	KT455450_Delisea_pulchra_totivirus_IndA
+	KT455451_Delisea_pulchra_totivirus_IndA
+	KT455452_Delisea_pulchra_totivirus_IndA
+	KT455453_Delisea_pulchra_totivirus_IndA
+	KT455456_Delisea_pulchra_totivirus_IndA
+	KT455457_Delisea_pulchra_totivirus_IndA
+	KT455458_Delisea_pulchra_totivirus_IndA
+	KT598241_Soybean_leaf-associated_botybirnavirus_1
+	KT601108_Wallemia_sebi_mycovirus_1
+	KT601119_Pleosporales_megabirnavirus_1
+	KT784813_Saccharomyces_cerevisiae_virus_L-BC-lus
+	KT962972_Sclerotinia_sclerotiorum_botybirnavirus_2
+	KU291926_Pterostylis_sanguinea_totivirus_A
+	KU291938_Ceratobasidium_virus_B
+	KU291947_Ceratobasidium_virus_A
+	KU291967_Pterostylis_megabirnavirus-like
+	KU299047_Sclerotinia_sclerotiorum_double-stranded_RNA_virus_3
+	KX148550_Anopheles_totivirus
+	KX148557_Chrysovirus-like
+	KX882940_Hubei_toti-like_virus_6
+	KX882941_Wenzhou_toti-like_virus_2
+	KX882943_Beihai_toti-like_virus_5
+	KX882944_Beihai_toti-like_virus_2
+	KX882947_Beihai_toti-like_virus_1
+	KX882950_Beihai_toti-like_virus_3
+	KX882959_Alphachrysovirus_shuangaoense[&!color=#000000]
+	KX882961_Jingmen_toti-like_virus_1
+	KX882962_Hubei_chryso-like_virus_1[&!color=#000000]
+	KX882964_Alphachrysovirus_shuangaoense[&!color=#000000]
+	KX882965_Hubei_toti-like_virus_8
+	KX882968_Hubei_toti-like_virus_11
+	KX882969_Hubei_toti-like_virus_14
+	KX882971_Hubei_toti-like_virus_7
+	KX882973_Hubei_chryso-like_virus_2[&!color=#000000]
+	KX882981_Hubei_toti-like_virus_4
+	KX882982_Hubei_toti-like_virus_12
+	KX882984_Wuhan_insect_virus_30
+	KX882987_Wuhan_insect_virus_29
+	KX882991_Wenling_toti-like_virus_1
+	KX882999_Hubei_toti-like_virus_3
+	KX883755_Beihai_hepe-like_virus_1
+	KX906605_Saccharomyces_cerevisiae_virus_LBCLa
+	KY207361_Puccinia_striiformis_totivirus_1
+	KY207362_Puccinia_striiformis_totivirus_2
+	KY207363_Puccinia_striiformis_totivirus_3
+	KY207364_Puccinia_striiformis_totivirus_4
+	KY489954_Alphachrysovirus_helminthosporii
+	KY489969_Saccharomyces_uvarum_virus_L-A-10560
+	KY489970_Saccharomyces_kudriavzevii_virus_L-A-1082
+	L13218_Giardia_lamblia_virus
+	LC061478_Yado-nushi_virus_1-A
+	LC062729_Alphachrysovirus_cryphonectriae
+	LC065455_Magnaporthe_oryzae_chrysovirus_1
+	LC075489_Red_clover_powdery_mildew-associated_totivirus_4
+	LC075490_Red_clover_powdery_mildew-associated_totivirus_5
+	LC075491_Red_clover_powdery_mildew-associated_totivirus_6
+	LC075492_Red_clover_powdery_mildew-associated_totivirus_7
+	LC075493_Red_clover_powdery_mildew-associated_totivirus_8
+	LC333738_Rosellinia_necatrix_fusagravirus_2
+	LC333739_Rosellinia_necatrix_fusagravirus_3
+	LC333746_Rosellinia_necatrix_megatotivirus_1
+	LC333756_Rosellinia_necatrix_megabirnavirus_3
+	LC350094_Alphachrysovirus_aspergilli
+	LC350277_Betachrysovirus_alternariae
+	LC376044_Pythium_polare_RNA_virus_1
+	LC432338_Magnaporthe_oryzae_chrysovirus_1
+	LC437024_Alternaria_alternata_botybirnavirus_1
+	LC496074_Aedes_aegypti_totivirus
+	LC514295_Culex_vishnui_subgroup_totivirus
+	LC514396_Hubei_chryso-like_virus_1[&!color=#000000]
+	LC514398_Culex_inatomii_totivirus
+	LC516853_Barley_aphid_RNA_virus_8
+	LC553680_Alphachrysovirus_aspergilli
+	LC567881_Culex_vishnui_subgroup_totivirus
+	LC660689_Totiviridae_sp_
+	LC671614_Syncephalastrum_racemosum_totivirus_1
+	LC698264_Totiviridae_sp_
+	LR595928_Umbelopsis_ramanniana_virus_4
+	M28353_Saccharomyces_cerevisiae_virus_L-A
+	MF034087_Bipolaris_maydis_botybirnavirus_1
+	MF073201_Australian_Anopheles_totivirus
+	MF176261_Hubei_chryso-like_virus_1[&!color=#000000]
+	MF176280_Hubei_chryso-like_virus_1[&!color=#000000]
+	MF176388_Hubei_chryso-like_virus_1[&!color=#000000]
+	MF344587_Murici_virus
+	MF372917_Maize_associated_totivirus_1
+	MF425846_Maize-associated_totivirus_3
+	MF444215_Sclerotinia_sclerotiorum_botybirnavirus_3
+	MF893249_Larkfield_virus
+	MG256177_Gigaspora_margarita_giardia-like_virus_1
+	MG546516_Sogatella_furcifera_totivirus_2
+	MG647775_Lonestar_tick_totivirus
+	MG887760_Alphachrysovirus_penicillii
+	MH085092_Hubei_chryso-like_virus_1[&!color=#000000]
+	MH188048_Totivirus-like_Culex_mosquito_virus_1
+	MH323409_Pestalotiopsis_theae_chrysovirus_1
+	MH396496_Bipolaris_maydis_victorivirus_1
+	MH684534_Botryosphaeria_dothidea_botybirnavirus_1
+	MH745159_Alphachrysovirus_shuangaoense[&!color=#000000]
+	MH766494_Sclerotium_rolfsii_RNA_virus_1
+	MH766495_Sclerotium_rolfsii_RNA_virus_2
+	MH931187_Alphachrysovirus_zeae
+	MH931193_Alphachrysovirus_zeae
+	MH931198_Alphachrysovirus_zeae
+	MH931201_Alphachrysovirus_zeae
+	MH931202_Alphachrysovirus_zeae
+	MH931206_Alphachrysovirus_zeae
+	MH936014_Alphachrysovirus_zeae
+	MH936015_Alphachrysovirus_zeae
+	MH936016_Alphachrysovirus_zeae
+	MH936017_Alphachrysovirus_zeae
+	MK037419_Maize_associated_totivirus
+	MK066242_Maize_associated_totivirus
+	MK214380_Alphachrysovirus_penicillii
+	MK231031_Phakopsora_totivirus_D
+	MK231081_Phakopsora_totivirus_E
+	MK231104_Uromyces_totivirus_B
+	MK231122_Uromyces_totivirus_D
+	MK231126_Phakopsora_totivirus_B
+	MK231127_Phakopsora_totivirus_A
+	MK231128_Phakopsora_totivirus_C
+	MK231132_Uromyces_totivirus_A
+	MK231133_Ambrosiozyma_totivirus_A
+	MK256972_Alternaria_alternata_botybirnavirus_1
+	MK279429_Alphachrysovirus_penicillii
+	MK279433_Alphachrysovirus_isariae
+	MK279498_Hortaea_werneckii_totivirus_1
+	MK440642_Ahus_virus
+	MK440645_Osta_virus
+	MK440653_Lindangsbacken_virus
+	MK440655_Eskilstorp_virus[&!color=#000000]
+	MK440659_Salja_virus
+	MK507788_Rhizoctonia_solani_dsRNA_virus_6
+	MK507790_Rhizoctonia_solani_dsRNA_virus_8
+	MK530703_Sclerotinia_sclerotiorum_botybirnavirus_3
+	MK532272_Rhizoctonia_solani_dsRNA_virus_10
+	MK584808_Betachrysovirus_alternariae
+	MK672910_Betachrysovirus_alternariae
+	MK967418_Cronartium_ribicola_totivirus_1
+	MK967419_Cronartium_ribicola_totivirus_2
+	MK967420_Cronartium_ribicola_totivirus_3
+	MK967421_Cronartium_ribicola_totivirus_4
+	MK993478_Trichoderma_koningiopsis_totivirus_1
+	MN032678_Totiviridae_sp_
+	MN032968_Totiviridae_sp_
+	MN033316_Totiviridae_sp_
+	MN033374_Totiviridae_sp_
+	MN033604_Totiviridae_sp_
+	MN033636_Totiviridae_sp_
+	MN033948_Totiviridae_sp_
+	MN035108_Totiviridae_sp_
+	MN035544_Totiviridae_sp_
+	MN035661_Totiviridae_sp_
+	MN036163_Totiviridae_sp_
+	MN053720_Aedes_aegypti_toti-like_virus
+	MN053721_Aedes_aegypti_toti-like_virus
+	MN053722_Aedes_aegypti_totivirus
+	MN053723_Aedes_aegypti_totivirus
+	MN053724_Aedes_aegypti_totivirus
+	MN053725_Aedes_aegypti_totivirus
+	MN053726_Aedes_aegypti_totivirus
+	MN053727_Aedes_aegypti_totivirus
+	MN053728_Aedes_aegypti_totivirus
+	MN053729_Aedes_aegypti_totivirus
+	MN053730_Aedes_aegypti_totivirus
+	MN053731_Aedes_aegypti_totivirus
+	MN053732_Aedes_aegypti_totivirus
+	MN053733_Aedes_aegypti_totivirus
+	MN053734_Aedes_aegypti_totivirus
+	MN248735_Maize_associated_totivirus
+	MN248737_Zea_mays_chrysovirus
+	MN295964_Betachrysovirus_foxyspori
+	MN393162_Lepraria_chrysovirus_1
+	MN428834_Maize_associated_totivirus
+	MN428835_Maize_associated_totivirus
+	MN428836_Maize_associated_totivirus
+	MN428837_Maize_associated_totivirus
+	MN545906_Plasmopara_viticola_lesion_associated_dsRNA_virus_1
+	MN545909_Plasmopara_viticola_lesion_associated_totivirus-like_5
+	MN545910_Plasmopara_viticola_lesion_associated_toti_1
+	MN545911_Plasmopara_viticola_lesion_associated_toti_2
+	MN545912_Plasmopara_viticola_lesion_associated_toti_3
+	MN545915_Plasmopara_viticola_lesion_associated_totivirus-like_2
+	MN552386_Plasmopara_viticola_lesion_associated_botybirna_1
+	MN563140_Betachrysovirus_alternariae
+	MN565678_Bremia_lactucae_associated_dsRNA_virus_1
+	MN565680_Bremia_lactucae_associated_fusagravirus_1
+	MN565691_Bremia_lactucae_associated_toti-like_virus_2
+	MN603497_Malassezia_restricta_virus_MrV40L
+	MN617023_Erysiphe_necator_associated_totivirus_2
+	MN617025_Erysiphe_necator_associated_totivirus_4
+	MN617026_Erysiphe_necator_associated_totivirus_5
+	MN617027_Erysiphe_necator_associated_totivirus_6
+	MN617028_Erysiphe_necator_associated_totivirus_7
+	MN617029_Erysiphe_necator_associated_totivirus_8
+	MN617778_Erysiphe_necator_associated_chrysovirus_1
+	MN617783_Erysiphe_necator_associated_chrysovirus_3
+	MN617789_Erysiphe_necator_associated_mycovirus_1
+	MN617790_Erysiphe_necator_associated_mycovirus_2
+	MN627274_Botrytis_cinerea_botybirnavirus_2
+	MN628264_Erysiphales_associated_mitovirus_1
+	MN628271_Erysiphales_associated_totivirus_24
+	MN628272_Erysiphales_associated_totivirus_1
+	MN628273_Erysiphales_associated_totivirus_2
+	MN628274_Erysiphales_associated_totivirus_3
+	MN628275_Erysiphales_associated_totivirus_4
+	MN628276_Erysiphales_associated_totivirus_5
+	MN628277_Erysiphales_associated_totivirus_6
+	MN628278_Erysiphales_associated_totivirus_7
+	MN628280_Erysiphales_associated_totivirus_9
+	MN628281_Erysiphales_associated_totivirus_10
+	MN628282_Erysiphales_associated_totivirus_11
+	MN628283_Erysiphales_associated_totivirus_12
+	MN628284_Erysiphales_associated_totivirus_13
+	MN628285_Erysiphales_associated_toti-like_virus_2
+	MN628286_Erysiphales_associated_totivirus_15
+	MN628287_Erysiphales_associated_totivirus_16
+	MN628288_Erysiphales_associated_totivirus_17
+	MN628290_Erysiphales_associated_totivirus_19
+	MN628291_Erysiphales_associated_totivirus_20
+	MN628292_Erysiphales_associated_totivirus_21
+	MN628293_Erysiphales_associated_totivirus_22
+	MN661047_Alphachrysovirus_saladoense[&!color=#000000]
+	MN661074_Atrato_virus
+	MN661076_Embera_virus
+	MN661077_Murri_virus
+	MN661078_Pisingos_virus
+	MN661079_Pisingos_virus
+	MN661080_Pisingos_virus
+	MN661081_Pisingos_virus
+	MN745083_Bactrocera_dorsalis_toti-like_virus_2
+	MN784056_Australian_Anopheles_totivirus
+	MN784057_Australian_Anopheles_totivirus
+	MN803436_Schistocephalus_solidus_toti-like_virus_2
+	MN803437_Schistocephalus_solidus_toti-like_virus_3
+	MN812428_Malassezia_sympodialis_mycovirus
+	MN933901_Picornaviridae_sp_
+	MN937194_Rhodosporidiobolus_odoratus_RNA_virus_1
+	MN954879_Botrytis_porri_botybirnavirus_1
+	MN956531_Phytophthora_cactorum_RNA_virus_1
+	MN982383_Scaphoideus_titanus_toti-like_virus_1
+	MT035905_Macrophomina_phaseolina_chrysovirus_2
+	MT035906_Macrophomina_phaseolina_chrysovirus_3
+	MT035907_Macrophomina_phaseolina_chrysovirus_4
+	MT085267_Riboviria_sp_
+	MT085268_Riboviria_sp_
+	MT085273_Riboviria_sp_
+	MT085282_Riboviria_sp_
+	MT085283_Riboviria_sp_
+	MT085285_Riboviria_sp_
+	MT085286_Riboviria_sp_
+	MT129768_Keenan_toti-like_virus
+	MT138172_Totiviridae_sp_
+	MT317155_Rice_Toti-like_virus
+	MT424968_Alphachrysovirus_zeae
+	MT435499_Aedes_aegypti_totivirus_2
+	MT498826_Broome_chryso-like_virus_1[&!color=#000000]
+	'MT498827_Parry''s_Creek_toti-like_virus_1'
+	MT498828_Fitzroy_Crossing_toti-like_virus_2
+	MT498830_Fitzroy_Crossing_toti-like_virus_1
+	MT646360_Sclerotinia_sclerotiorum_botybirnavirus_4
+	MT646397_Sclerotinia_sclerotiorum_botybirnavirus_1-WX
+	MT646408_Sclerotinia_sclerotiorum_botybirnavirus_5-WX1
+	MT646417_Sclerotinia_sclerotiorum_botybirnavirus_5-WX2
+	MT646418_Sclerotinia_sclerotiorum_botybirnavirus_3-WX
+	MT646423_Sclerotinia_sclerotiorum_botybirnavirus_2-WX
+	MT829323_Sclerotinia_sclerotiorum_botybirnavirus_3S1_SX276
+	MT873528_Helianthus_annuus_leaf-associated_totivirus_1
+	MT873530_Helianthus_annuus_leaf-associated_totivirus_3
+	MT949667_Totivirus_sp_
+	MW063136_Alphachrysovirus_zeae
+	MW174761_Saccharomyces_cerevisiae_virus_L-A
+	MW174763_Torulaspora_delbrueckii_virus_LA
+	MW239339_Picornavirales_sp_
+	MW239400_Riboviria_sp_
+	MW249058_Conidiobolus_heterosporus_totivirus_1
+	MW251336_Zyryana_toti-like_virus
+	MW310393_Bactrocera_zonata_toti-like_virus
+	MW314841_Beauveria_bassiana_chrysovirus_2
+	MW434089_Hubei_chryso-like_virus_1[&!color=#000000]
+	MW434094_Keturi_virus[&!color=#000000]
+	MW434940_Aedes_aegypti_totivirus
+	MW434941_Aedes_aegypti_totivirus
+	MW434945_Gouley_virus
+	MW434949_Lotchka_virus
+	MW434950_Lotchka_virus
+	MW434951_Lotchka_virus
+	MW434952_Mika_virus
+	MW434955_Snelk_virus
+	MW434957_Stinn_virus
+	MW434958_Totivirus-like_Culex_mosquito_virus_1
+	MW434959_Tzifr_virus
+	MW434960_Tzifr_virus
+	MW434961_Tzifr_virus
+	MW434962_Tzifr_virus
+	MW434963_Tzifr_virus
+	MW434964_Tzifr_virus
+	MW452288_Chrysoviridae_sp_[&!color=#000000]
+	MW455094_Diaporthe_pseudophoenicicola_chrysovirus_1
+	MW503715_Phytophthora_condilina_RNA_virus_2
+	MW520375_Xanthi_totivirusvirus
+	MW520387_Culex_modestus_totivirus
+	MW520394_Drama_totivirus
+	MW520399_Soufli_chryso-like_virus[&!color=#000000]
+	MW520400_Xanthi_chryso-like_virus[&!color=#000000]
+	MW520414_Evros_chryso-like_virus[&!color=#000000]
+	MW583012_Cane_toad_associated_toti-like_virus_3
+	MW588191_Mute_swan_feces_associated_toti-like_virus_1
+	MW588192_Mute_swan_feces_associated_toti-like_virus_1
+	MW588193_Mute_swan_feces_associated_toti-like_virus_1
+	MW588194_Mute_swan_feces_associated_toti-like_virus_2
+	MW588195_Mute_swan_feces_associated_toti-like_virus_3
+	MW588196_Mute_swan_feces_associated_toti-like_virus_3
+	MW588197_Mute_swan_feces_associated_toti-like_virus_3
+	MW656210_Alternaria_solani_chrysovirus_1
+	MW659703_Riboviria_sp_
+	MW659704_Giardiavirus_sp_
+	MW659705_Giardiavirus_sp_
+	MW659706_Giardiavirus_sp_
+	MW659707_Giardiavirus_sp_
+	MW699041_Culex_inatomii_totivirus
+	MW699042_Culex_inatomii_totivirus
+	MW699043_Culex_inatomii_totivirus
+	MW752180_Magnaporthe_oryzae_chrysovirus_1
+	MW811138_Cyclopterus_lumpus_toti-like_virus
+	MW826407_Totiviridae_sp_
+	MW826476_Totiviridae_sp_
+	MW826509_Totiviridae_sp_
+	MW826510_Totiviridae_sp_
+	MW863548_Botryosphaeria_dothidea_chrysovirus_1-like
+	MW888449_Golden_shiner_toti-like_virus_1
+	MW893686_Common_carp_toti-like_virus_1
+	MZ079604_Exobasidium_gracile_totivirus_2-1
+	MZ079605_Exobasidium_gracile_totivirus_2-2
+	MZ079607_Exobasidium_gracile_totivirus_1-1
+	MZ079608_Exobasidium_gracile_totivirus_1-2
+	MZ209609_Sogatella_furcifera_totivirus_1
+	MZ209610_Hangzhou_totivirus_1
+	MZ209620_Hangzhou_totivirus_2
+	MZ209635_Sanya_nephotettix_cincticeps_totivirus_1
+	MZ209639_Hangzhou_totivirus_11
+	MZ209683_Hangzhou_totivirus_6
+	MZ209684_Hangzhou_totivirus_7
+	MZ209704_Sanya_nephotettix_cincticeps_totivirus_1
+	MZ209706_Sanya_totivirus_12
+	MZ209711_Hangzhou_zicrona_caerulea_totivirus_1
+	MZ209742_Hangzhou_totivirus_9
+	MZ209749_Fushun_totivirus_5
+	MZ209750_Sogatella_furcifera_totivirus_1
+	MZ209751_Sanya_totivirus_13
+	MZ209867_Sanya_totivirus_2
+	MZ209868_Sanya_totivirus_3
+	MZ209870_Sanya_totivirus_4
+	MZ209871_Sanya_orius_sauteri_totivirus_2
+	MZ209872_Sanya_totivirus_5
+	MZ209874_Sanya_eysarcoris_guttigerus_totivirus_1
+	MZ209884_Sanya_orius_sauteri_totivirus_1
+	MZ209885_Sanya_orius_sauteri_totivirus_2
+	MZ209901_Sanya_totivirus_7
+	MZ209916_Sanya_totivirus_8
+	MZ209960_Sanya_ochthera_mantis_totivirus_1
+	MZ209961_Sanya_totivirus_11
+	MZ209984_Fushun_totivirus_5
+	MZ209985_Sogatella_furcifera_totivirus_1
+	MZ209986_Fushun_totivirus_1
+	MZ210016_Sogatella_furcifera_totivirus_1
+	MZ210035_Fushun_totivirus_4
+	MZ210054_Sogatella_furcifera_totivirus_1
+	MZ210056_Hangzhou_sogatella_furcifera_totivirus_1
+	MZ210057_Hangzhou_sogatella_furcifera_totivirus_2
+	MZ218544_Betachrysovirus_sp_
+	MZ218545_Alphachrysovirus_sp_
+	MZ218546_Alphachrysovirus_sp_
+	MZ218547_Chrysoviridae_sp_
+	MZ218548_Alphachrysovirus_sp_
+	MZ218549_Alphachrysovirus_sp_
+	MZ218550_Alphachrysovirus_sp_
+	MZ218551_Alphachrysovirus_sp_
+	MZ218552_Alphachrysovirus_sp_
+	MZ218553_Totiviridae_sp_
+	MZ218554_Totiviridae_sp_
+	MZ218556_Totiviridae_sp_
+	MZ218558_Totiviridae_sp_[&!color=#004db3]
+	MZ218568_Totiviridae_sp_
+	MZ218578_Totiviridae_sp_
+	MZ218579_Totiviridae_sp_
+	MZ218584_Totiviridae_sp_
+	MZ218609_Totiviridae_sp_
+	MZ218626_Totiviridae_sp_
+	MZ218629_Totiviridae_sp_
+	MZ218630_Totiviridae_sp_
+	MZ218642_Totiviridae_sp_
+	MZ218643_Totiviridae_sp_
+	MZ218646_Totiviridae_sp_
+	MZ218664_Totiviridae_sp_
+	MZ218667_Totiviridae_sp_
+	MZ218677_Totiviridae_sp_
+	MZ396044_Totiviridae_sp_
+	MZ556103_Lactea_totivirus
+	MZ600506_Conidiobolus_adiaeretus_totivirus_1
+	MZ600507_Conidiobolus_adiaeretus_totivirus_2
+	MZ600509_Conidiobolus_heterosporus_totivirus_2
+	MZ600515_Conidiobolus_lamprauges_totivirus_2
+	MZ852358_Drosophila-associated_totivirus_5
+	MZ852363_Drosophila-associated_totivirus_4
+	MZ852367_Drosophila-associated_totivirus_3
+	NC_001641_Saccharomyces_cerevisiae_virus_LBCLa
+	NC_002701_Eimeria_brunetti_RNA_virus_1
+	NC_003555_Giardia_lamblia_virus
+	NC_003745_Saccharomyces_cerevisiae_virus_L-A
+	NC_003823_Ustilago_maydis_virus_H1
+	NC_005978_Helminthosporium_victoriae_145S_virus
+	NC_007539_Alphachrysovirus_penicillii
+	NC_009947_Alphachrysovirus_cerasi
+	NC_014359_Spissistilus_festinus_virus_1
+	NC_014462_Magnaporthe_oryzae_chrysovirus_1
+	NC_015639_Piscine_myocarditis_virus_AL_V-708
+	NC_017990_Botrytis_porri_botybirnavirus_1
+	NC_020903_Xanthophyllomyces_dendrorhous_virus_L1A
+	NC_023041_Magnaporthe_oryzae_chrysovirus_1
+	NC_023983_Persimmon_latent_virus
+	NC_027138_Sclerotinia_sclerotiorum_botybirnavirus_1
+	NC_027212_Camponotus_yamaokai_virus
+	NC_027563_Betachrysovirus_foxyspori
+	NC_028481_Red_clover_powdery_mildew-associated_totivirus_2
+	NC_028483_Red_clover_powdery_mildew-associated_totivirus_3
+	NC_028485_Red_clover_powdery_mildew-associated_totivirus_5
+	NC_028486_Red_clover_powdery_mildew-associated_totivirus_6
+	NC_028488_Red_clover_powdery_mildew-associated_totivirus_7
+	NC_028490_Red_clover_powdery_mildew-associated_totivirus_9
+	NC_028495_Betachrysovirus_pripenicillii
+	NC_029302_Piscine_myocarditis-like_virus
+	NC_029312_Camponotus_nipponicus_virus
+	NC_030398_Maize-associated_totivirus_2
+	NC_032413_Beihai_barnacle_virus_15
+	NC_032465_Beihai_blue_swimmer_crab_virus_3
+	NC_032540_Beihai_razor_shell_virus_4
+	NC_032566_Beihai_sesarmid_crab_virus_7
+	NC_032733_Hubei_toti-like_virus_10
+	NC_032734_Hubei_toti-like_virus_2
+	NC_032746_Beihai_uca_arcuata_virus_1
+	NC_032786_Beihai_victori-like_virus_1
+	NC_032806_Hubei_toti-like_virus_20
+	NC_032819_Hubei_toti-like_virus_21
+	NC_032831_Hubei_toti-like_virus_12
+	NC_032841_Beihai_toti-like_virus_4
+	NC_032878_Hubei_toti-like_virus_13
+	NC_032883_Hubei_toti-like_virus_9
+	NC_032902_Hubei_diptera_virus_22
+	NC_032919_Hubei_toti-like_virus_15
+	NC_032924_Hubei_toti-like_virus_16
+	NC_032938_Hubei_toti-like_virus_24
+	NC_032942_Hubei_toti-like_virus_17
+	NC_032954_Hubei_toti-like_virus_5
+	NC_033022_Wenzhou_crab_virus_5
+	NC_033277_Alphachrysovirus_isariae
+	NC_033415_Trichoderma_atroviride_mycovirus
+	NC_033465_Wuhan_insect_virus_26
+	NC_033466_Wuhan_insect_virus_28
+	NC_033467_Wuhan_insect_virus_31
+	NC_033468_Wuhan_insect_virus_27
+	NC_033719_Xingshan_nematode_virus_6
+	NC_034268_Betachrysovirus_botryosphaeriae
+	NC_035130_Aedes_alboannulatus_toti-like_virus_1
+	NC_035131_Aedes_camptorhynchus_toti-like_virus_1
+	NC_035674_Australian_Anopheles_totivirus
+	NC_036589_Maize-associated_totivirus_3
+	NC_038697_Scheffersomyces_segobiensis_virus_L
+	NC_038698_Tuber_aestivum_virus_1
+	NC_038699_Xanthophyllomyces_dendrorhous_virus_L1B
+	NC_038778_Alphachrysovirus_cryphonectriae
+	NC_038784_Alphachrysovirus_verticillii
+	NC_038872_Alphachrysovirus_aspergilli
+	NC_040310_Diatom_colony_associated_dsRNA_virus_16
+	NC_040384_Diatom_colony_associated_dsRNA_virus_17_genome_type_B
+	NC_040385_Diatom_colony_associated_dsRNA_virus_17_genome_type_A
+	NC_040396_Bipolaris_maydis_botybirnavirus_1
+	NC_040485_Betachrysovirus_colletotrichi
+	NC_040510_Alphachrysovirus_zeae
+	NC_040632_Gigaspora_margarita_giardia-like_virus_1
+	NC_040633_Sogatella_furcifera_totivirus_1
+	NC_040704_Sogatella_furcifera_totivirus_2
+	NC_040738_Betachrysovirus_alternariae
+	NC_040775_Diatom_colony_associated_dsRNA_virus_12
+	NC_043218_Alphachrysovirus_fusarii
+	NC_043506_Alphachrysovirus_perseae
+	NC_043657_Alphachrysovirus_raphani
+	NC_043660_Alphachrysovirus_brassicae
+	NC_043662_Alphachrysovirus_macrophominae
+	NC_043666_Alphachrysovirus_colletotrichi
+	NC_043672_Betachrysovirus_secupenicillii
+	NC_043676_Alphachrysovirus_anthurii
+	NC_055221_Betachrysovirus_fugramineari
+	NC_055224_Alphachrysovirus_shuangaoense[&!color=#000000]
+	NC_055608_Betachrysovirus_aspergilli
+	NC_055627_Betachrysovirus_coniothyrii
+	NC_055630_Betachrysovirus_neofusicocci
+	NC_055655_Alphachrysovirus_chrysothricis
+	OK001446_Sclerotinia_sclerotiorum_botybirnavirus_3
+	OK032547_Alphachrysovirus_penicillii
+	OK413943_Hubei_chryso-like_virus_1[&!color=#000000]
+	OK491479_Xiangshan_toli-like_virus
+	OL343758_Palmetto_toti-like_virus
+	OL456199_Callinectes_sapidus_toti-like_virus_1
+	OL456200_Callinectes_sapidus_toti-like_virus_2
+	OL472026_Koper_totivirus_1
+	OL472028_Erysiphales_associated_totivirus_24
+	OL700058_Hubei_chryso-like_virus_1[&!color=#000000]
+	OL700192_XiangYun_toti-like_virus_3
+	OL700193_XiangYun_toti-like_virus_4
+	OL700194_XiangYun_toti-like_virus_5
+	OL700195_XiangYun_toti-like_virus_6
+	OL700196_XiangYun_toti-like_virus_7
+	OL700197_XiangYun_toti-like_virus_8
+	OL700198_XiangYun_toti-like_virus_9
+	OL700199_XiangYun_toti-like_virus_10
+	OL795377_Phytophthora_palustris_toti-like_virus_3-1
+	OL795378_Phytophthora_palustris_toti-like_virus_3-2
+	OL795379_Phytophthora_palustris_toti-like_virus_3-3
+	OL795380_Phytophthora_palustris_toti-like_virus_4
+	OL795384_Phytophthora_palustris_toti-like_virus_7
+	OL795385_Phytophthora_palustris_toti-like_virus_8
+	OL795389_Phytophthora_palustris_toti-like_virus_12-1
+	OL795390_Phytophthora_palustris_toti-like_virus_12-2
+	OL795391_Phytophthora_palustris_toti-like_virus_12-3
+	OL871169_South_totivirus
+	OL957313_Ceratitis_capitata_totivirus_1
+	OM371000_Alternaria_alternata_botybirnavirus_1
+	OM650317_Halyomorpha_halys_toti-like_virus_1
+	OM743943_Green_Valley_Lake_virus
+	OM743944_Jordan_Creek_virus
+	OM802108_Setosphaeria_turcica_chrysovirus_1
+	OM817549_Totivirus-like_Culex_mosquito_virus_1
+	OM837790_Diplodia_seriata_chrysovirus_1
+	OM993531_Ilyonectria_pseudodestructans_chrysovirus_1
+	ON456912_Sichuan_tick_toti-like_virus
+	ON746375_Nanning_Chrys_tick_virus_1
+	ON746376_Baoding_Chrys_tick_virus_1
+	ON746377_Hulunbuir_Chrys_tick_virus_1
+	ON746544_Jiamusi_Totiv_tick_virus_1
+	ON746545_Tonghua_Totiv_tick_virus_1
+	ON746552_Nanning_Totiv_tick_virus_3
+	ON746553_Luoyang_Totiv_tick_virus_2
+	ON746554_Daqing_Totiv_tick_virus_1
+	ON746555_Xian_Totiv_tick_virus_1
+	ON746556_Xian_Totiv_tick_virus_2
+	ON746557_Nanning_Totiv_tick_virus_4
+	ON746558_Hulunbuir_Totiv_tick_virus_1
+	ON746559_Dali_Totiv_tick_virus_1
+	ON746560_Luoyang_Totiv_tick_virus_3
+	ON812592_Hubei_toti-like_virus_17
+	ON812593_Totiviridae_sp_
+	ON812599_Totiviridae_sp_
+	ON812600_Totiviridae_sp_
+	ON812606_Totiviridae_sp_
+	ON812641_Totiviridae_sp_
+	ON812649_Totiviridae_sp_
+	ON812656_Totiviridae_sp_
+	ON812658_Erysiphe_necator_associated_totivirus_8
+	ON812661_Totiviridae_sp_
+	ON812681_Totiviridae_sp_
+	ON812690_Totiviridae_sp_
+	ON812691_Totiviridae_sp_
+	ON812692_Totiviridae_sp_
+	ON812693_Totiviridae_sp_
+	ON812695_Hubei_toti-like_virus_17
+	ON812698_Totiviridae_sp_
+	ON812700_Totiviridae_sp_
+	ON812703_Totiviridae_sp_
+	ON812733_Totiviridae_sp_
+	ON812734_Totiviridae_sp_
+	ON812740_Totiviridae_sp_
+	ON812741_Totiviridae_sp_
+	ON812795_Totiviridae_sp_
+	ON812796_Totiviridae_sp_
+	ON860472_Koversta_virus
+	ON862167_Geotrichum_candidum_totivirus_1
+	ON862168_Geotrichum_candidum_totivirus_2
+	ON862169_Geotrichum_candidum_totivirus_3a
+	ON862170_Geotrichum_candidum_totivirus_3b
+	ON872651_Totiviridae_sp_
+	ON929985_Hymenoscyphus_fraxineus_botybirnavirus_1
+	OP019837_Enontekio_alphachrysovirus[&!color=#000000]
+	OP019841_Hanko_alphachrysovirus[&!color=#000000]
+	OP019845_Lestijarvi_alphachrysovirus[&!color=#000000]
+	OP019850_Enontekio_totivirus_2
+	OP019852_Hameenlinna_totivirus_1
+	OP019853_Hameenlinna_totivirus_1
+	OP019854_Hameenlinna_totivirus_1
+	OP019855_Hameenlinna_totivirus_1
+	OP019856_Hameenlinna_totivirus_1
+	OP019857_Hameenlinna_totivirus_1
+	OP019858_Hameenlinna_totivirus_1
+	OP019859_Hameenlinna_totivirus_3
+	OP019861_Hanko_totivirus_3
+	OP019862_Hanko_totivirus_3
+	OP019863_Hanko_totivirus_5
+	OP019864_Hanko_totivirus_8
+	OP019865_Hanko_totivirus_8
+	OP019866_Hanko_totivirus_9
+	OP019867_Hanko_totivirus_9
+	OP019868_Hattula_totivirus_1
+	OP019869_Hattula_totivirus_1
+	OP019870_Hattula_totivirus_1
+	OP019871_Hattula_totivirus_1
+	OP019872_Hattula_totivirus_2
+	OP019873_Hattula_totivirus_2
+	OP019874_Hattula_totivirus_2
+	OP019875_Hattula_totivirus_2
+	OP019876_Hattula_totivirus_2
+	OP019884_Ilomantsi_totivirus_1
+	OP019885_Inari_totivirus_1
+	OP019886_Inari_totivirus_2
+	OP019887_Inari_totivirus_2
+	OP019888_Inari_totivirus_2
+	OP019889_Joutseno_totivirus
+	OP019892_Lestijarvi_totivirus
+	OP019893_Lestijarvi_totivirus
+	OP019894_Lestijarvi_totivirus
+	OP019900_Hanko_totivirus_9
+	OP019901_Hattula_totivirus_1
+	OP019902_Hanko_totivirus_3
+	OP019903_Hanko_totivirus_3
+	OP019904_Hanko_totivirus_3
+	OP019905_Hanko_totivirus_3
+	OP019907_Palkane_totivirus
+	OP019908_Palkane_totivirus
+	OP019909_Hanko_totivirus_3
+	OP019910_Lestijarvi_alphachrysovirus[&!color=#000000]
+	OP019911_Lestijarvi_alphachrysovirus[&!color=#000000]
+	OP019912_Palkane_botybirna-like_virus
+	OP019913_Palkane_botybirna-like_virus
+	OP019914_Palkane_botybirna-like_virus
+	OP019915_Palkane_botybirna-like_virus
+	OP019916_Palkane_botybirna-like_virus
+	OP019917_Palkane_botybirna-like_virus
+	OP019918_Palkane_botybirna-like_virus
+	OP019919_Palkane_botybirna-like_virus
+	OP019990_Enontekio_totivirus_2
+	OP019991_Enontekio_totivirus_3
+	OP019994_Enontekio_totivirus_6
+	OP019995_Enontekio_totivirus_7
+	OP020002_Hameenlinna_totivirus_1
+	OP020003_Hameenlinna_totivirus_1
+	OP020005_Hameenlinna_totivirus_1
+	OP020006_Hameenlinna_totivirus_1
+	OP020007_Hameenlinna_totivirus_1
+	OP020010_Hameenlinna_totivirus_1
+	OP020011_Hameenlinna_totivirus_1
+	OP020014_Hameenlinna_totivirus_1
+	OP020015_Hameenlinna_totivirus_1
+	OP020016_Hameenlinna_totivirus_1
+	OP020018_Hameenlinna_totivirus_1
+	OP020020_Hameenlinna_totivirus_1
+	OP020021_Hameenlinna_totivirus_1
+	OP020026_Hameenlinna_totivirus_1
+	OP020027_Hameenlinna_totivirus_1
+	OP020028_Hameenlinna_totivirus_2
+	OP020029_Hameenlinna_totivirus_2
+	OP020030_Hameenlinna_totivirus_2
+	OP020031_Hameenlinna_totivirus_2
+	OP020032_Hameenlinna_totivirus_3
+	OP020035_Hameenlinna_totivirus_3
+	OP020037_Hameenlinna_totivirus_3
+	OP020040_Hameenlinna_totivirus_3
+	OP020042_Hameenlinna_totivirus_3
+	OP020045_Hameenlinna_totivirus_3
+	OP020048_Hanko_toti-like_virus_1
+	OP020052_Hanko_totivirus_2
+	OP020053_Hanko_totivirus_3
+	OP020054_Hanko_totivirus_3
+	OP020058_Hanko_totivirus_5
+	OP020059_Hanko_totivirus_5
+	OP020060_Hanko_totivirus_5
+	OP020061_Hanko_totivirus_5
+	OP020063_Hanko_totivirus_5
+	OP020064_Hanko_totivirus_5
+	OP020065_Hanko_totivirus_5
+	OP020066_Hanko_totivirus_5
+	OP020067_Hanko_totivirus_6
+	OP020068_Hanko_totivirus_7
+	OP020069_Hanko_totivirus_9
+	OP020070_Hattula_totivirus_1
+	OP020071_Hattula_totivirus_1
+	OP020072_Hattula_totivirus_1
+	OP020073_Hattula_totivirus_2
+	OP020075_Hattula_totivirus_2
+	OP020076_Hattula_totivirus_2
+	OP020077_Hattula_totivirus_2
+	OP020078_Hattula_totivirus_2
+	OP020079_Hattula_totivirus_2
+	OP020080_Hattula_totivirus_2
+	OP020092_Ilomantsi_totivirus_1
+	OP020095_Ilomantsi_totivirus_2
+	OP020114_Kuusamo_totivirus_1
+	OP020129_Vaasa_totivirus
+	OP080562_Tuatara_cloaca-associated_totivirus-2
+	OP080563_Tuatara_cloaca-associated_totivirus-2
+	OP080564_Tuatara_cloaca-associated_totivirus-2
+	OP080565_Tuatara_cloaca-assoiciated_totivrus-3
+	OP264884_Eskilstorp_virus[&!color=#000000]
+	OP264907_Culex_modestus_totivirus
+	OW520909_Porphyridium_purpureum_toti-like_virus_2
+	OW524913_Bolbocoleon_piliferum_toti-like_virus
+	OW525223_Planotaenium_ohtanii_toti-like_virus
+	OW527298_Tree_fringewort_alphachyrso-like_virus
+	OW528618_Elkhorn_sea_moss_toti-like_virus
+	OW528623_Prasiola_crispa_toti-like_virus
+	OW528624_Rhodochaete_parvula_toti-like_virus_3
+	OW528639_Mesotaenium_kramstae_alphachyrso-like_virus
+	OW528993_Heterosiphonia_pulchra_toti-like_virus
+	OW529222_Porphyridium_purpureum_toti-like_virus_1
+	OW529226_Rhodochaete_parvula_toti-like_virus_1
+	OW741272_Rhodochaete_parvula_toti-like_virus_2
+	Vistafter_virus_F1409C1832F1409[&!color=#b33c00]
+	Wrunlize_virus_F1469C738F1469[&!color=#b33c00]
+	Wrunlize_virus_F1469C738F1615[&!color=#b33c00]
+	X92203_Cucurbit_yellows-associated_virus
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (MK231126_Phakopsora_totivirus_B:0.447065,(KX882999_Hubei_toti-like_virus_3:0.502239,(KY207364_Puccinia_striiformis_totivirus_4:0.22814,MT873528_Helianthus_annuus_leaf-associated_totivirus_1:0.230336)[&label=1.0]:0.377359)[&label=0.413]:0.048522,((((((AB620063_Rosellinia_necatrix_quadrivirus_1:0.474168,AM085134_Cherry_chlorotic_rusty_spot_associated_partitivirus:0.587718)[&label=1.0]:0.909809,(((((AB558119_Rhizophagus_sp__RF1_medium_virus:2.581861,NC_040775_Diatom_colony_associated_dsRNA_virus_12:0.398183)[&label=0.995]:1.13925,((AP014897_Diatom_colony_associated_dsRNA_virus_6:0.775129,(HQ607514_Trichomonas_vaginalis_virus_2:0.587686,HQ607516_Trichomonas_vaginalis_virus_1:0.721765)[&label=0.998]:0.463542)[&label=0.902]:0.131301,((NC_002701_Eimeria_brunetti_RNA_virus_1:0.636218,(NC_040310_Diatom_colony_associated_dsRNA_virus_16:2.996097,AP014899_Diatom_colony_associated_dsRNA_virus_8:0.649679)[&label=0.793]:0.277294)[&label=0.782]:0.206523,(((AP014898_Diatom_colony_associated_dsRNA_virus_7:0.617226,NC_032786_Beihai_victori-like_virus_1:0.581271)[&label=0.959]:0.288694,((MH396496_Bipolaris_maydis_victorivirus_1:0.548459,(AB176964_Magnaporthe_oryzae_virus_1:0.479305,MN032678_Totiviridae_sp_:0.437779)[&label=0.159]:0.094183)[&label=0.986]:0.229112,(KT188753_Ustilaginoidea_virens_RNA_virus_5:0.440892,(KP893140_Magnaporthe_oryzae_virus_3:0.663932,KC433710_Ustilaginoidea_virens_RNA_virus_1:0.693864)[&label=0.912]:0.136607)[&label=0.633]:0.081904)[&label=0.364]:0.128051)[&label=0.751]:0.153716,KF757256_Leishmania_aethiopica_RNA_virus:1.081477)[&label=0.785]:0.108824)[&label=0.963]:0.178464)[&label=0.09]:0.071298)[&label=0.996]:0.392532,((((((MN628271_Erysiphales_associated_totivirus_24:0.0,OL472028_Erysiphales_associated_totivirus_24:0.0):0.75508,(OL871169_South_totivirus:5.992605,((MW520375_Xanthi_totivirusvirus:0.552113,(MW699043_Culex_inatomii_totivirus:0.160897,OM743944_Jordan_Creek_virus:0.250227)[&label=0.971]:0.490098)[&label=0.999]:3.447359,KX883755_Beihai_hepe-like_virus_1:3.160341)[&label=0.0]:0.0)[&label=0.006]:0.987112)[&label=0.716]:0.12586,((OL795380_Phytophthora_palustris_toti-like_virus_4:0.0,(OL795384_Phytophthora_palustris_toti-like_virus_7:0.023339,OL795385_Phytophthora_palustris_toti-like_virus_8:0.002845)[&label=0.639]:0.044494)[&label=1.0]:1.311394,((((((OL456199_Callinectes_sapidus_toti-like_virus_1:0.706034,OW528618_Elkhorn_sea_moss_toti-like_virus:0.67999)[&label=0.871]:0.134639,((NC_032413_Beihai_barnacle_virus_15:0.72377,(OW524913_Bolbocoleon_piliferum_toti-like_virus:0.453504,OW525223_Planotaenium_ohtanii_toti-like_virus:0.394148)[&label=0.964]:0.165619)[&label=0.957]:0.17672,((OP080564_Tuatara_cloaca-associated_totivirus-2:0.051363,(OP080562_Tuatara_cloaca-associated_totivirus-2:0.006679,OP080563_Tuatara_cloaca-associated_totivirus-2:0.0)[&label=0.597]:0.0)[&label=1.0]:0.650627,(MZ852367_Drosophila-associated_totivirus_3:0.490444,(('MT498827_Parry''s_Creek_toti-like_virus_1':0.070833,(MK440642_Ahus_virus:0.040603,OL700193_XiangYun_toti-like_virus_4:0.053711)[&label=0.614]:0.028946)[&label=0.806]:0.011871,(Accrood_virus_F1561C1F1258:0.004894,Accrood_virus_F1561C1F1561:0.00624)[&label=0.723]:0.008608)[&label=1.0]:0.353727)[&label=0.545]:0.091039)[&label=0.975]:0.229759)[&label=0.837]:0.172246)[&label=0.43]:0.082902,(((MZ209901_Sanya_totivirus_7:0.181926,MZ210035_Fushun_totivirus_4:0.367962)[&label=1.0]:0.204277,(NC_032954_Hubei_toti-like_virus_5:0.323259,(((MN545909_Plasmopara_viticola_lesion_associated_totivirus-like_5:0.0,MN617023_Erysiphe_necator_associated_totivirus_2:0.0):0.143664,MN565691_Bremia_lactucae_associated_toti-like_virus_2:0.131591)[&label=0.999]:0.17245,(OL456200_Callinectes_sapidus_toti-like_virus_2:0.359112,NC_032566_Beihai_sesarmid_crab_virus_7:0.340441)[&label=0.147]:0.069132)[&label=0.944]:0.096547)[&label=0.0]:0.042539)[&label=0.976]:0.217529,(((MZ209870_Sanya_totivirus_4:0.284813,(MZ209874_Sanya_eysarcoris_guttigerus_totivirus_1:0.376503,OP019994_Enontekio_totivirus_6:0.31463)[&label=0.735]:0.090908)[&label=0.769]:0.064837,OP019995_Enontekio_totivirus_7:0.348344)[&label=0.995]:0.246727,(BK059668_Sphaeridi_virus:0.32037,NC_032540_Beihai_razor_shell_virus_4:0.421124)[&label=0.219]:0.074486)[&label=0.716]:0.089945)[&label=1.0]:0.771952)[&label=0.909]:0.166187,((BK059871_Chrysaor_toti-like_virus:0.694468,((AP014910_Diatom_colony_associated_dsRNA_virus_17_genome_type_A:0.0,NC_040385_Diatom_colony_associated_dsRNA_virus_17_genome_type_A:0.0):0.0,NC_040384_Diatom_colony_associated_dsRNA_virus_17_genome_type_B:0.032912)[&label=0.937]:0.311556)[&label=0.91]:0.246191,(OL700196_XiangYun_toti-like_virus_7:0.606578,OW528623_Prasiola_crispa_toti-like_virus:0.41532)[&label=1.0]:0.442264)[&label=0.767]:0.087997)[&label=0.753]:0.087364,((BK059864_Laestrygon_toti-like_virus:0.536456,MW503715_Phytophthora_condilina_RNA_virus_2:0.649619)[&label=0.894]:0.177438,((ON812649_Totiviridae_sp_:0.495299,(((MT085282_Riboviria_sp_:0.030119,MT085285_Riboviria_sp_:0.0)[&label=0.999]:0.213746,(ON746557_Nanning_Totiv_tick_virus_4:0.232402,(MZ209867_Sanya_totivirus_2:0.188831,(KX882940_Hubei_toti-like_virus_6:0.177925,MZ209868_Sanya_totivirus_3:0.175841)[&label=0.916]:0.061334)[&label=0.969]:0.107002)[&label=0.952]:0.097819)[&label=0.114]:0.030242,(MT085283_Riboviria_sp_:0.039284,(MT085267_Riboviria_sp_:0.005763,MT085268_Riboviria_sp_:0.002012)[&label=0.757]:0.015544)[&label=0.997]:0.172364)[&label=0.988]:0.217889)[&label=0.997]:0.343995,(MN035108_Totiviridae_sp_:0.396295,(MN033636_Totiviridae_sp_:0.008509,MN035661_Totiviridae_sp_:0.0)[&label=0.906]:0.291969)[&label=1.0]:0.722197)[&label=0.81]:0.160944)[&label=0.941]:0.171177)[&label=0.788]:0.190131,(MZ600509_Conidiobolus_heterosporus_totivirus_2:0.150015,(MN036163_Totiviridae_sp_:0.272337,(MN033316_Totiviridae_sp_:0.306921,(MN035544_Totiviridae_sp_:0.320349,(MN033374_Totiviridae_sp_:0.276133,((MN032968_Totiviridae_sp_:0.0,MN033604_Totiviridae_sp_:0.0):0.0,MN033948_Totiviridae_sp_:0.0)[&label=0.924]:0.093213)[&label=0.876]:0.091451)[&label=0.282]:0.072947)[&label=0.901]:0.097495)[&label=0.794]:0.093533)[&label=1.0]:0.768601)[&label=0.582]:0.108649)[&label=0.937]:0.188144)[&label=0.951]:0.368916,KX148557_Chrysovirus-like:2.659053)[&label=0.795]:0.174955,(((OL700192_XiangYun_toti-like_virus_3:0.653115,(KU299047_Sclerotinia_sclerotiorum_double-stranded_RNA_virus_3:0.683216,((((OP019913_Palkane_botybirna-like_virus:0.0,OP019916_Palkane_botybirna-like_virus:0.0)[&label=0.0]:0.0,(OP019919_Palkane_botybirna-like_virus:0.003016,OP019912_Palkane_botybirna-like_virus:0.0)[&label=0.0]:0.0)[&label=0.775]:0.009963,(OP019918_Palkane_botybirna-like_virus:0.0,((OP019914_Palkane_botybirna-like_virus:0.0,OP019915_Palkane_botybirna-like_virus:0.003269)[&label=0.0]:0.0,OP019917_Palkane_botybirna-like_virus:0.0)[&label=0.83]:0.005278)[&label=0.439]:0.002476)[&label=1.0]:0.409571,(MN545906_Plasmopara_viticola_lesion_associated_dsRNA_virus_1:0.190118,MN565678_Bremia_lactucae_associated_dsRNA_virus_1:0.223265)[&label=0.999]:0.409356)[&label=0.99]:0.331142)[&label=0.927]:0.153574)[&label=0.786]:0.168708,((DQ494586_Ustilago_maydis_virus_H1:0.0,(((DQ494597_Ustilago_maydis_virus_H1:0.0,(MZ209961_Sanya_totivirus_11:0.154664,(MN617790_Erysiphe_necator_associated_mycovirus_2:0.235298,(MN617789_Erysiphe_necator_associated_mycovirus_1:0.207086,(Demadles_virus_F1497C7F1497:0.051929,KT601108_Wallemia_sebi_mycovirus_1:0.075912)[&label=1.0]:0.393454)[&label=0.425]:0.065821)[&label=1.0]:0.233277)[&label=0.967]:0.102856)[&label=0.742]:0.013389,(((DQ494564_Ustilago_maydis_virus_H1:0.0,DQ494574_Ustilago_maydis_virus_H1:0.0,DQ494579_Ustilago_maydis_virus_H1:0.0,DQ494589_Ustilago_maydis_virus_H1:0.0,DQ494592_Ustilago_maydis_virus_H1:0.0):0.0,((DQ494569_Ustilago_maydis_virus_H1:0.0,DQ494571_Ustilago_maydis_virus_H1:0.0,DQ494576_Ustilago_maydis_virus_H1:0.0,DQ494578_Ustilago_maydis_virus_H1:0.0):0.013904,NC_003823_Ustilago_maydis_virus_H1:0.051744)[&label=0.0]:0.0)[&label=0.0]:0.0,DQ494582_Ustilago_maydis_virus_H1:0.013891)[&label=0.41]:0.0)[&label=0.845]:0.01394,DQ494581_Ustilago_maydis_virus_H1:0.0)[&label=0.647]:0.013907)[&label=1.0]:1.238779,(((OM371000_Alternaria_alternata_botybirnavirus_1:0.0,(LC437024_Alternaria_alternata_botybirnavirus_1:0.014298,MK256972_Alternaria_alternata_botybirnavirus_1:0.003009)[&label=0.898]:0.011687)[&label=0.991]:0.112506,((MF444215_Sclerotinia_sclerotiorum_botybirnavirus_3:0.0,MN954879_Botrytis_porri_botybirnavirus_1:0.002864)[&label=0.779]:0.0,(((MT646418_Sclerotinia_sclerotiorum_botybirnavirus_3-WX:0.0,NC_017990_Botrytis_porri_botybirnavirus_1:0.0):0.0,MK530703_Sclerotinia_sclerotiorum_botybirnavirus_3:0.005745)[&label=0.0]:0.0,(OK001446_Sclerotinia_sclerotiorum_botybirnavirus_3:0.002862,MT829323_Sclerotinia_sclerotiorum_botybirnavirus_3S1_SX276:0.026101)[&label=0.0]:0.0)[&label=0.784]:0.005733)[&label=0.99]:0.106416)[&label=0.963]:0.181013,(MN552386_Plasmopara_viticola_lesion_associated_botybirna_1:0.393503,((KT598241_Soybean_leaf-associated_botybirnavirus_1:0.258669,(MN627274_Botrytis_cinerea_botybirnavirus_2:0.431096,(ON929985_Hymenoscyphus_fraxineus_botybirnavirus_1:0.105383,(((MF034087_Bipolaris_maydis_botybirnavirus_1:0.0,NC_040396_Bipolaris_maydis_botybirnavirus_1:0.0):0.002899,(MH684534_Botryosphaeria_dothidea_botybirnavirus_1:0.0,MT646360_Sclerotinia_sclerotiorum_botybirnavirus_4:0.0):0.0)[&label=0.885]:0.016593,((MT646408_Sclerotinia_sclerotiorum_botybirnavirus_5-WX1:0.014604,MT646417_Sclerotinia_sclerotiorum_botybirnavirus_5-WX2:0.0)[&label=0.669]:0.011581,(MT646397_Sclerotinia_sclerotiorum_botybirnavirus_1-WX:0.002632,NC_027138_Sclerotinia_sclerotiorum_botybirnavirus_1:0.003187)[&label=0.972]:0.020387)[&label=0.938]:0.021558)[&label=0.988]:0.089865)[&label=0.994]:0.161271)[&label=0.388]:0.072821)[&label=1.0]:0.428555,(KT962972_Sclerotinia_sclerotiorum_botybirnavirus_2:0.01501,MT646423_Sclerotinia_sclerotiorum_botybirnavirus_2-WX:0.0)[&label=1.0]:1.281084)[&label=0.0]:0.01039)[&label=0.96]:0.174483)[&label=1.0]:0.715246)[&label=0.91]:0.210858)[&label=0.369]:0.225019,((OW528993_Heterosiphonia_pulchra_toti-like_virus:1.322287,(MN628285_Erysiphales_associated_toti-like_virus_2:0.468256,NC_028490_Red_clover_powdery_mildew-associated_totivirus_9:0.165903)[&label=1.0]:0.777512)[&label=0.939]:0.437379,(MW659703_Riboviria_sp_:1.405169,((LC660689_Totiviridae_sp_:0.0,LC698264_Totiviridae_sp_:0.0)[&label=1.0]:2.61104,(MZ396044_Totiviridae_sp_:0.409913,(MZ079604_Exobasidium_gracile_totivirus_2-1:0.004349,MZ079607_Exobasidium_gracile_totivirus_1-1:0.0)[&label=0.917]:0.210949)[&label=0.673]:0.087193)[&label=0.994]:1.18088)[&label=0.915]:0.62043)[&label=0.495]:0.19048)[&label=0.875]:0.123701)[&label=0.638]:0.091558,(((((AB735629_Persimmon_latent_virus:0.0,NC_023983_Persimmon_latent_virus:0.0):0.490258,(X92203_Cucurbit_yellows-associated_virus:0.629852,(MN982383_Scaphoideus_titanus_toti-like_virus_1:0.320772,(MW239400_Riboviria_sp_:0.192114,((MZ209635_Sanya_nephotettix_cincticeps_totivirus_1:0.002687,MZ209704_Sanya_nephotettix_cincticeps_totivirus_1:0.006804)[&label=1.0]:0.230976,(MT138172_Totiviridae_sp_:0.247557,NC_014359_Spissistilus_festinus_virus_1:0.195744)[&label=0.117]:0.088314)[&label=0.737]:0.056625)[&label=0.41]:0.066529)[&label=0.969]:0.206129)[&label=0.72]:0.111017)[&label=1.0]:0.72982,(KX882968_Hubei_toti-like_virus_11:0.616338,(NC_032883_Hubei_toti-like_virus_9:0.597425,(((MW826407_Totiviridae_sp_[&!color=#803300]:0.483876,((MN803436_Schistocephalus_solidus_toti-like_virus_2[&!color=#803300]:0.360174,(MN661074_Atrato_virus[&!color=#803300]:0.242819,MN661077_Murri_virus[&!color=#803300]:0.174564)[&label=0.951,!color=#803300]:0.127087)[&label=0.999,!color=#803300]:0.198953,(Vistafter_virus_F1409C1832F1409[&!color=#803300]:0.65921,(((MW588195_Mute_swan_feces_associated_toti-like_virus_3[&!color=#803300]:0.0,MW588197_Mute_swan_feces_associated_toti-like_virus_3[&!color=#803300]:0.0)[&!color=#803300]:0.006283,MW588196_Mute_swan_feces_associated_toti-like_virus_3[&!color=#803300]:0.034804)[&label=1.0,!color=#803300]:0.298175,(MW588194_Mute_swan_feces_associated_toti-like_virus_2[&!color=#803300]:0.219098,(MW588191_Mute_swan_feces_associated_toti-like_virus_1[&!color=#803300]:0.028003,(MW588192_Mute_swan_feces_associated_toti-like_virus_1[&!color=#803300]:0.008793,MW588193_Mute_swan_feces_associated_toti-like_virus_1[&!color=#803300]:0.011413)[&label=0.483,!color=#803300]:0.004726)[&label=0.999,!color=#803300]:0.212678)[&label=0.981,!color=#803300]:0.165439)[&label=0.841,!color=#803300]:0.121979)[&label=0.954,!color=#803300]:0.165332)[&label=0.843,!color=#803300]:0.072582)[&label=0.673,!color=#803300]:0.047932,(((KP642122_dsRNA_virus_environmental_sample[&!color=#803300]:0.002777,KP642125_dsRNA_virus_environmental_sample[&!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.299553,((((((MW434945_Gouley_virus[&!color=#803300]:0.010475,MW434952_Mika_virus[&!color=#803300]:0.015303)[&label=0.991,!color=#803300]:0.083463,(MW434950_Lotchka_virus[&!color=#803300]:0.002712,(MW434949_Lotchka_virus[&!color=#803300]:0.002712,MW434951_Lotchka_virus[&!color=#803300]:0.005438)[&label=0.0,!color=#803300]:0.0)[&label=0.977,!color=#803300]:0.064528)[&label=1.0,!color=#803300]:0.182694,(OL700198_XiangYun_toti-like_virus_9[&!color=#803300]:0.135255,(MT498828_Fitzroy_Crossing_toti-like_virus_2[&!color=#803300]:0.105642,(OL700194_XiangYun_toti-like_virus_5[&!color=#803300]:0.067219,(Aeriandims_virus_subsp2_F1583C1F1583[&!color=#803300]:0.021233,((Aeriandims_virus_subsp1_F1156C2F1045[&!color=#803300]:0.0,Aeriandims_virus_subsp1_F1156C2F1142[&!color=#803300]:0.0)[&!color=#803300]:0.0,Aeriandims_virus_subsp1_F1156C2F1156[&!color=#803300]:0.002762)[&label=0.858,!color=#803300]:0.009515)[&label=0.99,!color=#803300]:0.048149)[&label=0.965,!color=#803300]:0.056863)[&label=0.889,!color=#803300]:0.058838)[&label=0.972,!color=#803300]:0.085747)[&label=1.0,!color=#803300]:0.211966,(((MW434955_Snelk_virus[&!color=#803300]:0.012512,MW434957_Stinn_virus[&!color=#803300]:0.018131)[&label=0.993,!color=#803300]:0.079727,(MW434959_Tzifr_virus[&!color=#803300]:0.007703,((MW434960_Tzifr_virus[&!color=#803300]:0.0,MW434962_Tzifr_virus[&!color=#803300]:0.0,MW434963_Tzifr_virus[&!color=#803300]:0.0)[&!color=#803300]:0.005472,(MW434961_Tzifr_virus[&!color=#803300]:0.002733,MW434964_Tzifr_virus[&!color=#803300]:0.0)[&label=0.0,!color=#803300]:0.0)[&label=0.807,!color=#803300]:0.015467)[&label=1.0,!color=#803300]:0.12427)[&label=0.999,!color=#803300]:0.148566,((MK440659_Salja_virus[&!color=#803300]:0.164744,((Culex_vishnui_subgroup_totivirus_F1143C11F1143[&!color=#803300]:0.002753,(LC567881_Culex_vishnui_subgroup_totivirus[&!color=#803300]:0.002753,LC514295_Culex_vishnui_subgroup_totivirus[&!color=#803300]:0.0)[&label=0.752,!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.094249,(Agrichlet_virus_F1434C1F1445[&!color=#803300]:0.0,(Agrichlet_virus_F1434C1F1407[&!color=#803300]:0.005545,(Agrichlet_virus_F1434C1F1434[&!color=#803300]:0.0,Agrichlet_virus_F1434C1F1456[&!color=#803300]:0.002757)[&label=0.0,!color=#803300]:0.0)[&label=0.648,!color=#803300]:0.0)[&label=0.976,!color=#803300]:0.054213)[&label=0.948,!color=#803300]:0.082495)[&label=0.693,!color=#803300]:0.033075,MK440645_Osta_virus[&!color=#803300]:0.213982)[&label=0.782,!color=#803300]:0.028406)[&label=1.0,!color=#803300]:0.15749)[&label=0.938,!color=#803300]:0.058054,((NC_032733_Hubei_toti-like_virus_10[&!color=#803300]:0.267251,(((((MN053720_Aedes_aegypti_toti-like_virus[&!color=#803300]:0.0,MN053721_Aedes_aegypti_toti-like_virus[&!color=#803300]:0.0)[&!color=#803300]:0.0,(KP642128_dsRNA_virus_environmental_sample[&!color=#803300]:0.002692,(Aedes_aegypti_toti_like_virus_F1063C6F1002[&!color=#803300]:0.0,Aedes_aegypti_toti_like_virus_F1063C6F1063[&!color=#803300]:0.002736)[&label=0.977,!color=#803300]:0.011053)[&label=0.768,!color=#803300]:0.002805)[&label=0.876,!color=#803300]:0.002743,OL343758_Palmetto_toti-like_virus[&!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.171789,((Adjoured_virus_F1191C7F1191[&!color=#803300]:0.004253,Adjoured_virus_F1191C7F1194[&!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.254109,((Adsentalan_virus_F1186C10F1177[&!color=#803300]:0.0,Adsentalan_virus_F1186C10F1186[&!color=#803300]:0.0,Adsentalan_virus_F1186C10F1187[&!color=#803300]:0.0)[&!color=#803300]:0.023544,(Flatesals_virus_F1187C10F1177[&!color=#803300]:0.0,(Flatesals_virus_F1187C10F1178[&!color=#803300]:0.005614,Flatesals_virus_F1187C10F1187[&!color=#803300]:0.005401)[&label=0.806,!color=#803300]:0.0062)[&label=0.331,!color=#803300]:0.010769)[&label=1.0,!color=#803300]:0.181322)[&label=0.789,!color=#803300]:0.058177)[&label=0.999,!color=#803300]:0.137107,(Adlissaust_virus_F1183C2F1183[&!color=#803300]:0.201339,Belfgalbs_virus_F1490C6F1490[&!color=#803300]:0.195991)[&label=0.992,!color=#803300]:0.120758)[&label=0.821,!color=#803300]:0.060114)[&label=0.633,!color=#803300]:0.051911,(((KP642121_dsRNA_virus_environmental_sample[&!color=#803300]:0.0,KP642124_dsRNA_virus_environmental_sample[&!color=#803300]:0.008283)[&label=1.0,!color=#803300]:0.279764,((OP020129_Vaasa_totivirus[&!color=#803300]:0.092054,((OP019864_Hanko_totivirus_8[&!color=#803300]:0.0,OP019865_Hanko_totivirus_8[&!color=#803300]:0.005523)[&label=0.999,!color=#803300]:0.101943,((OP019850_Enontekio_totivirus_2[&!color=#803300]:0.0,OP019990_Enontekio_totivirus_2[&!color=#803300]:0.0)[&!color=#803300]:0.056575,OP019889_Joutseno_totivirus[&!color=#803300]:0.050303)[&label=0.746,!color=#803300]:0.03279)[&label=0.716,!color=#803300]:0.023614)[&label=1.0,!color=#803300]:0.091585,(KP642123_dsRNA_virus_environmental_sample[&!color=#803300]:0.14703,(((((OP019872_Hattula_totivirus_2[&!color=#803300]:0.0,OP019874_Hattula_totivirus_2[&!color=#803300]:0.0,OP020080_Hattula_totivirus_2[&!color=#803300]:0.0)[&!color=#803300]:0.0,OP020075_Hattula_totivirus_2[&!color=#803300]:0.0)[&label=0.0,!color=#803300]:0.0,(((OP020076_Hattula_totivirus_2[&!color=#803300]:0.0,OP020073_Hattula_totivirus_2[&!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.0,(OP019873_Hattula_totivirus_2[&!color=#803300]:0.0,OP020077_Hattula_totivirus_2[&!color=#803300]:0.0)[&!color=#803300]:0.0)[&label=0.924,!color=#803300]:0.002769,(OP020079_Hattula_totivirus_2[&!color=#803300]:0.002769,OP020078_Hattula_totivirus_2[&!color=#803300]:0.0)[&label=0.918,!color=#803300]:0.0)[&label=0.0,!color=#803300]:0.0)[&label=0.671,!color=#803300]:0.0,OP019875_Hattula_totivirus_2[&!color=#803300]:0.002777)[&label=0.74,!color=#803300]:0.0,OP019876_Hattula_totivirus_2[&!color=#803300]:0.00277)[&label=1.0,!color=#803300]:0.152628)[&label=0.049,!color=#803300]:0.033879)[&label=0.92,!color=#803300]:0.039945)[&label=0.814,!color=#803300]:0.047958,(Coundenality_virus_F1183C376F1183[&!color=#803300]:0.231557,((Wrunlize_virus_F1469C738F1469[&!color=#803300]:0.005196,Wrunlize_virus_F1469C738F1615[&!color=#803300]:0.004394)[&label=0.848,!color=#803300]:0.01232,(Aftionautor_virus_F1470C2F1470[&!color=#803300]:0.0,Aftionautor_virus_F1470C2F1471[&!color=#803300]:0.0)[&label=0.869,!color=#803300]:0.024307)[&label=1.0,!color=#803300]:0.271068)[&label=0.91,!color=#803300]:0.0782)[&label=0.897,!color=#803300]:0.041032)[&label=0.855,!color=#803300]:0.040855)[&label=0.971,!color=#803300]:0.084464,((((OP019859_Hameenlinna_totivirus_3[&!color=#803300]:0.010688,OP020037_Hameenlinna_totivirus_3[&!color=#803300]:0.0)[&label=0.0,!color=#803300]:0.0,OP020040_Hameenlinna_totivirus_3[&!color=#803300]:0.0)[&label=0.464,!color=#803300]:0.0,(OP020032_Hameenlinna_totivirus_3[&!color=#803300]:0.0,(OP020035_Hameenlinna_totivirus_3[&!color=#803300]:0.0,(OP020045_Hameenlinna_totivirus_3[&!color=#803300]:0.002739,OP020042_Hameenlinna_totivirus_3[&!color=#803300]:0.003055)[&label=0.0,!color=#803300]:6.53E-4)[&label=0.0,!color=#803300]:0.0)[&label=0.678,!color=#803300]:0.00259)[&label=0.999,!color=#803300]:0.159974,(OP019991_Enontekio_totivirus_3[&!color=#803300]:0.106974,((OP019866_Hanko_totivirus_9[&!color=#803300]:0.0,(OP020069_Hanko_totivirus_9[&!color=#803300]:0.00277,OP019900_Hanko_totivirus_9[&!color=#803300]:0.00555)[&label=0.736,!color=#803300]:0.0)[&label=0.31,!color=#803300]:0.0,OP019867_Hanko_totivirus_9[&!color=#803300]:0.00277)[&label=1.0,!color=#803300]:0.179873)[&label=0.427,!color=#803300]:0.050802)[&label=1.0,!color=#803300]:0.273836)[&label=0.455,!color=#803300]:0.044685)[&label=0.541,!color=#803300]:0.028316,((NC_035130_Aedes_alboannulatus_toti-like_virus_1[&!color=#803300]:0.0,NC_035131_Aedes_camptorhynchus_toti-like_virus_1[&!color=#803300]:0.0)[&!color=#803300]:0.270072,((((OP020028_Hameenlinna_totivirus_2[&!color=#803300]:0.0,(OP020029_Hameenlinna_totivirus_2[&!color=#803300]:0.0,(OP020030_Hameenlinna_totivirus_2[&!color=#803300]:0.0,OP020031_Hameenlinna_totivirus_2[&!color=#803300]:0.003214)[&label=0.898,!color=#803300]:0.0)[&label=0.961,!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.137478,((OP020114_Kuusamo_totivirus_1[&!color=#803300]:0.056802,(OP019907_Palkane_totivirus[&!color=#803300]:0.0,OP019908_Palkane_totivirus[&!color=#803300]:0.002756)[&label=0.985,!color=#803300]:0.056494)[&label=0.992,!color=#803300]:0.070164,((KF298277_uncultured_virus[&!color=#803300]:0.005225,(OP020053_Hanko_totivirus_3[&!color=#803300]:0.002684,((OP019861_Hanko_totivirus_3[&!color=#803300]:0.0,OP019862_Hanko_totivirus_3[&!color=#803300]:0.0,OP019902_Hanko_totivirus_3[&!color=#803300]:0.0,OP019903_Hanko_totivirus_3[&!color=#803300]:0.0,OP019904_Hanko_totivirus_3[&!color=#803300]:0.0,OP019909_Hanko_totivirus_3[&!color=#803300]:0.0,OP020054_Hanko_totivirus_3[&!color=#803300]:0.0)[&!color=#803300]:0.0,OP019905_Hanko_totivirus_3[&!color=#803300]:0.002686)[&label=0.739,!color=#803300]:0.0)[&label=0.359,!color=#803300]:0.00557)[&label=1.0,!color=#803300]:0.128783,(OP020065_Hanko_totivirus_5[&!color=#803300]:0.0,(((OP020059_Hanko_totivirus_5[&!color=#803300]:0.0,OP020064_Hanko_totivirus_5[&!color=#803300]:0.0)[&!color=#803300]:0.0,(OP020066_Hanko_totivirus_5[&!color=#803300]:0.004124,(OP020060_Hanko_totivirus_5[&!color=#803300]:0.0,OP020058_Hanko_totivirus_5[&!color=#803300]:0.004566)[&label=0.0,!color=#803300]:0.0)[&label=0.812,!color=#803300]:0.0)[&label=0.08,!color=#803300]:0.0,(OP019863_Hanko_totivirus_5[&!color=#803300]:0.0,(OP020061_Hanko_totivirus_5[&!color=#803300]:0.008476,OP020063_Hanko_totivirus_5[&!color=#803300]:0.00281)[&label=0.767,!color=#803300]:0.002807)[&label=0.999,!color=#803300]:0.0)[&label=0.834,!color=#803300]:0.003855)[&label=1.0,!color=#803300]:0.160567)[&label=0.964,!color=#803300]:0.07039)[&label=0.964,!color=#803300]:0.054663)[&label=0.406,!color=#803300]:0.040539,(OP020068_Hanko_totivirus_7[&!color=#803300]:0.079309,OP020095_Ilomantsi_totivirus_2[&!color=#803300]:0.077173)[&label=0.99,!color=#803300]:0.073853)[&label=0.992,!color=#803300]:0.094503,(((OP019884_Ilomantsi_totivirus_1[&!color=#803300]:0.0,OP020092_Ilomantsi_totivirus_1[&!color=#803300]:0.004572)[&label=0.999,!color=#803300]:0.120533,(OP019885_Inari_totivirus_1[&!color=#803300]:0.058948,(OP020027_Hameenlinna_totivirus_1[&!color=#803300]:0.0,((OP020005_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP020021_Hameenlinna_totivirus_1[&!color=#803300]:0.0)[&!color=#803300]:0.0,(OP020010_Hameenlinna_totivirus_1[&!color=#803300]:0.0,((OP020011_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP020015_Hameenlinna_totivirus_1[&!color=#803300]:0.0)[&!color=#803300]:0.0,((OP019858_Hameenlinna_totivirus_1[&!color=#803300]:0.002723,((OP019853_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP019857_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP020020_Hameenlinna_totivirus_1[&!color=#803300]:0.0)[&!color=#803300]:0.0,(OP020016_Hameenlinna_totivirus_1[&!color=#803300]:0.0,(OP020006_Hameenlinna_totivirus_1[&!color=#803300]:0.003383,OP020007_Hameenlinna_totivirus_1[&!color=#803300]:0.004528)[&label=0.748,!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.0)[&label=0.739,!color=#803300]:0.0)[&label=0.917,!color=#803300]:0.002742,((OP019852_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP019854_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP019855_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP019856_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP020003_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP020014_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP020018_Hameenlinna_totivirus_1[&!color=#803300]:0.0,OP020026_Hameenlinna_totivirus_1[&!color=#803300]:0.0)[&!color=#803300]:0.0,OP020002_Hameenlinna_totivirus_1[&!color=#803300]:0.0)[&label=0.963,!color=#803300]:0.0)[&label=0.989,!color=#803300]:0.0)[&label=0.998,!color=#803300]:0.0)[&label=0.964,!color=#803300]:0.0)[&label=0.0,!color=#803300]:0.0)[&label=0.998,!color=#803300]:0.100348)[&label=0.974,!color=#803300]:0.062456)[&label=0.983,!color=#803300]:0.079902,(((OP019892_Lestijarvi_totivirus[&!color=#803300]:0.0,OP019893_Lestijarvi_totivirus[&!color=#803300]:0.0)[&!color=#803300]:0.002808,OP019894_Lestijarvi_totivirus[&!color=#803300]:0.0)[&label=1.0,!color=#803300]:0.169982,(OP020067_Hanko_totivirus_6[&!color=#803300]:0.040062,((OP019886_Inari_totivirus_2[&!color=#803300]:0.0,OP019887_Inari_totivirus_2[&!color=#803300]:0.0)[&!color=#803300]:0.0,OP019888_Inari_totivirus_2[&!color=#803300]:0.005448)[&label=0.994,!color=#803300]:0.060289)[&label=0.996,!color=#803300]:0.102003)[&label=1.0,!color=#803300]:0.136933)[&label=0.178,!color=#803300]:0.027639)[&label=0.71,!color=#803300]:0.053348)[&label=1.0,!color=#803300]:0.151201)[&label=0.977,!color=#803300]:0.095143)[&label=0.886,!color=#803300]:0.079436,((MZ218558_Totiviridae_sp_:0.178235,(MZ209683_Hangzhou_totivirus_6:0.067161,MZ209684_Hangzhou_totivirus_7:0.087082)[&label=0.996]:0.164322)[&label=1.0]:0.272875,(KX882965_Hubei_toti-like_virus_8:0.299894,(KX882971_Hubei_toti-like_virus_7:0.238171,MZ218579_Totiviridae_sp_:0.1992)[&label=0.98]:0.135675)[&label=1.0]:0.231294)[&label=0.661]:0.07238)[&label=0.544]:0.065914)[&label=0.216]:0.1043)[&label=0.944]:0.268121)[&label=1.0]:0.40065,(((KX882991_Wenling_toti-like_virus_1:1.801112,MN565680_Bremia_lactucae_associated_fusagravirus_1:0.86399)[&label=0.019]:0.31828,(((KT013296_Papaya_meleira_virus:0.702085,LC333746_Rosellinia_necatrix_megatotivirus_1:1.861483)[&label=0.902]:0.650893,((LC333739_Rosellinia_necatrix_fusagravirus_3:0.569205,MH766494_Sclerotium_rolfsii_RNA_virus_1:0.503636)[&label=0.643]:0.074234,((LC333738_Rosellinia_necatrix_fusagravirus_2:0.612701,(AM111097_Phlebiopsis_gigantea_mycovirus_dsRNA_2:0.394632,MH766495_Sclerotium_rolfsii_RNA_virus_2:0.504856)[&label=0.972]:0.202263)[&label=0.153]:0.078791,((JQ513382_Sclerotinia_sclerotiorum_dsRNA_mycovirus-L:0.550302,NC_033415_Trichoderma_atroviride_mycovirus:0.564464)[&label=0.987]:0.267828,EU547739_Diplodia_scrobiculata_RNA_virus_1:0.847742)[&label=0.539]:0.053483)[&label=0.992]:0.272631)[&label=0.985]:0.331214)[&label=0.892]:0.18489,JN603241_Phytophthora_infestans_RNA_virus_3:0.834821)[&label=0.946]:0.23319)[&label=0.876]:0.240741,NC_033466_Wuhan_insect_virus_28:1.745714)[&label=0.918]:0.159698)[&label=0.695]:0.099993,((((((MZ218544_Betachrysovirus_sp_:0.102333,(((((MW752180_Magnaporthe_oryzae_chrysovirus_1:0.0,NC_023041_Magnaporthe_oryzae_chrysovirus_1:0.0):0.030177,(LC432338_Magnaporthe_oryzae_chrysovirus_1:0.0,LC065455_Magnaporthe_oryzae_chrysovirus_1:0.0)[&label=0.928]:0.017952)[&label=0.605]:0.023611,NC_014462_Magnaporthe_oryzae_chrysovirus_1:0.005584)[&label=1.0]:0.307901,(MW314841_Beauveria_bassiana_chrysovirus_2:0.069195,NC_055630_Betachrysovirus_neofusicocci:0.076838)[&label=1.0]:0.15782)[&label=0.996]:0.114307,KX882987_Wuhan_insect_virus_29:0.230243)[&label=0.347]:0.045064)[&label=0.344]:0.042901,FR750563_Tolypocladium_cylindrosporum_virus_2:0.142112)[&label=1.0]:0.432299,(((HQ228213_Betachrysovirus_fugramineari:0.028704,(HQ343295_Betachrysovirus_fugramineari:0.0,NC_055221_Betachrysovirus_fugramineari:0.0):0.0)[&label=0.951]:0.090583,(MN295964_Betachrysovirus_foxyspori:0.01837,NC_027563_Betachrysovirus_foxyspori:0.060836)[&label=0.999]:0.183564)[&label=1.0]:0.58303,((NC_040485_Betachrysovirus_colletotrichi:0.405815,((((KF688736_Betachrysovirus_botryosphaeriae:0.0,MW863548_Botryosphaeria_dothidea_chrysovirus_1-like:0.008724)[&label=0.82]:0.005812,NC_034268_Betachrysovirus_botryosphaeriae:0.005803)[&label=0.663]:0.002923,KJ573505_Betachrysovirus_botryosphaeriae:0.0)[&label=1.0]:0.230651,(NC_043672_Betachrysovirus_secupenicillii:0.198798,((OM802108_Setosphaeria_turcica_chrysovirus_1:0.040163,(MK672910_Betachrysovirus_alternariae:0.020254,((LC350277_Betachrysovirus_alternariae:0.0,MN563140_Betachrysovirus_alternariae:0.0,NC_040738_Betachrysovirus_alternariae:0.0):0.002528,MK584808_Betachrysovirus_alternariae:0.009324)[&label=0.963]:0.023554)[&label=0.926]:0.044395)[&label=1.0]:0.361136,NC_055608_Betachrysovirus_aspergilli:0.187877)[&label=0.37]:0.04873)[&label=0.932]:0.064807)[&label=0.932]:0.101011)[&label=0.995]:0.128705,(((MN617778_Erysiphe_necator_associated_chrysovirus_1:0.12784,NC_055627_Betachrysovirus_coniothyrii:0.15391)[&label=1.0]:0.217147,(MT035907_Macrophomina_phaseolina_chrysovirus_4:0.015361,(MT035905_Macrophomina_phaseolina_chrysovirus_2:0.0,MT035906_Macrophomina_phaseolina_chrysovirus_3:0.0)[&label=0.712]:0.009739)[&label=1.0]:0.265097)[&label=0.853]:0.086024,((ON746376_Baoding_Chrys_tick_virus_1:0.017602,(Gainquerated_virus_F1367C33F1426:0.0,(Gainquerated_virus_F1367C33F1367:0.0,Gainquerated_virus_F1367C33F1414:0.0)[&label=0.972]:0.0)[&label=0.868]:0.014732)[&label=0.999]:0.136282,(NC_028495_Betachrysovirus_pripenicillii:0.108404,(EU289896_Aspergillus_mycovirus_1816:0.024319,LC350094_Alphachrysovirus_aspergilli:0.034115)[&label=1.0]:0.102155)[&label=0.551]:0.039309)[&label=1.0]:0.194149)[&label=0.91]:0.053802)[&label=0.742]:0.043002)[&label=0.757]:0.042131)[&label=1.0]:0.896901,(LC376044_Pythium_polare_RNA_virus_1:1.543005,OW528639_Mesotaenium_kramstae_alphachyrso-like_virus:0.623303)[&label=0.884]:0.383641)[&label=0.24]:0.175112,((LC516853_Barley_aphid_RNA_virus_8:0.49899,(KX882973_Hubei_chryso-like_virus_2:0.229351,(MN661047_Alphachrysovirus_saladoense:0.175037,((MW520414_Evros_chryso-like_virus:0.235553,(((KX882959_Alphachrysovirus_shuangaoense:0.0,NC_055224_Alphachrysovirus_shuangaoense:0.0):0.0,(KX882964_Alphachrysovirus_shuangaoense:0.0,MH745159_Alphachrysovirus_shuangaoense:0.025605)[&label=0.0]:0.0)[&label=0.95]:0.031732,((KX882962_Hubei_chryso-like_virus_1:0.0,(LC514396_Hubei_chryso-like_virus_1:0.022573,((Hubei_chryso_like_virus_1_F1427C12F1425:0.0,Hubei_chryso_like_virus_1_F1427C12F1427:0.0,Hubei_chryso_like_virus_1_F1427C12F1431:0.0,OK413943_Hubei_chryso-like_virus_1:0.0):0.0,((((MH085092_Hubei_chryso-like_virus_1:0.0,MW452288_Chrysoviridae_sp_:0.002778)[&label=0.736]:0.0,(MF176261_Hubei_chryso-like_virus_1:0.0,MF176280_Hubei_chryso-like_virus_1:0.0,MF176388_Hubei_chryso-like_virus_1:0.0):0.0)[&label=0.924]:0.002779,MW434089_Hubei_chryso-like_virus_1:0.0)[&label=0.0]:0.0,OL700058_Hubei_chryso-like_virus_1:0.002777)[&label=0.845]:0.002783)[&label=0.797]:0.0)[&label=0.071]:0.004078)[&label=0.95]:0.028683,(MT498826_Broome_chryso-like_virus_1:0.034265,(((MK440655_Eskilstorp_virus:0.0,OP264884_Eskilstorp_virus:0.002943)[&label=0.724]:0.0,MW520400_Xanthi_chryso-like_virus:0.0)[&label=0.775]:0.004207,MW520399_Soufli_chryso-like_virus:0.004229)[&label=0.663]:0.01601)[&label=0.936]:0.023202)[&label=0.94]:0.038255)[&label=0.287]:0.028255)[&label=0.997]:0.112916,((OP019837_Enontekio_alphachrysovirus:0.053681,(OP019911_Lestijarvi_alphachrysovirus:0.026123,(OP019845_Lestijarvi_alphachrysovirus:0.0,OP019910_Lestijarvi_alphachrysovirus:0.0)[&label=0.985]:0.037375)[&label=0.987]:0.052178)[&label=0.864]:0.047315,(MW434094_Keturi_virus:0.078778,OP019841_Hanko_alphachrysovirus:0.093309)[&label=0.429]:0.037204)[&label=0.978]:0.068557)[&label=0.519]:0.053401)[&label=0.968]:0.152773)[&label=0.97]:0.237335)[&label=1.0]:0.647219,(((MH936014_Alphachrysovirus_zeae:0.004231,(MH931193_Alphachrysovirus_zeae:0.0,(((MH931202_Alphachrysovirus_zeae:0.008697,(MH936016_Alphachrysovirus_zeae:0.0,MH936017_Alphachrysovirus_zeae:0.005818)[&label=0.715]:0.0)[&label=0.0]:0.0,((((((MN248737_Zea_mays_chrysovirus:0.0,MT424968_Alphachrysovirus_zeae:0.0):0.0,MW063136_Alphachrysovirus_zeae:0.0)[&label=0.953]:0.005807,MH931198_Alphachrysovirus_zeae:0.0)[&label=0.0]:0.0,MH931187_Alphachrysovirus_zeae:0.002899)[&label=0.0]:0.0,MH936015_Alphachrysovirus_zeae:0.0)[&label=0.017]:0.002896,(MH931201_Alphachrysovirus_zeae:0.005794,MH931206_Alphachrysovirus_zeae:0.036872)[&label=0.89]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,NC_040510_Alphachrysovirus_zeae:0.0)[&label=0.849]:0.002895)[&label=0.74]:0.005508)[&label=0.992]:0.178092,(NC_043676_Alphachrysovirus_anthurii:0.146004,(MZ218548_Alphachrysovirus_sp_:0.152257,NC_043506_Alphachrysovirus_perseae:0.172989)[&label=0.88]:0.074361)[&label=0.916]:0.088613)[&label=1.0]:0.559004,((((((Counshes_virus_F1497C40F1497:0.244909,((NC_043662_Alphachrysovirus_macrophominae:0.140701,OM837790_Diplodia_seriata_chrysovirus_1:0.19563)[&label=0.966]:0.091042,((NC_038784_Alphachrysovirus_verticillii:0.202117,(((GQ290652_Alphachrysovirus_cryphonectriae:0.005839,(NC_038778_Alphachrysovirus_cryphonectriae:0.0,GQ290650_Alphachrysovirus_cryphonectriae:0.002917)[&label=0.702]:0.0)[&label=0.976]:0.014674,LC062729_Alphachrysovirus_cryphonectriae:0.0)[&label=0.538]:0.0,DQ865186_Alphachrysovirus_cryphonectriae:0.011869)[&label=1.0]:0.173936)[&label=1.0]:0.214972,(NC_055655_Alphachrysovirus_chrysothricis:0.231957,(((LC553680_Alphachrysovirus_aspergilli:0.0,NC_038872_Alphachrysovirus_aspergilli:0.00877)[&label=1.0]:0.101561,((MK214380_Alphachrysovirus_penicillii:0.005837,(NC_007539_Alphachrysovirus_penicillii:0.0,OK032547_Alphachrysovirus_penicillii:0.0):0.0)[&label=0.933]:0.015537,(MK279429_Alphachrysovirus_penicillii:0.040309,MG887760_Alphachrysovirus_penicillii:0.063061)[&label=0.389]:0.017786)[&label=0.998]:0.089033)[&label=0.993]:0.095995,(MZ218549_Alphachrysovirus_sp_:0.139794,((GU108588_Grapevine_associated_chrysovirus-1:0.019597,MN617783_Erysiphe_necator_associated_chrysovirus_3:0.0155)[&label=0.998]:0.103797,(MK279433_Alphachrysovirus_isariae:0.034297,NC_033277_Alphachrysovirus_isariae:0.041194)[&label=1.0]:0.131571)[&label=0.911]:0.052755)[&label=0.875]:0.043849)[&label=0.14]:0.01937)[&label=0.995]:0.114683)[&label=0.591]:0.034345)[&label=0.972]:0.080229)[&label=0.254]:0.032673,KX882984_Wuhan_insect_virus_30:0.185082)[&label=0.877]:0.140005,MW455094_Diaporthe_pseudophoenicicola_chrysovirus_1:0.782817)[&label=0.995]:0.18334,(((MW656210_Alternaria_solani_chrysovirus_1:0.133581,(KY489954_Alphachrysovirus_helminthosporii:0.031954,NC_005978_Helminthosporium_victoriae_145S_virus:0.017391)[&label=0.935]:0.083851)[&label=1.0]:0.377141,((AJ781166_Alphachrysovirus_cerasi:0.0,NC_009947_Alphachrysovirus_cerasi:0.0):0.005741,AJ781397_Alphachrysovirus_cerasi:0.0)[&label=1.0]:0.587578)[&label=0.564]:0.086185,(((MH323409_Pestalotiopsis_theae_chrysovirus_1:0.141579,NC_043666_Alphachrysovirus_colletotrichi:0.135691)[&label=0.949]:0.05687,(OM993531_Ilyonectria_pseudodestructans_chrysovirus_1:0.189122,(NC_043218_Alphachrysovirus_fusarii:0.066293,ON746375_Nanning_Chrys_tick_virus_1:0.067635)[&label=0.997]:0.109343)[&label=0.936]:0.057468)[&label=0.985]:0.108036,((MZ218552_Alphachrysovirus_sp_:0.418911,MZ218545_Alphachrysovirus_sp_:0.214747)[&label=0.557]:0.026659,(MZ218546_Alphachrysovirus_sp_:0.246761,(MN393162_Lepraria_chrysovirus_1:0.365844,(MZ218550_Alphachrysovirus_sp_:0.0,MZ218551_Alphachrysovirus_sp_:0.041223)[&label=0.963]:0.199912)[&label=0.666]:0.067372)[&label=0.048]:0.074531)[&label=0.974]:0.103404)[&label=1.0]:0.193585)[&label=0.928]:0.09256)[&label=0.838]:0.06976,(ON746377_Hulunbuir_Chrys_tick_virus_1:0.730797,(MZ218547_Chrysoviridae_sp_:0.186727,((KP782031_Alphachrysovirus_brassicae:0.0,NC_043660_Alphachrysovirus_brassicae:0.0):0.117719,NC_043657_Alphachrysovirus_raphani:0.189287)[&label=0.993]:0.140554)[&label=0.997]:0.215198)[&label=0.855]:0.06951)[&label=0.416]:0.051995,OW527298_Tree_fringewort_alphachyrso-like_virus:0.568351)[&label=0.998]:0.284369)[&label=0.121]:0.139286)[&label=0.936]:0.174006)[&label=0.984]:0.241393,(((MK507788_Rhizoctonia_solani_dsRNA_virus_6:0.504258,MK507790_Rhizoctonia_solani_dsRNA_virus_8:0.470934)[&label=0.996]:0.387642,(KM657432_Rhizoctonia_fumigata_mycovirus:0.771876,(MK532272_Rhizoctonia_solani_dsRNA_virus_10:0.500568,(AM111096_Phlebiopsis_gigantea_mycovirus_dsRNA_1:0.665589,AB429554_Lentinula_edodes_mycovirus_HKB:0.59633)[&label=0.433]:0.100993)[&label=0.998]:0.360577)[&label=0.375]:0.200801)[&label=0.819]:0.188858,(KU291938_Ceratobasidium_virus_B:1.042654,(KU291967_Pterostylis_megabirnavirus-like:0.926618,(KT601119_Pleosporales_megabirnavirus_1:0.620934,LC333756_Rosellinia_necatrix_megabirnavirus_3:0.453545)[&label=0.993]:0.435787)[&label=0.71]:0.16577)[&label=0.742]:0.219599)[&label=1.0]:0.568586)[&label=0.867]:0.12726)[&label=0.129]:0.075414)[&label=0.951]:0.179076)[&label=0.328]:0.096398,(((MG256177_Gigaspora_margarita_giardia-like_virus_1:0.0,NC_040632_Gigaspora_margarita_giardia-like_virus_1:0.0):1.571556,(((MN545915_Plasmopara_viticola_lesion_associated_totivirus-like_2:0.411714,(MN956531_Phytophthora_cactorum_RNA_virus_1:0.440311,(OL795389_Phytophthora_palustris_toti-like_virus_12-1:0.007509,(OL795390_Phytophthora_palustris_toti-like_virus_12-2:0.002883,OL795391_Phytophthora_palustris_toti-like_virus_12-3:0.013575)[&label=0.375]:0.022811)[&label=1.0]:0.320688)[&label=0.894]:0.134418)[&label=1.0]:0.79812,((((MZ209749_Fushun_totivirus_5:0.006477,MZ209984_Fushun_totivirus_5:0.008508)[&label=1.0]:0.932109,((MN661076_Embera_virus[&!color=#803300]:0.230734,((((Aedes_aegypti_totivirus_F1506C12C58C205F1506[&!color=#803300]:0.0,MT435499_Aedes_aegypti_totivirus_2[&!color=#803300]:0.011784)[&label=0.917,!color=#803300]:0.008371,(((MW434940_Aedes_aegypti_totivirus[&!color=#803300]:0.0,MW434941_Aedes_aegypti_totivirus[&!color=#803300]:0.0)[&!color=#803300]:0.008383,((((MN053723_Aedes_aegypti_totivirus[&!color=#803300]:0.0,MN053724_Aedes_aegypti_totivirus[&!color=#803300]:0.0,MN053733_Aedes_aegypti_totivirus[&!color=#803300]:0.0)[&!color=#803300]:0.0,MN053730_Aedes_aegypti_totivirus[&!color=#803300]:0.005514)[&label=0.844,!color=#803300]:0.002767,(MN053729_Aedes_aegypti_totivirus[&!color=#803300]:0.0,MN053731_Aedes_aegypti_totivirus[&!color=#803300]:0.0)[&!color=#803300]:0.0)[&label=0.0,!color=#803300]:0.0,MN053727_Aedes_aegypti_totivirus[&!color=#803300]:0.00277)[&label=0.893,!color=#803300]:0.005548)[&label=0.893,!color=#803300]:0.005605,(LC496074_Aedes_aegypti_totivirus[&!color=#803300]:0.00833,(MN053732_Aedes_aegypti_totivirus[&!color=#803300]:0.002787,((MN053728_Aedes_aegypti_totivirus[&!color=#803300]:0.0,MN053734_Aedes_aegypti_totivirus[&!color=#803300]:0.0)[&!color=#803300]:0.0,((MN053722_Aedes_aegypti_totivirus[&!color=#803300]:0.0,MN053726_Aedes_aegypti_totivirus[&!color=#803300]:0.0)[&!color=#803300]:0.002793,MN053725_Aedes_aegypti_totivirus[&!color=#803300]:0.0)[&label=0.916,!color=#803300]:0.002787)[&label=0.0,!color=#803300]:0.0)[&label=0.986,!color=#803300]:0.019788)[&label=0.54,!color=#803300]:0.005651)[&label=0.788,!color=#803300]:0.0)[&label=0.742,!color=#803300]:0.003812,MZ556103_Lactea_totivirus[&!color=#803300]:0.005734)[&label=1.0,!color=#803300]:0.250461,(MW520394_Drama_totivirus[&!color=#803300]:0.12278,ON860472_Koversta_virus[&!color=#803300]:0.145118)[&label=0.989,!color=#803300]:0.117769)[&label=0.469,!color=#803300]:0.057959)[&label=1.0,!color=#803300]:0.504835,((MN745083_Bactrocera_dorsalis_toti-like_virus_2[&!color=#803300]:0.258183,MZ209742_Hangzhou_totivirus_9[&!color=#803300]:0.259853)[&label=0.999,!color=#803300]:0.230456,(MW251336_Zyryana_toti-like_virus[&!color=#803300]:0.281313,((OM743943_Green_Valley_Lake_virus[&!color=#803300]:0.071416,((OM817549_Totivirus-like_Culex_mosquito_virus_1[&!color=#803300]:0.023575,(MH188048_Totivirus-like_Culex_mosquito_virus_1[&!color=#803300]:0.0,MW434958_Totivirus-like_Culex_mosquito_virus_1[&!color=#803300]:0.0)[&label=0.875,!color=#803300]:0.010216)[&label=0.998,!color=#803300]:0.102887,(MK440653_Lindangsbacken_virus[&!color=#803300]:0.093771,(MT498830_Fitzroy_Crossing_toti-like_virus_1[&!color=#803300]:0.040886,((LC514398_Culex_inatomii_totivirus[&!color=#803300]:0.0,(MW520387_Culex_modestus_totivirus[&!color=#803300]:0.002789,(MW699041_Culex_inatomii_totivirus[&!color=#803300]:0.0,MW699042_Culex_inatomii_totivirus[&!color=#803300]:0.0)[&!color=#803300]:0.002778)[&label=0.731,!color=#803300]:0.008377)[&label=0.979,!color=#803300]:0.032,((Culex_inatomii_totivirus_F1570C24F1570[&!color=#803300]:0.0,Culex_inatomii_totivirus_F1570C24F1582[&!color=#803300]:0.005482)[&label=0.908,!color=#803300]:0.010469,(OL700195_XiangYun_toti-like_virus_6[&!color=#803300]:0.019574,OP264907_Culex_modestus_totivirus[&!color=#803300]:0.010045)[&label=0.834,!color=#803300]:0.006413)[&label=0.963,!color=#803300]:0.023462)[&label=0.99,!color=#803300]:0.042621)[&label=0.897,!color=#803300]:0.031719)[&label=0.915,!color=#803300]:0.039181)[&label=0.046,!color=#803300]:0.021198)[&label=0.974,!color=#803300]:0.082171,((MF073201_Australian_Anopheles_totivirus[&!color=#803300]:0.01127,(MN784056_Australian_Anopheles_totivirus[&!color=#803300]:0.008699,(NC_035674_Australian_Anopheles_totivirus[&!color=#803300]:0.005589,MN784057_Australian_Anopheles_totivirus[&!color=#803300]:0.002915)[&label=0.746,!color=#803300]:0.002814)[&label=0.814,!color=#803300]:0.01144)[&label=0.999,!color=#803300]:0.164522,((OP020072_Hattula_totivirus_1[&!color=#803300]:0.032689,(OP020070_Hattula_totivirus_1[&!color=#803300]:0.031683,(((OP019869_Hattula_totivirus_1[&!color=#803300]:0.003056,OP019870_Hattula_totivirus_1[&!color=#803300]:0.005258)[&label=0.416,!color=#803300]:0.002781,(OP019868_Hattula_totivirus_1[&!color=#803300]:0.008063,OP019871_Hattula_totivirus_1[&!color=#803300]:0.005838)[&label=0.0,!color=#803300]:0.0)[&label=0.704,!color=#803300]:0.00326,(OP019901_Hattula_totivirus_1[&!color=#803300]:0.0,OP020071_Hattula_totivirus_1[&!color=#803300]:0.003371)[&label=0.864,!color=#803300]:0.008123)[&label=0.804,!color=#803300]:0.018622)[&label=0.726,!color=#803300]:0.014876)[&label=0.988,!color=#803300]:0.079472,((MN661079_Pisingos_virus[&!color=#803300]:0.019917,MN661081_Pisingos_virus[&!color=#803300]:0.011608)[&label=0.772,!color=#803300]:0.026617,(MF344587_Murici_virus[&!color=#803300]:0.040681,(MN661078_Pisingos_virus[&!color=#803300]:0.031103,MN661080_Pisingos_virus[&!color=#803300]:0.015559)[&label=0.151,!color=#803300]:0.0)[&label=0.918,!color=#803300]:0.022938)[&label=1.0,!color=#803300]:0.112474)[&label=0.804,!color=#803300]:0.060239)[&label=0.995,!color=#803300]:0.134231)[&label=0.993,!color=#803300]:0.152502)[&label=0.99,!color=#803300]:0.199672)[&label=0.97,!color=#803300]:0.133972)[&label=0.863,!color=#803300]:0.137431)[&label=0.952]:0.140896,((NC_032746_Beihai_uca_arcuata_virus_1:1.227355,(MW826476_Totiviridae_sp_:0.412249,MW826510_Totiviridae_sp_:0.573067)[&label=0.996]:0.44007)[&label=0.891]:0.218569,(((MT317155_Rice_Toti-like_virus:0.0,(MZ209985_Sogatella_furcifera_totivirus_1:0.003045,(MZ210016_Sogatella_furcifera_totivirus_1:0.006103,(MZ209609_Sogatella_furcifera_totivirus_1:0.0,(MZ209750_Sogatella_furcifera_totivirus_1:0.0,(MZ210054_Sogatella_furcifera_totivirus_1:0.003062,NC_040633_Sogatella_furcifera_totivirus_1:0.0)[&label=0.0]:0.0)[&label=0.827]:0.003033)[&label=0.924]:0.003025)[&label=0.0]:0.0)[&label=0.596]:0.003015)[&label=1.0]:0.476735,((MZ210056_Hangzhou_sogatella_furcifera_totivirus_1:0.0104,((MZ209986_Fushun_totivirus_1:0.031105,((MG546516_Sogatella_furcifera_totivirus_2:0.0,NC_040704_Sogatella_furcifera_totivirus_2:0.0):0.022003,(MZ209610_Hangzhou_totivirus_1:0.017148,MZ209751_Sanya_totivirus_13:0.015311)[&label=0.983]:0.036601)[&label=0.487]:0.014634)[&label=0.329]:0.008275,MZ210057_Hangzhou_sogatella_furcifera_totivirus_2:0.033606)[&label=0.895]:0.019583)[&label=0.976]:0.110991,(NC_032878_Hubei_toti-like_virus_13:0.250305,MZ209620_Hangzhou_totivirus_2:0.136659)[&label=0.269]:0.045447)[&label=1.0]:0.450927)[&label=0.994]:0.215549,(((MZ209711_Hangzhou_zicrona_caerulea_totivirus_1:0.458474,MZ209884_Sanya_orius_sauteri_totivirus_1:0.309297)[&label=0.998]:0.210087,((OM650317_Halyomorpha_halys_toti-like_virus_1:0.588492,(MN933901_Picornaviridae_sp_:0.374301,MW239339_Picornavirales_sp_:0.559311)[&label=0.996]:0.292036)[&label=0.379]:0.08207,((((MZ209871_Sanya_orius_sauteri_totivirus_2:0.003209,MZ209885_Sanya_orius_sauteri_totivirus_2:0.0)[&label=1.0]:0.382039,(MW826509_Totiviridae_sp_:0.243518,(MZ209639_Hangzhou_totivirus_11:0.0,MZ209706_Sanya_totivirus_12:0.0):0.436795)[&label=0.925]:0.114436)[&label=0.949]:0.098164,(MW310393_Bactrocera_zonata_toti-like_virus:0.465646,(NC_032919_Hubei_toti-like_virus_15:0.309485,(OL957313_Ceratitis_capitata_totivirus_1:0.21529,(MF893249_Larkfield_virus:0.246204,KX882969_Hubei_toti-like_virus_14:0.268012)[&label=0.964]:0.082893)[&label=0.119]:0.057831)[&label=0.999]:0.201274)[&label=0.734]:0.092054)[&label=0.602]:0.058401,((NC_027212_Camponotus_yamaokai_virus:0.23104,NC_029312_Camponotus_nipponicus_virus:0.266388)[&label=0.992]:0.203329,OK491479_Xiangshan_toli-like_virus:0.617116)[&label=0.954]:0.109292)[&label=0.957]:0.10831)[&label=0.152]:0.04673)[&label=0.662]:0.116097,(KX882944_Beihai_toti-like_virus_2:0.463663,MZ209916_Sanya_totivirus_8:0.519332)[&label=0.973]:0.176306)[&label=0.857]:0.083122)[&label=0.999]:0.338209)[&label=0.374]:0.071721)[&label=0.398]:0.05489,(((ON456912_Sichuan_tick_toti-like_virus:0.213339,(ON746558_Hulunbuir_Totiv_tick_virus_1:0.006221,ON872651_Totiviridae_sp_:0.002749)[&label=0.998]:0.227785)[&label=1.0]:0.351363,(NC_032938_Hubei_toti-like_virus_24:0.233283,((ON812691_Totiviridae_sp_:0.0,ON812693_Totiviridae_sp_:0.0,ON812698_Totiviridae_sp_:0.0,ON812700_Totiviridae_sp_:0.0):0.0,(ON812593_Totiviridae_sp_:0.00291,(ON812690_Totiviridae_sp_:0.0,ON812692_Totiviridae_sp_:0.0):0.0)[&label=0.631]:0.00291)[&label=0.986]:0.186653)[&label=0.992]:0.263909)[&label=1.0]:0.613693,(MT085286_Riboviria_sp_:0.490365,(NC_033719_Xingshan_nematode_virus_6:0.593268,(MT085273_Riboviria_sp_:0.400262,(MW583012_Cane_toad_associated_toti-like_virus_3:0.408628,(KX882961_Jingmen_toti-like_virus_1:0.290774,(KX882982_Hubei_toti-like_virus_12:0.0,NC_032831_Hubei_toti-like_virus_12:0.006506)[&label=1.0]:0.203513)[&label=0.914]:0.197549)[&label=0.977]:0.157405)[&label=0.916]:0.118628)[&label=0.904]:0.158577)[&label=1.0]:0.440673)[&label=0.635]:0.072962)[&label=1.0]:1.026503)[&label=0.868]:0.267956,((((MN803437_Schistocephalus_solidus_toti-like_virus_3:1.795548,MK967418_Cronartium_ribicola_totivirus_1:2.402999)[&label=0.186]:0.25837,(((ON746544_Jiamusi_Totiv_tick_virus_1:0.0,ON812641_Totiviridae_sp_:0.007288)[&label=0.971]:0.226497,((NC_032942_Hubei_toti-like_virus_17:0.0,ON812695_Hubei_toti-like_virus_17:0.0):0.0,ON812592_Hubei_toti-like_virus_17:0.003678)[&label=0.995]:0.343356)[&label=0.997]:0.626834,(BK059880_Aloadae_toti-like_virus_2:0.779627,(MT129768_Keenan_toti-like_virus:0.254394,((((Andbire_virus_F1046C18F1046:0.150806,Andiett_virus_F1132C2F1132:0.176938)[&label=0.916]:0.203621,OP020048_Hanko_toti-like_virus_1:0.5797)[&label=0.83]:0.112401,MZ852363_Drosophila-associated_totivirus_4:0.337044)[&label=0.073]:0.090276,MZ852358_Drosophila-associated_totivirus_5:0.338922)[&label=0.721]:0.106666)[&label=0.95]:0.347943)[&label=1.0]:0.897234)[&label=0.845]:0.199178)[&label=0.952]:0.487449,((NC_033022_Wenzhou_crab_virus_5:1.647832,(MW811138_Cyclopterus_lumpus_toti-like_virus:0.419513,(((HQ339954_Piscine_myocarditis_virus_AL_V-708:0.0,NC_015639_Piscine_myocarditis_virus_AL_V-708:0.0):0.032066,JN624781_Piscine_myocarditis_virus_TT-2012:0.0)[&label=1.0]:0.509503,((MW888449_Golden_shiner_toti-like_virus_1:0.0,NC_029302_Piscine_myocarditis-like_virus:0.0):0.260104,MW893686_Common_carp_toti-like_virus_1:0.374472)[&label=0.923]:0.133425)[&label=0.851]:0.267095)[&label=0.999]:0.769417)[&label=0.515]:0.168503,(KF274642_Leptopilina_boulardi_Toti-like_virus:0.575147,(NC_032806_Hubei_toti-like_virus_20:0.05276,NC_032819_Hubei_toti-like_virus_21:0.141067)[&label=0.999]:0.575567)[&label=1.0]:0.996348)[&label=0.699]:0.158295)[&label=0.894]:0.149191,((KU291947_Ceratobasidium_virus_A:0.541149,LC061478_Yado-nushi_virus_1-A:0.806333)[&label=1.0]:1.364569,(((NC_032841_Beihai_toti-like_virus_4:0.908824,(KX882943_Beihai_toti-like_virus_5:0.726277,NC_032924_Hubei_toti-like_virus_16:0.723286)[&label=0.998]:0.577089)[&label=0.956]:0.246496,(KX882941_Wenzhou_toti-like_virus_2:0.903065,KX882950_Beihai_toti-like_virus_3:1.686364)[&label=0.954]:0.420803)[&label=0.909]:0.221916,(MG647775_Lonestar_tick_totivirus:1.29386,(NC_033467_Wuhan_insect_virus_31:0.772051,(KX882947_Beihai_toti-like_virus_1:0.757595,NC_032902_Hubei_diptera_virus_22:0.571299)[&label=0.261]:0.123187)[&label=0.985]:0.633346)[&label=0.998]:0.623384)[&label=0.522]:0.064533)[&label=0.503]:0.075495)[&label=0.811]:0.072953)[&label=0.515]:0.138528)[&label=0.586]:0.125892,(MW659706_Giardiavirus_sp_:0.004774,(((AF525216_Giardia_lamblia_virus:0.0,DQ238861_Giardia_lamblia_virus:0.015569)[&label=0.836]:0.007185,(L13218_Giardia_lamblia_virus:0.0,NC_003555_Giardia_lamblia_virus:0.0)[&label=0.961]:0.016852)[&label=0.901]:0.009436,((MW659704_Giardiavirus_sp_:0.0,MW659707_Giardiavirus_sp_:0.0):0.002837,MW659705_Giardiavirus_sp_:0.0)[&label=0.278]:0.005865)[&label=0.704]:0.017978)[&label=1.0]:2.279216)[&label=0.931]:0.270176)[&label=0.936]:0.211275,(((BK059877_Antaeus_toti-like_virus_2:0.0,BK059878_Antaeus_toti-like_virus_1:0.0):1.561057,MT949667_Totivirus_sp_:1.035091)[&label=0.999]:1.830684,KX148550_Anopheles_totivirus:2.767961)[&label=0.552]:0.220637)[&label=0.871]:0.274187)[&label=0.967]:0.241841,(NC_032465_Beihai_blue_swimmer_crab_virus_3:0.959849,((ON746554_Daqing_Totiv_tick_virus_1:0.450953,(ON812599_Totiviridae_sp_:0.235349,ON812600_Totiviridae_sp_:0.234182)[&label=1.0]:0.307097)[&label=0.988]:0.200482,((MZ218677_Totiviridae_sp_:0.37629,MZ209960_Sanya_ochthera_mantis_totivirus_1:0.459258)[&label=0.528]:0.067033,(OL700199_XiangYun_toti-like_virus_10:0.463585,(Ansforinte_virus_F1367C12F1360:0.0,Ansforinte_virus_F1367C12F1367:0.0)[&label=1.0]:0.592822)[&label=0.047]:0.092408)[&label=0.958]:0.161064)[&label=0.994]:0.194048)[&label=0.954]:0.146285)[&label=0.757]:0.049035,((((OL795379_Phytophthora_palustris_toti-like_virus_3-3:0.001809,(OL795377_Phytophthora_palustris_toti-like_virus_3-1:0.035485,OL795378_Phytophthora_palustris_toti-like_virus_3-2:0.027158)[&label=0.613]:0.02557)[&label=1.0]:0.548957,(((((MK279498_Hortaea_werneckii_totivirus_1:0.390563,(MN617025_Erysiphe_necator_associated_totivirus_4:0.345995,ON746552_Nanning_Totiv_tick_virus_3:0.370009)[&label=0.271]:0.066416)[&label=0.333]:0.070969,((JN997472_Xanthophyllomyces_dendrorhous_virus_L1A:0.0,JN997474_Xanthophyllomyces_dendrorhous_virus_L1A:0.0,NC_020903_Xanthophyllomyces_dendrorhous_virus_L1A:0.0):0.296501,MN545912_Plasmopara_viticola_lesion_associated_toti_3:0.176865)[&label=0.954]:0.102785)[&label=0.374]:0.04751,(NC_038699_Xanthophyllomyces_dendrorhous_virus_L1B:0.241902,((LC075489_Red_clover_powdery_mildew-associated_totivirus_4:0.060832,(MN545910_Plasmopara_viticola_lesion_associated_toti_1:0.03369,MN545911_Plasmopara_viticola_lesion_associated_toti_2:0.018111)[&label=0.991]:0.083865)[&label=1.0]:0.170018,(MN617026_Erysiphe_necator_associated_totivirus_5:0.163444,MN937194_Rhodosporidiobolus_odoratus_RNA_virus_1:0.243192)[&label=0.694]:0.052982)[&label=0.69]:0.050251)[&label=0.98]:0.110962)[&label=0.95]:0.11884,((MN628281_Erysiphales_associated_totivirus_10:0.13757,MN628293_Erysiphales_associated_totivirus_22:0.221073)[&label=0.999]:0.23817,(NC_028483_Red_clover_powdery_mildew-associated_totivirus_3:0.311498,MN628291_Erysiphales_associated_totivirus_20:0.476451)[&label=0.704]:0.098497)[&label=0.904]:0.145517)[&label=0.927]:0.080743,((KT455449_Delisea_pulchra_totivirus_IndA:0.548944,KX882981_Hubei_toti-like_virus_4:0.455858)[&label=0.922]:0.125403,((MK231122_Uromyces_totivirus_D:0.575616,(KT455453_Delisea_pulchra_totivirus_IndA:0.255171,OL700197_XiangYun_toti-like_virus_8:0.22476)[&label=0.985]:0.146085)[&label=0.915]:0.084306,(((MW249058_Conidiobolus_heterosporus_totivirus_1:0.178922,NC_033468_Wuhan_insect_virus_27:0.150974)[&label=0.998]:0.159937,(KT455456_Delisea_pulchra_totivirus_IndA:0.256311,((MZ218556_Totiviridae_sp_:0.047652,MZ218609_Totiviridae_sp_:0.156119)[&label=0.961]:0.173503,(MZ218568_Totiviridae_sp_:0.125333,MZ218578_Totiviridae_sp_:0.123898)[&label=0.948]:0.092231)[&label=0.963]:0.129112)[&label=0.958]:0.10989)[&label=0.234]:0.046679,((MZ600506_Conidiobolus_adiaeretus_totivirus_1:0.204791,(MZ600507_Conidiobolus_adiaeretus_totivirus_2:0.182299,NC_033465_Wuhan_insect_virus_26:0.173439)[&label=0.91]:0.074602)[&label=0.941]:0.073881,(LR595928_Umbelopsis_ramanniana_virus_4:0.268747,(LC671614_Syncephalastrum_racemosum_totivirus_1:0.281827,MK993478_Trichoderma_koningiopsis_totivirus_1:0.195963)[&label=0.925]:0.084221)[&label=0.589]:0.068336)[&label=0.992]:0.112736)[&label=0.933]:0.057524)[&label=0.936]:0.069733)[&label=0.874]:0.067187)[&label=0.892]:0.068682)[&label=0.984]:0.129489,(ON746545_Tonghua_Totiv_tick_virus_1:0.577746,OW528624_Rhodochaete_parvula_toti-like_virus_3:0.613589)[&label=0.933]:0.148683)[&label=0.837]:0.099966,(((NC_038698_Tuber_aestivum_virus_1:0.297865,((ON862168_Geotrichum_candidum_totivirus_2:0.047512,(ON812733_Totiviridae_sp_:0.0,ON812796_Totiviridae_sp_:0.002723)[&label=0.88]:0.026213)[&label=1.0]:0.226566,(MK231133_Ambrosiozyma_totivirus_A:0.233519,(MW174763_Torulaspora_delbrueckii_virus_LA:0.182663,(KY489970_Saccharomyces_kudriavzevii_virus_L-A-1082:0.063103,((M28353_Saccharomyces_cerevisiae_virus_L-A:0.0,NC_003745_Saccharomyces_cerevisiae_virus_L-A:0.0):0.077737,(KY489969_Saccharomyces_uvarum_virus_L-A-10560:0.048197,MW174761_Saccharomyces_cerevisiae_virus_L-A:0.040369)[&label=0.869]:0.019679)[&label=0.565]:0.027107)[&label=0.996]:0.115877)[&label=1.0]:0.151048)[&label=0.864]:0.102654)[&label=0.23]:0.035582)[&label=0.997]:0.21146,(MT873530_Helianthus_annuus_leaf-associated_totivirus_3:0.413793,(MZ209872_Sanya_totivirus_5:0.385904,((KU291926_Pterostylis_sanguinea_totivirus_A:0.271189,OL472026_Koper_totivirus_1:0.264419)[&label=0.468]:0.044858,((MN428834_Maize_associated_totivirus:0.0,(((MF425846_Maize-associated_totivirus_3:0.0,MN428836_Maize_associated_totivirus:0.0):0.004711,(((MK066242_Maize_associated_totivirus:0.0,MN248735_Maize_associated_totivirus:0.0,MN428835_Maize_associated_totivirus:0.0,MN428837_Maize_associated_totivirus:0.0):0.0,(MF372917_Maize_associated_totivirus_1:0.002739,NC_030398_Maize-associated_totivirus_2:0.002735)[&label=0.0]:0.0)[&label=0.736]:0.0,MK037419_Maize_associated_totivirus:0.003558)[&label=0.989]:0.019604)[&label=0.755]:0.003522,NC_036589_Maize-associated_totivirus_3:0.0)[&label=0.767]:0.002719)[&label=1.0]:0.320236,(MZ218630_Totiviridae_sp_:0.17039,NC_032734_Hubei_toti-like_virus_2:0.279288)[&label=0.884]:0.05033)[&label=0.9]:0.087025)[&label=0.866]:0.073822)[&label=0.758]:0.084414)[&label=0.99]:0.165801)[&label=0.998]:0.206867,((KT455450_Delisea_pulchra_totivirus_IndA:0.485726,((MZ079605_Exobasidium_gracile_totivirus_2-2:0.010635,MZ079608_Exobasidium_gracile_totivirus_1-2:0.0)[&label=1.0]:0.408804,(MZ218626_Totiviridae_sp_:0.213291,OW520909_Porphyridium_purpureum_toti-like_virus_2:0.294651)[&label=0.997]:0.265332)[&label=0.766]:0.099075)[&label=0.998]:0.283303,(((((((OP080565_Tuatara_cloaca-assoiciated_totivrus-3[&!color=#803300]:0.100541,(ON746555_Xian_Totiv_tick_virus_1[&!color=#803300]:0.010358,ON812703_Totiviridae_sp_[&!color=#803300]:0.014435)[&label=0.962,!color=#803300]:0.106236)[&label=0.998,!color=#803300]:0.157373,(((ON812606_Totiviridae_sp_[&!color=#803300]:0.018418,ON812795_Totiviridae_sp_[&!color=#803300]:0.017999)[&label=1.0,!color=#803300]:0.243864,((ON812681_Totiviridae_sp_[&!color=#803300]:0.270401,(MN617027_Erysiphe_necator_associated_totivirus_6[&!color=#803300]:0.10455,MN617028_Erysiphe_necator_associated_totivirus_7[&!color=#803300]:0.086584)[&label=0.999,!color=#803300]:0.171994)[&label=0.789,!color=#803300]:0.06654,ON812741_Totiviridae_sp_[&!color=#803300]:0.205339)[&label=0.948,!color=#803300]:0.097072)[&label=0.524,!color=#803300]:0.05521,OP020052_Hanko_totivirus_2[&!color=#803300]:0.431809)[&label=0.941,!color=#803300]:0.082459)[&label=0.846,!color=#803300]:0.054169,(Fanomonover_virus_F1497C15F1497[&!color=#803300]:0.42492,((MZ218643_Totiviridae_sp_[&!color=#803300]:0.116996,NC_038697_Scheffersomyces_segobiensis_virus_L[&!color=#803300]:0.077511)[&label=1.0,!color=#803300]:0.234377,(MN603497_Malassezia_restricta_virus_MrV40L[&!color=#803300]:0.148182,((MN812428_Malassezia_sympodialis_mycovirus[&!color=#803300]:0.102702,ON812740_Totiviridae_sp_[&!color=#803300]:0.090903)[&label=0.849,!color=#803300]:0.046267,((ON746559_Dali_Totiv_tick_virus_1[&!color=#803300]:0.006861,(ON812656_Totiviridae_sp_[&!color=#803300]:0.0,ON812661_Totiviridae_sp_[&!color=#803300]:0.002683)[&label=0.583,!color=#803300]:0.001254)[&label=1.0,!color=#803300]:0.140207,(MN617029_Erysiphe_necator_associated_totivirus_8[&!color=#803300]:0.021202,ON812658_Erysiphe_necator_associated_totivirus_8[&!color=#803300]:0.039657)[&label=1.0,!color=#803300]:0.146625)[&label=0.452,!color=#803300]:0.017062)[&label=0.648,!color=#803300]:0.06742)[&label=1.0,!color=#803300]:0.227653)[&label=0.981,!color=#803300]:0.113409)[&label=0.388,!color=#803300]:0.049258)[&label=0.982,!color=#803300]:0.124799,((MN628264_Erysiphales_associated_mitovirus_1[&!color=#803300]:0.293075,MN628284_Erysiphales_associated_totivirus_13[&!color=#803300]:0.37038)[&label=0.949,!color=#803300]:0.149465,MN628272_Erysiphales_associated_totivirus_1[&!color=#803300]:0.479379)[&label=0.722,!color=#803300]:0.08271)[&label=0.996,!color=#803300]:0.196337,(MZ218554_Totiviridae_sp_[&!color=#803300]:0.491725,((KT455451_Delisea_pulchra_totivirus_IndA[&!color=#803300]:0.334051,KT455457_Delisea_pulchra_totivirus_IndA[&!color=#803300]:0.351464)[&label=0.999,!color=#803300]:0.342574,((MZ218642_Totiviridae_sp_[&!color=#803300]:0.334838,(MZ218553_Totiviridae_sp_[&!color=#803300]:0.041625,MZ218629_Totiviridae_sp_[&!color=#803300]:0.045824)[&label=1.0,!color=#803300]:0.296264)[&label=0.961,!color=#803300]:0.130843,(KT455458_Delisea_pulchra_totivirus_IndA[&!color=#803300]:0.438161,MZ600515_Conidiobolus_lamprauges_totivirus_2[&!color=#803300]:0.424206)[&label=0.503,!color=#803300]:0.08597)[&label=0.823,!color=#803300]:0.046034)[&label=0.586,!color=#803300]:0.065777)[&label=0.875,!color=#803300]:0.083295)[&label=0.825,!color=#803300]:0.061459,(((MZ218584_Totiviridae_sp_[&!color=#803300]:0.294834,(MZ218664_Totiviridae_sp_[&!color=#803300]:0.286809,OW529226_Rhodochaete_parvula_toti-like_virus_1[&!color=#803300]:0.280229)[&label=0.959,!color=#803300]:0.139281)[&label=0.985,!color=#803300]:0.151424,(((ON812734_Totiviridae_sp_[&!color=#803300]:0.003196,(ON746560_Luoyang_Totiv_tick_virus_3[&!color=#803300]:0.010935,ON862167_Geotrichum_candidum_totivirus_1[&!color=#803300]:0.009039)[&label=0.781,!color=#803300]:0.010263)[&label=1.0,!color=#803300]:0.299721,((NC_001641_Saccharomyces_cerevisiae_virus_LBCLa[&!color=#803300]:0.025554,(KX906605_Saccharomyces_cerevisiae_virus_LBCLa[&!color=#803300]:0.012197,KT784813_Saccharomyces_cerevisiae_virus_L-BC-lus[&!color=#803300]:0.022011)[&label=0.592,!color=#803300]:0.003842)[&label=1.0,!color=#803300]:0.279484,((ON862169_Geotrichum_candidum_totivirus_3a[&!color=#803300]:0.0,ON862170_Geotrichum_candidum_totivirus_3b[&!color=#803300]:0.00817)[&label=0.996,!color=#803300]:0.184944,(MZ218667_Totiviridae_sp_[&!color=#803300]:0.015709,ON746553_Luoyang_Totiv_tick_virus_2[&!color=#803300]:0.003474)[&label=1.0,!color=#803300]:0.285125)[&label=0.995,!color=#803300]:0.197694)[&label=0.408,!color=#803300]:0.115059)[&label=0.753,!color=#803300]:0.09734,MZ218646_Totiviridae_sp_[&!color=#803300]:0.392357)[&label=0.984,!color=#803300]:0.154482)[&label=1.0,!color=#803300]:0.212116,(NC_028481_Red_clover_powdery_mildew-associated_totivirus_2[&!color=#803300]:0.618377,ON746556_Xian_Totiv_tick_virus_2[&!color=#803300]:0.38597)[&label=0.99,!color=#803300]:0.221806)[&label=0.84,!color=#803300]:0.081028)[&label=1.0,!color=#803300]:0.310311,(OW529222_Porphyridium_purpureum_toti-like_virus_1:0.614948,(OW741272_Rhodochaete_parvula_toti-like_virus_2:0.459909,(BK059861_Otus_toti-like_virus:0.495008,KT455452_Delisea_pulchra_totivirus_IndA:0.357841)[&label=0.993]:0.199019)[&label=0.97]:0.194721)[&label=0.957]:0.167826)[&label=0.513]:0.055851)[&label=0.663]:0.070155)[&label=0.963]:0.104716)[&label=0.865]:0.050644)[&label=1.0]:0.238882,(((LC075491_Red_clover_powdery_mildew-associated_totivirus_6:0.0,NC_028486_Red_clover_powdery_mildew-associated_totivirus_6:0.0):0.354502,MN628287_Erysiphales_associated_totivirus_16:0.356251)[&label=1.0]:0.239741,((LC075493_Red_clover_powdery_mildew-associated_totivirus_8:0.602624,(MN628282_Erysiphales_associated_totivirus_11:0.361431,((LC075492_Red_clover_powdery_mildew-associated_totivirus_7:0.0,NC_028488_Red_clover_powdery_mildew-associated_totivirus_7:0.0):0.101363,(MN628278_Erysiphales_associated_totivirus_7:0.030446,MN628280_Erysiphales_associated_totivirus_9:0.030222)[&label=0.995]:0.123087)[&label=1.0]:0.283808)[&label=0.994]:0.168016)[&label=0.946]:0.092434,((MN628283_Erysiphales_associated_totivirus_12:0.463401,MN628286_Erysiphales_associated_totivirus_15:0.433188)[&label=0.983]:0.193339,((MN628276_Erysiphales_associated_totivirus_5:0.161872,MN628288_Erysiphales_associated_totivirus_17:0.237571)[&label=1.0]:0.288188,(MN628273_Erysiphales_associated_totivirus_2:0.203312,MN628292_Erysiphales_associated_totivirus_21:0.333673)[&label=0.997]:0.232761)[&label=0.99]:0.173825)[&label=0.702]:0.061025)[&label=0.961]:0.075448)[&label=0.667]:0.059311)[&label=0.554]:0.046909,((MN628274_Erysiphales_associated_totivirus_3:0.371226,((MK231081_Phakopsora_totivirus_E:0.298672,MK231128_Phakopsora_totivirus_C:0.376159)[&label=0.701]:0.094652,((LC075490_Red_clover_powdery_mildew-associated_totivirus_5:0.0,NC_028485_Red_clover_powdery_mildew-associated_totivirus_5:0.0):0.37317,MN628277_Erysiphales_associated_totivirus_6:0.248574)[&label=0.99]:0.141912)[&label=0.372]:0.062283)[&label=0.99]:0.119714,(((KY207363_Puccinia_striiformis_totivirus_3:0.200576,(MK231031_Phakopsora_totivirus_D:0.163296,MK967421_Cronartium_ribicola_totivirus_4:0.194673)[&label=0.977]:0.102181)[&label=1.0]:0.262063,(MK967420_Cronartium_ribicola_totivirus_3:0.329614,(KT222801_Phakopsora_pachyrhizi_mycovirus:0.005536,KT222802_Phakopsora_pachyrhizi_mycovirus:0.0)[&label=1.0]:0.367583)[&label=0.991]:0.171282)[&label=0.886]:0.08868,((MK231104_Uromyces_totivirus_B:0.357238,(MN628275_Erysiphales_associated_totivirus_4:0.225726,MN628290_Erysiphales_associated_totivirus_19:0.200396)[&label=1.0]:0.397218)[&label=0.791]:0.098497,(MK967419_Cronartium_ribicola_totivirus_2:0.320979,((KY207361_Puccinia_striiformis_totivirus_1:0.209317,MK231132_Uromyces_totivirus_A:0.217229)[&label=1.0]:0.341045,(KY207362_Puccinia_striiformis_totivirus_2:0.370414,MK231127_Phakopsora_totivirus_A:0.306459)[&label=0.511]:0.07969)[&label=0.253]:0.036662)[&label=0.958]:0.083483)[&label=0.0]:0.024437)[&label=0.177]:0.034665)[&label=0.943]:0.059583)[&label=0.417]:0.057145);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=106;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

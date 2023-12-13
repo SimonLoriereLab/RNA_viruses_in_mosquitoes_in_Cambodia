@@ -1,0 +1,302 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1069 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o OK491503_Xiangshan_rhabdo-like_virus_5
+Seed:    259450 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Dec 22 17:15:03 2022
+Kernel:  AVX+FMA - auto-detect threads (47 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 71 sequences with 2114 columns, 2056 distinct patterns
+1788 parsimony-informative, 125 singleton sites, 201 constant sites
+                                                Gap/Ambiguity  Composition  p-value
+   1  MW434771_Merhavirus_merida                        0.52%    passed     63.08%
+   2  MW434772_Merhavirus_merida                        0.52%    passed     64.83%
+   3  MW434770_Merhavirus_merida                        0.52%    passed     60.94%
+   4  NC_040599_Merhavirus_merida                       0.52%    passed     64.22%
+   5  MW434769_Merhavirus_merida                        0.52%    passed     58.07%
+   6  MW434773_Merhavirus_merida                        0.52%    passed     60.53%
+   7  OM817546_Merhavirus_merida                        0.52%    passed     56.45%
+   8  MH188000_Culex_rhabdovirus                        0.85%    passed     38.62%
+   9  MH310083_Merhavirus_merida                        0.52%    passed     46.91%
+  10  OL700074_Merhavirus_merida                        0.52%    passed     69.21%
+  11  MT577803_Culex_rhabdovirus                        0.52%    passed     78.48%
+  12  MF882997_Merida-like_virus_Turkey                 0.57%    passed     66.95%
+  13  NC_040532_Merida-like_virus_KE-2017a              0.52%    passed     72.20%
+  14  MK440621_Merhavirus_merida                        0.52%    passed     48.06%
+  15  Begrized_virus_F1588C1F1462                       0.66%    passed     20.21%
+  16  Begrized_virus_F1588C1F1588                       0.66%    passed     16.92%
+  17  Ausist_virus_F1341C1F1079                        10.26%    failed      0.02%
+  18  Ausist_virus_F1341C1F1344                        34.39%    failed      1.41%
+  19  Ausist_virus_F1341C1F1167                        13.39%    failed      0.01%
+  20  Ausist_virus_F1341C1F1337                        10.26%    failed      0.01%
+  21  Ausist_virus_F1341C1F1341                        10.26%    failed      0.01%
+  22  Ausist_virus_F1341C1F1003                        10.26%    failed      0.01%
+  23  NC_025384_Merhavirus_tritaeniorhynchus            0.71%    failed      0.77%
+  24  OL700055_Merhavirus_tritaeniorhynchus            36.94%    passed     29.78%
+  25  MW452298_Merhavirus_tritaeniorhynchus             0.71%    failed      0.35%
+  26  LC514403_Merhavirus_tritaeniorhynchus             0.71%    failed      0.50%
+  27  LC026102_Merhavirus_tritaeniorhynchus             0.71%    failed      0.70%
+  28  Arlicasen_virus_F1276C1F1256                     36.85%    passed     23.77%
+  29  Arlicasen_virus_F1276C1F1276                     36.85%    passed     20.79%
+  30  ON955141_Enontekio_merhavirus                    19.54%    failed      0.45%
+  31  KF310911_Beaumont_virus                          26.11%    passed     53.21%
+  32  MW520372_Evros_rhabdovirus_2                      0.99%    passed     73.28%
+  33  Arindly_virus_F1098C3F1095                       34.58%    passed     92.64%
+  34  Arindly_virus_F1098C3F1219                        0.85%    passed     95.90%
+  35  Arindly_virus_F1098C3F1090                        0.85%    passed     96.08%
+  36  Arindly_virus_F1098C3F1099                       36.00%    passed     85.62%
+  37  Arindly_virus_F1098C3F1087                        0.85%    passed     95.77%
+  38  Arindly_virus_F1098C3F1098                        0.85%    passed     95.77%
+  39  BK059424_Formosus_virus                           0.80%    passed     64.41%
+  40  ON955142_Hattula_rhabdovirus                      0.76%    passed     96.40%
+  41  ON955246_Hattula_rhabdovirus                     19.35%    passed     91.14%
+  42  ON955143_Inari_rhabdovirus                        0.80%    passed     97.48%
+  43  MF176269_Ohlsrhavirus_culex                       0.28%    passed     94.63%
+  44  NC_035132_Ohlsrhavirus_culex                      0.28%    passed     94.27%
+  45  MF176358_Ohlsrhavirus_culex                       0.28%    passed     95.54%
+  46  NC_055292_Ohlsrhavirus_northcreek                 0.33%    passed     98.42%
+  47  NC_028484_Ohlsrhavirus_tongilchon                 0.19%    passed     78.59%
+  48  LC514056_Ohlsrhavirus_pseudovishnui               0.28%    passed     45.16%
+  49  LC514057_Ohlsrhavirus_pseudovishnui               0.28%    passed     45.29%
+  50  OL700054_Ohlsrhavirus_pseudovishnui               0.28%    passed     36.37%
+  51  MH188003_Ohlsrhavirus_culex                       0.19%    passed     74.51%
+  52  KU248086_Riverside_virus_1                        0.19%    passed     39.37%
+  53  KU248087_Riverside_virus_1                        0.19%    passed     43.20%
+  54  NC_040669_Riverside_virus_1                       0.19%    passed     37.86%
+  55  Regreagly_virus_F1187C3F1177                     32.78%    passed     95.96%
+  56  Regreagly_virus_F1187C3F1178                      0.28%    passed     96.64%
+  57  Regreagly_virus_F1187C3F1187                      0.28%    passed     96.87%
+  58  KY768857_Ohlsrhavirus_ohlsdorf                    0.28%    passed     16.19%
+  59  NC_055477_Ohlsrhavirus_ohlsdorf                   0.28%    passed     16.19%
+  60  KY768859_Ohlsrhavirus_ohlsdorf                    0.28%    passed     16.88%
+  61  KY768860_Ohlsrhavirus_ohlsdorf                    0.28%    passed     12.32%
+  62  KY768861_Ohlsrhavirus_ohlsdorf                    0.28%    passed     14.32%
+  63  ON955253_Ohlsrhavirus_ohlsdorf                   22.99%    passed     46.72%
+  64  ON955254_Ohlsrhavirus_ohlsdorf                    0.28%    passed     17.54%
+  65  MF344595_Ohlsrhavirus_lobeira                     0.66%    passed      7.47%
+  66  MW826481_Rhabdoviridae_sp_                        0.33%    failed      4.07%
+  67  MZ209762_Hangzhou_tipula_scripta_rhabdovirus_1    0.43%    failed      0.00%
+  68  MZ771226_Rhabdoviridae_sp_                        3.45%    passed     57.78%
+  69  ON059778_Lantra_virus                             1.37%    passed      6.86%
+  70  ON059779_Lantra_virus                             0.76%    passed      8.27%
+  71  OK491503_Xiangshan_rhabdo-like_virus_5            3.26%    failed      0.00%
+****  TOTAL                                             5.98%  14 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Arindly_virus_F1098C3F1098 is identical to Arindly_virus_F1098C3F1087 but kept for subsequent analysis
+NOTE: NC_055477_Ohlsrhavirus_ohlsdorf is identical to KY768857_Ohlsrhavirus_ohlsdorf but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.053 seconds
+Measuring multi-threading efficiency up to 47 CPU cores
+Increase to 10 rounds for branch lengths
+9 trees examined
+Threads: 1 / Time: 48.253 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -201172
+Threads: 2 / Time: 24.371 sec / Speedup: 1.980 / Efficiency: 99% / LogL: -201172
+Threads: 3 / Time: 16.555 sec / Speedup: 2.915 / Efficiency: 97% / LogL: -201172
+Threads: 4 / Time: 12.558 sec / Speedup: 3.842 / Efficiency: 96% / LogL: -201172
+Threads: 5 / Time: 10.746 sec / Speedup: 4.490 / Efficiency: 90% / LogL: -201172
+Threads: 6 / Time: 8.589 sec / Speedup: 5.618 / Efficiency: 94% / LogL: -201172
+Threads: 7 / Time: 8.014 sec / Speedup: 6.021 / Efficiency: 86% / LogL: -201172
+Threads: 8 / Time: 7.119 sec / Speedup: 6.778 / Efficiency: 85% / LogL: -201172
+Threads: 9 / Time: 6.405 sec / Speedup: 7.534 / Efficiency: 84% / LogL: -201172
+Threads: 10 / Time: 5.899 sec / Speedup: 8.180 / Efficiency: 82% / LogL: -201172
+Threads: 11 / Time: 5.447 sec / Speedup: 8.859 / Efficiency: 81% / LogL: -201172
+Threads: 12 / Time: 5.153 sec / Speedup: 9.364 / Efficiency: 78% / LogL: -201172
+Threads: 13 / Time: 4.740 sec / Speedup: 10.180 / Efficiency: 78% / LogL: -201172
+Threads: 14 / Time: 4.451 sec / Speedup: 10.840 / Efficiency: 77% / LogL: -201172
+Threads: 15 / Time: 4.250 sec / Speedup: 11.354 / Efficiency: 76% / LogL: -201172
+Threads: 16 / Time: 4.020 sec / Speedup: 12.003 / Efficiency: 75% / LogL: -201172
+Threads: 17 / Time: 3.911 sec / Speedup: 12.337 / Efficiency: 73% / LogL: -201172
+Threads: 18 / Time: 3.749 sec / Speedup: 12.871 / Efficiency: 72% / LogL: -201172
+Threads: 19 / Time: 3.632 sec / Speedup: 13.286 / Efficiency: 70% / LogL: -201172
+Threads: 20 / Time: 3.510 sec / Speedup: 13.748 / Efficiency: 69% / LogL: -201172
+Threads: 21 / Time: 3.245 sec / Speedup: 14.871 / Efficiency: 71% / LogL: -201172
+Threads: 22 / Time: 3.324 sec / Speedup: 14.516 / Efficiency: 66% / LogL: -201172
+Threads: 23 / Time: 3.120 sec / Speedup: 15.464 / Efficiency: 67% / LogL: -201172
+Threads: 24 / Time: 3.058 sec / Speedup: 15.780 / Efficiency: 66% / LogL: -201172
+Threads: 25 / Time: 2.996 sec / Speedup: 16.107 / Efficiency: 64% / LogL: -201172
+Threads: 26 / Time: 2.926 sec / Speedup: 16.489 / Efficiency: 63% / LogL: -201172
+Threads: 27 / Time: 2.913 sec / Speedup: 16.563 / Efficiency: 61% / LogL: -201172
+Threads: 28 / Time: 2.981 sec / Speedup: 16.187 / Efficiency: 58% / LogL: -201172
+Threads: 29 / Time: 2.909 sec / Speedup: 16.587 / Efficiency: 57% / LogL: -201172
+Threads: 30 / Time: 2.915 sec / Speedup: 16.556 / Efficiency: 55% / LogL: -201172
+Threads: 31 / Time: 2.849 sec / Speedup: 16.935 / Efficiency: 55% / LogL: -201172
+Threads: 32 / Time: 2.872 sec / Speedup: 16.804 / Efficiency: 53% / LogL: -201172
+Threads: 33 / Time: 2.830 sec / Speedup: 17.051 / Efficiency: 52% / LogL: -201172
+Threads: 34 / Time: 2.846 sec / Speedup: 16.957 / Efficiency: 50% / LogL: -201172
+BEST NUMBER OF THREADS: 31
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -81552.062
+Optimal log-likelihood: -81551.848
+Proportion of invariable sites: 0.060
+Gamma shape alpha: 0.939
+Parameters optimization took 1 rounds (0.095 sec)
+Time for fast ML tree search: 1.134 seconds
+
+NOTE: ModelFinder requires 235 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 2114) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            86536.042    139 173350.085   173369.801   174136.316
+  2  LG+I          85226.801    140 170733.601   170753.611   171525.489
+  3  LG+G4         81592.345    140 163464.690   163484.700   164256.577
+  4  LG+I+G4       81551.805    141 163385.609   163405.915   164183.153
+  5  LG+R2         82389.954    141 165061.908   165082.214   165859.451
+  6  LG+R3         81692.282    143 163670.564   163691.469   164479.420
+  7  LG+R4         81563.750    145 163417.500   163439.014   164237.669
+  8  LG+R5         81533.865    147 163361.730   163383.863   164193.212
+  9  LG+R6         81533.610    149 163365.220   163387.979   164208.014
+ 17  LG+F+I+G4     81378.257    160 163076.514   163102.893   163981.527
+ 30  WAG+I+G4      82111.197    141 164504.395   164524.701   165301.938
+ 43  WAG+F+I+G4    81756.230    160 163832.460   163858.840   164737.474
+ 56  JTT+I+G4      82441.364    141 165164.728   165185.034   165962.271
+ 69  JTT+F+I+G4    82170.652    160 164661.304   164687.684   165566.318
+ 82  JTTDCMut+I+G4 82442.679    141 165167.358   165187.664   165964.902
+ 95  JTTDCMut+F+I+G4 82161.937    160 164643.874   164670.254   165548.888
+108  DCMut+I+G4    83202.321    141 166686.642   166706.949   167484.186
+121  DCMut+F+I+G4  82445.443    160 165210.885   165237.265   166115.899
+134  VT+I+G4       82076.312    141 164434.624   164454.930   165232.167
+147  VT+F+I+G4     81907.587    160 164135.174   164161.554   165040.188
+160  PMB+I+G4      82456.097    141 165194.193   165214.499   165991.737
+173  PMB+F+I+G4    82294.922    160 164909.845   164936.225   165814.859
+186  Blosum62+I+G4 82352.904    141 164987.809   165008.115   165785.352
+199  Blosum62+F+I+G4 82167.709    160 164655.418   164681.798   165560.432
+212  Dayhoff+I+G4  83201.533    141 166685.065   166705.372   167482.609
+225  Dayhoff+F+I+G4 82444.256    160 165208.512   165234.892   166113.526
+238  mtREV+I+G4    85691.442    141 171664.885   171685.191   172462.428
+251  mtREV+F+I+G4  82888.743    160 166097.486   166123.866   167002.500
+264  mtART+I+G4    85989.486    141 172260.972   172281.279   173058.516
+277  mtART+F+I+G4  83007.209    160 166334.418   166360.798   167239.432
+290  mtZOA+I+G4    84470.727    141 169223.454   169243.761   170020.998
+303  mtZOA+F+I+G4  82271.424    160 164862.849   164889.228   165767.863
+316  mtMet+I+G4    85413.360    141 171108.719   171129.026   171906.263
+329  mtMet+F+I+G4  82759.038    160 165838.076   165864.456   166743.090
+342  mtVer+I+G4    86496.983    141 173275.966   173296.272   174073.509
+355  mtVer+F+I+G4  83885.081    160 168090.161   168116.541   168995.175
+368  mtInv+I+G4    85644.963    141 171571.926   171592.232   172369.470
+381  mtInv+F+I+G4  82235.369    160 164790.737   164817.117   165695.751
+394  mtMAM+I+G4    87147.802    141 174577.605   174597.911   175375.148
+407  mtMAM+F+I+G4  84308.452    160 168936.904   168963.284   169841.918
+420  HIVb+I+G4     83761.629    141 167805.259   167825.565   168602.802
+433  HIVb+F+I+G4   83403.894    160 167127.788   167154.168   168032.802
+446  HIVw+I+G4     86690.773    141 173663.546   173683.852   174461.089
+459  HIVw+F+I+G4   85351.593    160 171023.185   171049.565   171928.199
+472  FLU+I+G4      83124.843    141 166531.686   166551.993   167329.230
+485  FLU+F+I+G4    82868.039    160 166056.077   166082.457   166961.091
+498  rtREV+I+G4    82225.535    141 164733.070   164753.376   165530.613
+511  rtREV+F+I+G4  81573.758    160 163467.515   163493.895   164372.529
+524  cpREV+I+G4    82319.790    141 164921.580   164941.886   165719.123
+537  cpREV+F+I+G4  82120.765    160 164561.530   164587.910   165466.544
+Akaike Information Criterion:           LG+F+I+G4
+Corrected Akaike Information Criterion: LG+F+I+G4
+Bayesian Information Criterion:         LG+F+I+G4
+Best-fit model: LG+F+I+G4 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 5035.105 seconds (1h:23m:55s)
+Wall-clock time for ModelFinder: 322.874 seconds (0h:5m:22s)
+Generating 1000 samples for ultrafast bootstrap (seed: 259450)...
+
+NOTE: 99 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.943 / Estimate: 0.000, 0.753 / LogL: -81417.715
+Init pinv, alpha: 0.011, 0.943 / Estimate: 0.060, 0.941 / LogL: -81378.269
+Init pinv, alpha: 0.021, 0.943 / Estimate: 0.060, 0.941 / LogL: -81378.274
+Init pinv, alpha: 0.032, 0.943 / Estimate: 0.060, 0.941 / LogL: -81378.269
+Init pinv, alpha: 0.042, 0.943 / Estimate: 0.061, 0.941 / LogL: -81378.268
+Init pinv, alpha: 0.053, 0.943 / Estimate: 0.060, 0.940 / LogL: -81378.276
+Init pinv, alpha: 0.063, 0.943 / Estimate: 0.062, 0.946 / LogL: -81378.266
+Init pinv, alpha: 0.074, 0.943 / Estimate: 0.063, 0.946 / LogL: -81378.280
+Init pinv, alpha: 0.085, 0.943 / Estimate: 0.062, 0.946 / LogL: -81378.268
+Init pinv, alpha: 0.095, 0.943 / Estimate: 0.062, 0.946 / LogL: -81378.271
+Optimal pinv,alpha: 0.062, 0.946 / LogL: -81378.266
+
+Parameters optimization took 4.860 sec
+Computing ML distances based on estimated model parameters... 1.056 sec
+Computing BIONJ tree...
+0.008 seconds
+Log-likelihood of BIONJ tree: -81647.584
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.240 second
+Computing log-likelihood of 98 initial trees ... 3.545 seconds
+Current best score: -81378.266
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -81377.934
+Iteration 10 / LogL: -81377.937 / Time: 0h:0m:26s
+UPDATE BEST LOG-LIKELIHOOD: -81377.933
+UPDATE BEST LOG-LIKELIHOOD: -81377.933
+UPDATE BEST LOG-LIKELIHOOD: -81377.933
+Iteration 20 / LogL: -81377.933 / Time: 0h:0m:36s
+Finish initializing candidate tree set (8)
+Current best tree score: -81377.933 / CPU time: 31.712
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -81374.107
+Iteration 30 / LogL: -81375.698 / Time: 0h:0m:47s (0h:2m:40s left)
+Iteration 40 / LogL: -81374.120 / Time: 0h:0m:59s (0h:2m:13s left)
+Iteration 50 / LogL: -81374.116 / Time: 0h:1m:11s (0h:1m:51s left)
+Log-likelihood cutoff on original alignment: -81417.297
+Iteration 60 / LogL: -81379.171 / Time: 0h:1m:22s (0h:1m:33s left)
+Iteration 70 / LogL: -81766.145 / Time: 0h:1m:33s (0h:1m:17s left)
+Iteration 80 / LogL: -81374.116 / Time: 0h:1m:45s (0h:1m:2s left)
+Iteration 90 / LogL: -81376.029 / Time: 0h:1m:57s (0h:0m:48s left)
+Iteration 100 / LogL: -81377.957 / Time: 0h:2m:9s (0h:0m:35s left)
+Log-likelihood cutoff on original alignment: -81416.007
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -81375.707 / Time: 0h:2m:20s (0h:1m:56s left)
+Iteration 120 / LogL: -81374.108 / Time: 0h:2m:33s (0h:1m:43s left)
+TREE SEARCH COMPLETED AFTER 128 ITERATIONS / Time: 0h:2m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -81374.107
+Optimal log-likelihood: -81374.106
+Proportion of invariable sites: 0.061
+Gamma shape alpha: 0.944
+Parameters optimization took 1 rounds (0.087 sec)
+BEST SCORE FOUND : -81374.106
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 19.031
+
+Total number of iterations: 128
+CPU time used for tree search: 4673.860 sec (1h:17m:53s)
+Wall-clock time used for tree search: 158.010 sec (0h:2m:38s)
+Total CPU time used: 4836.688 sec (1h:20m:36s)
+Total wall-clock time used: 163.568 sec (0h:2m:43s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+71 taxa and 241 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -81374.149
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade6_aa_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Thu Dec 22 17:23:10 2022

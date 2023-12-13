@@ -1,0 +1,15 @@
+tax_id	taxon_rank_genome_segment_size	size	genome_type	comment
+10985	genus	4400	segment	
+11006	family	4600	genome	
+11012	family	1400	segment	
+11270	family	11000	genome	
+11308	family	900	segment	PB1 and PB2 are larger, but at the size range of 900-2000 we can keep all contigs
+35324	family	900	segment	PB1 and PB2 are larger, but at the size range of 900-2000 we can keep all contigs
+38144	family	10000	genome	
+39738	family	4000	genome	
+39756	family	4600	genome	
+137555	family	4000	genome	
+186766	family	2500	genome	
+1077831	family	2500	genome	
+2560063	family	970	genome	
+2587553	family	970	genome	

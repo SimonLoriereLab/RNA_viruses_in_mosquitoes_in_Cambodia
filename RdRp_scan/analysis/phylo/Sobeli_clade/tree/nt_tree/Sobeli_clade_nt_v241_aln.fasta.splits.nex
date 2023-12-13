@@ -1,0 +1,92 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'LC512857_Wenzhou_sobemo-like_virus_3'
+[2] 'Culex_associated_Luteo_like_virus_F1042C4F1042'
+[3] 'MH188016_Culex-associated_Luteo-like_virus'
+[4] 'MW434131_Culex-associated_Luteo-like_virus'
+[5] 'MW434130_Culex-associated_Luteo-like_virus'
+[6] 'MW434132_Culex-associated_Luteo-like_virus'
+[7] 'MW434133_Culex-associated_Luteo-like_virus'
+[8] 'MW434129_Culex-associated_Luteo-like_virus'
+[9] 'MW317137_Luteoviridae_sp.'
+[10] 'MK440647_Culex_associated_luteo_like_virus'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=67;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 5,
+	100	 7,
+	35	 5 7,
+	100	 6,
+	11	 5 6 7,
+	100	 8,
+	13	 5 6 7 8,
+	68	 1 2 4 9 10,
+	100	 4,
+	99	 1 2 9 10,
+	89	 1 9 10,
+	100	 9,
+	100	 10,
+	31	 9 10,
+	100	 1,
+	19	 3 4,
+	3	 7 8,
+	14	 5 7 8,
+	26	 1 2 6 9 10,
+	60	 1 10,
+	9	 3 4 8,
+	2	 3 4 7 8,
+	6	 6 7,
+	10	 3 5 6 7,
+	15	 3 5 7 8,
+	6	 6 8,
+	23	 5 6 8,
+	39	 3 5 6 8,
+	14	 3 8,
+	1	 3 7 8,
+	2	 3 6,
+	13	 3 5 6,
+	2	 1 2,
+	4	 2 9,
+	39	 5 6,
+	9	 1 9,
+	4	 3 5,
+	1	 3 4 5 8,
+	9	 5 8,
+	2	 3 6 8,
+	7	 3 5 7,
+	3	 4 7,
+	3	 2 9 10,
+	0	 3 4 7,
+	3	 1 2 10,
+	1	 4 8,
+	0	 6 7 8,
+	2	 3 4 5 7,
+	2	 3 7,
+	1	 1 2 7 9 10,
+	2	 3 5 8,
+	1	 1 2 8 9 10,
+	0	 4 6,
+	0	 4 5 6 7,
+	0	 3 4 5,
+	0	 1 2 3 9 10,
+	0	 2 10,
+	0	 1 6 9 10,
+	0	 4 5 7,
+	0	 1 4 9 10,
+	0	 4 6 7 8,
+	0	 1 4,
+	0	 4 7 8,
+	0	 3 6 7 8,
+	0	 4 6 7,
+;
+END; [Splits]
+

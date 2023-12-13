@@ -1,0 +1,61 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'ON812600_Totiviridae_sp_'
+[2] 'ON812599_Totiviridae_sp_'
+[3] 'ON746554_Daqing_Totiv_tick_virus_1'
+[4] 'MZ218677_Totiviridae_sp_'
+[5] 'MZ209960_Sanya_ochthera_mantis_totivirus_1'
+[6] 'OL700199_XiangYun_toti-like_virus_10'
+[7] 'Ansforinte_virus_F1367C12F1360'
+[8] 'Ansforinte_virus_F1367C12F1367'
+[9] 'NC_032465_Beihai_blue_swimmer_crab_virus_3'
+[10] 'NC_032465_Beihai_blue_swimmer_crab_virus_3_0001'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=36;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	100	 1 2,
+	100	 3,
+	84	 1 2 3,
+	100	 4,
+	100	 7,
+	100	 8,
+	100	 7 8,
+	53	 4 7 8,
+	100	 5,
+	11	 4 5 7 8,
+	100	 6,
+	58	 1 2 3 9 10,
+	100	 9 10,
+	100	 10,
+	100	 9,
+	29	 4 6 7 8,
+	18	 1 2 3 5,
+	26	 1 2 3 5 6,
+	35	 7 8 9 10,
+	8	 3 9 10,
+	8	 4 5,
+	10	 4 5 6,
+	31	 5 6,
+	8	 1 2 9 10,
+	3	 6 7 8,
+	8	 1 2 3 4,
+	4	 1 2 3 4 5,
+	2	 4 9 10,
+	1	 1 2 3 6,
+	1	 4 6,
+	1	 5 6 7 8,
+	0	 4 6 9 10,
+	0	 5 7 8,
+	0	 6 9 10,
+;
+END; [Splits]
+

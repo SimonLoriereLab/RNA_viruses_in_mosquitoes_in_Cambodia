@@ -1,0 +1,145 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=43;
+	taxlabels
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1003
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1004
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1005
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1009
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1013
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1014
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1016
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1017
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1076
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1079
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1083
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1161
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1165
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1168
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1341
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1352
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1508
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1509
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1511
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1513
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1514
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1517
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1518
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1519
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1520
+	Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1521
+	Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058
+	Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059
+	Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1061
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1006
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1013
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1014
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1015
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1074
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1343
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1508
+	Aedes_binegev_like_virus_2_subsp1_F1015C34F1516
+	Aedes_binegev_like_virus_2_subsp2_F1194C83F1194
+	BK059488_Aedes_binegev-like_virus_2
+	BK059499_Aedes_binegev-like_virus_1
+	LC496783_Aedes_aegypti_virga-like_virus
+	MH614308_Bombus-associated_virus_Vir1
+	MZ556107_Orbis_virgavirus
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058:0.0,Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1061:0.0):2.0E-6,Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059:2.0E-6)[&label=66]:2.0E-6,((LC496783_Aedes_aegypti_virga-like_virus:2.0E-6,BK059499_Aedes_binegev-like_virus_1:0.003677)[&label=53]:0.003023,MZ556107_Orbis_virgavirus:2.0E-6)[&label=66]:6.61E-4)[&label=91]:0.030416,(((((Aedes_binegev_like_virus_2_subsp1_F1015C34F1013:0.0,Aedes_binegev_like_virus_2_subsp1_F1015C34F1508:0.0):2.0E-6,Aedes_binegev_like_virus_2_subsp1_F1015C34F1074:2.0E-6)[&label=28]:2.0E-6,(Aedes_binegev_like_virus_2_subsp1_F1015C34F1015:2.0E-6,(Aedes_binegev_like_virus_2_subsp1_F1015C34F1014:2.0E-6,Aedes_binegev_like_virus_2_subsp1_F1015C34F1006:2.0E-6)[&label=49]:2.0E-6)[&label=14]:2.0E-6)[&label=28]:2.0E-6,((BK059488_Aedes_binegev-like_virus_2:0.003639,Aedes_binegev_like_virus_2_subsp1_F1015C34F1516:2.0E-6)[&label=72]:3.0E-6,Aedes_binegev_like_virus_2_subsp1_F1015C34F1343:2.0E-6)[&label=41]:2.0E-6)[&label=61]:2.0E-6,Aedes_binegev_like_virus_2_subsp2_F1194C83F1194:0.025095)[&label=71]:0.017556)[&label=49]:3.0E-6,((((((((((((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1161:2.0E-6,((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1517:0.009952,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1165:2.0E-6)[&label=70]:2.0E-6,((((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1003:2.0E-6,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1520:0.00345,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1521:2.0E-6)[&label=55]:2.0E-6)[&label=58]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1168:2.0E-6)[&label=69]:3.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1083:2.0E-6)[&label=75]:3.0E-6,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1079:2.0E-6,((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1509:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1014:2.0E-6)[&label=79]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1076:2.0E-6)[&label=72]:2.0E-6)[&label=74]:2.0E-6)[&label=64]:2.0E-6)[&label=62]:2.0E-6)[&label=64]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1004:2.0E-6)[&label=59]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1016:2.0E-6)[&label=69]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1518:2.0E-6)[&label=43]:2.0E-6,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1341:3.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1519:2.0E-6)[&label=78]:0.007669)[&label=45]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1005:2.0E-6)[&label=59]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1513:2.0E-6)[&label=51]:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1013:2.0E-6)[&label=40]:3.0E-6,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1017:0.012342,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1511:2.0E-6)[&label=47]:2.0E-6)[&label=43]:8.64E-4,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1009:2.0E-6)[&label=55]:4.8E-5,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1352:2.0E-6)[&label=38]:6.55E-4,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1514:2.0E-6,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1508:2.0E-6)[&label=77]:0.004775)[&label=100]:0.599953,MH614308_Bombus-associated_virus_Vir1:1.202584);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

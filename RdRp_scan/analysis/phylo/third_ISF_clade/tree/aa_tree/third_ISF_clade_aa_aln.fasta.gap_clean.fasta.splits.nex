@@ -1,0 +1,88 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=14;
+TAXLABELS
+[1] 'NC_035071_Apis_flavivirus'
+[2] 'NC_028375_Shayang_fly_virus_4'
+[3] 'NC_028374_Gamboa_mosquito_virus'
+[4] 'NC_028373_Shuangao_lacewing_virus_2'
+[5] 'NC_028370_Xingshan_cricket_virus'
+[6] 'NC_028367_Tacheng_tick_virus_8'
+[7] 'NC_024077_Soybean_cyst_nematode_virus_5'
+[8] 'MW314681_Odonatan_flavi-related_virus'
+[9] 'Mummution_virus_F1187C1F1187'
+[10] 'MN714664_Frankliniella_occidentalis_flavi-like_virus_1'
+[11] 'MN661082_Atrato_Flavi-like_virus_1'
+[12] 'MH620810_Lampyris_noctiluca_flavivirus_1'
+[13] 'LC516844_Barley_aphid_RNA_virus_9'
+[14] 'AB796398_Gentian_Kobu-sho-associated_virus'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=14 nsplits=59;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 5,
+	6	 2 5,
+	100	 4,
+	97	 2 4 5,
+	100	 3,
+	90	 2 3 4 5,
+	100	 13,
+	100	 2 3 4 5 13,
+	100	 6,
+	84	 2 3 4 5 6 13,
+	100	 7,
+	100	 1 8 9 10 11 12 14,
+	100	 9,
+	81	 1 8 10 11 12 14,
+	100	 11,
+	79	 1 8 10 12 14,
+	100	 10,
+	97	 1 8 12 14,
+	100	 12,
+	79	 1 8 14,
+	100	 8,
+	86	 1 14,
+	100	 14,
+	100	 1,
+	75	 2 4,
+	16	 6 7,
+	18	 4 5,
+	18	 1 8 9 10 12 14,
+	15	 8 12,
+	10	 3 13,
+	0	 2 3 4 13,
+	14	 10 11,
+	2	 2 3 4,
+	3	 9 10,
+	3	 1 8,
+	4	 1 8 11 12 14,
+	0	 8 10 12,
+	0	 1 8 9 11 12 14,
+	9	 8 14,
+	1	 2 4 5 13,
+	1	 10 14,
+	2	 1 8 12,
+	1	 1 8 9 10 14,
+	1	 1 8 9 14,
+	0	 1 8 10 14,
+	2	 1 12,
+	0	 1 8 9 12 14,
+	4	 1 12 14,
+	1	 10 12,
+	1	 8 12 14,
+	1	 9 11,
+	1	 2 3 4 5 7 13,
+	1	 3 4,
+	0	 1 10 14,
+	0	 11 12,
+	0	 12 14,
+	0	 3 5,
+	0	 10 11 12,
+;
+END; [Splits]
+

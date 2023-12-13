@@ -1,0 +1,284 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1067 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o NC_030845_Egaro_virus
+Seed:    99058 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb 28 15:20:38 2023
+Kernel:  AVX+FMA - auto-detect threads (47 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 41 sequences with 978 columns, 952 distinct patterns
+793 parsimony-informative, 57 singleton sites, 128 constant sites
+                                                 Gap/Ambiguity  Composition  p-value
+   1  MZ218742_Permutotetraviridae_sp_                   0.20%    passed     94.03%
+   2  OL700211_XiangYun_permutotetra-like_virus         42.13%    passed     60.10%
+   3  MZ209846_Sanya_permutotetravirus_1                 3.48%    passed     92.18%
+   4  MZ209962_Sanya_permutotetravirus_1                 0.20%    passed     86.01%
+   5  Hubei_permutotetra_like_virus_2_F1357C9F1357       0.92%    passed     95.07%
+   6  Hubei_permutotetra_like_virus_2_F1357C9F1441       4.40%    passed     97.45%
+   7  KX883455_Hubei_permutotetra-like_virus_2           0.82%    passed     81.61%
+   8  NC_033121_Hubei_permutotetra-like_virus_2          2.35%    passed     85.24%
+   9  MZ218732_Permutotetraviridae_sp_                   3.78%    passed     57.69%
+  10  MT753154_Sanxia_permutotetra-like_virus_1          0.61%    passed     78.14%
+  11  NC_033188_Sanxia_permutotetra-like_virus_1         0.72%    passed     87.23%
+  12  MZ209963_Sanya_permutotetravirus_2                 0.92%    passed     94.99%
+  13  KX883446_Hubei_permutotetra-like_virus_1           0.61%    passed     89.05%
+  14  KX883457_Hubei_permutotetra-like_virus_1          20.55%    passed     57.13%
+  15  NC_033105_Hubei_permutotetra-like_virus_1          0.61%    passed     89.30%
+  16  KX883448_Hubei_permutotetra-like_virus_1           0.61%    passed     91.53%
+  17  MZ218708_Permutotetraviridae_sp_                  26.28%    passed     95.50%
+  18  MZ209964_Sanya_permutotetravirus_3                 0.72%    passed     90.60%
+  19  MZ218721_Permutotetraviridae_sp_                  71.57%    passed     77.46%
+  20  MZ218726_Permutotetraviridae_sp_                   1.12%    passed     74.76%
+  21  NC_033470_Wuhan_house_centipede_virus_9            1.02%    passed     84.00%
+  22  Sarawak_virus_F1348C1F1006                         3.37%    passed     45.01%
+  23  Sarawak_virus_F1348C1F1508                         3.37%    passed     46.59%
+  24  OP858841_Sarawak_virus                            81.08%    passed     62.50%
+  25  NC_040540_Sarawak_virus                            3.37%    passed     43.59%
+  26  NC_040795_Shinobi_tetravirus                      13.29%    passed     52.91%
+  27  Sarawak_virus_F1348C1F1348                         3.37%    passed     64.06%
+  28  Sarawak_virus_F1348C1F1346                        42.23%    passed     61.89%
+  29  Sarawak_virus_F1348C1F1183                        26.28%    passed     10.96%
+  30  LC536111_Permutotetraviridae_sp_                   3.37%    passed     48.78%
+  31  Culex_permutotetra_like_virus_F1052C13C663F1276   10.84%    passed     56.95%
+  32  Culex_permutotetra_like_virus_F1052C13C663F1052    4.19%    passed     70.96%
+  33  Culex_permutotetra_like_virus_F1052C13C663F1322    9.00%    passed     58.48%
+  34  Culex_permutotetra_like_virus_F1052C13C663F1332    9.51%    passed     77.60%
+  35  LC505019_Culex_permutotetra-like_virus             4.29%    passed     62.43%
+  36  MH384302_Newfield_virus                            3.07%    passed     11.79%
+  37  MH384307_Newfield_virus                            3.07%    passed     13.16%
+  38  KP714070_Newfield_virus                            3.07%    passed      7.05%
+  39  MZ218743_Permutotetraviridae_sp_                  19.73%    passed     26.59%
+  40  NC_033179_Hubei_permutotetra-like_virus_3          3.27%    passed     95.25%
+  41  NC_030845_Egaro_virus                             10.74%    failed      1.08%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                             10.83%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.013 seconds
+Measuring multi-threading efficiency up to 47 CPU cores
+Increase to 10 rounds for branch lengths
+34 trees examined
+Threads: 1 / Time: 47.328 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -49898
+Threads: 2 / Time: 24.689 sec / Speedup: 1.917 / Efficiency: 96% / LogL: -49898
+Threads: 3 / Time: 16.871 sec / Speedup: 2.805 / Efficiency: 94% / LogL: -49898
+Threads: 4 / Time: 13.011 sec / Speedup: 3.638 / Efficiency: 91% / LogL: -49898
+Threads: 5 / Time: 10.720 sec / Speedup: 4.415 / Efficiency: 88% / LogL: -49898
+Threads: 6 / Time: 9.152 sec / Speedup: 5.172 / Efficiency: 86% / LogL: -49898
+Threads: 7 / Time: 8.119 sec / Speedup: 5.829 / Efficiency: 83% / LogL: -49898
+Threads: 8 / Time: 7.383 sec / Speedup: 6.410 / Efficiency: 80% / LogL: -49898
+Threads: 9 / Time: 6.780 sec / Speedup: 6.980 / Efficiency: 78% / LogL: -49898
+Threads: 10 / Time: 6.319 sec / Speedup: 7.489 / Efficiency: 75% / LogL: -49898
+Threads: 11 / Time: 5.965 sec / Speedup: 7.935 / Efficiency: 72% / LogL: -49898
+Threads: 12 / Time: 6.257 sec / Speedup: 7.564 / Efficiency: 63% / LogL: -49898
+Threads: 13 / Time: 5.437 sec / Speedup: 8.705 / Efficiency: 67% / LogL: -49898
+Threads: 14 / Time: 5.319 sec / Speedup: 8.897 / Efficiency: 64% / LogL: -49898
+Threads: 15 / Time: 5.066 sec / Speedup: 9.341 / Efficiency: 62% / LogL: -49898
+Threads: 16 / Time: 4.976 sec / Speedup: 9.511 / Efficiency: 59% / LogL: -49898
+Threads: 17 / Time: 4.919 sec / Speedup: 9.621 / Efficiency: 57% / LogL: -49898
+Threads: 18 / Time: 4.780 sec / Speedup: 9.902 / Efficiency: 55% / LogL: -49898
+Threads: 19 / Time: 4.611 sec / Speedup: 10.264 / Efficiency: 54% / LogL: -49898
+Threads: 20 / Time: 4.552 sec / Speedup: 10.397 / Efficiency: 52% / LogL: -49898
+Threads: 21 / Time: 4.561 sec / Speedup: 10.378 / Efficiency: 49% / LogL: -49898
+BEST NUMBER OF THREADS: 18
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -22518.216
+Optimal log-likelihood: -22518.177
+Proportion of invariable sites: 0.053
+Gamma shape alpha: 1.107
+Parameters optimization took 1 rounds (0.042 sec)
+Time for fast ML tree search: 0.472 seconds
+
+NOTE: ModelFinder requires 65 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 978) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            23289.056    79  46736.111    46750.187    47122.067
+  2  LG+I          23003.196    80  46166.393    46180.841    46557.233
+  3  LG+G4         22521.006    80  45202.012    45216.461    45592.853
+  4  LG+I+G4       22518.157    81  45198.315    45213.141    45594.041
+  5  LG+R2         22611.301    81  45384.603    45399.429    45780.329
+  6  LG+R3         22520.606    83  45207.212    45222.810    45612.710
+  7  LG+R4         22512.002    85  45194.004    45210.394    45609.272
+  8  LG+R5         22511.290    87  45196.580    45213.785    45621.620
+ 16  LG+F+G4       22487.696    99  45173.392    45195.943    45657.057
+ 17  LG+F+I+G4     22484.274    100 45168.549    45191.582    45657.100
+ 29  WAG+G4        22559.200    80  45278.399    45292.847    45669.240
+ 30  WAG+I+G4      22550.698    81  45263.396    45278.222    45659.123
+ 42  WAG+F+G4      22534.461    99  45266.922    45289.473    45750.588
+ 43  WAG+F+I+G4    22526.173    100 45252.347    45275.380    45740.898
+ 55  JTT+G4        22730.261    80  45620.523    45634.971    46011.363
+ 56  JTT+I+G4      22722.510    81  45607.019    45621.845    46002.746
+ 68  JTT+F+G4      22680.822    99  45559.643    45582.195    46043.309
+ 69  JTT+F+I+G4    22672.762    100 45545.523    45568.556    46034.074
+ 81  JTTDCMut+G4   22721.878    80  45603.756    45618.204    45994.597
+ 82  JTTDCMut+I+G4 22713.984    81  45589.968    45604.794    45985.694
+ 94  JTTDCMut+F+G4 22674.451    99  45546.902    45569.454    46030.568
+ 95  JTTDCMut+F+I+G4 22666.327    100 45532.654    45555.687    46021.205
+107  DCMut+G4      22799.105    80  45758.210    45772.658    46149.051
+108  DCMut+I+G4    22789.164    81  45740.327    45755.153    46136.054
+120  DCMut+F+G4    22715.796    99  45629.592    45652.143    46113.257
+121  DCMut+F+I+G4  22707.184    100 45614.369    45637.402    46102.920
+133  VT+G4         22633.619    80  45427.239    45441.687    45818.080
+134  VT+I+G4       22625.526    81  45413.052    45427.878    45808.778
+146  VT+F+G4       22615.600    99  45429.200    45451.751    45912.865
+147  VT+F+I+G4     22606.942    100 45413.884    45436.917    45902.435
+159  PMB+G4        22830.893    80  45821.785    45836.233    46212.626
+160  PMB+I+G4      22823.694    81  45809.389    45824.215    46205.115
+172  PMB+F+G4      22743.515    99  45685.031    45707.582    46168.696
+173  PMB+F+I+G4    22735.822    100 45671.643    45694.676    46160.194
+185  Blosum62+G4   22797.187    80  45754.373    45768.821    46145.214
+186  Blosum62+I+G4 22790.854    81  45743.707    45758.533    46139.434
+198  Blosum62+F+G4 22719.658    99  45637.316    45659.867    46120.981
+199  Blosum62+F+I+G4 22712.617    100 45625.233    45648.266    46113.784
+211  Dayhoff+G4    22798.764    80  45757.527    45771.975    46148.368
+212  Dayhoff+I+G4  22788.830    81  45739.660    45754.486    46135.387
+224  Dayhoff+F+G4  22715.763    99  45629.526    45652.077    46113.191
+225  Dayhoff+F+I+G4 22707.149    100 45614.297    45637.331    46102.848
+237  mtREV+G4      23991.578    80  48143.156    48157.604    48533.997
+238  mtREV+I+G4    23990.536    81  48143.072    48157.898    48538.798
+250  mtREV+F+G4    22934.006    99  46066.012    46088.563    46549.677
+251  mtREV+F+I+G4  22931.880    100 46063.760    46086.793    46552.311
+263  mtART+G4      24310.242    80  48780.483    48794.931    49171.324
+264  mtART+I+G4    24308.845    81  48779.690    48794.516    49175.416
+276  mtART+F+G4    23101.982    99  46401.964    46424.516    46885.630
+277  mtART+F+I+G4  23101.597    100 46403.194    46426.227    46891.745
+289  mtZOA+G4      23787.339    80  47734.678    47749.126    48125.518
+290  mtZOA+I+G4    23786.351    81  47734.701    47749.527    48130.428
+302  mtZOA+F+G4    22857.908    99  45913.816    45936.367    46397.481
+303  mtZOA+F+I+G4  22857.583    100 45915.166    45938.199    46403.717
+315  mtMet+G4      24055.229    80  48270.459    48284.907    48661.299
+316  mtMet+I+G4    24053.494    81  48268.988    48283.814    48664.715
+328  mtMet+F+G4    22973.686    99  46145.372    46167.923    46629.037
+329  mtMet+F+I+G4  22971.812    100 46143.623    46166.656    46632.174
+341  mtVer+G4      24265.492    80  48690.983    48705.432    49081.824
+342  mtVer+I+G4    24263.029    81  48688.058    48702.884    49083.784
+354  mtVer+F+G4    23255.370    99  46708.740    46731.292    47192.406
+355  mtVer+F+I+G4  23252.631    100 46705.261    46728.294    47193.812
+367  mtInv+G4      24172.124    80  48504.248    48518.696    48895.089
+368  mtInv+I+G4    24170.438    81  48502.876    48517.702    48898.602
+380  mtInv+F+G4    22810.633    99  45819.267    45841.818    46302.932
+381  mtInv+F+I+G4  22808.682    100 45817.365    45840.398    46305.916
+393  mtMAM+G4      24574.885    80  49309.770    49324.219    49700.611
+394  mtMAM+I+G4    24572.889    81  49307.778    49322.604    49703.504
+406  mtMAM+F+G4    23440.988    99  47079.975    47102.526    47563.641
+407  mtMAM+F+I+G4  23440.068    100 47080.136    47103.169    47568.687
+419  HIVb+G4       23189.291    80  46538.581    46553.029    46929.422
+420  HIVb+I+G4     23178.934    81  46519.868    46534.694    46915.594
+432  HIVb+F+G4     22997.174    99  46192.349    46214.900    46676.014
+433  HIVb+F+I+G4   22985.474    100 46170.947    46193.980    46659.498
+445  HIVw+G4       23976.450    80  48112.900    48127.348    48503.741
+446  HIVw+I+G4     23965.073    81  48092.146    48106.972    48487.872
+458  HIVw+F+G4     23534.638    99  47267.277    47289.828    47750.942
+459  HIVw+F+I+G4   23522.099    100 47244.198    47267.232    47732.749
+471  FLU+G4        23021.107    80  46202.213    46216.661    46593.054
+472  FLU+I+G4      23014.243    81  46190.486    46205.312    46586.212
+484  FLU+F+G4      22839.485    99  45876.970    45899.521    46360.636
+485  FLU+F+I+G4    22831.147    100 45862.294    45885.327    46350.845
+497  rtREV+G4      22625.258    80  45410.515    45424.963    45801.356
+498  rtREV+I+G4    22622.158    81  45406.317    45421.143    45802.043
+510  rtREV+F+G4    22519.265    99  45236.530    45259.082    45720.196
+511  rtREV+F+I+G4  22515.875    100 45231.750    45254.783    45720.301
+523  cpREV+G4      22797.779    80  45755.559    45770.007    46146.400
+524  cpREV+I+G4    22789.854    81  45741.707    45756.533    46137.434
+536  cpREV+F+G4    22658.950    99  45515.900    45538.451    45999.565
+537  cpREV+F+I+G4  22649.133    100 45498.265    45521.298    45986.816
+Akaike Information Criterion:           LG+F+I+G4
+Corrected Akaike Information Criterion: LG+F+I+G4
+Bayesian Information Criterion:         LG+G4
+Best-fit model: LG+G4 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 1924.249 seconds (0h:32m:4s)
+Wall-clock time for ModelFinder: 234.747 seconds (0h:3m:54s)
+Generating 1000 samples for ultrafast bootstrap (seed: 99058)...
+
+NOTE: 28 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22521.006
+Optimal log-likelihood: -22521.003
+Gamma shape alpha: 0.891
+Parameters optimization took 1 rounds (0.039 sec)
+Computing ML distances based on estimated model parameters... 0.319 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.006 seconds
+Log-likelihood of BIONJ tree: -22623.776
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.332 second
+Computing log-likelihood of 98 initial trees ... 1.641 seconds
+Current best score: -22521.003
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -22521.002
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -22519.653
+Iteration 10 / LogL: -22519.766 / Time: 0h:0m:5s
+Iteration 20 / LogL: -22521.006 / Time: 0h:0m:8s
+Finish initializing candidate tree set (5)
+Current best tree score: -22519.653 / CPU time: 8.468
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -22522.451 / Time: 0h:0m:12s (0h:0m:31s left)
+Iteration 40 / LogL: -22521.508 / Time: 0h:0m:17s (0h:0m:27s left)
+Iteration 50 / LogL: -22521.007 / Time: 0h:0m:21s (0h:0m:22s left)
+Log-likelihood cutoff on original alignment: -22566.785
+Iteration 60 / LogL: -22521.016 / Time: 0h:0m:26s (0h:0m:18s left)
+Iteration 70 / LogL: -22519.777 / Time: 0h:0m:29s (0h:0m:13s left)
+Iteration 80 / LogL: -22519.914 / Time: 0h:0m:33s (0h:0m:9s left)
+UPDATE BEST LOG-LIKELIHOOD: -22519.651
+Iteration 90 / LogL: -22523.150 / Time: 0h:0m:37s (0h:0m:5s left)
+Iteration 100 / LogL: -22521.269 / Time: 0h:0m:41s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -22566.785
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:0m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -22519.651
+Optimal log-likelihood: -22519.648
+Gamma shape alpha: 0.887
+Parameters optimization took 1 rounds (0.038 sec)
+BEST SCORE FOUND : -22519.648
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 9.231
+
+Total number of iterations: 103
+CPU time used for tree search: 741.447 sec (0h:12m:21s)
+Wall-clock time used for tree search: 42.910 sec (0h:0m:42s)
+Total CPU time used: 745.440 sec (0h:12m:25s)
+Total wall-clock time used: 43.262 sec (0h:0m:43s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+41 taxa and 161 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -22519.665
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Permutotetraviridae_clade/tree/aa_tree/Permutotetraviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Tue Feb 28 15:25:16 2023

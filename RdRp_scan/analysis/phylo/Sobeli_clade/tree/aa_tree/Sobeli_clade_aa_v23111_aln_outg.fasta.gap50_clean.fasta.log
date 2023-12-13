@@ -1,0 +1,419 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1069 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o MT361063_Kisumu_mosquito_virus
+Seed:    293779 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Dec 14 13:15:16 2022
+Kernel:  AVX+FMA - auto-detect threads (95 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 38 sequences with 472 columns, 207 distinct patterns
+42 parsimony-informative, 34 singleton sites, 396 constant sites
+                                          Gap/Ambiguity  Composition  p-value
+   1  Peninsere_virus_F1127C300F1056              0.00%    passed    100.00%
+   2  Pirounced_virus_F1032C17F1305               0.00%    passed    100.00%
+   3  Pirounced_virus_F1032C17F1585               0.00%    passed    100.00%
+   4  Pirounced_virus_F1032C17F1271               0.00%    passed    100.00%
+   5  Pirounced_virus_F1032C17F1316               0.00%    passed    100.00%
+   6  Pirounced_virus_F1032C17F1032               0.00%    passed    100.00%
+   7  Pirounced_virus_F1032C17F1266               3.39%    passed    100.00%
+   8  Pirounced_virus_F1032C17F1034               4.87%    passed    100.00%
+   9  Pirounced_virus_F1032C17F1056               0.00%    passed    100.00%
+  10  Peninsere_virus_F1127C300F1032              4.66%    passed    100.00%
+  11  Pirounced_virus_F1032C17F1607               0.00%    passed    100.00%
+  12  Peninsere_virus_F1127C300F1461              0.00%    passed    100.00%
+  13  Pirounced_virus_F1032C17F1604               0.00%    passed    100.00%
+  14  Pirounced_virus_F1032C17F1461               0.00%    passed    100.00%
+  15  Pirounced_virus_F1032C17F1325               0.00%    passed    100.00%
+  16  LC513833_Culex_inatomii_luteo-like_virus   25.64%    passed     99.99%
+  17  Peninsere_virus_F1127C300F1127              0.00%    passed    100.00%
+  18  Peninsere_virus_F1127C300F1156              0.00%    passed    100.00%
+  19  Pirounced_virus_F1032C17F1127               0.00%    passed    100.00%
+  20  Peninsere_virus_F1127C300F1132              0.00%    passed    100.00%
+  21  Peninsere_virus_F1127C300F1450              0.00%    passed    100.00%
+  22  MW030476_Hubei_mosquito_virus_2            42.80%    passed     99.77%
+  23  KX882764_Hubei_mosquito_virus_2            25.64%    passed     99.99%
+  24  MW030482_Hubei_mosquito_virus_2            33.05%    passed     99.99%
+  25  MW030484_Hubei_mosquito_virus_2            25.64%    passed    100.00%
+  26  MW030472_Hubei_mosquito_virus_2            25.64%    passed    100.00%
+  27  MW030480_Hubei_mosquito_virus_2            32.42%    passed    100.00%
+  28  MW030488_Hubei_mosquito_virus_2            40.04%    passed     99.90%
+  29  MW030478_Hubei_mosquito_virus_2            42.16%    passed     99.75%
+  30  MW030486_Hubei_mosquito_virus_2            61.02%    passed     93.11%
+  31  MW030470_Hubei_mosquito_virus_2            42.16%    passed     99.89%
+  32  MW434902_Marma_virus                       37.50%    passed    100.00%
+  33  MW434875_Marma_virus                       34.32%    passed    100.00%
+  34  MW434863_Marma_virus                       25.64%    passed     99.99%
+  35  MW434872_Marma_virus                       25.64%    passed     99.99%
+  36  MK440646_Marma_virus                       25.64%    passed    100.00%
+  37  NC_033305_Hubei_mosquito_virus_2           25.64%    passed     99.93%
+  38  MT361063_Kisumu_mosquito_virus             24.58%    passed     99.82%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      16.00%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Pirounced_virus_F1032C17F1305 is identical to Peninsere_virus_F1127C300F1056 but kept for subsequent analysis
+NOTE: Pirounced_virus_F1032C17F1604 is identical to Peninsere_virus_F1127C300F1461 but kept for subsequent analysis
+NOTE: Peninsere_virus_F1127C300F1156 is identical to Peninsere_virus_F1127C300F1127 but kept for subsequent analysis
+NOTE: 8 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Pirounced_virus_F1032C17F1585 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1271 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1316 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1032 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1056 (identical to Peninsere_virus_F1127C300F1056) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1461 (identical to Peninsere_virus_F1127C300F1461) is ignored but added at the end
+NOTE: Pirounced_virus_F1032C17F1127 (identical to Peninsere_virus_F1127C300F1127) is ignored but added at the end
+NOTE: Peninsere_virus_F1127C300F1132 (identical to Peninsere_virus_F1127C300F1127) is ignored but added at the end
+Alignment was printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Measuring multi-threading efficiency up to 95 CPU cores
+Increase to 10 rounds for branch lengths
+518 trees examined
+Threads: 1 / Time: 95.092 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2785
+Threads: 2 / Time: 57.836 sec / Speedup: 1.644 / Efficiency: 82% / LogL: -2785
+Threads: 3 / Time: 48.045 sec / Speedup: 1.979 / Efficiency: 66% / LogL: -2785
+Threads: 4 / Time: 59.772 sec / Speedup: 1.591 / Efficiency: 40% / LogL: -2785
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2125.611
+Optimal log-likelihood: -2125.611
+Proportion of invariable sites: 0.420
+Gamma shape alpha: 0.498
+Parameters optimization took 1 rounds (0.060 sec)
+Time for fast ML tree search: 0.356 seconds
+
+NOTE: ModelFinder requires 11 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 472) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            2157.311     57  4428.622     4444.593     4665.570
+  2  LG+I          2126.697     58  4369.395     4385.966     4610.500
+  3  LG+G4         2126.138     58  4368.276     4384.847     4609.381
+  4  LG+I+G4       2125.611     59  4369.222     4386.407     4614.484
+  5  LG+R2         2125.904     59  4369.808     4386.992     4615.069
+  6  LG+R3         2125.691     61  4373.381     4391.830     4626.957
+ 15  LG+F+I        2110.353     77  4374.706     4405.193     4694.794
+ 16  LG+F+G4       2109.553     77  4373.106     4403.593     4693.193
+ 17  LG+F+I+G4     2108.809     78  4373.619     4404.978     4697.863
+ 18  LG+F+R2       2108.775     78  4373.549     4404.908     4697.794
+ 28  WAG+I         2127.924     58  4371.848     4388.419     4612.953
+ 29  WAG+G4        2127.585     58  4371.170     4387.741     4612.274
+ 30  WAG+I+G4      2127.440     59  4372.880     4390.064     4618.142
+ 31  WAG+R2        2127.808     59  4373.616     4390.800     4618.878
+ 41  WAG+F+I       2109.615     77  4373.229     4403.716     4693.317
+ 42  WAG+F+G4      2109.167     77  4372.334     4402.821     4692.421
+ 43  WAG+F+I+G4    2108.909     78  4373.818     4405.176     4698.062
+ 44  WAG+F+R2      2109.153     78  4374.306     4405.665     4698.550
+ 54  JTT+I         2121.622     58  4359.244     4375.816     4600.349
+ 55  JTT+G4        2121.190     58  4358.380     4374.951     4599.484
+ 56  JTT+I+G4      2120.829     59  4359.658     4376.842     4604.920
+ 57  JTT+R2        2121.249     59  4360.499     4377.683     4605.761
+ 67  JTT+F+I       2108.186     77  4370.372     4400.860     4690.460
+ 68  JTT+F+G4      2107.709     77  4369.419     4399.906     4689.506
+ 69  JTT+F+I+G4    2107.284     78  4370.567     4401.926     4694.811
+ 70  JTT+F+R2      2107.601     78  4371.202     4402.561     4695.446
+ 80  JTTDCMut+I    2121.375     58  4358.750     4375.321     4599.854
+ 81  JTTDCMut+G4   2120.932     58  4357.865     4374.436     4598.969
+ 82  JTTDCMut+I+G4 2120.552     59  4359.105     4376.289     4604.367
+ 83  JTTDCMut+R2   2120.971     59  4359.943     4377.127     4605.204
+ 93  JTTDCMut+F+I  2107.901     77  4369.802     4400.289     4689.890
+ 94  JTTDCMut+F+G4 2107.408     77  4368.815     4399.303     4688.903
+ 95  JTTDCMut+F+I+G4 2106.956     78  4369.913     4401.271     4694.157
+ 96  JTTDCMut+F+R2 2107.262     78  4370.523     4401.882     4694.767
+106  DCMut+I       2139.291     58  4394.582     4411.153     4635.687
+107  DCMut+G4      2138.731     58  4393.461     4410.033     4634.566
+108  DCMut+I+G4    2138.304     59  4394.608     4411.792     4639.870
+109  DCMut+R2      2138.853     59  4395.707     4412.891     4640.968
+119  DCMut+F+I     2108.009     77  4370.019     4400.506     4690.106
+120  DCMut+F+G4    2107.331     77  4368.662     4399.150     4688.750
+121  DCMut+F+I+G4  2106.793     78  4369.586     4400.945     4693.830
+122  DCMut+F+R2    2107.076     78  4370.152     4401.510     4694.396
+132  VT+I          2129.522     58  4375.044     4391.616     4616.149
+133  VT+G4         2129.226     58  4374.451     4391.023     4615.556
+134  VT+I+G4       2129.106     59  4376.213     4393.397     4621.475
+135  VT+R2         2129.445     59  4376.891     4394.075     4622.153
+145  VT+F+I        2114.216     77  4382.433     4412.920     4702.520
+146  VT+F+G4       2113.817     77  4381.634     4412.121     4701.721
+147  VT+F+I+G4     2113.583     78  4383.166     4414.524     4707.410
+148  VT+F+R2       2113.790     78  4383.580     4414.939     4707.825
+158  PMB+I         2133.386     58  4382.771     4399.343     4623.876
+159  PMB+G4        2132.926     58  4381.852     4398.424     4622.957
+160  PMB+I+G4      2132.634     59  4383.268     4400.453     4628.530
+161  PMB+R2        2132.809     59  4383.619     4400.803     4628.881
+171  PMB+F+I       2121.426     77  4396.851     4427.338     4716.938
+172  PMB+F+G4      2120.894     77  4395.787     4426.275     4715.875
+173  PMB+F+I+G4    2120.544     78  4397.088     4428.447     4721.332
+174  PMB+F+R2      2120.649     78  4397.299     4428.657     4721.543
+184  Blosum62+I    2135.536     58  4387.071     4403.643     4628.176
+185  Blosum62+G4   2135.116     58  4386.232     4402.804     4627.337
+186  Blosum62+I+G4 2134.878     59  4387.757     4404.941     4633.018
+187  Blosum62+R2   2135.088     59  4388.175     4405.360     4633.437
+197  Blosum62+F+I  2122.552     77  4399.105     4429.592     4719.192
+198  Blosum62+F+G4 2122.015     77  4398.031     4428.518     4718.118
+199  Blosum62+F+I+G4 2121.689     78  4399.377     4430.736     4723.622
+200  Blosum62+F+R2 2121.764     78  4399.528     4430.887     4723.772
+210  Dayhoff+I     2139.311     58  4394.621     4411.192     4635.726
+211  Dayhoff+G4    2138.749     58  4393.498     4410.069     4634.603
+212  Dayhoff+I+G4  2138.318     59  4394.637     4411.821     4639.899
+213  Dayhoff+R2    2138.873     59  4395.746     4412.931     4641.008
+223  Dayhoff+F+I   2108.032     77  4370.064     4400.552     4690.152
+224  Dayhoff+F+G4  2107.352     77  4368.703     4399.190     4688.791
+225  Dayhoff+F+I+G4 2106.809     78  4369.617     4400.976     4693.862
+226  Dayhoff+F+R2  2107.095     78  4370.189     4401.548     4694.434
+236  mtREV+I       2240.367     58  4596.734     4613.306     4837.839
+237  mtREV+G4      2238.073     58  4592.145     4608.717     4833.250
+238  mtREV+I+G4    2236.127     59  4590.253     4607.438     4835.515
+239  mtREV+R2      2235.927     59  4589.854     4607.039     4835.116
+249  mtREV+F+I     2128.777     77  4411.554     4442.041     4731.641
+250  mtREV+F+G4    2127.121     77  4408.243     4438.730     4728.330
+251  mtREV+F+I+G4  2125.957     78  4407.915     4439.273     4732.159
+252  mtREV+F+R2    2125.818     78  4407.635     4438.994     4731.880
+262  mtART+I       2261.900     58  4639.801     4656.372     4880.906
+263  mtART+G4      2257.439     58  4630.879     4647.450     4871.983
+264  mtART+I+G4    2251.795     59  4621.590     4638.775     4866.852
+265  mtART+R2      2248.408     59  4614.815     4632.000     4860.077
+275  mtART+F+I     2149.389     77  4452.778     4483.266     4772.866
+276  mtART+F+G4    2145.935     77  4445.870     4476.357     4765.957
+277  mtART+F+I+G4  2142.827     78  4441.655     4473.013     4765.899
+278  mtART+F+R2    2141.747     78  4439.493     4470.852     4763.738
+288  mtZOA+I       2227.600     58  4571.201     4587.772     4812.306
+289  mtZOA+G4      2224.247     58  4564.494     4581.066     4805.599
+290  mtZOA+I+G4    2220.448     59  4558.897     4576.081     4804.158
+291  mtZOA+R2      2219.669     59  4557.338     4574.523     4802.600
+301  mtZOA+F+I     2129.964     77  4413.927     4444.415     4734.015
+302  mtZOA+F+G4    2127.966     77  4409.932     4440.419     4730.019
+303  mtZOA+F+I+G4  2125.976     78  4407.951     4439.310     4732.196
+304  mtZOA+F+R2    2125.789     78  4407.578     4438.937     4731.823
+314  mtMet+I       2251.119     58  4618.238     4634.809     4859.343
+315  mtMet+G4      2249.105     58  4614.210     4630.782     4855.315
+316  mtMet+I+G4    2246.371     59  4610.742     4627.927     4856.004
+317  mtMet+R2      2245.989     59  4609.977     4627.162     4855.239
+327  mtMet+F+I     2127.077     77  4408.155     4438.642     4728.242
+328  mtMet+F+G4    2125.519     77  4405.037     4435.524     4725.124
+329  mtMet+F+I+G4  2123.823     78  4403.645     4435.004     4727.890
+330  mtMet+F+R2    2123.515     78  4403.030     4434.389     4727.274
+340  mtVer+I       2269.717     58  4655.434     4672.005     4896.538
+341  mtVer+G4      2268.092     58  4652.184     4668.756     4893.289
+342  mtVer+I+G4    2264.581     59  4647.161     4664.346     4892.423
+343  mtVer+R2      2266.009     59  4650.017     4667.202     4895.279
+353  mtVer+F+I     2144.087     77  4442.175     4472.662     4762.262
+354  mtVer+F+G4    2142.994     77  4439.989     4470.476     4760.076
+355  mtVer+F+I+G4  2141.128     78  4438.257     4469.615     4762.501
+356  mtVer+F+R2    2142.117     78  4440.235     4471.594     4764.479
+366  mtInv+I       2275.506     58  4667.013     4683.584     4908.118
+367  mtInv+G4      2273.924     58  4663.848     4680.419     4904.953
+368  mtInv+I+G4    2271.860     59  4661.721     4678.905     4906.982
+369  mtInv+R2      2271.449     59  4660.897     4678.082     4906.159
+379  mtInv+F+I     2121.988     77  4397.976     4428.464     4718.064
+380  mtInv+F+G4    2120.998     77  4395.997     4426.484     4716.084
+381  mtInv+F+I+G4  2119.910     78  4395.820     4427.178     4720.064
+382  mtInv+F+R2    2119.949     78  4395.898     4427.257     4720.143
+392  mtMAM+I       2277.260     58  4670.519     4687.091     4911.624
+393  mtMAM+G4      2273.212     58  4662.423     4678.995     4903.528
+394  mtMAM+I+G4    2265.245     59  4648.489     4665.673     4893.751
+395  mtMAM+R2      2265.739     59  4649.477     4666.662     4894.739
+405  mtMAM+F+I     2160.613     77  4475.225     4505.713     4795.313
+406  mtMAM+F+G4    2156.744     77  4467.489     4497.976     4787.576
+407  mtMAM+F+I+G4  2152.428     78  4460.857     4492.215     4785.101
+408  mtMAM+F+R2    2152.901     78  4461.802     4493.161     4786.046
+418  HIVb+I        2129.489     58  4374.978     4391.550     4616.083
+419  HIVb+G4       2128.384     58  4372.767     4389.338     4613.872
+420  HIVb+I+G4     2126.730     59  4371.460     4388.644     4616.722
+421  HIVb+R2       2126.819     59  4371.638     4388.822     4616.899
+431  HIVb+F+I      2119.678     77  4393.356     4423.843     4713.443
+432  HIVb+F+G4     2118.465     77  4390.931     4421.418     4711.018
+433  HIVb+F+I+G4   2116.594     78  4389.188     4420.547     4713.433
+434  HIVb+F+R2     2116.379     78  4388.758     4420.117     4713.003
+444  HIVw+I        2181.340     58  4478.680     4495.252     4719.785
+445  HIVw+G4       2180.489     58  4476.977     4493.548     4718.082
+446  HIVw+I+G4     2179.329     59  4476.659     4493.843     4721.920
+447  HIVw+R2       2180.605     59  4479.210     4496.395     4724.472
+457  HIVw+F+I      2132.856     77  4419.712     4450.199     4739.799
+458  HIVw+F+G4     2132.040     77  4418.079     4448.567     4738.167
+459  HIVw+F+I+G4   2130.632     78  4417.264     4448.623     4741.509
+460  HIVw+F+R2     2131.272     78  4418.544     4449.903     4742.789
+470  FLU+I         2134.466     58  4384.932     4401.504     4626.037
+471  FLU+G4        2133.224     58  4382.448     4399.020     4623.553
+472  FLU+I+G4      2132.189     59  4382.378     4399.562     4627.640
+473  FLU+R2        2132.143     59  4382.286     4399.470     4627.547
+483  FLU+F+I       2105.620     77  4365.241     4395.728     4685.328
+484  FLU+F+G4      2103.930     77  4361.860     4392.347     4681.947
+485  FLU+F+I+G4    2102.685     78  4361.370     4392.729     4685.615
+486  FLU+F+R2      2102.347     78  4360.694     4392.053     4684.939
+496  rtREV+I       2128.021     58  4372.042     4388.613     4613.146
+497  rtREV+G4      2127.425     58  4370.849     4387.421     4611.954
+498  rtREV+I+G4    2126.894     59  4371.789     4388.973     4617.051
+499  rtREV+R2      2127.221     59  4372.441     4389.626     4617.703
+509  rtREV+F+I     2111.302     77  4376.603     4407.091     4696.691
+510  rtREV+F+G4    2110.312     77  4374.625     4405.112     4694.712
+511  rtREV+F+I+G4  2109.378     78  4374.755     4406.114     4699.000
+512  rtREV+F+R2    2109.147     78  4374.293     4405.652     4698.538
+522  cpREV+I       2130.528     58  4377.056     4393.628     4618.161
+523  cpREV+G4      2130.111     58  4376.222     4392.793     4617.327
+524  cpREV+I+G4    2130.032     59  4378.064     4395.248     4623.325
+525  cpREV+R2      2130.523     59  4379.047     4396.231     4624.308
+535  cpREV+F+I     2112.961     77  4379.922     4410.409     4700.009
+536  cpREV+F+G4    2112.417     77  4378.833     4409.321     4698.921
+537  cpREV+F+I+G4  2112.239     78  4380.479     4411.838     4704.723
+538  cpREV+F+R2    2112.546     78  4381.091     4412.450     4705.336
+Akaike Information Criterion:           JTTDCMut+G4
+Corrected Akaike Information Criterion: JTTDCMut+G4
+Bayesian Information Criterion:         JTTDCMut+G4
+Best-fit model: JTTDCMut+G4 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 735.223 seconds (0h:12m:15s)
+Wall-clock time for ModelFinder: 309.423 seconds (0h:5m:9s)
+Generating 1000 samples for ultrafast bootstrap (seed: 293779)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2120.932
+Optimal log-likelihood: -2120.932
+Gamma shape alpha: 0.157
+Parameters optimization took 1 rounds (0.035 sec)
+Computing ML distances based on estimated model parameters... 0.087 sec
+Computing BIONJ tree...
+0.005 seconds
+Log-likelihood of BIONJ tree: -2124.537
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.197 second
+Computing log-likelihood of 98 initial trees ... 1.596 seconds
+Current best score: -2120.932
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2120.932
+BETTER TREE FOUND at iteration 2: -2120.932
+BETTER TREE FOUND at iteration 4: -2120.932
+BETTER TREE FOUND at iteration 7: -2120.931
+BETTER TREE FOUND at iteration 10: -2120.931
+Iteration 10 / LogL: -2120.931 / Time: 0h:0m:4s
+BETTER TREE FOUND at iteration 11: -2120.931
+Iteration 20 / LogL: -2120.932 / Time: 0h:0m:8s
+Finish initializing candidate tree set (20)
+Current best tree score: -2120.931 / CPU time: 8.084
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 22: -2120.931
+Iteration 30 / LogL: -2120.933 / Time: 0h:0m:13s (0h:0m:42s left)
+Iteration 40 / LogL: -2120.934 / Time: 0h:0m:18s (0h:0m:38s left)
+Iteration 50 / LogL: -2120.933 / Time: 0h:0m:23s (0h:0m:35s left)
+Log-likelihood cutoff on original alignment: -2137.834
+Iteration 60 / LogL: -2123.629 / Time: 0h:0m:28s (0h:0m:30s left)
+Iteration 70 / LogL: -2120.933 / Time: 0h:0m:33s (0h:0m:25s left)
+Iteration 80 / LogL: -2123.653 / Time: 0h:0m:39s (0h:0m:20s left)
+Iteration 90 / LogL: -2120.932 / Time: 0h:0m:44s (0h:0m:15s left)
+Iteration 100 / LogL: -2126.737 / Time: 0h:0m:49s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -2140.271
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -2123.838 / Time: 0h:0m:53s (0h:0m:44s left)
+Iteration 120 / LogL: -2120.934 / Time: 0h:0m:58s (0h:0m:39s left)
+Iteration 130 / LogL: -2120.936 / Time: 0h:1m:2s (0h:0m:33s left)
+Iteration 140 / LogL: -2120.932 / Time: 0h:1m:7s (0h:0m:29s left)
+Iteration 150 / LogL: -2120.949 / Time: 0h:1m:12s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -2143.796
+Iteration 160 / LogL: -2120.935 / Time: 0h:1m:16s (0h:0m:19s left)
+Iteration 170 / LogL: -2123.632 / Time: 0h:1m:21s (0h:0m:14s left)
+Iteration 180 / LogL: -2120.931 / Time: 0h:1m:26s (0h:0m:9s left)
+Iteration 190 / LogL: -2120.933 / Time: 0h:1m:31s (0h:0m:4s left)
+Iteration 200 / LogL: -2123.236 / Time: 0h:1m:35s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2145.269
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -2139.236 / Time: 0h:1m:40s (0h:0m:43s left)
+Iteration 220 / LogL: -2120.931 / Time: 0h:1m:44s (0h:0m:38s left)
+Iteration 230 / LogL: -2126.735 / Time: 0h:1m:49s (0h:0m:33s left)
+Iteration 240 / LogL: -2120.931 / Time: 0h:1m:53s (0h:0m:28s left)
+Iteration 250 / LogL: -2120.933 / Time: 0h:1m:57s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -2146.450
+Iteration 260 / LogL: -2123.625 / Time: 0h:2m:1s (0h:0m:18s left)
+Iteration 270 / LogL: -2120.936 / Time: 0h:2m:5s (0h:0m:14s left)
+Iteration 280 / LogL: -2120.933 / Time: 0h:2m:10s (0h:0m:9s left)
+BETTER TREE FOUND at iteration 288: -2120.931
+Iteration 290 / LogL: -2123.234 / Time: 0h:2m:14s (0h:0m:45s left)
+Iteration 300 / LogL: -2126.176 / Time: 0h:2m:19s (0h:0m:40s left)
+Log-likelihood cutoff on original alignment: -2146.980
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -2120.952 / Time: 0h:2m:23s (0h:0m:41s left)
+Iteration 320 / LogL: -2120.932 / Time: 0h:2m:27s (0h:0m:37s left)
+BETTER TREE FOUND at iteration 325: -2120.931
+Iteration 330 / LogL: -2120.935 / Time: 0h:2m:31s (0h:0m:43s left)
+Iteration 340 / LogL: -2120.933 / Time: 0h:2m:36s (0h:0m:39s left)
+Iteration 350 / LogL: -2123.629 / Time: 0h:2m:40s (0h:0m:34s left)
+Log-likelihood cutoff on original alignment: -2147.891
+Iteration 360 / LogL: -2120.933 / Time: 0h:2m:45s (0h:0m:29s left)
+Iteration 370 / LogL: -2120.933 / Time: 0h:2m:51s (0h:0m:25s left)
+Iteration 380 / LogL: -2120.933 / Time: 0h:2m:57s (0h:0m:21s left)
+Iteration 390 / LogL: -2120.933 / Time: 0h:3m:1s (0h:0m:16s left)
+Iteration 400 / LogL: -2126.327 / Time: 0h:3m:6s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -2149.467
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.985
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -2120.932 / Time: 0h:3m:10s (0h:0m:42s left)
+Iteration 420 / LogL: -2136.808 / Time: 0h:3m:15s (0h:0m:37s left)
+Iteration 430 / LogL: -2123.630 / Time: 0h:3m:20s (0h:0m:32s left)
+Iteration 440 / LogL: -2120.932 / Time: 0h:3m:25s (0h:0m:28s left)
+Iteration 450 / LogL: -2126.736 / Time: 0h:3m:30s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -2149.467
+Iteration 460 / LogL: -2120.932 / Time: 0h:3m:35s (0h:0m:18s left)
+Iteration 470 / LogL: -2123.632 / Time: 0h:3m:38s (0h:0m:13s left)
+Iteration 480 / LogL: -2120.932 / Time: 0h:3m:41s (0h:0m:9s left)
+Iteration 490 / LogL: -2120.931 / Time: 0h:3m:43s (0h:0m:4s left)
+Iteration 500 / LogL: -2120.935 / Time: 0h:3m:46s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2150.192
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+TREE SEARCH COMPLETED AFTER 500 ITERATIONS / Time: 0h:3m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2120.931
+Optimal log-likelihood: -2120.931
+Gamma shape alpha: 0.157
+Parameters optimization took 1 rounds (0.036 sec)
+BEST SCORE FOUND : -2120.931
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 0.395
+
+Total number of iterations: 500
+CPU time used for tree search: 669.716 sec (0h:11m:9s)
+Wall-clock time used for tree search: 226.712 sec (0h:3m:46s)
+Total CPU time used: 670.346 sec (0h:11m:10s)
+Total wall-clock time used: 226.996 sec (0h:3m:46s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+30 taxa and 513 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -2120.945
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Sobeli_clade/tree/aa_tree/Sobeli_clade_aa_v23111_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Wed Dec 14 13:24:12 2022

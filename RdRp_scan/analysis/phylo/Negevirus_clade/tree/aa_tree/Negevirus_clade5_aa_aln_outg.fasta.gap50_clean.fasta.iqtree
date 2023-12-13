@@ -1,0 +1,375 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade5_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 886622
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 43 sequences with 332 amino-acid sites
+Number of constant sites: 138 (= 41.5663% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 138 (= 41.5663% of all sites)
+Number of parsimony informative sites: 119
+Number of distinct site patterns: 330
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: VT+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+VT+G4             -2114.163    4388.325 +    0.738    4439.959 +    0.853    4692.736 +    0.942
+VT+I+G4           -2114.240    4390.479 +    0.251    4443.615 +    0.137    4698.695 -   0.0479
+PMB+G4            -2118.844    4397.687 -  0.00684    4449.321 -  0.00791    4702.098 -  0.00873
+JTT+G4            -2121.559    4403.118 - 0.000453    4454.751 - 0.000523    4707.528 - 0.000578
+JTTDCMut+G4       -2121.607    4403.214 - 0.000431    4454.847 - 0.000499    4707.625 - 0.000551
+PMB+I+G4          -2119.095    4400.190 -  0.00196    4453.326 -  0.00107    4708.405 - 0.000373
+LG+G4             -2124.965    4409.931 -  1.5e-05    4461.564 - 1.74e-05    4714.341 - 1.92e-05
+JTT+I+G4          -2122.065    4406.130 -   0.0001    4459.266 - 5.47e-05    4714.346 - 1.91e-05
+JTTDCMut+I+G4     -2122.186    4406.371 -  8.9e-05    4459.507 - 4.85e-05    4714.587 - 1.69e-05
+Blosum62+G4       -2126.604    4413.208 - 2.91e-06    4464.842 - 3.37e-06    4717.619 - 3.72e-06
+WAG+G4            -2126.715    4413.430 - 2.61e-06    4465.064 - 3.02e-06    4717.841 - 3.33e-06
+LG+I+G4           -2126.196    4414.391 - 1.61e-06    4467.527 -  8.8e-07    4722.607 - 3.07e-07
+WAG+I+G4          -2126.885    4415.769 -  8.1e-07    4468.905 - 4.42e-07    4723.985 - 1.54e-07
+Blosum62+I+G4     -2127.002    4416.003 - 7.21e-07    4469.139 - 3.93e-07    4724.219 - 1.37e-07
+LG+R2             -2128.208    4418.416 - 2.16e-07    4471.552 - 1.18e-07    4726.632 - 4.11e-08
+LG+I              -2132.892    4425.784 - 5.42e-09    4477.418 - 6.26e-09    4730.195 - 6.92e-09
+LG+R3             -2125.900    4417.800 - 2.93e-07    4474.026 - 3.41e-08    4733.626 - 1.24e-09
+DCMut+G4          -2137.564    4435.129 - 5.06e-11    4486.762 - 5.86e-11    4739.540 - 6.47e-11
+cpREV+G4          -2137.762    4435.523 - 4.16e-11    4487.157 - 4.81e-11    4739.934 - 5.31e-11
+Dayhoff+G4        -2137.786    4435.571 - 4.06e-11    4487.205 - 4.69e-11    4739.982 - 5.18e-11
+rtREV+G4          -2139.617    4439.233 - 6.51e-12    4490.867 - 7.52e-12    4743.644 - 8.31e-12
+DCMut+I+G4        -2137.992    4437.983 - 1.22e-11    4491.119 - 6.63e-12    4746.199 - 2.32e-12
+Dayhoff+I+G4      -2138.170    4438.340 - 1.02e-11    4491.476 - 5.55e-12    4746.556 - 1.94e-12
+cpREV+I+G4        -2138.586    4439.173 - 6.71e-12    4492.309 - 3.66e-12    4747.389 - 1.28e-12
+rtREV+I+G4        -2140.232    4442.463 - 1.29e-12    4495.599 - 7.06e-13    4750.679 - 2.47e-13
+HIVb+G4           -2149.058    4458.115 - 5.17e-16    4509.749 - 5.97e-16    4762.526 -  6.6e-16
+LG                -2153.434    4464.868 - 1.77e-17    4515.027 - 4.27e-17    4765.474 - 1.51e-16
+HIVb+I+G4         -2149.751    4461.502 -  9.5e-17    4514.638 - 5.18e-17    4769.718 - 1.81e-17
+FLU+G4            -2155.567    4471.134 - 7.69e-19    4522.768 - 8.89e-19    4775.545 - 9.82e-19
+VT+F+G4           -2101.759    4401.517 -  0.00101    4486.862 - 5.57e-11    4778.226 - 2.57e-19
+FLU+I+G4          -2156.128    4474.255 - 1.62e-19    4527.391 - 8.81e-20    4782.471 - 3.08e-20
+VT+F+I+G4         -2101.976    4403.953 - 0.000298    4491.399 - 5.77e-12    4784.466 - 1.14e-20
+PMB+F+G4          -2106.669    4411.337 - 7.43e-06    4496.682 - 4.11e-13    4788.046 -  1.9e-21
+JTTDCMut+F+G4     -2107.311    4412.621 - 3.91e-06    4497.966 - 2.16e-13    4789.330 - 9.98e-22
+JTT+F+G4          -2107.407    4412.813 - 3.55e-06    4498.158 - 1.96e-13    4789.522 - 9.06e-22
+WAG+F+G4          -2109.528    4417.056 - 4.26e-07    4502.401 - 2.35e-14    4793.764 - 1.09e-22
+PMB+F+I+G4        -2106.992    4413.983 - 1.98e-06    4501.429 - 3.83e-14    4794.497 - 7.53e-23
+Blosum62+F+G4     -2110.519    4419.038 - 1.58e-07    4504.383 - 8.74e-15    4795.746 - 4.03e-23
+JTTDCMut+F+I+G4   -2108.138    4416.276 - 6.28e-07    4503.722 - 1.22e-14    4796.790 - 2.39e-23
+JTT+F+I+G4        -2108.162    4416.324 - 6.14e-07    4503.770 - 1.19e-14    4796.838 - 2.34e-23
+DCMut+F+G4        -2111.168    4420.336 - 8.26e-08    4505.681 - 4.57e-15    4797.044 - 2.11e-23
+Dayhoff+F+G4      -2111.387    4420.775 - 6.63e-08    4506.120 - 3.67e-15    4797.483 - 1.69e-23
+LG+F+G4           -2112.754    4423.507 - 1.69e-08    4508.852 - 9.35e-16    4800.215 - 4.32e-24
+WAG+F+I+G4        -2109.918    4419.835 - 1.06e-07    4507.281 - 2.05e-15    4800.349 - 4.04e-24
+Blosum62+F+I+G4   -2110.996    4421.992 - 3.61e-08    4509.438 - 6.98e-16    4802.505 - 1.37e-24
+DCMut+F+I+G4      -2112.041    4424.083 - 1.27e-08    4511.529 - 2.45e-16    4804.596 - 4.83e-25
+Dayhoff+F+I+G4    -2112.213    4424.426 - 1.07e-08    4511.872 - 2.07e-16    4804.940 - 4.07e-25
+LG+F+I+G4         -2114.123    4428.246 - 1.58e-09    4515.692 - 3.06e-17    4808.760 - 6.02e-26
+mtInv+F+G4        -2120.370    4438.741 - 8.32e-12    4524.086 -  4.6e-19    4815.449 - 2.12e-27
+cpREV+F+G4        -2120.781    4439.562 - 5.52e-12    4524.907 - 3.05e-19    4816.271 - 1.41e-27
+rtREV+F+G4        -2122.952    4443.904 -  6.3e-13    4529.248 - 3.48e-20    4820.612 - 1.61e-28
+mtInv+F+I+G4      -2121.266    4442.532 - 1.25e-12    4529.978 - 2.42e-20    4823.046 - 4.76e-29
+HIVb+F+G4         -2124.363    4446.726 - 1.54e-13    4532.071 - 8.49e-21    4823.434 - 3.92e-29
+cpREV+F+I+G4      -2121.813    4443.627 - 7.23e-13    4531.073 -  1.4e-20    4824.140 - 2.75e-29
+rtREV+F+I+G4      -2123.916    4447.832 - 8.83e-14    4535.278 - 1.71e-21    4828.346 - 3.36e-30
+mtMet+F+G4        -2127.319    4452.638 - 7.99e-15    4537.983 - 4.42e-22    4829.347 - 2.04e-30
+HIVb+F+I+G4       -2125.201    4450.401 - 2.44e-14    4537.847 - 4.73e-22    4830.915 - 9.31e-31
+FLU+F+G4          -2129.325    4456.651 - 1.07e-15    4541.996 - 5.94e-23    4833.359 - 2.74e-31
+mtREV+F+G4        -2130.348    4458.696 - 3.86e-16    4544.041 - 2.14e-23    4835.404 - 9.86e-32
+mtMet+F+I+G4      -2127.957    4455.914 - 1.55e-15    4543.360 -    3e-23    4836.427 - 5.91e-32
+FLU+F+I+G4        -2129.872    4459.743 - 2.29e-16    4547.189 - 4.43e-24    4840.257 - 8.72e-33
+mtREV+F+I+G4      -2131.065    4462.129 - 6.94e-17    4549.575 - 1.34e-24    4842.643 - 2.64e-33
+mtVer+F+G4        -2135.865    4469.730 - 1.55e-18    4555.074 - 8.59e-26    4846.438 - 3.96e-34
+mtZOA+F+G4        -2135.958    4469.915 - 1.42e-18    4555.260 - 7.83e-26    4846.623 - 3.61e-34
+mtVer+F+I+G4      -2136.122    4472.245 - 4.42e-19    4559.691 - 8.54e-27    4852.758 - 1.68e-35
+mtZOA+F+I+G4      -2136.678    4473.355 - 2.53e-19    4560.801 -  4.9e-27    4853.869 - 9.65e-36
+HIVw+G4           -2195.546    4551.093 - 3.34e-36    4602.726 - 3.86e-36    4855.504 - 4.26e-36
+HIVw+F+G4         -2141.271    4480.542 - 6.97e-21    4565.887 - 3.85e-28    4857.251 - 1.78e-36
+HIVw+I+G4         -2195.870    4553.740 - 8.88e-37    4606.876 - 4.85e-37    4861.956 - 1.69e-37
+HIVw+F+I+G4       -2141.544    4483.089 - 1.95e-21    4570.535 - 3.77e-29    4863.602 - 7.43e-38
+mtMAM+F+G4        -2146.066    4490.132 - 5.76e-23    4575.477 - 3.19e-30    4866.841 - 1.47e-38
+mtREV+G4          -2201.929    4563.858 - 5.64e-39    4615.491 - 6.52e-39    4868.269 -  7.2e-39
+mtMAM+F+I+G4      -2146.234    4492.469 - 1.79e-23    4579.914 - 3.47e-31    4872.982 - 6.82e-40
+mtREV+I+G4        -2202.922    4567.843 - 7.69e-40    4620.979 -  4.2e-40    4876.059 - 1.47e-40
+mtZOA+G4          -2210.710    4581.420 - 8.67e-43    4633.053 -    1e-42    4885.831 - 1.11e-42
+mtZOA+I+G4        -2211.386    4584.772 - 1.62e-43    4637.908 - 8.85e-44    4892.988 - 3.09e-44
+mtART+F+G4        -2159.269    4516.539 - 1.06e-28    4601.884 - 5.88e-36    4893.247 - 2.71e-44
+mtMet+G4          -2215.363    4590.726 - 8.26e-45    4642.359 - 9.55e-45    4895.137 - 1.06e-44
+mtART+F+I+G4      -2159.761    4519.522 - 2.39e-29    4606.967 - 4.63e-37    4900.035 - 9.11e-46
+mtMet+I+G4        -2216.343    4594.686 - 1.14e-45    4647.822 - 6.22e-46    4902.902 - 2.17e-46
+mtVer+G4          -2219.428    4598.855 - 1.42e-46    4650.489 - 1.64e-46    4903.266 - 1.81e-46
+mtVer+I+G4        -2219.967    4601.933 - 3.04e-47    4655.069 - 1.66e-47    4910.149 -  5.8e-48
+mtMAM+G4          -2224.179    4608.357 - 1.23e-48    4659.991 - 1.42e-48    4912.768 - 1.57e-48
+mtMAM+I+G4        -2224.824    4611.647 - 2.37e-49    4664.783 - 1.29e-49    4919.863 - 4.51e-50
+mtInv+G4          -2244.437    4648.874 - 1.95e-57    4700.507 - 2.26e-57    4953.285 - 2.49e-57
+mtInv+I+G4        -2245.270    4652.541 - 3.12e-58    4705.677 -  1.7e-58    4960.757 - 5.94e-59
+mtART+G4          -2248.914    4657.827 - 2.22e-59    4709.461 - 2.57e-59    4962.238 - 2.83e-59
+mtART+I+G4        -2249.650    4661.301 - 3.91e-60    4714.437 - 2.13e-60    4969.517 - 7.44e-61
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: VT+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.9775
+
+ Category  Relative_rate  Proportion
+  1         0.1325         0.2500
+  2         0.4699         0.2500
+  3         0.9962         0.2500
+  4         2.4015         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2113.3481 (s.e. 53.2115)
+Unconstrained log-likelihood (without tree): -1924.5322
+Number of free parameters (#branches + #model parameters): 80
+Akaike information criterion (AIC) score: 4386.6961
+Corrected Akaike information criterion (AICc) score: 4438.3296
+Bayesian information criterion (BIC) score: 4691.1069
+
+Total tree length (sum of branch lengths): 1.9270
+Sum of internal branch lengths: 0.6535 (33.9154% of tree length)
+
+WARNING: 32 near-zero internal branches (<0.0030) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MH614308_Bombus-associated_virus_Vir1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+         +**Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058
+      +**| (66)
+      |  +**Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059
+   +--| (91)
+   |  |  +**LC496783_Aedes_aegypti_virga-like_virus
+   |  +--| (66)
+   |     |  +--BK059499_Aedes_binegev-like_virus_1
+   |     +**| (34)
+   |        +**MZ556107_Orbis_virgavirus
++**| (49)
+|  |              +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1013
+|  |           +**| (26)
+|  |           |  |  +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1015
+|  |           |  +**| (14)
+|  |           |     |  +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1014
+|  |           |     +**| (49)
+|  |           |        +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1006
+|  |        +**| (28)
+|  |        |  +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1074
+|  |     +**| (25)
+|  |     |  +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1343
+|  |  +**| (61)
+|  |  |  |  +--BK059488_Aedes_binegev-like_virus_2
+|  |  |  +**| (72)
+|  |  |     +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1516
+|  +--| (71)
+|     +--Aedes_binegev_like_virus_2_subsp2_F1194C83F1194
+|
+|                                                             +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1161
+|                                                          +**| (64)
+|                                                          |  |     +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1517
+|                                                          |  |  +**| (70)
+|                                                          |  |  |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1165
+|                                                          |  +**| (62)
+|                                                          |     |           +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1003
+|                                                          |     |        +**| (58)
+|                                                          |     |        |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1520
+|                                                          |     |        |  +**| (55)
+|                                                          |     |        |     +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1521
+|                                                          |     |     +**| (69)
+|                                                          |     |     |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1168
+|                                                          |     |  +**| (75)
+|                                                          |     |  |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1083
+|                                                          |     +**| (64)
+|                                                          |        |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1079
+|                                                          |        +**| (74)
+|                                                          |           |     +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1509
+|                                                          |           |  +**| (79)
+|                                                          |           |  |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1014
+|                                                          |           +**| (72)
+|                                                          |              +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1076
+|                                                       +**| (59)
+|                                                       |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1004
+|                                                    +**| (69)
+|                                                    |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1016
+|                                                 +**| (43)
+|                                                 |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1518
+|                                              +**| (45)
+|                                              |  |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1341
+|                                              |  +--| (78)
+|                                              |     +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1519
+|                                           +**| (59)
+|                                           |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1005
+|                                        +**| (51)
+|                                        |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1513
+|                                     +**| (40)
+|                                     |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1013
+|                                  +**| (43)
+|                                  |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1017
+|                                  |  +**| (47)
+|                                  |     +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1511
+|                               +**| (55)
+|                               |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1009
+|                            +**| (38)
+|                            |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1352
++----------------------------| (100)
+|                            |  +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1514
+|                            +--| (77)
+|                               +**Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1508
+|
++-----------------------------------------------------------MH614308_Bombus-associated_virus_Vir1
+
+Tree in newick format:
+
+((((Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058:0.0000010000,Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059:0.0000010000)66:0.0000011754,(LC496783_Aedes_aegypti_virga-like_virus:0.0000010000,(BK059499_Aedes_binegev-like_virus_1:0.0036764897,MZ556107_Orbis_virgavirus:0.0000010000)34:0.0000011850)66:0.0036851966)91:0.0304190905,(((((Aedes_binegev_like_virus_2_subsp1_F1015C34F1013:0.0000010000,(Aedes_binegev_like_virus_2_subsp1_F1015C34F1015:0.0000010000,(Aedes_binegev_like_virus_2_subsp1_F1015C34F1014:0.0000010000,Aedes_binegev_like_virus_2_subsp1_F1015C34F1006:0.0000010000)49:0.0000010000)14:0.0000010000)26:0.0000010000,Aedes_binegev_like_virus_2_subsp1_F1015C34F1074:0.0000010000)28:0.0000010000,Aedes_binegev_like_virus_2_subsp1_F1015C34F1343:0.0000010000)25:0.0000010000,(BK059488_Aedes_binegev-like_virus_2:0.0036413433,Aedes_binegev_like_virus_2_subsp1_F1015C34F1516:0.0000010000)72:0.0000023165)61:0.0000010000,Aedes_binegev_like_virus_2_subsp2_F1194C83F1194:0.0250968031)71:0.0175572737)49:0.0000022093,((((((((((((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1161:0.0000010000,((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1517:0.0099577179,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1165:0.0000010000)70:0.0000024005,((((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1003:0.0000010000,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1520:0.0034587421,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1521:0.0000010000)55:0.0000010000)58:0.0000010000,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1168:0.0000010000)69:0.0000010000,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1083:0.0000010000)75:0.0000010000,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1079:0.0000010000,((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1509:0.0000010000,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1014:0.0000010000)79:0.0000010000,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1076:0.0000010000)72:0.0000010000)74:0.0000010000)64:0.0000010000)62:0.0000010000)64:0.0000010000,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1004:0.0000010000)59:0.0000010000,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1016:0.0000010000)69:0.0000021924,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1518:0.0000010000)43:0.0000020013,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1341:0.0000023841,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1519:0.0000028394)78:0.0076730912)45:0.0000017182,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1005:0.0000010000)59:0.0000023359,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1513:0.0000010000)51:0.0000020422,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1013:0.0000010000)40:0.0000023820,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1017:0.0123464755,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1511:0.0000010000)47:0.0000024340)43:0.0000021327,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1009:0.0000010000)55:0.0000048708,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1352:0.0000025603)38:0.0015585002,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1514:0.0000010000,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1508:0.0000023496)77:0.0047818510)100:0.6002893608,MH614308_Bombus-associated_virus_Vir1:1.2027654886);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2113.365951
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+            +**Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058
+         +--|
+         |  +**Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1061
+      +--| (66)
+      |  +--Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059
+   +--| (91)
+   |  |     +--LC496783_Aedes_aegypti_virga-like_virus
+   |  |  +--| (53)
+   |  |  |  +--BK059499_Aedes_binegev-like_virus_1
+   |  +--| (66)
+   |     +--MZ556107_Orbis_virgavirus
++--| (49)
+|  |              +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1013
+|  |           +--|
+|  |           |  +**Aedes_binegev_like_virus_2_subsp1_F1015C34F1508
+|  |        +--| (28)
+|  |        |  +--Aedes_binegev_like_virus_2_subsp1_F1015C34F1074
+|  |     +--| (28)
+|  |     |  |  +--Aedes_binegev_like_virus_2_subsp1_F1015C34F1015
+|  |     |  +--| (14)
+|  |     |     |  +--Aedes_binegev_like_virus_2_subsp1_F1015C34F1014
+|  |     |     +--| (49)
+|  |     |        +--Aedes_binegev_like_virus_2_subsp1_F1015C34F1006
+|  |  +--| (61)
+|  |  |  |     +--BK059488_Aedes_binegev-like_virus_2
+|  |  |  |  +--| (72)
+|  |  |  |  |  +--Aedes_binegev_like_virus_2_subsp1_F1015C34F1516
+|  |  |  +--| (41)
+|  |  |     +--Aedes_binegev_like_virus_2_subsp1_F1015C34F1343
+|  +--| (71)
+|     +--Aedes_binegev_like_virus_2_subsp2_F1194C83F1194
+|
+|                                                             +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1161
+|                                                          +--| (64)
+|                                                          |  |     +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1517
+|                                                          |  |  +--| (70)
+|                                                          |  |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1165
+|                                                          |  +--| (62)
+|                                                          |     |           +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1003
+|                                                          |     |        +--| (58)
+|                                                          |     |        |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1520
+|                                                          |     |        |  +--| (55)
+|                                                          |     |        |     +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1521
+|                                                          |     |     +--| (69)
+|                                                          |     |     |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1168
+|                                                          |     |  +--| (75)
+|                                                          |     |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1083
+|                                                          |     +--| (64)
+|                                                          |        |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1079
+|                                                          |        +--| (74)
+|                                                          |           |     +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1509
+|                                                          |           |  +--| (79)
+|                                                          |           |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1014
+|                                                          |           +--| (72)
+|                                                          |              +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1076
+|                                                       +--| (59)
+|                                                       |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1004
+|                                                    +--| (69)
+|                                                    |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1016
+|                                                 +--| (43)
+|                                                 |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1518
+|                                              +--| (45)
+|                                              |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1341
+|                                              |  +--| (78)
+|                                              |     +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1519
+|                                           +--| (59)
+|                                           |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1005
+|                                        +--| (51)
+|                                        |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1513
+|                                     +--| (40)
+|                                     |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1013
+|                                  +--| (43)
+|                                  |  |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1017
+|                                  |  +--| (47)
+|                                  |     +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1511
+|                               +--| (55)
+|                               |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1009
+|                            +--| (38)
+|                            |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1352
++----------------------------| (100)
+|                            |  +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1514
+|                            +--| (77)
+|                               +--Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1508
+|
++-----------------------------------------------------------MH614308_Bombus-associated_virus_Vir1
+
+
+Consensus tree in newick format: 
+
+(((((Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1058:0.0000000000,Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1061:0.0000000000):0.0000024750,Aedes_aegypti_virga_like_virus_subsp2_F1061C159F1059:0.0000024750)66:0.0000024899,((LC496783_Aedes_aegypti_virga-like_virus:0.0000024750,BK059499_Aedes_binegev-like_virus_1:0.0036771552)53:0.0030229176,MZ556107_Orbis_virgavirus:0.0000024750)66:0.0006611635)91:0.0304160991,(((((Aedes_binegev_like_virus_2_subsp1_F1015C34F1013:0.0000000000,Aedes_binegev_like_virus_2_subsp1_F1015C34F1508:0.0000000000):0.0000024750,Aedes_binegev_like_virus_2_subsp1_F1015C34F1074:0.0000024750)28:0.0000024750,(Aedes_binegev_like_virus_2_subsp1_F1015C34F1015:0.0000024750,(Aedes_binegev_like_virus_2_subsp1_F1015C34F1014:0.0000024750,Aedes_binegev_like_virus_2_subsp1_F1015C34F1006:0.0000024750)49:0.0000024750)14:0.0000024750)28:0.0000024750,((BK059488_Aedes_binegev-like_virus_2:0.0036393769,Aedes_binegev_like_virus_2_subsp1_F1015C34F1516:0.0000024750)72:0.0000029649,Aedes_binegev_like_virus_2_subsp1_F1015C34F1343:0.0000024750)41:0.0000024750)61:0.0000024750,Aedes_binegev_like_virus_2_subsp2_F1194C83F1194:0.0250946582)71:0.0175563965)49:0.0000029575,((((((((((((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1161:0.0000024750,((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1517:0.0099522426,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1165:0.0000024750)70:0.0000024801,((((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1003:0.0000024750,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1520:0.0034500022,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1521:0.0000024750)55:0.0000024750)58:0.0000024750,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1168:0.0000024750)69:0.0000029705,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1083:0.0000024750)75:0.0000029865,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1079:0.0000024750,((Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1509:0.0000024750,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1014:0.0000024750)79:0.0000024750,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1076:0.0000024750)72:0.0000024750)74:0.0000024750)64:0.0000024750)62:0.0000024801)64:0.0000024801,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1004:0.0000024750)59:0.0000024801,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1016:0.0000024750)69:0.0000020468,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1518:0.0000024750)43:0.0000021137,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1341:0.0000028754,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1519:0.0000024198)78:0.0076692964)45:0.0000024353,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1005:0.0000024750)59:0.0000020883,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1513:0.0000024750)51:0.0000020273,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1013:0.0000024750)40:0.0000025427,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1017:0.0123420362,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1511:0.0000024750)47:0.0000024620)43:0.0008637598,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1009:0.0000024750)55:0.0000479873,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1352:0.0000024750)38:0.0006547298,(Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1514:0.0000024750,Aedes_aegypti_virga_like_virus_subsp1_F1004C2378F1508:0.0000024750)77:0.0047752109)100:0.5999531198,MH614308_Bombus-associated_virus_Vir1:1.2025839175);
+
+TIME STAMP
+----------
+
+Date and time: Wed Jan 25 12:55:26 2023
+Total CPU time used: 2993.278363 seconds (0h:49m:53s)
+Total wall-clock time used: 311.313492 seconds (0h:5m:11s)
+

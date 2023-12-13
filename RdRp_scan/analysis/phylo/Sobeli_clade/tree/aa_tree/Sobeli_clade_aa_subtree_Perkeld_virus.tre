@@ -1,0 +1,184 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=82;
+	taxlabels
+	KX580896_Sherman_virus
+	KX882812_Hubei_sobemo-like_virus_21
+	KX882925_Hubei_sobemo-like_virus_18
+	KX882926_Hubei_tetragnatha_maxillosa_virus_6
+	MF141064_Norway_luteo-like_virus_1
+	MF893258_Tama_virus
+	MN167486_Mortimer_virus
+	MN714676_Neohydatothrips_associated_sobemo-like_virus_1
+	MN831443_Teucrium_fruticans_sobemo-like_virus
+	MN982389_Scaphoideus_titanus_sobemo-like_virus_1
+	MN982391_Scaphoideus_titanus_sobemo-like_virus_2
+	MT747990_Skokie_sobemo-like_virus
+	MW023867_Soybean_thrips_sobemo-like_virus_5
+	'MW199229_Virus_sp.'
+	'MW199230_Virus_sp.'
+	'MW239182_Riboviria_sp.'
+	'MW239183_Riboviria_sp.'
+	'MW239222_Riboviria_sp.'
+	'MW239246_Riboviria_sp.'
+	'MW239278_Riboviria_sp.'
+	'MW239279_Riboviria_sp.'
+	'MW239287_Riboviria_sp.'
+	'MW239294_Riboviria_sp.'
+	'MW239310_Riboviria_sp.'
+	'MW239318_Riboviria_sp.'
+	'MW239338_Riboviria_sp.'
+	'MW239348_Riboviria_sp.'
+	'MW239370_Riboviria_sp.'
+	'MW239399_Riboviria_sp.'
+	'MW239417_Riboviria_sp.'
+	'MW239434_Riboviria_sp.'
+	'MW239441_Riboviria_sp.'
+	'MW239450_Riboviria_sp.'
+	'MW239457_Riboviria_sp.'
+	'MW239465_Riboviria_sp.'
+	'MW239473_Riboviria_sp.'
+	'MW239476_Riboviria_sp.'
+	'MW239479_Riboviria_sp.'
+	'MW239487_Riboviria_sp.'
+	'MW239495_Riboviria_sp.'
+	'MW239497_Riboviria_sp.'
+	'MW239501_Riboviria_sp.'
+	MW314643_Myrmica_rubra_virus_7
+	MW676135_Hypera_postica_associated_sobemovirus_1
+	MW676137_Hypera_postica_associated_sobemovirus_3
+	'MW826498_Luteoviridae_sp.'
+	'MW826501_Luteoviridae_sp.'
+	'MW826515_Solemoviridae_sp.'
+	'MZ375178_Riboviria_sp.'
+	'MZ375184_Riboviria_sp.'
+	'MZ375185_Riboviria_sp.'
+	'MZ375190_Riboviria_sp.'
+	'MZ375195_Riboviria_sp.'
+	MZ443569_Vespula_vulgaris_luteo-like_virus_1
+	MZ443604_Leuven_Sobemo-like_virus_3
+	MZ556266_Sichuan_mosquito_sobemo-like_virus
+	NC_032176_Hubei_sobemo-like_virus_19
+	NC_032177_Hubei_sobemo-like_virus_18
+	NC_032178_Hubei_sobemo-like_virus_26
+	NC_032187_Hubei_sobemo-like_virus_32
+	NC_032188_Hubei_sobemo-like_virus_36
+	NC_032200_Hubei_sobemo-like_virus_34
+	NC_032210_Hubei_sobemo-like_virus_20
+	NC_032223_Hubei_sobemo-like_virus_31
+	NC_032227_Hubei_sobemo-like_virus_33
+	NC_032228_Hubei_sobemo-like_virus_27
+	NC_032229_Hubei_sobemo-like_virus_24
+	NC_032234_Hubei_sobemo-like_virus_29
+	NC_032235_Hubei_sobemo-like_virus_30
+	NC_032237_Hubei_sobemo-like_virus_35
+	NC_032246_Hubei_sobemo-like_virus_28
+	NC_032248_Hubei_sobemo-like_virus_25
+	NC_032250_Hubei_sobemo-like_virus_23
+	NC_032254_Hubei_sobemo-like_virus_22
+	NC_032268_Hubei_tetragnatha_maxillosa_virus_6
+	NC_032918_Sanxia_sobemo-like_virus_4
+	NC_032937_Sanxia_sobemo-like_virus_3
+	NC_032941_Sanxia_sobemo-like_virus_5
+	NC_033303_Hubei_diptera_virus_12
+	NC_033331_Hubei_diptera_virus_13
+	NC_033752_Xingshan_nematode_virus_5
+	Perkeld_virus_F1502C85F1502[&!color=#d40400]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((((((('MW239473_Riboviria_sp.':0.347322,NC_032234_Hubei_sobemo-like_virus_29:0.266497)[&label=97]:0.074148,MF141064_Norway_luteo-like_virus_1:0.298354)[&label=75]:0.080311,(MT747990_Skokie_sobemo-like_virus:0.503957,NC_032235_Hubei_sobemo-like_virus_30:0.528549)[&label=66]:0.088225)[&label=73]:0.097796,((MF893258_Tama_virus:0.303253,'MW239501_Riboviria_sp.':0.312864)[&label=61]:0.034355,NC_032918_Sanxia_sobemo-like_virus_4:0.27334)[&label=100]:0.181304)[&label=61]:0.070164,((((MN982389_Scaphoideus_titanus_sobemo-like_virus_1:0.231364,'MW826515_Solemoviridae_sp.':0.27284)[&label=100]:0.099836,'MW239182_Riboviria_sp.':0.21561)[&label=100]:0.087034,((MZ556266_Sichuan_mosquito_sobemo-like_virus:0.293731,NC_032178_Hubei_sobemo-like_virus_26:0.34366)[&label=80]:0.043221,'MW239370_Riboviria_sp.':0.420768)[&label=91]:0.069448)[&label=90]:0.065232,'MW826498_Luteoviridae_sp.':0.471331)[&label=100]:0.184012)[&label=28]:0.024134,((((('MW239294_Riboviria_sp.':0.103436,'MW239487_Riboviria_sp.':0.115043)[&label=100]:0.260683,NC_033331_Hubei_diptera_virus_13:0.311714)[&label=100]:0.130762,NC_032246_Hubei_sobemo-like_virus_28:0.264589)[&label=100]:0.119952,NC_032228_Hubei_sobemo-like_virus_27:0.549425)[&label=90]:0.075522,('MW239348_Riboviria_sp.':0.384253,MZ443569_Vespula_vulgaris_luteo-like_virus_1:0.695341)[&label=90]:0.113201)[&label=99]:0.122006)[&label=48]:0.022711,(((((('MW239450_Riboviria_sp.':0.089032,MZ443604_Leuven_Sobemo-like_virus_3:0.03284)[&label=100]:0.185539,NC_032937_Sanxia_sobemo-like_virus_3:0.202861)[&label=99]:0.050342,NC_033303_Hubei_diptera_virus_12:0.345156)[&label=100]:0.190094,(KX882812_Hubei_sobemo-like_virus_21:0.225202,'MW199230_Virus_sp.':0.208769)[&label=100]:0.302821)[&label=100]:0.108312,'MW239434_Riboviria_sp.':0.797621)[&label=94]:0.078967,((((KX882925_Hubei_sobemo-like_virus_18:0.009129,NC_032177_Hubei_sobemo-like_virus_18:3.0E-6)[&label=100]:0.123974,NC_032176_Hubei_sobemo-like_virus_19:0.135057)[&label=100]:0.367632,(('MW199229_Virus_sp.':0.114513,NC_032210_Hubei_sobemo-like_virus_20:0.093237)[&label=100]:0.309985,'MW826501_Luteoviridae_sp.':0.393614)[&label=93]:0.101861)[&label=93]:0.107928,NC_032254_Hubei_sobemo-like_virus_22:0.55768)[&label=52]:0.059025)[&label=98]:0.135426)[&label=58]:0.048292,(((KX882926_Hubei_tetragnatha_maxillosa_virus_6:2.0E-6,NC_032268_Hubei_tetragnatha_maxillosa_virus_6:2.0E-6)[&label=100]:0.392145,NC_032223_Hubei_sobemo-like_virus_31:0.271173)[&label=100]:0.349735,(MN714676_Neohydatothrips_associated_sobemo-like_virus_1:0.211191,NC_032248_Hubei_sobemo-like_virus_25:0.265945)[&label=100]:0.397596)[&label=78]:0.081447)[&label=60]:0.061784,(((('MW239278_Riboviria_sp.':0.280546,'MW239287_Riboviria_sp.':0.254539)[&label=100]:0.254119,'MW239318_Riboviria_sp.':0.856515)[&label=89]:0.160733,(('MW239417_Riboviria_sp.':0.192242,MW314643_Myrmica_rubra_virus_7:0.222246)[&label=100]:0.193139,NC_032227_Hubei_sobemo-like_virus_33:0.276053)[&label=100]:0.227135)[&label=76]:0.077768,(('MW239183_Riboviria_sp.':0.404521,NC_032941_Sanxia_sobemo-like_virus_5:0.447855)[&label=100]:0.090918,'MW239441_Riboviria_sp.':0.637395)[&label=87]:0.059747)[&label=61]:0.05401)[&label=70]:0.066727,(((((MN982391_Scaphoideus_titanus_sobemo-like_virus_2:0.289841,'MW239279_Riboviria_sp.':0.236692)[&label=100]:0.091242,'MW239222_Riboviria_sp.':0.40597)[&label=95]:0.07988,'MW239497_Riboviria_sp.':0.469541)[&label=100]:0.231421,'MW239310_Riboviria_sp.':0.664346)[&label=92]:0.122165,(MN831443_Teucrium_fruticans_sobemo-like_virus:0.343267,NC_032229_Hubei_sobemo-like_virus_24:0.333145)[&label=100]:0.380277)[&label=83]:0.12452)[&label=55]:0.009101,(((('MW239476_Riboviria_sp.':0.228366,MW676137_Hypera_postica_associated_sobemovirus_3:0.250296)[&label=100]:0.28805,MW676135_Hypera_postica_associated_sobemovirus_1:0.481822)[&label=100]:0.332217,NC_032250_Hubei_sobemo-like_virus_23:0.659211)[&label=66]:0.101534,('MW239246_Riboviria_sp.':0.687491,'MW239399_Riboviria_sp.':0.776374)[&label=87]:0.186483)[&label=73]:0.087323)[&label=65]:0.035267,((((((('MZ375178_Riboviria_sp.':0.095368,'MZ375195_Riboviria_sp.':0.129807)[&label=97]:0.027846,MW023867_Soybean_thrips_sobemo-like_virus_5:0.135358)[&label=98]:0.064132,(('MZ375185_Riboviria_sp.':0.034919,'MZ375190_Riboviria_sp.':0.006204)[&label=100]:0.001935,'MZ375184_Riboviria_sp.':0.006235)[&label=100]:0.136711)[&label=75]:0.082002,'MW239495_Riboviria_sp.':0.256254)[&label=100]:0.074341,NC_032237_Hubei_sobemo-like_virus_35:0.334113)[&label=100]:0.36107,NC_032200_Hubei_sobemo-like_virus_34:0.64094)[&label=92]:0.183636,(((KX580896_Sherman_virus:0.423179,NC_032188_Hubei_sobemo-like_virus_36:0.5426)[&label=100]:0.133067,MN167486_Mortimer_virus:0.384658)[&label=100]:0.100219,('MW239338_Riboviria_sp.':0.283989,'MW239479_Riboviria_sp.':0.295828)[&label=100]:0.206057)[&label=100]:0.126621)[&label=87]:0.080601)[&label=75]:0.052785,('MW239457_Riboviria_sp.':0.502438,NC_032187_Hubei_sobemo-like_virus_32:0.566714)[&label=100]:0.106834)[&label=81]:0.109404,'MW239465_Riboviria_sp.':0.752151)[&label=100]:0.405066,(NC_033752_Xingshan_nematode_virus_5:0.3324,Perkeld_virus_F1502C85F1502:0.354142)[&label=100]:0.524329)[&label=76];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=6;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

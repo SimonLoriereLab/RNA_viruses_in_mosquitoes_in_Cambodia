@@ -1,0 +1,79 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=15;
+TAXLABELS
+[1] 'MZ556273_Sichuan_mosquito_picorna-like_virus'
+[2] 'MT753151_Hammarskog_picorna-like_virus'
+[3] 'MN513381_Hammarskog_picorna-like_virus'
+[4] 'NC_040584_Yongsan_picorna-like_virus_3'
+[5] 'OP933694_Fish-associated_picorna-like_virus_4'
+[6] 'NC_032222_Hubei_chipolycivirus'
+[7] 'Hubei_chipolycivirus_F1028C2F1028'
+[8] 'MZ679040_Picornavirales_sp_'
+[9] 'OP514660_Graso_virus'
+[10] 'MW239492_Picornavirales_sp_'
+[11] 'OM622257_Picornavirales_sp_'
+[12] 'MZ209812_Guiyang_argiope_bruennichi_polycipivirus_2'
+[13] 'OM622256_Picornavirales_sp_'
+[14] 'MW239301_Picornavirales_sp_'
+[15] 'MW826415_Polycipiviridae_sp_'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=15 nsplits=49;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 5,
+	100	 1 5,
+	100	 6,
+	100	 7,
+	100	 6 7,
+	100	 8,
+	100	 6 7 8,
+	16	 1 5 6 7 8,
+	100	 2,
+	100	 3,
+	100	 2 3,
+	100	 4,
+	100	 2 3 4,
+	35	 9 10 11 12 13 14 15,
+	100	 9,
+	100	 13,
+	100	 9 13,
+	100	 10,
+	100	 11,
+	95	 10 11,
+	100	 12,
+	100	 10 11 12,
+	100	 9 10 11 12 13,
+	43	 14 15,
+	100	 15,
+	100	 14,
+	1	 1 5 9 10 11 12 13,
+	12	 6 7 8 14 15,
+	13	 2 3 4 6 7 8,
+	42	 9 10 11 12 13 14,
+	11	 1 5 15,
+	46	 1 2 3 4 5,
+	39	 6 7 8 15,
+	24	 1 5 6 7 8 15,
+	4	 1 5 6 7 8 14 15,
+	1	 1 2 3 4 5 14,
+	4	 11 12,
+	4	 2 3 4 14,
+	1	 10 12,
+	2	 2 3 4 6 7 8 15,
+	2	 2 3 4 14 15,
+	0	 1 5 14 15,
+	2	 6 7 8 14,
+	2	 2 3 4 6 7 8 14,
+	1	 9 10 11 12 13 15,
+	1	 1 2 3 4 5 14 15,
+	1	 1 2 3 4 5 15,
+	0	 2 3 4 15,
+;
+END; [Splits]
+

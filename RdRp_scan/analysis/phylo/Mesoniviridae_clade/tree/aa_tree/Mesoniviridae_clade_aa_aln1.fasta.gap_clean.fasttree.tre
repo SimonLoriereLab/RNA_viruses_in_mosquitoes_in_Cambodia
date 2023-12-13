@@ -1,0 +1,171 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=69;
+	taxlabels
+	HM746600_Alphamesonivirus_1
+	JQ996712_Alphamesonivirus_1
+	JQ996713_Alphamesonivirus_1
+	JQ996714_Alphamesonivirus_1
+	JQ996715_Alphamesonivirus_1
+	KC768950_Moumo_virus
+	KC807166_Alphamesonivirus_1
+	KC807167_Alphamesonivirus_1
+	KC807170_Alphamesonivirus_1
+	KC807172_Alphamesonivirus_1
+	KC807174_Alphamesonivirus_1
+	KC807175_Alphamesonivirus_1
+	KC807176_Alphamesonivirus_1
+	KC807177_Alphamesonivirus_1
+	KC807178_Alphamesonivirus_1
+	KF522691_Alphamesonivirus_1
+	KF771866_Alphamesonivirus_1
+	KJ475851_Alphamesonivirus_1
+	KU095838_Alphamesonivirus_1
+	KY369959_Alphamesonivirus_11
+	LC497421_Alphamesonivirus_1
+	LC497422_Odorna_virus
+	LC609729_Alphamesonivirus_1
+	MF158348_Bontang_Baru_virus
+	MF176279_Alphamesonivirus_1
+	MF281710_Alphamesonivirus_1
+	MH188022_Alphamesonivirus_1
+	MH188023_Alphamesonivirus_1
+	MH215275_Alphamesonivirus_1
+	MH443059_Alphamesonivirus_1
+	MH520100_Alphamesonivirus_1
+	MH520101_Alphamesonivirus_1
+	MH520103_Alphamesonivirus_1
+	MH520106_Alphamesonivirus_1
+	MH719099_Alphamesonivirus_1
+	MK440619_Alphamesonivirus_1
+	MN101550_Alphamesonivirus_1
+	MN609865_Leveillula_taurica_associated_alphamesonivirus_1
+	MN609866_Leveillula_taurica_associated_alphamesonivirus_1[&!color=#000000]
+	MN714662_Insemevirus_tami
+	MN714663_Tofonivirus_foami
+	MN745093_Bradybaena_similaris_medionivirus
+	MN961271_Tocinivirus_aphisi
+	MT070763_Alphamesonivirus_11
+	MT096515_Alphamesonivirus_1
+	MT514348_Alphamesonivirus_1
+	MT514349_Alphamesonivirus_1
+	MT514350_Alphamesonivirus_1
+	MT514351_Alphamesonivirus_1
+	MT522182_Alphamesonivirus_sp_
+	MT522183_Alphamesonivirus_sp_
+	MT522184_Alphamesonivirus_sp_
+	MW699044_Alphamesonivirus_1
+	MZ358853_Alphamesonivirus_4
+	NC_015668_Alphamesonivirus_1
+	NC_015874_Alphamesonivirus_1
+	NC_020899_Alphamesonivirus_2
+	NC_020900_Alphamesonivirus_3
+	NC_020901_Alphamesonivirus_4
+	NC_023986_Alphamesonivirus_4
+	NC_036586_Alphamesonivirus_10[&!color=#003cb3]
+	NC_038296_Alphamesonivirus_2
+	NC_038297_Alphamesonivirus_3
+	NC_040534_Alphamesonivirus_11
+	NC_043488_Alphamesonivirus_7
+	NC_043489_Alphamesonivirus_6
+	Nam_Dinh_virus_F1576C2C25945C25414C25622C8C26117C15F1576[&!color=#b03e00]
+	OL700077_Alphamesonivirus_1
+	OV054251_Alphamesonivirus_1
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (MH215275_Alphamesonivirus_1[&!color=#ab4d00]:0.004338,MW699044_Alphamesonivirus_1[&!color=#ab4d00]:7.87E-4,((MK440619_Alphamesonivirus_1[&!color=#ab4d00]:0.001971,(MH520101_Alphamesonivirus_1[&!color=#ab4d00]:0.0,((KU095838_Alphamesonivirus_1[&!color=#ab4d00]:0.0,MH520100_Alphamesonivirus_1[&!color=#ab4d00]:0.0,MH520106_Alphamesonivirus_1[&!color=#ab4d00]:0.0)[&!color=#ab4d00]:0.0,MH520103_Alphamesonivirus_1[&!color=#ab4d00]:3.93E-4)[&label=0.909,!color=#ab4d00]:3.93E-4)[&label=0.888,!color=#ab4d00]:7.87E-4)[&label=0.752,!color=#ab4d00]:3.93E-4,(OV054251_Alphamesonivirus_1[&!color=#ab4d00]:7.87E-4,(((MF281710_Alphamesonivirus_1[&!color=#ab4d00]:3.93E-4,(MT096515_Alphamesonivirus_1[&!color=#ab4d00]:0.003156,(((MH188023_Alphamesonivirus_1[&!color=#ab4d00]:0.0,(MH188022_Alphamesonivirus_1[&!color=#ab4d00]:3.93E-4,MH719099_Alphamesonivirus_1[&!color=#ab4d00]:0.001574)[&label=0.0,!color=#ab4d00]:0.0)[&label=0.0,!color=#ab4d00]:0.0,(((KC807177_Alphamesonivirus_1[&!color=#ab4d00]:0.0,KJ475851_Alphamesonivirus_1[&!color=#ab4d00]:7.88E-4)[&label=0.841,!color=#ab4d00]:3.94E-4,(KC807176_Alphamesonivirus_1[&!color=#ab4d00]:3.94E-4,(KC807175_Alphamesonivirus_1[&!color=#ab4d00]:0.0,KC807178_Alphamesonivirus_1[&!color=#ab4d00]:0.002367)[&label=0.399,!color=#ab4d00]:3.94E-4)[&label=0.0,!color=#ab4d00]:0.0)[&label=0.0,!color=#ab4d00]:0.0,MH443059_Alphamesonivirus_1[&!color=#ab4d00]:0.003553)[&label=0.306,!color=#ab4d00]:3.94E-4)[&label=0.87,!color=#ab4d00]:9.76E-4,(LC497422_Odorna_virus[&!color=#ab4d00]:0.006187,((NC_036586_Alphamesonivirus_10[&!color=#000000]:0.041056,((((NC_038297_Alphamesonivirus_3[&!color=#000000]:0.00944,(KC807172_Alphamesonivirus_1[&!color=#000000]:3.97E-4,KC807174_Alphamesonivirus_1[&!color=#000000]:0.0)[&label=0.995,!color=#000000]:0.008836)[&label=1.0,!color=#000000]:0.038845,(NC_038296_Alphamesonivirus_2[&!color=#000000]:0.021001,((KC807166_Alphamesonivirus_1[&!color=#000000]:0.0,MF158348_Bontang_Baru_virus[&!color=#000000]:0.0)[&!color=#000000]:3.85E-4,KC807167_Alphamesonivirus_1[&!color=#000000]:4.05E-4)[&label=1.0,!color=#000000]:0.029854)[&label=1.0,!color=#000000]:0.025944)[&label=1.0,!color=#000000]:0.056866,(NC_020899_Alphamesonivirus_2[&!color=#000000]:0.107282,((MT522182_Alphamesonivirus_sp_[&!color=#000000]:0.0,MT522183_Alphamesonivirus_sp_[&!color=#000000]:3.95E-4)[&label=1.0,!color=#000000]:0.013058,(MT522184_Alphamesonivirus_sp_[&!color=#000000]:0.003442,(MZ358853_Alphamesonivirus_4[&!color=#000000]:0.00422,NC_023986_Alphamesonivirus_4[&!color=#000000]:0.001323)[&label=0.96,!color=#000000]:0.005968)[&label=0.995,!color=#000000]:0.009803)[&label=1.0,!color=#000000]:0.09284)[&label=0.433,!color=#000000]:0.019513)[&label=0.829,!color=#000000]:0.017204,((JQ996714_Alphamesonivirus_1[&!color=#000000]:0.0,(JQ996713_Alphamesonivirus_1[&!color=#000000]:0.001424,JQ996715_Alphamesonivirus_1[&!color=#000000]:0.0)[&label=0.858,!color=#000000]:0.001425)[&label=0.764,!color=#000000]:0.0,(JQ996712_Alphamesonivirus_1[&!color=#000000]:0.001433,(LC609729_Alphamesonivirus_1[&!color=#000000]:0.001685,((NC_020900_Alphamesonivirus_3[&!color=#000000]:0.186275,(NC_043488_Alphamesonivirus_7[&!color=#000000]:0.194573,(NC_043489_Alphamesonivirus_6[&!color=#000000]:0.264734,(((KY369959_Alphamesonivirus_11[&!color=#000000]:0.0,NC_040534_Alphamesonivirus_11[&!color=#000000]:0.0)[&!color=#000000]:0.005232,MT070763_Alphamesonivirus_11[&!color=#000000]:0.00333)[&label=1.0,!color=#000000]:0.526961,(MN609866_Leveillula_taurica_associated_alphamesonivirus_1[&!color=#000000]:0.92953,((MN745093_Bradybaena_similaris_medionivirus[&!color=#000000]:1.837528,MN961271_Tocinivirus_aphisi[&!color=#000000]:0.827568)[&label=0.465,!color=#000000]:0.108073,(MN609865_Leveillula_taurica_associated_alphamesonivirus_1[&!color=#000000]:1.119936,(MN714662_Insemevirus_tami[&!color=#000000]:1.011279,MN714663_Tofonivirus_foami[&!color=#000000]:0.773911)[&label=0.998,!color=#000000]:0.247426)[&label=0.977,!color=#000000]:0.15799)[&label=0.959,!color=#000000]:0.128103)[&label=1.0,!color=#000000]:0.365991)[&label=1.0,!color=#000000]:0.205586)[&label=0.993,!color=#000000]:0.065818)[&label=0.987,!color=#000000]:0.05009)[&label=1.0,!color=#000000]:0.096094,(KC768950_Moumo_virus[&!color=#000000]:0.125735,NC_020901_Alphamesonivirus_4[&!color=#000000]:0.146527)[&label=1.0,!color=#000000]:0.061995)[&label=1.0,!color=#000000]:0.107845)[&label=0.766,!color=#000000]:0.00155)[&label=0.0,!color=#000000]:0.0)[&label=0.906,!color=#000000]:0.004904)[&label=0.904,!color=#000000]:0.01985)[&label=0.994,!color=#ab4d00]:0.014985,((HM746600_Alphamesonivirus_1[&!color=#ab4d00]:0.0,NC_015668_Alphamesonivirus_1[&!color=#ab4d00]:0.0)[&!color=#ab4d00]:0.010052,LC497421_Alphamesonivirus_1[&!color=#ab4d00]:0.003159)[&label=1.0,!color=#ab4d00]:0.02073)[&label=0.946,!color=#ab4d00]:0.004764)[&label=0.877,!color=#ab4d00]:0.002734)[&label=0.78,!color=#ab4d00]:5.99E-4)[&label=0.0,!color=#ab4d00]:0.0)[&label=1.0,!color=#ab4d00]:0.0,MN101550_Alphamesonivirus_1[&!color=#ab4d00]:0.0)[&label=0.0,!color=#ab4d00]:0.0,(((NC_015874_Alphamesonivirus_1[&!color=#ab4d00]:0.002556,(KF771866_Alphamesonivirus_1[&!color=#ab4d00]:6.52E-4,((Nam_Dinh_virus_F1576C2C25945C25414C25622C8C26117C15F1576[&!color=#ab4d00]:0.003154,KF522691_Alphamesonivirus_1[&!color=#ab4d00]:0.004336)[&label=0.951,!color=#ab4d00]:0.001895,OL700077_Alphamesonivirus_1[&!color=#ab4d00]:0.001643)[&label=0.753,!color=#ab4d00]:9.88E-4)[&label=0.952,!color=#ab4d00]:0.002293)[&label=0.977,!color=#ab4d00]:0.002175,KC807170_Alphamesonivirus_1[&!color=#ab4d00]:0.00796)[&label=0.0,!color=#ab4d00]:0.0,((MT514350_Alphamesonivirus_1[&!color=#ab4d00]:0.0,(MT514349_Alphamesonivirus_1[&!color=#ab4d00]:0.001584,MT514351_Alphamesonivirus_1[&!color=#ab4d00]:7.88E-4)[&label=0.338,!color=#ab4d00]:3.92E-4)[&label=0.738,!color=#ab4d00]:0.0,(MF176279_Alphamesonivirus_1[&!color=#ab4d00]:0.001181,MT514348_Alphamesonivirus_1[&!color=#ab4d00]:3.93E-4)[&label=0.0,!color=#ab4d00]:0.0)[&label=0.854,!color=#ab4d00]:3.93E-4)[&label=0.951,!color=#ab4d00]:0.001181)[&label=0.841,!color=#ab4d00]:3.93E-4)[&label=0.0,!color=#ab4d00]:0.0)[&label=0.0,!color=#ab4d00]:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

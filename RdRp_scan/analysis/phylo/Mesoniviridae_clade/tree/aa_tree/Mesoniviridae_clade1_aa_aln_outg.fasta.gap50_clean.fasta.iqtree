@@ -1,0 +1,442 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Mesoniviridae_clade/tree/aa_tree/Mesoniviridae_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 442580
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 64 sequences with 2568 amino-acid sites
+Number of constant sites: 730 (= 28.4268% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 730 (= 28.4268% of all sites)
+Number of parsimony informative sites: 1479
+Number of distinct site patterns: 1858
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R4          -36572.426   73440.852 +    0.996   73459.085 +    0.996   74306.783 +    0.996
+JTTDCMut+F+R4    -36578.595   73453.190 -  0.00208   73471.422 -  0.00208   74319.121 -  0.00208
+WAG+F+R4         -36578.607   73453.214 -  0.00206   73471.446 -  0.00206   74319.145 -  0.00206
+JTT+F+R4         -36581.400   73458.799 - 0.000126   73477.032 - 0.000126   74324.730 - 0.000126
+cpREV+F+R4       -36698.603   73693.206 - 1.59e-55   73711.438 - 1.59e-55   74559.136 - 1.59e-55
+VT+F+R4          -36713.348   73722.696 - 6.26e-62   73740.928 - 6.26e-62   74588.626 - 6.26e-62
+rtREV+F+R4       -36757.594   73811.188 - 3.81e-81   73829.421 - 3.81e-81   74677.119 - 3.81e-81
+FLU+F+R4         -36781.190   73858.381 - 2.15e-91   73876.613 - 2.15e-91   74724.312 - 2.15e-91
+Dayhoff+F+R4     -36808.608   73913.217 - 2.66e-103   73931.449 - 2.66e-103   74779.147 - 2.66e-103
+DCMut+F+R4       -36809.552   73915.105 - 1.04e-103   73933.337 - 1.04e-103   74781.035 - 1.04e-103
+mtInv+F+R4       -36816.888   73929.776 - 6.75e-107   73948.009 - 6.75e-107   74795.707 - 6.75e-107
+LG+R4            -36952.313   74162.625 - 1.85e-157   74176.383 - 1.73e-156   74917.389 - 2.55e-133
+LG+R5            -36950.628   74163.256 - 1.35e-157   74177.453 - 1.01e-156   74929.722 - 5.35e-136
+LG+R3            -36968.748   74191.496 - 9.95e-164   74204.820 - 1.16e-162   74934.558 - 4.77e-137
+LG+G4            -37010.732   74269.463 - 1.17e-180   74282.152 - 1.87e-179   74994.972 - 3.63e-150
+LG+I+G4          -37012.564   74275.127 - 6.88e-182   74288.026 - 9.9e-181   75006.487 - 1.15e-152
+mtZOA+F+R4       -36938.229   74172.458 - 1.36e-159   74190.690 - 1.36e-159   75038.389 - 1.36e-159
+mtMet+F+R4       -36950.342   74196.684 - 7.43e-165   74214.917 - 7.43e-165   75062.615 - 7.43e-165
+JTTDCMut+R4      -37026.201   74310.403 - 1.51e-189   74324.160 - 1.41e-188   75065.167 - 2.08e-165
+JTT+R4           -37032.269   74322.539 - 3.49e-192   74336.296 - 3.27e-191   75077.303 - 4.81e-168
+Blosum62+F+R4    -36963.214   74222.428 - 1.91e-170   74240.661 - 1.91e-170   75088.359 - 1.91e-170
+mtREV+F+R4       -36969.882   74235.764 - 2.43e-173   74253.997 - 2.43e-173   75101.695 - 2.43e-173
+WAG+R4           -37064.009   74386.018 - 5.73e-206   74399.775 - 5.37e-205   75140.782 - 7.9e-182
+PMB+F+R4         -36996.261   74288.522 - 8.49e-185   74306.754 - 8.49e-185   75154.453 - 8.49e-185
+LG+R2            -37090.155   74430.310 - 1.38e-215   74443.209 - 1.99e-214   75161.670 - 2.3e-186
+HIVb+F+R4        -37018.276   74332.551 - 2.33e-194   74350.783 - 2.33e-194   75198.482 - 2.33e-194
+VT+R4            -37097.501   74453.001 - 1.63e-220   74466.758 - 1.53e-219   75207.765 - 2.25e-196
+cpREV+R4         -37100.003   74458.006 - 1.34e-221   74471.763 - 1.25e-220   75212.770 - 1.84e-197
+rtREV+R4         -37157.175   74572.349 - 1.98e-246   74586.106 - 1.86e-245   75327.113 - 2.73e-222
+FLU+R4           -37163.479   74584.959 - 3.62e-249   74598.716 - 3.39e-248   75339.723 - 4.99e-225
+mtART+F+R4       -37311.021   74918.042 - 1.7e-321   74936.274 - 1.7e-321   75783.972 - 1.7e-321
+mtVer+F+R4       -37328.518   74953.037 -        0   74971.269 -        0   75818.968 -        0
+Blosum62+R4      -37412.933   75083.865 -        0   75097.622 -        0   75838.629 -        0
+HIVb+R4          -37432.093   75122.186 -        0   75135.943 -        0   75876.950 -        0
+Dayhoff+R4       -37437.522   75133.045 -        0   75146.802 -        0   75887.809 -        0
+DCMut+R4         -37438.657   75135.313 -        0   75149.071 -        0   75890.077 -        0
+PMB+R4           -37475.348   75208.695 -        0   75222.453 -        0   75963.459 -        0
+mtMAM+F+R4       -37614.107   75524.214 -        0   75542.446 -        0   76390.144 -        0
+HIVw+F+R4        -37638.101   75572.202 -        0   75590.434 -        0   76438.133 -        0
+LG+I             -37794.558   75837.116 -        0   75849.805 -        0   76562.625 -        0
+mtREV+R4         -38029.172   76316.344 -        0   76330.102 -        0   77071.108 -        0
+mtMet+R4         -38204.438   76666.877 -        0   76680.634 -        0   77421.641 -        0
+mtZOA+R4         -38261.048   76780.096 -        0   76793.853 -        0   77534.860 -        0
+HIVw+R4          -38276.341   76810.683 -        0   76824.440 -        0   77565.446 -        0
+mtVer+R4         -38345.190   76948.381 -        0   76962.138 -        0   77703.144 -        0
+LG               -38527.655   77301.310 -        0   77313.791 -        0   78020.968 -        0
+mtInv+R4         -38584.829   77427.657 -        0   77441.414 -        0   78182.421 -        0
+mtMAM+R4         -38671.706   77601.413 -        0   77615.170 -        0   78356.176 -        0
+mtART+R4         -38824.693   77907.386 -        0   77921.143 -        0   78662.150 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0426
+  pi(R) = 0.0441
+  pi(N) = 0.0654
+  pi(D) = 0.0619
+  pi(C) = 0.0217
+  pi(Q) = 0.0425
+  pi(E) = 0.0437
+  pi(G) = 0.0322
+  pi(H) = 0.0423
+  pi(I) = 0.0760
+  pi(L) = 0.1073
+  pi(K) = 0.0609
+  pi(M) = 0.0202
+  pi(F) = 0.0351
+  pi(P) = 0.0508
+  pi(S) = 0.0610
+  pi(T) = 0.0769
+  pi(W) = 0.0074
+  pi(Y) = 0.0623
+  pi(V) = 0.0456
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.4090,0.1245) (0.2948,0.5773) (0.2432,1.9012) (0.0529,5.9787)
+
+ Category  Relative_rate  Proportion
+  1         0.1245         0.4090
+  2         0.5773         0.2948
+  3         1.9012         0.2432
+  4         5.9787         0.0529
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -36567.7809 (s.e. 557.6725)
+Unconstrained log-likelihood (without tree): -18192.7182
+Number of free parameters (#branches + #model parameters): 148
+Akaike information criterion (AIC) score: 73431.5617
+Corrected Akaike information criterion (AICc) score: 73449.7941
+Bayesian information criterion (BIC) score: 74297.4924
+
+Total tree length (sum of branch lengths): 6.2501
+Sum of internal branch lengths: 2.1502 (34.4030% of tree length)
+
+WARNING: 21 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MN609866_Leveillula_taurica_associated_alphamesonivirus_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                                      +--Nam_Dinh_virus_F1576C2C25945C25414C25622C8C26117C15F1576
+                                                                   +--| (84)
+                                                                   |  |        +**KF522691_Alphamesonivirus_1
+                                                                   |  |     +--| (99)
+                                                                   |  |     |  +**JQ996713_Alphamesonivirus_1
+                                                                   |  |  +--| (93)
+                                                                   |  |  |  +**JQ996715_Alphamesonivirus_1
+                                                                   |  +--| (97)
+                                                                   |     |  +**JQ996714_Alphamesonivirus_1
+                                                                   |     +**| (52)
+                                                                   |        +--JQ996712_Alphamesonivirus_1
+                                                                +--| (57)
+                                                                |  |  +--OL700077_Alphamesonivirus_1
+                                                                |  +**| (25)
+                                                                |     +**LC609729_Alphamesonivirus_1
+                                                             +--| (89)
+                                                             |  +--KF771866_Alphamesonivirus_1
+                                                          +--| (99)
+                                                          |  +--NC_015874_Alphamesonivirus_1
+                                                       +**| (42)
+                                                       |  +--KC807170_Alphamesonivirus_1
+                                                    +--| (99)
+                                                    |  |           +--MT514349_Alphamesonivirus_1
+                                                    |  |        +**| (89)
+                                                    |  |        |  +--MT514351_Alphamesonivirus_1
+                                                    |  |     +**| (88)
+                                                    |  |     |  +**MT514350_Alphamesonivirus_1
+                                                    |  |  +**| (56)
+                                                    |  |  |  +--MF176279_Alphamesonivirus_1
+                                                    |  +**| (99)
+                                                    |     +**MT514348_Alphamesonivirus_1
+                                                 +**| (71)
+                                                 |  |              +**KU095838_Alphamesonivirus_1
+                                                 |  |           +**| (62)
+                                                 |  |           |  +**MH520100_Alphamesonivirus_1
+                                                 |  |        +**| (99)
+                                                 |  |        |  +**MH520103_Alphamesonivirus_1
+                                                 |  |     +--| (99)
+                                                 |  |     |  +**MH520101_Alphamesonivirus_1
+                                                 |  |  +**| (76)
+                                                 |  |  |  +--MK440619_Alphamesonivirus_1
+                                                 |  +**| (77)
+                                                 |     |     +--MH215275_Alphamesonivirus_1
+                                                 |     |  +**| (52)
+                                                 |     |  |  +--MW699044_Alphamesonivirus_1
+                                                 |     +**| (67)
+                                                 |        +--OV054251_Alphamesonivirus_1
+                                              +**| (45)
+                                              |  +**MN101550_Alphamesonivirus_1
+                                           +**| (68)
+                                           |  +--MF281710_Alphamesonivirus_1
+                                        +--| (95)
+                                        |  +--MT096515_Alphamesonivirus_1
+                                     +--| (89)
+                                     |  |              +**KC807175_Alphamesonivirus_1
+                                     |  |           +--| (73)
+                                     |  |           |  +--KC807178_Alphamesonivirus_1
+                                     |  |        +--| (77)
+                                     |  |        |  |     +--KC807176_Alphamesonivirus_1
+                                     |  |        |  |  +**| (13)
+                                     |  |        |  |  |  +--MH443059_Alphamesonivirus_1
+                                     |  |        |  +**| (14)
+                                     |  |        |     |  +**KC807177_Alphamesonivirus_1
+                                     |  |        |     +--| (99)
+                                     |  |        |        +--KJ475851_Alphamesonivirus_1
+                                     |  |     +**| (34)
+                                     |  |     |  +--MH188022_Alphamesonivirus_1
+                                     |  |  +**| (28)
+                                     |  |  |  +**MH188023_Alphamesonivirus_1
+                                     |  +--| (95)
+                                     |     +--MH719099_Alphamesonivirus_1
+                                  +--| (100)
+                                  |  +--LC497422_Odorna_virus
+                               +--| (100)
+                               |  |     +**HM746600_Alphamesonivirus_1
+                               |  |  +--| (100)
+                               |  |  |  +**NC_015668_Alphamesonivirus_1
+                               |  +--| (100)
+                               |     +--LC497421_Alphamesonivirus_1
+                            +--| (100)
+                            |  +--NC_036586_Alphamesonivirus_10
+                         +--| (69)
+                         |  |           +**KC807166_Alphamesonivirus_1
+                         |  |        +**| (99)
+                         |  |        |  +**MF158348_Bontang_Baru_virus
+                         |  |     +--| (100)
+                         |  |     |  +--KC807167_Alphamesonivirus_1
+                         |  |  +--| (100)
+                         |  |  |  +--NC_038296_Alphamesonivirus_2
+                         |  +--| (100)
+                         |     |     +--KC807172_Alphamesonivirus_1
+                         |     |  +--| (100)
+                         |     |  |  +**KC807174_Alphamesonivirus_1
+                         |     +--| (100)
+                         |        +--NC_038297_Alphamesonivirus_3
+                      +--| (98)
+                      |  +--NC_020899_Alphamesonivirus_2
+                   +--| (100)
+                   |  |        +--MZ358853_Alphamesonivirus_4
+                   |  |     +--| (92)
+                   |  |     |  +--NC_023986_Alphamesonivirus_4
+                   |  |  +--| (100)
+                   |  |  |  +--MT522184_Alphamesonivirus_sp_
+                   |  +--| (100)
+                   |     |  +--MT522182_Alphamesonivirus_sp_
+                   |     +--| (100)
+                   |        +--MT522183_Alphamesonivirus_sp_
+                +--| (100)
+                |  |  +--KC768950_Moumo_virus
+                |  +--| (100)
+                |     +--NC_020901_Alphamesonivirus_4
+             +--| (99)
+             |  +----NC_020900_Alphamesonivirus_3
+          +--| (95)
+          |  +----NC_043488_Alphamesonivirus_7
++---------| (99)
+|         +-------NC_043489_Alphamesonivirus_6
+|
+|                    +**KY369959_Alphamesonivirus_11
+|                 +--| (100)
+|                 |  +**NC_040534_Alphamesonivirus_11
++-----------------| (100)
+|                 +--MT070763_Alphamesonivirus_11
+|
++-----------------------------------------------------------MN609866_Leveillula_taurica_associated_alphamesonivirus_1
+
+Tree in newick format:
+
+((((((((((((((((((((((Nam_Dinh_virus_F1576C2C25945C25414C25622C8C26117C15F1576:0.0031873563,(((KF522691_Alphamesonivirus_1:0.0000010484,JQ996713_Alphamesonivirus_1:0.0000010484)99:0.0011592648,JQ996715_Alphamesonivirus_1:0.0000010484)93:0.0011612144,(JQ996714_Alphamesonivirus_1:0.0000010484,JQ996712_Alphamesonivirus_1:0.0016320838)52:0.0000028601)97:0.0023376246)84:0.0022472372,(OL700077_Alphamesonivirus_1:0.0016500008,LC609729_Alphamesonivirus_1:0.0000010484)25:0.0000025052)57:0.0010410644,KF771866_Alphamesonivirus_1:0.0005780886)89:0.0022554411,NC_015874_Alphamesonivirus_1:0.0028212197)99:0.0022158596,KC807170_Alphamesonivirus_1:0.0080975090)42:0.0000010484,((((MT514349_Alphamesonivirus_1:0.0015612788,MT514351_Alphamesonivirus_1:0.0007740181)89:0.0000025522,MT514350_Alphamesonivirus_1:0.0000010484)88:0.0003805929,MF176279_Alphamesonivirus_1:0.0011578354)56:0.0000010484,MT514348_Alphamesonivirus_1:0.0003854943)99:0.0003856339)99:0.0011611809,(((((KU095838_Alphamesonivirus_1:0.0000010484,MH520100_Alphamesonivirus_1:0.0000010484)62:0.0000010484,MH520103_Alphamesonivirus_1:0.0003858627)99:0.0003861293,MH520101_Alphamesonivirus_1:0.0000010484)99:0.0007721873,MK440619_Alphamesonivirus_1:0.0019933981)76:0.0003852908,((MH215275_Alphamesonivirus_1:0.0043853237,MW699044_Alphamesonivirus_1:0.0007931753)52:0.0000010484,OV054251_Alphamesonivirus_1:0.0007938377)67:0.0000010484)77:0.0003857718)71:0.0000022889,MN101550_Alphamesonivirus_1:0.0000010484)45:0.0000022791,MF281710_Alphamesonivirus_1:0.0003971006)68:0.0003755880,MT096515_Alphamesonivirus_1:0.0035079861)95:0.0006115192,(((((KC807175_Alphamesonivirus_1:0.0000010484,KC807178_Alphamesonivirus_1:0.0024033795)73:0.0003989859,((KC807176_Alphamesonivirus_1:0.0003984107,MH443059_Alphamesonivirus_1:0.0035998733)13:0.0000010484,(KC807177_Alphamesonivirus_1:0.0000010484,KJ475851_Alphamesonivirus_1:0.0007990661)99:0.0003986843)14:0.0000010484)77:0.0003981214,MH188022_Alphamesonivirus_1:0.0003969130)34:0.0000010484,MH188023_Alphamesonivirus_1:0.0000010484)28:0.0000010484,MH719099_Alphamesonivirus_1:0.0015891639)95:0.0009602738)89:0.0030027261,LC497422_Odorna_virus:0.0066114489)100:0.0053729245,((HM746600_Alphamesonivirus_1:0.0000010484,NC_015668_Alphamesonivirus_1:0.0000010484)100:0.0106938833,LC497421_Alphamesonivirus_1:0.0025564120)100:0.0215410855)100:0.0227083343,NC_036586_Alphamesonivirus_10:0.0370606941)100:0.0332988281,((((KC807166_Alphamesonivirus_1:0.0000010484,MF158348_Bontang_Baru_virus:0.0003879493)99:0.0003523539,KC807167_Alphamesonivirus_1:0.0004236773)100:0.0317810616,NC_038296_Alphamesonivirus_2:0.0227398058)100:0.0255508808,((KC807172_Alphamesonivirus_1:0.0004033628,KC807174_Alphamesonivirus_1:0.0000010484)100:0.0089011033,NC_038297_Alphamesonivirus_3:0.0101295513)100:0.0446980865)100:0.0615505635)69:0.0177499410,NC_020899_Alphamesonivirus_2:0.1263019994)98:0.0334333269,(((MZ358853_Alphamesonivirus_4:0.0050329376,NC_023986_Alphamesonivirus_4:0.0012490246)92:0.0058939984,MT522184_Alphamesonivirus_sp_:0.0033657795)100:0.0100338995,(MT522182_Alphamesonivirus_sp_:0.0045560572,MT522183_Alphamesonivirus_sp_:0.0005489231)100:0.0137335352)100:0.0934062519)100:0.1048837129,(KC768950_Moumo_virus:0.1501321389,NC_020901_Alphamesonivirus_4:0.1729653150)100:0.0725909922)100:0.1196362464,NC_020900_Alphamesonivirus_3:0.2267542619)99:0.0737596255,NC_043488_Alphamesonivirus_7:0.2401281852)95:0.0671251464,NC_043489_Alphamesonivirus_6:0.3652777830)99:0.4583558739,((KY369959_Alphamesonivirus_11:0.0000010484,NC_040534_Alphamesonivirus_11:0.0000010484)100:0.0050457556,MT070763_Alphamesonivirus_11:0.0033137202)100:0.8033274904,MN609866_Leveillula_taurica_associated_alphamesonivirus_1:2.6590012135);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -36567.870721
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                         +--Nam_Dinh_virus_F1576C2C25945C25414C25622C8C26117C15F1576
+                                                                      +--| (84)
+                                                                      |  |        +--KF522691_Alphamesonivirus_1
+                                                                      |  |     +--| (99)
+                                                                      |  |     |  +--JQ996713_Alphamesonivirus_1
+                                                                      |  |  +--| (93)
+                                                                      |  |  |  +--JQ996715_Alphamesonivirus_1
+                                                                      |  +--| (97)
+                                                                      |     |  +--JQ996714_Alphamesonivirus_1
+                                                                      |     +--| (52)
+                                                                      |        +--JQ996712_Alphamesonivirus_1
+                                                                   +--| (34)
+                                                                   |  +--LC609729_Alphamesonivirus_1
+                                                                +--| (57)
+                                                                |  +--OL700077_Alphamesonivirus_1
+                                                             +--| (89)
+                                                             |  +--KF771866_Alphamesonivirus_1
+                                                          +--| (99)
+                                                          |  +--NC_015874_Alphamesonivirus_1
+                                                       +--| (54)
+                                                       |  |           +--MT514349_Alphamesonivirus_1
+                                                       |  |        +--| (89)
+                                                       |  |        |  +--MT514351_Alphamesonivirus_1
+                                                       |  |     +--| (88)
+                                                       |  |     |  +--MT514350_Alphamesonivirus_1
+                                                       |  |  +--| (56)
+                                                       |  |  |  +--MF176279_Alphamesonivirus_1
+                                                       |  +--| (99)
+                                                       |     +--MT514348_Alphamesonivirus_1
+                                                    +--| (99)
+                                                    |  +--KC807170_Alphamesonivirus_1
+                                                 +--| (71)
+                                                 |  |                 +**KU095838_Alphamesonivirus_1
+                                                 |  |              +--|
+                                                 |  |              |  +**MH520106_Alphamesonivirus_1
+                                                 |  |           +--| (62)
+                                                 |  |           |  +--MH520100_Alphamesonivirus_1
+                                                 |  |        +--| (99)
+                                                 |  |        |  +--MH520103_Alphamesonivirus_1
+                                                 |  |     +--| (99)
+                                                 |  |     |  +--MH520101_Alphamesonivirus_1
+                                                 |  |  +--| (76)
+                                                 |  |  |  +--MK440619_Alphamesonivirus_1
+                                                 |  +--| (77)
+                                                 |     |     +--MH215275_Alphamesonivirus_1
+                                                 |     |  +--| (52)
+                                                 |     |  |  +--MW699044_Alphamesonivirus_1
+                                                 |     +--| (67)
+                                                 |        +--OV054251_Alphamesonivirus_1
+                                              +--| (45)
+                                              |  +--MN101550_Alphamesonivirus_1
+                                           +--| (68)
+                                           |  +--MF281710_Alphamesonivirus_1
+                                        +--| (95)
+                                        |  +--MT096515_Alphamesonivirus_1
+                                     +--| (89)
+                                     |  |              +--KC807175_Alphamesonivirus_1
+                                     |  |           +--| (73)
+                                     |  |           |  +--KC807178_Alphamesonivirus_1
+                                     |  |        +--| (38)
+                                     |  |        |  +--KC807176_Alphamesonivirus_1
+                                     |  |     +--| (48)
+                                     |  |     |  |  +--KC807177_Alphamesonivirus_1
+                                     |  |     |  +--| (99)
+                                     |  |     |     +--KJ475851_Alphamesonivirus_1
+                                     |  |  +--| (77)
+                                     |  |  |  +--MH443059_Alphamesonivirus_1
+                                     |  +--| (95)
+                                     |     |     +--MH188022_Alphamesonivirus_1
+                                     |     |  +--| (35)
+                                     |     |  |  +--MH719099_Alphamesonivirus_1
+                                     |     +--| (29)
+                                     |        +--MH188023_Alphamesonivirus_1
+                                  +--| (100)
+                                  |  +--LC497422_Odorna_virus
+                               +--| (100)
+                               |  |     +--HM746600_Alphamesonivirus_1
+                               |  |  +--| (100)
+                               |  |  |  +--NC_015668_Alphamesonivirus_1
+                               |  +--| (100)
+                               |     +--LC497421_Alphamesonivirus_1
+                            +--| (100)
+                            |  +--NC_036586_Alphamesonivirus_10
+                         +--| (69)
+                         |  |           +--KC807166_Alphamesonivirus_1
+                         |  |        +--| (99)
+                         |  |        |  +--MF158348_Bontang_Baru_virus
+                         |  |     +--| (100)
+                         |  |     |  +--KC807167_Alphamesonivirus_1
+                         |  |  +--| (100)
+                         |  |  |  +--NC_038296_Alphamesonivirus_2
+                         |  +--| (100)
+                         |     |     +--KC807172_Alphamesonivirus_1
+                         |     |  +--| (100)
+                         |     |  |  +--KC807174_Alphamesonivirus_1
+                         |     +--| (100)
+                         |        +--NC_038297_Alphamesonivirus_3
+                      +--| (98)
+                      |  +--NC_020899_Alphamesonivirus_2
+                   +--| (100)
+                   |  |        +--MZ358853_Alphamesonivirus_4
+                   |  |     +--| (92)
+                   |  |     |  +--NC_023986_Alphamesonivirus_4
+                   |  |  +--| (100)
+                   |  |  |  +--MT522184_Alphamesonivirus_sp_
+                   |  +--| (100)
+                   |     |  +--MT522182_Alphamesonivirus_sp_
+                   |     +--| (100)
+                   |        +--MT522183_Alphamesonivirus_sp_
+                +--| (100)
+                |  |  +--KC768950_Moumo_virus
+                |  +--| (100)
+                |     +--NC_020901_Alphamesonivirus_4
+             +--| (99)
+             |  +----NC_020900_Alphamesonivirus_3
+          +--| (95)
+          |  +----NC_043488_Alphamesonivirus_7
++---------| (99)
+|         +-------NC_043489_Alphamesonivirus_6
+|
+|                    +--KY369959_Alphamesonivirus_11
+|                 +--| (100)
+|                 |  +--NC_040534_Alphamesonivirus_11
++-----------------| (100)
+|                 +--MT070763_Alphamesonivirus_11
+|
++-----------------------------------------------------------MN609866_Leveillula_taurica_associated_alphamesonivirus_1
+
+
+Consensus tree in newick format: 
+
+(((((((((((((((((((((((Nam_Dinh_virus_F1576C2C25945C25414C25622C8C26117C15F1576:0.0031807135,(((KF522691_Alphamesonivirus_1:0.0000025257,JQ996713_Alphamesonivirus_1:0.0000025178)99:0.0011583980,JQ996715_Alphamesonivirus_1:0.0000025178)93:0.0011596470,(JQ996714_Alphamesonivirus_1:0.0000025178,JQ996712_Alphamesonivirus_1:0.0016294136)52:0.0000025178)97:0.0023321279)84:0.0000228296,LC609729_Alphamesonivirus_1:0.0000025178)34:0.0022196572,OL700077_Alphamesonivirus_1:0.0016496297)57:0.0010393453,KF771866_Alphamesonivirus_1:0.0005768658)89:0.0022518190,NC_015874_Alphamesonivirus_1:0.0028160609)99:0.0022123677,((((MT514349_Alphamesonivirus_1:0.0015591233,MT514351_Alphamesonivirus_1:0.0007729277)89:0.0003786792,MT514350_Alphamesonivirus_1:0.0000025178)88:0.0000045840,MF176279_Alphamesonivirus_1:0.0011557296)56:0.0000025178,MT514348_Alphamesonivirus_1:0.0003843897)99:0.0003845267)54:0.0000025178,KC807170_Alphamesonivirus_1:0.0080814389)99:0.0011590595,((((((KU095838_Alphamesonivirus_1:0.0000000000,MH520106_Alphamesonivirus_1:0.0000000000):0.0000025178,MH520100_Alphamesonivirus_1:0.0000025178)62:0.0000025178,MH520103_Alphamesonivirus_1:0.0003841722)99:0.0003844359,MH520101_Alphamesonivirus_1:0.0000025178)99:0.0007714774,MK440619_Alphamesonivirus_1:0.0019901512)76:0.0003842427,((MH215275_Alphamesonivirus_1:0.0043766539,MW699044_Alphamesonivirus_1:0.0007924238)52:0.0000025178,OV054251_Alphamesonivirus_1:0.0007930805)67:0.0000025178)77:0.0003846964)71:0.0000025178,MN101550_Alphamesonivirus_1:0.0000025178)45:0.0000022508,MF281710_Alphamesonivirus_1:0.0003953393)68:0.0003744554,MT096515_Alphamesonivirus_1:0.0035016116)95:0.0006098317,(((((KC807175_Alphamesonivirus_1:0.0000025178,KC807178_Alphamesonivirus_1:0.0023989707)73:0.0003972271,KC807176_Alphamesonivirus_1:0.0003966593)38:0.0000025178,(KC807177_Alphamesonivirus_1:0.0000025178,KJ475851_Alphamesonivirus_1:0.0007983262)99:0.0003969305)48:0.0000025178,MH443059_Alphamesonivirus_1:0.0035932938)77:0.0003963615,((MH188022_Alphamesonivirus_1:0.0003958123,MH719099_Alphamesonivirus_1:0.0015865925)35:0.0000025178,MH188023_Alphamesonivirus_1:0.0000025178)29:0.0000025178)95:0.0009589829)89:0.0029990613,LC497422_Odorna_virus:0.0065982323)100:0.0053662104,((HM746600_Alphamesonivirus_1:0.0000025178,NC_015668_Alphamesonivirus_1:0.0000025178)100:0.0106728738,LC497421_Alphamesonivirus_1:0.0025533047)100:0.0214986497)100:0.0226793010,NC_036586_Alphamesonivirus_10:0.0369844443)100:0.0332501745,((((KC807166_Alphamesonivirus_1:0.0000025178,MF158348_Bontang_Baru_virus:0.0003872917)99:0.0003516572,KC807167_Alphamesonivirus_1:0.0004234299)100:0.0317232601,NC_038296_Alphamesonivirus_2:0.0227076336)100:0.0255062271,((KC807172_Alphamesonivirus_1:0.0004025396,KC807174_Alphamesonivirus_1:0.0000025178)100:0.0088838107,NC_038297_Alphamesonivirus_3:0.0101151607)100:0.0446257033)100:0.0614434760)69:0.0177363439,NC_020899_Alphamesonivirus_2:0.1260817726)98:0.0334093892,(((MZ358853_Alphamesonivirus_4:0.0050252960,NC_023986_Alphamesonivirus_4:0.0012474533)92:0.0058853881,MT522184_Alphamesonivirus_sp_:0.0033610590)100:0.0100162097,(MT522182_Alphamesonivirus_sp_:0.0045490033,MT522183_Alphamesonivirus_sp_:0.0005485787)100:0.0137173840)100:0.0932435793)100:0.1047436711,(KC768950_Moumo_virus:0.1499373854,NC_020901_Alphamesonivirus_4:0.1727076625)100:0.0725188322)100:0.1195305951,NC_020900_Alphamesonivirus_3:0.2264579332)99:0.0737438580,NC_043488_Alphamesonivirus_7:0.2398400446)95:0.0672481505,NC_043489_Alphamesonivirus_6:0.3647433354)99:0.4640027976,((KY369959_Alphamesonivirus_11:0.0000025178,NC_040534_Alphamesonivirus_11:0.0000025178)100:0.0050283906,MT070763_Alphamesonivirus_11:0.0033260870)100:0.7973746802,MN609866_Leveillula_taurica_associated_alphamesonivirus_1:2.6555516428);
+
+TIME STAMP
+----------
+
+Date and time: Tue Jan 10 11:10:42 2023
+Total CPU time used: 3970.117759 seconds (1h:6m:10s)
+Total wall-clock time used: 152.4883174 seconds (0h:2m:32s)
+

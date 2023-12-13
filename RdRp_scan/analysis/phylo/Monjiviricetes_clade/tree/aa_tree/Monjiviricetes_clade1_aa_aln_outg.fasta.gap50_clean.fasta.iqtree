@@ -1,0 +1,363 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 895285
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 2143 amino-acid sites
+Number of constant sites: 385 (= 17.9655% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 385 (= 17.9655% of all sites)
+Number of parsimony informative sites: 1578
+Number of distinct site patterns: 1794
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+G4          -28920.808   57967.616 - 0.000157   57971.494 - 0.000217   58324.823 +    0.962
+LG+F+I+G4        -28920.313   57968.625 -  9.5e-05   57972.629 - 0.000123   58331.503 -   0.0341
+LG+F+R4          -28907.051   57950.103 +        1   57954.627 +        1   58335.660 -  0.00426
+LG+G4            -29031.876   58151.751 - 1.63e-44   58153.639 -  6.1e-44   58401.230 - 2.46e-17
+LG+I+G4          -29031.155   58152.309 - 1.23e-44   58154.284 - 4.42e-44   58407.458 - 1.09e-18
+LG+R4            -29017.080   58132.160 - 2.93e-40   58134.502 - 8.72e-40   58409.989 - 3.09e-19
+LG+R3            -29025.987   58145.975 - 2.93e-43   58148.128 - 9.59e-43   58412.463 - 8.96e-20
+LG+R5            -29015.124   58132.249 -  2.8e-40   58134.785 - 7.57e-40   58421.417 - 1.02e-21
+WAG+F+I+G4       -29001.713   58131.427 - 4.23e-40   58135.430 - 5.48e-40   58494.304 - 1.52e-37
+WAG+F+G4         -29005.779   58137.559 - 1.97e-41   58141.437 - 2.72e-41   58494.766 -  1.2e-37
+WAG+F+R4         -28993.095   58122.191 - 4.28e-38   58126.715 - 4.28e-38   58507.748 - 1.83e-40
+LG+R2            -29082.835   58255.670 - 4.43e-67   58257.645 - 1.59e-66   58510.819 - 3.93e-41
+rtREV+F+G4       -29024.714   58175.428 - 1.18e-49   58179.307 - 1.63e-49   58532.636 - 7.19e-46
+rtREV+F+I+G4     -29024.099   58176.197 - 8.02e-50   58180.201 - 1.04e-49   58539.075 - 2.88e-47
+rtREV+F+R4       -29009.110   58154.220 - 4.75e-45   58158.745 - 4.75e-45   58539.777 - 2.02e-47
+JTTDCMut+F+G4    -29036.706   58199.412 - 7.29e-55   58203.291 - 1.01e-54   58556.620 - 4.46e-51
+JTTDCMut+F+I+G4  -29034.923   58197.846 -  1.6e-54   58201.850 - 2.07e-54   58560.723 - 5.73e-52
+JTT+F+G4         -29041.799   58209.599 - 4.48e-57   58213.478 - 6.18e-57   58566.806 - 2.74e-53
+JTT+F+I+G4       -29039.999   58207.998 - 9.97e-57   58212.002 - 1.29e-56   58570.876 - 3.58e-54
+JTTDCMut+F+R4    -29024.925   58185.851 - 6.42e-52   58190.375 - 6.42e-52   58571.408 - 2.74e-54
+VT+F+G4          -29045.861   58217.722 - 7.71e-59   58221.600 - 1.07e-58   58574.929 - 4.71e-55
+VT+F+I+G4        -29042.599   58213.197 - 7.41e-58   58217.201 - 9.61e-58   58576.075 - 2.66e-55
+JTT+F+R4         -29030.024   58196.048 - 3.92e-54   58200.573 - 3.92e-54   58581.606 - 1.67e-56
+VT+F+R4          -29036.157   58208.313 - 8.52e-57   58212.838 - 8.52e-57   58593.870 - 3.63e-59
+cpREV+F+I+G4     -29087.715   58303.430 - 1.89e-77   58307.434 - 2.45e-77   58666.307 - 6.77e-75
+cpREV+F+G4       -29094.379   58314.758 - 6.55e-80   58318.637 - 9.04e-80   58671.966 -    4e-76
+cpREV+F+R4       -29076.008   58288.016 -  4.2e-74   58292.541 -  4.2e-74   58673.574 - 1.79e-76
+VT+I+G4          -29182.561   58455.122 - 2.17e-110   58457.097 - 7.76e-110   58710.271 - 1.92e-84
+VT+G4            -29186.471   58460.942 - 1.18e-111   58462.830 - 4.42e-111   58710.421 - 1.78e-84
+VT+R4            -29175.477   58448.954 - 4.74e-109   58451.295 - 1.41e-108   58726.782 -    5e-88
+mtInv+F+G4       -29136.817   58399.633 - 2.43e-98   58403.512 - 3.36e-98   58756.841 - 1.48e-94
+Dayhoff+F+G4     -29138.277   58402.554 - 5.64e-99   58406.433 - 7.79e-99   58759.762 - 3.45e-95
+WAG+I+G4         -29207.522   58505.045 - 3.13e-121   58507.019 - 1.12e-120   58760.193 - 2.78e-95
+Dayhoff+F+I+G4   -29134.672   58397.343 - 7.64e-98   58401.347 - 9.91e-98   58760.221 - 2.74e-95
+WAG+G4           -29213.055   58514.110 - 3.37e-123   58515.998 - 1.26e-122   58763.589 - 5.09e-96
+DCMut+F+G4       -29140.882   58407.764 - 4.17e-100   58411.643 - 5.76e-100   58764.972 - 2.55e-96
+DCMut+F+I+G4     -29137.219   58402.438 - 5.98e-99   58406.442 - 7.75e-99   58765.316 - 2.14e-96
+mtInv+F+I+G4     -29137.265   58402.530 - 5.71e-99   58406.534 - 7.41e-99   58765.407 - 2.05e-96
+Dayhoff+F+R4     -29122.921   58381.841 - 1.77e-94   58386.366 - 1.77e-94   58767.399 - 7.57e-97
+mtInv+F+R4       -29124.278   58384.557 - 4.56e-95   58389.081 - 4.56e-95   58770.114 - 1.95e-97
+DCMut+F+R4       -29125.574   58387.148 - 1.25e-95   58391.673 - 1.25e-95   58772.706 - 5.33e-98
+WAG+R4           -29198.517   58495.034 - 4.67e-119   58497.375 - 1.39e-118   58772.862 - 4.93e-98
+JTTDCMut+G4      -29221.929   58531.857 - 4.72e-127   58533.745 - 1.76e-126   58781.336 - 7.12e-100
+JTTDCMut+I+G4    -29219.400   58528.801 - 2.17e-126   58530.775 - 7.78e-126   58783.949 - 1.93e-100
+JTT+G4           -29223.361   58534.723 - 1.13e-127   58536.611 - 4.21e-127   58784.201 - 1.7e-100
+JTT+I+G4         -29220.946   58531.893 - 4.63e-127   58533.867 - 1.66e-126   58787.041 - 4.11e-101
+JTTDCMut+R4      -29209.263   58516.526 - 1.01e-123   58518.867 -   3e-123   58794.354 - 1.06e-102
+JTT+R4           -29210.716   58519.433 - 2.35e-124   58521.774 - 7.01e-124   58797.261 - 2.48e-103
+Blosum62+F+G4    -29170.062   58466.124 - 8.86e-113   58470.003 - 1.22e-112   58823.332 - 5.41e-109
+Blosum62+F+I+G4  -29166.644   58461.287 - 9.94e-112   58465.291 - 1.29e-111   58824.165 - 3.57e-109
+Blosum62+F+R4    -29159.567   58455.134 - 2.16e-110   58459.659 - 2.16e-110   58840.692 - 9.19e-113
+PMB+F+G4         -29194.696   58515.392 - 1.77e-123   58519.271 - 2.45e-123   58872.599 - 1.08e-119
+PMB+F+I+G4       -29191.400   58510.799 - 1.76e-122   58514.803 - 2.29e-122   58873.677 - 6.32e-120
+mtZOA+F+G4       -29195.661   58517.321 - 6.76e-124   58521.200 - 9.34e-124   58874.529 - 4.13e-120
+mtZOA+F+R4       -29177.666   58491.333 - 2.97e-118   58495.857 - 2.97e-118   58876.890 - 1.27e-120
+mtZOA+F+I+G4     -29196.804   58521.608 - 7.93e-125   58525.612 - 1.03e-124   58884.486 - 2.84e-122
+PMB+F+R4         -29184.321   58504.641 - 3.83e-121   58509.166 - 3.83e-121   58890.199 - 1.63e-123
+cpREV+I+G4       -29285.137   58660.274 - 6.14e-155   58662.248 - 2.2e-154   58915.422 - 5.45e-129
+cpREV+G4         -29292.482   58672.963 - 1.08e-157   58674.851 - 4.03e-157   58922.442 - 1.63e-130
+cpREV+R4         -29274.799   58647.598 - 3.47e-152   58649.939 - 1.03e-151   58925.426 - 3.66e-131
+Blosum62+I+G4    -29299.444   58688.888 - 3.76e-161   58690.862 - 1.34e-160   58944.036 - 3.33e-135
+Blosum62+G4      -29303.298   58694.596 - 2.16e-162   58696.483 - 8.09e-162   58944.074 - 3.27e-135
+Blosum62+R4      -29292.845   58683.689 - 5.05e-160   58686.030 - 1.51e-159   58961.517 - 5.33e-139
+FLU+F+R4         -29230.020   58596.039 - 5.45e-141   58600.564 - 5.45e-141   58981.597 - 2.32e-143
+FLU+F+G4         -29249.879   58625.759 - 1.92e-147   58629.638 - 2.65e-147   58982.966 - 1.17e-143
+FLU+F+I+G4       -29248.397   58624.794 - 3.11e-147   58628.797 - 4.03e-147   58987.671 - 1.12e-144
+rtREV+G4         -29333.476   58754.951 - 1.7e-175   58756.839 - 6.34e-175   59004.430 - 2.56e-148
+rtREV+I+G4       -29331.703   58753.405 - 3.67e-175   58755.380 - 1.31e-174   59008.554 - 3.26e-149
+rtREV+R4         -29317.383   58732.766 - 1.11e-170   58735.108 - 3.32e-170   59010.595 - 1.17e-149
+PMB+I+G4         -29336.186   58762.372 - 4.15e-177   58764.346 - 1.48e-176   59017.520 - 3.68e-151
+PMB+G4           -29340.282   58768.565 - 1.88e-178   58770.452 - 7.01e-178   59018.043 - 2.83e-151
+PMB+R4           -29329.696   58757.392 -   5e-176   58759.734 - 1.49e-175   59035.221 - 5.27e-155
+mtMet+F+G4       -29288.552   58703.104 - 3.07e-164   58706.983 - 4.25e-164   59060.312 - 1.88e-160
+mtMet+F+R4       -29272.581   58681.162 - 1.79e-159   58685.687 - 1.79e-159   59066.719 - 7.63e-162
+LG+I             -29365.759   58819.518 - 1.62e-189   58821.405 - 6.05e-189   59068.996 - 2.44e-162
+mtMet+F+I+G4     -29289.392   58706.784 - 4.88e-165   58710.788 - 6.33e-165   59069.661 - 1.75e-162
+HIVb+F+R4        -29378.063   58892.126 - 2.77e-205   58896.651 - 2.77e-205   59277.683 - 1.18e-207
+HIVb+F+G4        -29401.467   58928.933 - 2.82e-213   58932.812 - 3.89e-213   59286.141 - 1.72e-209
+HIVb+F+I+G4      -29398.860   58925.720 - 1.4e-212   58929.724 - 1.82e-212   59288.597 - 5.04e-210
+FLU+R4           -29457.662   59013.324 - 1.33e-231   59015.665 - 3.97e-231   59291.152 - 1.4e-210
+mtREV+F+G4       -29407.174   58940.348 - 9.35e-216   58944.227 - 1.29e-215   59297.556 - 5.71e-212
+FLU+G4           -29480.585   59049.169 - 2.19e-239   59051.057 - 8.19e-239   59298.647 - 3.31e-212
+FLU+I+G4         -29478.302   59046.605 - 7.9e-239   59048.579 - 2.83e-238   59301.753 -   7e-213
+mtREV+F+R4       -29391.997   58919.993 - 2.46e-211   58924.518 - 2.46e-211   59305.551 - 1.05e-213
+mtREV+F+I+G4     -29407.390   58942.781 - 2.77e-216   58946.784 - 3.6e-216   59305.658 - 9.94e-214
+mtART+F+G4       -29450.422   59026.843 - 1.54e-234   59030.722 - 2.13e-234   59384.051 - 9.43e-231
+mtART+F+R4       -29436.574   59009.149 - 1.07e-230   59013.673 - 1.07e-230   59394.706 - 4.58e-233
+mtART+F+I+G4     -29452.105   59032.210 - 1.06e-235   59036.214 - 1.37e-235   59395.088 - 3.78e-233
+Dayhoff+I+G4     -29553.680   59197.359 - 1.45e-271   59199.333 - 5.19e-271   59452.507 - 1.29e-245
+Dayhoff+G4       -29558.542   59205.084 - 3.05e-273   59206.971 - 1.14e-272   59454.562 - 4.61e-246
+DCMut+I+G4       -29556.295   59202.591 - 1.06e-272   59204.565 - 3.8e-272   59457.739 - 9.41e-247
+DCMut+G4         -29561.237   59210.474 - 2.06e-274   59212.361 - 7.7e-274   59459.952 - 3.11e-247
+Dayhoff+R4       -29542.258   59182.516 - 2.42e-268   59184.857 - 7.22e-268   59460.344 - 2.56e-247
+DCMut+R4         -29545.005   59188.010 - 1.55e-269   59190.351 - 4.63e-269   59465.838 - 1.64e-248
+HIVb+R4          -29629.509   59357.018 - 3.11e-306   59359.359 - 9.25e-306   59634.846 - 3.27e-285
+HIVb+I+G4        -29652.233   59394.465 - 2.29e-314   59396.440 - 8.21e-314   59649.614 - 2.03e-288
+HIVb+G4          -29656.283   59400.567 - 1.09e-315   59402.454 - 4.06e-315   59650.045 - 1.64e-288
+mtVer+F+R4       -29616.696   59369.392 - 6.39e-309   59373.917 - 6.38e-309   59754.949 - 2.72e-311
+mtVer+F+G4       -29638.274   59402.547 - 4.03e-316   59406.426 - 5.57e-316   59759.755 - 2.46e-312
+mtVer+F+I+G4     -29639.156   59406.312 - 6.14e-317   59410.316 - 7.96e-317   59769.190 - 2.2e-314
+LG               -29721.478   59528.955 -        0   59530.758 -        0   59772.764 - 3.69e-315
+mtMAM+F+R4       -29846.454   59828.909 -        0   59833.433 -        0   60214.466 -        0
+mtMAM+F+G4       -29866.132   59858.264 -        0   59862.142 -        0   60215.471 -        0
+mtMAM+F+I+G4     -29867.452   59862.904 -        0   59866.908 -        0   60225.782 -        0
+HIVw+F+R4        -29896.260   59928.520 -        0   59933.045 -        0   60314.078 -        0
+HIVw+F+G4        -29918.439   59962.877 -        0   59966.756 -        0   60320.085 -        0
+HIVw+F+I+G4      -29915.540   59959.081 -        0   59963.085 -        0   60321.958 -        0
+mtZOA+G4         -30209.978   60507.956 -        0   60509.844 -        0   60757.435 -        0
+mtZOA+I+G4       -30210.914   60511.828 -        0   60513.802 -        0   60766.976 -        0
+mtZOA+R4         -30205.842   60509.684 -        0   60512.025 -        0   60787.512 -        0
+mtMet+G4         -30441.752   60971.503 -        0   60973.391 -        0   61220.981 -        0
+mtMet+I+G4       -30442.439   60974.878 -        0   60976.852 -        0   61230.026 -        0
+mtMet+R4         -30430.767   60959.534 -        0   60961.875 -        0   61237.362 -        0
+mtREV+G4         -30536.107   61160.214 -        0   61162.102 -        0   61409.692 -        0
+mtREV+I+G4       -30536.143   61162.287 -        0   61164.261 -        0   61417.435 -        0
+mtREV+R4         -30531.414   61160.828 -        0   61163.170 -        0   61438.657 -        0
+HIVw+R4          -30585.374   61268.747 -        0   61271.088 -        0   61546.575 -        0
+HIVw+G4          -30611.486   61310.972 -        0   61312.860 -        0   61560.451 -        0
+HIVw+I+G4        -30608.091   61306.182 -        0   61308.156 -        0   61561.330 -        0
+mtInv+G4         -30615.771   61319.543 -        0   61321.430 -        0   61569.021 -        0
+mtInv+I+G4       -30616.211   61322.422 -        0   61324.396 -        0   61577.570 -        0
+mtInv+R4         -30616.412   61330.824 -        0   61333.165 -        0   61608.652 -        0
+mtART+G4         -30683.183   61454.365 -        0   61456.253 -        0   61703.843 -        0
+mtART+I+G4       -30684.584   61459.169 -        0   61461.143 -        0   61714.317 -        0
+mtART+R4         -30676.008   61450.016 -        0   61452.357 -        0   61727.844 -        0
+mtVer+G4         -30800.149   61688.297 -        0   61690.185 -        0   61937.776 -        0
+mtVer+R4         -30785.254   61668.508 -        0   61670.849 -        0   61946.336 -        0
+mtVer+I+G4       -30800.787   61691.575 -        0   61693.549 -        0   61946.723 -        0
+mtMAM+G4         -31013.093   62114.186 -        0   62116.074 -        0   62363.665 -        0
+mtMAM+I+G4       -31013.936   62117.872 -        0   62119.847 -        0   62373.021 -        0
+mtMAM+R4         -31009.643   62117.287 -        0   62119.628 -        0   62395.115 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0577
+  pi(R) = 0.0555
+  pi(N) = 0.0439
+  pi(D) = 0.0550
+  pi(C) = 0.0201
+  pi(Q) = 0.0317
+  pi(E) = 0.0589
+  pi(G) = 0.0405
+  pi(H) = 0.0301
+  pi(I) = 0.0697
+  pi(L) = 0.1027
+  pi(K) = 0.0563
+  pi(M) = 0.0291
+  pi(F) = 0.0398
+  pi(P) = 0.0395
+  pi(S) = 0.0780
+  pi(T) = 0.0627
+  pi(W) = 0.0126
+  pi(Y) = 0.0522
+  pi(V) = 0.0641
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.8842
+
+ Category  Relative_rate  Proportion
+  1         0.1133         0.2500
+  2         0.4390         0.2500
+  3         0.9778         0.2500
+  4         2.4699         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -28916.2765 (s.e. 316.2119)
+Unconstrained log-likelihood (without tree): -15546.9043
+Number of free parameters (#branches + #model parameters): 63
+Akaike information criterion (AIC) score: 57958.5529
+Corrected Akaike information criterion (AICc) score: 57962.4317
+Bayesian information criterion (BIC) score: 58315.7605
+
+Total tree length (sum of branch lengths): 6.2211
+Sum of internal branch lengths: 3.6951 (59.3961% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0005) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KM817612_Shuangao_Fly_Virus_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                                      +--MW434102_Culicidavirus_quitotaense
+                                                                   +--| (81)
+                                                                   |  +--MW434103_Culicidavirus_quitotaense
+                                                                +**| (19)
+                                                                |  +--MH188031_Culicidavirus_quitotaense
+                                                             +**| (37)
+                                                             |  |  +--MW434104_Culicidavirus_quitotaense
+                                                             |  +**| (25)
+                                                             |     +--MW434100_Culicidavirus_quitotaense
+                                                          +--| (99)
+                                                          |  +--MW434101_Culicidavirus_quitotaense
+                                                       +--| (98)
+                                                       |  +--MK440640_Culicidavirus_quitotaense
+                                                    +--| (43)
+                                                    |  +--MH188036_Culicidavirus_culicis
+                                                 +--| (82)
+                                                 |  |  +--MW452291_Culicidavirus_culicidae
+                                                 |  +--| (100)
+                                                 |     +**NC_028265_Culicidavirus_culicidae
++------------------------------------------------| (100)
+|                                                |  +--Imjin_River_virus_1_F1051C1F1051
+|                                                +--| (99)
+|                                                   +--NC_028482_Culicidavirus_imjinense
+|
+|                                                            +--ON955149_Hattula_chuvirus
+|                                                         +--| (79)
+|                                                         |  |  +--ON955153_Hattula_chuvirus
+|                                                         |  +**| (37)
+|                                                         |     +--ON955154_Hattula_chuvirus
+|                                                      +--| (99)
+|                                                      |  +**ON955148_Hattula_chuvirus
+|                                                   +--| (99)
+|                                                   |  +--ON955147_Hattula_chuvirus
+|                                          +--------| (100)
+|                                          |        +--ON955152_Hattula_chuvirus
+|                                       +--| (68)
+|                                       |  +-------------KX924630_Doliuvirus_culisetae
+|                    +------------------| (100)
+|                    |                  |           +--MN661024_Atrato_Chu-like_virus_1
+|                    |                  +-----------| (100)
+|                    |                              +--MN661026_Atrato_Chu-like_virus_1
++--------------------| (100)
+|                    +----------------------------MZ078292_Turkana_Chu-like_virus
+|
++----------------------------------------KM817612_Shuangao_Fly_Virus_1
+
+Tree in newick format:
+
+(((((((((MW434102_Culicidavirus_quitotaense:0.0009505615,MW434103_Culicidavirus_quitotaense:0.0009524550)81:0.0004750891,MH188031_Culicidavirus_quitotaense:0.0023800903)19:0.0000010000,(MW434104_Culicidavirus_quitotaense:0.0009514136,MW434100_Culicidavirus_quitotaense:0.0014262714)25:0.0000010000)37:0.0000010000,MW434101_Culicidavirus_quitotaense:0.0004746167)99:0.0149207631,MK440640_Culicidavirus_quitotaense:0.0289885333)98:0.1092568360,MH188036_Culicidavirus_culicis:0.0106291450)43:0.0705685777,(MW452291_Culicidavirus_culicidae:0.0039124869,NC_028265_Culicidavirus_culicidae:0.0000010000)100:0.0463346112)82:0.0924409231,(Imjin_River_virus_1_F1051C1F1051:0.0093310172,NC_028482_Culicidavirus_imjinense:0.0126440719)99:0.0731010570)100:1.3960163090,(((((((ON955149_Hattula_chuvirus:0.0004883868,(ON955153_Hattula_chuvirus:0.0004849813,ON955154_Hattula_chuvirus:0.0008849313)37:0.0000038873)79:0.0004871247,ON955148_Hattula_chuvirus:0.0000010000)99:0.0053054850,ON955147_Hattula_chuvirus:0.0019773439)99:0.0245588686,ON955152_Hattula_chuvirus:0.0206799331)100:0.2578780064,KX924630_Doliuvirus_culisetae:0.4160957616)68:0.0994657093,(MN661024_Atrato_Chu-like_virus_1:0.0060712287,MN661026_Atrato_Chu-like_virus_1:0.0030477730)100:0.3502304670)100:0.5419404529,MZ078292_Turkana_Chu-like_virus:0.8384838756)100:0.6121157363,KM817612_Shuangao_Fly_Virus_1:1.1651606671);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -28916.291114
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                         +--MW434102_Culicidavirus_quitotaense
+                                                                      +--| (81)
+                                                                      |  +--MW434103_Culicidavirus_quitotaense
+                                                                   +--| (26)
+                                                                   |  +--MW434100_Culicidavirus_quitotaense
+                                                                +--| (20)
+                                                                |  +--MW434104_Culicidavirus_quitotaense
+                                                             +--| (37)
+                                                             |  +--MH188031_Culicidavirus_quitotaense
+                                                          +--| (99)
+                                                          |  +--MW434101_Culicidavirus_quitotaense
+                                                       +--| (98)
+                                                       |  +--MK440640_Culicidavirus_quitotaense
+                                                    +--| (43)
+                                                    |  +--MH188036_Culicidavirus_culicis
+                                                 +--| (82)
+                                                 |  |  +--MW452291_Culicidavirus_culicidae
+                                                 |  +--| (100)
+                                                 |     +--NC_028265_Culicidavirus_culicidae
++------------------------------------------------| (100)
+|                                                |  +--Imjin_River_virus_1_F1051C1F1051
+|                                                +--| (99)
+|                                                   +--NC_028482_Culicidavirus_imjinense
+|
+|                                                               +--ON955149_Hattula_chuvirus
+|                                                            +--| (56)
+|                                                            |  +--ON955153_Hattula_chuvirus
+|                                                         +--| (79)
+|                                                         |  +--ON955154_Hattula_chuvirus
+|                                                      +--| (99)
+|                                                      |  +--ON955148_Hattula_chuvirus
+|                                                   +--| (99)
+|                                                   |  +--ON955147_Hattula_chuvirus
+|                                          +--------| (100)
+|                                          |        +--ON955152_Hattula_chuvirus
+|                                       +--| (68)
+|                                       |  +-------------KX924630_Doliuvirus_culisetae
+|                    +------------------| (100)
+|                    |                  |           +--MN661024_Atrato_Chu-like_virus_1
+|                    |                  +-----------| (100)
+|                    |                              +--MN661026_Atrato_Chu-like_virus_1
++--------------------| (100)
+|                    +----------------------------MZ078292_Turkana_Chu-like_virus
+|
++----------------------------------------KM817612_Shuangao_Fly_Virus_1
+
+
+Consensus tree in newick format: 
+
+((((((((((MW434102_Culicidavirus_quitotaense:0.0009491883,MW434103_Culicidavirus_quitotaense:0.0009510779)81:0.0004743875,MW434100_Culicidavirus_quitotaense:0.0014246096)26:0.0000028199,MW434104_Culicidavirus_quitotaense:0.0009500387)20:0.0000028199,MH188031_Culicidavirus_quitotaense:0.0023793241)37:0.0000028199,MW434101_Culicidavirus_quitotaense:0.0004733880)99:0.0149235516,MK440640_Culicidavirus_quitotaense:0.0289915552)98:0.1092597619,MH188036_Culicidavirus_culicis:0.0106380946)43:0.0705756841,(MW452291_Culicidavirus_culicidae:0.0039126222,NC_028265_Culicidavirus_culicidae:0.0000025829)100:0.0463547318)82:0.0913816639,(Imjin_River_virus_1_F1051C1F1051:0.0093337253,NC_028482_Culicidavirus_imjinense:0.0126443056)99:0.0740242872)100:1.3958112350,((((((((ON955149_Hattula_chuvirus:0.0004876564,ON955153_Hattula_chuvirus:0.0004881203)56:0.0004668821,ON955154_Hattula_chuvirus:0.0008835947)79:0.0000188015,ON955148_Hattula_chuvirus:0.0000028199)99:0.0053044578,ON955147_Hattula_chuvirus:0.0019768899)99:0.0245564608,ON955152_Hattula_chuvirus:0.0206820614)100:0.2578714230,KX924630_Doliuvirus_culisetae:0.4160714168)68:0.0994631988,(MN661024_Atrato_Chu-like_virus_1:0.0060699849,MN661026_Atrato_Chu-like_virus_1:0.0030481682)100:0.3502022075)100:0.5419741913,MZ078292_Turkana_Chu-like_virus:0.8383541647)100:0.6120336873,KM817612_Shuangao_Fly_Virus_1:1.1653112605);
+
+TIME STAMP
+----------
+
+Date and time: Thu Dec 22 16:34:47 2022
+Total CPU time used: 1842.906916 seconds (0h:30m:42s)
+Total wall-clock time used: 98.206063 seconds (0h:1m:38s)
+

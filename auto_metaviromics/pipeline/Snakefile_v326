@@ -1,0 +1,239 @@
+import os
+
+configfile:'config.yaml'
+workdir:config['outdir']
+data:config['data']
+
+SAMPLES= []
+SAMPLES.append(config['sample'])
+
+myoutput = list()
+
+input_trimmed_paired=config['input_trimmed_paired'] #to make sure lists defined in config also lists in snakefile
+output_trimmed_paired=config['output_trimmed_paired']
+output_sum_diamond=config['output_sum_diamond']
+
+if config['readtype'] == 'single':
+    myoutput.append(config['output_trimmed_single'])
+    if config['assembling'] == 'yes':
+        myoutput.append(config['output_megahit'])
+        if config['redundant_scaffold_removal'] == "yes":
+            myoutput.append(config['output_cluster_genomes'])
+        if config['run-diamond'] == 'yes':
+            myoutput.append(config['output_run_diamond'])
+        if config['sum-diamond'] =='yes':
+            myoutput.extend(config['output_sum_diamond'])
+elif config ['readtype'] == 'paired':
+    myoutput.extend(output_trimmed_paired)
+    if config['assembling'] == 'yes' and config['assembler'] == 'metaSPAdes':
+        myoutput.append(config['output_metaSPAdes'])
+        if config['redundant_scaffold_removal'] == "yes":
+            myoutput.append(config['output_cluster_genomes'])
+        if config['run-diamond'] == 'yes':
+            myoutput.append(config['output_run_diamond'])
+        if config['sum-diamond'] =='yes':
+            myoutput.extend(output_sum_diamond)
+    if config['assembling'] == 'no' and config['assembler'] == 'metaSPAdes':
+        myoutput.append(config['output_metaSPAdes'])
+        if config['redundant_scaffold_removal'] == "yes":
+            myoutput.append(config['output_cluster_genomes'])
+        if config['run-diamond'] == 'yes':
+            myoutput.append(config['output_run_diamond'])
+        if config['sum-diamond'] =='yes':
+            myoutput.extend(output_sum_diamond)
+    # elif config['assembler'] == 'Megahit':
+    #     myoutput.append(config['output_megahit'])
+    #     if config['run-diamond'] == 'yes':
+    #         myoutput.append(config['output_run_diamond'])
+    #     if config['sum-diamond'] =='yes':
+    #         myoutput.extend(output_sum_diamond)
+
+rule all:
+    input:
+        expand(myoutput, sample=SAMPLES)
+
+
+
+
+
+
+
+rule filtering_low_qual_single:
+    message:'Filtering low quality single reads \n'
+    input: ancient(config['input_trimmed_single'])
+    output: protected(config['output_trimmed_single'])
+    params:
+        dir=config['dir_trimmed']
+    threads: config['default_cpus']
+    shell:
+        """
+        mkdir -pv {params.dir}
+        Trimmomatic SE -phred33 {input} {output} LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:10
+        """
+
+
+
+
+
+
+rule filtering_low_qual_paired:
+    message:'Filtering low quality paired reads \n'
+    input:
+        R1=ancient(input_trimmed_paired[0]),
+        R2=ancient(input_trimmed_paired[1])
+    output:
+        R1=output_trimmed_paired[0],
+        R1u=output_trimmed_paired[1],
+        R2=output_trimmed_paired[2],
+        R2u=output_trimmed_paired[3]
+    params:
+        dir=config['dir_trimmed']
+    threads: config['default_cpus']
+    shell:
+        """
+        mkdir -pv {params.dir}
+        Trimmomatic PE -phred33 {input.R1} {input.R2} {output.R1} {output.R1u} {output.R2} {output.R2u} LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:10
+        """
+        ### just merge unpaired this time
+        #"""
+        #echo "do not trim"
+        #"""
+
+
+
+
+
+
+
+
+
+rule merge_unpaired:
+    message:'Merging unpaired trimmed reads \n'
+    input:
+        R1u=ancient(output_trimmed_paired[1]),
+        R2u=ancient(output_trimmed_paired[3])
+    output:
+        R12u=output_trimmed_paired[4]
+    params:
+        dir=config['dir_trimmed']
+    threads: config['default_cpus']
+    shell:
+        """
+        echo "skipping merge unpaired"
+        cat {input.R1u} {input.R2u} > {output.R12u}
+        """
+
+
+
+rule assembling_megahit_single:
+    input: ancient(config['output_trimmed_single'])
+    output: protected(config['output_megahit'])
+    log: config['log_megahit']
+    params:
+        dir=config['dir_megahit_single']
+    threads: config['default_cpus']
+    shell:
+        """
+        mkdir -pv {params.dir}
+        megahit --presets meta-sensitive -o {output} -r {input} < {log}
+        """
+
+rule assembling_megahit_paired:
+    input:
+        read_left=ancient(output_trimmed_paired[0]),
+        read_right=ancient(output_trimmed_paired[1])
+    output:
+        file=protected(config['output_megahit'])
+    log:
+        config['log_megahit']
+    params:
+        dir=config['dir_megahit_paired']
+    threads: config['default_cpus']
+    shell:
+        """
+        mkdir -pv {params.dir}
+        megahit --presets meta-sensitive -o {params.dir} -1 {input.read_left} -2 {input.read_right} > {log}
+        """
+
+rule assembling_metaSPAdes:
+    input:
+        read_left=ancient(output_trimmed_paired[0]),
+        read_right=ancient(output_trimmed_paired[2]),
+        R12u=ancient(output_trimmed_paired[4])
+    output:
+        file=protected(config['output_metaSPAdes'])
+    log:
+        config['log_metaSPAdes']
+    params:
+        k=config['metaSPAdes-kmers'],
+        dir=config['dir_metaSPAdes']
+    resources:
+        mem_Gb=int(config['default_mem'])//1000
+    threads: config['default_cpus']
+    shell:
+### this is the usual command but now with unpaired reads too
+        """
+        mkdir -pv {params.dir}
+        metaspades.py -t {threads} -m {resources.mem_Gb} -k {params.k} --pe1-1 {input.read_left} --pe1-2 {input.read_right} --pe1-s {input.R12u} -o {params.dir} > {log}
+        """
+### this is without error correction, for some libraries it doesn't work
+        #"""
+        #mkdir -pv {params.dir}
+        #metaspades.py --only-assembler -t {threads} -m {resources.mem_Gb} -k {params.k} --pe1-1 {input.read_left} --pe1-2 {input.read_right} --pe1-s {input.R12u} -o {params.dir} > {log}
+        #"""
+### this is to just run Trimmomatic
+        #"""
+        #echo "don't run metaspades this time, rule command hidden"
+        #"""
+
+
+rule rem_redundant_scaffolds:
+    message: 'Redundant scaffold removal \n'
+    input:
+        contigs=ancient(config['output_metaSPAdes']),
+        script=ancient(config['cluster-genomes-script'])
+    output: protected(config['output_cluster_genomes'])
+    shell:
+        """
+        {input.script} -f {input.contigs}
+        """
+
+rule run_DIAMOND:
+    message:'Running BlastX search with DIAMOND \n'
+    input: ancient(config['output_cluster_genomes'])
+    #output: protected(config['output_run_diamond']) ### in this case rewriting is impossible even with forcerun
+    output: protected(config['output_run_diamond'])
+    params:
+        db=config['diamond-db'],
+        top=config['diamond-top'],
+        f=config['diamond-f'],
+        b=config['diamond-blocksize'],
+        c=config['diamond-indexchunk'],
+        dir=config['dir_run_diamond']
+    threads: config['default_cpus']
+    shell:
+        """
+        mkdir -pv {params.dir}
+        diamond blastx -d {params.db} -q {input} --sensitive --top {params.top} -b {params.b} -c {params.c} --threads {threads} -f {params.f} qseqid sseqid pident length mismatch gapopen qstart qend sstart send slen evalue bitscore stitle staxids -o {output}
+        """
+
+rule sum_DIAMOND:
+    message:'Summarizing DIAMOND \n'
+    input:
+        script=ancient(config['sum_diamond_script']),
+        matches=ancient(config['output_run_diamond'])
+    output:
+        # f6=protected(output_sum_diamond[0]),
+        # l_collapsed=protected(output_sum_diamond[1]),
+        # l_complete=protected(output_sum_diamond[2])
+        f6=output_sum_diamond[0],
+        l_collapsed=output_sum_diamond[1],
+        l_complete=output_sum_diamond[2]
+    params:
+        lineage=config['lineage'],
+        outdir=config['dir_sum_diamond']
+    threads: config['default_cpus']
+    shell:
+        """
+        Rscript --vanilla {input.script} {input.matches} {params.lineage} {params.outdir}
+        """

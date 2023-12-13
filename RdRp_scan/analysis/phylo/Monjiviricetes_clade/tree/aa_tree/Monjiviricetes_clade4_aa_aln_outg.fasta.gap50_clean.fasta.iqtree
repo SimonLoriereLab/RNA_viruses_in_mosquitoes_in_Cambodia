@@ -1,0 +1,369 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade4_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 562257
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 35 sequences with 2107 amino-acid sites
+Number of constant sites: 508 (= 24.1101% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 508 (= 24.1101% of all sites)
+Number of parsimony informative sites: 1238
+Number of distinct site patterns: 1629
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+G4          -27287.402   54748.804 +   0.0691   54756.388 +   0.0751   55240.617 +    0.556
+LG+F+I+G4        -27283.802   54743.603 +    0.931   54751.365 +    0.925   55241.069 +    0.444
+LG+I+G4          -27373.979   54885.958 - 1.14e-31   54890.701 - 5.13e-31   55276.017 - 1.14e-08
+LG+G4            -27377.813   54891.626 -  6.7e-33   54896.230 - 3.23e-32   55276.031 - 1.14e-08
+rtREV+F+I+G4     -27310.618   54797.236 -  2.1e-12   54804.998 - 2.09e-12   55294.702 -    1e-12
+rtREV+F+G4       -27314.991   54803.981 - 7.21e-14   54811.565 - 7.83e-14   55295.794 -  5.8e-13
+LG+R3            -27379.844   54901.689 - 4.38e-35   54906.713 - 1.71e-34   55303.053 - 1.54e-14
+LG+R4            -27378.496   54902.992 - 2.28e-35   54908.306 -  7.7e-35   55315.663 - 2.81e-17
+WAG+F+I+G4       -27360.669   54897.337 - 3.85e-34   54905.100 - 3.83e-34   55394.803 - 1.84e-34
+LG+R2            -27435.272   55008.544 - 2.74e-58   55013.286 - 1.23e-57   55398.602 - 2.75e-35
+WAG+F+G4         -27373.807   54921.615 - 2.06e-39   54929.199 - 2.24e-39   55413.428 - 1.66e-38
+VT+F+I+G4        -27420.600   55017.199 - 3.62e-60   55024.962 - 3.59e-60   55514.665 - 1.72e-60
+VT+I+G4          -27494.561   55127.122 - 4.89e-84   55131.864 -  2.2e-83   55517.180 -  4.9e-61
+VT+F+G4          -27433.054   55040.107 - 3.84e-65   55047.691 - 4.17e-65   55531.920 - 3.09e-64
+VT+G4            -27507.241   55150.482 - 4.13e-89   55155.087 - 1.99e-88   55534.888 -    7e-65
+rtREV+I+G4       -27511.600   55161.200 - 1.95e-91   55165.942 - 8.75e-91   55551.258 - 1.95e-68
+rtREV+G4         -27517.083   55170.166 -  2.2e-93   55174.770 - 1.06e-92   55554.571 - 3.72e-69
+JTTDCMut+F+I+G4  -27443.109   55062.217 - 6.06e-70   55069.979 - 6.03e-70   55559.683 - 2.89e-70
+JTTDCMut+F+G4    -27449.949   55073.899 - 1.76e-72   55081.483 - 1.91e-72   55565.711 - 1.42e-71
+JTT+F+I+G4       -27446.472   55068.944 -  2.1e-71   55076.706 - 2.09e-71   55566.410 -    1e-71
+JTT+F+G4         -27453.307   55080.613 - 6.14e-74   55088.197 - 6.67e-74   55572.426 - 4.94e-73
+WAG+I+G4         -27531.601   55201.203 -   4e-100   55205.945 -  1.8e-99   55591.261 - 4.02e-77
+WAG+G4           -27546.014   55228.028 - 5.99e-106   55232.632 - 2.89e-105   55612.433 - 1.01e-81
+cpREV+F+I+G4     -27473.623   55123.245 - 3.39e-83   55131.007 - 3.37e-83   55620.711 - 1.62e-83
+JTT+I+G4         -27547.201   55232.402 - 6.72e-107   55237.145 - 3.02e-106   55622.461 - 6.74e-84
+JTTDCMut+I+G4    -27550.120   55238.240 - 3.63e-108   55242.982 - 1.63e-107   55628.299 - 3.64e-85
+JTT+G4           -27554.638   55245.276 - 1.08e-109   55249.881 - 5.19e-109   55629.682 - 1.82e-85
+cpREV+F+G4       -27482.765   55139.531 - 9.87e-87   55147.115 - 1.07e-86   55631.343 - 7.94e-86
+JTTDCMut+G4      -27557.656   55251.312 - 5.26e-111   55255.917 - 2.54e-110   55635.717 - 8.92e-87
+Dayhoff+F+I+G4   -27502.391   55180.783 - 1.09e-95   55188.545 - 1.08e-95   55678.249 - 5.18e-96
+DCMut+F+I+G4     -27503.436   55182.873 - 3.83e-96   55190.635 -  3.8e-96   55680.339 - 1.82e-96
+Dayhoff+F+G4     -27511.311   55196.622 - 3.96e-99   55204.205 -  4.3e-99   55688.434 - 3.18e-98
+DCMut+F+G4       -27512.382   55198.764 - 1.36e-99   55206.348 - 1.47e-99   55690.577 - 1.09e-98
+cpREV+I+G4       -27581.331   55300.662 - 1.01e-121   55305.405 - 4.55e-121   55690.721 - 1.01e-98
+cpREV+G4         -27590.170   55316.341 - 3.99e-125   55320.945 - 1.92e-124   55700.746 - 6.75e-101
+Blosum62+F+I+G4  -27518.269   55212.538 - 1.38e-102   55220.300 - 1.37e-102   55710.004 - 6.59e-103
+Blosum62+F+G4    -27530.803   55235.607 - 1.35e-107   55243.191 - 1.47e-107   55727.420 - 1.09e-106
+mtInv+F+G4       -27531.216   55236.433 - 8.96e-108   55244.017 - 9.73e-108   55728.245 - 7.21e-107
+mtInv+F+I+G4     -27532.063   55240.126 - 1.41e-108   55247.889 - 1.4e-108   55737.592 - 6.74e-109
+PMB+F+I+G4       -27553.993   55283.987 - 4.23e-118   55291.749 - 4.2e-118   55781.452 - 2.02e-118
+Blosum62+I+G4    -27629.723   55397.446 - 9.74e-143   55402.188 - 4.38e-142   55787.504 - 9.78e-120
+PMB+I+G4         -27634.793   55407.587 - 6.12e-145   55412.329 - 2.75e-144   55797.645 - 6.14e-122
+PMB+F+G4         -27567.281   55308.561 - 1.95e-123   55316.145 - 2.12e-123   55800.374 - 1.57e-122
+Blosum62+G4      -27641.554   55419.107 - 1.93e-147   55423.712 - 9.29e-147   55803.513 - 3.27e-123
+PMB+G4           -27648.243   55432.487 - 2.4e-150   55437.091 - 1.16e-149   55816.892 - 4.06e-126
+mtZOA+F+G4       -27575.854   55325.708 - 3.68e-127   55333.292 -   4e-127   55817.521 - 2.97e-126
+mtZOA+F+I+G4     -27578.140   55332.280 - 1.38e-128   55340.042 - 1.37e-128   55829.746 - 6.57e-129
+FLU+F+I+G4       -27606.559   55389.119 - 6.27e-141   55396.881 - 6.23e-141   55886.585 - 2.99e-141
+FLU+F+G4         -27612.608   55399.216 - 4.02e-143   55406.800 - 4.37e-143   55891.029 - 3.24e-142
+mtMet+F+G4       -27646.274   55466.548 - 9.62e-158   55474.132 - 1.05e-157   55958.361 - 7.75e-157
+mtMet+F+I+G4     -27648.041   55472.083 - 6.05e-159   55479.845 - 6.01e-159   55969.549 - 2.88e-159
+LG+I             -27727.379   55590.759 - 1.03e-184   55595.363 - 4.95e-184   55975.164 - 1.74e-160
+mtREV+F+G4       -27679.407   55532.815 - 3.92e-172   55540.398 - 4.26e-172   56024.627 - 3.16e-171
+mtREV+F+I+G4     -27679.900   55535.799 - 8.83e-173   55543.561 - 8.77e-173   56033.265 - 4.21e-173
+HIVb+F+I+G4      -27732.860   55641.719 - 8.82e-196   55649.482 - 8.76e-196   56139.185 - 4.2e-196
+HIVb+F+G4        -27739.473   55652.946 - 3.22e-198   55660.530 - 3.5e-198   56144.759 - 2.59e-197
+Dayhoff+I+G4     -27811.215   55760.429 - 1.47e-221   55765.172 - 6.62e-221   56150.488 - 1.48e-198
+DCMut+I+G4       -27812.126   55762.252 - 5.92e-222   55766.994 - 2.66e-221   56152.310 - 5.94e-199
+Dayhoff+G4       -27821.546   55779.091 - 1.3e-225   55783.696 - 6.29e-225   56163.497 - 2.21e-201
+DCMut+G4         -27822.511   55781.022 - 4.97e-226   55785.626 - 2.39e-225   56165.427 - 8.42e-202
+FLU+I+G4         -27824.127   55786.253 - 3.63e-227   55790.996 - 1.63e-226   56176.312 - 3.65e-204
+FLU+G4           -27831.524   55799.047 - 6.05e-230   55803.652 - 2.92e-229   56183.453 - 1.03e-205
+mtART+F+G4       -27777.373   55728.745 - 1.12e-214   55736.329 - 1.21e-214   56220.558 - 8.99e-214
+mtART+F+I+G4     -27778.955   55733.911 - 8.44e-216   55741.673 - 8.39e-216   56231.376 - 4.02e-216
+HIVb+I+G4        -27911.181   55960.361 - 5.67e-265   55965.104 - 2.55e-264   56350.420 - 5.68e-242
+HIVb+G4          -27919.650   55975.301 - 3.23e-268   55979.905 - 1.56e-267   56359.706 - 5.47e-244
+mtVer+F+G4       -27913.074   56000.148 - 1.3e-273   56007.732 - 1.41e-273   56491.960 - 1.05e-272
+mtVer+F+I+G4     -27915.102   56006.203 - 6.29e-275   56013.965 - 6.25e-275   56503.669 -   3e-275
+mtMAM+F+G4       -28001.655   56177.309 - 4.4e-312   56184.893 - 4.78e-312   56669.122 - 3.54e-311
+mtMAM+F+I+G4     -28004.038   56184.077 - 1.49e-313   56191.839 - 1.48e-313   56681.542 - 7.12e-314
+LG               -28298.908   56731.816 -        0   56736.285 -        0   57110.568 -        0
+HIVw+F+I+G4      -28296.663   56769.325 -        0   56777.088 -        0   57266.791 -        0
+HIVw+F+G4        -28303.142   56780.284 -        0   56787.868 -        0   57272.096 -        0
+mtZOA+G4         -28412.703   56961.405 -        0   56966.010 -        0   57345.811 -        0
+mtZOA+I+G4       -28414.775   56967.550 -        0   56972.292 -        0   57357.608 -        0
+mtREV+G4         -28621.583   57379.165 -        0   57383.770 -        0   57763.571 -        0
+mtREV+I+G4       -28623.687   57385.374 -        0   57390.116 -        0   57775.432 -        0
+mtMet+G4         -28677.192   57490.384 -        0   57494.989 -        0   57874.790 -        0
+mtMet+I+G4       -28679.470   57496.941 -        0   57501.683 -        0   57886.999 -        0
+HIVw+I+G4        -28853.533   57845.066 -        0   57849.808 -        0   58235.124 -        0
+mtART+G4         -28858.368   57852.735 -        0   57857.340 -        0   58237.141 -        0
+HIVw+G4          -28861.211   57858.423 -        0   57863.027 -        0   58242.828 -        0
+mtART+I+G4       -28859.878   57857.755 -        0   57862.497 -        0   58247.813 -        0
+mtVer+G4         -28888.089   57912.178 -        0   57916.782 -        0   58296.583 -        0
+mtVer+I+G4       -28890.528   57919.057 -        0   57923.799 -        0   58309.115 -        0
+mtInv+G4         -28904.539   57945.079 -        0   57949.683 -        0   58329.484 -        0
+mtInv+I+G4       -28906.503   57951.006 -        0   57955.749 -        0   58341.065 -        0
+mtMAM+G4         -28990.629   58117.258 -        0   58121.862 -        0   58501.663 -        0
+mtMAM+I+G4       -28992.799   58123.598 -        0   58128.340 -        0   58513.657 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0569
+  pi(R) = 0.0542
+  pi(N) = 0.0373
+  pi(D) = 0.0448
+  pi(C) = 0.0184
+  pi(Q) = 0.0353
+  pi(E) = 0.0605
+  pi(G) = 0.0538
+  pi(H) = 0.0254
+  pi(I) = 0.0638
+  pi(L) = 0.1199
+  pi(K) = 0.0546
+  pi(M) = 0.0246
+  pi(F) = 0.0447
+  pi(P) = 0.0588
+  pi(S) = 0.0820
+  pi(T) = 0.0571
+  pi(W) = 0.0161
+  pi(Y) = 0.0340
+  pi(V) = 0.0579
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7002
+
+ Category  Relative_rate  Proportion
+  1         0.0742         0.2500
+  2         0.3636         0.2500
+  3         0.9249         0.2500
+  4         2.6372         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -27285.3568 (s.e. 320.8074)
+Unconstrained log-likelihood (without tree): -14941.9604
+Number of free parameters (#branches + #model parameters): 87
+Akaike information criterion (AIC) score: 54744.7137
+Corrected Akaike information criterion (AICc) score: 54752.2976
+Bayesian information criterion (BIC) score: 55236.5265
+
+Total tree length (sum of branch lengths): 5.4803
+Sum of internal branch lengths: 2.1061 (38.4309% of tree length)
+
+WARNING: 16 near-zero internal branches (<0.0005) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NC_031276_Wuhan_Ant_Virus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                          +**Preculath_virus_F1097C1F1526
+                                       +**| (22)
+                                       |  |  +**Preculath_virus_F1097C1F1537
+                                       |  +**| (16)
+                                       |     +**Preculath_virus_F1097C1F1533
+                                    +**| (27)
+                                    |  |  +**Preculath_virus_F1097C1F1527
+                                    |  +**| (95)
+                                    |     +**Preculath_virus_F1097C1F1536
+                                 +**| (92)
+                                 |  |  +**Preculath_virus_F1097C1F1525
+                                 |  +--| (97)
+                                 |     +--Preculath_virus_F1097C1F1532
+                              +--| (84)
+                              |  |              +--Preculath_virus_F1097C1F1531
+                              |  |           +**| (53)
+                              |  |           |  +--Preculath_virus_F1097C1F1021
+                              |  |        +**| (84)
+                              |  |        |  +**Preculath_virus_F1097C1F1019
+                              |  |     +**| (14)
+                              |  |     |  |  +**Preculath_virus_F1097C1F1099
+                              |  |     |  +**| (18)
+                              |  |     |     +**Preculath_virus_F1097C1F1089
+                              |  |  +**| (6)
+                              |  |  |  |  +**Preculath_virus_F1097C1F1098
+                              |  |  |  +**| (4)
+                              |  |  |     |  +**Preculath_virus_F1097C1F1090
+                              |  |  |     +**| (83)
+                              |  |  |        +--Preculath_virus_F1097C1F1534
+                              |  +**| (27)
+                              |     +**Preculath_virus_F1097C1F1097
+                           +**| (59)
+                           |  +**Preculath_virus_F1097C1F1380
+                       +---| (100)
+                       |   +--Preculath_virus_F1097C1F1371
+        +--------------| (100)
+        |              |  +--Reloonsia_virus_F1535C4F1020
+        |              +--| (100)
+        |                 |  +**Reloonsia_virus_F1535C4F1535
+        |                 +--| (95)
+        |                    +**Reloonsia_virus_F1535C4F1524
++-------| (93)
+|       |                                         +--BK059423_San_Gabriel_mononegavirus
+|       |                                      +--| (80)
+|       |                                      |  +--San_Gabriel_mononegavirus_F1076C1F1076
+|       |                                   +**| (55)
+|       |                                   |  +--San_Gabriel_mononegavirus_F1076C1F1350
+|       |                                +**| (47)
+|       |                                |  +**San_Gabriel_mononegavirus_F1076C1F1518
+|       |                             +--| (79)
+|       |                             |  +--San_Gabriel_mononegavirus_F1076C1F1168
+|       |                          +--| (56)
+|       |                          |  |  +--San_Gabriel_mononegavirus_F1076C1F1197
+|       |                          |  +--| (68)
+|       |                          |     +--San_Gabriel_mononegavirus_F1076C1F1345
+|       |              +-----------| (100)
+|       |              |           +**San_Gabriel_mononegavirus_F1076C1F1016
+|       +--------------| (100)
+|                      |  +---------Retriended_virus_F1011C1F1011
+|                      +--| (65)
+|                         |            +--MN567480_Primus_virus
+|                         +------------| (100)
+|                                      +--OL700129_XiangYun_mono-chu-like_virus_4
+|
+|  +--------------------------------MN661034_Atrato_Rhabdo-like_virus_3
++--| (55)
+|  +------------ON955251_Joutseno_rhabdovirus_1
+|
++----------------------------------------------------------NC_031276_Wuhan_Ant_Virus
+
+Tree in newick format:
+
+(((((((((Preculath_virus_F1097C1F1526:0.0000010000,(Preculath_virus_F1097C1F1537:0.0000010000,Preculath_virus_F1097C1F1533:0.0004634077)16:0.0000010000)22:0.0000010000,(Preculath_virus_F1097C1F1527:0.0000010000,Preculath_virus_F1097C1F1536:0.0004633039)95:0.0004635176)27:0.0000029248,(Preculath_virus_F1097C1F1525:0.0000010000,Preculath_virus_F1097C1F1532:0.0009294131)97:0.0009290444)92:0.0004634725,(((((Preculath_virus_F1097C1F1531:0.0009297476,Preculath_virus_F1097C1F1021:0.0019134924)53:0.0000010000,Preculath_virus_F1097C1F1019:0.0000010000)84:0.0004648642,(Preculath_virus_F1097C1F1099:0.0000010000,Preculath_virus_F1097C1F1089:0.0004618688)18:0.0000024113)14:0.0000010000,(Preculath_virus_F1097C1F1098:0.0004643308,(Preculath_virus_F1097C1F1090:0.0000010000,Preculath_virus_F1097C1F1534:0.0018606777)83:0.0004633440)4:0.0000010000)6:0.0000010000,Preculath_virus_F1097C1F1097:0.0000010000)27:0.0000010000)84:0.0013968043,Preculath_virus_F1097C1F1380:0.0000010000)59:0.0003825267,Preculath_virus_F1097C1F1371:0.0010122730)100:0.1111472348,(Reloonsia_virus_F1535C4F1020:0.0009628086,(Reloonsia_virus_F1535C4F1535:0.0000010000,Reloonsia_virus_F1535C4F1524:0.0004668322)95:0.0009101462)100:0.0948594824)100:0.4233990715,(((((((BK059423_San_Gabriel_mononegavirus:0.0140866836,San_Gabriel_mononegavirus_F1076C1F1076:0.0019939670)80:0.0009817311,San_Gabriel_mononegavirus_F1076C1F1350:0.0004954366)55:0.0000029274,San_Gabriel_mononegavirus_F1076C1F1518:0.0000010000)47:0.0000020034,San_Gabriel_mononegavirus_F1076C1F1168:0.0004955922)79:0.0004943072,(San_Gabriel_mononegavirus_F1076C1F1197:0.0014920299,San_Gabriel_mononegavirus_F1076C1F1345:0.0009912219)68:0.0015019615)56:0.0009919644,San_Gabriel_mononegavirus_F1076C1F1016:0.0000021215)100:0.3351349660,(Retriended_virus_F1011C1F1011:0.2749392264,(MN567480_Primus_virus:0.1003041226,OL700129_XiangYun_mono-chu-like_virus_4:0.1009913750)100:0.3681510499)65:0.1002653986)100:0.4032258631)93:0.2341799826,(MN661034_Atrato_Rhabdo-like_virus_3:0.8924225772,ON955251_Joutseno_rhabdovirus_1:0.3671798753)55:0.0276868742,NC_031276_Wuhan_Ant_Virus:1.6074703380);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -27285.429614
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                          +--Preculath_virus_F1097C1F1526
+                                       +--| (33)
+                                       |  +--Preculath_virus_F1097C1F1537
+                                    +--| (22)
+                                    |  +--Preculath_virus_F1097C1F1533
+                                 +--| (92)
+                                 |  |     +--Preculath_virus_F1097C1F1527
+                                 |  |  +--| (95)
+                                 |  |  |  +--Preculath_virus_F1097C1F1536
+                                 |  +--| (34)
+                                 |     |  +--Preculath_virus_F1097C1F1525
+                                 |     +--| (97)
+                                 |        +--Preculath_virus_F1097C1F1532
+                              +--| (84)
+                              |  |                    +--Preculath_virus_F1097C1F1531
+                              |  |                 +--| (53)
+                              |  |                 |  +--Preculath_virus_F1097C1F1021
+                              |  |              +**| (84)
+                              |  |              |  +--Preculath_virus_F1097C1F1019
+                              |  |           +--| (56)
+                              |  |           |  +--Preculath_virus_F1097C1F1099
+                              |  |        +--| (19)
+                              |  |        |  +--Preculath_virus_F1097C1F1098
+                              |  |     +--| (22)
+                              |  |     |  +--Preculath_virus_F1097C1F1089
+                              |  |  +--| (20)
+                              |  |  |  +--Preculath_virus_F1097C1F1097
+                              |  +--| (27)
+                              |     |  +--Preculath_virus_F1097C1F1090
+                              |     +--| (83)
+                              |        +--Preculath_virus_F1097C1F1534
+                           +--| (59)
+                           |  +--Preculath_virus_F1097C1F1380
+                       +---| (100)
+                       |   +--Preculath_virus_F1097C1F1371
+        +--------------| (100)
+        |              |  +--Reloonsia_virus_F1535C4F1020
+        |              +--| (100)
+        |                 |  +--Reloonsia_virus_F1535C4F1535
+        |                 +--| (95)
+        |                    +--Reloonsia_virus_F1535C4F1524
++-------| (93)
+|       |                                         +--BK059423_San_Gabriel_mononegavirus
+|       |                                      +--| (80)
+|       |                                      |  +--San_Gabriel_mononegavirus_F1076C1F1076
+|       |                                   +--| (55)
+|       |                                   |  +--San_Gabriel_mononegavirus_F1076C1F1350
+|       |                                +--| (47)
+|       |                                |  +--San_Gabriel_mononegavirus_F1076C1F1518
+|       |                             +--| (79)
+|       |                             |  +--San_Gabriel_mononegavirus_F1076C1F1168
+|       |                          +--| (56)
+|       |                          |  |  +--San_Gabriel_mononegavirus_F1076C1F1197
+|       |                          |  +--| (68)
+|       |                          |     +--San_Gabriel_mononegavirus_F1076C1F1345
+|       |              +-----------| (100)
+|       |              |           +--San_Gabriel_mononegavirus_F1076C1F1016
+|       +--------------| (100)
+|                      |  +---------Retriended_virus_F1011C1F1011
+|                      +--| (65)
+|                         |            +--MN567480_Primus_virus
+|                         +------------| (100)
+|                                      +--OL700129_XiangYun_mono-chu-like_virus_4
+|
+|  +--------------------------------MN661034_Atrato_Rhabdo-like_virus_3
++--| (55)
+|  +------------ON955251_Joutseno_rhabdovirus_1
+|
++-----------------------------------------------------------NC_031276_Wuhan_Ant_Virus
+
+
+Consensus tree in newick format: 
+
+(((((((((Preculath_virus_F1097C1F1526:0.0000028512,Preculath_virus_F1097C1F1537:0.0000028512)33:0.0000028512,Preculath_virus_F1097C1F1533:0.0004643875)22:0.0000028512,((Preculath_virus_F1097C1F1527:0.0000028512,Preculath_virus_F1097C1F1536:0.0004642834)95:0.0004644979,(Preculath_virus_F1097C1F1525:0.0000028512,Preculath_virus_F1097C1F1532:0.0009298957)97:0.0009295289)34:0.0000028512)92:0.0004644518,(((((((Preculath_virus_F1097C1F1531:0.0009302385,Preculath_virus_F1097C1F1021:0.0019134766)53:0.0000028512,Preculath_virus_F1097C1F1019:0.0000028512)84:0.0000010487,Preculath_virus_F1097C1F1099:0.0000028512)56:0.0004638435,Preculath_virus_F1097C1F1098:0.0004653159)19:0.0000028512,Preculath_virus_F1097C1F1089:0.0004643724)22:0.0000028512,Preculath_virus_F1097C1F1097:0.0000028512)20:0.0000028512,(Preculath_virus_F1097C1F1090:0.0000028512,Preculath_virus_F1097C1F1534:0.0018606389)83:0.0004643235)27:0.0000028512)84:0.0013975259,Preculath_virus_F1097C1F1380:0.0000028512)59:0.0003824207,Preculath_virus_F1097C1F1371:0.0010127260)100:0.1109870652,(Reloonsia_virus_F1535C4F1020:0.0009631330,(Reloonsia_virus_F1535C4F1535:0.0000028512,Reloonsia_virus_F1535C4F1524:0.0004668191)95:0.0009106795)100:0.0949392529)100:0.4233580755,(((((((BK059423_San_Gabriel_mononegavirus:0.0140862428,San_Gabriel_mononegavirus_F1076C1F1076:0.0019939482)80:0.0009818373,San_Gabriel_mononegavirus_F1076C1F1350:0.0004957199)55:0.0000028512,San_Gabriel_mononegavirus_F1076C1F1518:0.0000028512)47:0.0000028512,San_Gabriel_mononegavirus_F1076C1F1168:0.0004958760)79:0.0004945890,(San_Gabriel_mononegavirus_F1076C1F1197:0.0014928755,San_Gabriel_mononegavirus_F1076C1F1345:0.0009914317)68:0.0015028259)56:0.0009920182,San_Gabriel_mononegavirus_F1076C1F1016:0.0000028512)100:0.3351194796,(Retriended_virus_F1011C1F1011:0.2749269287,(MN567480_Primus_virus:0.1002939280,OL700129_XiangYun_mono-chu-like_virus_4:0.1009902535)100:0.3681321205)65:0.1002668071)100:0.4031983858)93:0.2344239386,(MN661034_Atrato_Rhabdo-like_virus_3:0.8926619616,ON955251_Joutseno_rhabdovirus_1:0.3672007850)55:0.0271514712,NC_031276_Wuhan_Ant_Virus:1.6072887488);
+
+TIME STAMP
+----------
+
+Date and time: Thu Dec 22 17:10:06 2022
+Total CPU time used: 4244.298082 seconds (1h:10m:44s)
+Total wall-clock time used: 143.7063379 seconds (0h:2m:23s)
+

@@ -1,0 +1,301 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 173488
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 19 sequences with 2205 amino-acid sites
+Number of constant sites: 620 (= 28.1179% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 620 (= 28.1179% of all sites)
+Number of parsimony informative sites: 788
+Number of distinct site patterns: 1685
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R3          -22715.538   45547.076 -  0.00869   45550.265 -  0.00971   45877.588 +    0.723
+LG+F+R4          -22708.801   45537.601 +    0.991   45541.015 +     0.99   45879.510 +    0.277
+JTTDCMut+F+R3    -22747.065   45610.129 - 1.77e-16   45613.319 - 1.97e-16   45940.641 - 1.47e-14
+JTTDCMut+F+R4    -22741.631   45603.262 - 5.47e-15   45606.676 - 5.47e-15   45945.171 - 1.53e-15
+JTT+F+R3         -22751.891   45619.782 - 1.42e-18   45622.971 - 1.58e-18   45950.294 - 1.18e-16
+JTT+F+R4         -22746.473   45612.946 - 4.32e-17   45616.360 - 4.31e-17   45954.855 - 1.21e-17
+WAG+F+R3         -22755.714   45627.427 -  3.1e-20   45630.617 - 3.46e-20   45957.939 - 2.58e-18
+WAG+F+R4         -22750.587   45621.173 - 7.06e-19   45624.587 - 7.05e-19   45963.082 - 1.97e-19
+cpREV+F+R3       -22765.596   45647.192 - 1.58e-24   45650.381 - 1.77e-24   45977.704 - 1.32e-22
+rtREV+F+R3       -22765.986   45647.973 - 1.07e-24   45651.162 -  1.2e-24   45978.485 - 8.91e-23
+cpREV+F+R4       -22758.433   45636.866 - 2.76e-22   45640.280 - 2.76e-22   45978.775 - 7.71e-23
+rtREV+F+R4       -22759.429   45638.857 - 1.02e-22   45642.272 - 1.02e-22   45980.766 - 2.85e-23
+JTT+R3           -22844.566   45767.133 - 1.43e-50   45768.574 - 3.82e-50   45989.374 - 3.85e-25
+JTTDCMut+R3      -22844.618   45767.236 - 1.35e-50   45768.677 - 3.63e-50   45989.476 - 3.66e-25
+JTT+R4           -22838.766   45759.532 - 6.37e-49   45761.125 - 1.58e-48   45993.170 - 5.77e-26
+JTTDCMut+R4      -22838.826   45759.652 -    6e-49   45761.245 - 1.49e-48   45993.290 - 5.43e-26
+VT+F+R3          -22780.800   45677.600 - 3.94e-31   45680.789 - 4.41e-31   46008.112 - 3.28e-29
+mtInv+F+R4       -22774.305   45668.610 - 3.53e-29   45672.024 - 3.53e-29   46010.519 - 9.86e-30
+mtInv+F+R3       -22782.195   45680.391 - 9.77e-32   45683.580 - 1.09e-31   46010.903 - 8.13e-30
+VT+F+R4          -22777.563   45675.126 - 1.36e-30   45678.540 - 1.36e-30   46017.035 - 3.79e-31
+mtMet+F+R4       -22797.393   45714.785 - 3.32e-39   45718.199 - 3.32e-39   46056.694 - 9.27e-40
+mtMet+F+R3       -22805.116   45726.232 - 1.09e-41   45729.421 - 1.21e-41   46056.744 - 9.04e-40
+LG+R4            -22880.338   45842.676 - 5.62e-67   45844.268 -  1.4e-66   46076.314 - 5.09e-44
+LG+R3            -22888.212   45854.424 - 1.58e-69   45855.865 - 4.24e-69   46076.665 - 4.27e-44
+VT+R3            -22891.711   45861.421 - 4.78e-71   45862.862 - 1.28e-70   46083.662 - 1.29e-45
+Dayhoff+F+R3     -22820.109   45756.219 - 3.34e-48   45759.408 - 3.74e-48   46086.731 - 2.78e-46
+LG+R5            -22877.898   45841.795 - 8.74e-67   45843.546 -    2e-66   46086.830 - 2.65e-46
+Dayhoff+F+R4     -22813.524   45747.048 - 3.28e-46   45750.462 - 3.27e-46   46088.957 - 9.15e-47
+DCMut+F+R3       -22821.463   45758.926 - 8.63e-49   45762.116 - 9.65e-49   46089.438 - 7.19e-47
+VT+R4            -22888.046   45858.092 - 2.53e-70   45859.684 - 6.28e-70   46091.730 - 2.29e-47
+DCMut+F+R4       -22814.911   45749.822 - 8.19e-47   45753.236 - 8.18e-47   46091.731 - 2.28e-47
+mtREV+F+R4       -22827.388   45774.776 - 3.12e-52   45778.190 - 3.12e-52   46116.685 - 8.71e-53
+mtREV+F+R3       -22835.624   45787.248 - 6.11e-55   45790.437 - 6.83e-55   46117.760 - 5.09e-53
+LG+G4            -22931.653   45935.305 - 4.32e-87   45936.534 - 1.29e-86   46140.451 - 6.02e-58
+WAG+R3           -22922.874   45923.747 -  1.4e-84   45925.188 - 3.75e-84   46145.988 - 3.78e-59
+mtZOA+F+R4       -22842.441   45804.882 - 9.05e-59   45808.296 - 9.04e-59   46146.791 - 2.53e-59
+mtZOA+F+R3       -22850.887   45817.773 - 1.44e-61   45820.962 - 1.61e-61   46148.285 -  1.2e-59
+WAG+R4           -22917.418   45916.835 - 4.43e-83   45918.427 -  1.1e-82   46150.473 - 4.01e-60
+LG+I+G4          -22933.670   45941.341 - 2.11e-88   45942.638 - 6.09e-88   46152.184 -  1.7e-60
+FLU+F+R3         -22874.586   45865.172 - 7.33e-72   45868.361 - 8.19e-72   46195.684 -  6.1e-70
+FLU+F+R4         -22868.425   45856.850 -  4.7e-70   45860.264 -  4.7e-70   46198.759 - 1.31e-70
+LG+R2            -22973.260   46020.521 - 1.35e-105   46021.818 - 3.9e-105   46231.365 - 1.09e-77
+Blosum62+F+R3    -22919.614   45955.227 - 2.04e-91   45958.417 - 2.28e-91   46285.739 -  1.7e-89
+Blosum62+F+R4    -22916.572   45953.143 - 5.79e-91   45956.558 - 5.78e-91   46295.052 - 1.61e-91
+rtREV+R4         -22998.700   46079.400 - 2.22e-118   46080.992 - 5.51e-118   46313.038 - 2.01e-95
+rtREV+R3         -23006.590   46091.181 - 6.14e-121   46092.622 - 1.64e-120   46313.422 - 1.66e-95
+mtVer+F+R4       -22926.763   45973.525 - 2.17e-95   45976.939 - 2.17e-95   46315.434 - 6.06e-96
+PMB+F+R3         -22935.041   45986.082 - 4.07e-98   45989.271 - 4.55e-98   46316.594 - 3.39e-96
+mtVer+F+R3       -22935.994   45987.988 - 1.57e-98   45991.177 - 1.76e-98   46318.500 - 1.31e-96
+PMB+F+R4         -22932.109   45984.219 - 1.03e-97   45987.633 - 1.03e-97   46326.128 - 2.88e-98
+cpREV+R4         -23005.691   46093.381 - 2.04e-121   46094.973 - 5.07e-121   46327.019 - 1.85e-98
+cpREV+R3         -23013.438   46104.877 - 6.51e-124   46106.318 - 1.75e-123   46327.118 - 1.76e-98
+HIVb+F+R4        -22944.752   46009.504 - 3.34e-103   46012.919 - 3.34e-103   46351.413 - 9.32e-104
+HIVb+F+R3        -22953.004   46022.008 - 6.43e-106   46025.198 - 7.19e-106   46352.520 - 5.36e-104
+Dayhoff+R3       -23029.286   46136.572 - 8.54e-131   46138.013 - 2.29e-130   46358.813 - 2.3e-105
+Dayhoff+R4       -23021.883   46125.766 - 1.9e-128   46127.358 - 4.71e-128   46359.403 - 1.72e-105
+DCMut+R3         -23030.831   46139.661 - 1.82e-131   46141.102 - 4.88e-131   46361.902 - 4.92e-106
+DCMut+R4         -23023.405   46128.810 - 4.14e-129   46130.402 - 1.03e-128   46362.447 - 3.74e-106
+mtART+F+R4       -23024.523   46169.047 - 7.58e-138   46172.461 - 7.57e-138   46510.956 - 2.11e-138
+mtART+F+R3       -23036.565   46189.131 - 3.3e-142   46192.320 - 3.69e-142   46519.643 - 2.75e-140
+PMB+R3           -23110.963   46299.926 - 2.88e-166   46301.367 - 7.72e-166   46522.167 - 7.78e-141
+PMB+R4           -23107.985   46297.970 - 7.66e-166   46299.563 - 1.9e-165   46531.608 - 6.93e-143
+mtMAM+F+R4       -23042.439   46204.877 - 1.26e-145   46208.292 - 1.25e-145   46546.786 - 3.5e-146
+mtMAM+F+R3       -23056.293   46228.587 - 8.92e-151   46231.776 - 9.98e-151   46559.099 - 7.43e-149
+Blosum62+R3      -23162.507   46403.013 - 1.19e-188   46404.454 - 3.18e-188   46625.254 - 3.2e-163
+FLU+R3           -23163.476   46404.951 - 4.5e-189   46406.392 - 1.21e-188   46627.192 - 1.22e-163
+FLU+R4           -23156.465   46394.929 - 6.76e-187   46396.522 - 1.68e-186   46628.567 - 6.11e-164
+LG+I             -23176.108   46424.217 - 2.95e-193   46425.445 - 8.79e-193   46629.362 - 4.11e-164
+Blosum62+R4      -23159.233   46400.465 - 4.24e-188   46402.057 - 1.05e-187   46634.103 - 3.84e-165
+HIVb+R4          -23229.821   46541.641 - 9.37e-219   46543.233 - 2.33e-218   46775.279 - 8.48e-196
+HIVb+R3          -23237.877   46553.754 - 2.2e-221   46555.195 - 5.88e-221   46775.995 - 5.93e-196
+HIVw+F+R4        -23309.629   46739.258 - 1.15e-261   46742.672 - 1.15e-261   47081.167 - 3.2e-262
+HIVw+F+R3        -23320.603   46757.205 - 1.45e-265   46760.394 - 1.63e-265   47087.717 - 1.21e-263
+LG               -23468.713   47007.426 - 6.73e-320   47008.588 - 2.07e-319   47206.873 - 1.62e-289
+mtZOA+R3         -23711.737   47501.474 -        0   47502.915 -        0   47723.715 -        0
+mtZOA+R4         -23704.174   47490.349 -        0   47491.941 -        0   47723.986 -        0
+mtREV+R4         -23734.925   47551.850 -        0   47553.442 -        0   47785.488 -        0
+mtREV+R3         -23743.644   47565.287 -        0   47566.728 -        0   47787.528 -        0
+mtVer+R4         -23843.300   47768.600 -        0   47770.193 -        0   48002.238 -        0
+mtVer+R3         -23852.731   47783.463 -        0   47784.904 -        0   48005.703 -        0
+mtMet+R3         -23892.881   47863.762 -        0   47865.203 -        0   48086.003 -        0
+mtMet+R4         -23886.774   47855.548 -        0   47857.140 -        0   48089.186 -        0
+HIVw+R4          -23899.686   47881.372 -        0   47882.964 -        0   48115.010 -        0
+HIVw+R3          -23911.585   47901.170 -        0   47902.611 -        0   48123.411 -        0
+mtMAM+R4         -24002.100   48086.200 -        0   48087.792 -        0   48319.838 -        0
+mtMAM+R3         -24020.530   48119.061 -        0   48120.502 -        0   48341.302 -        0
+mtART+R4         -24132.863   48347.726 -        0   48349.318 -        0   48581.364 -        0
+mtART+R3         -24146.396   48370.792 -        0   48372.233 -        0   48593.033 -        0
+mtInv+R3         -24262.738   48603.477 -        0   48604.918 -        0   48825.718 -        0
+mtInv+R4         -24257.572   48597.143 -        0   48598.735 -        0   48830.781 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R3
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0841
+  pi(R) = 0.0667
+  pi(N) = 0.0419
+  pi(D) = 0.0519
+  pi(C) = 0.0156
+  pi(Q) = 0.0413
+  pi(E) = 0.0527
+  pi(G) = 0.0452
+  pi(H) = 0.0308
+  pi(I) = 0.0471
+  pi(L) = 0.0975
+  pi(K) = 0.0309
+  pi(M) = 0.0173
+  pi(F) = 0.0462
+  pi(P) = 0.0840
+  pi(S) = 0.0821
+  pi(T) = 0.0599
+  pi(W) = 0.0142
+  pi(Y) = 0.0341
+  pi(V) = 0.0566
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.4326,0.1165) (0.4755,0.8104) (0.0919,6.1418)
+
+ Category  Relative_rate  Proportion
+  1         0.1165         0.4326
+  2         0.8104         0.4755
+  3         6.1418         0.0919
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -22715.4913 (s.e. 282.2849)
+Unconstrained log-likelihood (without tree): -15809.9033
+Number of free parameters (#branches + #model parameters): 58
+Akaike information criterion (AIC) score: 45546.9827
+Corrected Akaike information criterion (AICc) score: 45550.1719
+Bayesian information criterion (BIC) score: 45877.4947
+
+Total tree length (sum of branch lengths): 6.5484
+Sum of internal branch lengths: 2.3530 (35.9324% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MZ556269_Sichuan_mosquito_tymo-like_virus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                              +--MN053826_Guadeloupe_Culex_tymo-like_virus
+                                           +--| (86)
+                                           |  +--MN053827_Guadeloupe_Culex_tymo-like_virus
+                                        +--| (100)
+                                        |  +--MN053825_Guadeloupe_Culex_tymo-like_virus
+                                     +--| (64)
+                                     |  |     +--Guadeloupe_Culex_tymo_like_virus_F1120C2F1120
+                                     |  |  +--| (94)
+                                     |  |  |  +--Guadeloupe_Culex_tymo_like_virus_F1120C2F1117
+                                     |  +--| (93)
+                                     |     +--Guadeloupe_Culex_tymo_like_virus_F1120C2F1116
+                                  +--| (100)
+                                  |  |     +--MH188018_Culex_originated_Tymoviridae-like_virus
+                                  |  |  +--| (86)
+                                  |  |  |  +--MN510431_Culex_originated_Tymoviridae-like_virus
+                                  |  +--| (54)
+                                  |     +**MW434965_Guadeloupe_Culex_tymo-like_virus
+                               +--| (99)
+                               |  |     +--MZ556262_Sichuan_mosquito_tymo-like_virus
+                               |  |  +--| (72)
+                               |  |  |  +--OL700056_Guadeloupe_Culex_tymo-like_virus
+                               |  +--| (100)
+                               |     +--MW452308_Tymoviridae_sp_
+                            +--| (97)
+                            |  +--MK440641_Tarnsjo_virus
+                        +---| (100)
+                        |   +--MK440631_Tarnsjo_virus
++-----------------------| (100)
+|                       +---LC512732_Culex_pseudovishnui_tymo-like_virus
+|
+|                   +--MT435496_Gonipterus_platensis_Macula-Like_virus
+|    +--------------| (100)
+|    |              +--MW864076_Tymoviridae_sp__XZN137671
++----| (85)
+|    +------------------MW520376_Xanthi_tymo-likevirus
+|
++----------------------------------------------------------MZ556269_Sichuan_mosquito_tymo-like_virus
+
+Tree in newick format:
+
+(((((((((MN053826_Guadeloupe_Culex_tymo-like_virus:0.0049782200,MN053827_Guadeloupe_Culex_tymo-like_virus:0.0045117871)86:0.0005673601,MN053825_Guadeloupe_Culex_tymo-like_virus:0.0053058327)100:0.0141299242,((Guadeloupe_Culex_tymo_like_virus_F1120C2F1120:0.0022670607,Guadeloupe_Culex_tymo_like_virus_F1120C2F1117:0.0045825523)94:0.0033723019,Guadeloupe_Culex_tymo_like_virus_F1120C2F1116:0.0036653675)93:0.0171964562)64:0.0033665295,((MH188018_Culex_originated_Tymoviridae-like_virus:0.0030570373,MN510431_Culex_originated_Tymoviridae-like_virus:0.0760503508)86:0.0121940033,MW434965_Guadeloupe_Culex_tymo-like_virus:0.0000028580)54:0.0097793552)100:0.0454288553,((MZ556262_Sichuan_mosquito_tymo-like_virus:0.0075224518,OL700056_Guadeloupe_Culex_tymo-like_virus:0.0079536184)72:0.0026102389,MW452308_Tymoviridae_sp_:0.0109379280)100:0.0331156579)99:0.0297172341,MK440641_Tarnsjo_virus:0.0476918626)97:0.0383368182,MK440631_Tarnsjo_virus:0.0845051552)100:0.1769650394,LC512732_Culex_pseudovishnui_tymo-like_virus:0.2122996121)100:1.0666474640,((MT435496_Gonipterus_platensis_Macula-Like_virus:0.1639403186,MW864076_Tymoviridae_sp__XZN137671:0.0872588486)100:0.6592130586,MW520376_Xanthi_tymo-likevirus:0.8375063722)85:0.2403483356,MZ556269_Sichuan_mosquito_tymo-like_virus:2.6313493934);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -22715.491062
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                              +--MN053826_Guadeloupe_Culex_tymo-like_virus
+                                           +--| (86)
+                                           |  +--MN053827_Guadeloupe_Culex_tymo-like_virus
+                                        +--| (100)
+                                        |  +--MN053825_Guadeloupe_Culex_tymo-like_virus
+                                     +--| (64)
+                                     |  |     +--Guadeloupe_Culex_tymo_like_virus_F1120C2F1120
+                                     |  |  +--| (94)
+                                     |  |  |  +--Guadeloupe_Culex_tymo_like_virus_F1120C2F1117
+                                     |  +--| (93)
+                                     |     +--Guadeloupe_Culex_tymo_like_virus_F1120C2F1116
+                                  +--| (100)
+                                  |  |     +--MH188018_Culex_originated_Tymoviridae-like_virus
+                                  |  |  +--| (86)
+                                  |  |  |  +--MN510431_Culex_originated_Tymoviridae-like_virus
+                                  |  +--| (54)
+                                  |     +--MW434965_Guadeloupe_Culex_tymo-like_virus
+                               +--| (99)
+                               |  |     +--MZ556262_Sichuan_mosquito_tymo-like_virus
+                               |  |  +--| (72)
+                               |  |  |  +--OL700056_Guadeloupe_Culex_tymo-like_virus
+                               |  +--| (100)
+                               |     +--MW452308_Tymoviridae_sp_
+                            +--| (97)
+                            |  +--MK440641_Tarnsjo_virus
+                        +---| (100)
+                        |   +--MK440631_Tarnsjo_virus
++-----------------------| (100)
+|                       +---LC512732_Culex_pseudovishnui_tymo-like_virus
+|
+|                   +--MT435496_Gonipterus_platensis_Macula-Like_virus
+|    +--------------| (100)
+|    |              +--MW864076_Tymoviridae_sp__XZN137671
++----| (85)
+|    +------------------MW520376_Xanthi_tymo-likevirus
+|
++-----------------------------------------------------------MZ556269_Sichuan_mosquito_tymo-like_virus
+
+
+Consensus tree in newick format: 
+
+(((((((((MN053826_Guadeloupe_Culex_tymo-like_virus:0.0049831151,MN053827_Guadeloupe_Culex_tymo-like_virus:0.0045167697)86:0.0005684644,MN053825_Guadeloupe_Culex_tymo-like_virus:0.0053113417)100:0.0141451885,((Guadeloupe_Culex_tymo_like_virus_F1120C2F1120:0.0022690608,Guadeloupe_Culex_tymo_like_virus_F1120C2F1117:0.0045868363)94:0.0033752004,Guadeloupe_Culex_tymo_like_virus_F1120C2F1116:0.0036686199)93:0.0172149211)64:0.0033719252,((MH188018_Culex_originated_Tymoviridae-like_virus:0.0030607554,MN510431_Culex_originated_Tymoviridae-like_virus:0.0761510856)86:0.0122095959,MW434965_Guadeloupe_Culex_tymo-like_virus:0.0000026034)54:0.0097887224)100:0.0454724084,((MZ556262_Sichuan_mosquito_tymo-like_virus:0.0075288797,OL700056_Guadeloupe_Culex_tymo-like_virus:0.0079606928)72:0.0026130742,MW452308_Tymoviridae_sp_:0.0109478146)100:0.0331497912)99:0.0297426276,MK440641_Tarnsjo_virus:0.0477338588)97:0.0383404950,MK440631_Tarnsjo_virus:0.0846002052)100:0.1768462791,LC512732_Culex_pseudovishnui_tymo-like_virus:0.2126702884)100:1.0669026342,((MT435496_Gonipterus_platensis_Macula-Like_virus:0.1639117477,MW864076_Tymoviridae_sp__XZN137671:0.0873386712)100:0.6594838493,MW520376_Xanthi_tymo-likevirus:0.8376761184)85:0.2403677941,MZ556269_Sichuan_mosquito_tymo-like_virus:2.6328327643);
+
+TIME STAMP
+----------
+
+Date and time: Mon Feb 27 18:11:13 2023
+Total CPU time used: 424.176362 seconds (0h:7m:4s)
+Total wall-clock time used: 25.6467267 seconds (0h:0m:25s)
+

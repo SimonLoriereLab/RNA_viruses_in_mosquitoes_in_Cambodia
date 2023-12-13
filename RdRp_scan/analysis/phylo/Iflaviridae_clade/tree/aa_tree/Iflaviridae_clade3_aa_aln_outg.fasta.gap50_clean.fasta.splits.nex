@@ -1,0 +1,65 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=16;
+TAXLABELS
+[1] 'OL700172_XiangYun_picorna-like_virus_2'
+[2] 'OL700171_XiangYun_picorna-like_virus_2'
+[3] 'OL700170_XiangYun_picorna-like_virus_2'
+[4] 'MK440627_Ista_virus'
+[5] 'LC513835_Isahaya_Culex_iflavirus'
+[6] 'Doriptiled_virus_F1453C1F1453'
+[7] 'MW434116_Culex_Iflavi-like_virus_3'
+[8] 'MW434117_Culex_Iflavi-like_virus_3'
+[9] 'MH188010_Culex_Iflavi-like_virus_3'
+[10] 'MN314969_Aedes_vexans_iflavirus'
+[11] 'OP264887_Aedes_vexans_iflavirus'
+[12] 'LC496784_Tesano_Aedes_virus'
+[13] 'MN661038_Chajerado_virus'
+[14] 'MN661039_Isla_virus'
+[15] 'MN661040_Sabaleta_virus'
+[16] 'NC_033455_Wuhan_insect_virus_13'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=16 nsplits=34;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	71	 1 2,
+	100	 3,
+	100	 1 2 3,
+	100	 4,
+	100	 1 2 3 4,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	100	 1 2 3 4 5 6,
+	100	 7,
+	100	 8,
+	65	 7 8,
+	100	 9,
+	100	 7 8 9,
+	100	 10 11 12 13 14 15 16,
+	100	 10,
+	100	 11,
+	100	 10 11,
+	100	 12,
+	100	 10 11 12,
+	100	 13,
+	100	 14,
+	100	 13 14,
+	100	 15,
+	100	 13 14 15,
+	100	 10 11 12 13 14 15,
+	100	 16,
+	24	 2 3,
+	26	 7 9,
+	8	 8 9,
+	6	 1 3,
+	0	 14 15,
+;
+END; [Splits]
+

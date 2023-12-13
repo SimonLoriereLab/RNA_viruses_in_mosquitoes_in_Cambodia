@@ -1,0 +1,259 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1068 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA -o MZ556269_Sichuan_mosquito_tymo-like_virus
+Seed:    173488 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Feb 27 18:06:26 2023
+Kernel:  AVX+FMA - auto-detect threads (47 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 19 sequences with 2205 columns, 1685 distinct patterns
+788 parsimony-informative, 797 singleton sites, 620 constant sites
+                                                  Gap/Ambiguity  Composition  p-value
+   1  MN053826_Guadeloupe_Culex_tymo-like_virus           0.00%    passed     99.99%
+   2  MN053827_Guadeloupe_Culex_tymo-like_virus           0.00%    passed     99.99%
+   3  MN053825_Guadeloupe_Culex_tymo-like_virus           0.00%    passed     99.97%
+   4  Guadeloupe_Culex_tymo_like_virus_F1120C2F1120       0.00%    passed     99.97%
+   5  Guadeloupe_Culex_tymo_like_virus_F1120C2F1117       1.50%    passed     99.95%
+   6  Guadeloupe_Culex_tymo_like_virus_F1120C2F1116       1.22%    passed     99.91%
+   7  MH188018_Culex_originated_Tymoviridae-like_virus   65.08%    passed     53.02%
+   8  MN510431_Culex_originated_Tymoviridae-like_virus   73.97%    passed     27.35%
+   9  MW434965_Guadeloupe_Culex_tymo-like_virus           0.00%    passed    100.00%
+  10  MZ556262_Sichuan_mosquito_tymo-like_virus           0.27%    passed     99.73%
+  11  OL700056_Guadeloupe_Culex_tymo-like_virus           0.68%    passed     99.95%
+  12  MW452308_Tymoviridae_sp_                            0.27%    passed     99.65%
+  13  MK440641_Tarnsjo_virus                              0.00%    passed     99.93%
+  14  MK440631_Tarnsjo_virus                              0.32%    passed     97.20%
+  15  LC512732_Culex_pseudovishnui_tymo-like_virus        2.72%    passed     80.64%
+  16  MT435496_Gonipterus_platensis_Macula-Like_virus    50.52%    failed      0.29%
+  17  MW864076_Tymoviridae_sp__XZN137671                 37.96%    failed      0.98%
+  18  MW520376_Xanthi_tymo-likevirus                     21.50%    failed      0.14%
+  19  MZ556269_Sichuan_mosquito_tymo-like_virus          23.58%    failed      0.00%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                              14.72%  4 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+Measuring multi-threading efficiency up to 47 CPU cores
+Increase to 10 rounds for branch lengths
+46 trees examined
+Threads: 1 / Time: 47.913 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -25885
+Threads: 2 / Time: 24.813 sec / Speedup: 1.931 / Efficiency: 97% / LogL: -25885
+Threads: 3 / Time: 18.264 sec / Speedup: 2.623 / Efficiency: 87% / LogL: -25885
+Threads: 4 / Time: 14.208 sec / Speedup: 3.372 / Efficiency: 84% / LogL: -25885
+Threads: 5 / Time: 12.446 sec / Speedup: 3.850 / Efficiency: 77% / LogL: -25885
+Threads: 6 / Time: 9.271 sec / Speedup: 5.168 / Efficiency: 86% / LogL: -25885
+Threads: 7 / Time: 8.439 sec / Speedup: 5.678 / Efficiency: 81% / LogL: -25885
+Threads: 8 / Time: 8.237 sec / Speedup: 5.817 / Efficiency: 73% / LogL: -25885
+Threads: 9 / Time: 7.543 sec / Speedup: 6.352 / Efficiency: 71% / LogL: -25885
+Threads: 10 / Time: 7.723 sec / Speedup: 6.204 / Efficiency: 62% / LogL: -25885
+Threads: 11 / Time: 6.999 sec / Speedup: 6.846 / Efficiency: 62% / LogL: -25885
+Threads: 12 / Time: 7.433 sec / Speedup: 6.446 / Efficiency: 54% / LogL: -25885
+Threads: 13 / Time: 6.780 sec / Speedup: 7.067 / Efficiency: 54% / LogL: -25885
+Threads: 14 / Time: 6.086 sec / Speedup: 7.872 / Efficiency: 56% / LogL: -25885
+Threads: 15 / Time: 5.178 sec / Speedup: 9.252 / Efficiency: 62% / LogL: -25885
+Threads: 16 / Time: 5.094 sec / Speedup: 9.406 / Efficiency: 59% / LogL: -25885
+Threads: 17 / Time: 4.702 sec / Speedup: 10.190 / Efficiency: 60% / LogL: -25885
+Threads: 18 / Time: 4.730 sec / Speedup: 10.130 / Efficiency: 56% / LogL: -25885
+Threads: 19 / Time: 4.778 sec / Speedup: 10.028 / Efficiency: 53% / LogL: -25885
+Threads: 20 / Time: 4.659 sec / Speedup: 10.284 / Efficiency: 51% / LogL: -25885
+Threads: 21 / Time: 4.598 sec / Speedup: 10.421 / Efficiency: 50% / LogL: -25885
+BEST NUMBER OF THREADS: 17
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -22940.158
+2. Current log-likelihood: -22939.080
+Optimal log-likelihood: -22938.220
+Proportion of invariable sites: 0.092
+Gamma shape alpha: 0.930
+Parameters optimization took 2 rounds (0.101 sec)
+Time for fast ML tree search: 0.397 seconds
+
+NOTE: ModelFinder requires 56 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 2205) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            23468.713    35  47007.426    47008.588    47206.873
+  2  LG+I          23176.108    36  46424.217    46425.445    46629.362
+  3  LG+G4         22931.653    36  45935.305    45936.534    46140.451
+  4  LG+I+G4       22933.670    37  45941.341    45942.638    46152.184
+  5  LG+R2         22973.260    37  46020.521    46021.818    46231.365
+  6  LG+R3         22888.212    39  45854.424    45855.865    46076.665
+  7  LG+R4         22880.338    41  45842.676    45844.268    46076.314
+  8  LG+R5         22877.898    43  45841.795    45843.546    46086.830
+ 19  LG+F+R3       22715.538    58  45547.076    45550.265    45877.588
+ 20  LG+F+R4       22708.801    60  45537.601    45541.015    45879.510
+ 32  WAG+R3        22922.874    39  45923.747    45925.188    46145.988
+ 33  WAG+R4        22917.418    41  45916.835    45918.427    46150.473
+ 45  WAG+F+R3      22755.714    58  45627.427    45630.617    45957.939
+ 46  WAG+F+R4      22750.587    60  45621.173    45624.587    45963.082
+ 58  JTT+R3        22844.566    39  45767.133    45768.574    45989.374
+ 59  JTT+R4        22838.766    41  45759.532    45761.125    45993.170
+ 71  JTT+F+R3      22751.891    58  45619.782    45622.971    45950.294
+ 72  JTT+F+R4      22746.473    60  45612.946    45616.360    45954.855
+ 84  JTTDCMut+R3   22844.618    39  45767.236    45768.677    45989.476
+ 85  JTTDCMut+R4   22838.826    41  45759.652    45761.245    45993.290
+ 97  JTTDCMut+F+R3 22747.065    58  45610.129    45613.319    45940.641
+ 98  JTTDCMut+F+R4 22741.631    60  45603.262    45606.676    45945.171
+110  DCMut+R3      23030.831    39  46139.661    46141.102    46361.902
+111  DCMut+R4      23023.405    41  46128.809    46130.402    46362.447
+123  DCMut+F+R3    22821.463    58  45758.926    45762.116    46089.438
+124  DCMut+F+R4    22814.911    60  45749.822    45753.236    46091.731
+136  VT+R3         22891.711    39  45861.421    45862.862    46083.662
+137  VT+R4         22888.046    41  45858.092    45859.684    46091.730
+149  VT+F+R3       22780.800    58  45677.600    45680.789    46008.112
+150  VT+F+R4       22777.563    60  45675.126    45678.540    46017.035
+162  PMB+R3        23110.963    39  46299.926    46301.367    46522.167
+163  PMB+R4        23107.985    41  46297.970    46299.563    46531.608
+175  PMB+F+R3      22935.041    58  45986.082    45989.271    46316.594
+176  PMB+F+R4      22932.109    60  45984.219    45987.633    46326.128
+188  Blosum62+R3   23162.507    39  46403.013    46404.454    46625.254
+189  Blosum62+R4   23159.233    41  46400.465    46402.057    46634.103
+201  Blosum62+F+R3 22919.614    58  45955.227    45958.417    46285.739
+202  Blosum62+F+R4 22916.572    60  45953.143    45956.558    46295.052
+214  Dayhoff+R3    23029.286    39  46136.572    46138.013    46358.813
+215  Dayhoff+R4    23021.883    41  46125.766    46127.358    46359.403
+227  Dayhoff+F+R3  22820.109    58  45756.219    45759.408    46086.731
+228  Dayhoff+F+R4  22813.524    60  45747.048    45750.462    46088.957
+240  mtREV+R3      23743.644    39  47565.287    47566.728    47787.528
+241  mtREV+R4      23734.925    41  47551.850    47553.442    47785.488
+253  mtREV+F+R3    22835.624    58  45787.248    45790.437    46117.760
+254  mtREV+F+R4    22827.388    60  45774.776    45778.190    46116.685
+266  mtART+R3      24146.396    39  48370.792    48372.233    48593.033
+267  mtART+R4      24132.863    41  48347.726    48349.318    48581.364
+279  mtART+F+R3    23036.565    58  46189.131    46192.320    46519.643
+280  mtART+F+R4    23024.524    60  46169.047    46172.461    46510.956
+292  mtZOA+R3      23711.737    39  47501.474    47502.915    47723.715
+293  mtZOA+R4      23704.174    41  47490.349    47491.941    47723.986
+305  mtZOA+F+R3    22850.887    58  45817.773    45820.962    46148.285
+306  mtZOA+F+R4    22842.441    60  45804.882    45808.296    46146.791
+318  mtMet+R3      23892.881    39  47863.762    47865.203    48086.003
+319  mtMet+R4      23886.774    41  47855.548    47857.140    48089.186
+331  mtMet+F+R3    22805.116    58  45726.232    45729.421    46056.744
+332  mtMet+F+R4    22797.393    60  45714.785    45718.199    46056.694
+344  mtVer+R3      23852.731    39  47783.463    47784.904    48005.703
+345  mtVer+R4      23843.300    41  47768.600    47770.193    48002.238
+357  mtVer+F+R3    22935.994    58  45987.988    45991.177    46318.500
+358  mtVer+F+R4    22926.763    60  45973.525    45976.939    46315.434
+370  mtInv+R3      24262.738    39  48603.477    48604.918    48825.718
+371  mtInv+R4      24257.572    41  48597.143    48598.735    48830.781
+383  mtInv+F+R3    22782.195    58  45680.391    45683.580    46010.903
+384  mtInv+F+R4    22774.305    60  45668.610    45672.024    46010.518
+396  mtMAM+R3      24020.530    39  48119.061    48120.502    48341.302
+397  mtMAM+R4      24002.100    41  48086.200    48087.792    48319.838
+409  mtMAM+F+R3    23056.293    58  46228.587    46231.776    46559.099
+410  mtMAM+F+R4    23042.439    60  46204.877    46208.292    46546.786
+422  HIVb+R3       23237.877    39  46553.754    46555.195    46775.995
+423  HIVb+R4       23229.821    41  46541.641    46543.233    46775.279
+435  HIVb+F+R3     22953.004    58  46022.008    46025.198    46352.520
+436  HIVb+F+R4     22944.752    60  46009.504    46012.919    46351.413
+448  HIVw+R3       23911.585    39  47901.170    47902.611    48123.411
+449  HIVw+R4       23899.686    41  47881.372    47882.964    48115.010
+461  HIVw+F+R3     23320.603    58  46757.205    46760.394    47087.717
+462  HIVw+F+R4     23309.629    60  46739.258    46742.672    47081.167
+474  FLU+R3        23163.476    39  46404.951    46406.392    46627.192
+475  FLU+R4        23156.465    41  46394.929    46396.522    46628.567
+487  FLU+F+R3      22874.586    58  45865.172    45868.361    46195.684
+488  FLU+F+R4      22868.425    60  45856.850    45860.264    46198.759
+500  rtREV+R3      23006.590    39  46091.181    46092.622    46313.422
+501  rtREV+R4      22998.700    41  46079.400    46080.992    46313.038
+513  rtREV+F+R3    22765.986    58  45647.973    45651.162    45978.485
+514  rtREV+F+R4    22759.429    60  45638.857    45642.272    45980.766
+526  cpREV+R3      23013.438    39  46104.877    46106.318    46327.118
+527  cpREV+R4      23005.691    41  46093.381    46094.973    46327.019
+539  cpREV+F+R3    22765.596    58  45647.192    45650.381    45977.704
+540  cpREV+F+R4    22758.433    60  45636.866    45640.280    45978.775
+Akaike Information Criterion:           LG+F+R4
+Corrected Akaike Information Criterion: LG+F+R4
+Bayesian Information Criterion:         LG+F+R3
+Best-fit model: LG+F+R3 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.model.gz
+CPU time for ModelFinder: 2248.596 seconds (0h:37m:28s)
+Wall-clock time for ModelFinder: 261.862 seconds (0h:4m:21s)
+Generating 1000 samples for ultrafast bootstrap (seed: 173488)...
+
+NOTE: 21 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -22715.538
+Optimal log-likelihood: -22715.516
+Site proportion and rates:  (0.430,0.115) (0.478,0.805) (0.093,6.098)
+Parameters optimization took 1 rounds (0.062 sec)
+Computing ML distances based on estimated model parameters... 0.106 sec
+Computing BIONJ tree...
+0.005 seconds
+Log-likelihood of BIONJ tree: -22726.888
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.861 second
+Computing log-likelihood of 98 initial trees ... 1.156 seconds
+Current best score: -22715.516
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -22715.501
+Iteration 10 / LogL: -22716.117 / Time: 0h:0m:4s
+Iteration 20 / LogL: -22715.832 / Time: 0h:0m:6s
+Finish initializing candidate tree set (2)
+Current best tree score: -22715.501 / CPU time: 6.434
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -22715.839 / Time: 0h:0m:8s (0h:0m:21s left)
+Iteration 40 / LogL: -22726.831 / Time: 0h:0m:10s (0h:0m:17s left)
+Iteration 50 / LogL: -22727.301 / Time: 0h:0m:13s (0h:0m:13s left)
+Log-likelihood cutoff on original alignment: -22775.769
+Iteration 60 / LogL: -22716.297 / Time: 0h:0m:15s (0h:0m:10s left)
+Iteration 70 / LogL: -22727.681 / Time: 0h:0m:18s (0h:0m:8s left)
+Iteration 80 / LogL: -22715.892 / Time: 0h:0m:20s (0h:0m:5s left)
+Iteration 90 / LogL: -22715.833 / Time: 0h:0m:23s (0h:0m:2s left)
+Iteration 100 / LogL: -22715.742 / Time: 0h:0m:24s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -22775.560
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:25s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -22715.501
+Optimal log-likelihood: -22715.491
+Site proportion and rates:  (0.433,0.116) (0.476,0.810) (0.092,6.142)
+Parameters optimization took 1 rounds (0.054 sec)
+BEST SCORE FOUND : -22715.491
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+Total tree length: 6.548
+
+Total number of iterations: 102
+CPU time used for tree search: 420.336 sec (0h:7m:0s)
+Wall-clock time used for tree search: 24.991 sec (0h:0m:24s)
+Total CPU time used: 424.176 sec (0h:7m:4s)
+Total wall-clock time used: 25.322 sec (0h:0m:25s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex...
+19 taxa and 64 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+Log-likelihood of consensus tree: -22715.491
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Tymovirales_clade/tree/aa_tree/Tymovirales_clade1_aa_aln_outg.fasta.gap50_clean.fasta.log
+
+Date and Time: Mon Feb 27 18:11:13 2023

@@ -1,0 +1,873 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Ghabrivirales_clade/tree/aa_tree/Ghabrivirales_clade6_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 490169
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 161 sequences with 986 amino-acid sites
+Number of constant sites: 71 (= 7.20081% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 71 (= 7.20081% of all sites)
+Number of parsimony informative sites: 877
+Number of distinct site patterns: 978
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R6          -76208.391  153104.782 -  0.00902  153475.079 +    0.124  154788.200 +    0.548
+LG+F+R7          -76201.692  153095.383 +    0.991  153471.164 +    0.876  154788.588 +    0.452
+LG+R6            -76336.134  153322.268 - 5.35e-50  153643.328 - 3.61e-38  154912.706 - 5.05e-28
+LG+R7            -76329.424  153312.848 - 5.94e-48  153638.855 - 3.38e-37  154913.074 -  4.2e-28
+LG+R5            -76352.691  153351.381 - 2.55e-56  153667.551 - 1.99e-43  154932.032 - 3.21e-32
+LG+I+G4          -76388.957  153411.915 - 1.83e-69  153713.729 - 1.86e-53  154963.204 - 5.46e-39
+LG+R4            -76430.924  153503.847 - 1.99e-89  153815.179 - 1.74e-75  155074.711 - 3.34e-63
+LG+G4            -76458.984  153549.967 - 1.92e-99  153849.435 - 6.34e-83  155096.363 - 6.64e-68
+rtREV+F+R6       -76423.308  153534.616 - 4.15e-96  153904.913 - 5.69e-95  155218.034 - 2.52e-94
+rtREV+F+R7       -76422.424  153536.848 - 1.36e-96  153912.629 -  1.2e-96  155230.053 - 6.19e-97
+WAG+F+R6         -76481.443  153650.886 - 2.34e-121  154021.183 - 3.22e-120  155334.304 - 1.43e-119
+WAG+F+R7         -76481.872  153655.745 - 2.07e-122  154031.526 - 1.83e-122  155348.950 - 9.41e-123
+LG+R3            -76696.229  154030.458 - 8.85e-204  154337.005 - 8.47e-189  155591.535 - 1.98e-175
+VT+F+R6          -76615.540  153919.080 - 1.36e-179  154289.377 - 1.86e-178  155602.498 - 8.25e-178
+VT+F+R7          -76616.280  153924.560 - 8.76e-181  154300.341 - 7.75e-181  155617.765 - 3.99e-181
+WAG+R6           -76757.455  154164.909 - 5.64e-233  154485.970 - 3.8e-221  155755.348 - 5.32e-211
+WAG+R7           -76755.382  154164.765 - 6.07e-233  154490.771 - 3.45e-222  155764.990 - 4.28e-213
+VT+R6            -76849.923  154349.845 - 3.92e-273  154670.906 - 2.64e-261  155940.283 - 3.69e-251
+VT+R7            -76849.110  154352.219 - 1.2e-273  154678.225 - 6.8e-263  155952.445 - 8.44e-254
+cpREV+F+R6       -76864.692  154417.384 - 8.46e-288  154787.680 - 1.16e-286  156100.802 - 5.14e-286
+cpREV+F+R7       -76862.288  154416.575 - 1.27e-287  154792.356 - 1.12e-287  156109.780 - 5.78e-288
+Blosum62+F+R6    -76899.508  154487.016 - 6.41e-303  154857.313 - 8.8e-302  156170.434 - 3.9e-301
+Blosum62+F+R7    -76901.359  154494.719 - 1.36e-304  154870.500 - 1.2e-304  156187.924 - 6.21e-305
+JTTDCMut+F+R6    -76944.062  154576.124 - 2.87e-322  154946.420 - 3.93e-321  156259.542 - 1.74e-320
+JTTDCMut+F+R7    -76941.835  154575.671 - 3.56e-322  154951.452 - 3.16e-322  156268.876 - 1.63e-322
+Blosum62+R6      -77021.961  154693.922 -        0  155014.983 -        0  156284.361 -        0
+PMB+F+R6         -76961.798  154611.595 -        0  154981.892 -        0  156295.013 -        0
+Blosum62+R7      -77023.937  154701.873 -        0  155027.879 -        0  156302.099 -        0
+JTT+F+R6         -76966.869  154621.738 -        0  154992.034 -        0  156305.155 -        0
+JTT+F+R7         -76964.563  154621.125 -        0  154996.906 -        0  156314.330 -        0
+PMB+F+R7         -76965.405  154622.811 -        0  154998.592 -        0  156316.016 -        0
+PMB+R6           -77111.636  154873.273 -        0  155194.333 -        0  156463.711 -        0
+PMB+R7           -77115.955  154885.910 -        0  155211.916 -        0  156486.136 -        0
+rtREV+R6         -77195.035  155040.071 -        0  155361.132 -        0  156630.509 -        0
+rtREV+R7         -77191.272  155036.544 -        0  155362.550 -        0  156636.770 -        0
+JTTDCMut+R6      -77210.977  155071.954 -        0  155393.015 -        0  156662.392 -        0
+JTTDCMut+R7      -77207.997  155069.995 -        0  155396.001 -        0  156670.220 -        0
+JTT+R6           -77225.858  155101.715 -        0  155422.776 -        0  156692.153 -        0
+JTT+R7           -77222.670  155099.340 -        0  155425.347 -        0  156699.566 -        0
+cpREV+R6         -77303.434  155256.869 -        0  155577.930 -        0  156847.307 -        0
+cpREV+R7         -77300.176  155254.352 -        0  155580.358 -        0  156854.577 -        0
+mtInv+F+R6       -77257.096  155202.191 -        0  155572.488 -        0  156885.609 -        0
+mtInv+F+R7       -77252.192  155196.384 -        0  155572.165 -        0  156889.589 -        0
+Dayhoff+F+R6     -77323.765  155335.530 -        0  155705.826 -        0  157018.948 -        0
+Dayhoff+F+R7     -77317.302  155326.603 -        0  155702.384 -        0  157019.808 -        0
+DCMut+F+R6       -77326.156  155340.311 -        0  155710.608 -        0  157023.729 -        0
+DCMut+F+R7       -77319.324  155330.648 -        0  155706.429 -        0  157023.853 -        0
+mtZOA+F+R6       -77495.057  155678.113 -        0  156048.409 -        0  157361.531 -        0
+mtZOA+F+R7       -77494.775  155681.550 -        0  156057.331 -        0  157374.755 -        0
+LG+R2            -77627.705  155889.411 -        0  156191.225 -        0  157440.700 -        0
+Dayhoff+R6       -77886.285  156422.569 -        0  156743.630 -        0  158013.007 -        0
+Dayhoff+R7       -77880.418  156414.837 -        0  156740.843 -        0  158015.062 -        0
+DCMut+R6         -77889.814  156429.628 -        0  156750.689 -        0  158020.067 -        0
+DCMut+R7         -77883.591  156421.181 -        0  156747.188 -        0  158021.407 -        0
+mtMet+F+R6       -77825.338  156338.677 -        0  156708.973 -        0  158022.095 -        0
+mtMet+F+R7       -77818.929  156329.858 -        0  156705.639 -        0  158023.064 -        0
+mtREV+F+R6       -77926.087  156540.174 -        0  156910.470 -        0  158223.591 -        0
+mtREV+F+R7       -77919.929  156531.858 -        0  156907.639 -        0  158225.063 -        0
+FLU+F+R6         -78114.897  156917.794 -        0  157288.090 -        0  158601.212 -        0
+FLU+F+R7         -78108.847  156909.693 -        0  157285.474 -        0  158602.899 -        0
+mtART+F+R7       -78317.228  157326.457 -        0  157702.238 -        0  159019.662 -        0
+mtART+F+R6       -78327.458  157342.917 -        0  157713.213 -        0  159026.335 -        0
+HIVb+F+R7        -78359.114  157410.228 -        0  157786.009 -        0  159103.433 -        0
+HIVb+F+R6        -78372.248  157432.496 -        0  157802.793 -        0  159115.914 -        0
+FLU+R7           -78705.354  158064.708 -        0  158390.714 -        0  159664.933 -        0
+FLU+R6           -78712.323  158074.645 -        0  158395.706 -        0  159665.084 -        0
+HIVb+R7          -78923.401  158500.803 -        0  158826.809 -        0  160101.028 -        0
+HIVb+R6          -78932.154  158514.308 -        0  158835.369 -        0  160104.747 -        0
+mtVer+F+R6       -79042.736  158773.472 -        0  159143.768 -        0  160456.889 -        0
+mtVer+F+R7       -79036.372  158764.744 -        0  159140.525 -        0  160457.950 -        0
+mtMAM+F+R7       -79569.513  159831.027 -        0  160206.808 -        0  161524.232 -        0
+mtMAM+F+R6       -79584.810  159857.620 -        0  160227.916 -        0  161541.038 -        0
+mtZOA+R7         -79675.199  160004.398 -        0  160330.404 -        0  161604.623 -        0
+mtZOA+R6         -79685.948  160021.896 -        0  160342.956 -        0  161612.334 -        0
+LG+I             -80490.337  161612.673 -        0  161912.141 -        0  163159.068 -        0
+HIVw+F+R7        -80685.597  162063.195 -        0  162438.976 -        0  163756.400 -        0
+HIVw+F+R6        -80693.621  162075.242 -        0  162445.538 -        0  163758.659 -        0
+mtInv+R6         -80900.576  162451.151 -        0  162772.212 -        0  164041.589 -        0
+mtInv+R7         -80897.374  162448.748 -        0  162774.754 -        0  164048.974 -        0
+mtMet+R7         -80911.020  162476.041 -        0  162802.047 -        0  164076.266 -        0
+mtMet+R6         -80918.033  162486.066 -        0  162807.127 -        0  164076.504 -        0
+mtREV+R7         -81382.338  163418.675 -        0  163744.681 -        0  165018.901 -        0
+mtREV+R6         -81391.273  163432.547 -        0  163753.607 -        0  165022.985 -        0
+mtART+R7         -81565.604  163785.208 -        0  164111.214 -        0  165385.434 -        0
+mtART+R6         -81574.781  163799.562 -        0  164120.622 -        0  165390.000 -        0
+LG               -81735.298  164100.596 -        0  164397.730 -        0  165642.097 -        0
+mtVer+R7         -82211.775  165077.550 -        0  165403.556 -        0  166677.776 -        0
+mtVer+R6         -82226.472  165102.943 -        0  165424.004 -        0  166693.382 -        0
+HIVw+R7          -82519.923  165693.847 -        0  166019.853 -        0  167294.072 -        0
+HIVw+R6          -82531.178  165712.355 -        0  166033.416 -        0  167302.793 -        0
+mtMAM+R7         -83058.801  166771.602 -        0  167097.608 -        0  168371.828 -        0
+mtMAM+R6         -83066.627  166783.255 -        0  167104.315 -        0  168373.693 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R6
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0811
+  pi(R) = 0.0634
+  pi(N) = 0.0410
+  pi(D) = 0.0520
+  pi(C) = 0.0227
+  pi(Q) = 0.0299
+  pi(E) = 0.0607
+  pi(G) = 0.0603
+  pi(H) = 0.0241
+  pi(I) = 0.0556
+  pi(L) = 0.0958
+  pi(K) = 0.0605
+  pi(M) = 0.0322
+  pi(F) = 0.0348
+  pi(P) = 0.0359
+  pi(S) = 0.0749
+  pi(T) = 0.0477
+  pi(W) = 0.0234
+  pi(Y) = 0.0308
+  pi(V) = 0.0732
+
+Model of rate heterogeneity: FreeRate with 6 categories
+Site proportion and rates:  (0.1123,0.0248) (0.1100,0.1364) (0.2003,0.3664) (0.2350,0.7698) (0.1890,1.5069) (0.1533,2.8905)
+
+ Category  Relative_rate  Proportion
+  1         0.0248         0.1123
+  2         0.1364         0.1100
+  3         0.3664         0.2003
+  4         0.7698         0.2350
+  5         1.5069         0.1890
+  6         2.8905         0.1533
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -76197.9065 (s.e. 1373.9192)
+Unconstrained log-likelihood (without tree): -6786.0548
+Number of free parameters (#branches + #model parameters): 344
+Akaike information criterion (AIC) score: 153083.8130
+Corrected Akaike information criterion (AICc) score: 153454.1094
+Bayesian information criterion (BIC) score: 154767.2308
+
+Total tree length (sum of branch lengths): 34.2825
+Sum of internal branch lengths: 19.4873 (56.8431% of tree length)
+
+WARNING: 37 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MW588195_Mute_swan_feces_associated_toti-like_virus_3' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                               +--LC567881_Culex_vishnui_subgroup_totivirus
+                                            +--| (100)
+                                            |  +**LC514295_Culex_vishnui_subgroup_totivirus
+                                         +--| (100)
+                                         |  +--Culex_vishnui_subgroup_totivirus_F1143C11F1143
+                                      +--| (100)
+                                      |  |        +**Agrichlet_virus_F1434C1F1434
+                                      |  |     +**| (57)
+                                      |  |     |  +--Agrichlet_virus_F1434C1F1456
+                                      |  |  +**| (99)
+                                      |  |  |  +--Agrichlet_virus_F1434C1F1445
+                                      |  +--| (100)
+                                      |     +--Agrichlet_virus_F1434C1F1407
+                                   +--| (100)
+                                   |  +------MK440659_Salja_virus
+                                +--| (97)
+                                |  |           +--MW434959_Tzifr_virus
+                                |  |     +-----| (100)
+                                |  |     |     |     +--MW434961_Tzifr_virus
+                                |  |     |     |  +--| (97)
+                                |  |     |     |  |  +--MW434964_Tzifr_virus
+                                |  |     |     +--| (99)
+                                |  |     |        |     +--MW434960_Tzifr_virus
+                                |  |     |        |  +**| (60)
+                                |  |     |        |  |  +**MW434963_Tzifr_virus
+                                |  |     |        +--| (100)
+                                |  |     |           +--MW434962_Tzifr_virus
+                                |  +-----| (100)
+                                |        |    +--MW434955_Snelk_virus
+                                |        +----| (100)
+                                |             +--MW434957_Stinn_virus
+                       +--------| (100)
+                       |        +-------MK440645_Osta_virus
+                    +--| (100)
+                    |  |                               +--Aeriandims_virus_subsp1_F1156C2F1045
+                    |  |                            +--| (100)
+                    |  |                            |  +**Aeriandims_virus_subsp1_F1156C2F1142
+                    |  |                         +--| (100)
+                    |  |                         |  +--Aeriandims_virus_subsp1_F1156C2F1156
+                    |  |                      +--| (100)
+                    |  |                      |  +--Aeriandims_virus_subsp2_F1583C1F1583
+                    |  |                   +--| (100)
+                    |  |                   |  +--OL700194_XiangYun_toti-like_virus_5
+                    |  |                +--| (100)
+                    |  |                |  +----MT498828_Fitzroy_Crossing_toti-like_virus_2
+                    |  |          +-----| (100)
+                    |  |          |     +-----OL700198_XiangYun_toti-like_virus_9
+                    |  +----------| (100)
+                    |             |           +--MW434945_Gouley_virus
+                    |             |       +---| (100)
+                    |             |       |   +--MW434952_Mika_virus
+                    |             +-------| (100)
+                    |                     |    +--MW434949_Lotchka_virus
+                    |                     +----| (100)
+                    |                          |  +--MW434951_Lotchka_virus
+                    |                          +--| (100)
+                    |                             +--MW434950_Lotchka_virus
+                 +--| (100)
+                 |  |                    +**OP019864_Hanko_totivirus_8
+                 |  |               +----| (100)
+                 |  |               |    +--OP019865_Hanko_totivirus_8
+                 |  |           +---| (100)
+                 |  |           |   |        +**OP019850_Enontekio_totivirus_2
+                 |  |           |   |     +--| (100)
+                 |  |           |   |     |  +--OP019990_Enontekio_totivirus_2
+                 |  |           |   |  +--| (100)
+                 |  |           |   |  |  +--OP019889_Joutseno_totivirus
+                 |  |           |   +--| (88)
+                 |  |           |      +---OP020129_Vaasa_totivirus
+                 |  |        +--| (100)
+                 |  |        |  |                          +--OP019873_Hattula_totivirus_2
+                 |  |        |  |                       +--| (80)
+                 |  |        |  |                       |  |     +--OP020073_Hattula_totivirus_2
+                 |  |        |  |                       |  |  +--| (95)
+                 |  |        |  |                       |  |  |  +--OP020077_Hattula_totivirus_2
+                 |  |        |  |                       |  +**| (83)
+                 |  |        |  |                       |     +--OP020076_Hattula_totivirus_2
+                 |  |        |  |                    +**| (46)
+                 |  |        |  |                    |  +--OP019876_Hattula_totivirus_2
+                 |  |        |  |                 +**| (20)
+                 |  |        |  |                 |  |  +--OP019875_Hattula_totivirus_2
+                 |  |        |  |                 |  +**| (18)
+                 |  |        |  |                 |     +--OP020080_Hattula_totivirus_2
+                 |  |        |  |              +**| (24)
+                 |  |        |  |              |  +**OP019872_Hattula_totivirus_2
+                 |  |        |  |           +--| (76)
+                 |  |        |  |           |  |  +--OP020079_Hattula_totivirus_2
+                 |  |        |  |           |  +**| (26)
+                 |  |        |  |           |     +**OP020078_Hattula_totivirus_2
+                 |  |        |  |        +**| (67)
+                 |  |        |  |        |  +**OP019874_Hattula_totivirus_2
+                 |  |        |  |  +-----| (100)
+                 |  |        |  |  |     +--OP020075_Hattula_totivirus_2
+                 |  |        |  +--| (100)
+                 |  |        |     +------KP642123_dsRNA_virus_environmental_sample
+                 |  |     +--| (80)
+                 |  |     |  |                +**KP642121_dsRNA_virus_environmental_sample
+                 |  |     |  +----------------| (100)
+                 |  |     |                   +--KP642124_dsRNA_virus_environmental_sample
+                 |  |  +--| (97)
+                 |  |  |  |                    +--Aftionautor_virus_F1470C2F1470
+                 |  |  |  |                 +--| (100)
+                 |  |  |  |                 |  +--Aftionautor_virus_F1470C2F1471
+                 |  |  |  |  +--------------| (100)
+                 |  |  |  |  |              |  +--Wrunlize_virus_F1469C738F1469
+                 |  |  |  |  |              +--| (95)
+                 |  |  |  |  |                 +--Wrunlize_virus_F1469C738F1615
+                 |  |  |  +--| (96)
+                 |  |  |     +------------Coundenality_virus_F1183C376F1183
+                 |  +--| (99)
+                 |     |                      +--Aedes_aegypti_toti_like_virus_F1063C6F1002
+                 |     |                   +--| (95)
+                 |     |                   |  +--Aedes_aegypti_toti_like_virus_F1063C6F1063
+                 |     |         +---------| (100)
+                 |     |         |         |     +--KP642128_dsRNA_virus_environmental_sample
+                 |     |         |         |  +--| (70)
+                 |     |         |         |  |  |  +--MN053721_Aedes_aegypti_toti-like_virus
+                 |     |         |         |  |  +--| (87)
+                 |     |         |         |  |     +--MN053720_Aedes_aegypti_toti-like_virus
+                 |     |         |         +--| (85)
+                 |     |         |            +--OL343758_Palmetto_toti-like_virus
+                 |     |     +---| (100)
+                 |     |     |   |                +--Adjoured_virus_F1191C7F1194
+                 |     |     |   |  +-------------| (100)
+                 |     |     |   |  |             +--Adjoured_virus_F1191C7F1191
+                 |     |     |   +--| (84)
+                 |     |     |      |                +--Adsentalan_virus_F1186C10F1177
+                 |     |     |      |             +--| (97)
+                 |     |     |      |             |  +--Adsentalan_virus_F1186C10F1186
+                 |     |     |      |          +--| (97)
+                 |     |     |      |          |  +--Adsentalan_virus_F1186C10F1187
+                 |     |     |      +----------| (100)
+                 |     |     |                 |     +--Flatesals_virus_F1187C10F1178
+                 |     |     |                 |  +--| (99)
+                 |     |     |                 |  |  +--Flatesals_virus_F1187C10F1187
+                 |     |     |                 +--| (100)
+                 |     |     |                    +--Flatesals_virus_F1187C10F1177
+                 |     |  +--| (91)
+                 |     |  |  |     +-------Adlissaust_virus_F1183C2F1183
+                 |     |  |  +-----| (100)
+                 |     |  |        +---------Belfgalbs_virus_F1490C6F1490
+                 |     +--| (95)
+                 |        +--------------NC_032733_Hubei_toti-like_virus_10
+              +--| (97)
+              |  |                             +**OP019866_Hanko_totivirus_9
+              |  |                          +**| (69)
+              |  |                          |  +--OP019867_Hanko_totivirus_9
+              |  |                  +-------| (100)
+              |  |                  |       |  +--OP019900_Hanko_totivirus_9
+              |  |                  |       +--| (99)
+              |  |                  |          +--OP020069_Hanko_totivirus_9
+              |  |               +--| (75)
+              |  |               |  +----OP019991_Enontekio_totivirus_3
+              |  |  +------------| (100)
+              |  |  |            |              +**OP020037_Hameenlinna_totivirus_3
+              |  |  |            |           +**| (66)
+              |  |  |            |           |  +**OP020040_Hameenlinna_totivirus_3
+              |  |  |            |        +--| (70)
+              |  |  |            |        |  +**OP020035_Hameenlinna_totivirus_3
+              |  |  |            +--------| (100)
+              |  |  |                     |     +--OP019859_Hameenlinna_totivirus_3
+              |  |  |                     |  +--| (100)
+              |  |  |                     |  |  |  +--OP020042_Hameenlinna_totivirus_3
+              |  |  |                     |  |  +--| (55)
+              |  |  |                     |  |     +--OP020045_Hameenlinna_totivirus_3
+              |  |  |                     +--| (99)
+              |  |  |                        +**OP020032_Hameenlinna_totivirus_3
+              |  +--| (66)
+              |     |                     +--KP642125_dsRNA_virus_environmental_sample
+              |     +---------------------| (100)
+              |                           +**KP642122_dsRNA_virus_environmental_sample
+      +-------| (100)
+      |       |                                     +--OP020031_Hameenlinna_totivirus_2
+      |       |                                  +**| (89)
+      |       |                                  |  +**OP020030_Hameenlinna_totivirus_2
+      |       |                               +**| (42)
+      |       |                               |  +--OP020028_Hameenlinna_totivirus_2
+      |       |                      +--------| (100)
+      |       |                      |        +--OP020029_Hameenlinna_totivirus_2
+      |       |                   +--| (78)
+      |       |                   |  |                   +--OP020059_Hanko_totivirus_5
+      |       |                   |  |                +--| (97)
+      |       |                   |  |                |  |        +**OP019863_Hanko_totivirus_5
+      |       |                   |  |                |  |     +**| (78)
+      |       |                   |  |                |  |     |  +**OP020064_Hanko_totivirus_5
+      |       |                   |  |                |  |  +**| (68)
+      |       |                   |  |                |  |  |  |  +--OP020066_Hanko_totivirus_5
+      |       |                   |  |                |  |  |  +**| (68)
+      |       |                   |  |                |  |  |     +--OP020065_Hanko_totivirus_5
+      |       |                   |  |                |  +--| (94)
+      |       |                   |  |                |     |  +--OP020058_Hanko_totivirus_5
+      |       |                   |  |                |     +**| (62)
+      |       |                   |  |                |        +--OP020060_Hanko_totivirus_5
+      |       |                   |  |             +**| (96)
+      |       |                   |  |             |  +--OP020063_Hanko_totivirus_5
+      |       |                   |  |      +------| (100)
+      |       |                   |  |      |      +--OP020061_Hanko_totivirus_5
+      |       |                   |  |  +---| (100)
+      |       |                   |  |  |   |                 +**OP019861_Hanko_totivirus_3
+      |       |                   |  |  |   |              +**| (91)
+      |       |                   |  |  |   |              |  |  +**OP019902_Hanko_totivirus_3
+      |       |                   |  |  |   |              |  +**| (37)
+      |       |                   |  |  |   |              |     |     +--OP019905_Hanko_totivirus_3
+      |       |                   |  |  |   |              |     |  +**| (98)
+      |       |                   |  |  |   |              |     |  |  +--OP019909_Hanko_totivirus_3
+      |       |                   |  |  |   |              |     +--| (94)
+      |       |                   |  |  |   |              |        |  +--OP019862_Hanko_totivirus_3
+      |       |                   |  |  |   |              |        +--| (99)
+      |       |                   |  |  |   |              |           +--OP020054_Hanko_totivirus_3
+      |       |                   |  |  |   |           +**| (53)
+      |       |                   |  |  |   |           |  +--OP019904_Hanko_totivirus_3
+      |       |                   |  |  |   |        +--| (74)
+      |       |                   |  |  |   |        |  +--OP019903_Hanko_totivirus_3
+      |       |                   |  |  |   |     +--| (87)
+      |       |                   |  |  |   |     |  +--OP020053_Hanko_totivirus_3
+      |       |                   |  |  |   +-----| (100)
+      |       |                   |  |  |         +--KF298277_uncultured_virus
+      |       |                   |  +--| (90)
+      |       |                   |     |      +--OP019907_Palkane_totivirus
+      |       |                   |     |   +--| (100)
+      |       |                   |     |   |  +--OP019908_Palkane_totivirus
+      |       |                   |     +---| (100)
+      |       |                   |         +--OP020114_Kuusamo_totivirus_1
+      |       |                +--| (100)
+      |       |                |  |   +--OP020068_Hanko_totivirus_7
+      |       |                |  +---| (100)
+      |       |                |      +--OP020095_Ilomantsi_totivirus_2
+      |       |             +--| (96)
+      |       |             |  |          +**OP019858_Hameenlinna_totivirus_1
+      |       |             |  |      +---| (100)
+      |       |             |  |      |   |                                +**OP020021_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                             +**| (19)
+      |       |             |  |      |   |                             |  |  +**OP019856_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                             |  +**| (24)
+      |       |             |  |      |   |                             |     +**OP020005_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                          +**| (11)
+      |       |             |  |      |   |                          |  +**OP020011_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                       +**| (31)
+      |       |             |  |      |   |                       |  +--OP020003_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    +--| (98)
+      |       |             |  |      |   |                    |  |        +**OP019852_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |  |     +**| (54)
+      |       |             |  |      |   |                    |  |     |  +**OP019854_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |  |  +**| (32)
+      |       |             |  |      |   |                    |  |  |  +**OP020002_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |  +**| (9)
+      |       |             |  |      |   |                    |     |     +--OP019855_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |     |  +**| (30)
+      |       |             |  |      |   |                    |     |  |  +**OP020027_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |     +**| (32)
+      |       |             |  |      |   |                    |        +**OP020010_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                 +**| (74)
+      |       |             |  |      |   |                 |  +**OP020014_Hameenlinna_totivirus_1
+      |       |             |  |      |   |              +--| (98)
+      |       |             |  |      |   |              |  +--OP020015_Hameenlinna_totivirus_1
+      |       |             |  |      |   |           +--| (92)
+      |       |             |  |      |   |           |  +--OP020016_Hameenlinna_totivirus_1
+      |       |             |  |      |   |        +**| (44)
+      |       |             |  |      |   |        |  +--OP020007_Hameenlinna_totivirus_1
+      |       |             |  |      |   |     +**| (56)
+      |       |             |  |      |   |     |  |  +--OP020006_Hameenlinna_totivirus_1
+      |       |             |  |      |   |     |  +**| (32)
+      |       |             |  |      |   |     |     +--OP020020_Hameenlinna_totivirus_1
+      |       |             |  |      |   |  +**| (29)
+      |       |             |  |      |   |  |  +--OP019857_Hameenlinna_totivirus_1
+      |       |             |  |      |   +--| (93)
+      |       |             |  |      |      +--OP019853_Hameenlinna_totivirus_1
+      |       |             |  |   +--| (100)
+      |       |             |  |   |  +---OP019885_Inari_totivirus_1
+      |       |             |  +---| (100)
+      |       |             |      |      +--OP020092_Ilomantsi_totivirus_1
+      |       |             |      +------| (100)
+      |       |             |             +**OP019884_Ilomantsi_totivirus_1
+      |       |          +--| (80)
+      |       |          |  |                  +--OP019888_Inari_totivirus_2
+      |       |          |  |               +--| (100)
+      |       |          |  |               |  +--OP019886_Inari_totivirus_2
+      |       |          |  |            +--| (100)
+      |       |          |  |            |  +**OP019887_Inari_totivirus_2
+      |       |          |  |      +-----| (100)
+      |       |          |  |      |     +--OP020067_Hanko_totivirus_6
+      |       |          |  +------| (100)
+      |       |          |         |          +--OP019892_Lestijarvi_totivirus
+      |       |          |         |       +--| (99)
+      |       |          |         |       |  +**OP019893_Lestijarvi_totivirus
+      |       |          |         +-------| (100)
+      |       |          |                 +**OP019894_Lestijarvi_totivirus
+      |       +----------| (100)
+      |                  |            +--NC_035130_Aedes_alboannulatus_toti-like_virus_1
+      |                  +------------| (100)
+      |                               +--NC_035131_Aedes_camptorhynchus_toti-like_virus_1
+   +--| (97)
+   |  |  +--------------------------------NC_032883_Hubei_toti-like_virus_9
+   |  +--| (100)
+   |     |                        +--MZ209683_Hangzhou_totivirus_6
+   |     |                +-------| (100)
+   |     |                |       +--MZ209684_Hangzhou_totivirus_7
+   |     |      +---------| (100)
+   |     |      |         +--------MZ218558_Totiviridae_sp_
+   |     |  +---| (90)
+   |     |  |   +--------------------------------------------KX882968_Hubei_toti-like_virus_11
+   |     +--| (78)
+   |        |              +------------KX882971_Hubei_toti-like_virus_7
+   |        |         +----| (100)
+   |        |         |    +----------MZ218579_Totiviridae_sp_
+   |        +---------| (100)
+   |                  +----------------KX882965_Hubei_toti-like_virus_8
++--| (93)
+|  +--------------------------MW826407_Totiviridae_sp_
+|
+|                 +-----------MN661074_Atrato_virus
+|        +--------| (100)
+|        |        +---------MN661077_Murri_virus
++--------| (100)
+|        +-----------------MN803436_Schistocephalus_solidus_toti-like_virus_2
+|
++----------------------------MW588195_Mute_swan_feces_associated_toti-like_virus_3
+
+Tree in newick format:
+
+(((((((((((((LC567881_Culex_vishnui_subgroup_totivirus:0.0021187098,LC514295_Culex_vishnui_subgroup_totivirus:0.0000032332)100:0.0093569255,Culex_vishnui_subgroup_totivirus_F1143C11F1143:0.0128920426)100:0.1244705463,(((Agrichlet_virus_F1434C1F1434:0.0000013580,Agrichlet_virus_F1434C1F1456:0.0021214594)57:0.0000027095,Agrichlet_virus_F1434C1F1445:0.0011893040)99:0.0009265415,Agrichlet_virus_F1434C1F1407:0.0022285477)100:0.1135082362)100:0.1539485411,MK440659_Salja_virus:0.2981860832)100:0.1179755533,((MW434959_Tzifr_virus:0.0426598152,((MW434961_Tzifr_virus:0.0010531645,MW434964_Tzifr_virus:0.0021126619)97:0.0039397909,((MW434960_Tzifr_virus:0.0010564864,MW434963_Tzifr_virus:0.0000013580)60:0.0000026668,MW434962_Tzifr_virus:0.0053580077)100:0.0046007555)99:0.0255635493)100:0.2619881779,(MW434955_Snelk_virus:0.0139809569,MW434957_Stinn_virus:0.0232130446)100:0.2143133780)100:0.2646378979)97:0.0741764575,MK440645_Osta_virus:0.3470153295)100:0.3820376712,(((((((Aeriandims_virus_subsp1_F1156C2F1045:0.0031717564,Aeriandims_virus_subsp1_F1156C2F1142:0.0000013580)100:0.0010484188,Aeriandims_virus_subsp1_F1156C2F1156:0.0021131532)100:0.0073610102,Aeriandims_virus_subsp2_F1583C1F1583:0.0364286587)100:0.0773521070,OL700194_XiangYun_toti-like_virus_5:0.1278430164)100:0.0993499418,MT498828_Fitzroy_Crossing_toti-like_virus_2:0.2117580090)100:0.0839658754,OL700198_XiangYun_toti-like_virus_9:0.2765433431)100:0.2705223824,((MW434945_Gouley_virus:0.0396687968,MW434952_Mika_virus:0.0360311674)100:0.1632322040,(MW434949_Lotchka_virus:0.0072960950,(MW434951_Lotchka_virus:0.0041929817,MW434950_Lotchka_virus:0.0063115901)100:0.0011232849)100:0.2125982010)100:0.3240609659)100:0.4758267959)100:0.1351182791,((((((OP019864_Hanko_totivirus_8:0.0000029956,OP019865_Hanko_totivirus_8:0.0021085394)100:0.2085920956,(((OP019850_Enontekio_totivirus_2:0.0004338778,OP019990_Enontekio_totivirus_2:0.0036103357)100:0.0966712407,OP019889_Joutseno_totivirus:0.0965533754)100:0.0954962522,OP020129_Vaasa_totivirus:0.1902864988)88:0.0359696589)100:0.1756840072,((((((((OP019873_Hattula_totivirus_2:0.0021015898,((OP020073_Hattula_totivirus_2:0.0038775066,OP020077_Hattula_totivirus_2:0.0015734531)95:0.0015616649,OP020076_Hattula_totivirus_2:0.0019641279)83:0.0000027905)80:0.0041851501,OP019876_Hattula_totivirus_2:0.0020903755)46:0.0000030297,(OP019875_Hattula_totivirus_2:0.0020909953,OP020080_Hattula_totivirus_2:0.0010440992)18:0.0000013580)20:0.0000029230,OP019872_Hattula_totivirus_2:0.0000013580)24:0.0000025272,(OP020079_Hattula_totivirus_2:0.0020874349,OP020078_Hattula_totivirus_2:0.0000029410)26:0.0000018833)76:0.0020903401,OP019874_Hattula_totivirus_2:0.0000025495)67:0.0000027244,OP020075_Hattula_totivirus_2:0.0052236021)100:0.2734503104,KP642123_dsRNA_virus_environmental_sample:0.3168260858)100:0.1328802977)100:0.1175386788,(KP642121_dsRNA_virus_environmental_sample:0.0000033754,KP642124_dsRNA_virus_environmental_sample:0.0103241489)100:0.7176617008)80:0.0659737777,(((Aftionautor_virus_F1470C2F1470:0.0012239058,Aftionautor_virus_F1470C2F1471:0.0060852267)100:0.0536980660,(Wrunlize_virus_F1469C738F1469:0.0047065863,Wrunlize_virus_F1469C738F1615:0.0019140368)95:0.0165100939)100:0.6064991001,Coundenality_virus_F1183C376F1183:0.5448400548)96:0.1283202129)97:0.0877061478,(((((Aedes_aegypti_toti_like_virus_F1063C6F1002:0.0017489681,Aedes_aegypti_toti_like_virus_F1063C6F1063:0.0033768480)95:0.0213654027,((KP642128_dsRNA_virus_environmental_sample:0.0122565477,(MN053721_Aedes_aegypti_toti-like_virus:0.0022916166,MN053720_Aedes_aegypti_toti-like_virus:0.0011395124)87:0.0042553737)70:0.0016285202,OL343758_Palmetto_toti-like_virus:0.0038324331)85:0.0171127188)100:0.4068243660,((Adjoured_virus_F1191C7F1194:0.0011922911,Adjoured_virus_F1191C7F1191:0.0093330080)100:0.5667270859,(((Adsentalan_virus_F1186C10F1177:0.0011407798,Adsentalan_virus_F1186C10F1186:0.0065122843)97:0.0035044759,Adsentalan_virus_F1186C10F1187:0.0045800768)97:0.0402962386,((Flatesals_virus_F1187C10F1178:0.0056182695,Flatesals_virus_F1187C10F1187:0.0038139084)99:0.0024967213,Flatesals_virus_F1187C10F1177:0.0024962063)100:0.0305116593)100:0.4513365897)84:0.0772898955)100:0.1931313206,(Adlissaust_virus_F1183C2F1183:0.3403336623,Belfgalbs_virus_F1490C6F1490:0.4080492785)100:0.2534602641)91:0.0537570459,NC_032733_Hubei_toti-like_virus_10:0.6274477003)95:0.1062575913)99:0.0822940428)100:0.1567809028,(((((OP019866_Hanko_totivirus_9:0.0000013580,OP019867_Hanko_totivirus_9:0.0010915965)69:0.0000027379,(OP019900_Hanko_totivirus_9:0.0097906118,OP020069_Hanko_totivirus_9:0.0041790852)99:0.0014084331)100:0.3498749244,OP019991_Enontekio_totivirus_3:0.2297935102)75:0.0875522195,(((OP020037_Hameenlinna_totivirus_3:0.0000033772,OP020040_Hameenlinna_totivirus_3:0.0000034307)66:0.0000026037,OP020035_Hameenlinna_totivirus_3:0.0000034160)70:0.0029068521,((OP019859_Hameenlinna_totivirus_3:0.0078455525,(OP020042_Hameenlinna_totivirus_3:0.0041204578,OP020045_Hameenlinna_totivirus_3:0.0025157290)55:0.0019247053)100:0.0045043580,OP020032_Hameenlinna_totivirus_3:0.0000025190)99:0.0042643521)100:0.3650606594)100:0.5386951440,(KP642125_dsRNA_virus_environmental_sample:0.0042281753,KP642122_dsRNA_virus_environmental_sample:0.0000030599)100:0.9077135443)66:0.0821039737)97:0.0917472792,((((((((OP020031_Hameenlinna_totivirus_2:0.0104115749,OP020030_Hameenlinna_totivirus_2:0.0000013580)89:0.0006121956,OP020028_Hameenlinna_totivirus_2:0.0039434708)42:0.0006397239,OP020029_Hameenlinna_totivirus_2:0.0035646371)100:0.3736492125,(((((OP020059_Hanko_totivirus_5:0.0024986245,(((OP019863_Hanko_totivirus_5:0.0000027620,OP020064_Hanko_totivirus_5:0.0000013580)78:0.0000035162,(OP020066_Hanko_totivirus_5:0.0047103642,OP020065_Hanko_totivirus_5:0.0177485646)68:0.0000026198)68:0.0000012762,(OP020058_Hanko_totivirus_5:0.0040420783,OP020060_Hanko_totivirus_5:0.0044797176)62:0.0000026782)94:0.0069440820)97:0.0022952749,OP020063_Hanko_totivirus_5:0.0020298879)96:0.0007774093,OP020061_Hanko_totivirus_5:0.0033148138)100:0.3043121523,(((((OP019861_Hanko_totivirus_3:0.0010136017,(OP019902_Hanko_totivirus_3:0.0000013580,((OP019905_Hanko_totivirus_3:0.0020286018,OP019909_Hanko_totivirus_3:0.0010170256)98:0.0010114360,(OP019862_Hanko_totivirus_3:0.0010146466,OP020054_Hanko_totivirus_3:0.0030441040)99:0.0020317259)94:0.0010144518)37:0.0000025098)91:0.0010140992,OP019904_Hanko_totivirus_3:0.0020313433)53:0.0000032542,OP019903_Hanko_totivirus_3:0.0020305353)74:0.0011195250,OP020053_Hanko_totivirus_3:0.0019488019)87:0.0125446993,KF298277_uncultured_virus:0.0114055316)100:0.2803637316)100:0.1858942799,((OP019907_Palkane_totivirus:0.0022103893,OP019908_Palkane_totivirus:0.0039201488)100:0.1440558036,OP020114_Kuusamo_totivirus_1:0.1225533096)100:0.1937436210)90:0.0577469412)78:0.0579821997,(OP020068_Hanko_totivirus_7:0.1317985003,OP020095_Ilomantsi_totivirus_2:0.1502288217)100:0.1725260453)100:0.1486933621,(((OP019858_Hameenlinna_totivirus_1:0.0000025389,(((((((((((OP020021_Hameenlinna_totivirus_1:0.0000013580,(OP019856_Hameenlinna_totivirus_1:0.0010080517,OP020005_Hameenlinna_totivirus_1:0.0000013580)24:0.0000021509)19:0.0000089945,OP020011_Hameenlinna_totivirus_1:0.0000013580)11:0.0000034471,OP020003_Hameenlinna_totivirus_1:0.0045838000)31:0.0000034935,(((OP019852_Hameenlinna_totivirus_1:0.0000013580,OP019854_Hameenlinna_totivirus_1:0.0000013580)54:0.0000012510,OP020002_Hameenlinna_totivirus_1:0.0000013580)32:0.0000034282,((OP019855_Hameenlinna_totivirus_1:0.0010245939,OP020027_Hameenlinna_totivirus_1:0.0000013580)30:0.0000012478,OP020010_Hameenlinna_totivirus_1:0.0000013580)32:0.0000012972)9:0.0000012894)98:0.0023987859,OP020014_Hameenlinna_totivirus_1:0.0000025701)74:0.0000026458,OP020015_Hameenlinna_totivirus_1:0.0031937375)98:0.0032260396,OP020016_Hameenlinna_totivirus_1:0.0047705496)92:0.0015924855,OP020007_Hameenlinna_totivirus_1:0.0019720737)44:0.0000031237,(OP020006_Hameenlinna_totivirus_1:0.0029013298,OP020020_Hameenlinna_totivirus_1:0.0047060725)32:0.0000016325)56:0.0000017858,OP019857_Hameenlinna_totivirus_1:0.0010245285)29:0.0000013580,OP019853_Hameenlinna_totivirus_1:0.0010244780)93:0.0010237468)100:0.2000060931,OP019885_Inari_totivirus_1:0.1842364806)100:0.1034027109,(OP020092_Ilomantsi_totivirus_1:0.0141506534,OP019884_Ilomantsi_totivirus_1:0.0000025959)100:0.2989704216)100:0.2007075424)96:0.1034863873,((((OP019888_Inari_totivirus_2:0.0062727352,OP019886_Inari_totivirus_2:0.0020816270)100:0.0034847736,OP019887_Inari_totivirus_2:0.0006684059)100:0.1195043321,OP020067_Hanko_totivirus_6:0.0848660209)100:0.2716433799,((OP019892_Lestijarvi_totivirus:0.0010252137,OP019893_Lestijarvi_totivirus:0.0000028668)99:0.0010235407,OP019894_Lestijarvi_totivirus:0.0000030492)100:0.3548094620)100:0.3027695099)80:0.0662452023,(NC_035130_Aedes_alboannulatus_toti-like_virus_1:0.0011406648,NC_035131_Aedes_camptorhynchus_toti-like_virus_1:0.0021646032)100:0.5570724665)100:0.4825346531)100:0.3614096358,(NC_032883_Hubei_toti-like_virus_9:1.3468673999,((((MZ209683_Hangzhou_totivirus_6:0.1414540766,MZ209684_Hangzhou_totivirus_7:0.1315822842)100:0.3275150855,MZ218558_Totiviridae_sp_:0.4023485486)100:0.4188556944,KX882968_Hubei_toti-like_virus_11:1.8206659887)90:0.1683465085,((KX882971_Hubei_toti-like_virus_7:0.5332634538,MZ218579_Totiviridae_sp_:0.4781770140)100:0.2175017881,KX882965_Hubei_toti-like_virus_8:0.7238621817)100:0.4329732929)78:0.0473995552)100:0.1547048219)97:0.1012164368,MW826407_Totiviridae_sp_:1.1060631322)93:0.1326503352,((MN661074_Atrato_virus:0.5087981081,MN661077_Murri_virus:0.4191254921)100:0.3756320633,MN803436_Schistocephalus_solidus_toti-like_virus_2:0.7559065876)100:0.3987621094,MW588195_Mute_swan_feces_associated_toti-like_virus_3:1.2021075824);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -76197.919185
+Robinson-Foulds distance between ML tree and consensus tree: 20
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                               +--LC567881_Culex_vishnui_subgroup_totivirus
+                                            +--| (100)
+                                            |  +--LC514295_Culex_vishnui_subgroup_totivirus
+                                         +--| (100)
+                                         |  +--Culex_vishnui_subgroup_totivirus_F1143C11F1143
+                                      +--| (100)
+                                      |  |        +--Agrichlet_virus_F1434C1F1434
+                                      |  |     +--| (57)
+                                      |  |     |  +--Agrichlet_virus_F1434C1F1456
+                                      |  |  +--| (99)
+                                      |  |  |  +--Agrichlet_virus_F1434C1F1445
+                                      |  +--| (100)
+                                      |     +--Agrichlet_virus_F1434C1F1407
+                                   +--| (100)
+                                   |  +------MK440659_Salja_virus
+                                +--| (97)
+                                |  |           +--MW434959_Tzifr_virus
+                                |  |     +-----| (100)
+                                |  |     |     |     +--MW434961_Tzifr_virus
+                                |  |     |     |  +--| (97)
+                                |  |     |     |  |  +--MW434964_Tzifr_virus
+                                |  |     |     +--| (99)
+                                |  |     |        |     +--MW434960_Tzifr_virus
+                                |  |     |        |  +--| (60)
+                                |  |     |        |  |  +--MW434963_Tzifr_virus
+                                |  |     |        +--| (100)
+                                |  |     |           +--MW434962_Tzifr_virus
+                                |  +-----| (100)
+                                |        |    +--MW434955_Snelk_virus
+                                |        +----| (100)
+                                |             +--MW434957_Stinn_virus
+                       +--------| (100)
+                       |        +-------MK440645_Osta_virus
+                    +--| (100)
+                    |  |                               +--Aeriandims_virus_subsp1_F1156C2F1045
+                    |  |                            +--| (100)
+                    |  |                            |  +--Aeriandims_virus_subsp1_F1156C2F1142
+                    |  |                         +--| (100)
+                    |  |                         |  +--Aeriandims_virus_subsp1_F1156C2F1156
+                    |  |                      +--| (100)
+                    |  |                      |  +--Aeriandims_virus_subsp2_F1583C1F1583
+                    |  |                   +--| (100)
+                    |  |                   |  +--OL700194_XiangYun_toti-like_virus_5
+                    |  |                +--| (100)
+                    |  |                |  +----MT498828_Fitzroy_Crossing_toti-like_virus_2
+                    |  |          +-----| (100)
+                    |  |          |     +-----OL700198_XiangYun_toti-like_virus_9
+                    |  +----------| (100)
+                    |             |           +--MW434945_Gouley_virus
+                    |             |       +---| (100)
+                    |             |       |   +--MW434952_Mika_virus
+                    |             +-------| (100)
+                    |                     |    +--MW434949_Lotchka_virus
+                    |                     +----| (100)
+                    |                          |  +--MW434951_Lotchka_virus
+                    |                          +--| (100)
+                    |                             +--MW434950_Lotchka_virus
+                 +--| (100)
+                 |  |                    +--OP019864_Hanko_totivirus_8
+                 |  |               +----| (100)
+                 |  |               |    +--OP019865_Hanko_totivirus_8
+                 |  |           +---| (100)
+                 |  |           |   |        +--OP019850_Enontekio_totivirus_2
+                 |  |           |   |     +--| (100)
+                 |  |           |   |     |  +--OP019990_Enontekio_totivirus_2
+                 |  |           |   |  +--| (100)
+                 |  |           |   |  |  +--OP019889_Joutseno_totivirus
+                 |  |           |   +--| (88)
+                 |  |           |      +---OP020129_Vaasa_totivirus
+                 |  |        +--| (100)
+                 |  |        |  |                       +--OP019873_Hattula_totivirus_2
+                 |  |        |  |                    +--| (80)
+                 |  |        |  |                    |  |     +--OP020073_Hattula_totivirus_2
+                 |  |        |  |                    |  |  +--| (95)
+                 |  |        |  |                    |  |  |  +--OP020077_Hattula_totivirus_2
+                 |  |        |  |                    |  +--| (83)
+                 |  |        |  |                    |     +--OP020076_Hattula_totivirus_2
+                 |  |        |  |                 +--| (46)
+                 |  |        |  |                 |  +--OP019876_Hattula_totivirus_2
+                 |  |        |  |              +--| (10)
+                 |  |        |  |              |  |  +--OP019872_Hattula_totivirus_2
+                 |  |        |  |              |  +--| (13)
+                 |  |        |  |              |     |     +--OP020080_Hattula_totivirus_2
+                 |  |        |  |              |     |  +--| (44)
+                 |  |        |  |              |     |  |  +--OP020078_Hattula_totivirus_2
+                 |  |        |  |              |     +--| (17)
+                 |  |        |  |              |        +--OP020079_Hattula_totivirus_2
+                 |  |        |  |           +--| (76)
+                 |  |        |  |           |  +--OP019875_Hattula_totivirus_2
+                 |  |        |  |        +--| (67)
+                 |  |        |  |        |  +--OP019874_Hattula_totivirus_2
+                 |  |        |  |  +-----| (100)
+                 |  |        |  |  |     +--OP020075_Hattula_totivirus_2
+                 |  |        |  +--| (100)
+                 |  |        |     +------KP642123_dsRNA_virus_environmental_sample
+                 |  |     +--| (80)
+                 |  |     |  |                +--KP642121_dsRNA_virus_environmental_sample
+                 |  |     |  +----------------| (100)
+                 |  |     |                   +--KP642124_dsRNA_virus_environmental_sample
+                 |  |  +--| (97)
+                 |  |  |  |                    +--Aftionautor_virus_F1470C2F1470
+                 |  |  |  |                 +--| (100)
+                 |  |  |  |                 |  +--Aftionautor_virus_F1470C2F1471
+                 |  |  |  |  +--------------| (100)
+                 |  |  |  |  |              |  +--Wrunlize_virus_F1469C738F1469
+                 |  |  |  |  |              +--| (95)
+                 |  |  |  |  |                 +--Wrunlize_virus_F1469C738F1615
+                 |  |  |  +--| (96)
+                 |  |  |     +------------Coundenality_virus_F1183C376F1183
+                 |  +--| (99)
+                 |     |                      +--Aedes_aegypti_toti_like_virus_F1063C6F1002
+                 |     |                   +--| (95)
+                 |     |                   |  +--Aedes_aegypti_toti_like_virus_F1063C6F1063
+                 |     |         +---------| (100)
+                 |     |         |         |     +--KP642128_dsRNA_virus_environmental_sample
+                 |     |         |         |  +--| (70)
+                 |     |         |         |  |  |  +--MN053721_Aedes_aegypti_toti-like_virus
+                 |     |         |         |  |  +--| (87)
+                 |     |         |         |  |     +--MN053720_Aedes_aegypti_toti-like_virus
+                 |     |         |         +--| (85)
+                 |     |         |            +--OL343758_Palmetto_toti-like_virus
+                 |     |     +---| (100)
+                 |     |     |   |                +--Adjoured_virus_F1191C7F1194
+                 |     |     |   |  +-------------| (100)
+                 |     |     |   |  |             +--Adjoured_virus_F1191C7F1191
+                 |     |     |   +--| (84)
+                 |     |     |      |                +--Adsentalan_virus_F1186C10F1177
+                 |     |     |      |             +--| (97)
+                 |     |     |      |             |  +--Adsentalan_virus_F1186C10F1186
+                 |     |     |      |          +--| (97)
+                 |     |     |      |          |  +--Adsentalan_virus_F1186C10F1187
+                 |     |     |      +----------| (100)
+                 |     |     |                 |     +--Flatesals_virus_F1187C10F1178
+                 |     |     |                 |  +--| (99)
+                 |     |     |                 |  |  +--Flatesals_virus_F1187C10F1187
+                 |     |     |                 +--| (100)
+                 |     |     |                    +--Flatesals_virus_F1187C10F1177
+                 |     |  +--| (91)
+                 |     |  |  |     +-------Adlissaust_virus_F1183C2F1183
+                 |     |  |  +-----| (100)
+                 |     |  |        +---------Belfgalbs_virus_F1490C6F1490
+                 |     +--| (95)
+                 |        +--------------NC_032733_Hubei_toti-like_virus_10
+              +--| (97)
+              |  |                             +--OP019866_Hanko_totivirus_9
+              |  |                          +--| (69)
+              |  |                          |  +--OP019867_Hanko_totivirus_9
+              |  |                  +-------| (100)
+              |  |                  |       |  +--OP019900_Hanko_totivirus_9
+              |  |                  |       +--| (99)
+              |  |                  |          +--OP020069_Hanko_totivirus_9
+              |  |               +--| (75)
+              |  |               |  +----OP019991_Enontekio_totivirus_3
+              |  |  +------------| (100)
+              |  |  |            |              +--OP020037_Hameenlinna_totivirus_3
+              |  |  |            |           +--| (66)
+              |  |  |            |           |  +--OP020040_Hameenlinna_totivirus_3
+              |  |  |            |        +--| (70)
+              |  |  |            |        |  +--OP020035_Hameenlinna_totivirus_3
+              |  |  |            +--------| (100)
+              |  |  |                     |     +--OP019859_Hameenlinna_totivirus_3
+              |  |  |                     |  +--| (100)
+              |  |  |                     |  |  |  +--OP020042_Hameenlinna_totivirus_3
+              |  |  |                     |  |  +--| (55)
+              |  |  |                     |  |     +--OP020045_Hameenlinna_totivirus_3
+              |  |  |                     +--| (99)
+              |  |  |                        +--OP020032_Hameenlinna_totivirus_3
+              |  +--| (66)
+              |     |                     +--KP642125_dsRNA_virus_environmental_sample
+              |     +---------------------| (100)
+              |                           +--KP642122_dsRNA_virus_environmental_sample
+      +-------| (100)
+      |       |                                  +--OP020031_Hameenlinna_totivirus_2
+      |       |                               +--| (89)
+      |       |                               |  +--OP020030_Hameenlinna_totivirus_2
+      |       |                      +--------| (100)
+      |       |                      |        |  +--OP020029_Hameenlinna_totivirus_2
+      |       |                      |        +--| (44)
+      |       |                      |           +--OP020028_Hameenlinna_totivirus_2
+      |       |                   +--| (78)
+      |       |                   |  |                   +--OP020059_Hanko_totivirus_5
+      |       |                   |  |                +--| (97)
+      |       |                   |  |                |  |        +--OP019863_Hanko_totivirus_5
+      |       |                   |  |                |  |     +--| (78)
+      |       |                   |  |                |  |     |  +--OP020064_Hanko_totivirus_5
+      |       |                   |  |                |  |  +--| (68)
+      |       |                   |  |                |  |  |  |  +--OP020066_Hanko_totivirus_5
+      |       |                   |  |                |  |  |  +--| (68)
+      |       |                   |  |                |  |  |     +--OP020065_Hanko_totivirus_5
+      |       |                   |  |                |  +--| (94)
+      |       |                   |  |                |     |  +--OP020058_Hanko_totivirus_5
+      |       |                   |  |                |     +--| (62)
+      |       |                   |  |                |        +--OP020060_Hanko_totivirus_5
+      |       |                   |  |             +--| (96)
+      |       |                   |  |             |  +--OP020063_Hanko_totivirus_5
+      |       |                   |  |      +------| (100)
+      |       |                   |  |      |      +--OP020061_Hanko_totivirus_5
+      |       |                   |  |  +---| (100)
+      |       |                   |  |  |   |                    +--OP019861_Hanko_totivirus_3
+      |       |                   |  |  |   |                 +--| (59)
+      |       |                   |  |  |   |                 |  +--OP019902_Hanko_totivirus_3
+      |       |                   |  |  |   |              +--| (91)
+      |       |                   |  |  |   |              |  |     +--OP019905_Hanko_totivirus_3
+      |       |                   |  |  |   |              |  |  +--| (98)
+      |       |                   |  |  |   |              |  |  |  +--OP019909_Hanko_totivirus_3
+      |       |                   |  |  |   |              |  +--| (94)
+      |       |                   |  |  |   |              |     |  +--OP019862_Hanko_totivirus_3
+      |       |                   |  |  |   |              |     +--| (99)
+      |       |                   |  |  |   |              |        +--OP020054_Hanko_totivirus_3
+      |       |                   |  |  |   |           +--| (53)
+      |       |                   |  |  |   |           |  +--OP019904_Hanko_totivirus_3
+      |       |                   |  |  |   |        +--| (74)
+      |       |                   |  |  |   |        |  +--OP019903_Hanko_totivirus_3
+      |       |                   |  |  |   |     +--| (87)
+      |       |                   |  |  |   |     |  +--OP020053_Hanko_totivirus_3
+      |       |                   |  |  |   +-----| (100)
+      |       |                   |  |  |         +--KF298277_uncultured_virus
+      |       |                   |  +--| (90)
+      |       |                   |     |      +--OP019907_Palkane_totivirus
+      |       |                   |     |   +--| (100)
+      |       |                   |     |   |  +--OP019908_Palkane_totivirus
+      |       |                   |     +---| (100)
+      |       |                   |         +--OP020114_Kuusamo_totivirus_1
+      |       |                +--| (100)
+      |       |                |  |   +--OP020068_Hanko_totivirus_7
+      |       |                |  +---| (100)
+      |       |                |      +--OP020095_Ilomantsi_totivirus_2
+      |       |             +--| (96)
+      |       |             |  |          +--OP019858_Hameenlinna_totivirus_1
+      |       |             |  |      +---| (100)
+      |       |             |  |      |   |                                      +--OP020021_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                                   +**| (28)
+      |       |             |  |      |   |                                   |  +**OP019856_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                                +--| (19)
+      |       |             |  |      |   |                                |  +--OP020005_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                             +--| (16)
+      |       |             |  |      |   |                             |  +--OP020003_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                          +--| (31)
+      |       |             |  |      |   |                          |  +--OP020011_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                       +--| (12)
+      |       |             |  |      |   |                       |  |     +--OP019855_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                       |  |  +--| (30)
+      |       |             |  |      |   |                       |  |  |  +--OP020027_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                       |  +**| (32)
+      |       |             |  |      |   |                       |     +--OP020010_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    +--| (98)
+      |       |             |  |      |   |                    |  |           +**OP019852_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |  |        +**|
+      |       |             |  |      |   |                    |  |        |  +**OP020026_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |  |     +--|
+      |       |             |  |      |   |                    |  |     |  +**OP020018_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |  |  +--| (54)
+      |       |             |  |      |   |                    |  |  |  +--OP019854_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                    |  +--| (32)
+      |       |             |  |      |   |                    |     +--OP020002_Hameenlinna_totivirus_1
+      |       |             |  |      |   |                 +--| (74)
+      |       |             |  |      |   |                 |  +--OP020014_Hameenlinna_totivirus_1
+      |       |             |  |      |   |              +--| (98)
+      |       |             |  |      |   |              |  +--OP020015_Hameenlinna_totivirus_1
+      |       |             |  |      |   |           +--| (92)
+      |       |             |  |      |   |           |  +--OP020016_Hameenlinna_totivirus_1
+      |       |             |  |      |   |        +--| (44)
+      |       |             |  |      |   |        |  +--OP020007_Hameenlinna_totivirus_1
+      |       |             |  |      |   |     +--| (56)
+      |       |             |  |      |   |     |  |  +--OP020006_Hameenlinna_totivirus_1
+      |       |             |  |      |   |     |  +--| (32)
+      |       |             |  |      |   |     |     +--OP020020_Hameenlinna_totivirus_1
+      |       |             |  |      |   |  +--| (39)
+      |       |             |  |      |   |  |  +--OP019853_Hameenlinna_totivirus_1
+      |       |             |  |      |   +--| (93)
+      |       |             |  |      |      +--OP019857_Hameenlinna_totivirus_1
+      |       |             |  |   +--| (100)
+      |       |             |  |   |  +---OP019885_Inari_totivirus_1
+      |       |             |  +---| (100)
+      |       |             |      |      +--OP020092_Ilomantsi_totivirus_1
+      |       |             |      +------| (100)
+      |       |             |             +--OP019884_Ilomantsi_totivirus_1
+      |       |          +--| (80)
+      |       |          |  |                  +--OP019888_Inari_totivirus_2
+      |       |          |  |               +--| (100)
+      |       |          |  |               |  +--OP019886_Inari_totivirus_2
+      |       |          |  |            +--| (100)
+      |       |          |  |            |  +--OP019887_Inari_totivirus_2
+      |       |          |  |      +-----| (100)
+      |       |          |  |      |     +--OP020067_Hanko_totivirus_6
+      |       |          |  +------| (100)
+      |       |          |         |          +--OP019892_Lestijarvi_totivirus
+      |       |          |         |       +--| (99)
+      |       |          |         |       |  +--OP019893_Lestijarvi_totivirus
+      |       |          |         +-------| (100)
+      |       |          |                 +--OP019894_Lestijarvi_totivirus
+      |       +----------| (100)
+      |                  |            +--NC_035130_Aedes_alboannulatus_toti-like_virus_1
+      |                  +------------| (100)
+      |                               +--NC_035131_Aedes_camptorhynchus_toti-like_virus_1
+   +--| (97)
+   |  |  +--------------------------------NC_032883_Hubei_toti-like_virus_9
+   |  +--| (100)
+   |     |                        +--MZ209683_Hangzhou_totivirus_6
+   |     |                +-------| (100)
+   |     |                |       +--MZ209684_Hangzhou_totivirus_7
+   |     |      +---------| (100)
+   |     |      |         +--------MZ218558_Totiviridae_sp_
+   |     |  +---| (90)
+   |     |  |   +--------------------------------------------KX882968_Hubei_toti-like_virus_11
+   |     +--| (78)
+   |        |              +------------KX882971_Hubei_toti-like_virus_7
+   |        |         +----| (100)
+   |        |         |    +----------MZ218579_Totiviridae_sp_
+   |        +---------| (100)
+   |                  +----------------KX882965_Hubei_toti-like_virus_8
++--| (93)
+|  +--------------------------MW826407_Totiviridae_sp_
+|
+|                 +-----------MN661074_Atrato_virus
+|        +--------| (100)
+|        |        +---------MN661077_Murri_virus
++--------| (100)
+|        +-----------------MN803436_Schistocephalus_solidus_toti-like_virus_2
+|
++----------------------------MW588195_Mute_swan_feces_associated_toti-like_virus_3
+
+
+Consensus tree in newick format: 
+
+(((((((((((((LC567881_Culex_vishnui_subgroup_totivirus:0.0021114438,LC514295_Culex_vishnui_subgroup_totivirus:0.0000029810)100:0.0093261060,Culex_vishnui_subgroup_totivirus_F1143C11F1143:0.0128487591)100:0.1241082646,(((Agrichlet_virus_F1434C1F1434:0.0000029810,Agrichlet_virus_F1434C1F1456:0.0021142498)57:0.0000029810,Agrichlet_virus_F1434C1F1445:0.0011855938)99:0.0009219890,Agrichlet_virus_F1434C1F1407:0.0022216038)100:0.1130727299)100:0.1533440316,MK440659_Salja_virus:0.2971614814)100:0.1177680718,((MW434959_Tzifr_virus:0.0425303256,((MW434961_Tzifr_virus:0.0010498648,MW434964_Tzifr_virus:0.0021054859)97:0.0039281229,((MW434960_Tzifr_virus:0.0010531792,MW434963_Tzifr_virus:0.0000029810)60:0.0000029810,MW434962_Tzifr_virus:0.0053398367)100:0.0045846400)99:0.0254701477)100:0.2610433052,(MW434955_Snelk_virus:0.0139493729,MW434957_Stinn_virus:0.0231248746)100:0.2136308823)100:0.2636177051)97:0.0739478409,MK440645_Osta_virus:0.3457458224)100:0.3807147581,(((((((Aeriandims_virus_subsp1_F1156C2F1045:0.0031623326,Aeriandims_virus_subsp1_F1156C2F1142:0.0000029810)100:0.0010452804,Aeriandims_virus_subsp1_F1156C2F1156:0.0021063433)100:0.0073369698,Aeriandims_virus_subsp2_F1583C1F1583:0.0363140147)100:0.0770819846,OL700194_XiangYun_toti-like_virus_5:0.1274452471)100:0.0990152512,MT498828_Fitzroy_Crossing_toti-like_virus_2:0.2110614717)100:0.0836803377,OL700198_XiangYun_toti-like_virus_9:0.2756598834)100:0.2695754243,((MW434945_Gouley_virus:0.0395449153,MW434952_Mika_virus:0.0359128100)100:0.1627981942,(MW434949_Lotchka_virus:0.0072719144,(MW434951_Lotchka_virus:0.0041792868,MW434950_Lotchka_virus:0.0062909257)100:0.0011207018)100:0.2118139171)100:0.3230455426)100:0.4742208797)100:0.1347299968,((((((OP019864_Hanko_totivirus_8:0.0000029842,OP019865_Hanko_totivirus_8:0.0021020716)100:0.2079502183,(((OP019850_Enontekio_totivirus_2:0.0004310662,OP019990_Enontekio_totivirus_2:0.0036014713)100:0.0963524121,OP019889_Joutseno_totivirus:0.0962870844)100:0.0951827986,OP020129_Vaasa_totivirus:0.1896931452)88:0.0359048456)100:0.1751417484,(((((((OP019873_Hattula_totivirus_2:0.0020952243,((OP020073_Hattula_totivirus_2:0.0038667045,OP020077_Hattula_totivirus_2:0.0015694068)95:0.0015576194,OP020076_Hattula_totivirus_2:0.0019581964)83:0.0000029810)80:0.0041734577,OP019876_Hattula_totivirus_2:0.0020840589)46:0.0000029810,(OP019872_Hattula_totivirus_2:0.0000029810,((OP020080_Hattula_totivirus_2:0.0010163814,OP020078_Hattula_totivirus_2:0.0000029810)44:0.0000245383,OP020079_Hattula_totivirus_2:0.0020830070)17:0.0000029810)13:0.0000029810)10:0.0000029810,OP019875_Hattula_totivirus_2:0.0020846766)76:0.0020840011,OP019874_Hattula_totivirus_2:0.0000029810)67:0.0000026174,OP020075_Hattula_totivirus_2:0.0052080065)100:0.2725525471,KP642123_dsRNA_virus_environmental_sample:0.3158790355)100:0.1325071247)100:0.1171532679,(KP642121_dsRNA_virus_environmental_sample:0.0000020724,KP642124_dsRNA_virus_environmental_sample:0.0102932389)100:0.7153233722)80:0.0657695830,(((Aftionautor_virus_F1470C2F1470:0.0013068952,Aftionautor_virus_F1470C2F1471:0.0059976382)100:0.0534048210,(Wrunlize_virus_F1469C738F1469:0.0046938917,Wrunlize_virus_F1469C738F1615:0.0019071688)95:0.0164908467)100:0.6042402384,Coundenality_virus_F1183C376F1183:0.5428975330)96:0.1282327987)97:0.0874636494,(((((Aedes_aegypti_toti_like_virus_F1063C6F1002:0.0017448482,Aedes_aegypti_toti_like_virus_F1063C6F1063:0.0033667784)95:0.0213319721,((KP642128_dsRNA_virus_environmental_sample:0.0122171835,(MN053721_Aedes_aegypti_toti-like_virus:0.0022842930,MN053720_Aedes_aegypti_toti-like_virus:0.0011361458)87:0.0042415097)70:0.0016243889,OL343758_Palmetto_toti-like_virus:0.0038215077)85:0.0170284657)100:0.4054643672,((Adjoured_virus_F1191C7F1194:0.0011419415,Adjoured_virus_F1191C7F1191:0.0093479248)100:0.5647885706,(((Adsentalan_virus_F1186C10F1177:0.0011374552,Adsentalan_virus_F1186C10F1186:0.0064915755)97:0.0034939684,Adsentalan_virus_F1186C10F1187:0.0045661478)97:0.0402624034,((Flatesals_virus_F1187C10F1178:0.0056008815,Flatesals_virus_F1187C10F1187:0.0038025060)99:0.0024898533,Flatesals_virus_F1187C10F1177:0.0024884860)100:0.0303261042)100:0.4498082986)84:0.0771002282)100:0.1925240395,(Adlissaust_virus_F1183C2F1183:0.3392703793,Belfgalbs_virus_F1490C6F1490:0.4065990942)100:0.2526666974)91:0.0535965096,NC_032733_Hubei_toti-like_virus_10:0.6252654222)95:0.1059935281)99:0.0820360968)100:0.1562123840,(((((OP019866_Hanko_totivirus_9:0.0000029810,OP019867_Hanko_totivirus_9:0.0010881078)69:0.0000024900,(OP019900_Hanko_totivirus_9:0.0097562490,OP020069_Hanko_totivirus_9:0.0041642921)99:0.0014045097)100:0.3485721008,OP019991_Enontekio_totivirus_3:0.2289715324)75:0.0874727742,(((OP020037_Hameenlinna_totivirus_3:0.0000022445,OP020040_Hameenlinna_totivirus_3:0.0000029810)66:0.0000022445,OP020035_Hameenlinna_totivirus_3:0.0000029842)70:0.0029124278,((OP019859_Hameenlinna_totivirus_3:0.0078190051,(OP020042_Hameenlinna_totivirus_3:0.0041065770,OP020045_Hameenlinna_totivirus_3:0.0025073629)55:0.0019198992)100:0.0044880196,OP020032_Hameenlinna_totivirus_3:0.0000029810)99:0.0042391292)100:0.3635637903)100:0.5366640408,(KP642125_dsRNA_virus_environmental_sample:0.0042140315,KP642122_dsRNA_virus_environmental_sample:0.0000025033)100:0.9040734016)66:0.0820601364)97:0.0914002454,(((((((OP020031_Hameenlinna_totivirus_2:0.0103760966,OP020030_Hameenlinna_totivirus_2:0.0000029810)89:0.0012387822,(OP020029_Hameenlinna_totivirus_2:0.0033658684,OP020028_Hameenlinna_totivirus_2:0.0039273247)44:0.0001920212)100:0.3721467831,(((((OP020059_Hanko_totivirus_5:0.0024904342,(((OP019863_Hanko_totivirus_5:0.0000022445,OP020064_Hanko_totivirus_5:0.0000029810)78:0.0000022445,(OP020066_Hanko_totivirus_5:0.0046932845,OP020065_Hanko_totivirus_5:0.0176839951)68:0.0000028151)68:0.0000022445,(OP020058_Hanko_totivirus_5:0.0040266700,OP020060_Hanko_totivirus_5:0.0020327770)62:0.0024318916)94:0.0069178489)97:0.0022892151,OP020063_Hanko_totivirus_5:0.0020232064)96:0.0007718162,OP020061_Hanko_totivirus_5:0.0033052252)100:0.3031454642,((((((OP019861_Hanko_totivirus_3:0.0010102406,OP019902_Hanko_totivirus_3:0.0000029810)59:0.0000029810,((OP019905_Hanko_totivirus_3:0.0020218753,OP019909_Hanko_totivirus_3:0.0010136461)98:0.0010080884,(OP019862_Hanko_totivirus_3:0.0010112821,OP020054_Hanko_totivirus_3:0.0030329752)99:0.0020249982)94:0.0010110857)91:0.0010107352,OP019904_Hanko_totivirus_3:0.0020246041)53:0.0000029810,OP019903_Hanko_totivirus_3:0.0020238026)74:0.0011152039,OP020053_Hanko_totivirus_3:0.0019419416)87:0.0124914772,KF298277_uncultured_virus:0.0113747398)100:0.2792554455)100:0.1851968680,((OP019907_Palkane_totivirus:0.0022031697,OP019908_Palkane_totivirus:0.0039055162)100:0.1434534825,OP020114_Kuusamo_totivirus_1:0.1221099924)100:0.1930509229)90:0.0575421013)78:0.0577742575,(OP020068_Hanko_totivirus_7:0.1312641660,OP020095_Ilomantsi_totivirus_2:0.1496297731)100:0.1719239350)100:0.1481075114,(((OP019858_Hameenlinna_totivirus_1:0.0000022662,(((((((((((((OP020021_Hameenlinna_totivirus_1:0.0000029810,OP019856_Hameenlinna_totivirus_1:0.0000015436)28:0.0000019636,OP020005_Hameenlinna_totivirus_1:0.0000029810)19:0.0000029810,OP020003_Hameenlinna_totivirus_1:0.0045660508)16:0.0000022151,OP020011_Hameenlinna_totivirus_1:0.0000029810)31:0.0010131752,((OP019855_Hameenlinna_totivirus_1:0.0010162947,OP020027_Hameenlinna_totivirus_1:0.0000029810)30:0.0000055421,OP020010_Hameenlinna_totivirus_1:0.0000029810)32:0.0000012017)12:0.0000029810,((((OP019852_Hameenlinna_totivirus_1:0.0000000000,OP020026_Hameenlinna_totivirus_1:0.0000000000):0.0000000000,OP020018_Hameenlinna_totivirus_1:0.0000000000):0.0000029810,OP019854_Hameenlinna_totivirus_1:0.0000029810)54:0.0000029810,OP020002_Hameenlinna_totivirus_1:0.0000029810)32:0.0000029810)98:0.0023906761,OP020014_Hameenlinna_totivirus_1:0.0000029810)74:0.0000029842,OP020015_Hameenlinna_totivirus_1:0.0031813991)98:0.0032139504,OP020016_Hameenlinna_totivirus_1:0.0047521584)92:0.0015869433,OP020007_Hameenlinna_totivirus_1:0.0019652282)44:0.0000029842,(OP020006_Hameenlinna_totivirus_1:0.0028894055,OP020020_Hameenlinna_totivirus_1:0.0040733749)32:0.0006153503)56:0.0000029810,OP019853_Hameenlinna_totivirus_1:0.0010205954)39:0.0000029810,OP019857_Hameenlinna_totivirus_1:0.0010206493)93:0.0010199722)100:0.1992629947,OP019885_Inari_totivirus_1:0.1834889041)100:0.1030397850,(OP020092_Ilomantsi_totivirus_1:0.0140955035,OP019884_Ilomantsi_totivirus_1:0.0000020304)100:0.2977288548)100:0.1999635489)96:0.1031157678,((((OP019888_Inari_totivirus_2:0.0062494126,OP019886_Inari_totivirus_2:0.0020746073)100:0.0034709524,OP019887_Inari_totivirus_2:0.0006675023)100:0.1189916271,OP020067_Hanko_totivirus_6:0.0846251792)100:0.2705032939,((OP019892_Lestijarvi_totivirus:0.0010223652,OP019893_Lestijarvi_totivirus:0.0000029810)99:0.0010201346,OP019894_Lestijarvi_totivirus:0.0000029810)100:0.3535475738)100:0.3016074768)80:0.0660917990,(NC_035130_Aedes_alboannulatus_toti-like_virus_1:0.0011406957,NC_035131_Aedes_camptorhynchus_toti-like_virus_1:0.0021534070)100:0.5548902131)100:0.4805784570)100:0.3599531233,(NC_032883_Hubei_toti-like_virus_9:1.3415489869,((((MZ209683_Hangzhou_totivirus_6:0.1410696194,MZ209684_Hangzhou_totivirus_7:0.1310227812)100:0.3262659701,MZ218558_Totiviridae_sp_:0.4009544643)100:0.4172742742,KX882968_Hubei_toti-like_virus_11:1.8136710806)90:0.1679043044,((KX882971_Hubei_toti-like_virus_7:0.5313103797,MZ218579_Totiviridae_sp_:0.4763802688)100:0.2167243045,KX882965_Hubei_toti-like_virus_8:0.7210409282)100:0.4314156893)78:0.0472346587)100:0.1541453739)97:0.1011218294,MW826407_Totiviridae_sp_:1.1015593452)93:0.1322456343,((MN661074_Atrato_virus:0.5069860885,MN661077_Murri_virus:0.4174418016)100:0.3741259861,MN803436_Schistocephalus_solidus_toti-like_virus_2:0.7529037732)100:0.3972617979,MW588195_Mute_swan_feces_associated_toti-like_virus_3:1.1971444188);
+
+TIME STAMP
+----------
+
+Date and time: Tue Jan 17 18:20:53 2023
+Total CPU time used: 31952.74164 seconds (8h:52m:32s)
+Total wall-clock time used: 1807.868115 seconds (0h:30m:7s)
+

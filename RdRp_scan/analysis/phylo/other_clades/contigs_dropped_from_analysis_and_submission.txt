@@ -1,0 +1,8 @@
+orf_id	contig_id	rdrp_scan_vir_group	BestHit_class	BestHit_order	BestHit_family	BestHit_genus	BestHit_species	BestHit_pident
+F1172_NODE_144_length_2542_cov_1.231604_1	F1172_NODE_144_length_2542_cov_1.231604	Ellioviricetes	Ellioviricetes	NA	NA	NA	Riboviria sp.	45.8
+F1198_NODE_97_length_1341_cov_56.915241_1	F1198_NODE_97_length_1341_cov_56.915241	Monjiviricetes	Monjiviricetes	NA	NA	NA	Canya virus	61.5
+F1621_NODE_1440_length_951_cov_4.206473_1	F1621_NODE_1440_length_951_cov_4.206473	Ellioviricetes	Ellioviricetes	NA	NA	NA	Riboviria sp.	51.6
+F1469_NODE_1254_length_1943_cov_3.096398_1	F1469_NODE_1254_length_1943_cov_3.096398	Monjiviricetes	Monjiviricetes	NA	NA	NA	Canya virus	35.3
+F1632_NODE_476_length_2529_cov_2.204931_1	F1632_NODE_476_length_2529_cov_2.204931	Monjiviricetes	Monjiviricetes	NA	NA	NA	Canya virus	37.8
+F1632_NODE_737_length_2202_cov_1.634839_1	F1632_NODE_737_length_2202_cov_1.634839	Monjiviricetes	Monjiviricetes	NA	NA	NA	Canya virus	39.4
+F1621_NODE_24_length_3179_cov_5.991997_1concat2	F1621_NODE_24_length_3179_cov_5.991997	Ellioviricetes	Ellioviricetes	NA	NA	NA	Riboviria sp.	44.1

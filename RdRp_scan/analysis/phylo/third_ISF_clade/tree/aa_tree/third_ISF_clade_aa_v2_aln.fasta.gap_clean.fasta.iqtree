@@ -1,0 +1,245 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 870707
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 15 sequences with 2948 amino-acid sites
+Number of constant sites: 65 (= 2.20488% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 65 (= 2.20488% of all sites)
+Number of parsimony informative sites: 2734
+Number of distinct site patterns: 2899
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R4         -105223.629  210551.257 +        1  210553.161 +        1  210862.679 +        1
+Blosum62+F+R4   -105348.179  210800.358 -  8.1e-55  210802.262 -  8.1e-55  211111.780 -  8.1e-55
+rtREV+F+R4      -105358.954  210821.909 - 1.69e-59  210823.813 - 1.69e-59  211133.330 - 1.69e-59
+VT+F+R4         -105369.641  210843.281 - 3.87e-64  210845.185 - 3.87e-64  211154.703 - 3.87e-64
+PMB+F+R4        -105378.636  210861.272 -  4.8e-68  210863.176 -  4.8e-68  211172.694 -  4.8e-68
+LG+R4           -105459.502  210985.003 - 6.51e-95  210985.773 - 1.15e-94  211182.636 - 3.33e-70
+LG+R5           -105458.794  210987.588 - 1.79e-95  210988.454 -    3e-95  211197.199 - 2.29e-73
+LG+R3           -105497.237  211056.474 - 1.97e-110  211057.155 - 3.62e-110  211242.130 - 4.01e-83
+Blosum62+R4     -105494.260  211054.519 - 5.23e-110  211055.289 - 9.21e-110  211252.152 - 2.67e-85
+WAG+F+R4        -105440.936  210985.871 - 4.21e-95  210987.775 - 4.21e-95  211297.293 - 4.21e-95
+PMB+R4          -105547.415  211160.831 - 4.29e-133  211161.601 - 7.57e-133  211358.464 - 2.2e-108
+LG+I+G4         -105563.640  211185.281 - 2.11e-138  211185.877 - 4.05e-138  211358.958 - 1.72e-108
+VT+R4           -105689.709  211445.417 - 6.85e-195  211446.187 - 1.21e-194  211643.051 - 3.5e-170
+LG+G4           -105731.017  211518.035 - 1.17e-210  211518.591 - 2.29e-210  211685.723 - 1.9e-179
+LG+R2           -105752.601  211563.202 - 1.82e-220  211563.798 - 3.49e-220  211736.880 - 1.48e-190
+WAG+R4          -105792.307  211650.615 - 1.89e-239  211651.385 - 3.34e-239  211848.248 - 9.69e-215
+cpREV+F+R4      -106022.487  212148.975 -        0  212150.879 -        0  212460.397 -        0
+JTT+F+R4        -106146.531  212397.062 -        0  212398.966 -        0  212708.484 -        0
+JTTDCMut+F+R4   -106154.689  212413.378 -        0  212415.282 -        0  212724.800 -        0
+mtInv+F+R4      -106233.113  212570.227 -        0  212572.131 -        0  212881.648 -        0
+rtREV+R4        -106332.833  212731.667 -        0  212732.437 -        0  212929.300 -        0
+cpREV+R4        -106419.767  212905.533 -        0  212906.303 -        0  213103.166 -        0
+JTT+R4          -106482.441  213030.881 -        0  213031.651 -        0  213228.514 -        0
+JTTDCMut+R4     -106487.860  213041.720 -        0  213042.490 -        0  213239.353 -        0
+DCMut+F+R4      -106436.040  212976.080 -        0  212977.984 -        0  213287.502 -        0
+Dayhoff+F+R4    -106437.647  212979.295 -        0  212981.199 -        0  213290.717 -        0
+mtZOA+F+R4      -106453.593  213011.187 -        0  213013.091 -        0  213322.608 -        0
+LG+I            -106640.505  213337.011 -        0  213337.567 -        0  213504.699 -        0
+mtMet+F+R4      -106692.557  213489.114 -        0  213491.018 -        0  213800.536 -        0
+FLU+F+R4        -106803.921  213711.842 -        0  213713.746 -        0  214023.264 -        0
+mtREV+F+R4      -106843.200  213790.399 -        0  213792.303 -        0  214101.821 -        0
+HIVb+F+R4       -107072.240  214248.480 -        0  214250.384 -        0  214559.902 -        0
+mtART+F+R4      -107077.204  214258.409 -        0  214260.313 -        0  214569.831 -        0
+LG              -107241.424  214536.849 -        0  214537.367 -        0  214698.549 -        0
+DCMut+R4        -107401.855  214869.710 -        0  214870.480 -        0  215067.343 -        0
+Dayhoff+R4      -107404.048  214874.095 -        0  214874.865 -        0  215071.729 -        0
+FLU+R4          -107547.313  215160.627 -        0  215161.397 -        0  215358.260 -        0
+HIVb+R4         -107619.048  215304.095 -        0  215304.865 -        0  215501.729 -        0
+mtVer+F+R4      -107544.291  215192.582 -        0  215194.486 -        0  215504.004 -        0
+mtMAM+F+R4      -107992.993  216089.987 -        0  216091.891 -        0  216401.409 -        0
+HIVw+F+R4       -108801.852  217707.704 -        0  217709.608 -        0  218019.126 -        0
+mtZOA+R4        -109309.242  218684.483 -        0  218685.253 -        0  218882.116 -        0
+mtMet+R4        -110609.062  221284.124 -        0  221284.894 -        0  221481.757 -        0
+mtREV+R4        -110913.302  221892.603 -        0  221893.373 -        0  222090.237 -        0
+mtART+R4        -111029.610  222125.219 -        0  222125.989 -        0  222322.852 -        0
+HIVw+R4         -111104.285  222274.569 -        0  222275.339 -        0  222472.202 -        0
+mtInv+R4        -111357.212  222780.424 -        0  222781.194 -        0  222978.057 -        0
+mtVer+R4        -111433.530  222933.060 -        0  222933.830 -        0  223130.693 -        0
+mtMAM+R4        -111940.263  223946.527 -        0  223947.297 -        0  224144.160 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0731
+  pi(R) = 0.0515
+  pi(N) = 0.0472
+  pi(D) = 0.0518
+  pi(C) = 0.0231
+  pi(Q) = 0.0319
+  pi(E) = 0.0566
+  pi(G) = 0.0646
+  pi(H) = 0.0231
+  pi(I) = 0.0690
+  pi(L) = 0.0808
+  pi(K) = 0.0638
+  pi(M) = 0.0271
+  pi(F) = 0.0411
+  pi(P) = 0.0334
+  pi(S) = 0.0669
+  pi(T) = 0.0657
+  pi(W) = 0.0152
+  pi(Y) = 0.0381
+  pi(V) = 0.0762
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.0414,0.0392) (0.1696,0.3482) (0.5121,0.8832) (0.2768,1.7592)
+
+ Category  Relative_rate  Proportion
+  1         0.0392         0.0414
+  2         0.3482         0.1696
+  3         0.8832         0.5121
+  4         1.7592         0.2768
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -105223.4947 (s.e. 453.1907)
+Unconstrained log-likelihood (without tree): -23446.6050
+Number of free parameters (#branches + #model parameters): 52
+Akaike information criterion (AIC) score: 210550.9894
+Corrected Akaike information criterion (AICc) score: 210552.8934
+Bayesian information criterion (BIC) score: 210862.4113
+
+Total tree length (sum of branch lengths): 24.0013
+Sum of internal branch lengths: 1.9452 (8.1047% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NC_035071_Apis_flavivirus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++------------------NC_035071_Apis_flavivirus
+|
+|                    +------------------------------------------NC_030228_Xinzhou_spider_virus_3
+|                 +--| (61)
+|                 |  |               +--------------------NC_028375_Shayang_fly_virus_4
+|                 |  |            +--| (77)
+|                 |  |            |  +--------------------NC_028373_Shuangao_lacewing_virus_2
+|                 |  |         +--| (98)
+|                 |  |         |  +-------------------------NC_028370_Xingshan_cricket_virus
+|                 |  |     +---| (98)
+|                 |  |     |   +---------------------NC_028374_Gamboa_mosquito_virus
+|                 |  +-----| (100)
+|                 |        +-------------------------LC516844_Barley_aphid_RNA_virus_9
+|              +--| (74)
+|              |  +---------------------------------NC_028367_Tacheng_tick_virus_8
+|           +--| (99)
+|           |  +----------------------------------NC_024077_Soybean_cyst_nematode_virus_5
+|        +--| (67)
+|        |  +-------------------------Mummution_virus_F1187C1F1187
+|     +--| (83)
+|     |  +-------------------------------MN661082_Atrato_Flavi-like_virus_1
+|  +--| (99)
+|  |  +-------------------------MN714664_Frankliniella_occidentalis_flavi-like_virus_1
++--| (76)
+|  |  +------------------MW314681_Odonatan_flavi-related_virus
+|  +--| (86)
+|     +-------------------AB698918_Gentian_Kobu-sho-associated_virus
+|
++--------------------MH620810_Lampyris_noctiluca_flavivirus_1
+
+Tree in newick format:
+
+(NC_035071_Apis_flavivirus:1.1023742541,(((((((NC_030228_Xinzhou_spider_virus_3:2.4132336434,((((NC_028375_Shayang_fly_virus_4:1.1683606059,NC_028373_Shuangao_lacewing_virus_2:1.1924566360)77:0.1404522565,NC_028370_Xingshan_cricket_virus:1.4541447676)98:0.1596370482,NC_028374_Gamboa_mosquito_virus:1.2164638683)98:0.2276895019,LC516844_Barley_aphid_RNA_virus_9:1.4809317510)100:0.3631518564)61:0.1267616995,NC_028367_Tacheng_tick_virus_8:1.9185323881)74:0.1370142228,NC_024077_Soybean_cyst_nematode_virus_5:1.9851711784)99:0.1864778011,Mummution_virus_F1187C1F1187:1.4771492679)67:0.0933431088,MN661082_Atrato_Flavi-like_virus_1:1.7786917654)83:0.0999820859,MN714664_Frankliniella_occidentalis_flavi-like_virus_1:1.4401833433)99:0.1352889074,(MW314681_Odonatan_flavi-related_virus:1.0714877977,AB698918_Gentian_Kobu-sho-associated_virus:1.1465238894)86:0.1507999752)76:0.1246273337,MH620810_Lampyris_noctiluca_flavivirus_1:1.2103903276);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -105223.494023
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++------------------NC_035071_Apis_flavivirus
+|
+|                    +------------------------------------------NC_030228_Xinzhou_spider_virus_3
+|                 +--| (61)
+|                 |  |               +--------------------NC_028375_Shayang_fly_virus_4
+|                 |  |            +--| (77)
+|                 |  |            |  +--------------------NC_028373_Shuangao_lacewing_virus_2
+|                 |  |         +--| (98)
+|                 |  |         |  +-------------------------NC_028370_Xingshan_cricket_virus
+|                 |  |     +---| (98)
+|                 |  |     |   +---------------------NC_028374_Gamboa_mosquito_virus
+|                 |  +-----| (100)
+|                 |        +-------------------------LC516844_Barley_aphid_RNA_virus_9
+|              +--| (74)
+|              |  +---------------------------------NC_028367_Tacheng_tick_virus_8
+|           +--| (99)
+|           |  +----------------------------------NC_024077_Soybean_cyst_nematode_virus_5
+|        +--| (67)
+|        |  +-------------------------Mummution_virus_F1187C1F1187
+|     +--| (83)
+|     |  +-------------------------------MN661082_Atrato_Flavi-like_virus_1
+|  +--| (99)
+|  |  +-------------------------MN714664_Frankliniella_occidentalis_flavi-like_virus_1
++--| (76)
+|  |  +------------------MW314681_Odonatan_flavi-related_virus
+|  +--| (86)
+|     +-------------------AB698918_Gentian_Kobu-sho-associated_virus
+|
++--------------------MH620810_Lampyris_noctiluca_flavivirus_1
+
+
+Consensus tree in newick format: 
+
+(NC_035071_Apis_flavivirus:1.1020529884,(((((((NC_030228_Xinzhou_spider_virus_3:2.4120652880,((((NC_028375_Shayang_fly_virus_4:1.1677343740,NC_028373_Shuangao_lacewing_virus_2:1.1918229467)77:0.1405733037,NC_028370_Xingshan_cricket_virus:1.4534012910)98:0.1597305885,NC_028374_Gamboa_mosquito_virus:1.2158941859)98:0.2276232291,LC516844_Barley_aphid_RNA_virus_9:1.4801932012)100:0.3629419240)61:0.1267213434,NC_028367_Tacheng_tick_virus_8:1.9176282895)74:0.1369214948,NC_024077_Soybean_cyst_nematode_virus_5:1.9842764893)99:0.1865923322,Mummution_virus_F1187C1F1187:1.4766923492)67:0.0933817913,MN661082_Atrato_Flavi-like_virus_1:1.7780659869)83:0.0999747671,MN714664_Frankliniella_occidentalis_flavi-like_virus_1:1.4397214743)99:0.1353578482,(MW314681_Odonatan_flavi-related_virus:1.0711954638,AB698918_Gentian_Kobu-sho-associated_virus:1.1461329514)86:0.1510480716)76:0.1248291859,MH620810_Lampyris_noctiluca_flavivirus_1:1.2100255432);
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov 28 11:34:24 2022
+Total CPU time used: 429.908346 seconds (0h:7m:9s)
+Total wall-clock time used: 36.80588702 seconds (0h:0m:36s)
+

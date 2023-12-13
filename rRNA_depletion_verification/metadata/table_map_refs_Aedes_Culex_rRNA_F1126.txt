@@ -1,0 +1,2 @@
+sample	refs
+F1126	Culex_quinquefasciatus_28S_AAWU01040617

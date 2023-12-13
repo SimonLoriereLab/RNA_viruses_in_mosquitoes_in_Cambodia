@@ -1,0 +1,81 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=15;
+TAXLABELS
+[1] 'MH703054_Yongsan_negev-like_virus_1'
+[2] 'MW699049_Yongsan_negev-like_virus_1'
+[3] 'MW699048_Yongsan_negev-like_virus_1'
+[4] 'MT498834_Parry_s_Creek_negev-like_virus_1'
+[5] 'Parry_s_Creek_negev_like_virus_1_F1103C1F1103'
+[6] 'Parry_s_Creek_negev_like_virus_1_F1103C1F1107'
+[7] 'LC512731_Culex_pseudovishnui_negev-like_virus'
+[8] 'NC_035124_Culex_negev-like_virus_1'
+[9] 'MF176305_Culex_negev-like_virus_1'
+[10] 'MF176256_Culex_negev-like_virus_1'
+[11] 'MH188019_Culex_Virga-like_virus'
+[12] 'OL700052_Culex_negev-like_virus_1'
+[13] 'MH703053_Culex_negev-like_virus_1'
+[14] 'MK879802_Aedes_albopictus_negev-like_virus'
+[15] 'NC_032824_Hubei_virga-like_virus_16'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=15 nsplits=51;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	78	 1 2,
+	100	 3,
+	100	 1 2 3,
+	100	 4,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	100	 7,
+	49	 5 6 7,
+	36	 4 5 6 7,
+	100	 1 2 3 4 5 6 7,
+	100	 8,
+	100	 9,
+	86	 8 9,
+	100	 10,
+	85	 8 9 10,
+	100	 11,
+	86	 8 9 10 11,
+	100	 12,
+	100	 13,
+	74	 12 13,
+	100	 8 9 10 11 12 13,
+	100	 14 15,
+	100	 15,
+	100	 14,
+	60	 1 2 3 4,
+	51	 1 2 3 4 5 6,
+	13	 11 12 13,
+	10	 8 9 11 12 13,
+	22	 2 3,
+	22	 8 9 10 11 13,
+	12	 9 10,
+	4	 1 2 3 5 6 7,
+	1	 8 9 11,
+	4	 8 9 10 11 12,
+	3	 10 11,
+	1	 9 10 11,
+	1	 8 11 12 13,
+	1	 8 10,
+	1	 10 11 12 13,
+	0	 8 10 11 12 13,
+	0	 8 11,
+	0	 8 10 11,
+	0	 1 2 3 4 7,
+	0	 9 11 12 13,
+	0	 8 9 10 12 13,
+	0	 8 12 13,
+	0	 8 9 12 13,
+	0	 10 12 13,
+;
+END; [Splits]
+

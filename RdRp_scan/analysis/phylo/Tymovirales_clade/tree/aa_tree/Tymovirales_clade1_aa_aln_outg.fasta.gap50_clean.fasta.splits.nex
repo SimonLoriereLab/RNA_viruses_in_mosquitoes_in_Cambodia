@@ -1,0 +1,98 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=19;
+TAXLABELS
+[1] 'MN053826_Guadeloupe_Culex_tymo-like_virus'
+[2] 'MN053827_Guadeloupe_Culex_tymo-like_virus'
+[3] 'MN053825_Guadeloupe_Culex_tymo-like_virus'
+[4] 'Guadeloupe_Culex_tymo_like_virus_F1120C2F1120'
+[5] 'Guadeloupe_Culex_tymo_like_virus_F1120C2F1117'
+[6] 'Guadeloupe_Culex_tymo_like_virus_F1120C2F1116'
+[7] 'MH188018_Culex_originated_Tymoviridae-like_virus'
+[8] 'MN510431_Culex_originated_Tymoviridae-like_virus'
+[9] 'MW434965_Guadeloupe_Culex_tymo-like_virus'
+[10] 'MZ556262_Sichuan_mosquito_tymo-like_virus'
+[11] 'OL700056_Guadeloupe_Culex_tymo-like_virus'
+[12] 'MW452308_Tymoviridae_sp_'
+[13] 'MK440641_Tarnsjo_virus'
+[14] 'MK440631_Tarnsjo_virus'
+[15] 'LC512732_Culex_pseudovishnui_tymo-like_virus'
+[16] 'MT435496_Gonipterus_platensis_Macula-Like_virus'
+[17] 'MW864076_Tymoviridae_sp__XZN137671'
+[18] 'MW520376_Xanthi_tymo-likevirus'
+[19] 'MZ556269_Sichuan_mosquito_tymo-like_virus'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=19 nsplits=64;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	86	 1 2,
+	100	 3,
+	100	 1 2 3,
+	100	 4,
+	100	 5,
+	94	 4 5,
+	100	 6,
+	93	 4 5 6,
+	64	 1 2 3 4 5 6,
+	100	 7,
+	100	 8,
+	86	 7 8,
+	100	 9,
+	54	 7 8 9,
+	100	 1 2 3 4 5 6 7 8 9,
+	100	 10,
+	100	 11,
+	100	 12,
+	27	 11 12,
+	100	 10 11 12,
+	99	 13 14 15 16 17 18 19,
+	100	 13,
+	97	 14 15 16 17 18 19,
+	100	 14,
+	100	 15 16 17 18 19,
+	100	 15,
+	100	 16 17 18 19,
+	100	 16,
+	100	 17,
+	100	 16 17,
+	5	 18 19,
+	100	 19,
+	100	 18,
+	19	 1 2 3 4 5 6 7 8,
+	72	 10 11,
+	85	 16 17 18,
+	6	 4 5 8,
+	14	 4 5 6 8,
+	12	 1 2 3 4 5 6 8,
+	7	 7 9,
+	7	 1 2 3 7 8 9,
+	6	 5 8,
+	3	 13 14,
+	0	 5 6,
+	13	 1 2 3 4 5 6 9,
+	10	 16 17 19,
+	10	 1 3,
+	14	 4 5 6 7 8 9,
+	4	 1 2 3 4 5 6 8 9,
+	5	 4 5 6 7 8,
+	0	 10 11 12 13 14,
+	2	 4 5 6 9,
+	5	 2 3,
+	1	 6 8,
+	1	 1 2 3 9,
+	0	 4 5 6 8 9,
+	1	 10 12,
+	0	 4 6,
+	0	 4 8,
+	1	 1 2 3 7 8,
+	1	 10 11 12 13,
+	0	 1 2 3 4 5 6 7 9,
+;
+END; [Splits]
+

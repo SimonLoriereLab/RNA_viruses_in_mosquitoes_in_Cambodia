@@ -1,0 +1,191 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=89;
+	taxlabels
+	Colokingly_virus_F1527C217F1019[&!color=#d40400]
+	Colokingly_virus_F1527C217F1021[&!color=#d40400]
+	Colokingly_virus_F1527C217F1094[&!color=#d40400]
+	Colokingly_virus_F1527C217F1096[&!color=#d40400]
+	Colokingly_virus_F1527C217F1100[&!color=#d40400]
+	Colokingly_virus_F1527C217F1211[&!color=#d40400]
+	Colokingly_virus_F1527C217F1381[&!color=#d40400]
+	Colokingly_virus_F1527C217F1382[&!color=#d40400]
+	Colokingly_virus_F1527C217F1527[&!color=#d40400]
+	Colokingly_virus_F1527C217F1534[&!color=#d40400]
+	Comfornsto_virus_F1216C3F1183[&!color=#d40400]
+	Comfornsto_virus_F1216C3F1216[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1016[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1017[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1070[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1071[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1073[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1078[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1083[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1171[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1339[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1351[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1352[&!color=#d40400]
+	Guangzhou_sobemo_like_virus_F1517C31F1517[&!color=#d40400]
+	KX882764_Hubei_mosquito_virus_2
+	LC513833_Culex_inatomii_luteo-like_virus
+	MH703049_Yongsan_sobemo-like_virus_1
+	MK285337_Renna_virus
+	MK440646_Marma_virus
+	MN053787_Guadeloupe_mosquito_virus
+	MN053789_Guadeloupe_mosquito_virus
+	MN053791_Guadeloupe_mosquito_virus
+	MN053797_Guadeloupe_mosquito_virus
+	MN053803_Guadeloupe_mosquito_virus
+	MN661097_Atrato_Sobemo-like_virus_5
+	MN661099_Atrato_Sobemo-like_virus_5
+	MN661107_Atrato_Sobemo-like_virus_5
+	MT096519_Wenzhou_sobemo-like_virus_4
+	MT361053_Guangzhou_sobemo-like_virus
+	MT361055_Guangzhou_sobemo-like_virus
+	MT361059_Guangzhou_sobemo-like_virus
+	MT361061_Guangzhou_sobemo-like_virus
+	MT361063_Kisumu_mosquito_virus
+	MT361065_Kwale_mosquito_virus
+	MT896210_Aedes_sobemo-like_virus
+	MT896211_Aedes_sobemo-like_virus
+	MW030470_Hubei_mosquito_virus_2
+	MW030472_Hubei_mosquito_virus_2
+	MW030476_Hubei_mosquito_virus_2
+	MW030478_Hubei_mosquito_virus_2
+	MW030480_Hubei_mosquito_virus_2
+	MW030482_Hubei_mosquito_virus_2
+	MW030484_Hubei_mosquito_virus_2
+	MW030486_Hubei_mosquito_virus_2
+	MW030488_Hubei_mosquito_virus_2
+	'MW199227_Virus_sp.'
+	MW310331_Zeugodacus_cucurbitae_sobemovirus_isolate_Bc
+	MW310351_Zeugodacus_cucurbitae_sobemovirus
+	MW434812_Guadeloupe_mosquito_virus
+	MW434813_Guadeloupe_mosquito_virus
+	MW434821_Kellev_virus
+	MW434863_Marma_virus
+	MW434872_Marma_virus
+	MW434875_Marma_virus
+	MW434902_Marma_virus
+	MZ443571_Vespula_vulgaris_Sobemo-like_virus_1
+	MZ556263_Sichuan_mosquito_sobemo-like_virus
+	NC_033138_Wenzhou_sobemo-like_virus_4
+	NC_033305_Hubei_mosquito_virus_2
+	Peninsere_virus_F1127C300F1032[&!color=#d40400]
+	Peninsere_virus_F1127C300F1056[&!color=#d40400]
+	Peninsere_virus_F1127C300F1127[&!color=#d40400]
+	Peninsere_virus_F1127C300F1132[&!color=#d40400]
+	Peninsere_virus_F1127C300F1156[&!color=#d40400]
+	Peninsere_virus_F1127C300F1450[&!color=#d40400]
+	Peninsere_virus_F1127C300F1461[&!color=#d40400]
+	Pirounced_virus_F1032C17F1032[&!color=#d40400]
+	Pirounced_virus_F1032C17F1034[&!color=#d40400]
+	Pirounced_virus_F1032C17F1056[&!color=#d40400]
+	Pirounced_virus_F1032C17F1127[&!color=#d40400]
+	Pirounced_virus_F1032C17F1266[&!color=#d40400]
+	Pirounced_virus_F1032C17F1271[&!color=#d40400]
+	Pirounced_virus_F1032C17F1305[&!color=#d40400]
+	Pirounced_virus_F1032C17F1316[&!color=#d40400]
+	Pirounced_virus_F1032C17F1325[&!color=#d40400]
+	Pirounced_virus_F1032C17F1461[&!color=#d40400]
+	Pirounced_virus_F1032C17F1585[&!color=#d40400]
+	Pirounced_virus_F1032C17F1604[&!color=#d40400]
+	Pirounced_virus_F1032C17F1607[&!color=#d40400]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((((((((((((((Peninsere_virus_F1127C300F1056:0.0,Pirounced_virus_F1032C17F1305:0.0):0.0,Pirounced_virus_F1032C17F1585:0.0):0.0,Pirounced_virus_F1032C17F1271:0.0):0.0,Pirounced_virus_F1032C17F1316:0.0):0.0,Pirounced_virus_F1032C17F1032:0.0):2.0E-6,(Pirounced_virus_F1032C17F1266:2.0E-6,Pirounced_virus_F1032C17F1034:2.0E-6)[&label=77]:2.0E-6)[&label=59]:2.0E-6,Pirounced_virus_F1032C17F1056:2.0E-6)[&label=32]:2.0E-6,Peninsere_virus_F1127C300F1032:2.0E-6)[&label=98]:0.004595,Pirounced_virus_F1032C17F1607:2.0E-6)[&label=97]:0.002301,((Peninsere_virus_F1127C300F1461:0.0,Pirounced_virus_F1032C17F1604:0.0):2.0E-6,Pirounced_virus_F1032C17F1461:2.0E-6)[&label=45]:2.0E-6)[&label=49]:2.0E-6,Pirounced_virus_F1032C17F1325:0.004647)[&label=96]:0.01101,LC513833_Culex_inatomii_luteo-like_virus:0.023821)[&label=93]:0.010316,((((((((((((Peninsere_virus_F1127C300F1127:0.0,Peninsere_virus_F1127C300F1156:0.0):0.0,Pirounced_virus_F1032C17F1127:0.0):2.0E-6,Peninsere_virus_F1127C300F1132:2.0E-6)[&label=72]:2.0E-6,Peninsere_virus_F1127C300F1450:0.004628)[&label=96]:0.005035,MW030476_Hubei_mosquito_virus_2:0.003857)[&label=41]:2.0E-6,KX882764_Hubei_mosquito_virus_2:2.0E-6)[&label=37]:2.0E-6,MW030482_Hubei_mosquito_virus_2:2.0E-6)[&label=96]:0.005004,MW030484_Hubei_mosquito_virus_2:0.006626)[&label=28]:2.0E-6,MW030472_Hubei_mosquito_virus_2:2.0E-6)[&label=36]:2.0E-6,MW030480_Hubei_mosquito_virus_2:2.0E-6)[&label=50]:2.0E-6,MW030488_Hubei_mosquito_virus_2:2.0E-6)[&label=54]:2.0E-6,MW030478_Hubei_mosquito_virus_2:2.0E-6)[&label=42]:3.0E-6)[&label=51]:3.0E-6,MW030486_Hubei_mosquito_virus_2:0.011719)[&label=89]:0.007066,MW030470_Hubei_mosquito_virus_2:0.017704)[&label=99]:0.064674,(((MW434902_Marma_virus:0.011325,MW434875_Marma_virus:2.0E-6)[&label=41]:2.0E-6,(MW434863_Marma_virus:2.0E-6,MW434872_Marma_virus:0.003306)[&label=26]:2.0E-6)[&label=97]:0.003306,MK440646_Marma_virus:2.0E-6)[&label=97]:0.019385)[&label=93]:0.023507,NC_033305_Hubei_mosquito_virus_2:0.082053)[&label=95]:0.036991,MT361063_Kisumu_mosquito_virus:0.073776)[&label=98]:0.046923,MH703049_Yongsan_sobemo-like_virus_1:0.15618)[&label=37]:0.00829,(((MN661099_Atrato_Sobemo-like_virus_5:0.002456,MN661097_Atrato_Sobemo-like_virus_5:0.004846)[&label=63]:0.007331,MN661107_Atrato_Sobemo-like_virus_5:2.0E-6)[&label=100]:0.253403,(MT896210_Aedes_sobemo-like_virus:0.123036,MT896211_Aedes_sobemo-like_virus:0.010929)[&label=100]:0.106321)[&label=74]:0.041977)[&label=36]:0.021287,(((((((((((((((Guangzhou_sobemo_like_virus_F1517C31F1016:0.0,Guangzhou_sobemo_like_virus_F1517C31F1083:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1078:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1517:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1351:0.0):0.0,Guangzhou_sobemo_like_virus_F1517C31F1339:0.0):2.0E-6,Guangzhou_sobemo_like_virus_F1517C31F1071:2.0E-6)[&label=47]:2.0E-6,MT361061_Guangzhou_sobemo-like_virus:2.0E-6)[&label=47]:2.0E-6,(Guangzhou_sobemo_like_virus_F1517C31F1070:0.002309,(Guangzhou_sobemo_like_virus_F1517C31F1073:2.0E-6,Guangzhou_sobemo_like_virus_F1517C31F1352:2.0E-6)[&label=97]:0.002306)[&label=49]:2.0E-6)[&label=42]:2.0E-6,Guangzhou_sobemo_like_virus_F1517C31F1171:0.002305)[&label=68]:0.002299,MT361059_Guangzhou_sobemo-like_virus:2.0E-6)[&label=41]:6.0E-6,MT361055_Guangzhou_sobemo-like_virus:2.0E-6)[&label=36]:2.0E-6,MT361053_Guangzhou_sobemo-like_virus:2.0E-6)[&label=58]:2.0E-6,Guangzhou_sobemo_like_virus_F1517C31F1017:2.0E-6)[&label=39]:2.0E-6,((MT096519_Wenzhou_sobemo-like_virus_4:2.0E-6,MZ556263_Sichuan_mosquito_sobemo-like_virus:0.002303)[&label=70]:0.002304,NC_033138_Wenzhou_sobemo-like_virus_4:2.0E-6)[&label=97]:0.00461)[&label=100]:0.111283,((((((MW434812_Guadeloupe_mosquito_virus:2.0E-6,MK285337_Renna_virus:2.0E-6)[&label=67]:2.0E-6,MW434813_Guadeloupe_mosquito_virus:0.002267)[&label=80]:2.0E-6,MT361065_Kwale_mosquito_virus:0.009172)[&label=84]:0.004537,(MN053797_Guadeloupe_mosquito_virus:2.0E-6,MN053803_Guadeloupe_mosquito_virus:0.002255)[&label=98]:0.00226)[&label=58]:2.0E-6,MN053791_Guadeloupe_mosquito_virus:2.0E-6)[&label=85]:0.00453,(MN053789_Guadeloupe_mosquito_virus:2.0E-6,MN053787_Guadeloupe_mosquito_virus:0.002257)[&label=77]:3.0E-6)[&label=100]:0.091342)[&label=67]:0.030284)[&label=25]:0.015501,(Comfornsto_virus_F1216C3F1183:2.0E-6,Comfornsto_virus_F1216C3F1216:0.002447)[&label=100]:0.171369)[&label=21]:0.008204,(((((((Colokingly_virus_F1527C217F1100:0.0,Colokingly_virus_F1527C217F1382:0.0):0.0,Colokingly_virus_F1527C217F1534:0.0):0.0,Colokingly_virus_F1527C217F1021:0.0):2.0E-6,Colokingly_virus_F1527C217F1094:2.0E-6)[&label=51]:2.0E-6,(Colokingly_virus_F1527C217F1211:2.0E-6,Colokingly_virus_F1527C217F1381:2.0E-6)[&label=79]:2.0E-6)[&label=52]:2.0E-6,(Colokingly_virus_F1527C217F1527:0.002335,Colokingly_virus_F1527C217F1096:0.002335)[&label=47]:2.0E-6)[&label=95]:0.00234,Colokingly_virus_F1527C217F1019:2.0E-6)[&label=100]:0.1594)[&label=54]:0.023743,MW434821_Kellev_virus:0.103524)[&label=71]:0.05255,((MW310331_Zeugodacus_cucurbitae_sobemovirus_isolate_Bc:0.036852,MW310351_Zeugodacus_cucurbitae_sobemovirus:0.08189)[&label=100]:0.066692,'MW199227_Virus_sp.':0.127752)[&label=100]:0.122831,MZ443571_Vespula_vulgaris_Sobemo-like_virus_1:0.248917);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,139 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=21;
+TAXLABELS
+[1] 'MN661118_Atrato_Virga-like_virus_6'
+[2] 'MN661126_Atrato_Virga-like_virus_7'
+[3] 'MN661125_Atrato_Virga-like_virus_7'
+[4] 'MN661123_Atrato_Virga-like_virus_7'
+[5] 'MN661129_Atrato_Virga-like_virus_7'
+[6] 'MN661119_Atrato_Virga-like_virus_6'
+[7] 'MN661121_Atrato_Virga-like_virus_7'
+[8] 'MN661122_Atrato_Virga-like_virus_7'
+[9] 'MN661127_Atrato_Virga-like_virus_7'
+[10] 'MN661128_Atrato_Virga-like_virus_7'
+[11] 'MN661120_Atrato_Virga-like_virus_7'
+[12] 'ON955131_Enontekio_virga-like_virus_1'
+[13] 'MZ209726_Hangzhou_merodon_fulcratus_virga-like_virus_1'
+[14] 'MZ443591_Leuven_Virga-like_virus_1'
+[15] 'NC_033192_Hubei_virga-like_virus_21'
+[16] 'OL700070_Hubei_virga-like_virus_21'
+[17] 'MN513382_Hammarskog_virga-like_virus'
+[18] 'Exquased_virus_F1371C2F1021'
+[19] 'Exquased_virus_F1371C2F1371'
+[20] 'MT129773_Dougjudy_virga-like_virus'
+[21] 'NC_032437_Beihai_anemone_virus_1'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=21 nsplits=103;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 2,
+	100	 1 2,
+	100	 3,
+	100	 4,
+	78	 3 4,
+	100	 5,
+	55	 3 4 5,
+	100	 6,
+	100	 8,
+	100	 9,
+	51	 8 9,
+	85	 6 8 9,
+	100	 7,
+	23	 6 7 8 9,
+	100	 10,
+	100	 11,
+	28	 10 11,
+	74	 6 7 8 9 10 11,
+	100	 3 4 5 6 7 8 9 10 11,
+	100	 12 13 14 15 16 17 18 19 20 21,
+	100	 12,
+	100	 13 14 15 16 17 18 19 20 21,
+	100	 15,
+	100	 16,
+	100	 15 16,
+	100	 17,
+	100	 18,
+	100	 19,
+	100	 18 19,
+	29	 17 18 19,
+	99	 15 16 17 18 19,
+	100	 13 14 20 21,
+	100	 13,
+	100	 14,
+	100	 13 14,
+	100	 20,
+	100	 13 14 20,
+	100	 21,
+	2	 3 4 5 10,
+	38	 6 8,
+	24	 6 8 9 11,
+	12	 6 7 8 9 11,
+	22	 6 8 9 10 11,
+	22	 3 4 6 7 8 9 10 11,
+	66	 15 16 17,
+	21	 7 11,
+	22	 5 6 7 8 9 10 11,
+	21	 4 5 6 7 8 9 10 11,
+	22	 7 10 11,
+	19	 6 8 9 10,
+	0	 3 5 6 7 8 9 10 11,
+	8	 3 4 5 7 10 11,
+	5	 3 4 5 6 7 10 11,
+	9	 3 4 5 6 7 8 10 11,
+	13	 6 7 8 9 10,
+	1	 3 4 5 6 8 9 10,
+	5	 15 16 18 19,
+	13	 7 10,
+	1	 3 4 5 6,
+	1	 3 4 5 7 10,
+	2	 3 4 5 6 7 8 9 10,
+	1	 3 4 5 7 8 10 11,
+	1	 3 4 5 7,
+	1	 9 11,
+	2	 3 4 5 10 11,
+	6	 3 4 5 6 8 9 10 11,
+	4	 6 9,
+	0	 3 4 6 7 8 9 11,
+	2	 3 4 5 6 8 9 11,
+	0	 9 10,
+	0	 6 7 10 11,
+	1	 6 11,
+	1	 8 9 11,
+	1	 6 7 8 10 11,
+	1	 3 4 5 6 7 8 9 11,
+	1	 3 4 5 7 11,
+	1	 3 4 5 11,
+	0	 13 14 21,
+	0	 3 4 5 6 8 9,
+	0	 8 9 10,
+	0	 7 8 9 10 11,
+	0	 6 10,
+	1	 13 14 15 16 20 21,
+	1	 4 5,
+	0	 6 8 10,
+	1	 3 4 5 6 7 8 9,
+	0	 7 9 10 11,
+	1	 13 14 15 16 17 20 21,
+	1	 3 4 6 8 9,
+	0	 13 14 17 20 21,
+	0	 3 6 7 8 9 10 11,
+	0	 3 4 5 6 8,
+	0	 3 4 7 10 11,
+	1	 7 8 9,
+	1	 7 9,
+	0	 8 9 10 11,
+	0	 5 7,
+	0	 6 9 11,
+	0	 3 4 5 6 7 9 10 11,
+	0	 6 8 11,
+	0	 6 7,
+	0	 3 4 5 7 9 10 11,
+;
+END; [Splits]
+

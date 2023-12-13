@@ -1,0 +1,321 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_clade/tree/aa_tree/Negevirus_clade3_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 410209
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 2528 amino-acid sites
+Number of constant sites: 537 (= 21.2421% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 537 (= 21.2421% of all sites)
+Number of parsimony informative sites: 1528
+Number of distinct site patterns: 1880
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+G4          -23074.148   46274.295 -   0.0006   46277.568 - 0.000704   46641.912 +    0.792
+LG+F+R3          -23063.730   46259.459 +    0.999   46263.053 +    0.999   46644.582 +    0.208
+WAG+F+G4         -23121.021   46368.042 - 2.64e-24   46371.314 -  3.1e-24   46735.658 - 3.48e-21
+WAG+F+R3         -23114.407   46360.814 - 9.79e-23   46364.408 - 9.79e-23   46745.936 - 2.04e-23
+rtREV+F+G4       -23131.280   46388.561 - 9.24e-29   46391.834 - 1.08e-28   46756.177 - 1.22e-25
+rtREV+F+R3       -23120.059   46372.119 - 3.44e-25   46375.712 - 3.44e-25   46757.241 - 7.16e-26
+VT+F+G4          -23148.103   46422.206 - 4.57e-36   46425.479 - 5.36e-36   46789.823 - 6.03e-33
+VT+F+R3          -23141.522   46415.043 - 1.64e-34   46418.637 - 1.64e-34   46800.166 - 3.42e-35
+JTT+F+G4         -23155.401   46436.801 - 3.09e-39   46440.074 - 3.63e-39   46804.418 - 4.08e-36
+JTTDCMut+F+G4    -23156.618   46439.236 - 9.16e-40   46442.509 - 1.07e-39   46806.853 - 1.21e-36
+JTT+F+R3         -23145.977   46423.953 - 1.91e-36   46427.547 - 1.91e-36   46809.076 - 3.98e-37
+JTTDCMut+F+R3    -23147.111   46426.222 - 6.13e-37   46429.815 - 6.13e-37   46811.344 - 1.28e-37
+mtInv+F+G4       -23195.181   46516.361 - 1.64e-56   46519.634 - 1.92e-56   46883.978 - 2.16e-53
+cpREV+F+G4       -23198.042   46522.084 - 9.36e-58   46525.357 -  1.1e-57   46889.701 - 1.24e-54
+mtInv+F+R3       -23187.477   46506.954 - 1.81e-54   46510.547 - 1.81e-54   46892.076 - 3.77e-55
+cpREV+F+R3       -23189.550   46511.100 - 2.27e-55   46514.694 - 2.27e-55   46896.223 - 4.74e-56
+Dayhoff+F+G4     -23203.170   46532.341 - 5.55e-60   46535.614 - 6.52e-60   46899.957 - 7.32e-57
+DCMut+F+G4       -23203.686   46533.372 - 3.31e-60   46536.645 - 3.89e-60   46900.989 - 4.37e-57
+Dayhoff+F+R3     -23192.524   46517.048 - 1.16e-56   46520.641 - 1.16e-56   46902.170 - 2.42e-57
+mtZOA+F+G4       -23204.867   46535.733 - 1.02e-60   46539.006 - 1.19e-60   46903.350 - 1.34e-57
+DCMut+F+R3       -23193.122   46518.244 - 6.39e-57   46521.838 - 6.39e-57   46903.366 - 1.33e-57
+mtZOA+F+R3       -23195.714   46523.428 - 4.78e-58   46527.021 - 4.78e-58   46908.550 - 9.97e-59
+Blosum62+F+G4    -23236.120   46598.241 - 2.72e-74   46601.514 - 3.19e-74   46965.857 - 3.59e-71
+Blosum62+F+R3    -23228.918   46589.836 - 1.82e-72   46593.430 - 1.82e-72   46974.958 - 3.79e-73
+mtMet+F+G4       -23247.803   46621.605 - 2.29e-79   46624.878 - 2.69e-79   46989.222 - 3.03e-76
+mtMet+F+R3       -23236.931   46605.862 - 6.02e-76   46609.456 - 6.02e-76   46990.984 - 1.25e-76
+PMB+F+G4         -23253.421   46632.842 - 8.33e-82   46636.115 - 9.78e-82   47000.459 -  1.1e-78
+PMB+F+R3         -23245.413   46622.826 - 1.25e-79   46626.419 - 1.25e-79   47007.948 -  2.6e-80
+FLU+F+R3         -23262.176   46656.351 - 6.54e-87   46659.945 - 6.54e-87   47041.473 - 1.36e-87
+FLU+F+G4         -23278.660   46683.321 - 9.11e-93   46686.593 - 1.07e-92   47050.937 -  1.2e-89
+HIVb+F+R3        -23267.446   46666.892 - 3.36e-89   46670.485 - 3.36e-89   47052.014 - 7.01e-90
+HIVb+F+G4        -23284.933   46695.867 - 1.72e-95   46699.140 - 2.02e-95   47063.483 - 2.27e-92
+mtREV+F+G4       -23300.628   46727.257 - 2.62e-102   46730.529 - 3.08e-102   47094.873 - 3.46e-99
+mtREV+F+R3       -23290.248   46712.495 - 4.21e-99   46716.089 - 4.21e-99   47097.617 - 8.78e-100
+mtART+F+G4       -23338.203   46802.405 - 1.26e-118   46805.678 - 1.48e-118   47170.022 - 1.66e-115
+mtART+F+R3       -23340.651   46813.301 - 5.43e-121   46816.895 - 5.43e-121   47198.423 - 1.13e-121
+LG+G4            -23430.872   46949.744 - 1.28e-150   46951.339 - 3.47e-150   47206.492 -   2e-123
+LG+R3            -23420.300   46934.599 - 2.48e-147   46936.419 - 6.03e-147   47208.853 - 6.15e-124
+LG+I+G4          -23432.772   46955.544 - 7.03e-152   46957.212 - 1.84e-151   47218.127 - 5.96e-126
+LG+R4            -23420.355   46938.709 - 3.18e-148   46940.687 - 7.14e-148   47224.633 - 2.3e-127
+LG+R2            -23440.514   46971.027 - 3.05e-155   46972.695 -   8e-155   47233.610 - 2.59e-129
+mtVer+F+G4       -23424.653   46975.306 - 3.59e-156   46978.579 - 4.22e-156   47342.923 - 4.74e-153
+mtVer+F+R3       -23422.361   46976.722 - 1.77e-156   46980.316 - 1.77e-156   47361.844 - 3.69e-157
+VT+G4            -23509.260   47106.520 - 1.16e-184   47108.115 - 3.14e-184   47363.268 - 1.81e-157
+VT+R3            -23509.397   47112.795 - 5.02e-186   47114.614 - 1.22e-185   47387.049 - 1.24e-162
+LG+I             -23541.666   47171.332 - 9.75e-199   47172.926 - 2.65e-198   47428.080 - 1.53e-171
+FLU+R3           -23532.376   47158.752 - 5.26e-196   47160.572 - 1.28e-195   47433.006 - 1.3e-172
+mtMAM+F+G4       -23475.991   47077.982 - 1.82e-178   47081.255 - 2.13e-178   47445.599 - 2.4e-175
+FLU+G4           -23555.039   47198.079 - 1.52e-204   47199.674 - 4.12e-204   47454.827 - 2.38e-177
+WAG+G4           -23565.855   47219.710 - 3.05e-209   47221.305 - 8.28e-209   47476.458 - 4.78e-182
+WAG+R3           -23566.575   47227.150 - 7.39e-211   47228.969 - 1.79e-210   47501.404 - 1.83e-187
+cpREV+G4         -23582.041   47252.083 - 2.85e-216   47253.678 - 7.73e-216   47508.831 - 4.46e-189
+Blosum62+G4      -23584.489   47256.979 - 2.46e-217   47258.573 - 6.69e-217   47513.727 - 3.86e-190
+cpREV+R3         -23576.604   47247.208 - 3.26e-215   47249.028 - 7.91e-215   47521.462 - 8.06e-192
+mtMAM+F+R3       -23506.152   47144.303 - 7.22e-193   47147.897 - 7.22e-193   47529.426 - 1.5e-193
+Blosum62+R3      -23584.414   47262.828 - 1.32e-218   47264.648 - 3.21e-218   47537.082 - 3.27e-195
+JTT+G4           -23602.184   47292.367 - 5.09e-225   47293.962 - 1.38e-224   47549.115 - 7.98e-198
+JTT+R3           -23593.656   47281.312 - 1.28e-222   47283.132 - 3.11e-222   47555.566 - 3.17e-199
+JTTDCMut+G4      -23606.685   47301.370 - 5.65e-227   47302.965 - 1.53e-226   47558.118 - 8.85e-200
+JTTDCMut+R3      -23598.145   47290.291 - 1.44e-224   47292.110 - 3.49e-224   47564.545 - 3.56e-201
+PMB+G4           -23673.716   47435.433 - 4.37e-256   47437.028 - 1.19e-255   47692.181 - 6.85e-229
+PMB+R3           -23673.489   47440.978 - 2.73e-257   47442.798 - 6.63e-257   47715.232 - 6.76e-234
+HIVw+F+G4        -23636.806   47399.612 - 2.62e-248   47402.885 - 3.08e-248   47767.228 - 3.46e-245
+LG               -23716.324   47518.648 - 3.72e-274   47520.171 - 1.05e-273   47769.561 - 1.08e-245
+rtREV+G4         -23715.770   47519.540 - 2.38e-274   47521.135 - 6.47e-274   47776.288 - 3.73e-247
+rtREV+R3         -23705.909   47505.817 - 2.27e-271   47507.637 - 5.52e-271   47780.071 - 5.63e-248
+HIVw+F+R3        -23637.912   47407.825 - 4.32e-250   47411.418 - 4.32e-250   47792.947 -   9e-251
+Dayhoff+G4       -23797.546   47683.093 - 7.27e-310   47684.688 - 1.98e-309   47939.841 - 1.14e-282
+DCMut+G4         -23798.023   47684.045 - 4.52e-310   47685.640 - 1.23e-309   47940.793 - 7.08e-283
+Dayhoff+R3       -23788.852   47671.703 - 2.16e-307   47673.523 - 5.25e-307   47945.957 - 5.35e-284
+DCMut+R3         -23789.384   47672.768 - 1.27e-307   47674.588 - 3.08e-307   47947.022 - 3.14e-284
+HIVb+R3          -23794.740   47683.480 - 5.99e-310   47685.299 - 1.46e-309   47957.733 - 1.48e-286
+HIVb+G4          -23809.888   47707.776 - 3.18e-315   47709.371 - 8.63e-315   47964.524 - 4.98e-288
+HIVw+G4          -24219.644   48527.288 -        0   48528.883 -        0   48784.036 -        0
+HIVw+R3          -24211.019   48516.038 -        0   48517.857 -        0   48790.292 -        0
+mtMet+G4         -24314.194   48716.387 -        0   48717.982 -        0   48973.136 -        0
+mtMet+R3         -24303.720   48701.441 -        0   48703.260 -        0   48975.694 -        0
+mtInv+G4         -24364.321   48816.642 -        0   48818.237 -        0   49073.390 -        0
+mtInv+R3         -24364.827   48823.654 -        0   48825.474 -        0   49097.908 -        0
+mtZOA+G4         -24480.939   49049.879 -        0   49051.474 -        0   49306.627 -        0
+mtZOA+R3         -24477.280   49048.559 -        0   49050.379 -        0   49322.813 -        0
+mtART+G4         -24624.549   49337.099 -        0   49338.694 -        0   49593.847 -        0
+mtART+R3         -24640.775   49375.551 -        0   49377.370 -        0   49649.804 -        0
+mtREV+G4         -24662.100   49412.201 -        0   49413.796 -        0   49668.949 -        0
+mtREV+R3         -24654.881   49403.762 -        0   49405.582 -        0   49678.016 -        0
+mtVer+R3         -24820.740   49735.480 -        0   49737.299 -        0   50009.733 -        0
+mtVer+G4         -24834.967   49757.935 -        0   49759.530 -        0   50014.683 -        0
+mtMAM+G4         -24862.390   49812.779 -        0   49814.374 -        0   50069.528 -        0
+mtMAM+R3         -24886.696   49867.392 -        0   49869.211 -        0   50141.646 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0233
+  pi(R) = 0.0409
+  pi(N) = 0.0655
+  pi(D) = 0.0726
+  pi(C) = 0.0190
+  pi(Q) = 0.0242
+  pi(E) = 0.0625
+  pi(G) = 0.0421
+  pi(H) = 0.0223
+  pi(I) = 0.0826
+  pi(L) = 0.0928
+  pi(K) = 0.0973
+  pi(M) = 0.0215
+  pi(F) = 0.0557
+  pi(P) = 0.0337
+  pi(S) = 0.0760
+  pi(T) = 0.0476
+  pi(W) = 0.0069
+  pi(Y) = 0.0550
+  pi(V) = 0.0586
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.9355
+
+ Category  Relative_rate  Proportion
+  1         0.1239         0.2500
+  2         0.4565         0.2500
+  3         0.9884         0.2500
+  4         2.4312         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -23074.1382 (s.e. 203.9757)
+Unconstrained log-likelihood (without tree): -18307.5866
+Number of free parameters (#branches + #model parameters): 63
+Akaike information criterion (AIC) score: 46274.2765
+Corrected Akaike information criterion (AICc) score: 46277.5492
+Bayesian information criterion (BIC) score: 46641.8930
+
+Total tree length (sum of branch lengths): 4.5292
+Sum of internal branch lengths: 2.1057 (46.4926% of tree length)
+
+WARNING: 7 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KU754539_Boutonnet_virus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                               +**MW434966_Culex_pipiens-associated_Tunisia_virus
+                            +**| (39)
+                            |  |     +--MW434971_Culex_pipiens-associated_Tunisia_virus
+                            |  |  +**| (25)
+                            |  |  |  |  +--MW434977_Culex_pipiens-associated_Tunisia_virus
+                            |  |  |  +**| (24)
+                            |  |  |     +--MW434969_Culex_pipiens-associated_Tunisia_virus
+                            |  +**| (9)
+                            |     |  +--MW434972_Culex_pipiens-associated_Tunisia_virus
+                            |     +**| (12)
+                            |        |     +**MW434973_Culex_pipiens-associated_Tunisia_virus
+                            |        |  +--| (90)
+                            |        |  |  +--MW434976_Culex_pipiens-associated_Tunisia_virus
+                            |        +**| (18)
+                            |           +--MW434974_Culex_pipiens-associated_Tunisia_virus
+                         +--| (100)
+                         |  +--MW434970_Culex_pipiens-associated_Tunisia_virus
+                      +--| (96)
+                      |  |     +--Culex_pipiens_associated_Tunisia_virus_F1041C1F1041
+                      |  |  +--| (72)
+                      |  |  |  +--Culex_pipiens_associated_Tunisia_virus_F1041C1F1570
+                      |  +--| (63)
+                      |     +--NC_040723_Culex_pipiens-associated_Tunisia_virus
+                 +----| (100)
+                 |    |     +**MG457154_Culex_pipiens-associated_Tunisia_virus
+                 |    |  +--| (65)
+                 |    |  |  |  +--MG457155_Culex_pipiens-associated_Tunisia_virus
+                 |    |  |  +**| (54)
+                 |    |  |     +**MG557616_Culex_pipiens-associated_Tunisia_virus
+                 |    +--| (54)
+                 |       +--MH745160_Culex_pipiens-associated_Tunisia_virus
++----------------| (100)
+|                |        +--Simimissemian_virus_F1038C1F1271
+|                |     +--| (88)
+|                |     |  +--Simimissemian_virus_F1038C1F1306
+|                |  +--| (100)
+|                |  |  +--Simimissemian_virus_F1038C1F1038
+|                +--| (100)
+|                   +--Snubberrored_virus_F1147C1F1147
+|
+|                       +--MN661116_Atrato_Virga-like_virus_5
++-----------------------| (100)
+|                       +**MN661117_Atrato_Virga-like_virus_5
+|
++-----------------------------------------------------------KU754539_Boutonnet_virus
+
+Tree in newick format:
+
+((((((MW434966_Culex_pipiens-associated_Tunisia_virus:0.0000010423,((MW434971_Culex_pipiens-associated_Tunisia_virus:0.0003987583,(MW434977_Culex_pipiens-associated_Tunisia_virus:0.0003982261,MW434969_Culex_pipiens-associated_Tunisia_virus:0.0007970936)24:0.0000010423)25:0.0000010423,(MW434972_Culex_pipiens-associated_Tunisia_virus:0.0003982355,((MW434973_Culex_pipiens-associated_Tunisia_virus:0.0000010423,MW434976_Culex_pipiens-associated_Tunisia_virus:0.0015954832)90:0.0003981734,MW434974_Culex_pipiens-associated_Tunisia_virus:0.0003982347)18:0.0000010423)12:0.0000010423)9:0.0000010423)39:0.0000010423,MW434970_Culex_pipiens-associated_Tunisia_virus:0.0003981519)100:0.0184580320,((Culex_pipiens_associated_Tunisia_virus_F1041C1F1041:0.0016160912,Culex_pipiens_associated_Tunisia_virus_F1041C1F1570:0.0031844152)72:0.0016780019,NC_040723_Culex_pipiens-associated_Tunisia_virus:0.0027722296)63:0.0076046375)96:0.0315657886,((MG457154_Culex_pipiens-associated_Tunisia_virus:0.0000010423,(MG457155_Culex_pipiens-associated_Tunisia_virus:0.0011472152,MG557616_Culex_pipiens-associated_Tunisia_virus:0.0000010423)54:0.0000021963)65:0.0080859181,MH745160_Culex_pipiens-associated_Tunisia_virus:0.0023289753)54:0.0153274879)100:0.2127501767,(((Simimissemian_virus_F1038C1F1271:0.0008181665,Simimissemian_virus_F1038C1F1306:0.0012172569)88:0.0029398920,Simimissemian_virus_F1038C1F1038:0.0027422171)100:0.0712964117,Snubberrored_virus_F1147C1F1147:0.0994016305)100:0.1238606737)100:0.6747574327,(MN661116_Atrato_Virga-like_virus_5:0.0021758187,MN661117_Atrato_Virga-like_virus_5:0.0000025305)100:0.9370178589,KU754539_Boutonnet_virus:2.3016689670);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -23074.169717
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                     +--MW434966_Culex_pipiens-associated_Tunisia_virus
+                                  +--| (12)
+                                  |  |  +--MW434972_Culex_pipiens-associated_Tunisia_virus
+                                  |  +--| (21)
+                                  |     +--MW434974_Culex_pipiens-associated_Tunisia_virus
+                               +--| (20)
+                               |  |  +--MW434971_Culex_pipiens-associated_Tunisia_virus
+                               |  +--| (25)
+                               |     |  +--MW434977_Culex_pipiens-associated_Tunisia_virus
+                               |     +--| (24)
+                               |        +--MW434969_Culex_pipiens-associated_Tunisia_virus
+                            +--| (39)
+                            |  |  +--MW434973_Culex_pipiens-associated_Tunisia_virus
+                            |  +--| (90)
+                            |     +--MW434976_Culex_pipiens-associated_Tunisia_virus
+                         +--| (100)
+                         |  +--MW434970_Culex_pipiens-associated_Tunisia_virus
+                      +--| (96)
+                      |  |     +--Culex_pipiens_associated_Tunisia_virus_F1041C1F1041
+                      |  |  +--| (72)
+                      |  |  |  +--Culex_pipiens_associated_Tunisia_virus_F1041C1F1570
+                      |  +--| (63)
+                      |     +--NC_040723_Culex_pipiens-associated_Tunisia_virus
+                 +----| (100)
+                 |    |     +--MG457154_Culex_pipiens-associated_Tunisia_virus
+                 |    |  +--| (65)
+                 |    |  |  |  +--MG457155_Culex_pipiens-associated_Tunisia_virus
+                 |    |  |  +--| (54)
+                 |    |  |     +--MG557616_Culex_pipiens-associated_Tunisia_virus
+                 |    +--| (54)
+                 |       +--MH745160_Culex_pipiens-associated_Tunisia_virus
++----------------| (100)
+|                |        +--Simimissemian_virus_F1038C1F1271
+|                |     +--| (88)
+|                |     |  +--Simimissemian_virus_F1038C1F1306
+|                |  +--| (100)
+|                |  |  +--Simimissemian_virus_F1038C1F1038
+|                +--| (100)
+|                   +--Snubberrored_virus_F1147C1F1147
+|
+|                       +--MN661116_Atrato_Virga-like_virus_5
++-----------------------| (100)
+|                       +--MN661117_Atrato_Virga-like_virus_5
+|
++-----------------------------------------------------------KU754539_Boutonnet_virus
+
+
+Consensus tree in newick format: 
+
+((((((((MW434966_Culex_pipiens-associated_Tunisia_virus:0.0000025420,(MW434972_Culex_pipiens-associated_Tunisia_virus:0.0003979210,MW434974_Culex_pipiens-associated_Tunisia_virus:0.0003979151)21:0.0000025420)12:0.0000025420,(MW434971_Culex_pipiens-associated_Tunisia_virus:0.0003984379,(MW434977_Culex_pipiens-associated_Tunisia_virus:0.0003979067,MW434969_Culex_pipiens-associated_Tunisia_virus:0.0007964420)24:0.0000025420)25:0.0000025420)20:0.0000025420,(MW434973_Culex_pipiens-associated_Tunisia_virus:0.0000025420,MW434976_Culex_pipiens-associated_Tunisia_virus:0.0015952162)90:0.0003978543)39:0.0000025420,MW434970_Culex_pipiens-associated_Tunisia_virus:0.0003977769)100:0.0184574556,((Culex_pipiens_associated_Tunisia_virus_F1041C1F1041:0.0016166138,Culex_pipiens_associated_Tunisia_virus_F1041C1F1570:0.0031848059)72:0.0016778257,NC_040723_Culex_pipiens-associated_Tunisia_virus:0.0027719057)63:0.0076033605)96:0.0315656704,((MG457154_Culex_pipiens-associated_Tunisia_virus:0.0000025420,(MG457155_Culex_pipiens-associated_Tunisia_virus:0.0003957425,MG557616_Culex_pipiens-associated_Tunisia_virus:0.0000025420)54:0.0007536080)65:0.0080850176,MH745160_Culex_pipiens-associated_Tunisia_virus:0.0023298017)54:0.0153272595)100:0.2127392291,(((Simimissemian_virus_F1038C1F1271:0.0008188934,Simimissemian_virus_F1038C1F1306:0.0012165752)88:0.0029406002,Simimissemian_virus_F1038C1F1038:0.0027427770)100:0.0712963383,Snubberrored_virus_F1147C1F1147:0.0994033006)100:0.1238678394)100:0.6747785047,(MN661116_Atrato_Virga-like_virus_5:0.0021768302,MN661117_Atrato_Virga-like_virus_5:0.0000021424)100:0.9370045171,KU754539_Boutonnet_virus:2.3016479606);
+
+TIME STAMP
+----------
+
+Date and time: Wed Jan 25 12:54:51 2023
+Total CPU time used: 6711.197692 seconds (1h:51m:51s)
+Total wall-clock time used: 243.0244369 seconds (0h:4m:3s)
+

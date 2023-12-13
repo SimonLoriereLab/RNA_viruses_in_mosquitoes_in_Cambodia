@@ -1,0 +1,489 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Negevirus_Tanay_clade/tree/aa_tree/Negevirus_Tanay_clade1_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 909307
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 65 sequences with 2238 amino-acid sites
+Number of constant sites: 449 (= 20.0626% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 449 (= 20.0626% of all sites)
+Number of parsimony informative sites: 1636
+Number of distinct site patterns: 1885
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R4          -48014.115   96332.231 +    0.268   96354.539 +    0.332   97200.658 +    0.991
+LG+F+R5          -48011.111   96330.221 +    0.732   96353.140 +    0.668   97210.075 -  0.00894
+rtREV+F+R4       -48133.432   96570.864 - 4.07e-53   96593.172 - 5.04e-53   97439.291 - 1.51e-52
+rtREV+F+R5       -48131.251   96570.503 - 4.88e-53   96593.421 - 4.45e-53   97450.357 - 5.95e-55
+WAG+F+R4         -48244.587   96793.174 - 2.17e-101   96815.482 - 2.68e-101   97661.602 - 8.01e-101
+WAG+F+R5         -48244.437   96796.875 - 3.4e-102   96819.794 - 3.11e-102   97676.729 - 4.16e-104
+LG+R4            -48360.590   96987.181 - 1.61e-143   97004.122 - 2.92e-142   97747.054 - 2.23e-119
+LG+R5            -48357.453   96984.905 - 5.03e-143   97002.374 -   7e-142   97756.206 - 2.29e-121
+LG+I+G4          -48385.946   97029.891 - 8.57e-153   97045.802 - 2.6e-151   97766.912 - 1.09e-123
+LG+G4            -48411.358   97078.716 - 2.14e-163   97094.374 - 7.38e-162   97810.023 - 4.72e-133
+LG+R3            -48409.980   97081.959 - 4.23e-164   97098.381 - 9.95e-163   97830.406 - 1.77e-137
+VT+F+R4          -48339.954   96983.908 - 8.28e-143   97006.216 - 1.03e-142   97852.335 - 3.06e-142
+VT+F+R5          -48340.256   96988.512 - 8.29e-144   97011.430 - 7.57e-144   97868.366 - 1.01e-145
+JTT+F+R4         -48414.181   97132.362 - 4.81e-175   97154.670 - 5.95e-175   98000.790 - 1.78e-174
+JTTDCMut+F+R4    -48414.437   97132.874 - 3.72e-175   97155.182 - 4.61e-175   98001.301 - 1.38e-174
+JTT+F+R5         -48414.054   97136.108 - 7.39e-176   97159.027 - 6.74e-176   98015.962 - 9.02e-178
+JTTDCMut+F+R5    -48414.287   97136.574 - 5.85e-176   97159.493 - 5.34e-176   98016.428 - 7.14e-178
+LG+R2            -48634.707   97527.414 - 7.89e-261   97543.325 - 2.4e-259   98264.435 -   1e-231
+Dayhoff+F+R4     -48555.262   97414.524 - 2.58e-236   97436.832 - 3.19e-236   98282.952 - 9.53e-236
+DCMut+F+R4       -48556.192   97416.385 - 1.02e-236   97438.693 - 1.26e-236   98284.812 - 3.76e-236
+Dayhoff+F+R5     -48549.859   97407.717 - 7.75e-235   97430.636 - 7.07e-235   98287.571 - 9.46e-237
+DCMut+F+R5       -48551.521   97411.043 - 1.47e-235   97433.962 - 1.34e-235   98290.897 - 1.79e-237
+Blosum62+F+R4    -48579.703   97463.406 - 6.26e-247   97485.714 - 7.75e-247   98331.833 - 2.31e-246
+Blosum62+F+R5    -48580.682   97469.363 - 3.18e-248   97492.282 - 2.91e-248   98349.217 - 3.89e-250
+WAG+R4           -48687.603   97641.206 - 1.54e-285   97658.147 - 2.79e-284   98401.080 - 2.13e-261
+WAG+R5           -48687.594   97645.189 - 2.1e-286   97662.658 - 2.93e-285   98416.489 - 9.59e-265
+cpREV+F+R4       -48624.680   97553.361 - 1.83e-266   97575.669 - 2.27e-266   98421.788 - 6.78e-266
+mtInv+F+R4       -48628.085   97560.171 - 6.09e-268   97582.479 - 7.54e-268   98428.598 - 2.25e-267
+cpREV+F+R5       -48624.158   97556.316 - 4.18e-267   97579.235 - 3.82e-267   98436.170 - 5.11e-269
+mtInv+F+R5       -48624.380   97556.759 - 3.35e-267   97579.678 - 3.06e-267   98436.613 - 4.09e-269
+PMB+F+R4         -48640.838   97585.677 - 1.76e-273   97607.985 - 2.18e-273   98454.104 - 6.51e-273
+PMB+F+R5         -48641.382   97590.765 - 1.38e-274   97613.684 - 1.26e-274   98470.619 - 1.69e-276
+VT+R4            -48725.272   97716.544 - 6.73e-302   97733.485 - 1.22e-300   98476.418 - 9.3e-278
+VT+R5            -48725.808   97721.617 - 5.33e-303   97739.086 - 7.42e-302   98492.917 - 2.43e-281
+mtZOA+F+R5       -48667.256   97642.512 - 8.02e-286   97665.431 - 7.32e-286   98522.366 - 9.79e-288
+mtZOA+F+R4       -48675.824   97655.648 - 1.13e-288   97677.956 - 1.4e-288   98524.075 - 4.17e-288
+JTTDCMut+R4      -48848.228   97962.456 -        0   97979.397 -        0   98722.330 -        0
+rtREV+R4         -48853.434   97972.868 -        0   97989.809 -        0   98732.742 -        0
+JTT+R4           -48853.970   97973.939 -        0   97990.880 -        0   98733.813 -        0
+JTTDCMut+R5      -48848.034   97966.068 -        0   97983.537 -        0   98737.369 -        0
+rtREV+R5         -48852.167   97974.333 -        0   97991.802 -        0   98745.634 -        0
+JTT+R5           -48853.748   97977.495 -        0   97994.964 -        0   98748.796 -        0
+Blosum62+R4      -48922.194   98110.387 -        0   98127.328 -        0   98870.261 -        0
+Blosum62+R5      -48923.326   98116.652 -        0   98134.121 -        0   98887.952 -        0
+cpREV+R4         -48985.064   98236.129 -        0   98253.070 -        0   98996.003 -        0
+cpREV+R5         -48978.656   98227.313 -        0   98244.782 -        0   98998.613 -        0
+mtMet+F+R5       -48936.877   98181.755 -        0   98204.673 -        0   99061.609 -        0
+mtMet+F+R4       -48946.424   98196.848 -        0   98219.156 -        0   99065.276 -        0
+PMB+R4           -49021.073   98308.146 -        0   98325.087 -        0   99068.020 -        0
+PMB+R5           -49021.614   98313.227 -        0   98330.696 -        0   99084.528 -        0
+FLU+F+R5         -49091.224   98490.447 -        0   98513.366 -        0   99370.301 -        0
+Dayhoff+R4       -49176.338   98618.677 -        0   98635.618 -        0   99378.551 -        0
+FLU+F+R4         -49104.537   98513.074 -        0   98535.382 -        0   99381.501 -        0
+DCMut+R4         -49177.864   98621.728 -        0   98638.669 -        0   99381.602 -        0
+Dayhoff+R5       -49176.229   98622.458 -        0   98639.927 -        0   99393.758 -        0
+DCMut+R5         -49177.682   98625.365 -        0   98642.834 -        0   99396.665 -        0
+mtART+F+R5       -49133.092   98574.183 -        0   98597.102 -        0   99454.037 -        0
+mtREV+F+R5       -49134.022   98576.044 -        0   98598.963 -        0   99455.898 -        0
+mtART+F+R4       -49142.925   98589.850 -        0   98612.158 -        0   99458.278 -        0
+mtREV+F+R4       -49146.221   98596.441 -        0   98618.749 -        0   99464.869 -        0
+HIVb+F+R5        -49282.534   98873.067 -        0   98895.986 -        0   99752.921 -        0
+HIVb+F+R4        -49296.921   98897.842 -        0   98920.150 -        0   99766.269 -        0
+LG+I             -49444.476   99144.952 -        0   99160.611 -        0   99876.259 -        0
+FLU+R5           -49467.016   99204.033 -        0   99221.502 -        0   99975.334 -        0
+FLU+R4           -49481.374   99228.749 -        0   99245.690 -        0   99988.623 -        0
+mtVer+F+R5       -49719.033   99746.067 -        0   99768.986 -        0  100625.921 -        0
+mtVer+F+R4       -49731.821   99767.641 -        0   99789.949 -        0  100636.069 -        0
+HIVb+R5          -49881.533  100033.065 -        0  100050.534 -        0  100804.366 -        0
+HIVb+R4          -49898.996  100063.992 -        0  100080.933 -        0  100823.866 -        0
+mtZOA+R4         -50009.644  100285.288 -        0  100302.229 -        0  101045.162 -        0
+mtZOA+R5         -50002.227  100274.454 -        0  100291.923 -        0  101045.754 -        0
+mtMAM+F+R5       -49997.972  100303.945 -        0  100326.864 -        0  101183.799 -        0
+mtMAM+F+R4       -50012.444  100328.889 -        0  100351.197 -        0  101197.316 -        0
+mtMet+R4         -50432.081  101130.163 -        0  101147.104 -        0  101890.037 -        0
+mtMet+R5         -50425.820  101121.640 -        0  101139.109 -        0  101892.941 -        0
+mtInv+R4         -50490.192  101246.383 -        0  101263.324 -        0  102006.257 -        0
+mtInv+R5         -50489.239  101248.477 -        0  101265.946 -        0  102019.778 -        0
+LG               -50579.063  101412.126 -        0  101427.535 -        0  102137.720 -        0
+HIVw+F+R4        -50643.626  101591.251 -        0  101613.559 -        0  102459.679 -        0
+mtART+R5         -50715.031  101700.062 -        0  101717.531 -        0  102471.363 -        0
+mtART+R4         -50724.094  101714.187 -        0  101731.128 -        0  102474.061 -        0
+HIVw+F+R5        -50643.600  101595.199 -        0  101618.118 -        0  102475.053 -        0
+mtREV+R5         -50871.839  102013.678 -        0  102031.147 -        0  102784.979 -        0
+mtREV+R4         -50879.571  102025.143 -        0  102042.084 -        0  102785.017 -        0
+mtVer+R5         -51348.847  102967.693 -        0  102985.162 -        0  103738.994 -        0
+mtVer+R4         -51366.630  102999.260 -        0  103016.201 -        0  103759.134 -        0
+mtMAM+R5         -51644.345  103558.690 -        0  103576.159 -        0  104329.991 -        0
+mtMAM+R4         -51668.772  103603.543 -        0  103620.484 -        0  104363.417 -        0
+HIVw+R4          -51759.630  103785.260 -        0  103802.201 -        0  104545.134 -        0
+HIVw+R5          -51759.566  103789.133 -        0  103806.602 -        0  104560.433 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0499
+  pi(R) = 0.0444
+  pi(N) = 0.0570
+  pi(D) = 0.0657
+  pi(C) = 0.0252
+  pi(Q) = 0.0267
+  pi(E) = 0.0532
+  pi(G) = 0.0283
+  pi(H) = 0.0302
+  pi(I) = 0.0717
+  pi(L) = 0.0890
+  pi(K) = 0.0664
+  pi(M) = 0.0224
+  pi(F) = 0.0555
+  pi(P) = 0.0411
+  pi(S) = 0.0793
+  pi(T) = 0.0608
+  pi(W) = 0.0041
+  pi(Y) = 0.0559
+  pi(V) = 0.0732
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.2807,0.0688) (0.3812,0.5826) (0.3063,1.8730) (0.0318,5.8201)
+
+ Category  Relative_rate  Proportion
+  1         0.0688         0.2807
+  2         0.5826         0.3812
+  3         1.8730         0.3063
+  4         5.8201         0.0318
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -48010.4846 (s.e. 638.1064)
+Unconstrained log-likelihood (without tree): -16329.7790
+Number of free parameters (#branches + #model parameters): 152
+Akaike information criterion (AIC) score: 96324.9691
+Corrected Akaike information criterion (AICc) score: 96347.2770
+Bayesian information criterion (BIC) score: 97193.3965
+
+Total tree length (sum of branch lengths): 6.9678
+Sum of internal branch lengths: 3.8713 (55.5591% of tree length)
+
+WARNING: 13 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'OK491483_Xiangshan_martelli-like_virus_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                 +--Tanay_virus_F1530C2F1532
+                                              +**| (96)
+                                              |  +--Tanay_virus_F1530C2F1219
+                                           +--| (98)
+                                           |  |     +--Tanay_virus_F1530C2F1533
+                                           |  |  +**| (77)
+                                           |  |  |  +--Tanay_virus_F1530C2F1530
+                                           |  +**| (47)
+                                           |     +**Tanay_virus_F1530C2F1215
+                                        +--| (91)
+                                        |  |  +**Tanay_virus_F1530C2F1212
+                                        |  +--| (99)
+                                        |     +**Tanay_virus_F1530C2F1217
+                                     +--| (100)
+                                     |  +--MG673930_Tanay_virus
+                                  +--| (100)
+                                  |  |                 +--MG551501_Tanay_virus
+                                  |  |              +**| (55)
+                                  |  |              |  +--MG551500_Tanay_virus
+                                  |  |           +--| (77)
+                                  |  |           |  +**MG551502_Tanay_virus
+                                  |  |        +**| (39)
+                                  |  |        |  +--MG551506_Tanay_virus
+                                  |  |     +**| (37)
+                                  |  |     |  +**MG551504_Tanay_virus
+                                  |  |  +--| (98)
+                                  |  |  |  +--MG551503_Tanay_virus
+                                  |  +--| (100)
+                                  |     +--MG551505_Tanay_virus
+    +-----------------------------| (100)
+    |                             |     +--KF425263_Tanay_virus
+    |                             |  +--| (97)
+    |                             |  |  +--NC_024071_Tanay_virus
+    |                             +--| (100)
+    |                                +**KF425262_Tanay_virus
++---| (88)
+|   +----------------------------MN661084_Atrato_Nege-like_virus_1
+|
+|                                                                      +--MZ615329_Wallerfield_virus
+|                                                                   +**| (68)
+|                                                                   |  +--KM350505_Wallerfield_virus
+|                                                                +--| (80)
+|                                                                |  +--KM350506_Wallerfield_virus
+|                                                             +**| (60)
+|                                                             |  +--KM350504_Wallerfield_virus
+|                                                          +--| (97)
+|                                                          |  +**MZ615323_Wallerfield_virus
+|                                                       +--| (87)
+|                                                       |  +--KM350507_Wallerfield_virus
+|                                                    +--| (100)
+|                                                    |  |  +**KX518836_Wallerfield_virus
+|                                                    |  +--| (100)
+|                                                    |     +--KX518835_Wallerfield_virus
+|                                                 +--| (57)
+|                                                 |  |  +--KX518833_Wallerfield_virus
+|                                                 |  +--| (100)
+|                                                 |     +**KX518832_Wallerfield_virus
+|                                              +--| (55)
+|                                              |  +--NC_023440_Wallerfield_virus
+|                                           +--| (81)
+|                                           |  |  +--KX518823_Wallerfield_virus
+|                                           |  +--| (100)
+|                                           |     +**KX518829_Wallerfield_virus
+|                                        +--| (79)
+|                                        |  +--MK959117_Wallerfield_virus
+|                    +-------------------| (100)
+|                    |                   |  +--KX518839_Wallerfield_virus
+|                    |                   +**| (67)
+|                    |                      +**KX518837_Wallerfield_virus
+|               +----| (100)
+|               |    +----------------------MH719095_Uxmal_virus
+|           +---| (98)
+|           |   |               +--ON949943_Dezidougou_virus
+|           |   |      +--------| (100)
+|           |   |      |        |     +--JQ675604_Dezidougou_virus
+|           |   |      |        |  +--| (99)
+|           |   |      |        |  |  +--KY968698_Dezidougou_virus
+|           |   |      |        +--| (100)
+|           |   |      |           |  +**OP264896_Dezidougou_virus
+|           |   |      |           +--| (100)
+|           |   |      |              +**MT096525_Dezidougou_virus
+|           |   +------| (100)
+|           |          +-----------ON949944_Kustavi_negevirus
+|        +--| (97)
+|        |  |                                            +--MF281709_Biggievirus_Mos11
+|        |  |                                         +--| (100)
+|        |  |                                         |  +**MF281708_Biggievirus_Mos11
+|        |  |                                      +--| (77)
+|        |  |                                      |  |  +--KX924639_Biggievirus_Mos11
+|        |  |                                      |  +--| (78)
+|        |  |                                      |     +--MH188028_Culex_Biggie-like_virus
+|        |  |                                   +--| (98)
+|        |  |                                   |  |  +--MH603566_Biggievirus_Mos11
+|        |  |                                   |  +--| (90)
+|        |  |                                   |     +--MK440620_Biggie_virus
+|        |  |                        +----------| (100)
+|        |  |                        |          +--NC_035129_Culex_negev-like_virus_3
+|        |  +------------------------| (100)
+|        |                           |                        +--KF588036_Goutanap_virus
+|        |                           |                     +**| (23)
+|        |                           |                     |  +--KM249339_Goutanap_virus
+|        |                           |                  +**| (14)
+|        |                           |                  |  +**KF588037_Goutanap_virus
+|        |                           |               +**| (34)
+|        |                           |               |  +**NC_025357_Goutanap_virus
+|        |                           |            +--| (96)
+|        |                           |            |  +--LC504569_Goutanap_virus
+|        |                           +------------| (100)
+|        |                                        |  +**KF588038_Goutanap_virus
+|        |                                        +**| (69)
+|        |                                           +**KF588039_Goutanap_virus
++--------| (100)
+|        |                                   +--MZ615321_Feitosa_virus
+|        |                +------------------| (100)
+|        |                |                  +**MZ615326_Feitosa_virus
+|        |             +--| (76)
+|        |             |  +-------------------------------JQ675606_Santana_virus
+|        +-------------| (100)
+|                      |                   +--LC103139_Bustos_virus
+|                      |                +--| (100)
+|                      |                |  +--MN101546_Bustos_virus
+|                      |  +-------------| (100)
+|                      |  |             |  +**KX518758_Biratnagar_virus
+|                      |  |             +--| (100)
+|                      |  |                +--NC_034153_Biratnagar_virus
+|                      +--| (85)
+|                         +-------------MK959116_Agua_Salud_negevirus
+|
++----------------------------------------------------OK491483_Xiangshan_martelli-like_virus_1
+
+Tree in newick format:
+
+((((((((Tanay_virus_F1530C2F1532:0.0004628880,Tanay_virus_F1530C2F1219:0.0005081816)96:0.0000022898,((Tanay_virus_F1530C2F1533:0.0006413970,Tanay_virus_F1530C2F1530:0.0004574828)77:0.0000011418,Tanay_virus_F1530C2F1215:0.0000011038)47:0.0000011037)98:0.0009325590,(Tanay_virus_F1530C2F1212:0.0000011038,Tanay_virus_F1530C2F1217:0.0000011038)99:0.0013622626)91:0.0007023608,MG673930_Tanay_virus:0.0020717874)100:0.0209283645,((((((MG551501_Tanay_virus:0.0004580342,MG551500_Tanay_virus:0.0009167667)55:0.0000011037,MG551502_Tanay_virus:0.0000011038)77:0.0004586112,MG551506_Tanay_virus:0.0004578179)39:0.0000028272,MG551504_Tanay_virus:0.0000011038)37:0.0000011037,MG551503_Tanay_virus:0.0004579219)98:0.0004633883,MG551505_Tanay_virus:0.0004527131)100:0.0308008343)100:0.0517379963,((KF425263_Tanay_virus:0.0004596333,NC_024071_Tanay_virus:0.0004600600)97:0.0009198326,KF425262_Tanay_virus:0.0000028081)100:0.0501689845)100:0.5372508514,MN661084_Atrato_Nege-like_virus_1:0.5147607499)88:0.0733333452,(((((((((((((((MZ615329_Wallerfield_virus:0.0004493468,KM350505_Wallerfield_virus:0.0008995430)68:0.0000029604,KM350506_Wallerfield_virus:0.0013495238)80:0.0004494158,KM350504_Wallerfield_virus:0.0022513908)60:0.0000022402,MZ615323_Wallerfield_virus:0.0000011038)97:0.0008931491,KM350507_Wallerfield_virus:0.0013563305)87:0.0004603304,(KX518836_Wallerfield_virus:0.0000011038,KX518835_Wallerfield_virus:0.0008981055)100:0.0049622393)100:0.0045578115,(KX518833_Wallerfield_virus:0.0009028749,KX518832_Wallerfield_virus:0.0000011038)100:0.0105056601)57:0.0012964698,NC_023440_Wallerfield_virus:0.0027359816)55:0.0008961561,(KX518823_Wallerfield_virus:0.0004496980,KX518829_Wallerfield_virus:0.0000011038)100:0.0053455005)81:0.0005228338,MK959117_Wallerfield_virus:0.0036165965)79:0.0008989682,(KX518839_Wallerfield_virus:0.0004486751,KX518837_Wallerfield_virus:0.0000011038)67:0.0000025716)100:0.3610093939,MH719095_Uxmal_virus:0.4148351169)100:0.0932424430,((ON949943_Dezidougou_virus:0.0678979653,((JQ675604_Dezidougou_virus:0.0027181831,KY968698_Dezidougou_virus:0.0031698850)99:0.0043672982,(OP264896_Dezidougou_virus:0.0000011038,MT096525_Dezidougou_virus:0.0000011038)100:0.0042459978)100:0.0437790384)100:0.1696716860,ON949944_Kustavi_negevirus:0.2206510335)100:0.1255039580)98:0.0744830268,(((((MF281709_Biggievirus_Mos11:0.0004549334,MF281708_Biggievirus_Mos11:0.0000011038)100:0.0004556541,(KX924639_Biggievirus_Mos11:0.0004549676,MH188028_Culex_Biggie-like_virus:0.0022854467)78:0.0004548590)77:0.0004761229,(MH603566_Biggievirus_Mos11:0.0013698890,MK440620_Biggie_virus:0.0064808300)90:0.0008939345)98:0.0195146906,NC_035129_Culex_negev-like_virus_3:0.0349752670)100:0.2089587306,(((((KF588036_Goutanap_virus:0.0004487264,KM249339_Goutanap_virus:0.0004498598)23:0.0000011037,KF588037_Goutanap_virus:0.0000011038)14:0.0000011037,NC_025357_Goutanap_virus:0.0000011038)34:0.0000011037,LC504569_Goutanap_virus:0.0008972391)96:0.0008962962,(KF588038_Goutanap_virus:0.0000011038,KF588039_Goutanap_virus:0.0000011038)69:0.0000022570)100:0.2374390941)100:0.4582425873)97:0.0644298558,(((MZ615321_Feitosa_virus:0.0022638213,MZ615326_Feitosa_virus:0.0000022128)100:0.3516515966,JQ675606_Santana_virus:0.5704124630)76:0.0636436919,(((LC103139_Bustos_virus:0.0124842279,MN101546_Bustos_virus:0.0050132312)100:0.0200403538,(KX518758_Biratnagar_virus:0.0000011038,NC_034153_Biratnagar_virus:0.0004595020)100:0.0417072513)100:0.2497987438,MK959116_Agua_Salud_negevirus:0.2509342604)85:0.0556261043)100:0.2549166904)100:0.1715494078,OK491483_Xiangshan_martelli-like_virus_1:0.9543450066);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -48010.569913
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                 +--Tanay_virus_F1530C2F1532
+                                              +--| (96)
+                                              |  +--Tanay_virus_F1530C2F1219
+                                           +--| (98)
+                                           |  |     +--Tanay_virus_F1530C2F1533
+                                           |  |  +--| (77)
+                                           |  |  |  +--Tanay_virus_F1530C2F1530
+                                           |  +--| (47)
+                                           |     +--Tanay_virus_F1530C2F1215
+                                        +--| (91)
+                                        |  |  +--Tanay_virus_F1530C2F1212
+                                        |  +--| (99)
+                                        |     +--Tanay_virus_F1530C2F1217
+                                     +--| (100)
+                                     |  +--MG673930_Tanay_virus
+                                  +--| (100)
+                                  |  |           +--MG551501_Tanay_virus
+                                  |  |        +--| (55)
+                                  |  |        |  +--MG551500_Tanay_virus
+                                  |  |     +--| (77)
+                                  |  |     |  +--MG551502_Tanay_virus
+                                  |  |  +--| (98)
+                                  |  |  |  |     +--MG551503_Tanay_virus
+                                  |  |  |  |  +--| (39)
+                                  |  |  |  |  |  +--MG551506_Tanay_virus
+                                  |  |  |  +--| (42)
+                                  |  |  |     +--MG551504_Tanay_virus
+                                  |  +--| (100)
+                                  |     +--MG551505_Tanay_virus
+    +-----------------------------| (100)
+    |                             |     +--KF425263_Tanay_virus
+    |                             |  +--| (97)
+    |                             |  |  +--NC_024071_Tanay_virus
+    |                             +--| (100)
+    |                                +--KF425262_Tanay_virus
++---| (88)
+|   +----------------------------MN661084_Atrato_Nege-like_virus_1
+|
+|                                                                      +--MZ615329_Wallerfield_virus
+|                                                                   +--| (68)
+|                                                                   |  +--KM350505_Wallerfield_virus
+|                                                                +--| (80)
+|                                                                |  +--KM350506_Wallerfield_virus
+|                                                             +--| (60)
+|                                                             |  +--KM350504_Wallerfield_virus
+|                                                          +--| (97)
+|                                                          |  +--MZ615323_Wallerfield_virus
+|                                                       +--| (87)
+|                                                       |  +--KM350507_Wallerfield_virus
+|                                                    +--| (100)
+|                                                    |  |  +--KX518836_Wallerfield_virus
+|                                                    |  +--| (100)
+|                                                    |     +--KX518835_Wallerfield_virus
+|                                                 +--| (57)
+|                                                 |  |  +--KX518833_Wallerfield_virus
+|                                                 |  +--| (100)
+|                                                 |     +--KX518832_Wallerfield_virus
+|                                              +--| (55)
+|                                              |  +--NC_023440_Wallerfield_virus
+|                                           +--| (81)
+|                                           |  |  +--KX518823_Wallerfield_virus
+|                                           |  +--| (100)
+|                                           |     +--KX518829_Wallerfield_virus
+|                                        +--| (79)
+|                                        |  +--MK959117_Wallerfield_virus
+|                    +-------------------| (100)
+|                    |                   |  +--KX518839_Wallerfield_virus
+|                    |                   +--| (67)
+|                    |                      +--KX518837_Wallerfield_virus
+|               +----| (100)
+|               |    +----------------------MH719095_Uxmal_virus
+|           +---| (98)
+|           |   |               +--ON949943_Dezidougou_virus
+|           |   |      +--------| (100)
+|           |   |      |        |     +--JQ675604_Dezidougou_virus
+|           |   |      |        |  +--| (99)
+|           |   |      |        |  |  +--KY968698_Dezidougou_virus
+|           |   |      |        +--| (100)
+|           |   |      |           |  +--OP264896_Dezidougou_virus
+|           |   |      |           +--| (100)
+|           |   |      |              +--MT096525_Dezidougou_virus
+|           |   +------| (100)
+|           |          +-----------ON949944_Kustavi_negevirus
+|        +--| (97)
+|        |  |                                            +--MF281709_Biggievirus_Mos11
+|        |  |                                         +--| (100)
+|        |  |                                         |  +--MF281708_Biggievirus_Mos11
+|        |  |                                      +--| (77)
+|        |  |                                      |  |  +--KX924639_Biggievirus_Mos11
+|        |  |                                      |  +--| (78)
+|        |  |                                      |     +--MH188028_Culex_Biggie-like_virus
+|        |  |                                   +--| (98)
+|        |  |                                   |  |  +--MH603566_Biggievirus_Mos11
+|        |  |                                   |  +--| (90)
+|        |  |                                   |     +--MK440620_Biggie_virus
+|        |  |                        +----------| (100)
+|        |  |                        |          +--NC_035129_Culex_negev-like_virus_3
+|        |  +------------------------| (100)
+|        |                           |                     +--KF588036_Goutanap_virus
+|        |                           |                  +--| (23)
+|        |                           |                  |  +--KM249339_Goutanap_virus
+|        |                           |               +--| (34)
+|        |                           |               |  |  +--NC_025357_Goutanap_virus
+|        |                           |               |  +--| (14)
+|        |                           |               |     +--KF588037_Goutanap_virus
+|        |                           |            +--| (96)
+|        |                           |            |  +--LC504569_Goutanap_virus
+|        |                           +------------| (100)
+|        |                                        |  +--KF588038_Goutanap_virus
+|        |                                        +--| (69)
+|        |                                           +--KF588039_Goutanap_virus
++--------| (100)
+|        |                                   +--MZ615321_Feitosa_virus
+|        |                +------------------| (100)
+|        |                |                  +--MZ615326_Feitosa_virus
+|        |             +--| (76)
+|        |             |  +-------------------------------JQ675606_Santana_virus
+|        +-------------| (100)
+|                      |                   +--LC103139_Bustos_virus
+|                      |                +--| (100)
+|                      |                |  +--MN101546_Bustos_virus
+|                      |  +-------------| (100)
+|                      |  |             |  +--KX518758_Biratnagar_virus
+|                      |  |             +--| (100)
+|                      |  |                +--NC_034153_Biratnagar_virus
+|                      +--| (85)
+|                         +-------------MK959116_Agua_Salud_negevirus
+|
++----------------------------------------------------OK491483_Xiangshan_martelli-like_virus_1
+
+
+Consensus tree in newick format: 
+
+((((((((Tanay_virus_F1530C2F1532:0.0004615421,Tanay_virus_F1530C2F1219:0.0005078227)96:0.0000032257,((Tanay_virus_F1530C2F1533:0.0006409417,Tanay_virus_F1530C2F1530:0.0004459854)77:0.0000122471,Tanay_virus_F1530C2F1215:0.0000027423)47:0.0000027423)98:0.0009323704,(Tanay_virus_F1530C2F1212:0.0000027423,Tanay_virus_F1530C2F1217:0.0000027423)99:0.0013619821)91:0.0007008135,MG673930_Tanay_virus:0.0020703573)100:0.0209171937,((((MG551501_Tanay_virus:0.0004576475,MG551500_Tanay_virus:0.0009166057)55:0.0000027423,MG551502_Tanay_virus:0.0000027423)77:0.0004582248,((MG551503_Tanay_virus:0.0004575352,MG551506_Tanay_virus:0.0004574313)39:0.0000027423,MG551504_Tanay_virus:0.0000027423)42:0.0000027423)98:0.0004629777,MG551505_Tanay_virus:0.0004533162)100:0.0307722728)100:0.0516925289,((KF425263_Tanay_virus:0.0004593179,NC_024071_Tanay_virus:0.0004597442)97:0.0009197543,KF425262_Tanay_virus:0.0000027451)100:0.0501266374)100:0.5367151283,MN661084_Atrato_Nege-like_virus_1:0.5142641880)88:0.0733439914,(((((((((((((((MZ615329_Wallerfield_virus:0.0004495019,KM350505_Wallerfield_virus:0.0008984717)68:0.0000027423,KM350506_Wallerfield_virus:0.0013479158)80:0.0004495680,KM350504_Wallerfield_virus:0.0022475580)60:0.0000027423,MZ615323_Wallerfield_virus:0.0000027423)97:0.0008920859,KM350507_Wallerfield_virus:0.0013547132)87:0.0004603996,(KX518836_Wallerfield_virus:0.0000027423,KX518835_Wallerfield_virus:0.0008970359)100:0.0049537651)100:0.0045501174,(KX518833_Wallerfield_virus:0.0009017939,KX518832_Wallerfield_virus:0.0000027423)100:0.0104878486)57:0.0012949200,NC_023440_Wallerfield_virus:0.0027313174)55:0.0008951010,(KX518823_Wallerfield_virus:0.0004498246,KX518829_Wallerfield_virus:0.0000027423)100:0.0053365202)81:0.0005219356,MK959117_Wallerfield_virus:0.0036104718)79:0.0008980512,(KX518839_Wallerfield_virus:0.0004488006,KX518837_Wallerfield_virus:0.0000027423)67:0.0000023100)100:0.3604487386,MH719095_Uxmal_virus:0.4141567584)100:0.0931010705,((ON949943_Dezidougou_virus:0.0678134934,((JQ675604_Dezidougou_virus:0.0027150971,KY968698_Dezidougou_virus:0.0031652223)99:0.0043627580,(OP264896_Dezidougou_virus:0.0000027423,MT096525_Dezidougou_virus:0.0000027423)100:0.0042391860)100:0.0437086727)100:0.1694009925,ON949944_Kustavi_negevirus:0.2203441940)100:0.1253685809)98:0.0744273082,(((((MF281709_Biggievirus_Mos11:0.0004549561,MF281708_Biggievirus_Mos11:0.0000027423)100:0.0004556768,(KX924639_Biggievirus_Mos11:0.0004549899,MH188028_Culex_Biggie-like_virus:0.0022831177)78:0.0004548808)77:0.0004760350,(MH603566_Biggievirus_Mos11:0.0013684722,MK440620_Biggie_virus:0.0064721006)90:0.0008928699)98:0.0194966944,NC_035129_Culex_negev-like_virus_3:0.0349093781)100:0.2087211561,((((KF588036_Goutanap_virus:0.0004487103,KM249339_Goutanap_virus:0.0004498476)23:0.0000027423,(NC_025357_Goutanap_virus:0.0000027423,KF588037_Goutanap_virus:0.0000027423)14:0.0000027423)34:0.0000027423,LC504569_Goutanap_virus:0.0008960384)96:0.0008948864,(KF588038_Goutanap_virus:0.0000027423,KF588039_Goutanap_virus:0.0000027423)69:0.0000027423)100:0.2370962394)100:0.4575711043)97:0.0643792395,(((MZ615321_Feitosa_virus:0.0022615402,MZ615326_Feitosa_virus:0.0000023494)100:0.3511781936,JQ675606_Santana_virus:0.5696765027)76:0.0636675330,(((LC103139_Bustos_virus:0.0124722078,MN101546_Bustos_virus:0.0050077211)100:0.0200362879,(KX518758_Biratnagar_virus:0.0000027423,NC_034153_Biratnagar_virus:0.0004590757)100:0.0416516768)100:0.2495036050,MK959116_Agua_Salud_negevirus:0.2506731230)85:0.0555844863)100:0.2545951939)100:0.1714695721,OK491483_Xiangshan_martelli-like_virus_1:0.9533013417);
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 23 00:20:07 2023
+Total CPU time used: 5124.661047 seconds (1h:25m:24s)
+Total wall-clock time used: 277.8474179 seconds (0h:4m:37s)
+

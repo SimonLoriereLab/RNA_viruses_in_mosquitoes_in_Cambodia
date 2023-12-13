@@ -1,0 +1,595 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade2_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 888869
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 91 sequences with 2036 amino-acid sites
+Number of constant sites: 177 (= 8.69352% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 177 (= 8.69352% of all sites)
+Number of parsimony informative sites: 1822
+Number of distinct site patterns: 1981
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R5          -83766.229  167944.459 +    0.792  167991.088 +     0.86  169101.920 +    0.999
+LG+F+R6          -83765.566  167947.132 +    0.208  167994.720 +     0.14  169115.830 - 0.000953
+rtREV+F+R5       -84043.613  168499.225 - 2.71e-121  168545.854 - 2.94e-121  169656.686 - 3.42e-121
+LG+R5            -84120.313  168614.627 - 2.36e-146  168652.675 - 1.87e-144  169665.332 - 4.53e-123
+LG+R6            -84114.787  168607.574 - 8.03e-145  168646.480 - 4.15e-143  169669.517 - 5.59e-124
+rtREV+F+R6       -84042.662  168501.324 - 9.48e-122  168548.912 - 6.37e-122  169670.022 - 4.34e-124
+LG+I+G4          -84150.950  168663.900 - 4.72e-157  168699.436 - 1.31e-154  169680.892 - 1.89e-126
+LG+R4            -84172.635  168715.270 - 3.3e-168  168752.470 -   4e-166  169754.738 - 1.75e-142
+LG+G4            -84222.658  168805.316 - 9.24e-188  168840.443 - 3.16e-185  169816.690 - 6.16e-156
+WAG+F+R5         -84179.540  168771.081 - 2.51e-180  168817.710 - 2.73e-180  169928.542 - 3.17e-180
+WAG+F+R6         -84179.262  168774.525 - 4.49e-181  168822.113 - 3.02e-181  169943.223 - 2.06e-183
+LG+R3            -84308.610  168983.220 - 2.16e-226  169019.583 - 3.98e-224  170011.450 - 3.14e-198
+VT+F+R5          -84270.138  168952.276 - 1.13e-219  168998.905 - 1.23e-219  170109.737 - 1.43e-219
+VT+F+R6          -84271.777  168959.554 - 2.98e-221  169007.142 -   2e-221  170128.252 - 1.36e-223
+JTTDCMut+F+R5    -84392.533  169197.067 - 7.91e-273  169243.695 - 8.6e-273  170354.527 - 9.98e-273
+JTTDCMut+F+R6    -84392.060  169200.121 - 1.72e-273  169247.709 - 1.16e-273  170368.819 - 7.87e-276
+JTT+F+R5         -84402.584  169217.168 - 3.42e-277  169263.796 - 3.71e-277  170374.628 - 4.31e-277
+JTT+F+R6         -84402.194  169220.387 - 6.83e-278  169267.975 - 4.59e-278  170389.086 - 3.13e-280
+cpREV+F+R5       -84590.713  169593.425 -        0  169640.054 -        0  170750.886 -        0
+cpREV+F+R6       -84584.593  169585.185 -        0  169632.774 -        0  170753.884 -        0
+VT+R5            -84664.944  169703.888 -        0  169741.935 -        0  170754.592 -        0
+VT+R6            -84666.870  169711.740 -        0  169750.645 -        0  170773.682 -        0
+Blosum62+F+R5    -84648.906  169709.811 -        0  169756.440 -        0  170867.272 -        0
+mtInv+F+R5       -84656.363  169724.725 -        0  169771.354 -        0  170882.186 -        0
+Blosum62+F+R6    -84652.195  169720.391 -        0  169767.979 -        0  170889.089 -        0
+mtInv+F+R6       -84652.514  169721.029 -        0  169768.617 -        0  170889.727 -        0
+WAG+R5           -84774.096  169922.192 -        0  169960.239 -        0  170972.897 -        0
+PMB+F+R5         -84702.581  169817.162 -        0  169863.791 -        0  170974.623 -        0
+WAG+R6           -84773.632  169925.264 -        0  169964.169 -        0  170987.206 -        0
+PMB+F+R6         -84705.489  169826.978 -        0  169874.567 -        0  170995.677 -        0
+mtZOA+F+R5       -84803.603  170019.206 -        0  170065.835 -        0  171176.667 -        0
+mtZOA+F+R6       -84800.344  170016.688 -        0  170064.276 -        0  171185.386 -        0
+JTT+R5           -84885.423  170144.846 -        0  170182.893 -        0  171195.550 -        0
+JTTDCMut+R5      -84888.228  170150.456 -        0  170188.504 -        0  171201.161 -        0
+JTT+R6           -84883.880  170145.759 -        0  170184.665 -        0  171207.701 -        0
+JTTDCMut+R6      -84886.567  170151.135 -        0  170190.041 -        0  171213.077 -        0
+Blosum62+R5      -84914.063  170202.125 -        0  170240.173 -        0  171252.830 -        0
+Dayhoff+F+R5     -84849.175  170110.350 -        0  170156.978 -        0  171267.811 -        0
+DCMut+F+R5       -84851.841  170115.683 -        0  170162.312 -        0  171273.144 -        0
+Dayhoff+F+R6     -84845.241  170106.481 -        0  170154.070 -        0  171275.180 -        0
+Blosum62+R6      -84918.134  170214.269 -        0  170253.174 -        0  171276.211 -        0
+DCMut+F+R6       -84847.958  170111.916 -        0  170159.504 -        0  171280.614 -        0
+LG+R2            -84956.115  170274.229 -        0  170309.765 -        0  171291.222 -        0
+cpREV+R5         -84963.982  170301.963 -        0  170340.011 -        0  171352.668 -        0
+cpREV+R6         -84964.067  170306.134 -        0  170345.040 -        0  171368.076 -        0
+PMB+R5           -85018.677  170411.354 -        0  170449.402 -        0  171462.059 -        0
+PMB+R6           -85021.864  170421.727 -        0  170460.633 -        0  171483.669 -        0
+rtREV+R5         -85078.043  170530.087 -        0  170568.134 -        0  171580.792 -        0
+rtREV+R6         -85077.368  170532.735 -        0  170571.641 -        0  171594.678 -        0
+mtMet+F+R5       -85130.518  170673.036 -        0  170719.665 -        0  171830.497 -        0
+mtMet+F+R6       -85124.013  170664.026 -        0  170711.614 -        0  171832.724 -        0
+FLU+F+R5         -85301.916  171015.833 -        0  171062.462 -        0  172173.294 -        0
+FLU+F+R6         -85294.786  171005.572 -        0  171053.161 -        0  172174.271 -        0
+mtREV+F+R5       -85407.565  171227.130 -        0  171273.759 -        0  172384.591 -        0
+mtREV+F+R6       -85407.117  171230.234 -        0  171277.823 -        0  172398.933 -        0
+HIVb+F+R5        -85522.101  171456.203 -        0  171502.832 -        0  172613.664 -        0
+HIVb+F+R6        -85515.670  171447.341 -        0  171494.929 -        0  172616.039 -        0
+mtART+F+R6       -85593.881  171603.761 -        0  171651.350 -        0  172772.460 -        0
+mtART+F+R5       -85612.737  171637.474 -        0  171684.102 -        0  172794.934 -        0
+FLU+R5           -85760.078  171894.157 -        0  171932.204 -        0  172944.862 -        0
+FLU+R6           -85753.750  171885.499 -        0  171924.405 -        0  172947.441 -        0
+Dayhoff+R5       -85872.996  172119.992 -        0  172158.040 -        0  173170.697 -        0
+DCMut+R5         -85875.498  172124.996 -        0  172163.044 -        0  173175.701 -        0
+Dayhoff+R6       -85871.511  172121.022 -        0  172159.928 -        0  173182.965 -        0
+DCMut+R6         -85873.710  172125.420 -        0  172164.326 -        0  173187.362 -        0
+HIVb+R5          -86105.736  172585.472 -        0  172623.519 -        0  173636.177 -        0
+HIVb+R6          -86100.006  172578.011 -        0  172616.917 -        0  173639.953 -        0
+mtVer+F+R6       -86281.605  172979.210 -        0  173026.798 -        0  174147.908 -        0
+mtVer+F+R5       -86293.991  172999.982 -        0  173046.611 -        0  174157.443 -        0
+mtMAM+F+R6       -86740.311  173896.621 -        0  173944.210 -        0  175065.320 -        0
+mtMAM+F+R5       -86755.927  173923.853 -        0  173970.482 -        0  175081.314 -        0
+LG+I             -87079.829  174519.657 -        0  174554.784 -        0  175531.031 -        0
+mtZOA+R6         -87224.487  174826.974 -        0  174865.879 -        0  175888.916 -        0
+mtZOA+R5         -87235.005  174844.011 -        0  174882.059 -        0  175894.716 -        0
+HIVw+F+R5        -87695.078  175802.155 -        0  175848.784 -        0  176959.616 -        0
+HIVw+F+R6        -87692.331  175800.662 -        0  175848.251 -        0  176969.361 -        0
+mtMet+R5         -87976.180  176326.360 -        0  176364.407 -        0  177377.065 -        0
+mtMet+R6         -87975.487  176328.975 -        0  176367.880 -        0  177390.917 -        0
+mtInv+R5         -88112.745  176599.489 -        0  176637.537 -        0  177650.194 -        0
+mtInv+R6         -88117.203  176612.405 -        0  176651.311 -        0  177674.347 -        0
+LG               -88462.510  177283.020 -        0  177317.739 -        0  178288.774 -        0
+mtREV+R5         -88655.378  177684.755 -        0  177722.803 -        0  178735.460 -        0
+mtREV+R6         -88653.139  177684.278 -        0  177723.184 -        0  178746.220 -        0
+mtART+R6         -88762.078  177902.156 -        0  177941.062 -        0  178964.098 -        0
+mtART+R5         -88776.219  177926.438 -        0  177964.486 -        0  178977.143 -        0
+HIVw+R6          -89360.781  179099.563 -        0  179138.468 -        0  180161.505 -        0
+HIVw+R5          -89369.165  179112.330 -        0  179150.378 -        0  180163.035 -        0
+mtVer+R5         -89408.101  179190.202 -        0  179228.249 -        0  180240.907 -        0
+mtVer+R6         -89404.408  179186.816 -        0  179225.722 -        0  180248.758 -        0
+mtMAM+R6         -89989.679  180357.358 -        0  180396.264 -        0  181419.301 -        0
+mtMAM+R5         -90007.504  180389.008 -        0  180427.055 -        0  181439.713 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R5
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0522
+  pi(R) = 0.0577
+  pi(N) = 0.0442
+  pi(D) = 0.0570
+  pi(C) = 0.0240
+  pi(Q) = 0.0303
+  pi(E) = 0.0619
+  pi(G) = 0.0544
+  pi(H) = 0.0245
+  pi(I) = 0.0666
+  pi(L) = 0.0994
+  pi(K) = 0.0658
+  pi(M) = 0.0332
+  pi(F) = 0.0458
+  pi(P) = 0.0426
+  pi(S) = 0.0809
+  pi(T) = 0.0544
+  pi(W) = 0.0112
+  pi(Y) = 0.0369
+  pi(V) = 0.0570
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.1271,0.0304) (0.2320,0.2676) (0.3151,0.7290) (0.2649,1.7431) (0.0609,3.9837)
+
+ Category  Relative_rate  Proportion
+  1         0.0304         0.1271
+  2         0.2676         0.2320
+  3         0.7290         0.3151
+  4         1.7431         0.2649
+  5         3.9837         0.0609
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -83755.1231 (s.e. 926.7301)
+Unconstrained log-likelihood (without tree): -15424.3958
+Number of free parameters (#branches + #model parameters): 206
+Akaike information criterion (AIC) score: 167922.2462
+Corrected Akaike information criterion (AICc) score: 167968.8750
+Bayesian information criterion (BIC) score: 169079.7072
+
+Total tree length (sum of branch lengths): 20.3293
+Sum of internal branch lengths: 14.3363 (70.5202% of tree length)
+
+WARNING: 14 near-zero internal branches (<0.0005) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ON872562_Bat_faecal_associated_anphe-like_virus_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                                   +--MN053740_Aedes_aegypti_anphevirus
+                                                                +**| (23)
+                                                                |  |  +--MN053738_Aedes_aegypti_anphevirus
+                                                                |  +--| (99)
+                                                                |     +**MN053744_Aedes_aegypti_anphevirus
+                                                             +**| (8)
+                                                             |  +**MN053739_Aedes_aegypti_anphevirus
+                                                          +--| (94)
+                                                          |  +--MN053741_Aedes_aegypti_anphevirus
+                                                       +**| (19)
+                                                       |  +--MN053737_Aedes_aegypti_anphevirus
+                                                    +**| (13)
+                                                    |  |  +--MN053742_Aedes_aegypti_anphevirus
+                                                    |  +--| (96)
+                                                    |     +--MN053743_Aedes_aegypti_anphevirus
+                                                 +--| (97)
+                                                 |  |  +**MH037149_Gylbovirus_aagae
+                                                 |  +--| (91)
+                                                 |     |  +--MH430663_Gylbovirus_aagae
+                                                 |     +--| (72)
+                                                 |        +--MH237595_Aedes_aegypti_anphevirus
+                                              +--| (69)
+                                              |  |        +**MG012486_Aedes_aegypti_anphevirus
+                                              |  |     +**| (91)
+                                              |  |     |  |  +--MW435012_Gylbovirus_aagae
+                                              |  |     |  +--| (100)
+                                              |  |     |     +**MW435013_Gylbovirus_aagae
+                                              |  |  +**| (54)
+                                              |  |  |  +**MH430648_Gylbovirus_aagae
+                                              |  +--| (97)
+                                              |     +--MH430650_Gylbovirus_aagae
+                                           +--| (95)
+                                           |  +--MH430658_Gylbovirus_aagae
+                                        +--| (79)
+                                        |  |           +--Aedes_anphevirus_F1058C3F1058
+                                        |  |        +**| (73)
+                                        |  |        |  |  +--MH430655_Gylbovirus_aagae
+                                        |  |        |  +--| (99)
+                                        |  |        |     |  +**MH430666_Gylbovirus_aagae
+                                        |  |        |     +**| (60)
+                                        |  |        |        +--MH430651_Gylbovirus_aagae
+                                        |  |     +--| (95)
+                                        |  |     |  |     +--Aedes_anphevirus_F1058C3F1059
+                                        |  |     |  |  +**| (51)
+                                        |  |     |  |  |  +--Aedes_anphevirus_F1058C3F1060
+                                        |  |     |  +--| (69)
+                                        |  |     |     +--MH430653_Gylbovirus_aagae
+                                        |  |  +**| (89)
+                                        |  |  |  +--MH430652_Gylbovirus_aagae
+                                        |  +--| (85)
+                                        |     |           +**Aedes_anphevirus_F1058C3F1067
+                                        |     |        +--| (85)
+                                        |     |        |  +--Aedes_anphevirus_F1058C3F1068
+                                        |     |     +--| (85)
+                                        |     |     |  +--Aedes_anphevirus_F1058C3F1062
+                                        |     |  +--| (84)
+                                        |     |  |  +--Aedes_anphevirus_F1058C3F1061
+                                        |     +--| (85)
+                                        |        +--MH430654_Gylbovirus_aagae
+                                     +--| (71)
+                                     |  |  +--MH430656_Gylbovirus_aagae
+                                     |  +--| (99)
+                                     |     +--MH430657_Gylbovirus_aagae
+                     +---------------| (100)
+                     |               +**MH430665_Gylbovirus_aagae
+                +----| (100)
+                |    +---------------ON955256_Enontekio_anphevirus_2
+             +--| (85)
+             |  |                                        +**MF176245_Culex_mononega-like_virus_1
+             |  |                                     +--| (95)
+             |  |                                     |  |  +--MF176296_Culex_mononega-like_virus_1
+             |  |                                     |  +**| (58)
+             |  |                                     |     +--MF176356_Culex_mononega-like_virus_1
+             |  |                                  +--| (98)
+             |  |                                  |  |  +**MF176316_Culex_mononega-like_virus_1
+             |  |                                  |  +--| (96)
+             |  |                                  |     +--MF176375_Culex_mononega-like_virus_1
+             |  |                               +--| (99)
+             |  |                               |  +--MK440643_Culex_mononega-like_virus_1
+             |  |     +-------------------------| (100)
+             |  |     |                         +--OL700050_Culex_mononega-like_virus_1
+             |  |  +--| (97)
+             |  |  |  |                         +--MW435017_Gordis_virus
+             |  |  |  |                      +**| (52)
+             |  |  |  |                      |  |  +--MW435018_Gordis_virus
+             |  |  |  |                      |  +--| (99)
+             |  |  |  |                      |     +**MW435019_Gordis_virus
+             |  |  |  |                   +--| (97)
+             |  |  |  |                   |  +--MW435020_Gordis_virus
+             |  |  |  +-------------------| (100)
+             |  |  |                      |     +**MW435014_Gordis_virus
+             |  |  |                      |  +--| (100)
+             |  |  |                      |  |  +--MW435016_Gordis_virus
+             |  |  |                      +--| (99)
+             |  |  |                         +--MW435015_Gordis_virus
+             |  +--| (68)
+             |     |                                     +--MW452303_Anphevirus_sp_
+             |     |                                  +--| (95)
+             |     |                                  |  |  +--OL700094_Anphevirus_xinchengense
+             |     |                                  |  +--| (89)
+             |     |                                  |     +--NC_031244_Anphevirus_xinchengense
+             |     +----------------------------------| (100)
+             |                                        |  +--Xincheng_Mosquito_Virus_F1356C1F1356
+             |                                        +--| (100)
+             |                                           +--Xincheng_Mosquito_Virus_F1356C1F1367
+    +--------| (100)
+    |        |                                    +--KX148551_Bolahun_virus_variant_1
+    |        |                              +-----| (100)
+    |        |                              |     +--NC_055112_Gambievirus_bolahunense
+    |        |               +--------------| (100)
+    |        |               |              +-----KX148553_Gambievirus_senegalense
+    |        +---------------| (100)
+    |                        |                  +--MH822963_Madalivirus_amazonaense
+    |                        |           +------| (100)
+    |                        |           |      +--MH822964_Madalivirus_amazonaense
+    |                        +-----------| (100)
+    |                                    +-------MH822965_Madalivirus_amapaense
++---| (95)
+|   |                                                   +**LC514054_Triniovirus_yonagoense
+|   |                                             +-----| (100)
+|   |                                             |     +--LC514055_Triniovirus_yonagoense
+|   |                    +------------------------| (100)
+|   |                    |                        +-----OL700126_XiangYun_mono-chu-like_virus_1
+|   |               +----| (99)
+|   |               |    |                     +-----ON860459_Malby_virus
+|   |               |    +---------------------| (100)
+|   |               |                          +----ON955255_Enontekio_anphevirus_1
+|   |         +-----| (100)
+|   |         |     |                             +--ON955258_Joensuu_anphevirus
+|   |         |     |                          +--| (100)
+|   |         |     |                          |  +--ON955260_Joensuu_anphevirus
+|   |         |     |                     +----| (100)
+|   |         |     |                     |    +--ON955261_Joensuu_anphevirus
+|   |         |     |                +----| (100)
+|   |         |     |                |    +--ON955263_Joensuu_anphevirus
+|   |         |     +----------------| (100)
+|   |         |                      +---------------MN053735_Guadeloupe_mosquito_mononega-like_virus
+|   |      +--| (98)
+|   |      |  |                             +--Aedes_albopictus_anphevirus_F1016C1F1016
+|   |      |  |                       +-----| (100)
+|   |      |  |                       |     +--MW147277_Aedes_albopictus_anphevirus
+|   |      |  |              +--------| (100)
+|   |      |  |              |        +------MT822181_Serbia_mononega-like_virus_1
+|   |      |  +--------------| (100)
+|   |      |                 +--------------ON955257_Hanko_anphevirus
+|   +------| (100)
+|          |                                            +--MF176332_Doupovirus_australiaense
+|          |                                         +**| (51)
+|          |                                         |  +--NC_035133_Doupovirus_australiaense
+|          |                                      +**| (50)
+|          |                                      |  +**MF176318_Doupovirus_australiaense
+|          |                                   +--| (100)
+|          |                                   |  +--MF176268_Doupovirus_australiaense
+|          |                                +--| (94)
+|          |                                |  +--MF176247_Doupovirus_australiaense
+|          |                             +--| (97)
+|          |                             |  |  +**MK440623_Doupovirus_australiaense
+|          |                             |  +--| (100)
+|          |                             |     +--MN513369_Doupovirus_australiaense
+|          |                         +---| (100)
+|          |                         |   +--OL700051_Doupovirus_australiaense
+|          |                      +--| (97)
+|          |                      |  +------Prepisiers_virus_F1032C1F1032
+|          |          +-----------| (100)
+|          |          |           |       +--MW452297_Mononegavirales_sp_
+|          |          |           |    +--| (100)
+|          |          |           |    |  +--OL700130_XiangYun_mono-chu-like_virus_5
+|          |          |           +----| (100)
+|          |          |                +--OL700133_XiangYun_mono-chu-like_virus_8
+|          +----------| (100)
+|                     +--------------MN053736_Guadeloupe_mosquito_mononega-like_virus
+|
+|                                     +--ON059793_Tolviot_virus
++-------------------------------------| (100)
+|                                     |  +--ON059795_Tolviot_virus
+|                                     +--| (63)
+|                                        |  +--ON059794_Tolviot_virus
+|                                        +--| (100)
+|                                           +--ON059796_Tolviot_virus
+|
++--------------------------------------------ON872562_Bat_faecal_associated_anphe-like_virus_1
+
+Tree in newick format:
+
+((((((((((((((((MN053740_Aedes_aegypti_anphevirus:0.0029954655,(MN053738_Aedes_aegypti_anphevirus:0.0004991775,MN053744_Aedes_aegypti_anphevirus:0.0000011966)99:0.0009965537)23:0.0000011966,MN053739_Aedes_aegypti_anphevirus:0.0000011966)8:0.0000011966,MN053741_Aedes_aegypti_anphevirus:0.0004991064)94:0.0004997385,MN053737_Aedes_aegypti_anphevirus:0.0019940374)19:0.0000034459,(MN053742_Aedes_aegypti_anphevirus:0.0009963559,MN053743_Aedes_aegypti_anphevirus:0.0014955955)96:0.0004997550)13:0.0000011966,(MH037149_Gylbovirus_aagae:0.0000024453,(MH430663_Gylbovirus_aagae:0.0020004026,MH237595_Aedes_aegypti_anphevirus:0.0050180175)72:0.0009983071)91:0.0004977644)97:0.0017067944,(((MG012486_Aedes_aegypti_anphevirus:0.0000011966,(MW435012_Gylbovirus_aagae:0.0014974785,MW435013_Gylbovirus_aagae:0.0000023601)100:0.0009962926)91:0.0000032811,MH430648_Gylbovirus_aagae:0.0000011966)54:0.0000024062,MH430650_Gylbovirus_aagae:0.0019984890)97:0.0022877656)69:0.0005004245,MH430658_Gylbovirus_aagae:0.0032247451)95:0.0059898568,((((Aedes_anphevirus_F1058C3F1058:0.0009978963,(MH430655_Gylbovirus_aagae:0.0019980555,(MH430666_Gylbovirus_aagae:0.0000011966,MH430651_Gylbovirus_aagae:0.0009968371)60:0.0000026396)99:0.0004994242)73:0.0000023539,((Aedes_anphevirus_F1058C3F1059:0.0019944983,Aedes_anphevirus_F1058C3F1060:0.0090800238)51:0.0000011966,MH430653_Gylbovirus_aagae:0.0004994697)69:0.0004994468)95:0.0030791423,MH430652_Gylbovirus_aagae:0.0054506523)89:0.0004698492,((((Aedes_anphevirus_F1058C3F1067:0.0000034332,Aedes_anphevirus_F1058C3F1068:0.0275955012)85:0.0020766233,Aedes_anphevirus_F1058C3F1062:0.0010030854)85:0.0019997743,Aedes_anphevirus_F1058C3F1061:0.0005005651)84:0.0009913386,MH430654_Gylbovirus_aagae:0.0040130818)85:0.0031026655)85:0.0093877130)79:0.0085718557,(MH430656_Gylbovirus_aagae:0.0019950949,MH430657_Gylbovirus_aagae:0.0015100829)99:0.0018642468)71:0.0006276602,MH430665_Gylbovirus_aagae:0.0000027576)100:0.5836225640,ON955256_Enontekio_anphevirus_2:0.5939071057)100:0.1915457844,((((((MF176245_Culex_mononega-like_virus_1:0.0000011966,(MF176296_Culex_mononega-like_virus_1:0.0015317067,MF176356_Culex_mononega-like_virus_1:0.0015336919)58:0.0000011966)95:0.0005110501,(MF176316_Culex_mononega-like_virus_1:0.0000011966,MF176375_Culex_mononega-like_virus_1:0.0015299617)96:0.0005113293)98:0.0033857887,MK440643_Culex_mononega-like_virus_1:0.0022577989)99:0.0288713009,OL700050_Culex_mononega-like_virus_1:0.0211571210)100:0.9441835231,(((MW435017_Gordis_virus:0.0010151640,(MW435018_Gordis_virus:0.0005081521,MW435019_Gordis_virus:0.0000011966)99:0.0010162025)52:0.0000029237,MW435020_Gordis_virus:0.0010147778)97:0.0125165068,((MW435014_Gordis_virus:0.0000011966,MW435016_Gordis_virus:0.0005097337)100:0.0010062718,MW435015_Gordis_virus:0.0010280198)99:0.0230763316)100:0.7039644764)97:0.1382746893,((MW452303_Anphevirus_sp_:0.0091962145,(OL700094_Anphevirus_xinchengense:0.0085059893,NC_031244_Anphevirus_xinchengense:0.0134634873)89:0.0103255403)95:0.0739345988,(Xincheng_Mosquito_Virus_F1356C1F1356:0.0014267065,Xincheng_Mosquito_Virus_F1356C1F1367:0.0031695822)100:0.0809126194)100:1.2435977730)68:0.0755995870)85:0.1228891894,(((KX148551_Bolahun_virus_variant_1:0.0136605438,NC_055112_Gambievirus_bolahunense:0.0104012366)100:0.2260716226,KX148553_Gambievirus_senegalense:0.2394412794)100:0.5411961977,((MH822963_Madalivirus_amazonaense:0.0072013409,MH822964_Madalivirus_amazonaense:0.0092416847)100:0.2704953197,MH822965_Madalivirus_amapaense:0.2929453256)100:0.4231280260)100:0.5659720950)100:0.3404475483,((((((LC514054_Triniovirus_yonagoense:0.0001462579,LC514055_Triniovirus_yonagoense:0.0008506100)100:0.2118534583,OL700126_XiangYun_mono-chu-like_virus_1:0.2354471540)100:0.9046750768,(ON860459_Malby_virus:0.2195192216,ON955255_Enontekio_anphevirus_1:0.2038714408)100:0.7762308827)99:0.1778849480,((((ON955258_Joensuu_anphevirus:0.0631332895,ON955260_Joensuu_anphevirus:0.0053522767)100:0.0222271749,ON955261_Joensuu_anphevirus:0.0207251484)100:0.1857127738,ON955263_Joensuu_anphevirus:0.0542765368)100:0.2079384347,MN053735_Guadeloupe_mosquito_mononega-like_virus:0.5637008867)100:0.5989648888)100:0.2314160251,(((Aedes_albopictus_anphevirus_F1016C1F1016:0.0057982846,MW147277_Aedes_albopictus_anphevirus:0.0022612633)100:0.2215257327,MT822181_Serbia_mononega-like_virus_1:0.2623780158)100:0.3307686420,ON955257_Hanko_anphevirus:0.5318763180)100:0.5440604036)98:0.1224898066,(((((((((MF176332_Doupovirus_australiaense:0.0010151496,NC_035133_Doupovirus_australiaense:0.0015213271)51:0.0000011966,MF176318_Doupovirus_australiaense:0.0000011966)50:0.0000011966,MF176268_Doupovirus_australiaense:0.0020332030)100:0.0007485278,MF176247_Doupovirus_australiaense:0.0017934321)94:0.0021209240,(MK440623_Doupovirus_australiaense:0.0000026470,MN513369_Doupovirus_australiaense:0.0005077168)100:0.0068113862)97:0.0021015922,OL700051_Doupovirus_australiaense:0.0017581980)100:0.1649570675,Prepisiers_virus_F1032C1F1032:0.2585442307)97:0.0592606005,((MW452297_Mononegavirales_sp_:0.0007658881,OL700130_XiangYun_mono-chu-like_virus_5:0.0015299285)100:0.0523243576,OL700133_XiangYun_mono-chu-like_virus_8:0.0781317258)100:0.1905635629)100:0.4440504239,MN053736_Guadeloupe_mosquito_mononega-like_virus:0.5461658041)100:0.4029885709)100:0.2565735919)95:0.1730213835,(ON059793_Tolviot_virus:0.0007674899,(ON059795_Tolviot_virus:0.0103591372,(ON059794_Tolviot_virus:0.0078236495,ON059796_Tolviot_virus:0.0083406315)100:0.0379860761)63:0.0120357733)100:1.3397577450,ON872562_Bat_faecal_associated_anphe-like_virus_1:1.5881080177);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -83755.178579
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                   +--MN053740_Aedes_aegypti_anphevirus
+                                                                +--| (49)
+                                                                |  +--MN053741_Aedes_aegypti_anphevirus
+                                                             +--| (34)
+                                                             |  +--MN053739_Aedes_aegypti_anphevirus
+                                                          +--| (94)
+                                                          |  |  +--MN053738_Aedes_aegypti_anphevirus
+                                                          |  +--| (99)
+                                                          |     +--MN053744_Aedes_aegypti_anphevirus
+                                                       +--| (21)
+                                                       |  |  +--MN053742_Aedes_aegypti_anphevirus
+                                                       |  +--| (96)
+                                                       |     +--MN053743_Aedes_aegypti_anphevirus
+                                                    +--| (32)
+                                                    |  |  +--MH037149_Gylbovirus_aagae
+                                                    |  +--| (91)
+                                                    |     |  +--MH430663_Gylbovirus_aagae
+                                                    |     +--| (72)
+                                                    |        +--MH237595_Aedes_aegypti_anphevirus
+                                                 +--| (97)
+                                                 |  +--MN053737_Aedes_aegypti_anphevirus
+                                              +--| (69)
+                                              |  |        +--MG012486_Aedes_aegypti_anphevirus
+                                              |  |     +--| (91)
+                                              |  |     |  |  +--MW435012_Gylbovirus_aagae
+                                              |  |     |  +--| (100)
+                                              |  |     |     +--MW435013_Gylbovirus_aagae
+                                              |  |  +--| (54)
+                                              |  |  |  +--MH430648_Gylbovirus_aagae
+                                              |  +--| (97)
+                                              |     +--MH430650_Gylbovirus_aagae
+                                           +--| (95)
+                                           |  +--MH430658_Gylbovirus_aagae
+                                        +--| (79)
+                                        |  |           +--Aedes_anphevirus_F1058C3F1058
+                                        |  |        +--| (73)
+                                        |  |        |  |  +--MH430655_Gylbovirus_aagae
+                                        |  |        |  +--| (99)
+                                        |  |        |     |  +--MH430666_Gylbovirus_aagae
+                                        |  |        |     +--| (60)
+                                        |  |        |        +--MH430651_Gylbovirus_aagae
+                                        |  |     +--| (95)
+                                        |  |     |  |     +--Aedes_anphevirus_F1058C3F1059
+                                        |  |     |  |  +--| (51)
+                                        |  |     |  |  |  +--Aedes_anphevirus_F1058C3F1060
+                                        |  |     |  +--| (69)
+                                        |  |     |     +--MH430653_Gylbovirus_aagae
+                                        |  |  +--| (89)
+                                        |  |  |  +--MH430652_Gylbovirus_aagae
+                                        |  +--| (85)
+                                        |     |           +--Aedes_anphevirus_F1058C3F1067
+                                        |     |        +--| (85)
+                                        |     |        |  +--Aedes_anphevirus_F1058C3F1068
+                                        |     |     +--| (85)
+                                        |     |     |  +--Aedes_anphevirus_F1058C3F1062
+                                        |     |  +--| (84)
+                                        |     |  |  +--Aedes_anphevirus_F1058C3F1061
+                                        |     +--| (85)
+                                        |        +--MH430654_Gylbovirus_aagae
+                                     +--| (71)
+                                     |  |  +--MH430656_Gylbovirus_aagae
+                                     |  +--| (99)
+                                     |     +--MH430657_Gylbovirus_aagae
+                     +---------------| (100)
+                     |               +--MH430665_Gylbovirus_aagae
+                +----| (100)
+                |    +---------------ON955256_Enontekio_anphevirus_2
+             +--| (85)
+             |  |                                        +--MF176245_Culex_mononega-like_virus_1
+             |  |                                     +--| (95)
+             |  |                                     |  |  +--MF176296_Culex_mononega-like_virus_1
+             |  |                                     |  +--| (58)
+             |  |                                     |     +--MF176356_Culex_mononega-like_virus_1
+             |  |                                  +--| (98)
+             |  |                                  |  |  +--MF176316_Culex_mononega-like_virus_1
+             |  |                                  |  +--| (96)
+             |  |                                  |     +--MF176375_Culex_mononega-like_virus_1
+             |  |                               +--| (99)
+             |  |                               |  +--MK440643_Culex_mononega-like_virus_1
+             |  |     +-------------------------| (100)
+             |  |     |                         +--OL700050_Culex_mononega-like_virus_1
+             |  |  +--| (97)
+             |  |  |  |                         +--MW435017_Gordis_virus
+             |  |  |  |                      +--| (52)
+             |  |  |  |                      |  |  +--MW435018_Gordis_virus
+             |  |  |  |                      |  +--| (99)
+             |  |  |  |                      |     +--MW435019_Gordis_virus
+             |  |  |  |                   +--| (97)
+             |  |  |  |                   |  +--MW435020_Gordis_virus
+             |  |  |  +-------------------| (100)
+             |  |  |                      |     +--MW435014_Gordis_virus
+             |  |  |                      |  +--| (100)
+             |  |  |                      |  |  +--MW435016_Gordis_virus
+             |  |  |                      +--| (99)
+             |  |  |                         +--MW435015_Gordis_virus
+             |  +--| (68)
+             |     |                                     +--MW452303_Anphevirus_sp_
+             |     |                                  +--| (95)
+             |     |                                  |  |  +--OL700094_Anphevirus_xinchengense
+             |     |                                  |  +--| (89)
+             |     |                                  |     +--NC_031244_Anphevirus_xinchengense
+             |     +----------------------------------| (100)
+             |                                        |  +--Xincheng_Mosquito_Virus_F1356C1F1356
+             |                                        +--| (100)
+             |                                           +--Xincheng_Mosquito_Virus_F1356C1F1367
+    +--------| (100)
+    |        |                                    +--KX148551_Bolahun_virus_variant_1
+    |        |                              +-----| (100)
+    |        |                              |     +--NC_055112_Gambievirus_bolahunense
+    |        |               +--------------| (100)
+    |        |               |              +-----KX148553_Gambievirus_senegalense
+    |        +---------------| (100)
+    |                        |                  +--MH822963_Madalivirus_amazonaense
+    |                        |           +------| (100)
+    |                        |           |      +--MH822964_Madalivirus_amazonaense
+    |                        +-----------| (100)
+    |                                    +-------MH822965_Madalivirus_amapaense
++---| (95)
+|   |                                                   +--LC514054_Triniovirus_yonagoense
+|   |                                             +-----| (100)
+|   |                                             |     +--LC514055_Triniovirus_yonagoense
+|   |                    +------------------------| (100)
+|   |                    |                        +-----OL700126_XiangYun_mono-chu-like_virus_1
+|   |               +----| (99)
+|   |               |    |                     +-----ON860459_Malby_virus
+|   |               |    +---------------------| (100)
+|   |               |                          +----ON955255_Enontekio_anphevirus_1
+|   |         +-----| (100)
+|   |         |     |                             +--ON955258_Joensuu_anphevirus
+|   |         |     |                          +--| (100)
+|   |         |     |                          |  +--ON955260_Joensuu_anphevirus
+|   |         |     |                     +----| (100)
+|   |         |     |                     |    +--ON955261_Joensuu_anphevirus
+|   |         |     |                +----| (100)
+|   |         |     |                |    +--ON955263_Joensuu_anphevirus
+|   |         |     +----------------| (100)
+|   |         |                      +---------------MN053735_Guadeloupe_mosquito_mononega-like_virus
+|   |      +--| (98)
+|   |      |  |                             +--Aedes_albopictus_anphevirus_F1016C1F1016
+|   |      |  |                       +-----| (100)
+|   |      |  |                       |     +--MW147277_Aedes_albopictus_anphevirus
+|   |      |  |              +--------| (100)
+|   |      |  |              |        +------MT822181_Serbia_mononega-like_virus_1
+|   |      |  +--------------| (100)
+|   |      |                 +--------------ON955257_Hanko_anphevirus
+|   +------| (100)
+|          |                                            +--MF176332_Doupovirus_australiaense
+|          |                                         +--| (51)
+|          |                                         |  +--NC_035133_Doupovirus_australiaense
+|          |                                      +--| (50)
+|          |                                      |  +--MF176318_Doupovirus_australiaense
+|          |                                   +--| (100)
+|          |                                   |  +--MF176268_Doupovirus_australiaense
+|          |                                +--| (94)
+|          |                                |  +--MF176247_Doupovirus_australiaense
+|          |                             +--| (97)
+|          |                             |  |  +--MK440623_Doupovirus_australiaense
+|          |                             |  +--| (100)
+|          |                             |     +--MN513369_Doupovirus_australiaense
+|          |                         +---| (100)
+|          |                         |   +--OL700051_Doupovirus_australiaense
+|          |                      +--| (97)
+|          |                      |  +------Prepisiers_virus_F1032C1F1032
+|          |          +-----------| (100)
+|          |          |           |       +--MW452297_Mononegavirales_sp_
+|          |          |           |    +--| (100)
+|          |          |           |    |  +--OL700130_XiangYun_mono-chu-like_virus_5
+|          |          |           +----| (100)
+|          |          |                +--OL700133_XiangYun_mono-chu-like_virus_8
+|          +----------| (100)
+|                     +--------------MN053736_Guadeloupe_mosquito_mononega-like_virus
+|
+|                                     +--ON059793_Tolviot_virus
++-------------------------------------| (100)
+|                                     |  +--ON059795_Tolviot_virus
+|                                     +--| (63)
+|                                        |  +--ON059794_Tolviot_virus
+|                                        +--| (100)
+|                                           +--ON059796_Tolviot_virus
+|
++--------------------------------------------ON872562_Bat_faecal_associated_anphe-like_virus_1
+
+
+Consensus tree in newick format: 
+
+((((((((((((((((MN053740_Aedes_aegypti_anphevirus:0.0029887647,MN053741_Aedes_aegypti_anphevirus:0.0004976824)49:0.0000029157,MN053739_Aedes_aegypti_anphevirus:0.0000029157)34:0.0000029157,(MN053738_Aedes_aegypti_anphevirus:0.0004977579,MN053744_Aedes_aegypti_anphevirus:0.0000029157)99:0.0009944450)94:0.0004983196,(MN053742_Aedes_aegypti_anphevirus:0.0009942463,MN053743_Aedes_aegypti_anphevirus:0.0014924228)96:0.0004983362)21:0.0000029157,(MH037149_Gylbovirus_aagae:0.0000022091,(MH430663_Gylbovirus_aagae:0.0019949967,MH237595_Aedes_aegypti_anphevirus:0.0050074180)72:0.0009961929)91:0.0004964543)32:0.0000029157,MN053737_Aedes_aegypti_anphevirus:0.0019897996)97:0.0017031214,(((MG012486_Aedes_aegypti_anphevirus:0.0000029157,(MW435012_Gylbovirus_aagae:0.0014943022,MW435013_Gylbovirus_aagae:0.0000029157)100:0.0009943618)91:0.0000029157,MH430648_Gylbovirus_aagae:0.0000029157)54:0.0000029157,MH430650_Gylbovirus_aagae:0.0019942473)97:0.0022828513)69:0.0004990018,MH430658_Gylbovirus_aagae:0.0032177746)95:0.0059770578,((((Aedes_anphevirus_F1058C3F1058:0.0009957750,(MH430655_Gylbovirus_aagae:0.0019937973,(MH430666_Gylbovirus_aagae:0.0000029157,MH430651_Gylbovirus_aagae:0.0009947166)60:0.0000029157)99:0.0004979885)73:0.0000029157,((Aedes_anphevirus_F1058C3F1059:0.0019898100,Aedes_anphevirus_F1058C3F1060:0.0090589997)51:0.0000029157,MH430653_Gylbovirus_aagae:0.0004980359)69:0.0004979752)95:0.0030722989,MH430652_Gylbovirus_aagae:0.0054390804)89:0.0004690112,((((Aedes_anphevirus_F1058C3F1067:0.0000029186,Aedes_anphevirus_F1058C3F1068:0.0275328440)85:0.0020724815,Aedes_anphevirus_F1058C3F1062:0.0010009532)85:0.0019955206,Aedes_anphevirus_F1058C3F1061:0.0004991352)84:0.0009892461,MH430654_Gylbovirus_aagae:0.0040041266)85:0.0030957281)85:0.0093670678)79:0.0085527516,(MH430656_Gylbovirus_aagae:0.0019908682,MH430657_Gylbovirus_aagae:0.0015068478)99:0.0018604212)71:0.0006261105,MH430665_Gylbovirus_aagae:0.0000023336)100:0.5825106415,ON955256_Enontekio_anphevirus_2:0.5925986344)100:0.1910364839,((((((MF176245_Culex_mononega-like_virus_1:0.0000029157,(MF176296_Culex_mononega-like_virus_1:0.0015284627,MF176356_Culex_mononega-like_virus_1:0.0015304398)58:0.0000029157)95:0.0005094598,(MF176316_Culex_mononega-like_virus_1:0.0000029157,MF176375_Culex_mononega-like_virus_1:0.0015267226)96:0.0005097383)98:0.0033785177,MK440643_Culex_mononega-like_virus_1:0.0022540831)99:0.0287817589,OL700050_Culex_mononega-like_virus_1:0.0211559998)100:0.9420997660,(((MW435017_Gordis_virus:0.0010119500,(MW435018_Gordis_virus:0.0005066076,MW435019_Gordis_virus:0.0000029157)99:0.0010129858)52:0.0000029157,MW435020_Gordis_virus:0.0010115652)97:0.0124817694,((MW435014_Gordis_virus:0.0000029157,MW435016_Gordis_virus:0.0005082189)100:0.0010039178,MW435015_Gordis_virus:0.0010262464)99:0.0230446605)100:0.7024350734)97:0.1381289994,((MW452303_Anphevirus_sp_:0.0091798224,(OL700094_Anphevirus_xinchengense:0.0084890951,NC_031244_Anphevirus_xinchengense:0.0134361327)89:0.0103037076)95:0.0740067130,(Xincheng_Mosquito_Virus_F1356C1F1356:0.0014252460,Xincheng_Mosquito_Virus_F1356C1F1367:0.0031626299)100:0.0804670692)100:1.2406861397)68:0.0755706931)85:0.1227624321,(((KX148551_Bolahun_virus_variant_1:0.0136431512,NC_055112_Gambievirus_bolahunense:0.0103773146)100:0.2255402717,KX148553_Gambievirus_senegalense:0.2391449410)100:0.5402268650,((MH822963_Madalivirus_amazonaense:0.0071961962,MH822964_Madalivirus_amazonaense:0.0092204888)100:0.2699071967,MH822965_Madalivirus_amapaense:0.2925576234)100:0.4222524943)100:0.5647529719)100:0.3398204694,((((((LC514054_Triniovirus_yonagoense:0.0001477844,LC514055_Triniovirus_yonagoense:0.0008466850)100:0.2113599305,OL700126_XiangYun_mono-chu-like_virus_1:0.2353206316)100:0.9030402359,(ON860459_Malby_virus:0.2192409839,ON955255_Enontekio_anphevirus_1:0.2034854534)100:0.7749056725)99:0.1778668917,((((ON955258_Joensuu_anphevirus:0.0630471414,ON955260_Joensuu_anphevirus:0.0053386379)100:0.0222117311,ON955261_Joensuu_anphevirus:0.0206622603)100:0.1853099812,ON955263_Joensuu_anphevirus:0.0542947615)100:0.2077985368,MN053735_Guadeloupe_mosquito_mononega-like_virus:0.5628981799)100:0.5979852821)100:0.2310779956,(((Aedes_albopictus_anphevirus_F1016C1F1016:0.0057895160,MW147277_Aedes_albopictus_anphevirus:0.0022572197)100:0.2210233048,MT822181_Serbia_mononega-like_virus_1:0.2621471459)100:0.3301559263,ON955257_Hanko_anphevirus:0.5310173330)100:0.5432034064)98:0.1224072757,(((((((((MF176332_Doupovirus_australiaense:0.0010127422,NC_035133_Doupovirus_australiaense:0.0015193190)51:0.0000029157,MF176318_Doupovirus_australiaense:0.0000029157)50:0.0000029157,MF176268_Doupovirus_australiaense:0.0020306138)100:0.0007475096,MF176247_Doupovirus_australiaense:0.0017911726)94:0.0021172965,(MK440623_Doupovirus_australiaense:0.0000029157,MN513369_Doupovirus_australiaense:0.0005066976)100:0.0068021997)97:0.0020991276,OL700051_Doupovirus_australiaense:0.0017555893)100:0.1647202726,Prepisiers_virus_F1032C1F1032:0.2582302462)97:0.0591867427,((MW452297_Mononegavirales_sp_:0.0007645877,OL700130_XiangYun_mono-chu-like_virus_5:0.0015274717)100:0.0522386054,OL700133_XiangYun_mono-chu-like_virus_8:0.0780607460)100:0.1903625767)100:0.4433471181,MN053736_Guadeloupe_mosquito_mononega-like_virus:0.5455145851)100:0.4023927447)100:0.2560488773)95:0.1733351488,(ON059793_Tolviot_virus:0.0007954045,(ON059795_Tolviot_virus:0.0103409028,(ON059794_Tolviot_virus:0.0078108619,ON059796_Tolviot_virus:0.0083264255)100:0.0379201632)63:0.0119878434)100:1.3368120684,ON872562_Bat_faecal_associated_anphe-like_virus_1:1.5847375235);
+
+TIME STAMP
+----------
+
+Date and time: Thu Dec 22 17:41:53 2022
+Total CPU time used: 20794.05056 seconds (5h:46m:34s)
+Total wall-clock time used: 708.1025936 seconds (0h:11m:48s)
+

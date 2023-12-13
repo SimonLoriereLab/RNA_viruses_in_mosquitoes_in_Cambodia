@@ -1,0 +1,457 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=355;
+	taxlabels
+	AB102674_Mycoreovirus_3
+	AB254451_Rice_gall_dwarf_virus
+	AB894484_Umatilla_virus
+	AF133429_Kadipiro_virus
+	AF323782_Cypovirus_1
+	AY029520_Fiji_disease_virus
+	AY147187_Cypovirus_1
+	AY496445_Cypovirus_1
+	AY542965_Eriocheir_sinensis_reovirus
+	BK059491_Aedes_orbi-like_virus
+	D10222_Rice_dwarf_virus
+	DQ192235_Operophtera_brumata_reovirus
+	DQ192251_Operophtera_brumata_cypovirus_19
+	DQ242048_Cypovirus_14
+	DQ494209_Rice_gall_dwarf_virus
+	EU486988_Cypovirus_16
+	EU708956_Feline_rotavirus
+	Erroyantry_virus_F1102C96F1102[&!color=#b03500]
+	Eshizing_virus_F1187C97F1187[&!color=#b03500]
+	FR696613_Rice_ragged_stunt_virus
+	Ficircumes_virus_F1611C5F1611[&!color=#b03500]
+	Forfical_virus_F1194C164F1183[&!color=#b03500]
+	Forfical_virus_F1194C164F1194[&!color=#b03500]
+	Forfical_virus_F1194C164F1197[&!color=#b03500]
+	GQ351286_Cypovirus_4
+	GQ924586_Cypovirus_1
+	GU362064_Homalodisca_vitripennis_reovirus
+	GU369682_Homalodisca_vitripennis_reovirus
+	GU384983_Homalodisca_vitripennis_reovirus
+	GU390589_Homalodisca_vitripennis_reovirus
+	GU395188_Homalodisca_vitripennis_reovirus
+	GU437827_Homalodisca_vitripennis_reovirus
+	GU446652_Rice_ragged_stunt_virus
+	GU446653_Rice_ragged_stunt_virus
+	GU937004_Rice_gall_dwarf_virus
+	HM125542_Rice_ragged_stunt_virus
+	HM125552_Rice_ragged_stunt_virus
+	HM125562_Rice_ragged_stunt_virus
+	HQ414127_Scylla_serrata_reovirus_SZ-2007
+	Hubei_reo_like_virus_7_F1429C41F1429[&!color=#b03500]
+	JF773383_Spissistilus_festinus_reovirus
+	JN792199_Acinopterus_angulatus_reovirus
+	JN881985_Bluetongue_virus
+	JQ610655_Changuinola_virus
+	JX416204_Rotavirus_A
+	KC439154_Orbivirus_JKT-8132
+	KC588358_Cypovirus_5
+	KC924857_Cassava_frogskin_associated_virus
+	KC924873_Cassava_frogskin_associated_virus
+	KC924877_Cassava_frogskin_associated_virus
+	KC924878_Cassava_frogskin_associated_virus
+	KC924881_Cassava_frogskin_associated_virus
+	KF298266_uncultured_virus
+	KF298273_uncultured_virus
+	KF668527_Changuinola_virus
+	KF668537_Changuinola_virus
+	KF668557_Changuinola_virus
+	KF680168_Changuinola_virus
+	KF680178_Changuinola_virus
+	KF680188_Changuinola_virus
+	KF690591_Changuinola_virus
+	KF690601_Changuinola_virus
+	KF690611_Changuinola_virus
+	KF690621_Changuinola_virus
+	KJ495765_Mudjinabarry_virus
+	KJ559041_Rotavirus_A
+	KJ746836_Changuinola_virus
+	KJ746846_Changuinola_virus
+	KJ746848_Changuinola_virus
+	KJ746856_Changuinola_virus
+	KJ746858_Changuinola_virus
+	KJ746860_Changuinola_virus
+	KJ746864_Vellore_virus
+	KJ746865_Kasba_virus
+	KJ746867_Minnal_virus
+	KJ950937_Mulberry_orbivirus
+	KM099506_Bluetongue_virus
+	KM378720_Grapevine_Cabernet_Sauvignon_reovirus
+	KM405245_Cherax_quadricarinatus_reovirus
+	KM978416_Fako_virus
+	KP217035_Thaumetopoea_pityocampa_cypovirus_5
+	KP714078_Torrey_Pines_virus
+	KP714090_Bloomfield_virus
+	KR003787_Lutzomyia_reovirus_1
+	KR003805_Lutzomyia_reovirus_2
+	KR476800_Avian_orthoreovirus
+	KR704195_Cypovirus_1
+	KR815991_Bluetongue_virus
+	KT002588_Palyam_virus
+	KT698830_Diaphorina_citri_reovirus
+	KT887180_Palyam_virus
+	KU169879_Anopheles_cypovirus
+	KU255424_Sclerotinia_sclerotiorum_reovirus_1
+	'KU724110_Parry''s_Lagoon_virus'
+	KU754533_Soudat_virus
+	KX509952_Daphnis_nerii_cypovirus
+	KX884574_Hubei_reo-like_virus_11
+	KX884598_Hubei_tetragnatha_maxillosa_virus_9
+	KX884605_Beihai_reo-like_virus_2
+	KX884606_Beihai_reo-like_virus_1
+	KX884607_Hubei_reo-like_virus_14
+	KX884613_Hubei_lepidoptera_virus_3
+	KX884623_Hubei_lepidoptera_virus_5
+	KX884628_Hubei_lepidoptera_virus_4
+	KX884633_Hubei_mosquito_virus_5
+	KX884634_Hubei_reo-like_virus_12
+	KX884635_Hubei_reo-like_virus_7
+	KX884636_Hubei_reo-like_virus_8
+	KX884637_Hubei_reo-like_virus_1
+	KX884662_Hubei_reo-like_virus_2
+	KX884664_Hubei_odonate_virus_15
+	KX884669_Hubei_reo-like_virus_10
+	KX884675_Hubei_tetragnatha_maxillosa_virus_9
+	KX884686_Hubei_reo-like_virus_9
+	KX884687_Hubei_blood_fluke_virus_3
+	KX884692_Hubei_reo-like_virus_3
+	KX884693_Hubei_diptera_virus_20
+	KX884696_Hubei_diptera_virus_21
+	KX884702_Hubei_reo-like_virus_14[&!color=#0032b0]
+	KX884711_Sanxia_reo-like_virus_1
+	KX884712_Hubei_reo-like_virus_4
+	KX884716_Hubei_reo-like_virus_6
+	KX884720_Hubei_reo-like_virus_5
+	KX884732_Wenling_reo-like_virus_2
+	KX907618_Morris_orbivirus
+	KY485092_Bluetongue_virus
+	KY485094_Bluetongue_virus
+	KY485095_Bluetongue_virus
+	KY659435_Changuinola_virus
+	KY659455_Changuinola_virus
+	KY709307_Changuinola_virus
+	KY713292_Changuinola_virus
+	KY764789_Changuinola_virus
+	LC275144_Tarumizu_coltivirus
+	LC496849_Aedes_pseudoscutellaris_reovirus
+	LC516705_Biston_robustus_cypovirus
+	LC533329_Yonaguni_orbivirus
+	LC552741_Epizootic_hemorrhagic_disease_virus
+	LC585872_Yunnan_orbivirus
+	MF073202_Anopheles_hinesorum_orbivirus
+	MF094109_Big_Cypress_virus
+	MF124282_Bluetongue_virus
+	MF152988_Yunnan_orbivirus
+	MF161423_Cypovirus_14
+	MF185832_Red_currant_associated_reovirus
+	MF281534_Anopheles_annulipes_orbivirus
+	MF348200_Nephila_clavipes_virus_6
+	MF416371_Bloomfield_virus
+	MG600111_Wenling_scaldfish_reovirus
+	MG600122_Nanhai_ghost_shark_reovirus
+	MG770350_Kammavanpettai_virus
+	MG958621_Chiqui_virus
+	MH090056_Palyam_virus
+	MH090057_Palyam_virus
+	MH090058_Palyam_virus
+	MH144552_Orbivirus_sp_
+	MH384315_Torrey_Pines_virus
+	MH384338_Torrey_Pines_virus
+	MH614300_Elf_Loch_virus
+	MH668307_Rotavirus_A
+	MH782454_Palyam_virus
+	MH782457_Palyam_virus
+	MH782458_Palyam_virus
+	MH782459_Palyam_virus
+	MH782460_Palyam_virus
+	MH782462_Palyam_virus
+	MH782463_Palyam_virus
+	MH782464_Palyam_virus
+	MH782465_Palyam_virus
+	MH782466_Palyam_virus
+	MH782467_Palyam_virus
+	MH782468_Palyam_virus
+	MH782469_Palyam_virus
+	MH782470_Palyam_virus
+	MH782471_Palyam_virus
+	MH782472_Palyam_virus
+	MH801195_Mobuck_virus
+	MK100569_Skunk_River_virus
+	MK100579_Stretch_Lagoon_orbivirus
+	MK100587_Umatilla_virus
+	MK105769_Big_Cypress_virus
+	MK133923_Hubei_reo-like_virus_7
+	MK133924_Hubei_reo-like_virus_7
+	MK133925_Hubei_reo-like_virus_7
+	MK133926_Hubei_reo-like_virus_7
+	MK133927_Hubei_reo-like_virus_7
+	MK133928_Hubei_reo-like_virus_7
+	MK250956_Bluetongue_virus
+	MK359215_Chobar_Gorge_virus
+	MK359225_Chobar_Gorge_virus
+	MK359235_Ife_virus
+	MK359245_Japanaut_virus
+	MK426667_Umatilla_virus
+	MK440622_Valmbacken_virus
+	MK521915_Tasmanian_devil-associated_rotavirus_1
+	MK903619_CHeRI_orbivirus_1
+	MN087481_Psammotettix_alienus_reovirus
+	MN167493_Hudson_virus
+	MN428629_Peruvian_horse_sickness_virus
+	MN661066_Atrato_Reo-like_virus
+	MN661070_Atrato_Reo-like_virus
+	MN711787_Erinnyis_ello_cypovirus_2
+	MN764140_Thrips_tabaci_associated_reovirus_1
+	MN764141_Thrips_tabaci_associated_reovirus_1
+	MN873603_Letea_virus
+	MN873613_Letea_virus
+	MN873623_Letea_virus
+	MN873643_Letea_virus
+	MN873653_Letea_virus
+	MN873663_Letea_virus
+	MN873673_Letea_virus
+	MN873683_Letea_virus
+	MN938833_Cypovirus_1
+	MN938843_Hubei_lepidoptera_virus_3
+	MN982395_Scaphoideus_titanus_reo-like_virus_1
+	MT129754_Hubei_reo-like_virus_14
+	MT129755_Hubei_reo-like_virus_14
+	MT129758_Bobbyc_reo-like_virus
+	MT317160_Rice_ragged_stunt_virus
+	MT721841_Shenzhen_reo-like_virus_2
+	MT747991_Skokie_reo-like_virus
+	MT757475_Skokie_reo-like_virus
+	MT792643_French_Guiana_reovirus
+	MT822189_Serbia_reo-like_virus_1
+	MT822190_Serbia_reo-like_virus_2
+	MW148349_Taro_reovirus_1
+	MW199265_Reoviridae_sp_
+	MW310321_Bactrocera_dorsalis_orbivirus
+	MW310342_Bactrocera_dorsalis_orbivirus_isolate_Zt
+	MW310354_Bactrocera_dorsalis_orbivirus_isolate_Zc
+	MW310378_Bactrocera_dorsalis_orbivirus_isolate_Bt
+	MW424401_Yunnan_orbivirus
+	MW434750_Elemess_virus
+	MW434751_Elemess_virus
+	MW434752_Elemess_virus
+	MW434753_Elemess_virus
+	MW434754_Lasigmu_virus
+	MW452306_Hubei_reo-like_virus_12
+	MW584281_Cypovirus_sp_
+	MW789219_Clanis_bilineata_cypovirus
+	MW798171_Amate_virus
+	MW798172_Amate_virus
+	MW809629_Palyam_virus
+	MW809639_Corriparta_virus
+	MW815106_Mudumu_virus
+	MZ079616_Middle_Point_orbivirus
+	MZ079626_Middle_Point_orbivirus
+	MZ079636_Middle_Point_orbivirus
+	MZ079655_Middle_Point_orbivirus
+	MZ079665_Middle_Point_orbivirus
+	MZ079675_Middle_Point_orbivirus
+	MZ079685_Middle_Point_orbivirus
+	MZ079695_Middle_Point_orbivirus
+	MZ079705_Middle_Point_orbivirus
+	MZ079715_Middle_Point_orbivirus
+	MZ079725_Middle_Point_orbivirus
+	MZ079735_Middle_Point_orbivirus
+	MZ079745_Middle_Point_orbivirus
+	MZ079755_Middle_Point_orbivirus
+	MZ079765_Middle_Point_orbivirus
+	MZ079775_Middle_Point_orbivirus
+	MZ079785_Middle_Point_orbivirus
+	MZ079795_Middle_Point_orbivirus
+	MZ079805_Middle_Point_orbivirus
+	MZ079815_Middle_Point_orbivirus
+	MZ079825_Middle_Point_orbivirus
+	MZ079835_Middle_Point_orbivirus
+	MZ079845_Middle_Point_orbivirus
+	MZ218325_Reoviridae_sp_
+	MZ218353_Cypovirus_sp_
+	MZ218363_Cypovirus_sp_
+	MZ218365_Reoviridae_sp_
+	MZ218374_Cypovirus_sp_
+	MZ218375_Spinareovirinae_sp_
+	MZ218384_Reoviridae_sp_
+	MZ218385_Cypovirus_sp_
+	MZ218394_Cypovirus_sp_
+	MZ484733_Diaphorina_citri_cimodo-like_virus
+	NC_003006_Cypovirus_14
+	NC_003017_Cypovirus_1
+	NC_003771_Rice_ragged_stunt_virus
+	NC_003773_Rice_dwarf_virus
+	NC_005990_Palyam_virus
+	NC_005997_St_Croix_River_virus
+	NC_007656_Yunnan_orbivirus
+	NC_007667_Aedes_pseudoscutellaris_reovirus
+	NC_007748_Peruvian_horse_sickness_virus
+	NC_009248_Rice_gall_dwarf_virus
+	NC_010668_Cypovirus_5
+	NC_012535_Homalodisca_vitripennis_reovirus
+	NC_012754_Stretch_Lagoon_orbivirus
+	NC_014600_Raspberry_latent_virus
+	NC_016874_Spissistilus_festinus_reovirus
+	NC_022553_Wallal_virus
+	NC_022626_Mobuck_virus
+	NC_022639_Changuinola_virus
+	NC_023420_Cimodo_virus
+	NC_023491_Cypovirus_2
+	NC_024503_Umatilla_virus
+	NC_025486_Fako_virus
+	NC_025847_Dendrolimus_punctatus_cypovirus_22
+	NC_027534_Chenuda_virus
+	NC_027553_Chobar_Gorge_virus
+	NC_027567_Lutzomyia_reovirus_1[&!color=#0032b0]
+	NC_027803_Tibet_orbivirus
+	NC_027808_Grapevine_Cabernet_Sauvignon_reovirus
+	NC_032258_Hubei_lepidoptera_virus_3
+	NC_032504_Wuhan_heteroptera_virus_3
+	NC_035222_Aedes_camptorhynchus_reo-like_virus
+	NC_038568_Corriparta_virus
+	NC_038594_Lebombo_virus
+	NC_038648_Cypovirus_16
+	NC_040473_Nephila_clavipes_virus_6
+	NC_040502_Chiqui_virus
+	OK392077_Planococcus_ficus-associated_reovirus_1
+	OK666840_Cypovirus_4
+	OL452247_Attungu_rodent_orbivirus
+	OL569514_Panacromy_virus_1
+	OL569519_Corattcep_virus_2
+	OL569531_Corcyphos_virus_3
+	OL569534_Corparats_virus_1
+	OL700065_Hubei_reo-like_virus_12
+	OL700066_Hubei_reo-like_virus_7
+	OL700067_Hubei_tetragnatha_maxillosa_virus_9
+	OL709420_Acado_virus
+	OL774553_Cypovirus_1
+	OM421672_Reovirus_sp_
+	OM650314_Halyomorpha_halys_reo-like_associated_virus_1
+	OM743941_Clear_Lake_virus
+	OM817550_Umatilla_virus
+	ON304037_Avian_associated_reo-like_virus_2
+	ON304040_Avian_associated_reo-like_virus_5
+	ON304041_Avian_associated_reo-like_virus_6
+	ON352655_Cypovirus_4
+	ON783658_Cypovirus_4
+	ON792145_Rotavirus_A
+	ON860471_Berg_reo-like_virus
+	ON872583_Bat_faecal_associated_reovirus_3
+	ON872585_Bat_faecal_associated_reovirus_4
+	OP019976_Ilomantsi_reovirus_1
+	OP019977_Ilomantsi_reovirus_1
+	OP019979_Ilomantsi_reovirus_1
+	OP019981_Ilomantsi_reovirus_2
+	OP019982_Ilomantsi_reovirus_2
+	OP019983_Ilomantsi_reovirus_2
+	OP019984_Ilomantsi_reovirus_3
+	OP019985_Ilomantsi_reovirus_4
+	OP264886_Hubei_reo-like_virus_7
+	OP264919_Fako_virus
+	OP349061_Anagyrus_vladimiri_reovirus
+	OV055169_Umatilla_virus
+	U66714_Rice_ragged_stunt_virus
+	Usnessius_virus_F1168C3F1163[&!color=#b03500]
+	Usnessius_virus_F1168C3F1168[&!color=#b03500]
+	Usnessius_virus_F1168C3F1171[&!color=#b03500]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (MH782470_Palyam_virus:0.001306,(MH782472_Palyam_virus:0.0,MH782471_Palyam_virus:0.001305)[&label=0.0]:0.0,((MH782464_Palyam_virus:0.001308,(MH782466_Palyam_virus:0.001305,((MW809629_Palyam_virus:0.005345,(((NC_038594_Lebombo_virus:0.275006,(((MK359245_Japanaut_virus:0.249149,(NC_027803_Tibet_orbivirus:0.182042,(LC552741_Epizootic_hemorrhagic_disease_virus:0.145116,(MF124282_Bluetongue_virus:0.044087,(KR815991_Bluetongue_virus:0.06924,((JN881985_Bluetongue_virus:0.0,KM099506_Bluetongue_virus:0.001301)[&label=0.976]:0.016079,((KY485092_Bluetongue_virus:0.0,KY485094_Bluetongue_virus:0.0,KY485095_Bluetongue_virus:0.0):0.0,MK250956_Bluetongue_virus:0.001299)[&label=0.976]:0.015815)[&label=0.989]:0.029571)[&label=0.744]:0.02351)[&label=1.0]:0.129464)[&label=0.971]:0.063059)[&label=0.743]:0.04395)[&label=0.963]:0.050309,((KJ495765_Mudjinabarry_virus:0.002139,NC_022553_Wallal_virus:0.009745)[&label=1.0]:0.209462,(((KF680168_Changuinola_virus:0.0,KF690591_Changuinola_virus:0.0):3.9E-4,(KJ746858_Changuinola_virus:0.0,NC_022639_Changuinola_virus:0.0)[&label=0.937]:0.006092)[&label=1.0]:0.05596,((KJ746836_Changuinola_virus:0.040424,(KY659435_Changuinola_virus:0.040239,(KY713292_Changuinola_virus:0.001315,(KY764789_Changuinola_virus:0.001314,(KJ746856_Changuinola_virus:0.002813,KY709307_Changuinola_virus:0.001313)[&label=0.0]:0.0)[&label=0.432]:0.0)[&label=0.998]:0.032001)[&label=0.573]:0.011198)[&label=0.992]:0.028871,(((((KF690611_Changuinola_virus:0.01621,(KF668537_Changuinola_virus:0.007629,KF680178_Changuinola_virus:0.004224)[&label=0.823]:0.00465)[&label=0.877]:0.009627,((KJ746846_Changuinola_virus:0.0,KF668527_Changuinola_virus:0.0)[&label=0.762]:0.001406,(KJ746860_Changuinola_virus:0.006733,(KJ746848_Changuinola_virus:0.002895,KF690621_Changuinola_virus:0.0)[&label=0.999]:0.015539)[&label=0.762]:0.002964)[&label=0.966]:0.012547)[&label=0.821]:0.010051,KF680188_Changuinola_virus:0.01154)[&label=0.782]:0.011273,KF668557_Changuinola_virus:0.017728)[&label=0.999]:0.032506,(KF690601_Changuinola_virus:0.053723,(JQ610655_Changuinola_virus:0.025884,KY659455_Changuinola_virus:0.030182)[&label=0.988]:0.021978)[&label=1.0]:0.046757)[&label=0.11]:0.010649)[&label=0.904]:0.026979)[&label=1.0]:0.195155)[&label=0.422]:0.048577)[&label=1.0]:0.087918,(MK359235_Ife_virus:0.368475,((MN873613_Letea_virus:0.002584,(MN873643_Letea_virus:0.001293,((MN873663_Letea_virus:0.001294,(MN873603_Letea_virus:0.001294,(MN873683_Letea_virus:0.0,MN873673_Letea_virus:0.005185)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.887]:0.001294,(MN873623_Letea_virus:0.0,MN873653_Letea_virus:0.0):0.0)[&label=0.555]:0.0)[&label=0.815]:0.0)[&label=1.0]:0.284286,(((KJ950937_Mulberry_orbivirus:0.008065,OL452247_Attungu_rodent_orbivirus:0.027213)[&label=1.0]:0.688971,(NC_005997_St_Croix_River_virus:0.735444,(((MK521915_Tasmanian_devil-associated_rotavirus_1:0.906626,(MH668307_Rotavirus_A:0.129114,(EU708956_Feline_rotavirus:0.045977,(ON792145_Rotavirus_A:0.006476,(KJ559041_Rotavirus_A:0.006883,JX416204_Rotavirus_A:0.013639)[&label=0.412]:0.004264)[&label=0.997]:0.05557)[&label=0.935]:0.083506)[&label=1.0]:0.791897)[&label=1.0]:1.581255,(((((ON304037_Avian_associated_reo-like_virus_2:1.053575,(((MZ218325_Reoviridae_sp_:0.356205,KX884574_Hubei_reo-like_virus_11:0.349861)[&label=1.0]:0.355926,((OM743941_Clear_Lake_virus:0.179786,MK440622_Valmbacken_virus:0.200258)[&label=1.0]:0.302811,(NC_035222_Aedes_camptorhynchus_reo-like_virus:0.165262,((MN661066_Atrato_Reo-like_virus:0.0,MN661070_Atrato_Reo-like_virus:0.001344)[&label=1.0]:0.25118,(OP019985_Ilomantsi_reovirus_4:0.195599,((OP019976_Ilomantsi_reovirus_1:0.051225,(OP019977_Ilomantsi_reovirus_1:0.033194,OP019979_Ilomantsi_reovirus_1:0.028532)[&label=1.0]:0.058692)[&label=1.0]:0.074505,(OP019984_Ilomantsi_reovirus_3:0.090007,(OP019981_Ilomantsi_reovirus_2:0.125648,(ON860471_Berg_reo-like_virus:0.0,(OP019982_Ilomantsi_reovirus_2:0.00312,OP019983_Ilomantsi_reovirus_2:0.003466)[&label=0.004]:1.39E-4)[&label=1.0]:0.092558)[&label=0.602]:0.01966)[&label=0.307]:0.038105)[&label=0.933]:0.04168)[&label=0.77]:0.030041)[&label=0.142]:0.042109)[&label=1.0]:0.219855)[&label=1.0]:0.40082)[&label=0.998]:0.280728,(KX884669_Hubei_reo-like_virus_10:0.902311,(Ficircumes_virus_F1611C5F1611:0.844189,(MN764140_Thrips_tabaci_associated_reovirus_1:1.087744,(((AB254451_Rice_gall_dwarf_virus:0.0,NC_009248_Rice_gall_dwarf_virus:0.0):0.002583,(DQ494209_Rice_gall_dwarf_virus:0.003037,GU937004_Rice_gall_dwarf_virus:0.002431)[&label=0.827]:0.0)[&label=1.0]:0.244494,((D10222_Rice_dwarf_virus:0.008758,NC_003773_Rice_dwarf_virus:0.014517)[&label=1.0]:0.250735,(MN982395_Scaphoideus_titanus_reo-like_virus_1:0.180244,((GU362064_Homalodisca_vitripennis_reovirus:0.0,GU369682_Homalodisca_vitripennis_reovirus:0.0,NC_012535_Homalodisca_vitripennis_reovirus:0.0):0.002661,(GU384983_Homalodisca_vitripennis_reovirus:0.002661,(GU390589_Homalodisca_vitripennis_reovirus:0.0,GU395188_Homalodisca_vitripennis_reovirus:0.0,GU437827_Homalodisca_vitripennis_reovirus:0.0):0.0)[&label=0.379]:0.0)[&label=1.0]:0.253093)[&label=0.84]:0.064459)[&label=0.992]:0.141272)[&label=1.0]:0.4496)[&label=0.358]:0.120571)[&label=0.833]:0.133093)[&label=0.257]:0.049983)[&label=0.945]:0.391989)[&label=0.992]:0.536538,(KM405245_Cherax_quadricarinatus_reovirus:1.122716,OM650314_Halyomorpha_halys_reo-like_associated_virus_1:0.908284)[&label=0.987]:0.796371)[&label=0.526]:0.222941,((MF348200_Nephila_clavipes_virus_6:0.0,NC_040473_Nephila_clavipes_virus_6:0.0):1.333086,(MT721841_Shenzhen_reo-like_virus_2:1.017777,(Usnessius_virus_F1168C3F1163:0.0,Usnessius_virus_F1168C3F1168:0.0,Usnessius_virus_F1168C3F1171:0.0):1.162097)[&label=0.8]:0.227478)[&label=0.994]:0.343946)[&label=0.325]:0.177299,((KX884732_Wenling_reo-like_virus_2:1.35688,(KR476800_Avian_orthoreovirus:0.817101,MG600122_Nanhai_ghost_shark_reovirus:0.793903)[&label=0.957]:0.397269)[&label=1.0]:1.718601,(((((((KX884637_Hubei_reo-like_virus_1:0.888316,((MT757475_Skokie_reo-like_virus:0.004277,MT747991_Skokie_reo-like_virus:0.005138)[&label=1.0]:0.61846,(MH614300_Elf_Loch_virus:0.678126,(KX884693_Hubei_diptera_virus_20:0.296106,(MT129758_Bobbyc_reo-like_virus:0.179818,(KP714090_Bloomfield_virus:0.006124,MF416371_Bloomfield_virus:0.012207)[&label=1.0]:0.222486)[&label=0.908]:0.086689)[&label=1.0]:0.391429)[&label=0.182]:0.117435)[&label=0.978]:0.22298)[&label=1.0]:0.641242,(OM421672_Reovirus_sp_:1.097836,MN167493_Hudson_virus:0.861374)[&label=0.998]:0.577017)[&label=0.881]:0.143856,((NC_032504_Wuhan_heteroptera_virus_3:1.376776,(MN087481_Psammotettix_alienus_reovirus:1.038096,(KT698830_Diaphorina_citri_reovirus:0.754278,AY029520_Fiji_disease_virus:0.608714)[&label=1.0]:0.497432)[&label=0.848]:0.176262)[&label=0.808]:0.08496,KX884711_Sanxia_reo-like_virus_1:1.613122)[&label=0.931]:0.127796)[&label=0.992]:0.235428,((ON872585_Bat_faecal_associated_reovirus_4:0.833957,ON872583_Bat_faecal_associated_reovirus_3:0.569246)[&label=1.0]:0.655581,(MT792643_French_Guiana_reovirus:0.81338,(MZ484733_Diaphorina_citri_cimodo-like_virus:0.514235,((NC_023420_Cimodo_virus:0.373282,MZ218365_Reoviridae_sp_:0.359195)[&label=0.724]:0.081486,(KX884662_Hubei_reo-like_virus_2:0.355067,(KX884692_Hubei_reo-like_virus_3:0.040743,MZ218384_Reoviridae_sp_:0.013936)[&label=1.0]:0.575229)[&label=0.966]:0.093695)[&label=0.983]:0.127213)[&label=1.0]:0.325739)[&label=1.0]:0.497236)[&label=0.988]:0.324342)[&label=0.317]:0.106544,(((MW199265_Reoviridae_sp_:0.366625,KX884696_Hubei_diptera_virus_21:0.381794)[&label=0.92]:0.191598,((OK392077_Planococcus_ficus-associated_reovirus_1:0.006917,OP349061_Anagyrus_vladimiri_reovirus:0.0)[&label=1.0]:0.738659,DQ192235_Operophtera_brumata_reovirus:0.812836)[&label=0.669]:0.16613)[&label=1.0]:1.006127,KX884712_Hubei_reo-like_virus_4:1.651385)[&label=0.606]:0.214165)[&label=0.95]:0.153028,((KX884606_Beihai_reo-like_virus_1:1.465651,MN764141_Thrips_tabaci_associated_reovirus_1:0.708188)[&label=1.0]:1.060754,(KX884716_Hubei_reo-like_virus_6:1.406189,((OL569531_Corcyphos_virus_3:0.258987,((MG958621_Chiqui_virus:0.0,NC_040502_Chiqui_virus:0.0):0.287187,(OL569534_Corparats_virus_1:0.057714,(OL569514_Panacromy_virus_1:7.16E-4,OL569519_Corattcep_virus_2:0.002627)[&label=0.993]:0.06067)[&label=1.0]:0.196205)[&label=0.034]:0.102536)[&label=1.0]:1.379697,((((KR003787_Lutzomyia_reovirus_1:0.0,NC_027567_Lutzomyia_reovirus_1[&!color=#0032b0]:0.0):0.706018,((NC_025847_Dendrolimus_punctatus_cypovirus_22:0.547557,(GQ351286_Cypovirus_4:0.002075,(OK666840_Cypovirus_4:0.0,(ON352655_Cypovirus_4:0.005688,ON783658_Cypovirus_4:0.0)[&label=0.324]:0.0)[&label=0.101]:0.008551)[&label=1.0]:0.48923)[&label=1.0]:0.459138,(MW584281_Cypovirus_sp_:0.528997,((EU486988_Cypovirus_16:0.0,NC_038648_Cypovirus_16:0.0):0.366824,(MN711787_Erinnyis_ello_cypovirus_2:0.020832,NC_023491_Cypovirus_2:0.01697)[&label=1.0]:0.201425)[&label=1.0]:0.234376)[&label=0.999]:0.266915)[&label=0.997]:0.22199)[&label=1.0]:0.258483,((KX884633_Hubei_mosquito_virus_5[&!color=#b03500]:0.493691,((((MW434750_Elemess_virus[&!color=#b03500]:0.001318,MW434753_Elemess_virus[&!color=#b03500]:0.0)[&label=0.681,!color=#b03500]:0.0,(MW434751_Elemess_virus[&!color=#b03500]:0.0,MW434752_Elemess_virus[&!color=#b03500]:0.001318)[&label=0.677,!color=#b03500]:0.001318)[&label=1.0,!color=#b03500]:0.208209,(OP264886_Hubei_reo-like_virus_7[&!color=#b03500]:0.048652,(((KX884635_Hubei_reo-like_virus_7[&!color=#b03500]:0.001315,OL700066_Hubei_reo-like_virus_7[&!color=#b03500]:0.0)[&label=0.953,!color=#b03500]:0.00528,((MK133928_Hubei_reo-like_virus_7[&!color=#b03500]:0.002632,(MK133927_Hubei_reo-like_virus_7[&!color=#b03500]:0.010632,MK133926_Hubei_reo-like_virus_7[&!color=#b03500]:0.0)[&label=0.0,!color=#b03500]:0.0)[&label=0.88,!color=#b03500]:0.001315,(MK133923_Hubei_reo-like_virus_7[&!color=#b03500]:0.001315,(MK133925_Hubei_reo-like_virus_7[&!color=#b03500]:0.0,MK133924_Hubei_reo-like_virus_7[&!color=#b03500]:0.0)[&!color=#b03500]:0.0)[&label=0.0,!color=#b03500]:0.0)[&label=0.882,!color=#b03500]:0.00263)[&label=0.873,!color=#b03500]:0.005658,Hubei_reo_like_virus_7_F1429C41F1429[&!color=#b03500]:0.002279)[&label=0.959,!color=#b03500]:0.042139)[&label=1.0,!color=#b03500]:0.257065)[&label=1.0,!color=#b03500]:0.456137,((Forfical_virus_F1194C164F1183[&!color=#b03500]:0.003882,(Forfical_virus_F1194C164F1194[&!color=#b03500]:0.00133,Forfical_virus_F1194C164F1197[&!color=#b03500]:0.0)[&label=0.715,!color=#b03500]:0.004352)[&label=1.0,!color=#b03500]:0.17085,((LC496849_Aedes_pseudoscutellaris_reovirus[&!color=#b03500]:0.01708,NC_007667_Aedes_pseudoscutellaris_reovirus[&!color=#b03500]:0.012851)[&label=0.982,!color=#b03500]:0.025163,(OP264919_Fako_virus[&!color=#b03500]:0.031792,(KM978416_Fako_virus[&!color=#b03500]:0.0,NC_025486_Fako_virus[&!color=#b03500]:0.0)[&!color=#b03500]:0.023651)[&label=0.772,!color=#b03500]:0.013726)[&label=1.0,!color=#b03500]:0.178103)[&label=1.0,!color=#b03500]:0.265253)[&label=0.177,!color=#b03500]:0.099431)[&label=1.0,!color=#b03500]:0.779725,((LC516705_Biston_robustus_cypovirus:0.710372,(DQ192251_Operophtera_brumata_cypovirus_19:0.834946,((KX509952_Daphnis_nerii_cypovirus:0.001335,MW789219_Clanis_bilineata_cypovirus:0.0)[&label=1.0]:0.523764,((KP217035_Thaumetopoea_pityocampa_cypovirus_5:0.017497,(KC588358_Cypovirus_5:0.009438,NC_010668_Cypovirus_5:0.002335)[&label=0.907]:0.010646)[&label=1.0]:0.128301,((KX884613_Hubei_lepidoptera_virus_3:0.0,NC_032258_Hubei_lepidoptera_virus_3:0.0):0.050367,MN938843_Hubei_lepidoptera_virus_3:0.049319)[&label=0.994]:0.076836)[&label=1.0]:0.354032)[&label=0.751]:0.104011)[&label=0.998]:0.199069)[&label=1.0]:0.352267,(((KU169879_Anopheles_cypovirus:0.020575,KX884636_Hubei_reo-like_virus_8:0.042477)[&label=1.0]:0.493784,(KX884686_Hubei_reo-like_virus_9:0.077965,(MZ218363_Cypovirus_sp_:0.067539,MZ218374_Cypovirus_sp_:0.063852)[&label=0.91]:0.046319)[&label=1.0]:0.282685)[&label=1.0]:0.527956,(((MZ218385_Cypovirus_sp_:0.462902,MZ218394_Cypovirus_sp_:0.547454)[&label=0.671]:0.068593,((MF161423_Cypovirus_14:0.005128,(DQ242048_Cypovirus_14:0.005266,NC_003006_Cypovirus_14:0.003984)[&label=0.823]:0.013588)[&label=1.0]:0.602599,((MZ218353_Cypovirus_sp_:0.401495,KR003805_Lutzomyia_reovirus_2:0.724646)[&label=0.102]:0.083795,(MN938833_Cypovirus_1:0.001306,((NC_003017_Cypovirus_1:0.001313,(AY147187_Cypovirus_1:0.001322,OL774553_Cypovirus_1:0.001321)[&label=0.763]:0.001329)[&label=0.994]:0.017542,(AF323782_Cypovirus_1:0.005565,(KR704195_Cypovirus_1:0.007842,(AY496445_Cypovirus_1:0.005274,GQ924586_Cypovirus_1:0.002635)[&label=0.739]:0.001396)[&label=0.996]:0.019016)[&label=0.996]:0.019566)[&label=0.105]:0.006519)[&label=1.0]:0.445316)[&label=0.852]:0.091557)[&label=0.821]:0.064944)[&label=1.0]:0.182432,(ON304040_Avian_associated_reo-like_virus_5:0.647954,((MH384315_Torrey_Pines_virus:0.0,(KP714078_Torrey_Pines_virus:0.002663,MH384338_Torrey_Pines_virus:0.001332)[&label=0.512]:0.001328)[&label=1.0]:0.67079,KU754533_Soudat_virus:0.634465)[&label=0.62]:0.143222)[&label=0.893]:0.144582)[&label=0.359]:0.055146)[&label=0.943]:0.127404)[&label=0.917]:0.099532)[&label=0.831]:0.104737)[&label=0.998]:0.226322,(((JF773383_Spissistilus_festinus_reovirus:0.0,NC_016874_Spissistilus_festinus_reovirus:0.0):0.698025,(ON304041_Avian_associated_reo-like_virus_6:0.913646,JN792199_Acinopterus_angulatus_reovirus:0.085226)[&label=1.0]:0.481995)[&label=1.0]:0.48843,(((KC924857_Cassava_frogskin_associated_virus:0.0,KC924873_Cassava_frogskin_associated_virus:0.0,KC924877_Cassava_frogskin_associated_virus:0.0,KC924881_Cassava_frogskin_associated_virus:0.0):0.013078,KC924878_Cassava_frogskin_associated_virus:0.0)[&label=1.0]:1.133835,((MZ218375_Spinareovirinae_sp_:0.253972,(((MT317160_Rice_ragged_stunt_virus:0.002673,(HM125542_Rice_ragged_stunt_virus:0.001335,((HM125552_Rice_ragged_stunt_virus:0.0,NC_003771_Rice_ragged_stunt_virus:0.0,U66714_Rice_ragged_stunt_virus:0.0):0.0,(FR696613_Rice_ragged_stunt_virus:0.0,HM125562_Rice_ragged_stunt_virus:2.0E-5)[&label=0.736]:0.001319)[&label=0.0]:0.0)[&label=0.82]:0.0)[&label=0.365]:0.0,(GU446652_Rice_ragged_stunt_virus:0.005057,GU446653_Rice_ragged_stunt_virus:0.003475)[&label=0.845]:0.005063)[&label=1.0]:0.381441,MW148349_Taro_reovirus_1:0.245175)[&label=0.982]:0.138407)[&label=1.0]:0.344322,((NC_014600_Raspberry_latent_virus:0.166986,(KM378720_Grapevine_Cabernet_Sauvignon_reovirus:0.003892,NC_027808_Grapevine_Cabernet_Sauvignon_reovirus:0.006775)[&label=1.0]:0.174396)[&label=1.0]:0.42814,(MF185832_Red_currant_associated_reovirus:0.312424,KX884720_Hubei_reo-like_virus_5:0.335654)[&label=1.0]:0.416573)[&label=0.077]:0.101544)[&label=0.919]:0.183541)[&label=0.514]:0.093651)[&label=0.997]:0.228827)[&label=0.471]:0.059636)[&label=0.609]:0.128282)[&label=0.904]:0.155778)[&label=0.91]:0.132068)[&label=0.431]:0.061774,((AB102674_Mycoreovirus_3:1.293196,LC275144_Tarumizu_coltivirus:1.040606)[&label=0.995]:0.461527,(KU255424_Sclerotinia_sclerotiorum_reovirus_1:0.564204,(KX884605_Beihai_reo-like_virus_2:1.110081,HQ414127_Scylla_serrata_reovirus_SZ-2007:1.203155)[&label=0.992]:0.578831)[&label=1.0]:0.78204)[&label=0.999]:0.521587)[&label=0.916]:0.244372)[&label=1.0]:0.618488)[&label=0.844]:0.232904,((AY542965_Eriocheir_sinensis_reovirus:0.831034,AF133429_Kadipiro_virus:0.980411)[&label=1.0]:1.198016,KX884687_Hubei_blood_fluke_virus_3:1.544649)[&label=0.927]:0.307677)[&label=0.806]:0.289406)[&label=0.93]:0.290556,(MG600111_Wenling_scaldfish_reovirus:1.15668,(((KX884664_Hubei_odonate_virus_15:0.482227,(MF073202_Anopheles_hinesorum_orbivirus:0.109236,((MW310342_Bactrocera_dorsalis_orbivirus_isolate_Zt:0.00556,MW310354_Bactrocera_dorsalis_orbivirus_isolate_Zc:0.002684)[&label=0.996]:0.043061,(MW310378_Bactrocera_dorsalis_orbivirus_isolate_Bt:0.027412,MW310321_Bactrocera_dorsalis_orbivirus:0.022746)[&label=0.982]:0.036073)[&label=0.999]:0.12421)[&label=1.0]:0.241994)[&label=1.0]:0.295327,(((KX884702_Hubei_reo-like_virus_14:0.0,KX884607_Hubei_reo-like_virus_14:0.0)[&label=0.976]:0.045965,(MT129754_Hubei_reo-like_virus_14:0.0,MT129755_Hubei_reo-like_virus_14:0.005475)[&label=0.994]:0.071909)[&label=1.0]:0.552135,(Eshizing_virus_F1187C97F1187[&!color=#b03500]:0.549319,(MT822189_Serbia_reo-like_virus_1[&!color=#b03500]:0.327703,(Erroyantry_virus_F1102C96F1102[&!color=#b03500]:0.225459,(BK059491_Aedes_orbi-like_virus[&!color=#b03500]:0.070313,(KF298273_uncultured_virus[&!color=#b03500]:0.044148,MW434754_Lasigmu_virus[&!color=#b03500]:0.037037)[&label=0.799,!color=#b03500]:0.020936)[&label=1.0,!color=#b03500]:0.187501)[&label=0.957,!color=#b03500]:0.111407)[&label=1.0,!color=#b03500]:0.263686)[&label=0.993,!color=#b03500]:0.141487)[&label=0.841]:0.110732)[&label=0.979]:0.167927,((KX884628_Hubei_lepidoptera_virus_4:0.250899,(KX884623_Hubei_lepidoptera_virus_5:0.180518,KX907618_Morris_orbivirus:0.243568)[&label=0.985]:0.115335)[&label=1.0]:0.450022,((OL700067_Hubei_tetragnatha_maxillosa_virus_9:0.029478,(KX884598_Hubei_tetragnatha_maxillosa_virus_9:0.0,KX884675_Hubei_tetragnatha_maxillosa_virus_9:0.001453)[&label=0.576]:0.001401)[&label=1.0]:0.683752,(MF281534_Anopheles_annulipes_orbivirus:0.183491,(KF298266_uncultured_virus:0.042237,(OL700065_Hubei_reo-like_virus_12:0.002757,(KX884634_Hubei_reo-like_virus_12:0.0,MW452306_Hubei_reo-like_virus_12:0.001378)[&label=0.0]:0.0)[&label=0.948]:0.020708)[&label=0.964]:0.094462)[&label=1.0]:0.559517)[&label=0.894]:0.093443)[&label=0.968]:0.157245)[&label=1.0]:0.78844)[&label=0.516]:0.201769)[&label=1.0]:0.551959)[&label=0.335]:0.113464)[&label=0.925]:0.130346,(((MW798171_Amate_virus:0.0,MW798172_Amate_virus:0.002578)[&label=1.0]:0.116318,(MH144552_Orbivirus_sp_:0.053407,MT822190_Serbia_reo-like_virus_2:0.042694)[&label=0.999]:0.105579)[&label=1.0]:0.323176,((NC_027534_Chenuda_virus:0.38647,(NC_027553_Chobar_Gorge_virus:0.058992,(MK359215_Chobar_Gorge_virus:0.063167,MK359225_Chobar_Gorge_virus:0.037054)[&label=0.967]:0.049795)[&label=1.0]:0.24459)[&label=0.994]:0.105966,(((MF152988_Yunnan_orbivirus:0.0029,((LC585872_Yunnan_orbivirus:0.002583,NC_007656_Yunnan_orbivirus:0.0)[&label=1.0]:0.039321,(MZ079765_Middle_Point_orbivirus:0.0,(((((MZ079785_Middle_Point_orbivirus:0.001297,MZ079775_Middle_Point_orbivirus:0.0)[&label=0.0]:0.0,(MZ079636_Middle_Point_orbivirus:0.0,MZ079805_Middle_Point_orbivirus:0.0)[&label=0.948]:0.0)[&label=1.0]:0.0,(MZ079685_Middle_Point_orbivirus:0.0,MZ079675_Middle_Point_orbivirus:0.0):0.001297)[&label=0.0]:0.0,((MZ079835_Middle_Point_orbivirus:0.0,MZ079705_Middle_Point_orbivirus:0.0,MZ079815_Middle_Point_orbivirus:0.0):0.0,MZ079735_Middle_Point_orbivirus:0.001296)[&label=0.868]:0.001297)[&label=0.0]:0.0,(MZ079845_Middle_Point_orbivirus:0.0,MZ079655_Middle_Point_orbivirus:0.0,MZ079795_Middle_Point_orbivirus:0.0,MZ079745_Middle_Point_orbivirus:0.0,MZ079665_Middle_Point_orbivirus:0.0,MZ079725_Middle_Point_orbivirus:0.0,MZ079825_Middle_Point_orbivirus:0.0,MW424401_Yunnan_orbivirus:0.0,MZ079616_Middle_Point_orbivirus:0.0,MZ079626_Middle_Point_orbivirus:0.0,MZ079695_Middle_Point_orbivirus:0.0,MZ079715_Middle_Point_orbivirus:0.0,MZ079755_Middle_Point_orbivirus:0.0):0.0)[&label=0.0]:0.0)[&label=0.742]:0.001125)[&label=0.365]:0.006449)[&label=1.0]:0.142831,((LC533329_Yonaguni_orbivirus:0.117879,(MH801195_Mobuck_virus:0.001309,NC_022626_Mobuck_virus:0.0)[&label=1.0]:0.122667)[&label=0.998]:0.068795,(MK903619_CHeRI_orbivirus_1:0.178922,(MN428629_Peruvian_horse_sickness_virus:0.0,NC_007748_Peruvian_horse_sickness_virus:0.006591)[&label=1.0]:0.122239)[&label=0.465]:0.038287)[&label=0.57]:0.036583)[&label=1.0]:0.305738,((MK100569_Skunk_River_virus:0.160842,(KC439154_Orbivirus_JKT-8132:0.231041,(MF094109_Big_Cypress_virus:0.003914,MK105769_Big_Cypress_virus:0.0)[&label=1.0]:0.188026)[&label=0.684]:0.042778)[&label=1.0]:0.12852,((OL709420_Acado_virus:0.073015,(MW809639_Corriparta_virus:0.087114,('KU724110_Parry''s_Lagoon_virus':0.02,NC_038568_Corriparta_virus:0.04299)[&label=1.0]:0.057214)[&label=0.91]:0.046459)[&label=1.0]:0.213011,((((OM817550_Umatilla_virus:0.0,NC_024503_Umatilla_virus:0.0):0.0,MK100587_Umatilla_virus:0.00131)[&label=0.994]:0.037877,(KJ746867_Minnal_virus:0.030129,(((MK426667_Umatilla_virus:0.00289,NC_012754_Stretch_Lagoon_orbivirus:0.028135)[&label=0.763]:0.002628,(MK100579_Stretch_Lagoon_orbivirus:0.002986,OV055169_Umatilla_virus:0.004414)[&label=0.956]:0.00709)[&label=0.871]:0.003717,AB894484_Umatilla_virus:0.007075)[&label=0.959]:0.020967)[&label=0.904]:0.031204)[&label=1.0]:0.19412,(MG770350_Kammavanpettai_virus:0.202172,MW815106_Mudumu_virus:0.222454)[&label=0.967]:0.07693)[&label=0.987]:0.083102)[&label=0.988]:0.072081)[&label=0.614]:0.053845)[&label=0.147]:0.040599)[&label=0.929]:0.053396)[&label=0.978]:0.079779)[&label=0.997]:0.109913)[&label=0.762]:0.055142)[&label=0.769]:0.033596)[&label=0.992]:0.086304)[&label=1.0]:0.227595,(MH782462_Palyam_virus:0.007392,(MH782457_Palyam_virus:0.016847,((KJ746865_Kasba_virus:0.001588,MH782458_Palyam_virus:0.0)[&label=0.903]:0.003743,(MH782459_Palyam_virus:0.013934,(NC_005990_Palyam_virus:0.002674,(KT002588_Palyam_virus:0.001302,(KT887180_Palyam_virus:0.0,(MH090056_Palyam_virus:0.0,(MH090057_Palyam_virus:0.0,MH090058_Palyam_virus:0.002617)[&label=0.965]:0.003937)[&label=0.979]:0.006577)[&label=0.903]:0.002625)[&label=0.968]:0.006505)[&label=0.818]:0.00306)[&label=0.256]:0.001353)[&label=0.863]:0.004468)[&label=0.658]:0.006314)[&label=0.852]:0.007264)[&label=0.728]:0.010507,(KJ746864_Vellore_virus:0.042626,MH782460_Palyam_virus:0.005834)[&label=0.989]:0.030332)[&label=0.994]:0.022917)[&label=0.753]:0.001791,(MH782463_Palyam_virus:0.003219,(MH782467_Palyam_virus:0.001305,(MH782454_Palyam_virus:0.0,MH782468_Palyam_virus:0.001306)[&label=0.0]:0.0)[&label=0.804]:0.002018)[&label=0.2]:0.001303)[&label=0.945]:0.004646)[&label=0.761]:0.00131)[&label=0.797]:0.001306,(MH782465_Palyam_virus:0.005271,MH782469_Palyam_virus:0.007862)[&label=0.0]:0.0)[&label=0.559]:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=6;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=44;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

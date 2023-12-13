@@ -1,0 +1,448 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Phasmaviridae_clade/tree/aa_tree/Phasmaviridae_clade2_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 811218
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 64 sequences with 2088 amino-acid sites
+Number of constant sites: 210 (= 10.0575% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 210 (= 10.0575% of all sites)
+Number of parsimony informative sites: 1787
+Number of distinct site patterns: 1987
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+I+G4        -74064.833  148421.666 +        1  148443.780 +        1  149245.684 +        1
+rtREV+F+I+G4     -74191.138  148674.275 -  1.4e-55  148696.390 -  1.4e-55  149498.294 -  1.4e-55
+WAG+F+I+G4       -74385.303  149062.607 - 6.63e-140  149084.721 - 6.63e-140  149886.625 - 6.63e-140
+VT+F+I+G4        -74474.061  149240.122 - 1.88e-178  149262.237 - 1.88e-178  150064.141 - 1.88e-178
+LG+I+G4          -74602.057  149458.114 - 8.67e-226  149474.701 - 1.37e-224  150174.897 - 1.68e-202
+LG+R5            -74587.057  149440.113 - 7.03e-222  149458.355 - 4.87e-221  150190.760 - 6.02e-206
+LG+R6            -74586.926  149443.852 - 1.08e-222  149462.664 - 5.65e-222  150205.787 - 3.28e-209
+LG+R4            -74618.989  149499.978 - 7.04e-235  149517.659 - 6.46e-234  150239.337 - 1.7e-216
+LG+G4            -74658.374  149568.748 - 8.21e-250  149585.069 - 1.49e-248  150279.887 - 2.66e-225
+LG+R3            -74719.031  149696.063 - 1.85e-277  149713.193 - 2.24e-276  150424.134 - 1.27e-256
+Blosum62+F+I+G4  -74689.638  149671.275 - 4.47e-272  149693.390 - 4.47e-272  150495.294 - 4.47e-272
+JTTDCMut+F+I+G4  -74720.497  149732.993 - 1.77e-285  149755.107 - 1.77e-285  150557.012 - 1.77e-285
+JTT+F+I+G4       -74727.464  149746.927 - 1.67e-288  149769.041 - 1.67e-288  150570.946 - 1.67e-288
+PMB+F+I+G4       -74798.937  149889.873 - 1.52e-319  149911.988 - 1.52e-319  150713.892 - 1.52e-319
+cpREV+F+I+G4     -74810.141  149912.281 -        0  149934.395 -        0  150736.300 -        0
+Dayhoff+F+I+G4   -74965.626  150223.252 -        0  150245.366 -        0  151047.270 -        0
+DCMut+F+I+G4     -74966.284  150224.567 -        0  150246.681 -        0  151048.585 -        0
+VT+I+G4          -75053.684  150361.368 -        0  150377.956 -        0  151078.151 -        0
+mtInv+F+I+G4     -74997.198  150286.395 -        0  150308.510 -        0  151110.414 -        0
+mtZOA+F+I+G4     -75027.033  150346.066 -        0  150368.181 -        0  151170.085 -        0
+WAG+I+G4         -75105.437  150464.874 -        0  150481.461 -        0  151181.657 -        0
+Blosum62+I+G4    -75219.165  150692.331 -        0  150708.919 -        0  151409.114 -        0
+LG+R2            -75283.205  150820.410 -        0  150836.998 -        0  151537.193 -        0
+rtREV+I+G4       -75346.332  150946.665 -        0  150963.253 -        0  151663.448 -        0
+cpREV+I+G4       -75378.677  151011.354 -        0  151027.942 -        0  151728.137 -        0
+JTTDCMut+I+G4    -75443.241  151140.481 -        0  151157.069 -        0  151857.264 -        0
+JTT+I+G4         -75445.775  151145.549 -        0  151162.137 -        0  151862.333 -        0
+PMB+I+G4         -75464.923  151183.846 -        0  151200.434 -        0  151900.630 -        0
+mtMet+F+I+G4     -75465.983  151223.966 -        0  151246.081 -        0  152047.985 -        0
+FLU+F+I+G4       -75506.253  151304.506 -        0  151326.620 -        0  152128.524 -        0
+mtREV+F+I+G4     -75657.453  151606.906 -        0  151629.020 -        0  152430.924 -        0
+mtART+F+I+G4     -75677.800  151647.600 -        0  151669.714 -        0  152471.618 -        0
+HIVb+F+I+G4      -75759.646  151811.293 -        0  151833.407 -        0  152635.311 -        0
+FLU+I+G4         -75964.479  152182.958 -        0  152199.545 -        0  152899.741 -        0
+Dayhoff+I+G4     -76132.440  152518.881 -        0  152535.468 -        0  153235.664 -        0
+DCMut+I+G4       -76133.392  152520.784 -        0  152537.372 -        0  153237.567 -        0
+HIVb+I+G4        -76580.902  153415.805 -        0  153432.392 -        0  154132.588 -        0
+mtVer+F+I+G4     -76527.038  153346.076 -        0  153368.191 -        0  154170.095 -        0
+mtMAM+F+I+G4     -76965.444  154222.887 -        0  154245.002 -        0  155046.906 -        0
+LG+I             -77167.099  154586.199 -        0  154602.519 -        0  155297.338 -        0
+mtZOA+I+G4       -77302.792  154859.584 -        0  154876.171 -        0  155576.367 -        0
+HIVw+F+I+G4      -77557.643  155407.286 -        0  155429.400 -        0  156231.304 -        0
+mtMet+I+G4       -77779.075  155812.149 -        0  155828.737 -        0  156528.932 -        0
+mtInv+I+G4       -77913.017  156080.034 -        0  156096.622 -        0  156796.818 -        0
+mtREV+I+G4       -78298.510  156851.020 -        0  156867.608 -        0  157567.803 -        0
+mtART+I+G4       -78415.523  157085.046 -        0  157101.634 -        0  157801.829 -        0
+LG               -78519.620  157289.241 -        0  157305.296 -        0  157994.736 -        0
+mtVer+I+G4       -78970.095  158194.190 -        0  158210.778 -        0  158910.973 -        0
+HIVw+I+G4        -79097.044  158448.088 -        0  158464.676 -        0  159164.871 -        0
+mtMAM+I+G4       -79535.166  159324.332 -        0  159340.920 -        0  160041.115 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0504
+  pi(R) = 0.0473
+  pi(N) = 0.0604
+  pi(D) = 0.0672
+  pi(C) = 0.0181
+  pi(Q) = 0.0329
+  pi(E) = 0.0559
+  pi(G) = 0.0446
+  pi(H) = 0.0275
+  pi(I) = 0.0720
+  pi(L) = 0.0856
+  pi(K) = 0.0743
+  pi(M) = 0.0341
+  pi(F) = 0.0357
+  pi(P) = 0.0347
+  pi(S) = 0.0765
+  pi(T) = 0.0630
+  pi(W) = 0.0105
+  pi(Y) = 0.0485
+  pi(V) = 0.0609
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0747
+Gamma shape alpha: 1.1142
+
+ Category  Relative_rate  Proportion
+  0         0              0.0747
+  1         0.1720         0.2313
+  2         0.5496         0.2313
+  3         1.0987         0.2313
+  4         2.5025         0.2313
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -74063.6837 (s.e. 817.1727)
+Unconstrained log-likelihood (without tree): -15786.6078
+Number of free parameters (#branches + #model parameters): 146
+Akaike information criterion (AIC) score: 148419.3673
+Corrected Akaike information criterion (AICc) score: 148441.4817
+Bayesian information criterion (BIC) score: 149243.3858
+
+Total tree length (sum of branch lengths): 17.7333
+Sum of internal branch lengths: 8.7202 (49.1740% of tree length)
+
+WARNING: 16 near-zero internal branches (<0.0005) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MN164619_Pink_bollworm_virus_2' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                                            +**MT361031_Aedes_phasmavirus
+                                                                         +**| (38)
+                                                                         |  +**MT361037_Aedes_phasmavirus
+                                                                      +**| (87)
+                                                                      |  +**MT361034_Aedes_phasmavirus
+                                                                   +**| (80)
+                                                                   |  +**MT361028_Aedes_phasmavirus
+                                                                +--| (100)
+                                                                |  |     +**MT361040_Aedes_phasmavirus
+                                                                |  |  +**| (33)
+                                                                |  |  |  +**MT361049_Aedes_phasmavirus
+                                                                |  +--| (97)
+                                                                |     +**MT361043_Aedes_phasmavirus
+                                                             +--| (74)
+                                                             |  |  +**Aedes_phasmavirus_F1083C4F1083
+                                                             |  +--| (97)
+                                                             |     +**Aedes_phasmavirus_F1083C4F1520
+                                                          +**| (51)
+                                                          |  |     +**MW434651_Orthophasmavirus_barstukasense
+                                                          |  |  +**| (77)
+                                                          |  |  |  +**MW434652_Orthophasmavirus_barstukasense
+                                                          |  +**| (76)
+                                                          |     +**MW434654_Orthophasmavirus_barstukasense
+                                                       +**| (71)
+                                                       |  +**MW434650_Orthophasmavirus_bastukasense
+                                       +---------------| (100)
+                                       |               +**MW434660_Orthophasmavirus_barstukasense
+                                    +--| (100)
+                                    |  |     +----ON955170_Kuusamo_orthophasmavirus_4
+                                    |  +-----| (100)
+                                    |        +------MN513376_Flen_bunya-like_virus
+                          +---------| (100)
+                          |         +----------------NC_040759_Yongsan_bunyavirus_1
+                    +-----| (100)
+                    |     |                          +--MW434693_Orthophasmavirus_miglotasense
+                    |     |                       +**| (23)
+                    |     |                       |  |        +--MW434692_Orthophasmavirus_moglotasense
+                    |     |                       |  |     +**| (26)
+                    |     |                       |  |     |  +--MW434696_Orthophasmavirus_miglotasense
+                    |     |                       |  |  +**| (36)
+                    |     |                       |  |  |  +--MW434695_Orthophasmavirus_moglotasense
+                    |     |                       |  +--| (95)
+                    |     |                       |     +--MW434697_Orthophasmavirus_miglotasense
+                    |     |                    +**| (17)
+                    |     |                    |  |  +--MW434694_Orthophasmavirus_moglotasense
+                    |     |                    |  +**| (13)
+                    |     |                    |     +--MW434704_Orthophasmavirus_moglotasense
+                    |     |                 +--| (72)
+                    |     |                 |  |     +**MW434698_Orthophasmavirus_miglotasense
+                    |     |                 |  |  +**| (37)
+                    |     |                 |  |  |  |  +--MW434699_Orthophasmavirus_moglotasense
+                    |     |                 |  |  |  +**| (15)
+                    |     |                 |  |  |     +--MW434700_Orthophasmavirus_miglotasense
+                    |     |                 |  +--| (96)
+                    |     |                 |     +--MW434703_Orthophasmavirus_moglotasense
+                    |     +-----------------| (100)
+                    |                       +--MW434705_Orthophasmavirus_miglotasense
+             +------| (100)
+             |      |                                      +--MN661018_Culex_orthophasmavirus
+             |      |                                   +--| (100)
+             |      |                                   |  |  +**MF176293_Culex_orthophasmavirus
+             |      |                                   |  +--| (99)
+             |      |                                   |     |  +--MF176313_Culex_orthophasmavirus
+             |      |                                   |     +**| (100)
+             |      |                                   |        +**NC_055215_Culex_orthophasmavirus
+             |      |                                +--| (100)
+             |      |                                |  +--MK440628_Anjon_virus
+             |      |                            +---| (100)
+             |      |                            |   +--OL700053_Culex_orthophasmavirus
+             |      |                         +--| (100)
+             |      |                         |  |     +**MW452284_Wuhan_mosquito_orthophasmavirus_2
+             |      |                         |  +-----| (100)
+             |      |                         |        +--NC_031312_Wuhan_mosquito_orthophasmavirus_2
+             |      |            +------------| (100)
+             |      |            |            +------OL700113_XiangYun_bunya-arena-like_virus_12
+             |      |         +--| (79)
+             |      |         |  |                      +**ON955163_Hameenlinna_orthophasmavirus_1
+             |      |         |  |                   +--| (98)
+             |      |         |  |                   |  +--ON955162_Hameenlinna_orthophasmavirus_1
+             |      |         |  +-------------------| (100)
+             |      |         |                      +--ON955161_Hameenlinna_orthophasmavirus_1
+             |      +---------| (100)
+             |                |  +------------------ON955171_Lestijarvi_orthophasmavirus_1
+             |                +--| (86)
+             |                   |  +-------------ON955167_Kuusamo_orthophasmavirus_2
+             |                   +--| (79)
+             |                      +-------------MN661021_Orthophasmavirus_coredoense
+     +-------| (100)
+     |       |                                      +--ON059782_Niukluk_phantom_orthophasmavirus
+     |       |                                   +--| (99)
+     |       |                                   |  +--ON059784_Niukluk_phantom_orthophasmavirus
+     |       |                                +--| (85)
+     |       |                                |  +--MN168168_Niukluk_phantom_orthophasmavirus
+     |       |     +--------------------------| (100)
+     |       |     |                          +--ON059783_Niukluk_phantom_orthophasmavirus
+     |       +-----| (100)
+     |             +----------------------NC_034462_Kigluaik_phantom_orthophasmavirus
++----| (97)
+|    |                         +--KX884805_Hubei_diptera_virus_6
+|    |         +---------------| (100)
+|    |         |               |  +--OK491514_Hubei_diptera_virus_6
+|    |         |               +--| (100)
+|    |         |                  +--MT153491_Dipteran_phasma-related_virus_OKIAV224
+|    |      +--| (53)
+|    |      |  +-------------------MW310369_Bactrocera_latifrons_orthophasmavirus
+|    |   +--| (84)
+|    |   |  |   +----------MT153492_Dipteran_phasma-related_virus_OKIAV225
+|    |   |  +---| (66)
+|    |   |      |                        +**MW452283_Wuhan_mosquito_orthophasmavirus_1
+|    |   |      |                     +--| (100)
+|    |   |      |                     |  +--NC_031307_Wuhan_mosquito_orthophasmavirus_1
+|    |   |      |      +--------------| (100)
+|    |   |      |      |              +--OL700085_Wuhan_mosquito_orthophasmavirus_1
+|    |   |      +------| (100)
+|    |   |             +--------------NC_055394_Anopheles_orthophasmavirus
+|    +---| (98)
+|        |                             +--MT129676_Peralta_bunya-like_virus
+|        |                     +-------| (100)
+|        |                     |       +--MT129677_Peralta_bunya-like_virus
+|        |  +------------------| (100)
+|        |  |                  +--------KY354237_Apis_bunyavirus_2
+|        +--| (70)
+|           +----------------------KX884807_Hubei_diptera_virus_7
+|
++------------------------------------------------NC_038745_Nome_phantom_orthophasmavirus
+|
++----------------------------------MN164619_Pink_bollworm_virus_2
+
+Tree in newick format:
+
+(((((((((((((((MT361031_Aedes_phasmavirus:0.0000010000,MT361037_Aedes_phasmavirus:0.0000251983)38:0.0000013670,MT361034_Aedes_phasmavirus:0.0000010000)87:0.0004546443,MT361028_Aedes_phasmavirus:0.0000010000)80:0.0000028368,((MT361040_Aedes_phasmavirus:0.0000010000,MT361049_Aedes_phasmavirus:0.0004783520)33:0.0000010000,MT361043_Aedes_phasmavirus:0.0000010000)97:0.0009580456)100:0.0101644901,(Aedes_phasmavirus_F1083C4F1083:0.0000010000,Aedes_phasmavirus_F1083C4F1520:0.0004769859)97:0.0009510455)74:0.0009568476,((MW434651_Orthophasmavirus_barstukasense:0.0000021219,MW434652_Orthophasmavirus_barstukasense:0.0004768666)77:0.0004768814,MW434654_Orthophasmavirus_barstukasense:0.0000020205)76:0.0004768848)51:0.0000024968,MW434650_Orthophasmavirus_bastukasense:0.0000010000)71:0.0004765367,MW434660_Orthophasmavirus_barstukasense:0.0000029213)100:0.5402150104,(ON955170_Kuusamo_orthophasmavirus_4:0.1874339467,MN513376_Flen_bunya-like_virus:0.2339912802)100:0.2162235604)100:0.1140943429,NC_040759_Yongsan_bunyavirus_1:0.5539559152)100:0.3371577357,((((MW434693_Orthophasmavirus_miglotasense:0.0004808675,(((MW434692_Orthophasmavirus_moglotasense:0.0004808239,MW434696_Orthophasmavirus_miglotasense:0.0014449491)26:0.0000010000,MW434695_Orthophasmavirus_moglotasense:0.0009614738)36:0.0000010000,MW434697_Orthophasmavirus_miglotasense:0.0004805395)95:0.0004808373)23:0.0000010000,(MW434694_Orthophasmavirus_moglotasense:0.0014443455,MW434704_Orthophasmavirus_moglotasense:0.0009619786)13:0.0000028021)17:0.0000029459,((MW434698_Orthophasmavirus_miglotasense:0.0000010000,(MW434699_Orthophasmavirus_moglotasense:0.0004806428,MW434700_Orthophasmavirus_miglotasense:0.0009616181)15:0.0000010000)37:0.0000010000,MW434703_Orthophasmavirus_moglotasense:0.0009619151)96:0.0004808332)72:0.0021771758,MW434705_Orthophasmavirus_miglotasense:0.0011965770)100:0.5808379853)100:0.2063734566,(((((((MN661018_Culex_orthophasmavirus:0.0016923014,(MF176293_Culex_orthophasmavirus:0.0004204555,(MF176313_Culex_orthophasmavirus:0.0004878771,NC_055215_Culex_orthophasmavirus:0.0000010000)100:0.0001378380)99:0.0017252822)100:0.0304638051,MK440628_Anjon_virus:0.0326126861)100:0.0287776493,OL700053_Culex_orthophasmavirus:0.0493420865)100:0.1511959212,(MW452284_Wuhan_mosquito_orthophasmavirus_2:0.0000010000,NC_031312_Wuhan_mosquito_orthophasmavirus_2:0.0004999816)100:0.2129208895)100:0.0984125902,OL700113_XiangYun_bunya-arena-like_virus_12:0.2485837517)100:0.4409252815,((ON955163_Hameenlinna_orthophasmavirus_1:0.0000010000,ON955162_Hameenlinna_orthophasmavirus_1:0.0062237791)98:0.0131492315,ON955161_Hameenlinna_orthophasmavirus_1:0.0126263449)100:0.6537177677)79:0.0651841330,(ON955171_Lestijarvi_orthophasmavirus_1:0.6341647933,(ON955167_Kuusamo_orthophasmavirus_2:0.4562171642,MN661021_Orthophasmavirus_coredoense:0.4770984434)79:0.0541430234)86:0.0991363537)100:0.3265441334)100:0.2519810571,((((ON059782_Niukluk_phantom_orthophasmavirus:0.0084288967,ON059784_Niukluk_phantom_orthophasmavirus:0.0072966804)99:0.0042342049,MN168168_Niukluk_phantom_orthophasmavirus:0.0114958773)85:0.0040882763,ON059783_Niukluk_phantom_orthophasmavirus:0.0112743856)100:0.8672503458,NC_034462_Kigluaik_phantom_orthophasmavirus:0.7383548346)100:0.2024698203)100:0.2776838318,((((KX884805_Hubei_diptera_virus_6:0.0069951332,(OK491514_Hubei_diptera_virus_6:0.0067200460,MT153491_Dipteran_phasma-related_virus_OKIAV224:0.0111060528)100:0.0061474163)100:0.5345342667,MW310369_Bactrocera_latifrons_orthophasmavirus:0.6500282508)53:0.0968971617,(MT153492_Dipteran_phasma-related_virus_OKIAV225:0.3836257367,(((MW452283_Wuhan_mosquito_orthophasmavirus_1:0.0000010000,NC_031307_Wuhan_mosquito_orthophasmavirus_1:0.0010315229)100:0.0022938578,OL700085_Wuhan_mosquito_orthophasmavirus_1:0.0019438109)100:0.5067290390,NC_055394_Anopheles_orthophasmavirus:0.5050066817)100:0.2486080454)66:0.1348265959)84:0.0970900890,(((MT129676_Peralta_bunya-like_virus:0.0018829073,MT129677_Peralta_bunya-like_virus:0.0014861262)100:0.2756699956,KY354237_Apis_bunyavirus_2:0.3086676851)100:0.6384011815,KX884807_Hubei_diptera_virus_7:0.7415921434)70:0.0761411016)98:0.1280959127)97:0.1790171532,NC_038745_Nome_phantom_orthophasmavirus:1.5688643112,MN164619_Pink_bollworm_virus_2:1.1392246866);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -74063.757690
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                         +--MT361031_Aedes_phasmavirus
+                                                                      +--| (87)
+                                                                      |  |  +--MT361034_Aedes_phasmavirus
+                                                                      |  +--| (56)
+                                                                      |     +--MT361037_Aedes_phasmavirus
+                                                                   +--| (80)
+                                                                   |  +--MT361028_Aedes_phasmavirus
+                                                                +--| (100)
+                                                                |  |     +--MT361040_Aedes_phasmavirus
+                                                                |  |  +--| (59)
+                                                                |  |  |  +--MT361043_Aedes_phasmavirus
+                                                                |  +--| (97)
+                                                                |     +--MT361049_Aedes_phasmavirus
+                                                             +--| (74)
+                                                             |  |  +--Aedes_phasmavirus_F1083C4F1083
+                                                             |  +--| (97)
+                                                             |     +--Aedes_phasmavirus_F1083C4F1520
+                                                          +--| (51)
+                                                          |  |     +--MW434651_Orthophasmavirus_barstukasense
+                                                          |  |  +--| (77)
+                                                          |  |  |  +--MW434652_Orthophasmavirus_barstukasense
+                                                          |  +--| (76)
+                                                          |     +--MW434654_Orthophasmavirus_barstukasense
+                                                       +--| (71)
+                                                       |  +--MW434650_Orthophasmavirus_bastukasense
+                                       +---------------| (100)
+                                       |               +--MW434660_Orthophasmavirus_barstukasense
+                                    +--| (100)
+                                    |  |     +----ON955170_Kuusamo_orthophasmavirus_4
+                                    |  +-----| (100)
+                                    |        +------MN513376_Flen_bunya-like_virus
+                          +---------| (100)
+                          |         +----------------NC_040759_Yongsan_bunyavirus_1
+                    +-----| (100)
+                    |     |                          +--MW434693_Orthophasmavirus_miglotasense
+                    |     |                       +--| (23)
+                    |     |                       |  |     +--MW434692_Orthophasmavirus_moglotasense
+                    |     |                       |  |  +--| (36)
+                    |     |                       |  |  |  |  +--MW434696_Orthophasmavirus_miglotasense
+                    |     |                       |  |  |  +--| (27)
+                    |     |                       |  |  |     +--MW434695_Orthophasmavirus_moglotasense
+                    |     |                       |  +--| (95)
+                    |     |                       |     +--MW434697_Orthophasmavirus_miglotasense
+                    |     |                    +--| (33)
+                    |     |                    |  |  +--MW434694_Orthophasmavirus_moglotasense
+                    |     |                    |  +--| (22)
+                    |     |                    |     |        +--MW434698_Orthophasmavirus_miglotasense
+                    |     |                    |     |     +--| (45)
+                    |     |                    |     |     |  +--MW434699_Orthophasmavirus_moglotasense
+                    |     |                    |     |  +--| (37)
+                    |     |                    |     |  |  +--MW434700_Orthophasmavirus_miglotasense
+                    |     |                    |     +--| (96)
+                    |     |                    |        +--MW434703_Orthophasmavirus_moglotasense
+                    |     |                 +--| (72)
+                    |     |                 |  +--MW434704_Orthophasmavirus_moglotasense
+                    |     +-----------------| (100)
+                    |                       +--MW434705_Orthophasmavirus_miglotasense
+             +------| (100)
+             |      |                                      +--MN661018_Culex_orthophasmavirus
+             |      |                                   +--| (100)
+             |      |                                   |  |  +--MF176293_Culex_orthophasmavirus
+             |      |                                   |  +--| (99)
+             |      |                                   |     |  +--MF176313_Culex_orthophasmavirus
+             |      |                                   |     +--| (100)
+             |      |                                   |        +--NC_055215_Culex_orthophasmavirus
+             |      |                                +--| (100)
+             |      |                                |  +--MK440628_Anjon_virus
+             |      |                            +---| (100)
+             |      |                            |   +--OL700053_Culex_orthophasmavirus
+             |      |                         +--| (100)
+             |      |                         |  |     +--MW452284_Wuhan_mosquito_orthophasmavirus_2
+             |      |                         |  +-----| (100)
+             |      |                         |        +--NC_031312_Wuhan_mosquito_orthophasmavirus_2
+             |      |            +------------| (100)
+             |      |            |            +------OL700113_XiangYun_bunya-arena-like_virus_12
+             |      |         +--| (79)
+             |      |         |  |                      +--ON955163_Hameenlinna_orthophasmavirus_1
+             |      |         |  |                   +--| (98)
+             |      |         |  |                   |  +--ON955162_Hameenlinna_orthophasmavirus_1
+             |      |         |  +-------------------| (100)
+             |      |         |                      +--ON955161_Hameenlinna_orthophasmavirus_1
+             |      +---------| (100)
+             |                |  +------------------ON955171_Lestijarvi_orthophasmavirus_1
+             |                +--| (86)
+             |                   |  +-------------ON955167_Kuusamo_orthophasmavirus_2
+             |                   +--| (79)
+             |                      +-------------MN661021_Orthophasmavirus_coredoense
+     +-------| (100)
+     |       |                                      +--ON059782_Niukluk_phantom_orthophasmavirus
+     |       |                                   +--| (99)
+     |       |                                   |  +--ON059784_Niukluk_phantom_orthophasmavirus
+     |       |                                +--| (85)
+     |       |                                |  +--MN168168_Niukluk_phantom_orthophasmavirus
+     |       |     +--------------------------| (100)
+     |       |     |                          +--ON059783_Niukluk_phantom_orthophasmavirus
+     |       +-----| (100)
+     |             +----------------------NC_034462_Kigluaik_phantom_orthophasmavirus
++----| (97)
+|    |                         +--KX884805_Hubei_diptera_virus_6
+|    |         +---------------| (100)
+|    |         |               |  +--OK491514_Hubei_diptera_virus_6
+|    |         |               +--| (100)
+|    |         |                  +--MT153491_Dipteran_phasma-related_virus_OKIAV224
+|    |      +--| (53)
+|    |      |  +-------------------MW310369_Bactrocera_latifrons_orthophasmavirus
+|    |   +--| (84)
+|    |   |  |   +----------MT153492_Dipteran_phasma-related_virus_OKIAV225
+|    |   |  +---| (66)
+|    |   |      |                        +--MW452283_Wuhan_mosquito_orthophasmavirus_1
+|    |   |      |                     +--| (100)
+|    |   |      |                     |  +--NC_031307_Wuhan_mosquito_orthophasmavirus_1
+|    |   |      |      +--------------| (100)
+|    |   |      |      |              +--OL700085_Wuhan_mosquito_orthophasmavirus_1
+|    |   |      +------| (100)
+|    |   |             +--------------NC_055394_Anopheles_orthophasmavirus
+|    +---| (98)
+|        |                             +--MT129676_Peralta_bunya-like_virus
+|        |                     +-------| (100)
+|        |                     |       +--MT129677_Peralta_bunya-like_virus
+|        |  +------------------| (100)
+|        |  |                  +--------KY354237_Apis_bunyavirus_2
+|        +--| (70)
+|           +----------------------KX884807_Hubei_diptera_virus_7
+|
++------------------------------------------------NC_038745_Nome_phantom_orthophasmavirus
+|
++----------------------------------MN164619_Pink_bollworm_virus_2
+
+
+Consensus tree in newick format: 
+
+((((((((((((((MT361031_Aedes_phasmavirus:0.0000028678,(MT361034_Aedes_phasmavirus:0.0000028678,MT361037_Aedes_phasmavirus:0.0000024025)56:0.0000028678)87:0.0000194869,MT361028_Aedes_phasmavirus:0.0000028678)80:0.0004570119,((MT361040_Aedes_phasmavirus:0.0000028678,MT361043_Aedes_phasmavirus:0.0000028678)59:0.0000028678,MT361049_Aedes_phasmavirus:0.0004782681)97:0.0009584401)100:0.0101670007,(Aedes_phasmavirus_F1083C4F1083:0.0000028678,Aedes_phasmavirus_F1083C4F1520:0.0004767499)97:0.0009518934)74:0.0009577119,((MW434651_Orthophasmavirus_barstukasense:0.0000028678,MW434652_Orthophasmavirus_barstukasense:0.0004766310)77:0.0004766457,MW434654_Orthophasmavirus_barstukasense:0.0000028678)76:0.0004766482)51:0.0000028678,MW434650_Orthophasmavirus_bastukasense:0.0000028678)71:0.0004763088,MW434660_Orthophasmavirus_barstukasense:0.0000028678)100:0.5403291858,(ON955170_Kuusamo_orthophasmavirus_4:0.1874493833,MN513376_Flen_bunya-like_virus:0.2340509192)100:0.2162671488)100:0.1140928800,NC_040759_Yongsan_bunyavirus_1:0.5540858153)100:0.3372221783,((((MW434693_Orthophasmavirus_miglotasense:0.0004815880,((MW434692_Orthophasmavirus_moglotasense:0.0004815995,(MW434696_Orthophasmavirus_miglotasense:0.0014443383,MW434695_Orthophasmavirus_moglotasense:0.0009621390)27:0.0000028678)36:0.0000028678,MW434697_Orthophasmavirus_miglotasense:0.0004814481)95:0.0004815584)23:0.0000028678,(MW434694_Orthophasmavirus_moglotasense:0.0014437339,(((MW434698_Orthophasmavirus_miglotasense:0.0000028678,MW434699_Orthophasmavirus_moglotasense:0.0004815523)45:0.0000028678,MW434700_Orthophasmavirus_miglotasense:0.0009622850)37:0.0000028678,MW434703_Orthophasmavirus_moglotasense:0.0009626387)96:0.0004815562)22:0.0000028678)33:0.0000028678,MW434704_Orthophasmavirus_moglotasense:0.0009626970)72:0.0021785833,MW434705_Orthophasmavirus_miglotasense:0.0011949677)100:0.5809614302)100:0.2064011215,(((((((MN661018_Culex_orthophasmavirus:0.0016931462,(MF176293_Culex_orthophasmavirus:0.0004209206,(MF176313_Culex_orthophasmavirus:0.0004877915,NC_055215_Culex_orthophasmavirus:0.0000028678)100:0.0001384452)99:0.0017255008)100:0.0304669030,MK440628_Anjon_virus:0.0326155238)100:0.0287807141,OL700053_Culex_orthophasmavirus:0.0493456869)100:0.1512132792,(MW452284_Wuhan_mosquito_orthophasmavirus_2:0.0000024042,NC_031312_Wuhan_mosquito_orthophasmavirus_2:0.0004998507)100:0.2129404193)100:0.0984276386,OL700113_XiangYun_bunya-arena-like_virus_12:0.2485995638)100:0.4410698588,((ON955163_Hameenlinna_orthophasmavirus_1:0.0000028734,ON955162_Hameenlinna_orthophasmavirus_1:0.0062243894)98:0.0131505674,ON955161_Hameenlinna_orthophasmavirus_1:0.0126261953)100:0.6537996469)79:0.0650830274,(ON955171_Lestijarvi_orthophasmavirus_1:0.6344932617,(ON955167_Kuusamo_orthophasmavirus_2:0.4563203847,MN661021_Orthophasmavirus_coredoense:0.4773818750)79:0.0536952506)86:0.0993438705)100:0.3266252887)100:0.2520222735,((((ON059782_Niukluk_phantom_orthophasmavirus:0.0084293067,ON059784_Niukluk_phantom_orthophasmavirus:0.0072974902)99:0.0042347796,MN168168_Niukluk_phantom_orthophasmavirus:0.0114971842)85:0.0041446944,ON059783_Niukluk_phantom_orthophasmavirus:0.0111932600)100:0.8674194011,NC_034462_Kigluaik_phantom_orthophasmavirus:0.7384894283)100:0.2024573047)100:0.2777388356,((((KX884805_Hubei_diptera_virus_6:0.0069940206,(OK491514_Hubei_diptera_virus_6:0.0067205943,MT153491_Dipteran_phasma-related_virus_OKIAV224:0.0111068014)100:0.0061485844)100:0.5346198623,MW310369_Bactrocera_latifrons_orthophasmavirus:0.6501250141)53:0.0968948014,(MT153492_Dipteran_phasma-related_virus_OKIAV225:0.3837025158,(((MW452283_Wuhan_mosquito_orthophasmavirus_1:0.0000028678,NC_031307_Wuhan_mosquito_orthophasmavirus_1:0.0010314044)100:0.0022938439,OL700085_Wuhan_mosquito_orthophasmavirus_1:0.0019443249)100:0.5068024377,NC_055394_Anopheles_orthophasmavirus:0.5050653660)100:0.2486957988)66:0.1347603805)84:0.0971154418,(((MT129676_Peralta_bunya-like_virus:0.0018840426,MT129677_Peralta_bunya-like_virus:0.0014854225)100:0.2757353358,KY354237_Apis_bunyavirus_2:0.3086682479)100:0.6385177223,KX884807_Hubei_diptera_virus_7:0.7417219235)70:0.0761249693)98:0.1281333881)97:0.1787909476,NC_038745_Nome_phantom_orthophasmavirus:1.5693360490,MN164619_Pink_bollworm_virus_2:1.1396406011);
+
+TIME STAMP
+----------
+
+Date and time: Thu Jan  5 11:42:11 2023
+Total CPU time used: 7385.540496 seconds (2h:3m:5s)
+Total wall-clock time used: 302.6209121 seconds (0h:5m:2s)
+

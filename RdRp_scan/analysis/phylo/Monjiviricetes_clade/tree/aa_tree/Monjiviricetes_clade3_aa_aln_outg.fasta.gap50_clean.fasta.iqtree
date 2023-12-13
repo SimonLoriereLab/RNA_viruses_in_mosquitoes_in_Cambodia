@@ -1,0 +1,453 @@
+IQ-TREE 2.0.6 built Nov 18 2020
+
+Input file name: /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/Monjiviricetes_clade/tree/aa_tree/Monjiviricetes_clade3_aa_aln_outg.fasta.gap50_clean.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 587214
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 60 sequences with 2292 amino-acid sites
+Number of constant sites: 446 (= 19.459% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 446 (= 19.459% of all sites)
+Number of parsimony informative sites: 1526
+Number of distinct site patterns: 2082
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R3          -32685.636   65623.272 +    0.198   65638.054 +     0.24   66346.157 +    0.987
+LG+F+R4          -32682.239   65620.479 +    0.802   65635.747 +     0.76   66354.838 -   0.0129
+LG+R3            -32789.357   65792.713 - 3.19e-38   65803.296 - 3.15e-37   66406.592 - 7.43e-14
+LG+R4            -32785.728   65789.456 - 1.63e-37   65800.446 - 1.31e-36   66414.809 - 1.22e-15
+LG+G4            -32817.970   65843.940 -  2.4e-49   65853.927 - 3.19e-48   66440.607 - 3.05e-21
+LG+I+G4          -32819.559   65849.118 -  1.8e-50   65859.301 - 2.17e-49   66451.522 -  1.3e-23
+rtREV+F+R3       -32761.392   65774.785 - 2.49e-34   65789.567 - 3.01e-34   66497.669 - 1.24e-33
+rtREV+F+R4       -32757.197   65770.394 - 2.24e-33   65785.662 - 2.12e-33   66504.753 - 3.59e-35
+WAG+F+R3         -32795.005   65842.011 - 6.29e-49   65856.793 - 7.61e-49   66564.896 - 3.13e-48
+WAG+F+R4         -32793.337   65842.674 - 4.52e-49   65857.942 - 4.28e-49   66577.033 - 7.25e-51
+LG+R2            -32918.274   66046.549 - 2.42e-93   66056.732 - 2.92e-92   66648.953 - 1.75e-66
+cpREV+F+R3       -32860.308   65972.615 - 2.74e-77   65987.398 - 3.32e-77   66695.500 - 1.37e-76
+cpREV+F+R4       -32857.321   65970.641 - 7.36e-77   65985.909 - 6.98e-77   66705.000 - 1.18e-78
+VT+F+R3          -32887.505   66027.010 - 4.24e-89   66041.792 - 5.12e-89   66749.895 - 2.11e-88
+VT+R3            -32963.758   66141.516 - 5.78e-114   66152.098 - 5.71e-113   66755.394 - 1.35e-89
+VT+F+R4          -32886.294   66028.587 - 1.92e-89   66043.855 - 1.83e-89   66762.947 - 3.09e-91
+VT+R4            -32962.651   66143.302 - 2.37e-114   66154.292 - 1.91e-113   66768.655 - 1.78e-92
+JTTDCMut+F+R3    -32909.635   66071.271 - 1.04e-98   66086.053 - 1.25e-98   66794.155 - 5.16e-98
+WAG+R3           -32983.149   66180.298 - 2.19e-122   66190.880 - 2.16e-121   66794.176 - 5.11e-98
+JTT+F+R3         -32914.795   66081.590 - 5.96e-101   66096.372 - 7.2e-101   66804.474 - 2.96e-100
+JTTDCMut+F+R4    -32907.667   66071.333 - 1.01e-98   66086.601 - 9.53e-99   66805.692 - 1.61e-100
+WAG+R4           -32981.425   66180.851 - 1.66e-122   66191.841 - 1.34e-121   66806.203 - 1.25e-100
+JTT+F+R4         -32912.804   66081.609 - 5.9e-101   66096.877 - 5.6e-101   66815.968 - 9.47e-103
+mtZOA+F+R4       -32935.947   66127.895 - 5.25e-111   66143.163 - 4.98e-111   66862.254 - 8.42e-113
+mtZOA+F+R3       -32945.483   66142.965 - 2.8e-114   66157.748 - 3.39e-114   66865.850 - 1.39e-113
+rtREV+R3         -33030.956   66275.912 - 3.79e-143   66286.495 - 3.74e-142   66889.790 - 8.83e-119
+mtInv+F+R3       -32958.131   66168.261 - 9.01e-120   66183.044 - 1.09e-119   66891.146 - 4.48e-119
+mtInv+F+R4       -32950.907   66157.814 - 1.67e-117   66173.082 - 1.59e-117   66892.173 - 2.68e-119
+rtREV+R4         -33027.050   66272.100 - 2.55e-142   66283.090 - 2.05e-141   66897.453 - 1.91e-120
+cpREV+R3         -33037.815   66289.631 - 3.98e-146   66300.213 - 3.92e-145   66903.509 - 9.26e-122
+cpREV+R4         -33035.012   66288.024 - 8.88e-146   66299.014 - 7.15e-145   66913.377 - 6.67e-124
+Dayhoff+F+R3     -32969.761   66191.521 - 8.01e-125   66206.304 - 9.68e-125   66914.406 - 3.99e-124
+JTTDCMut+R3      -33044.219   66302.437 - 6.59e-149   66313.020 - 6.5e-148   66916.316 - 1.53e-124
+JTT+R3           -33044.472   66302.943 - 5.11e-149   66313.526 - 5.05e-148   66916.822 - 1.19e-124
+DCMut+F+R3       -32971.567   66195.134 - 1.32e-125   66209.917 - 1.59e-125   66918.019 - 6.55e-125
+Dayhoff+F+R4     -32966.358   66188.716 - 3.26e-124   66203.984 - 3.09e-124   66923.075 - 5.23e-126
+DCMut+F+R4       -32968.242   66192.483 - 4.95e-125   66207.751 - 4.7e-125   66926.842 - 7.94e-127
+JTTDCMut+R4      -33042.097   66302.194 - 7.44e-149   66313.184 - 5.99e-148   66927.547 - 5.59e-127
+JTT+R4           -33042.343   66302.685 - 5.82e-149   66313.675 - 4.68e-148   66928.038 - 4.37e-127
+Blosum62+F+R3    -32991.366   66234.731 - 3.32e-134   66249.514 - 4.01e-134   66957.616 - 1.65e-133
+Blosum62+F+R4    -32990.290   66236.579 - 1.32e-134   66251.847 - 1.25e-134   66970.938 - 2.11e-136
+PMB+F+R3         -33034.044   66320.089 - 9.67e-153   66334.871 - 1.17e-152   67042.974 - 4.81e-152
+PMB+F+R4         -33033.116   66322.231 - 3.31e-153   66337.499 - 3.14e-153   67056.590 - 5.32e-155
+Blosum62+R3      -33134.687   66483.373 - 3.38e-188   66493.956 - 3.34e-187   67097.252 - 7.87e-164
+Blosum62+R4      -33133.847   66485.694 - 1.06e-188   66496.684 - 8.53e-188   67111.047 - 7.95e-167
+PMB+R3           -33153.951   66521.902 - 1.45e-196   66532.484 - 1.43e-195   67135.780 - 3.39e-172
+PMB+R4           -33153.187   66524.375 - 4.22e-197   66535.365 - 3.4e-196   67149.728 - 3.17e-175
+FLU+F+R3         -33104.431   66460.863 - 2.61e-183   66475.645 - 3.16e-183   67183.748 - 1.3e-182
+FLU+F+R4         -33097.520   66451.041 - 3.55e-181   66466.309 - 3.36e-181   67185.400 - 5.69e-183
+mtMet+F+R4       -33104.963   66465.926 - 2.08e-184   66481.194 - 1.97e-184   67200.285 - 3.33e-186
+mtMet+F+R3       -33114.999   66481.998 - 6.72e-188   66496.780 - 8.13e-188   67204.882 - 3.35e-187
+mtREV+F+R4       -33173.945   66603.889 - 2.29e-214   66619.157 - 2.17e-214   67338.249 - 3.67e-216
+mtART+F+R3       -33187.072   66626.143 - 3.36e-219   66640.926 - 4.07e-219   67349.028 - 1.67e-218
+mtREV+F+R3       -33187.870   66627.740 - 1.51e-219   66642.522 - 1.83e-219   67350.624 - 7.53e-219
+mtART+F+R4       -33183.311   66622.623 - 1.96e-218   66637.890 - 1.85e-218   67356.982 - 3.14e-220
+FLU+R3           -33277.470   66768.940 - 3.3e-250   66779.522 - 3.26e-249   67382.818 - 7.69e-226
+FLU+R4           -33270.211   66758.422 - 6.35e-248   66769.412 - 5.11e-247   67383.775 - 4.77e-226
+Dayhoff+R3       -33324.417   66862.834 - 1.35e-270   66873.417 - 1.33e-269   67476.713 - 3.14e-246
+DCMut+R3         -33326.066   66866.132 - 2.59e-271   66876.714 - 2.56e-270   67480.010 - 6.04e-247
+Dayhoff+R4       -33319.246   66856.492 - 3.21e-269   66867.482 - 2.59e-268   67481.845 - 2.41e-247
+DCMut+R4         -33320.950   66859.900 - 5.85e-270   66870.890 - 4.71e-269   67485.253 - 4.39e-248
+HIVb+F+R4        -33277.927   66811.854 - 1.59e-259   66827.122 - 1.5e-259   67546.213 - 2.54e-261
+HIVb+F+R3        -33287.024   66826.048 - 1.31e-262   66840.831 - 1.59e-262   67548.933 - 6.53e-262
+HIVb+R4          -33484.144   67186.287 -        0   67197.277 -        0   67811.640 - 5.87e-319
+HIVb+R3          -33495.011   67204.022 -        0   67214.605 -        0   67817.900 - 2.57e-320
+mtVer+F+R3       -33438.843   67129.687 -        0   67144.469 -        0   67852.572 -        0
+mtVer+F+R4       -33432.317   67120.633 -        0   67135.901 -        0   67854.992 -        0
+LG+I             -33530.232   67268.465 -        0   67278.451 -        0   67865.131 -        0
+mtMAM+F+R3       -33618.652   67489.303 -        0   67504.086 -        0   68212.188 -        0
+mtMAM+F+R4       -33618.258   67492.516 -        0   67507.783 -        0   68226.875 -        0
+LG               -34032.855   68271.710 -        0   68281.502 -        0   68862.640 -        0
+HIVw+F+R3        -33976.140   68204.281 -        0   68219.063 -        0   68927.165 -        0
+HIVw+F+R4        -33971.586   68199.173 -        0   68214.440 -        0   68933.532 -        0
+mtZOA+R4         -34063.677   68345.354 -        0   68356.344 -        0   68970.707 -        0
+mtZOA+R3         -34072.379   68358.757 -        0   68369.340 -        0   68972.636 -        0
+mtMet+R4         -34343.549   68905.098 -        0   68916.088 -        0   69530.451 -        0
+mtMet+R3         -34354.224   68922.449 -        0   68933.031 -        0   69536.327 -        0
+mtREV+R4         -34440.743   69099.485 -        0   69110.475 -        0   69724.838 -        0
+mtREV+R3         -34453.320   69120.641 -        0   69131.223 -        0   69734.519 -        0
+mtInv+R3         -34523.419   69260.837 -        0   69271.420 -        0   69874.716 -        0
+mtART+R4         -34517.195   69252.389 -        0   69263.379 -        0   69877.742 -        0
+mtInv+R4         -34517.424   69252.848 -        0   69263.838 -        0   69878.201 -        0
+mtART+R3         -34555.290   69324.580 -        0   69335.163 -        0   69938.458 -        0
+HIVw+R4          -34561.328   69340.657 -        0   69351.647 -        0   69966.009 -        0
+HIVw+R3          -34569.783   69353.565 -        0   69364.148 -        0   69967.443 -        0
+mtVer+R4         -34718.196   69654.392 -        0   69665.382 -        0   70279.745 -        0
+mtVer+R3         -34726.007   69666.014 -        0   69676.597 -        0   70279.893 -        0
+mtMAM+R4         -34931.824   70081.648 -        0   70092.638 -        0   70707.001 -        0
+mtMAM+R3         -34978.500   70170.999 -        0   70181.582 -        0   70784.878 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R3
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0450
+  pi(R) = 0.0518
+  pi(N) = 0.0487
+  pi(D) = 0.0481
+  pi(C) = 0.0175
+  pi(Q) = 0.0390
+  pi(E) = 0.0583
+  pi(G) = 0.0524
+  pi(H) = 0.0319
+  pi(I) = 0.0576
+  pi(L) = 0.1179
+  pi(K) = 0.0552
+  pi(M) = 0.0240
+  pi(F) = 0.0493
+  pi(P) = 0.0533
+  pi(S) = 0.0824
+  pi(T) = 0.0567
+  pi(W) = 0.0204
+  pi(Y) = 0.0310
+  pi(V) = 0.0594
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.4294,0.1373) (0.4286,0.8819) (0.1420,3.9644)
+
+ Category  Relative_rate  Proportion
+  1         0.1373         0.4294
+  2         0.8819         0.4286
+  3         3.9644         0.1420
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -32685.4462 (s.e. 371.6339)
+Unconstrained log-likelihood (without tree): -17316.8354
+Number of free parameters (#branches + #model parameters): 126
+Akaike information criterion (AIC) score: 65622.8924
+Corrected Akaike information criterion (AICc) score: 65637.6748
+Bayesian information criterion (BIC) score: 66345.7771
+
+Total tree length (sum of branch lengths): 8.3866
+Sum of internal branch lengths: 3.5996 (42.9214% of tree length)
+
+WARNING: 32 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MZ771217_Rhabdoviridae_sp_' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                                                            +--MN013386_Guadeloupe_Culex_rhabdovirus
+                                                                         +**| (22)
+                                                                         |  |  +**MN013388_Guadeloupe_Culex_rhabdovirus
+                                                                         |  +**| (94)
+                                                                         |     +--MN013392_Guadeloupe_Culex_rhabdovirus
+                                                                      +**| (9)
+                                                                      |  |  +**MN013393_Guadeloupe_Culex_rhabdovirus
+                                                                      |  +**| (8)
+                                                                      |     +--MN013389_Guadeloupe_Culex_rhabdovirus
+                                                                   +**| (25)
+                                                                   |  +**MN013390_Guadeloupe_Culex_rhabdovirus
+                                                                +--| (99)
+                                                                |  +**MN013387_Guadeloupe_Culex_rhabdovirus
+                                                             +**| (36)
+                                                             |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1570
+                                                          +**| (65)
+                                                          |  |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1573
+                                                          |  +**| (63)
+                                                          |     +**Grenada_mosquito_rhabdovirus_1_F1429C1F1571
+                                                       +**| (56)
+                                                       |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1428
+                                                    +**| (3)
+                                                    |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1042
+                                                 +**| (5)
+                                                 |  |                    +--MG385079_Grenada_mosquito_rhabdovirus_1
+                                                 |  |                 +--| (86)
+                                                 |  |                 |  +--MH707450_Grenada_mosquito_rhabdovirus_1
+                                                 |  |              +**| (11)
+                                                 |  |              |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1426
+                                                 |  |           +**| (8)
+                                                 |  |           |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1572
+                                                 |  |        +**| (11)
+                                                 |  |        |  |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1420
+                                                 |  |        |  |  +**| (91)
+                                                 |  |        |  |  |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1423
+                                                 |  |        |  +**| (5)
+                                                 |  |        |     +**Grenada_mosquito_rhabdovirus_1_F1429C1F1579
+                                                 |  |     +**| (6)
+                                                 |  |     |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1040
+                                                 |  |  +**| (4)
+                                                 |  |  |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1432
+                                                 |  +**| (4)
+                                                 |     |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1422
+                                                 |     +**| (8)
+                                                 |        +**Grenada_mosquito_rhabdovirus_1_F1429C1F1575
+                                              +**| (23)
+                                              |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1429
+                                           +--| (93)
+                                           |  |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1431
+                                           |  +**| (92)
+                                           |     +**Grenada_mosquito_rhabdovirus_1_F1429C1F1427
+                                        +**| (46)
+                                        |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1115
+                                     +**| (7)
+                                     |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1124
+                                  +**| (29)
+                                  |  |        +**Grenada_mosquito_rhabdovirus_1_F1429C1F1433
+                                  |  |     +**| (18)
+                                  |  |     |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1120
+                                  |  |  +**| (11)
+                                  |  |  |  |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1113
+                                  |  |  |  |  +**| (39)
+                                  |  |  |  |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1114
+                                  |  |  |  +**| (42)
+                                  |  |  |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1112
+                                  |  +**| (4)
+                                  |     +**Grenada_mosquito_rhabdovirus_1_F1429C1F1119
+                               +**| (36)
+                               |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1121
+                            +**| (69)
+                            |  |  +--------------KY435948_Cururu_virus
+                            |  +--| (61)
+                            |     +**Grenada_mosquito_rhabdovirus_1_F1429C1F1123
+                         +--| (81)
+                         |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1125
+         +---------------| (100)
+         |               +**Grenada_mosquito_rhabdovirus_1_F1429C1F1126
++--------| (100)
+|        +-----------------MN661109_Atrato_Rhabdo-like_virus_2
+|
+|                                +--Ardicrand_virus_F1568C1F1277
+|                             +--| (100)
+|                             |  +**Ardicrand_virus_F1568C1F1568
+|                         +---| (100)
+|                         |   +--Antlested_virus_F1034C1F1034
+|                      +--| (100)
+|                      |  |         +**MW452302_Wuhan_Mosquito_Virus_9
+|                      |  |      +--| (76)
+|                      |  |      |  +--OL700091_Wuhan_Mosquito_Virus_9
+|                      |  +------| (100)
+|                      |         +**NC_031303_Wuhan_Mosquito_Virus_9
+|                   +--| (93)
+|                   |  |          +--MW434774_Stang_virus
+|                   |  |     +----| (100)
+|                   |  |     |    +--MW434775_Stang_virus
+|                   |  |  +--| (70)
+|                   |  |  |  +----MZ202303_Cimo_rhabdovirus_III
+|                   |  +--| (62)
+|                   |     |       +--MW434767_Elisy_virus
+|                   |     +-------| (100)
+|                   |             +--MW434768_Elisy_virus
++-------------------| (100)
+|                   +---------OL700136_XiangYun_mono-chu-like_virus_11
+|
++-----------------------------------------------------------MZ771217_Rhabdoviridae_sp_
+
+Tree in newick format:
+
+((((((((((((((((((((MN013386_Guadeloupe_Culex_rhabdovirus:0.0013049794,(MN013388_Guadeloupe_Culex_rhabdovirus:0.0000010060,MN013392_Guadeloupe_Culex_rhabdovirus:0.0008706219)94:0.0004346242)22:0.0000010060,(MN013393_Guadeloupe_Culex_rhabdovirus:0.0004346152,MN013389_Guadeloupe_Culex_rhabdovirus:0.0008703514)8:0.0000010060)9:0.0000010060,MN013390_Guadeloupe_Culex_rhabdovirus:0.0004346765)25:0.0000010060,MN013387_Guadeloupe_Culex_rhabdovirus:0.0004345821)99:0.0021779677,Grenada_mosquito_rhabdovirus_1_F1429C1F1570:0.0004337746)36:0.0000010060,(Grenada_mosquito_rhabdovirus_1_F1429C1F1573:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1571:0.0000010060)63:0.0000010060)65:0.0004325170,Grenada_mosquito_rhabdovirus_1_F1429C1F1428:0.0069995565)56:0.0000014637,Grenada_mosquito_rhabdovirus_1_F1429C1F1042:0.0004335833)3:0.0000010060,(((((((MG385079_Grenada_mosquito_rhabdovirus_1:0.0021768684,MH707450_Grenada_mosquito_rhabdovirus_1:0.0017409748)86:0.0008713081,Grenada_mosquito_rhabdovirus_1_F1429C1F1426:0.0008674816)11:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1572:0.0004345538)8:0.0000010060,((Grenada_mosquito_rhabdovirus_1_F1429C1F1420:0.0004851473,Grenada_mosquito_rhabdovirus_1_F1429C1F1423:0.0000010060)91:0.0004335376,Grenada_mosquito_rhabdovirus_1_F1429C1F1579:0.0004335958)5:0.0000010060)11:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1040:0.0000010060)6:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1432:0.0000010060)4:0.0000010060,(Grenada_mosquito_rhabdovirus_1_F1429C1F1422:0.0008682781,Grenada_mosquito_rhabdovirus_1_F1429C1F1575:0.0004335963)8:0.0000010060)4:0.0000010060)5:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1429:0.0004336288)23:0.0000010060,(Grenada_mosquito_rhabdovirus_1_F1429C1F1431:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1427:0.0004337416)92:0.0004336278)93:0.0008680100,Grenada_mosquito_rhabdovirus_1_F1429C1F1115:0.0008678353)46:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1124:0.0000010060)7:0.0000010060,(((Grenada_mosquito_rhabdovirus_1_F1429C1F1433:0.0004343737,Grenada_mosquito_rhabdovirus_1_F1429C1F1120:0.0004390263)18:0.0000010060,((Grenada_mosquito_rhabdovirus_1_F1429C1F1113:0.0071675074,Grenada_mosquito_rhabdovirus_1_F1429C1F1114:0.0008671071)39:0.0000020795,Grenada_mosquito_rhabdovirus_1_F1429C1F1112:0.0008684258)42:0.0000010060)11:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1119:0.0000010060)4:0.0000010060)29:0.0000010060,Grenada_mosquito_rhabdovirus_1_F1429C1F1121:0.0004337886)36:0.0000013047,(KY435948_Cururu_virus:0.6616740601,Grenada_mosquito_rhabdovirus_1_F1429C1F1123:0.0000233035)61:0.0006213666)69:0.0004300406,Grenada_mosquito_rhabdovirus_1_F1429C1F1125:0.0000029856)81:0.0007070934,Grenada_mosquito_rhabdovirus_1_F1429C1F1126:0.0000024207)100:0.6900522055,MN661109_Atrato_Rhabdo-like_virus_2:0.7517337890)100:0.4054159659,(((((Ardicrand_virus_F1568C1F1277:0.0027370761,Ardicrand_virus_F1568C1F1568:0.0000027200)100:0.1265459960,Antlested_virus_F1034C1F1034:0.1261345165)100:0.1833804504,((MW452302_Wuhan_Mosquito_Virus_9:0.0000010060,OL700091_Wuhan_Mosquito_Virus_9:0.0035282728)76:0.0053667147,NC_031303_Wuhan_Mosquito_Virus_9:0.0000010060)100:0.3115532836)100:0.1436261454,(((MW434774_Stang_virus:0.0038865250,MW434775_Stang_virus:0.0015087237)100:0.2338884111,MZ202303_Cimo_rhabdovirus_III:0.2403789595)70:0.1197851927,(MW434767_Elisy_virus:0.0172860570,MW434768_Elisy_virus:0.0053070017)100:0.3496985757)62:0.0475902197)93:0.1195868629,OL700136_XiangYun_mono-chu-like_virus_11:0.4367816506)100:0.8561441808,MZ771217_Rhabdoviridae_sp_:2.5038982144);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -32685.576397
+Robinson-Foulds distance between ML tree and consensus tree: 32
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                                      +--MN013386_Guadeloupe_Culex_rhabdovirus
+                                                                   +--| (22)
+                                                                   |  |  +--MN013388_Guadeloupe_Culex_rhabdovirus
+                                                                   |  +--| (94)
+                                                                   |     +--MN013392_Guadeloupe_Culex_rhabdovirus
+                                                                +--| (11)
+                                                                |  +--MN013390_Guadeloupe_Culex_rhabdovirus
+                                                             +--| (8)
+                                                             |  +--MN013389_Guadeloupe_Culex_rhabdovirus
+                                                          +--| (25)
+                                                          |  +--MN013393_Guadeloupe_Culex_rhabdovirus
+                                                       +--| (99)
+                                                       |  +--MN013387_Guadeloupe_Culex_rhabdovirus
+                                                    +--| (65)
+                                                    |  |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1573
+                                                    |  |  +--| (63)
+                                                    |  |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1571
+                                                    |  +--| (46)
+                                                    |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1570
+                                                 +--| (56)
+                                                 |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1428
+                                              +--| (11)
+                                              |  |                 +--MG385079_Grenada_mosquito_rhabdovirus_1
+                                              |  |              +--| (86)
+                                              |  |              |  +--MH707450_Grenada_mosquito_rhabdovirus_1
+                                              |  |           +--| (18)
+                                              |  |           |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1579
+                                              |  |        +--| (13)
+                                              |  |        |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1572
+                                              |  |     +--| (3)
+                                              |  |     |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1422
+                                              |  |     |  +--| (5)
+                                              |  |     |     |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1575
+                                              |  |     |     +--| (12)
+                                              |  |     |        +--Grenada_mosquito_rhabdovirus_1_F1429C1F1429
+                                              |  |  +--| (3)
+                                              |  |  |  |                    +**Grenada_mosquito_rhabdovirus_1_F1429C1F1040
+                                              |  |  |  |                 +**|
+                                              |  |  |  |                 |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1576
+                                              |  |  |  |              +**|
+                                              |  |  |  |              |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1430
+                                              |  |  |  |           +**|
+                                              |  |  |  |           |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1419
+                                              |  |  |  |        +**|
+                                              |  |  |  |        |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1425
+                                              |  |  |  |     +**|
+                                              |  |  |  |     |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1582
+                                              |  |  |  |  +--|
+                                              |  |  |  |  |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1578
+                                              |  |  |  +--| (12)
+                                              |  |  |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1432
+                                              |  +--| (1)
+                                              |     |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1420
+                                              |     |  +--| (91)
+                                              |     |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1423
+                                              |     +--| (9)
+                                              |        +--Grenada_mosquito_rhabdovirus_1_F1429C1F1042
+                                           +--| (23)
+                                           |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1426
+                                        +--| (93)
+                                        |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1431
+                                        |  +--| (92)
+                                        |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1427
+                                     +--| (46)
+                                     |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1115
+                                  +--| (8)
+                                  |  |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1433
+                                  |  |  +--| (18)
+                                  |  |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1120
+                                  |  +--| (11)
+                                  |     |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1113
+                                  |     |  +--| (39)
+                                  |     |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1114
+                                  |     +--| (42)
+                                  |        +--Grenada_mosquito_rhabdovirus_1_F1429C1F1112
+                               +--| (29)
+                               |  |     +**Grenada_mosquito_rhabdovirus_1_F1429C1F1124
+                               |  |  +--|
+                               |  |  |  +**Grenada_mosquito_rhabdovirus_1_F1429C1F1118
+                               |  +--| (16)
+                               |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1119
+                            +--| (69)
+                            |  |     +--------------KY435948_Cururu_virus
+                            |  |  +--| (61)
+                            |  |  |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1123
+                            |  +--| (36)
+                            |     +--Grenada_mosquito_rhabdovirus_1_F1429C1F1121
+                         +--| (81)
+                         |  +--Grenada_mosquito_rhabdovirus_1_F1429C1F1125
+         +---------------| (100)
+         |               +--Grenada_mosquito_rhabdovirus_1_F1429C1F1126
++--------| (100)
+|        +-----------------MN661109_Atrato_Rhabdo-like_virus_2
+|
+|                                +--Ardicrand_virus_F1568C1F1277
+|                             +--| (100)
+|                             |  +--Ardicrand_virus_F1568C1F1568
+|                         +---| (100)
+|                         |   +--Antlested_virus_F1034C1F1034
+|                      +--| (100)
+|                      |  |         +--MW452302_Wuhan_Mosquito_Virus_9
+|                      |  |      +--| (76)
+|                      |  |      |  +--OL700091_Wuhan_Mosquito_Virus_9
+|                      |  +------| (100)
+|                      |         +--NC_031303_Wuhan_Mosquito_Virus_9
+|                   +--| (93)
+|                   |  |          +--MW434774_Stang_virus
+|                   |  |     +----| (100)
+|                   |  |     |    +--MW434775_Stang_virus
+|                   |  |  +--| (70)
+|                   |  |  |  +----MZ202303_Cimo_rhabdovirus_III
+|                   |  +--| (62)
+|                   |     |       +--MW434767_Elisy_virus
+|                   |     +-------| (100)
+|                   |             +--MW434768_Elisy_virus
++-------------------| (100)
+|                   +---------OL700136_XiangYun_mono-chu-like_virus_11
+|
++-----------------------------------------------------------MZ771217_Rhabdoviridae_sp_
+
+
+Consensus tree in newick format: 
+
+((((((((((((((((((MN013386_Guadeloupe_Culex_rhabdovirus:0.0013020914,(MN013388_Guadeloupe_Culex_rhabdovirus:0.0000027012,MN013392_Guadeloupe_Culex_rhabdovirus:0.0008683801)94:0.0004328673)22:0.0000027012,MN013390_Guadeloupe_Culex_rhabdovirus:0.0004329212)11:0.0000027012,MN013389_Guadeloupe_Culex_rhabdovirus:0.0008681101)8:0.0000027012,MN013393_Guadeloupe_Culex_rhabdovirus:0.0004328577)25:0.0000027012,MN013387_Guadeloupe_Culex_rhabdovirus:0.0004328204)99:0.0021735690,((Grenada_mosquito_rhabdovirus_1_F1429C1F1573:0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1571:0.0000027012)63:0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1570:0.0004320135)46:0.0000027012)65:0.0000028803,Grenada_mosquito_rhabdovirus_1_F1429C1F1428:0.0069859639)56:0.0004293180,((((((MG385079_Grenada_mosquito_rhabdovirus_1:0.0021725004,MH707450_Grenada_mosquito_rhabdovirus_1:0.0017376642)86:0.0008691045,Grenada_mosquito_rhabdovirus_1_F1429C1F1579:0.0004318234)18:0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1572:0.0004327780)13:0.0000027012,(Grenada_mosquito_rhabdovirus_1_F1429C1F1422:0.0008660544,(Grenada_mosquito_rhabdovirus_1_F1429C1F1575:0.0004318246,Grenada_mosquito_rhabdovirus_1_F1429C1F1429:0.0004318611)12:0.0000027012)5:0.0000027012)3:0.0000027012,(((((((Grenada_mosquito_rhabdovirus_1_F1429C1F1040:0.0000000000,Grenada_mosquito_rhabdovirus_1_F1429C1F1576:0.0000000000):0.0000000000,Grenada_mosquito_rhabdovirus_1_F1429C1F1430:0.0000000000):0.0000000000,Grenada_mosquito_rhabdovirus_1_F1429C1F1419:0.0000000000):0.0000000000,Grenada_mosquito_rhabdovirus_1_F1429C1F1425:0.0000000000):0.0000000000,Grenada_mosquito_rhabdovirus_1_F1429C1F1582:0.0000000000):0.0000000000,Grenada_mosquito_rhabdovirus_1_F1429C1F1578:0.0000000000):0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1432:0.0000027012)12:0.0000027012)3:0.0000027012,((Grenada_mosquito_rhabdovirus_1_F1429C1F1420:0.0004841650,Grenada_mosquito_rhabdovirus_1_F1429C1F1423:0.0000027012)91:0.0004317697,Grenada_mosquito_rhabdovirus_1_F1429C1F1042:0.0004318135)9:0.0000027012)1:0.0000027012)11:0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1426:0.0008652665)23:0.0000027012,(Grenada_mosquito_rhabdovirus_1_F1429C1F1431:0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1427:0.0004319628)92:0.0004318471)93:0.0008658040,Grenada_mosquito_rhabdovirus_1_F1429C1F1115:0.0008656249)46:0.0000027012,((Grenada_mosquito_rhabdovirus_1_F1429C1F1433:0.0004325877,Grenada_mosquito_rhabdovirus_1_F1429C1F1120:0.0004372402)18:0.0000027012,((Grenada_mosquito_rhabdovirus_1_F1429C1F1113:0.0071535427,Grenada_mosquito_rhabdovirus_1_F1429C1F1114:0.0008645987)39:0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1112:0.0008662204)42:0.0000027012)11:0.0000027012)8:0.0000027012,((Grenada_mosquito_rhabdovirus_1_F1429C1F1124:0.0000000000,Grenada_mosquito_rhabdovirus_1_F1429C1F1118:0.0000000000):0.0000027012,Grenada_mosquito_rhabdovirus_1_F1429C1F1119:0.0000027012)16:0.0000027012)29:0.0000027012,((KY435948_Cururu_virus:0.6601050685,Grenada_mosquito_rhabdovirus_1_F1429C1F1123:0.0000027012)61:0.0006532136,Grenada_mosquito_rhabdovirus_1_F1429C1F1121:0.0004301900)36:0.0000028069)69:0.0004304854,Grenada_mosquito_rhabdovirus_1_F1429C1F1125:0.0000023911)81:0.0007055734,Grenada_mosquito_rhabdovirus_1_F1429C1F1126:0.0000027012)100:0.6892637300,MN661109_Atrato_Rhabdo-like_virus_2:0.7500488033)100:0.4055755627,(((((Ardicrand_virus_F1568C1F1277:0.0027344296,Ardicrand_virus_F1568C1F1568:0.0000021337)100:0.1263539338,Antlested_virus_F1034C1F1034:0.1260820045)100:0.1832424337,((MW452302_Wuhan_Mosquito_Virus_9:0.0000020672,OL700091_Wuhan_Mosquito_Virus_9:0.0035241714)76:0.0053615075,NC_031303_Wuhan_Mosquito_Virus_9:0.0000022790)100:0.3111814500)100:0.1434995701,(((MW434774_Stang_virus:0.0038854288,MW434775_Stang_virus:0.0015078161)100:0.2340663369,MZ202303_Cimo_rhabdovirus_III:0.2400272783)70:0.1192460494,(MW434767_Elisy_virus:0.0172807861,MW434768_Elisy_virus:0.0052990835)100:0.3494189157)62:0.0476591182)93:0.1193204677,OL700136_XiangYun_mono-chu-like_virus_11:0.4363407508)100:0.8542447573,MZ771217_Rhabdoviridae_sp_:2.4999455702);
+
+TIME STAMP
+----------
+
+Date and time: Thu Dec 22 17:02:49 2022
+Total CPU time used: 18851.42887 seconds (5h:14m:11s)
+Total wall-clock time used: 623.4151566 seconds (0h:10m:23s)
+

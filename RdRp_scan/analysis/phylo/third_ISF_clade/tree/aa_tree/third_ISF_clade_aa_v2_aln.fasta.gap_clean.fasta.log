@@ -1,0 +1,211 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Nov 18 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    maestro-1067 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta -m MFP -bb 1000 -nt AUTO -mem 500G -st AA
+Seed:    870707 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov 28 11:26:05 2022
+Kernel:  AVX+FMA - auto-detect threads (95 CPU cores detected)
+
+Reading alignment file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 15 sequences with 2948 columns, 2899 distinct patterns
+2734 parsimony-informative, 149 singleton sites, 65 constant sites
+                                                        Gap/Ambiguity  Composition  p-value
+   1  NC_035071_Apis_flavivirus                                 1.73%    failed      0.81%
+   2  NC_030228_Xinzhou_spider_virus_3                          8.79%    failed      0.00%
+   3  NC_028375_Shayang_fly_virus_4                             2.34%    passed     89.34%
+   4  NC_028374_Gamboa_mosquito_virus                           0.85%    failed      0.00%
+   5  NC_028373_Shuangao_lacewing_virus_2                       1.97%    failed      1.58%
+   6  NC_028370_Xingshan_cricket_virus                          1.32%    failed      0.50%
+   7  NC_028367_Tacheng_tick_virus_8                            3.90%    passed     65.45%
+   8  NC_024077_Soybean_cyst_nematode_virus_5                   6.58%    failed      0.00%
+   9  MW314681_Odonatan_flavi-related_virus                     1.15%    failed      4.93%
+  10  Mummution_virus_F1187C1F1187                              2.92%    failed      0.10%
+  11  MN714664_Frankliniella_occidentalis_flavi-like_virus_1    2.54%    passed     17.18%
+  12  MN661082_Atrato_Flavi-like_virus_1                        2.10%    passed     77.41%
+  13  MH620810_Lampyris_noctiluca_flavivirus_1                  2.10%    failed      0.01%
+  14  LC516844_Barley_aphid_RNA_virus_9                        12.69%    passed     18.89%
+  15  AB698918_Gentian_Kobu-sho-associated_virus                1.80%    failed      0.44%
+****  TOTAL                                                     3.52%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.014 seconds
+Measuring multi-threading efficiency up to 95 CPU cores
+Increase to 10 rounds for branch lengths
+69 trees examined
+Threads: 1 / Time: 95.667 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -107406
+Threads: 2 / Time: 51.259 sec / Speedup: 1.866 / Efficiency: 93% / LogL: -107406
+Threads: 3 / Time: 33.380 sec / Speedup: 2.866 / Efficiency: 96% / LogL: -107406
+Threads: 4 / Time: 26.612 sec / Speedup: 3.595 / Efficiency: 90% / LogL: -107406
+Threads: 5 / Time: 23.856 sec / Speedup: 4.010 / Efficiency: 80% / LogL: -107406
+Threads: 6 / Time: 19.751 sec / Speedup: 4.844 / Efficiency: 81% / LogL: -107406
+Threads: 7 / Time: 17.812 sec / Speedup: 5.371 / Efficiency: 77% / LogL: -107406
+Threads: 8 / Time: 16.397 sec / Speedup: 5.834 / Efficiency: 73% / LogL: -107406
+Threads: 9 / Time: 15.294 sec / Speedup: 6.255 / Efficiency: 70% / LogL: -107406
+Threads: 10 / Time: 14.077 sec / Speedup: 6.796 / Efficiency: 68% / LogL: -107406
+Threads: 11 / Time: 14.152 sec / Speedup: 6.760 / Efficiency: 61% / LogL: -107406
+Threads: 12 / Time: 12.182 sec / Speedup: 7.853 / Efficiency: 65% / LogL: -107406
+Threads: 13 / Time: 13.288 sec / Speedup: 7.199 / Efficiency: 55% / LogL: -107406
+Threads: 14 / Time: 12.278 sec / Speedup: 7.792 / Efficiency: 56% / LogL: -107406
+Threads: 15 / Time: 11.718 sec / Speedup: 8.164 / Efficiency: 54% / LogL: -107406
+Threads: 16 / Time: 12.447 sec / Speedup: 7.686 / Efficiency: 48% / LogL: -107406
+BEST NUMBER OF THREADS: 12
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -105563.716
+Optimal log-likelihood: -105563.643
+Proportion of invariable sites: 0.021
+Gamma shape alpha: 2.503
+Parameters optimization took 1 rounds (0.064 sec)
+Time for fast ML tree search: 0.595 seconds
+
+NOTE: ModelFinder requires 78 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 2948) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            107241.424   27  214536.849   214537.367   214698.549
+  2  LG+I          106640.505   28  213337.011   213337.567   213504.699
+  3  LG+G4         105731.017   28  211518.035   211518.591   211685.723
+  4  LG+I+G4       105563.640   29  211185.281   211185.877   211358.958
+  5  LG+R2         105752.601   29  211563.202   211563.798   211736.880
+  6  LG+R3         105497.237   31  211056.474   211057.155   211242.130
+  7  LG+R4         105459.502   33  210985.003   210985.773   211182.636
+  8  LG+R5         105458.794   35  210987.588   210988.454   211197.199
+ 20  LG+F+R4       105223.629   52  210551.257   210553.161   210862.679
+ 33  WAG+R4        105792.308   33  211650.615   211651.385   211848.248
+ 46  WAG+F+R4      105440.936   52  210985.871   210987.775   211297.293
+ 59  JTT+R4        106482.441   33  213030.881   213031.651   213228.514
+ 72  JTT+F+R4      106146.531   52  212397.062   212398.966   212708.484
+ 85  JTTDCMut+R4   106487.860   33  213041.720   213042.490   213239.353
+ 98  JTTDCMut+F+R4 106154.689   52  212413.378   212415.282   212724.800
+111  DCMut+R4      107401.855   33  214869.710   214870.480   215067.343
+124  DCMut+F+R4    106436.040   52  212976.080   212977.984   213287.502
+137  VT+R4         105689.709   33  211445.417   211446.187   211643.051
+150  VT+F+R4       105369.641   52  210843.281   210845.185   211154.703
+163  PMB+R4        105547.415   33  211160.831   211161.601   211358.464
+176  PMB+F+R4      105378.636   52  210861.272   210863.176   211172.694
+189  Blosum62+R4   105494.260   33  211054.519   211055.289   211252.152
+202  Blosum62+F+R4 105348.179   52  210800.358   210802.262   211111.780
+215  Dayhoff+R4    107404.048   33  214874.095   214874.866   215071.729
+228  Dayhoff+F+R4  106437.647   52  212979.295   212981.199   213290.717
+241  mtREV+R4      110913.302   33  221892.603   221893.373   222090.236
+254  mtREV+F+R4    106843.199   52  213790.399   213792.303   214101.821
+267  mtART+R4      111029.609   33  222125.219   222125.989   222322.852
+280  mtART+F+R4    107077.204   52  214258.409   214260.313   214569.831
+293  mtZOA+R4      109309.242   33  218684.483   218685.253   218882.116
+306  mtZOA+F+R4    106453.593   52  213011.187   213013.090   213322.608
+319  mtMet+R4      110609.062   33  221284.124   221284.894   221481.757
+332  mtMet+F+R4    106692.557   52  213489.114   213491.018   213800.536
+345  mtVer+R4      111433.530   33  222933.060   222933.830   223130.693
+358  mtVer+F+R4    107544.291   52  215192.582   215194.486   215504.004
+371  mtInv+R4      111357.212   33  222780.424   222781.194   222978.057
+384  mtInv+F+R4    106233.113   52  212570.227   212572.131   212881.649
+397  mtMAM+R4      111940.263   33  223946.527   223947.297   224144.160
+410  mtMAM+F+R4    107992.993   52  216089.987   216091.891   216401.409
+423  HIVb+R4       107619.048   33  215304.095   215304.865   215501.729
+436  HIVb+F+R4     107072.240   52  214248.480   214250.384   214559.902
+449  HIVw+R4       111104.285   33  222274.569   222275.339   222472.202
+462  HIVw+F+R4     108801.852   52  217707.704   217709.608   218019.126
+475  FLU+R4        107547.313   33  215160.627   215161.397   215358.260
+488  FLU+F+R4      106803.921   52  213711.842   213713.746   214023.264
+501  rtREV+R4      106332.833   33  212731.667   212732.437   212929.300
+514  rtREV+F+R4    105358.954   52  210821.909   210823.813   211133.331
+527  cpREV+R4      106419.767   33  212905.533   212906.303   213103.166
+540  cpREV+F+R4    106022.487   52  212148.975   212150.879   212460.397
+Akaike Information Criterion:           LG+F+R4
+Corrected Akaike Information Criterion: LG+F+R4
+Bayesian Information Criterion:         LG+F+R4
+Best-fit model: LG+F+R4 chosen according to BIC
+
+All model information printed to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.model.gz
+CPU time for ModelFinder: 3051.737 seconds (0h:50m:51s)
+Wall-clock time for ModelFinder: 461.740 seconds (0h:7m:41s)
+Generating 1000 samples for ultrafast bootstrap (seed: 870707)...
+
+NOTE: 38 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -105223.629
+Optimal log-likelihood: -105223.596
+Site proportion and rates:  (0.042,0.040) (0.173,0.352) (0.518,0.892) (0.268,1.778)
+Parameters optimization took 1 rounds (0.192 sec)
+Computing ML distances based on estimated model parameters... 0.142 sec
+Computing BIONJ tree...
+0.005 seconds
+Log-likelihood of BIONJ tree: -105231.045
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.291 second
+Computing log-likelihood of 98 initial trees ... 1.904 seconds
+Current best score: -105223.596
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -105223.571
+Iteration 10 / LogL: -105223.628 / Time: 0h:0m:6s
+Iteration 20 / LogL: -105223.616 / Time: 0h:0m:10s
+Finish initializing candidate tree set (1)
+Current best tree score: -105223.571 / CPU time: 9.603
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -105223.645 / Time: 0h:0m:13s (0h:0m:32s left)
+Iteration 40 / LogL: -105224.099 / Time: 0h:0m:16s (0h:0m:25s left)
+Iteration 50 / LogL: -105223.621 / Time: 0h:0m:19s (0h:0m:20s left)
+Log-likelihood cutoff on original alignment: -105265.517
+Iteration 60 / LogL: -105223.792 / Time: 0h:0m:22s (0h:0m:15s left)
+Iteration 70 / LogL: -105223.666 / Time: 0h:0m:25s (0h:0m:11s left)
+Iteration 80 / LogL: -105223.633 / Time: 0h:0m:28s (0h:0m:7s left)
+Iteration 90 / LogL: -105223.668 / Time: 0h:0m:31s (0h:0m:3s left)
+Iteration 100 / LogL: -105224.337 / Time: 0h:0m:35s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -105266.621
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:35s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -105223.571
+2. Current log-likelihood: -105223.553
+3. Current log-likelihood: -105223.535
+4. Current log-likelihood: -105223.520
+5. Current log-likelihood: -105223.507
+Optimal log-likelihood: -105223.495
+Site proportion and rates:  (0.041,0.039) (0.170,0.348) (0.512,0.883) (0.277,1.759)
+Parameters optimization took 5 rounds (0.776 sec)
+BEST SCORE FOUND : -105223.495
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.splits.nex
+Total tree length: 24.001
+
+Total number of iterations: 102
+CPU time used for tree search: 416.710 sec (0h:6m:56s)
+Wall-clock time used for tree search: 35.162 sec (0h:0m:35s)
+Total CPU time used: 429.908 sec (0h:7m:9s)
+Total wall-clock time used: 36.682 sec (0h:0m:36s)
+
+Computing bootstrap consensus tree...
+Reading input file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.splits.nex...
+15 taxa and 64 splits.
+Consensus tree written to /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.contree
+Reading input trees file /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.contree
+Log-likelihood of consensus tree: -105223.494
+
+Analysis results written to: 
+  IQ-TREE report:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.iqtree
+  Maximum-likelihood tree:       /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.treefile
+  Likelihood distances:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.splits.nex
+  Consensus tree:                /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.contree
+  Screen log file:               /pasteur/zeus/projets/p02/GEVA/users/Artem/CMVM_lp1_20_data/RdRp_scan/analysis/phylo/third_ISF_clade/tree/aa_tree/third_ISF_clade_aa_v2_aln.fasta.gap_clean.fasta.log
+
+Date and Time: Mon Nov 28 11:34:24 2022
