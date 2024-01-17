@@ -119,7 +119,7 @@ rule merge_unpaired:
     threads: config['default_cpus']
     shell:
         """
-        echo "skipping merge unpaired"
+        # echo "skipping merge unpaired"
         cat {input.R1u} {input.R2u} > {output.R12u}
         """
 
